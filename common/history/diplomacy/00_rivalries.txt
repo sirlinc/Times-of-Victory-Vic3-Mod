@@ -1,0 +1,94 @@
+﻿DIPLOMACY = {
+	c:ENG = {
+		create_diplomatic_pact = {
+			country = c:FRA
+			type = rivalry
+		}
+	}
+	
+	c:SWE = {
+		create_diplomatic_pact = {
+			country = c:PLC
+			type = rivalry
+		}
+	}
+	c:SWE = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = rivalry
+		}
+	}
+	c:PLC = {
+		create_diplomatic_pact = {
+			country = c:SWE
+			type = rivalry
+		}
+	}
+	c:RUS = {
+		create_diplomatic_pact = {
+			country = c:SWE
+			type = rivalry
+		}
+	}
+	c:DEN = {
+		create_diplomatic_pact = {
+			country = c:SWE
+			type = rivalry
+		}
+	}
+	
+	c:NET = {
+		create_diplomatic_pact = {
+			country = c:BEL
+			type = rivalry
+		}
+	}
+	c:NET = {
+		create_diplomatic_pact = {
+			country = c:SPA
+			type = rivalry
+		}
+	}
+	c:SPA = {
+		create_diplomatic_pact = {
+			country = c:NET
+			type = rivalry
+		}
+	}
+	c:BEL = {
+		create_diplomatic_pact = {
+			country = c:NET
+			type = rivalry
+		}
+	}	
+
+	c:RUS = {
+		create_diplomatic_pact = {
+			country = c:TUR
+			type = rivalry
+		}
+	}
+	c:TUR = {
+		create_diplomatic_pact = {
+			country = c:RUS
+			type = rivalry
+		}
+	}
+
+	c:SIA = {
+		create_diplomatic_pact = {
+			country = c:DAI
+			type = rivalry
+		}
+	}
+	c:DAI = {
+		create_diplomatic_pact = {
+			country = c:SIA
+			type = rivalry
+		}
+	}
+}	
+
+
+
+

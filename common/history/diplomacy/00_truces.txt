@@ -1,0 +1,62 @@
+﻿DIPLOMACY = {
+	c:SWE= {
+		create_truce = {
+			country = c:AUS
+			months = 60
+		}
+	}	
+}
+
+DIPLOMACY = {
+	c:AUS= {
+		create_truce = {
+			country = c:SWE
+			months = 60
+		}
+	}	
+}
+
+DIPLOMACY = {
+	c:AUS= {
+		create_truce = {
+			country = c:FRA
+			months = 60
+		}
+	}	
+}
+
+DIPLOMACY = {
+	c:FRA= {
+		create_truce = {
+			country = c:AUS
+			months = 60
+		}
+	}	
+}
+
+DIPLOMACY = {
+	c:NET = {
+		create_truce = {
+			country = c:BEL
+			months = 7
+		}
+	}	
+}
+
+DIPLOMACY = {
+	c:ASH= {
+		create_truce = {
+			country = c:GBR
+			months = 6
+		}
+	}	
+}
+
+DIPLOMACY = {
+	c:SIA= {
+		create_truce = {
+			country = c:DAI
+			months = 36
+		}
+	}	
+}

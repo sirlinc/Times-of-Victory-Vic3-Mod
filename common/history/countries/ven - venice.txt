@@ -1,0 +1,18 @@
+﻿COUNTRIES = {
+	c:VEN = {
+		effect_starting_technology_tier_3_tech = yes
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_legacy_slavery # on paper it was banned, but largely due to Brazilian influence and laws regarding fugitives it was still there in practice
+		activate_law = law_type:law_racial_segregation
+
+		ig:ig_devout = {
+			set_interest_group_name = ig_catholic_church
+		}
+	}
+}
