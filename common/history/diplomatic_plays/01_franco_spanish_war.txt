@@ -1,0 +1,19 @@
+﻿DIPLOMATIC_PLAYS = {
+	c:FRA = {
+		create_diplomatic_play = {
+			name = franco_spanish_war
+		
+			target_state = s:STATE_PICARDY.region_state:SPA
+			
+			war = yes
+			
+			type = dp_return_state
+
+			add_war_goal = {
+				holder = c:SPA
+				type = conquer_state
+				target_state = s:STATE_BURGUNDY.region_state:FRA
+			}
+		}			
+	}
+}

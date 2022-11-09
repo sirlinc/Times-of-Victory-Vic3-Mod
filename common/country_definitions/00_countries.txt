@@ -253,7 +253,7 @@ NOR = {
 }
 
 SWE = {
-	color = { 87  130  199 }
+	color = { 79 118 226 }
 	
 	country_type = recognized
 
@@ -355,7 +355,7 @@ SCO = {
 }
 
 ENG = {
-	color = { 180 99 58 }
+	color = { 153 18 18 }
 	
 	country_type = recognized
 
@@ -749,7 +749,7 @@ TUS = {
 }
 
 VEN = {
-	color = { 180 12 1 }
+	color = { 204 85 83 }
 	
 	country_type = recognized
 
@@ -876,7 +876,7 @@ SLV = {
 }
 
 SWI = {
-	color = { 165 45 38 }
+	color = { 185 153 144 }
 	
 	country_type = recognized
 
@@ -3786,4 +3786,74 @@ SCH = {
 	cultures = { north_german danish }
 	capital = STATE_SCHLESWIG_HOLSTEIN
 	is_named_from_capital = yes
+}
+
+###################################################
+################ MOD TAGS #########################
+###################################################
+
+ZAP = {
+	color = { 175  152  73 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tatar ukrainian }
+	capital = STATE_LUHANSK
+}
+
+GEN = {
+	color = { 204  193  77 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { north_italian }
+	capital = STATE_PIEDMONT
+}
+
+LOR = {
+	color = { 97  91  142 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { french south_german }
+	capital = STATE_FRANCHE_COMTE
+}
+
+BRN = {
+	color = { 142  113  59 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_BRANDENBURG
+}
+
+SAV = {
+	color = { 204  144  185 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { north_italian }
+	capital = STATE_SAVOY
+}
+
+MIL = {
+	color = { 204  144  47 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { north_italian }
+	capital = STATE_LOMBARDY
 }
