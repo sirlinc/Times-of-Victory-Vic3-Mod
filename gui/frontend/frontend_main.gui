@@ -678,7 +678,8 @@ widget = {
 				
 				icon = {
 					texture = "gfx/interface/menu/times_of_victory.dds"
-					size = { 100% 100% }
+					position = { 550 -120 }
+					size = { 33% 33% }
 					using = times_of_victory
 				}
 			}

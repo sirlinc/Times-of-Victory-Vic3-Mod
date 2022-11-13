@@ -18,11 +18,11 @@
 	s:STATE_TOMSK={
 		region_state:RUS={
 		}
-		region_state:CHI={
+		region_state:A04={
 		}
 	}
 	s:STATE_TUVA={
-		region_state:CHI={
+		region_state:A04={
 		}
 	}
 	s:STATE_TOBOLSK={
@@ -46,22 +46,15 @@
 		}
 	}
 	s:STATE_KAMCHATKA={
-		region_state:RUS={
+		region_state:A38={
+		}
+		region_state:A39={
+		}
+		region_state:AIN={
 		}
 	}
 	s:STATE_OKHOTSK={
-		region_state:RUS={
-			create_building={
-				building="building_naval_base"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_man_o_wars" "pm_frigates" "pm_commerce_raider" "pm_no_naval_theory" }
-			}
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
+		region_state:A37={
 			}
 		}
 	}
@@ -69,12 +62,19 @@
 		region_state:RUS={
 		}
 	}
+	s:STATE_YAKUTSK={
+		region_state:A42={
+		}
+	}
 	s:STATE_TRANS_BAIKAL={
-		region_state:RUS={
+		region_state:A36={
 		}
 	}
 	s:STATE_IRKUTSK={
 		region_state:RUS={
+		}
+	}
+		region_state:A40={
 		}
 	}
 }

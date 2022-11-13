@@ -73,7 +73,7 @@
 		}
 	}
 	s:STATE_TUVA = {
-		region_state:CHI = {
+		region_state:A04 = {
 			create_pop = {
 				culture = tuvan
 				size = 30000
@@ -127,52 +127,71 @@
 	}
 
 	s:STATE_CHUKOTKA = {
-		region_state:RUS = {
+		region_state:A38 = {
 			create_pop = {
 				culture = inuit
 				size = 3580
 			}
 			create_pop = {
-				culture = siberian
+				culture = luorawetlan
 				size = 6044
 			}
 			create_pop = {
-				culture = russian
-				size = 96
+				culture = even
+				size = 2096
 			}
 		}
 	}
 	s:STATE_KAMCHATKA = {
-		region_state:RUS = {
+		region_state:A38 = {
 			create_pop = {
-				culture = siberian
-				size = 5600
+				culture = luorawetlan
+				size = 4600
 			}
 			create_pop = {
-				culture = russian
-				size = 3400
+				culture = even
+				size = 2400
+			}
+		}
+		region_state:A39 = {
+			create_pop = {
+				culture = luorawetlan
+				size = 7600
+			}
+			create_pop = {
+				culture = ainu
+				size = 2400
+			}
+		}
+		region_state:AIN = {
+			create_pop = {
+				culture = luorawetlan
+				size = 1900
+			}
+			create_pop = {
+				culture = ainu
+				size = 3200
 			}
 		}
 	}
 	
 	s:STATE_OKHOTSK = {
-		region_state:RUS = {
+		region_state:A37 = {
 			create_pop = {
 				culture = yakut
-				size = 43008
+				size = 8008
 			}
 			create_pop = {
-				culture = yakut
-				religion = orthodox
+				culture = even
 				size = 20196
 			}
 			create_pop = {
-				culture = siberian
-				size = 9400
+				culture = ainu
+				size = 4400
 			}
 			create_pop = {
-				culture = russian
-				size = 12400
+				culture = khalkha
+				size = 9400
 			}
 		}
 	}
@@ -181,46 +200,66 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = yakut
-				size = 41100
+				size = 21100
 			}
 			create_pop = {
 				culture = yakut
 				religion = orthodox
-				size = 9000
+				size = 460
 			}
 			create_pop = {
 				culture = russian
-				size = 16096
+				size = 7009
 			}
 			create_pop = {
-				culture = siberian
-				size = 800
+				culture = tatar
+				size = 5009
+			}
+			create_pop = {
+				culture = even
+				size = 4400
+			}
+		}
+		region_state:A42 = {
+			create_pop = {
+				culture = yakut
+				size = 9100
+			}
+			create_pop = {
+				culture = even
+				size = 4400
+			}
+			create_pop = {
+				culture = ugrian
+				size = 2300
 			}
 		}
 	}
 
 
 	s:STATE_TRANS_BAIKAL = {
-		region_state:RUS = {
-			create_pop = {
-				culture = russian
-				size = 122000
-			}
+		region_state:A36 = {
 			create_pop = {
 				culture = yakut
 				size = 5992
 			}
 			create_pop = {
-				culture = manchu
-				size = 85996
+				culture = khalkha
+				religion = animist
+				size = 29996
 			}
 			create_pop = {
-				culture = mongol
-				size = 36000
+				culture = khalkha
+				size = 1996
 			}
 			create_pop = {
-				culture = siberian
+				culture = even
 				size = 17996
+			}
+			create_pop = {
+				culture = manchu
+				religion = animist
+				size = 7996
 			}
 		}
 	}
@@ -228,15 +267,47 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 388408
+				size = 10408
 			}
 			create_pop = {
-				culture = mongol
-				size = 116004
+				culture = tatar
+				size = 4408
 			}
 			create_pop = {
-				culture = siberian
+				culture = khalkha
+				size = 15004
+			}
+			create_pop = {
+				culture = khalkha
+				size = 9004
+				religion = gelugpa
+			}
+			create_pop = {
+				culture = even
 				size = 4996
+			}
+			create_pop = {
+				culture = yakut
+				size = 3996
+			}
+		}
+		region_state:A40 = {
+			create_pop = {
+				culture = khalkha
+				size = 30004
+			}
+			create_pop = {
+				culture = khalkha
+				size = 9004
+				religion = gelugpa
+			}
+			create_pop = {
+				culture = even
+				size = 6996
+			}
+			create_pop = {
+				culture = yakut
+				size = 2596
 			}
 		}
 	}

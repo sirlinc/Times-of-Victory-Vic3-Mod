@@ -1,0 +1,11 @@
+﻿CHARACTERS = {
+		c:A12 = {
+		create_character = {
+			# Sourigna Vongsa
+			#role = politician # Remove this line
+			first_name = "Sourigna"
+			last_name = "Vongsa"
+			ruler = yes
+			age = 19
+			}
+	}

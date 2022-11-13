@@ -1,0 +1,736 @@
+﻿ZAP = {
+	color = { 175  152  73 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tatar ukrainian }
+	capital = STATE_LUHANSK
+}
+
+GEN = {
+	color = { 204  193  77 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { north_italian }
+	capital = STATE_PIEDMONT
+}
+
+LOR = {
+	color = { 97  91  142 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { french south_german }
+	capital = STATE_FRANCHE_COMTE
+}
+
+BRM = {
+	color = { 142  113  59 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_BRANDENBURG
+}
+
+SAV = {
+	color = { 204  144  185 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { north_italian }
+	capital = STATE_SAVOY
+}
+
+MIL = {
+	color = { 204  144  47 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { north_italian }
+	capital = STATE_LOMBARDY
+}
+
+A01 = { #Khoshut Khanate
+	color = { 100 101 183 }
+	
+	tier = kingdom
+	
+	country_type = unrecognized
+	
+	cultures = { oirat tibetan }
+	religion = gelugpa
+	
+	capital = STATE_LHASA
+}
+
+A02 = { #Yarkent Khanate
+	color = { 84 159 227 }
+	
+	tier = grand_principality
+	
+	country_type = unrecognized
+	
+	cultures = { altishahri }
+	religion = sunni
+	
+	capital = STATE_TIANSHAN
+}
+
+A03 = { #Dzungar Khanate
+	color = { 232 232 232 }
+	
+	tier = kingdom
+	
+	country_type = unrecognized
+	
+	cultures = { oirat }
+	religion = gelugpa
+	
+	capital = STATE_DZUNGARIA
+}
+
+A04 = { #Khalkha Tumen
+	color = { 156 19 26 }
+	
+	tier = kingdom
+	
+	country_type = unrecognized
+	
+	cultures = { khalkha }
+	religion = gelugpa
+	
+	capital = STATE_URGA
+}
+
+A05 = { #Milayin Rebellion
+	color = { 0 163 108 }
+	
+	tier = principality
+	
+	country_type = unrecognized
+	
+	cultures = { hui han }
+	religion = gedimu
+	
+	capital = STATE_GANSU
+}
+
+A06 = { #Great Ming
+	color = { 228 66 53 }
+	
+	tier = empire
+	
+	country_type = unrecognized
+	
+	cultures = { han }
+	religion = mahayana
+	
+	capital = STATE_GUANGDONG
+}
+
+A07 = { #Hmong
+	color = { 255 73 138 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { miao }
+	religion = animist
+	
+	capital = STATE_YUNNAN
+}
+
+A08 = { #House of Trinh
+	color = { 37 150 190 }
+	
+	tier = kingdom
+	country_type = unrecognized
+	
+	cultures = { vietnamese }
+	religion = mahayana
+	
+	capital = STATE_TONKIN
+}
+
+A09 = { #House of Nyugen
+	color = { 205 139 117 }
+	
+	tier = kingdom
+	country_type = unrecognized
+	
+	cultures = { vietnamese }
+	religion = mahayana
+	
+	capital = STATE_ANNAM
+}
+
+A10 = { #Jarai
+	color = { 170 115 0 }
+
+	country_type = decentralized	
+	tier = principality
+	
+	cultures = { cham }
+	religion = animist
+	
+	capital = STATE_ANNAM
+}
+
+A11 = { #Champa
+	color = { 58 120 52 }
+	
+	tier = principality
+	country_type = unrecognized
+	
+	cultures = { cham }
+	religion = hindu
+	
+	capital = STATE_MEKONG
+}
+
+A12 = { #Lan Xang
+	color = { 182 180 121 }
+	
+	tier = kingdom
+	country_type = unrecognized
+	
+	cultures = { lao }
+	religion = theravada
+	
+	capital = STATE_LAOS
+}
+
+A13 = { #Ayutthaya
+	color = { 166 18 45 }
+	
+	tier = kingdom
+	country_type = unrecognized
+	
+	cultures = { thai }
+	religion = theravada
+	
+	capital = STATE_BANGKOK
+}
+
+A14 = { #Mrauk U
+	color = { 67 72 181 }
+	
+	tier = principality
+	country_type = unrecognized
+	
+	cultures = { burmese }
+	religion = theravada
+	
+	capital = STATE_PEGU
+}
+
+A15 = { #Pattani
+	color = { 209 189 57 }
+	
+	tier = principality
+	country_type = unrecognized
+	
+	cultures = { malay }
+	religion = sunni
+	
+	capital = STATE_TENASSERIM
+}
+
+A16 = { #Kedah
+	color = { 216 9 20 }
+	
+	country_type = unrecognized
+	tier = city_state
+	
+	capital = STATE_MALAYA
+	cultures = { malay }
+	religion = sunni
+}
+
+A17 = { #Kelantan
+	color = { 73 65 195 }
+	
+	country_type = unrecognized
+	tier = city_state
+	
+	capital = STATE_MALAYA
+	cultures = { malay }
+	religion = sunni
+}
+
+A18 = { #Amis
+	color = { 33 45 186 }
+	
+	country_type = decentralized
+	tier = city_state
+	
+	capital = STATE_FORMOSA
+	cultures = { formosan }
+	religion = animist
+}
+	
+A19 = { #Bisaya
+	color = { 93 50 166 }
+	
+	country_type = decentralized
+	tier = city_state
+	
+	capital = STATE_VISAYAS
+	cultures = { bisaya }
+	religion = sunni
+}
+
+A20 = { #Pagaruyung
+	color = { 255 207 0 }
+	
+	country_type = unrecognized
+	tier = kingdom
+	
+	capital = STATE_NORTH_SUMATRA
+	cultures = { batak }
+	religion = sunni
+}
+	
+A21 = { #Palembang
+	color = { 109 91 18 }
+	
+	country_type = unrecognized
+	tier = kingdom
+	
+	capital = STATE_SOUTH_SUMATRA
+	cultures = { sumatran }
+	religion = sunni
+}
+	
+A22 = { #Banten
+	color = { 159 142 219 }
+	
+	country_type = unrecognized
+	tier = kingdom
+	
+	capital = STATE_WEST_JAVA
+	cultures = { javan sumatran }
+	religion = sunni
+}
+	
+A23 = { #Dutch East India Company V.O.C
+	color = { 255 79 0 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_WEST_JAVA
+	cultures = { dutch }
+	religion = protestant
+}
+	
+A24 = { #Mataram
+	color = { 54 84 118 }
+	
+	country_type = unrecognized
+	tier = kingdom
+	
+	capital = STATE_CENTRAL_JAVA
+	cultures = { javan }
+	religion = sunni
+}
+
+A25 = { #Blambangan
+	color = { 126 148 78 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	capital = STATE_EAST_JAVA
+	cultures = { javan }
+	religion = hindu
+}
+	
+A26 = { #Larantuka
+	color = { 10 61 163 }
+	
+	country_type = unrecognized
+	tier = city_state
+	
+	capital = STATE_SUNDA_ISLANDS
+	cultures = { larantuqueiro }
+	religion = catholic
+}
+
+A27 = { #Gowa-Talloq
+	color = { 100 100 100 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	capital = STATE_CELEBES
+	cultures = { moluccan }
+	religion = sunni
+}
+
+A28 = { #Bone
+	color = { 100 34 116 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	capital = STATE_CELEBES
+	cultures = { moluccan }
+	religion = sunni
+}
+
+A29 = { #Ternate
+	color = { 232 129 159 }
+	
+	country_type = unrecognized
+	tier = kingdom
+	
+	capital = STATE_MOLUCCAS
+	cultures = { moluccan }
+	religion = sunni
+}
+
+A30 = { #Kaimana
+	color = { 50 133 60 }
+	
+	country_type = unrecognized
+	tier = kingdom
+	
+	capital = STATE_WESTERN_NEW_GUINEA
+	cultures = { melanesian }
+	religion = sunni
+}
+
+A31 = { #Kayan
+	color = { 41 107 47 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	capital = STATE_VISAYAS
+	cultures = { dayak }
+	religion = hindu
+}
+
+A32 = { #Ngaju
+	color = { 92 64 3 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	capital = STATE_VISAYAS
+	cultures = { dayak }
+	religion = hindu
+}
+
+A33 = { #Mempawah
+	color = { 195 65 116 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	capital = STATE_WESTERN_NEW_GUINEA
+	cultures = { dayak }
+	religion = hindu
+}
+
+A34 = { #Matan
+	color = { 108 211 176 }
+	
+	country_type = unrecognized
+	tier = kingdom
+	
+	capital = STATE_WEST_BORNEO
+	cultures = { malay bornean }
+	religion = sunni
+}
+
+A35 = { #Berau
+	color = { 239 42 32 }
+	
+	country_type = unrecognized
+	tier = kingdom
+	
+	capital = STATE_EAST_BORNEO
+	cultures = { malay bornean }
+	religion = sunni
+}
+
+A36 = { #Daur
+	color = { 142 84 196 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	capital = STATE_TRANS_BAIKAL
+	cultures = { khalkha }
+	religion = animist
+}
+
+A37 = { #Even
+	color = { 95 146 235 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	capital = STATE_OKHOTSK
+	cultures = { even }
+	religion = animist
+}
+
+A38 = { #Chukchi 
+	color = { 55 144 205 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	capital = STATE_CHUKOTKA
+	cultures = { luorawetlan }
+	religion = animist
+}
+
+A39 = { #Itelmen
+	color = { 205 116 55 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	capital = STATE_KAMCHATKA
+	cultures = { luorawetlan }
+	religion = animist
+}
+
+A40 = { #Buryat
+	color = { 101 100 225 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	capital = STATE_IRKUTSK
+	cultures = { khalkha }
+	religion = animist
+}
+
+A41 = { #Kalmyk Khanate
+	color = { 250 204 49 }
+	
+	country_type = unrecognized
+	tier = kingdom
+	
+	capital = STATE_ASTRAKHAN
+	cultures = { oirat }
+	religion = gelugpa
+}
+
+A42 = { #Sakha
+	color = { 59 55 126 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	capital = STATE_YAKUTSK
+	cultures = { yakut }
+	religion = animist
+}
+
+A43 = { #Hindustan (Mughals)
+	color = { 54 102 54 }
+	
+	country_type = unrecognized
+	tier = empire
+	
+	capital = STATE_DELHI
+	cultures = { mughal }
+	religion = sunni
+}
+
+A44 = { #Tarki
+	color = { 143 209 215 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	capital = STATE_DAGESTAN
+	cultures = { north_caucasian }
+	religion = sunni
+}
+
+A45 = { #Gorkha
+	color = { 166 91 50 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	capital = STATE_HIMALAYAS
+	cultures = { nepali }
+	religion = hindu
+}
+
+A46 = { #Nepal Mandala
+	color = { 50 125 166 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	capital = STATE_HIMALAYAS
+	cultures = { nepali }
+	religion = gelugpa
+}
+
+A47 = { #Ahom
+	color = { 199 56 58 }
+	
+	country_type = unrecognized
+	tier = kingdom
+	
+	capital = STATE_ASSAM
+	cultures = { thai assamese }
+	religion = hindu
+}
+
+A48 = { #Manipur
+	color = { 204 207 64 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	capital = STATE_ASSAM
+	cultures = { manipuri }
+	religion = hindu
+}
+
+A49 = { #Bijapur
+	color = { 200 55 84 }
+	
+	country_type = unrecognized
+	tier = kingdom
+	
+	capital = STATE_BOMBAY
+	cultures = { kannada }
+	religion = sunni
+}
+
+A50 = { #Golconda
+	color = { 55 200 171 }
+	
+	country_type = unrecognized
+	tier = kingdom
+	
+	capital = STATE_HYDERABAD
+	cultures = { telugu }
+	religion = shia
+}
+
+A51 = { #Ikkeri Nayaks
+	color = { 121 228 94 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	capital = STATE_HYDERABAD
+	cultures = { kannada }
+	religion = hindu
+}
+
+A52 = { #Kozhikode
+	color = { 112 77 69 }
+	
+	country_type = unrecognized
+	tier = city_state
+	
+	capital = STATE_TRAVANCORE
+	cultures = { malayalam }
+	religion = hindu
+}
+
+A53 = { #Kochi
+	color = { 99 203 113 }
+	
+	country_type = unrecognized
+	tier = city_state
+	
+	capital = STATE_TRAVANCORE
+	cultures = { malayalam }
+	religion = hindu
+}
+
+A54 = { #Venad
+	color = { 186 138 139 }
+	
+	country_type = unrecognized
+	tier = city_state
+	
+	capital = STATE_TRAVANCORE
+	cultures = { malayalam tamil }
+	religion = hindu
+}
+
+A55 = { #Madurai Nayaks
+	color = { 225 81 86 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	capital = STATE_MADRAS
+	cultures = { telugu tamil }
+	religion = hindu
+}
+
+A56 = { #Thanjavur Nayaks
+	color = { 81 86 225 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	capital = STATE_MADRAS
+	cultures = { telugu tamil }
+	religion = hindu
+}
+
+A57 = { #Vijayanagar
+	color = { 254 203 0 }
+	
+	country_type = unrecognized
+	tier = empire
+	
+	capital = STATE_MADRAS
+	cultures = { kannada telugu }
+	religion = hindu
+}
+
+A58 = { #Kandy
+	color = { 142 13 55 }
+	
+	country_type = unrecognized
+	tier = kingdom
+	
+	capital = STATE_CEYLON
+	cultures = { sinhala }
+	religion = hindu
+}
+
+A59 = { #Brahui
+	color = { 171 107 20 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	capital = STATE_BALUCHISTAN
+	cultures = { baluchi }
+	religion = sunni
+}

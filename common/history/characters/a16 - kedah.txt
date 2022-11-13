@@ -1,0 +1,9 @@
+﻿CHARACTERS = {
+	c:A16 = {
+		create_character = {
+			first_name = "Sakti"
+			last_name = "ibni_al-Marhum"
+			ruler = yes
+			age = 31
+			}
+		}	

@@ -1,0 +1,94 @@
+﻿DIPLOMACY = {
+	c:POR = {
+		create_diplomatic_pact = {
+			country = c:BRZ
+			type = puppet
+		}
+	}
+	c:DEN = {
+		create_diplomatic_pact = {
+			country = c:HOL
+			type = personal_union
+		}
+		create_diplomatic_pact = {
+			country = c:SCH
+			type = personal_union
+		}
+		create_diplomatic_pact = {
+			country = c:NOR
+			type = personal_union
+		}
+	}
+	c:SPA = {
+		create_diplomatic_pact = {
+			country = c:CUB
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:PHI
+			type = puppet
+		}	
+		create_diplomatic_pact = {
+			country = c:MEX
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:CLM
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:UCA
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:ARG
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:VNZ
+			type = dominion
+		}
+	}
+	c:BUR = {
+		create_diplomatic_pact = {
+			country = c:CMI
+			type = puppet
+		}
+	}
+	c:A15 = {
+		create_diplomatic_pact = {
+			country = c:A17
+			type = puppet
+		}
+	}
+	c:A13 = {
+		create_diplomatic_pact = {
+			country = c:A15
+			type = tributary
+		}
+	}
+	c:ACE = {
+		create_diplomatic_pact = {
+			country = c:PRK
+			type = puppet
+		}
+	}
+	c:A27 = {
+		create_diplomatic_pact = {
+			country = c:A28
+			type = puppet
+		}
+	}
+	c:A29 = {
+		create_diplomatic_pact = {
+			country = c:A30
+			type = puppet
+		}
+	}
+	c:A23 = {
+		create_diplomatic_pact = {
+			country = c:A29
+			type = puppet
+		}
+	}
+}

@@ -1,0 +1,9 @@
+﻿CHARACTERS = {
+	c:A17 = {
+		create_character = {
+			first_name = "Rijaluddin"
+			last_name = "Muhammad"
+			ruler = yes
+			age = 44
+			}
+		}	

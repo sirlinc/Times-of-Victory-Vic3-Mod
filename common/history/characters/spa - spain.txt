@@ -1,18 +1,21 @@
 ﻿CHARACTERS = {
 	c:SPA = {
 		create_character = {
-			first_name = "Isabel"
-			last_name = "de_Borbon"
+			first_name = "Felipe"
+			last_name = "de_Habsburgo"
 			ruler = yes
-			female = yes
-			birth_date = 1830.10.10
-			dna = dna_queen_isabella_02
-			interest_group = ig_intelligentsia
-			ideology = ideology_moderate
+			birth_date = 1605.04.08
+			dna = dna_king_philip_04
+			interest_group = ig_devout
+			ideology = ideology_pious
 			traits = {
+				reserved
+				innovative
+				pious
 			}
 		}
-		# no heir as of yet
+		
+		# NO HEIR
 
 		create_character = {
 			first_name = Juan

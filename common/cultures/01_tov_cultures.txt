@@ -1,0 +1,798 @@
+﻿oirat={
+	color= rgb{ 255 199 44 }
+	religion = gelugpa
+	traits = { central_asian_heritage mongolic }
+	male_common_first_names={
+		Badamdorj
+		Balingiin
+		Batbayar
+		Baterdene
+		Chingis
+		Dambyan
+		Damdin
+		Dogsomyn
+		Gonchigtseren
+		Injinash
+		Khorloogiin
+		Kubilai
+		Otgonbayar
+		Peljidiin
+		Sodnomyn
+	}
+	female_common_first_names = {
+		Bayartsetseg
+		Dondogdulam
+		Ider
+		Khajidsuren
+		Oyuungerel
+		Sonomyn
+		Tuyaa
+	}	
+	noble_last_names = {
+		Gonchigjalzangiin
+		Togs-Ochiryn
+	}
+	common_last_names={
+		Amar
+		Bodoo
+		Chagdarjav
+		Choibalsan
+		Damdinbazar
+		Genden
+		Jamyan
+		Murdorj 
+		Sukhbaatar
+		Tomorbaatar
+		Tserendorj
+		Vanchinbalyn
+	}
+	ethnicities = {
+		1 = central_asian
+	}
+	graphics = asian
+}
+
+altishahri={
+	color=rgb{ 84 159 227 }
+	religion = sunni
+	traits = { iranian_turanian_culture_group central_asian_heritage }
+	male_common_first_names={
+		Afaq
+		Ahmed
+		Arshad
+		Bahayeddin
+		Bakhytzhan
+		Burhan
+		Daud
+		Ehmetjan
+		Hakim
+		Husayin
+		Kemal
+		Maqsud
+		Muhammad
+		Musa
+		Rashidin
+		Satuq
+		Timur
+		Yaqub
+	}
+	female_common_first_names = {
+		Dilraba
+		Gulimina
+		Gulnazar
+		Madina
+	}	
+	noble_last_names = {
+		Beg
+		Khan
+		Muhiti
+		Shah
+	}
+	common_last_names={
+		Abdulbaqi
+		Damolla
+		Khoja
+		Masanchi
+		Niyaz
+		Qasim
+		Tore
+	}
+	ethnicities = {
+		1 = central_asian
+	}
+	graphics = asian
+}
+
+khalkha={
+	color= rgb{ 156 19 26 }
+	religion = gelugpa
+	traits = { north_asian_heritage mongolic }
+	male_common_first_names={
+		Badamdorj
+		Balingiin
+		Batbayar
+		Baterdene
+		Jampildorj
+		Nasantsogt
+		Tserendorj
+		Chingis
+		Dambyan
+		Dashyam
+		Damdin
+		Dogsomyn
+		Gonchigjalzangiin
+		Gonchigtseren
+		Gombodorj
+		Injinash
+		Khorloogiin
+		Kubilai
+		Otgonbayar
+		Gersenji
+		Peljidiin
+		Sodnomyn
+	}
+	female_common_first_names = {
+		Bayartsetseg
+		Dondogdulam
+		Ider
+		Khajidsuren
+		Oyuungerel
+		Sonomyn
+		Tuyaa
+	}	
+	noble_last_names = {
+		Gonchigjalzangiin
+		Borjigin
+	}
+	common_last_names={
+		Amar
+		Bodoo
+		Chagdarjav
+		Choibalsan
+		Damdinbazar
+		Genden
+		Jamyan
+		Murdorj 
+		Sukhbaatar
+		Tomorbaatar
+		Tserendorj
+		Vanchinbalyn
+	}
+	ethnicities = {
+		1 = central_asian
+	}
+	graphics = asian
+}
+
+hui={
+	color= rgb{ 0 163 108 }
+	religion = gedimu
+	traits = { sinosphere han_chinese east_asian_heritage }
+	male_common_first_names={
+		Chen
+		Cheng
+		Deng
+		Dong
+		Gao
+		Hsia
+		Hu
+		Huang
+		Kong
+		Kwong
+		Li
+		Liang
+		Liao
+		Liu
+		Luo
+		Ma
+		Mao
+		Pan
+		Tan
+		Wang
+		Xie
+		Yang
+		Yu
+		Zhang
+		Zhu
+	}
+	female_common_first_names = {
+		Akew
+		Jin
+		Jinhong
+		Junying
+		Qingtang
+		Sanniang
+		Shanziang
+		Shih
+		Taiqing
+		Xiefen
+		Xiugu
+		Xuanjiao
+		Yu
+		Yunmei
+	}	
+	noble_last_names = {
+		Cui
+		Li
+		Nie
+		Zhang
+	}
+	common_last_names={
+		Dong
+		Fang
+		Hu
+		Jiang
+		Jin
+		Lu
+		Ma
+		Peng
+		Qiu
+		Shen
+		Sun
+		Tian
+		Ting
+		Wei
+		Wu
+		Ye
+		Zhao
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+cham={
+	color= { 37 190 47 }
+	religion = hindu
+	traits = { southeast_asian_heritage }
+	male_common_first_names={
+		Ang
+		Norodom
+		Pok
+		Satha
+		Sisowath
+		Thommo
+	}
+	female_common_first_names = {
+		Aut
+		Bunlei
+		Di
+		Mey
+		Ros
+		Vanthy
+		Vara
+	}	
+	noble_last_names = {
+		Ang
+		Varman
+	}
+	common_last_names={
+		Chan
+		Em
+		Eng
+		Mey
+		Non
+		Reachea
+		Sieng
+		Sinn
+		Snguon
+		Tong
+	}
+	ethnicities = {
+		1 = south_east_asian
+	}
+	graphics = asian
+}
+
+formosan={
+	color= { 23 40 186 }
+	religion = animist
+	traits = { indigenous_oceanic_heritage polynesian_group }
+	male_common_first_names={
+		Epenisa
+		Eroni
+		Kanendjo
+		Kaoua
+		Lubati
+		Raivalita
+		Ralulu
+		Rasolo
+		Samuel
+		Seru
+		Taltai
+		Tamavunisa
+		Ti-Abel
+		Ti-Quatchium
+		Ti-Toorou
+		Yavala
+	}
+	female_common_first_names = {
+		Alanieta
+		Manjula
+		Noelene
+		Salote
+		Sarojini
+		Tauta
+	}	
+	noble_last_names = {
+		Dovi
+		Sukuna
+		Uluviti
+	}
+	common_last_names={
+		Banuve
+		Cakobau
+		Cokanauto
+		Hortense
+		Lakeba
+		Loganimoce
+		Qaraniqio
+		Tupou
+		Tyuienon
+		Vendegou
+	}
+	ethnicities = {
+		1 = polynesian
+	}
+	graphics = generic
+}
+
+tagalog={
+	color= { 138 206 88 }
+	religion = catholic
+	traits = { southeast_asian_heritage }
+	male_common_first_names={
+		Andres
+		Antonio
+		Apolinario
+		Arcadio
+		Artemio
+		Deodato
+		Emilio
+		Hermano
+		Jacinto
+		Jose
+		Ladislao
+		Leon_3
+		Manuel
+		Marcelo
+		Mariano
+		Santiago
+		Simeon_2
+		Teodoro
+		Valentine
+	}
+	female_common_first_names = {
+		Brijida
+		Carmen
+		Catalina
+		Leona
+		Librada
+		Teodora
+		Trinidad
+	}	
+	noble_last_names = {
+		Aguainaldo
+		Bonifacio
+		Burgos
+		Mangubat
+	}
+	common_last_names={
+		Arellano
+		Basa
+		del_Pilar
+		Diwa
+		Diaz_2
+		Dizon
+		Jacinto
+		Mabini
+		Mangali
+		Nakpil
+		Nocon
+		Plata
+		Rizal
+	}
+	ethnicities = {
+		1 = south_east_asian
+	}
+	graphics = asian
+}
+
+bisaya={
+	color= { 206 182 88 }
+	religion = animist
+	traits = { southeast_asian_heritage }
+	male_common_first_names={
+		Andres
+		Antonio
+		Apolinario
+		Arcadio
+		Artemio
+		Deodato
+		Emilio
+		Hermano
+		Jacinto
+		Jose
+		Ladislao
+		Leon_3
+		Manuel
+		Marcelo
+		Mariano
+		Santiago
+		Simeon_2
+		Teodoro
+		Valentine
+	}
+	female_common_first_names = {
+		Brijida
+		Carmen
+		Catalina
+		Leona
+		Librada
+		Teodora
+		Trinidad
+	}	
+	noble_last_names = {
+		Aguainaldo
+		Bonifacio
+		Burgos
+		Mangubat
+	}
+	common_last_names={
+		Arellano
+		Basa
+		del_Pilar
+		Diwa
+		Diaz_2
+		Dizon
+		Jacinto
+		Mabini
+		Mangali
+		Nakpil
+		Nocon
+		Plata
+		Rizal
+	}
+	ethnicities = {
+		1 = south_east_asian
+	}
+	graphics = asian
+}
+
+larantuqueiro={
+	color= { 15 71 173 }
+	religion = catholic
+	traits = { southeast_asian_heritage lusophone }
+	male_common_first_names={
+		Abel
+		Adriano
+		Afonso
+		Alberto
+		Alexandre
+		Alfredo
+		Andre
+		Antonio_2
+		Aquilino
+		Artur
+		Augusto
+		Bartolomeu
+		Bernardo
+		Bruno
+		Caetano
+		Carlos
+		Christovao
+		Claudio_2
+		Candido
+		Damiao
+		Daniel
+		David
+		Dinis
+		Diogo
+		Duarte
+		Ernesto
+		Estevao
+		Eugenio
+		Fernando
+		Filipe
+		Francisco
+		Francisco_Xavier
+		Gastao
+		Hermenegildo
+		Ignacio_2
+		Jeronimo
+		Joaquim
+		Jorge
+		Jose
+		Joao
+		Julio_2
+		Leopoldo
+		Luis_2
+		Manuel
+		Miguel
+		Mario_2
+		Nicolau
+		Nuno
+		Orlando
+		Pascoal
+		Paulo
+		Pedro
+		Rafael_2
+		Raul
+		Roberto
+		Rodrigo
+		Rui
+		Santiago
+		Sebastiao
+		Teodoro
+		Teofilo
+		Tiago
+		Tome
+		Urbano
+		Vasco
+		Vicente
+		Vitorino
+		Vitorio
+		Alvaro
+		Oscar_2
+	}
+	female_common_first_names = {
+		Adelgundes
+		Ana
+		Antonia_2
+		Avelina
+		Benedita
+		Bernardina
+		Carlota
+		Eulalia_2
+		Francisca
+		Gabriela
+		Isabel
+		Joana
+		Joaquina
+		Josefa
+		Leopoldina
+		Lourcenca
+		Maria
+		Micaela
+		Rafaela
+		Rita
+		Rosa
+		Sofia
+		Teresa
+	}	
+	noble_last_names = {
+		Correia_de_Sa
+		da_Costa
+		da_Cunha
+		da_Franca
+		da_Silva_Pereira
+		de_Albuquerque
+		de_Almada
+		de_Braganca
+		de_Braganca-Coburgo
+		de_Carvalho
+		de_Caula
+		de_Oliveira
+		de_Pinho
+		de_Queiros
+		de_Sousa
+		de_Sousa_Coutinho
+		de_Vasconcelos
+		dos_Anjos
+		Rangel
+		Rebelo
+		Vilela
+	}
+	common_last_names={
+		Amaral
+		Barreto
+		Bleck
+		Braga
+		Cabral
+		Capelo
+		Carmona
+		Coelho
+		Correia
+		Coutinho
+		Dias
+		Fernandes
+		Ferreira
+		Figueira
+		Freire_de_Andrade
+		Gago
+		Gil
+		Gomes
+		Herculano
+		Ivens
+		Keil
+		Lopes
+		Machado
+		Magalhaes
+		Mendes
+		Moniz
+		Mouzinho
+		Nogueira
+		Nunes
+		Ortigao
+		Pereira
+		Pinheiro
+		Pinto
+		Pires
+		Pomar
+		Pulido
+		Queiroz
+		Quintanilha
+		Ribeiro
+		Rodrigues
+		Salazar
+		Sampaio
+		Silveira
+		Sergio_2
+		Tavares
+		Teixeira
+		Vidigal
+		Vieira
+		da_Silva
+		de_Almeida
+		de_Arriaga
+		de_Castro
+		de_Gusmao
+		de_Lacerda
+		de_Mesquita
+		de_Moura
+		de_Noronha
+		de_Paiva
+		dos_Reis
+		dos_Santos
+	}
+	male_regal_first_names={
+		Carlos
+		Fernando
+		Joao Jose
+		Luis_2
+		Manuel Miguel
+		Pedro
+	}
+	female_regal_first_names={
+		Adelgundes
+		Maria Maria_Ana Maria_Teresa
+	}
+	graphics = asian
+	ethnicities = {
+		1 = south_east_asian
+	}
+}
+
+even={
+	color= { 95 146 235 }
+	religion = animist
+	traits = { north_asian_heritage siberian_culture_group }
+	male_common_first_names={
+		Aysen
+		Aytal
+		Elley
+		Manchaary
+		Nyurgun
+	}
+	female_common_first_names = {
+		Anna
+		Natalia
+		Sardana
+		Zoya
+	}	
+	noble_last_names = {
+		Anabar
+		Darkhan
+		Kigilyakh
+	}
+	common_last_names={
+		Okhlopkov
+		Ondar
+		Pinigin
+		Shishigin
+		Shtyrov
+		Sivtsev
+	}
+	ethnicities = {
+		1 = circumpolar
+	}
+	graphics = asian
+}
+
+luorawetlan={
+	color= { 87 32 132 }
+	religion = animist
+	traits = { north_asian_heritage siberian_culture_group }
+	male_common_first_names={
+		Aysen
+		Aytal
+		Elley
+		Manchaary
+		Nyurgun
+	}
+	female_common_first_names = {
+		Anna
+		Natalia
+		Sardana
+		Zoya
+	}	
+	noble_last_names = {
+		Anabar
+		Darkhan
+		Kigilyakh
+	}
+	common_last_names={
+		Okhlopkov
+		Ondar
+		Pinigin
+		Shishigin
+		Shtyrov
+		Sivtsev
+	}
+	ethnicities = {
+		1 = circumpolar
+	}
+	graphics = asian
+}
+
+mughal={
+	color= { 58 108 60 }
+	religion = sunni
+	traits = { iranian_turanian_culture_group central_asian_heritage }
+	male_common_first_names={
+		Abd_al-Ahad
+		Abd_al-Karim
+		Abu_al-Ghazi
+		Abulfayz
+		Alimqul
+		Allah_Quli
+		Aqim
+		Haydar
+		Husayn
+		Iltazar
+		Isfandiyar
+		Jahangir
+		Khudayar
+		Madali
+		Mahmud
+		Muhammad
+		Murad
+		Nasir_al-Din
+		Nasrallah
+		Nurali
+		Pulad
+		Qilich
+		Qutlugh
+		Rahim
+		Shir
+		Umar
+		Yadigar
+		Yaqub
+	}
+	female_common_first_names = {
+		Halima
+		Irina
+		Mohlaroyim
+		Nargiz
+		Nazokat
+		Nilufar
+		Tursunoy
+		Yulduz
+		Zilola
+	}	
+	noble_last_names = {
+		Kokand
+		Bahadur
+		Khan
+	}
+	common_last_names={
+		Bahadur
+		Bukhari
+		Gulkhani
+	}
+	ethnicities = {
+		1 = central_asian
+	}
+	graphics = asian
+}
