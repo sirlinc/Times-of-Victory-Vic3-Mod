@@ -14,6 +14,16 @@
 				type = conquer_state
 				target_state = s:STATE_BURGUNDY.region_state:FRA
 			}
+			add_war_goal = {
+				holder = c:FRA
+				type = conquer_state
+				target_state = s:STATE_LANGUEDOC.region_state:SPA
+			}
+			add_war_goal = {
+				holder = c:FRA
+				type = conquer_state
+				target_state = s:STATE_PICARDY.region_state:SPA
+			}
 		}			
 	}
 }

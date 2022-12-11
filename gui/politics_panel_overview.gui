@@ -321,8 +321,8 @@ types politics_panel_types
 
 					character_portrait_medium = {
 						datacontext = "[AccessPlayer.AccessHeir]"
-						blockoverride "highlight" {}
 						using = tooltip_below
+						blockoverride "highlight" {}
 						blockoverride "show_hat" {}
 					}
 					textbox = {

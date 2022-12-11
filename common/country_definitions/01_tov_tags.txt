@@ -1,7 +1,611 @@
-﻿ZAP = {
-	color = { 175  152  73 }
+﻿KOA = { #Kokama  
+
+	color = { 33  116  43 }
 	
 	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { catalan }
+	capital = STATE_CATALONIA
+}
+YAA = { #Yagua 
+
+	color = { 33  116  43 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { catalan }
+	capital = STATE_CATALONIA
+}
+KW1 = { #Kawahiva 
+
+	color = { 33  116  43 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { catalan }
+	capital = STATE_CATALONIA
+}
+CM2 = { #Apurinãs 
+
+	color = { 33  116  43 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { catalan }
+	capital = STATE_CATALONIA
+}
+GU2 = { #Guaicurus 
+
+	color = { 33  116  43 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { catalan }
+	capital = STATE_CATALONIA
+}
+G1A = { #Guaianás 
+
+	color = { 0  0  93 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { catalan }
+	capital = STATE_CATALONIA
+}
+YN1 = { #yanomami 
+
+	color = { 120  58  48 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { catalan }
+	capital = STATE_CATALONIA
+}
+PMO = { #Pemom 
+
+	color = { 183  122  69 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { catalan }
+	capital = STATE_CATALONIA
+}
+ARW = { #Arawak 
+
+	color = { 140  132  255 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { catalan }
+	capital = STATE_CATALONIA
+}
+GTO = { #Guató 
+
+	color = { 255  255  132 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { catalan }
+	capital = STATE_CATALONIA
+}
+UKG = { #Ukarãngmã 
+
+	color = { 175  77  58 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { catalan }
+	capital = STATE_CATALONIA
+}
+AP2 = { #Apinajés
+
+	color = { 96  78  58 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { catalan }
+	capital = STATE_CATALONIA
+}
+CH5 = { #chiquitano 
+	color = { 224  71  206 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { catalan }
+	capital = STATE_CATALONIA
+}
+BN1 = { #Baniwa
+	color = { 93  153  95 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { catalan }
+	capital = STATE_CATALONIA
+}
+XAV = { #Xavantes
+	color = { 155  0  22 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { catalan }
+	capital = STATE_CATALONIA
+}
+KR1 = { #Karibes
+	color = { 0  153  86 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { catalan }
+	capital = STATE_CATALONIA
+}
+KAY = { #Kayapo (Entre Nara e A'we)
+	color = { 153  149  148 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { catalan }
+	capital = STATE_CATALONIA
+}
+AW2 = { #A'we
+	color = { 109  153  0 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { catalan }
+	capital = STATE_CATALONIA
+}
+CTR = { #Catalan Republic
+	color = { 198  82  41 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { catalan }
+	capital = STATE_CATALONIA
+}
+QP1 = { #Quilombola dos Palmares
+	color = { 247  159  121 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { afro_brazilian }
+	capital = STATE_PERNAMBUCO
+}
+GJ1 = { #Guajajara
+	color = { 92  137  67 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_MARANHAO
+}
+GJ1 = { #Guajajara
+	color = { 92  137  67 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_MARANHAO
+}
+WY1 = { #Wayanas
+	color = { 92  137  67 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_PARA
+}
+MN1 = { #Munduruku
+	color = { 173  95  69 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_PARA
+}
+OF1 = { #Ofaye
+	color = { 149 164 173 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { guarani }
+	capital = STATE_SAO_PAULO
+}
+KA1 = { #Kaingang
+	color = { 56 37 43 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { guarani }
+	capital = STATE_SAO_PAULO
+}
+AC1 = { #acroás/xacriabás
+	color = { 141  142  47 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { guarani }
+	capital = STATE_EAST_PRUSSIA
+}
+CT1 = { #Cataguás
+	color = { 142  64  121 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { guarani }
+	capital = STATE_EAST_PRUSSIA
+}
+PRI = { #Puri
+	color = { 201  120  100 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { guarani }
+	capital = STATE_EAST_PRUSSIA
+}
+TUP = { #Tupiniquim
+	color = { 58  96  33 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tupinamba }
+	capital = STATE_EAST_PRUSSIA
+}
+AW1 = { #Awá
+	color = { 135  151  132 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_EAST_PRUSSIA
+}
+BO1 = { #Bororo
+	color = { 168  168  168 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tupinamba }
+	capital = STATE_EAST_PRUSSIA
+}
+GOY = { #Goitacá
+	color = { 105  175  113 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { tupinamba }
+	capital = STATE_EAST_PRUSSIA 
+}
+MAW = { #Mawé
+	color = { 66  0  120 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_EAST_PRUSSIA
+ }
+CHA = { #Charrua
+	color = { 97  49  13 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { guarani }
+	capital = STATE_EAST_PRUSSIA
+}
+DPU = { #Duchy of Prussia
+	color = { 0  49  89 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_EAST_PRUSSIA
+}
+PIO = { #Piombino
+	color = { 148  142  175 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_TUSCANY
+}
+MAN = { #Mantua
+	color = { 178  116  37 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_LOMBARDY
+}
+MNF = { #Montferrat
+	color = { 149  175  196 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_PIEDMONT
+}
+COU = { #Courland and Semigallia
+	color = { 196  179  113 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_LATVIA
+}
+FUL = { #Fulda
+	color = { 151  77  155 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_HESSE
+}
+BYR = { #Bayreuth
+	color = { 63  82  155 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_FRANCONIA
+}
+ANB = { #Ansbach
+	color = { 101  158  158 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_FRANCONIA
+}
+AG1 = { #Augsburg
+	color = { 158  158  158 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_BAVARIA
+}
+ULM = { #The Most Epic Nation
+	color = { 56  56  56 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_WURTTEMBERG
+}
+CLE = { #Cleve
+	color = { 196 196 0 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_NORTH_RHINE
+}
+BEG = { #Berg
+	color = { 181  147  88 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_NORTH_RHINE
+}
+PLT = { #PALATINE
+	color = { 45  51  86 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_RHINELAND
+}
+MNZ = { #Mainz
+	color = { 245  73  73 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_HESSE
+}
+TRV = {
+	color = { 137  33  62 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_NORTH_RHINE
+}
+MDG = {
+	color = { 82 105 177 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_ANHALT
+}
+CLG = {
+	color = { 83 63 137 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_NORTH_RHINE
+}
+MUN = {
+	color = { 211  166  93 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_WESTPHALIA
+}
+CLB = {
+	color = { 255  201  94 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_HANNOVER
+}
+WRB = {
+	color = { 142  94  59 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_FRANCONIA
+}
+EFR = {
+	color = { 113  158  183 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_TYROL
+}
+NUR = {
+	color = { 130  48  54 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_FRANCONIA
+}
+SLZ = {
+	color = { 211  166  93 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_TYROL
+}
+
+LIE = {
+	color = { 255  102  122 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { wallonian }
+	capital = STATE_WALLONIA
+}
+
+ZAP = {
+	color = { 175  152  73 }
+	
+	country_type = unrecognized
 	
 	tier = principality
 	
@@ -32,7 +636,7 @@ LOR = {
 }
 
 BRM = {
-	color = { 142  113  59 }
+	color = { 104  76  79 }
 	
 	country_type = recognized
 	

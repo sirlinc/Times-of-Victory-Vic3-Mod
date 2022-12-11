@@ -1,4 +1,6 @@
+##### MAINTHEME
+
 main_theme_track = {
-	music = “file:/music/main_themes/main_theme_track.ogg”
+	music = "file:/music/tov_main_theme.ogg"
 	can_be_interrupted = yes
 }

@@ -1,7 +1,7 @@
 ﻿CHARACTERS = {
 	c:SPA = {
 		create_character = {
-			first_name = "Felipe"
+			first_name = "Felipe_IV"
 			last_name = "de_Habsburgo"
 			ruler = yes
 			birth_date = 1605.04.08

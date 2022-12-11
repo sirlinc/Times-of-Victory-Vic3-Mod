@@ -1,0 +1,19 @@
+﻿DIPLOMATIC_PLAYS = {
+	c:PLC = {
+		create_diplomatic_play = {
+			name = cossack_polish_war
+		
+			target_country = c:ZAP
+			
+			war = yes
+			
+			type = dp_secession
+
+			add_war_goal = {
+				holder = c:ZAP
+				type = conquer_state
+				target_state = s:STATE_KIEV.region_state:PLC
+			}
+		}			
+	}
+}
