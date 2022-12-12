@@ -1,4 +1,15 @@
-﻿KOA = { #Kokama  
+﻿TUK = { #Tukanos  
+
+	color = { 33  116  43 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { catalan }
+	capital = STATE_CATALONIA
+}
+KOA = { #Kokama  
 
 	color = { 33  116  43 }
 	
