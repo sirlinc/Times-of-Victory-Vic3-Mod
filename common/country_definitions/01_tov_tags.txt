@@ -1,57 +1,327 @@
-﻿KOA = { #Kokama  
-
-	color = { 33  116  43 }
+﻿##### NORTH AMERICA #####]
+CN2 = { #Wintu
+	color = { 190 158 82 }
 	
 	country_type = decentralized
 	
 	tier = principality
 	
-	cultures = { catalan }
-	capital = STATE_CATALONIA
+	cultures = { french }
+	capital = STATE_OHIO
+}
+CN1 = { #Pomo
+	color = { 190 158 82 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+CNS = { #Constanoan
+	color = { 190 158 82 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+CLU = { #calusa
+	color = { 190 158 82 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+TQ2 = { #Tacobaga
+	color = { 190 158 82 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+TEQ = { #tequesta
+	color = { 190 158 82 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+USR = { #USA tag that I will remove when I finish North America
+	color = { 190 158 82 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+CHM = { #Chitimacha
+
+	color = { 255 96 61 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+EIR = { #Eire
+
+	color = { 255 96 61 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+OFO = { #Ofo
+
+	color = { 212 255 96 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+OSA = { #Osage
+
+	color = { 160 96 234 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_KENTUCKY
+}
+BK3 = { #Beothuk
+
+	color = { 160 96 234 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_QUEBEC
+}
+NFR = { #New France
+
+	color = { 160 96 234 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_QUEBEC
+}
+MAY = { #Sioux
+
+	color = { 160 52 44 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { dutch }
+	capital = STATE_PERNAMBUCO
+}
+##### SOUTH AMERICA ######
+NEB = { #Dutch Brazil
+
+	color = { 168 112 63 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { dutch }
+	capital = STATE_PERNAMBUCO
+}
+TH1 = { #Tenharim
+
+	color = { 0  136  147 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_AMAZONAS
+}
+AR1 = { #Aripiuanã
+
+	color = { 255  51  85 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_AMAZONAS
+}
+SRI = { #Suruí
+
+	color = { 91  72  91 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_AMAZONAS
+}
+DN1 = { #Deni
+
+	color = { 135  113  0 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_AMAZONAS
+}
+JA2 = { #Jauapery
+
+	color = { 49  97  0 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_AMAZONAS
+}
+NMK = { #Nambikwara
+
+	color = { 252  109  0 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { guarani }
+	capital = STATE_MATO_GROSSO
+}
+TK2 = { #Tukano
+
+	color = { 129 249 0 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_AMAZONAS
+}
+MUR = { #Mura
+
+	color = { 0 93 37 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_AMAZONAS
+}
+XI5 = { #Xingu
+
+	color = { 66  91  50 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { guarani }
+	capital = STATE_MATO_GROSSO
+}
+WPS = { #Wapishana  
+
+	color = { 28  21  127 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_AMAZONAS
+}
+KOA = { #Kokama  
+
+	color = { 128  62  28 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_AMAZONAS
 }
 YAA = { #Yagua 
 
-	color = { 33  116  43 }
+	color = { 255  93  28 }
 	
 	country_type = decentralized
 	
 	tier = principality
 	
-	cultures = { catalan }
-	capital = STATE_CATALONIA
+	cultures = { amazonian }
+	capital = STATE_AMAZONAS
 }
 KW1 = { #Kawahiva 
 
-	color = { 33  116  43 }
+	color = { 255  31  39 }
 	
 	country_type = decentralized
 	
 	tier = principality
 	
-	cultures = { catalan }
-	capital = STATE_CATALONIA
+	cultures = { aimara }
+	capital = STATE_LA_PAZ
 }
-CM2 = { #Apurinãs 
+CM2 = { #Kulina 
 
-	color = { 33  116  43 }
+	color = { 239  201  178 }
 	
 	country_type = decentralized
 	
 	tier = principality
 	
-	cultures = { catalan }
-	capital = STATE_CATALONIA
+	cultures = { quechua }
+	capital = STATE_LIMA
 }
 GU2 = { #Guaicurus 
 
-	color = { 33  116  43 }
+	color = { 156  173  237 }
 	
 	country_type = decentralized
 	
 	tier = principality
 	
-	cultures = { catalan }
-	capital = STATE_CATALONIA
+	cultures = { guarani }
+	capital = STATE_MATO_GROSSO
 }
 G1A = { #Guaianás 
 
@@ -61,8 +331,8 @@ G1A = { #Guaianás
 	
 	tier = principality
 	
-	cultures = { catalan }
-	capital = STATE_CATALONIA
+	cultures = { guarani }
+	capital = STATE_PARANA
 }
 YN1 = { #yanomami 
 
@@ -72,8 +342,8 @@ YN1 = { #yanomami
 	
 	tier = principality
 	
-	cultures = { catalan }
-	capital = STATE_CATALONIA
+	cultures = { amazonian }
+	capital = STATE_BOLIVAR
 }
 PMO = { #Pemom 
 
@@ -83,8 +353,8 @@ PMO = { #Pemom
 	
 	tier = principality
 	
-	cultures = { catalan }
-	capital = STATE_CATALONIA
+	cultures = { amazonian }
+	capital = STATE_BOLIVAR
 }
 ARW = { #Arawak 
 
@@ -94,8 +364,8 @@ ARW = { #Arawak
 	
 	tier = principality
 	
-	cultures = { catalan }
-	capital = STATE_CATALONIA
+	cultures = { amazonian }
+	capital = STATE_GUAYANA
 }
 GTO = { #Guató 
 
@@ -105,8 +375,8 @@ GTO = { #Guató
 	
 	tier = principality
 	
-	cultures = { catalan }
-	capital = STATE_CATALONIA
+	cultures = { guarani }
+	capital = STATE_MATO_GROSSO
 }
 UKG = { #Ukarãngmã 
 
@@ -116,8 +386,8 @@ UKG = { #Ukarãngmã
 	
 	tier = principality
 	
-	cultures = { catalan }
-	capital = STATE_CATALONIA
+	cultures = { amazonian }
+	capital = STATE_PARA
 }
 AP2 = { #Apinajés
 
@@ -127,8 +397,8 @@ AP2 = { #Apinajés
 	
 	tier = principality
 	
-	cultures = { catalan }
-	capital = STATE_CATALONIA
+	cultures = { tupinamba }
+	capital = STATE_GOIAS
 }
 CH5 = { #chiquitano 
 	color = { 224  71  206 }
@@ -137,8 +407,8 @@ CH5 = { #chiquitano
 	
 	tier = principality
 	
-	cultures = { catalan }
-	capital = STATE_CATALONIA
+	cultures = { quechua }
+	capital = STATE_SANTA_CRUZ
 }
 BN1 = { #Baniwa
 	color = { 93  153  95 }
@@ -147,8 +417,8 @@ BN1 = { #Baniwa
 	
 	tier = principality
 	
-	cultures = { catalan }
-	capital = STATE_CATALONIA
+	cultures = { amazonian }
+	capital = STATE_GUAVIARE
 }
 XAV = { #Xavantes
 	color = { 155  0  22 }
@@ -157,8 +427,8 @@ XAV = { #Xavantes
 	
 	tier = principality
 	
-	cultures = { catalan }
-	capital = STATE_CATALONIA
+	cultures = { guarani }
+	capital = STATE_MATO_GROSSO
 }
 KR1 = { #Karibes
 	color = { 0  153  86 }
@@ -167,8 +437,8 @@ KR1 = { #Karibes
 	
 	tier = principality
 	
-	cultures = { catalan }
-	capital = STATE_CATALONIA
+	cultures = { amazonian }
+	capital = STATE_GUAYANA
 }
 KAY = { #Kayapo (Entre Nara e A'we)
 	color = { 153  149  148 }
@@ -177,8 +447,8 @@ KAY = { #Kayapo (Entre Nara e A'we)
 	
 	tier = principality
 	
-	cultures = { catalan }
-	capital = STATE_CATALONIA
+	cultures = { tupinamba }
+	capital = STATE_GOIAS
 }
 AW2 = { #A'we
 	color = { 109  153  0 }
@@ -187,8 +457,8 @@ AW2 = { #A'we
 	
 	tier = principality
 	
-	cultures = { catalan }
-	capital = STATE_CATALONIA
+	cultures = { guarani }
+	capital = STATE_MATO_GROSSO
 }
 CTR = { #Catalan Republic
 	color = { 198  82  41 }
@@ -220,16 +490,16 @@ GJ1 = { #Guajajara
 	cultures = { amazonian }
 	capital = STATE_MARANHAO
 }
-GJ1 = { #Guajajara
-	color = { 92  137  67 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { amazonian }
-	capital = STATE_MARANHAO
-}
+#GJ1 = { #Guajajara
+#	color = { 92  137  67 }
+#	
+#	country_type = decentralized
+#	
+#	tier = principality
+#	
+#	cultures = { amazonian }
+#	capital = STATE_MARANHAO
+#}
 WY1 = { #Wayanas
 	color = { 92  137  67 }
 	
@@ -277,8 +547,8 @@ AC1 = { #acroás/xacriabás
 	
 	tier = principality
 	
-	cultures = { guarani }
-	capital = STATE_EAST_PRUSSIA
+	cultures = { tupinamba }
+	capital = STATE_BAHIA
 }
 CT1 = { #Cataguás
 	color = { 142  64  121 }
@@ -287,8 +557,8 @@ CT1 = { #Cataguás
 	
 	tier = principality
 	
-	cultures = { guarani }
-	capital = STATE_EAST_PRUSSIA
+	cultures = { tupinamba }
+	capital = STATE_MINAS_GERAIS
 }
 PRI = { #Puri
 	color = { 201  120  100 }
@@ -297,8 +567,8 @@ PRI = { #Puri
 	
 	tier = principality
 	
-	cultures = { guarani }
-	capital = STATE_EAST_PRUSSIA
+	cultures = { tupinamba }
+	capital = STATE_MINAS_GERAIS
 }
 TUP = { #Tupiniquim
 	color = { 58  96  33 }
@@ -307,8 +577,8 @@ TUP = { #Tupiniquim
 	
 	tier = principality
 	
-	cultures = { tupinamba }
-	capital = STATE_EAST_PRUSSIA
+	cultures = { guarani }
+	capital = STATE_RIO_GRANDE_DO_SUL
 }
 AW1 = { #Awá
 	color = { 135  151  132 }
@@ -317,8 +587,8 @@ AW1 = { #Awá
 	
 	tier = principality
 	
-	cultures = { amazonian }
-	capital = STATE_EAST_PRUSSIA
+	cultures = { tupinamba }
+	capital = STATE_GOIAS
 }
 BO1 = { #Bororo
 	color = { 168  168  168 }
@@ -328,7 +598,7 @@ BO1 = { #Bororo
 	tier = principality
 	
 	cultures = { tupinamba }
-	capital = STATE_EAST_PRUSSIA
+	capital = STATE_GOIAS
 }
 GOY = { #Goitacá
 	color = { 105  175  113 }
@@ -338,7 +608,7 @@ GOY = { #Goitacá
 	tier = principality
 	
 	cultures = { tupinamba }
-	capital = STATE_EAST_PRUSSIA 
+	capital = STATE_MINAS_GERAIS 
 }
 MAW = { #Mawé
 	color = { 66  0  120 }
@@ -348,7 +618,7 @@ MAW = { #Mawé
 	tier = principality
 	
 	cultures = { amazonian }
-	capital = STATE_EAST_PRUSSIA
+	capital = STATE_AMAZONAS
  }
 CHA = { #Charrua
 	color = { 97  49  13 }
@@ -358,7 +628,7 @@ CHA = { #Charrua
 	tier = principality
 	
 	cultures = { guarani }
-	capital = STATE_EAST_PRUSSIA
+	capital = STATE_RIO_GRANDE_DO_SUL
 }
 DPU = { #Duchy of Prussia
 	color = { 0  49  89 }

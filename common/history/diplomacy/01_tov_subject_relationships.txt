@@ -12,7 +12,13 @@
 	c:POR = {
 		create_diplomatic_pact = {
 			country = c:BRZ
-			type = puppet
+			type = dominion
+		}
+	}
+	c:NET = {
+		create_diplomatic_pact = {
+			country = c:NEB
+			type = dominion
 		}
 	}
 	c:DEN = {
@@ -23,6 +29,16 @@
 		create_diplomatic_pact = {
 			country = c:NOR
 			type = personal_union
+		}
+	}
+	c:FRA = {
+		create_diplomatic_pact = {
+			country = c:CTR
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:NFR
+			type = puppet
 		}
 	}
 	c:SPA = {
