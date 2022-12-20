@@ -1,6 +1,76 @@
 ﻿##### NORTH AMERICA #####]
+MNE = { #Menominee 
+	color = { 85 62 96 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+LNA = { #Lenape
+	color = { 85 62 96 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+SUQ = { #Susquehannock 
+	color = { 85 62 96 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+PTW = { #Potawatomi
+	color = { 85 62 96 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+HCK = { #Ho-Chunk
+	color = { 85 62 96 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+ALQ = { #Algonquins
+	color = { 85 62 96 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+YKT = { #Yokuts
+	color = { 85 62 96 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
 CN2 = { #Wintu
-	color = { 190 158 82 }
+	color = { 85 62 96 }
 	
 	country_type = decentralized
 	
@@ -10,7 +80,7 @@ CN2 = { #Wintu
 	capital = STATE_OHIO
 }
 CN1 = { #Pomo
-	color = { 190 158 82 }
+	color = { 59 99 41 }
 	
 	country_type = decentralized
 	
@@ -20,7 +90,7 @@ CN1 = { #Pomo
 	capital = STATE_OHIO
 }
 CNS = { #Constanoan
-	color = { 190 158 82 }
+	color = { 58 170 255 }
 	
 	country_type = decentralized
 	
@@ -30,7 +100,7 @@ CNS = { #Constanoan
 	capital = STATE_OHIO
 }
 CLU = { #calusa
-	color = { 190 158 82 }
+	color = { 255 124 116 }
 	
 	country_type = decentralized
 	
@@ -40,7 +110,7 @@ CLU = { #calusa
 	capital = STATE_OHIO
 }
 TQ2 = { #Tacobaga
-	color = { 190 158 82 }
+	color = { 187 120 183 }
 	
 	country_type = decentralized
 	
@@ -50,7 +120,7 @@ TQ2 = { #Tacobaga
 	capital = STATE_OHIO
 }
 TEQ = { #tequesta
-	color = { 190 158 82 }
+	color = { 255 253 124 }
 	
 	country_type = decentralized
 	
