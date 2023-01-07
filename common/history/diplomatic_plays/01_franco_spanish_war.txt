@@ -8,16 +8,11 @@
 			war = yes
 			
 			type = dp_return_state
-
+			
 			add_war_goal = {
 				holder = c:SPA
-				type = conquer_state
-				target_state = s:STATE_BURGUNDY.region_state:FRA
-			}
-			add_war_goal = {
-				holder = c:FRA
-				type = conquer_state
-				target_state = s:STATE_LANGUEDOC.region_state:SPA
+				type = annex_country
+				target_country = c:CTR
 			}
 			add_war_goal = {
 				holder = c:FRA

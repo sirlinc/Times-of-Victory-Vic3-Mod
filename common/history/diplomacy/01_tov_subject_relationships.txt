@@ -14,6 +14,10 @@
 			country = c:BRZ
 			type = dominion
 		}
+		create_diplomatic_pact = {
+			country = c:M2N
+			type = dominion
+		}
 	}
 	c:NET = {
 		create_diplomatic_pact = {

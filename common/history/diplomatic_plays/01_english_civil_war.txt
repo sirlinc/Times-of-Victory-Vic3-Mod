@@ -4,10 +4,11 @@
 			name = wars_of_the_three_kingdoms
 		
 			target_country = c:SCO
+			target_country = c:IRE
 			
 			war = yes
 			
-			type = dp_regime_change
+			type = dp_make_puppet
 
 			add_war_goal = {
 				holder = c:ENG
@@ -26,7 +27,7 @@
 			}
 			add_war_goal = {
 				holder = c:SCO
-				type = regime_change
+				type = make_puppet
 				target_country = c:ENG
 			}
 		}			

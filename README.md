@@ -4,5 +4,15 @@
 Other mods here:
 	- Arrow Price Icons (ontoclasm)
 	- Cities: Skylines (FUN)
-	
-Thanks to everyone
+	- clock (linwajun)
+
+Mod Team:
+	- Leorx
+	- Vann
+	- Syayan, rienvell,  and all of Rise of Britain mod team (Workshope page: https://steamcommunity.com/sharedfiles/filedetails/?id=2885875412&searchtext=1685)
+
+Soundtrack:
+	- Utopia (Channel: https://www.youtube.com/channel/UCKfQv7M94LPdACI2e4AmVww)
+
+=====================================================================================================================================================================================
+Thanks to everyone!

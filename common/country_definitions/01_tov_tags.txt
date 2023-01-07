@@ -1,6 +1,366 @@
-﻿##### NORTH AMERICA #####]
+﻿##### NORTH AMERICA ######
+MSW = { #Massawomeck
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+PEQ = { #Pequot
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+T13 = { #Tamaulipecan
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+T12 = { #Coahuiltecan
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+T11 = { #Jumano
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+MK5 = { #Mi'kmaq (?)
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+SK2 = { #Sauk
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+QU9 = { #Quapaw
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+TU5 = { #Tunica
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+NTZ = { #Natchez
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+NTZ = { #Natchez
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+CH4 = { #Chalot
+	color = { 237 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+APA = { #Apalachee
+	color = { 237 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+UCH = { #Uchean
+	color = { 237 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+CHR = { #Cheraw
+	color = { 237 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+WTE = { #Wateree
+	color = { 237 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+WTE = { #Wateree
+	color = { 237 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+SPO = { #Saponi
+	color = { 237 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+UNA = { #Unami
+	color = { 237 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+PWH = { #Powhatan
+	color = { 237 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+SEC = { #Secotan
+	color = { 237 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+PSC = { #Piscataway
+	color = { 237 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+PAO = { #Pamlico
+	color = { 237 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+ROA = { #Roanoke
+	color = { 237 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+CUR = { #Coree
+	color = { 237 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+TUT = { #Tutelo
+	color = { 237 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+HAH = { #Haush
+	color = { 128 28 155 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_PATAGONIA
+}
+CSO = { #Cusabo
+	color = { 250 226 187 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_SOUTH_CAROLINA
+}
+YSE = { #Yamansee
+	color = { 26 85 240 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_SOUTH_CAROLINA
+}
+CTW = { #Catawba 
+	color = { 255 120 15 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_SOUTH_CAROLINA
+}
+YCH = { #Yuchi
+	color = { 1 179 61 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+CWH = { #Chactaw
+	color = { 253 160 216 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+CKM = { #Chickamauga
+	color = { 86 76 20 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+CRK = { #Creek
+	color = { 34 245 2403 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+HIT = { #Hitchiti
+	color = { 28 59 128 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+ALM = { #Alabama
+	color = { 254 8 33 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
 MNE = { #Menominee 
-	color = { 85 62 96 }
+	color = { 81 201 179 }
 	
 	country_type = decentralized
 	
@@ -10,7 +370,7 @@ MNE = { #Menominee
 	capital = STATE_OHIO
 }
 LNA = { #Lenape
-	color = { 85 62 96 }
+	color = { 45 66 0 }
 	
 	country_type = decentralized
 	
@@ -20,7 +380,7 @@ LNA = { #Lenape
 	capital = STATE_OHIO
 }
 SUQ = { #Susquehannock 
-	color = { 85 62 96 }
+	color = { 160 146 78 }
 	
 	country_type = decentralized
 	
@@ -30,7 +390,7 @@ SUQ = { #Susquehannock
 	capital = STATE_OHIO
 }
 PTW = { #Potawatomi
-	color = { 85 62 96 }
+	color = { 72 127 97 }
 	
 	country_type = decentralized
 	
@@ -40,7 +400,7 @@ PTW = { #Potawatomi
 	capital = STATE_OHIO
 }
 HCK = { #Ho-Chunk
-	color = { 85 62 96 }
+	color = { 226 49 91 }
 	
 	country_type = decentralized
 	
@@ -50,7 +410,7 @@ HCK = { #Ho-Chunk
 	capital = STATE_OHIO
 }
 ALQ = { #Algonquins
-	color = { 85 62 96 }
+	color = { 174 29 147 }
 	
 	country_type = decentralized
 	
@@ -60,7 +420,7 @@ ALQ = { #Algonquins
 	capital = STATE_OHIO
 }
 YKT = { #Yokuts
-	color = { 85 62 96 }
+	color = { 228 159 255 }
 	
 	country_type = decentralized
 	
@@ -205,7 +565,7 @@ NFR = { #New France
 	cultures = { french }
 	capital = STATE_QUEBEC
 }
-MAY = { #Sioux
+MAY = { #Mayas
 
 	color = { 160 52 44 }
 	
@@ -216,7 +576,207 @@ MAY = { #Sioux
 	cultures = { dutch }
 	capital = STATE_PERNAMBUCO
 }
-##### SOUTH AMERICA ######
+##############################
+##### SOUTH AMERICA ##########
+##############################
+SPH = { #Sponheim
+
+	color = { 22  94  5 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_RHINELAND
+}
+NI2 = { #Nivaclé
+
+	color = { 128  0  47 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_GUAYANA
+}
+PI2 = { #Pilagá 
+
+	color = { 142  255  127 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_GUAYANA
+}
+TR0 = { #Tiriyó
+
+	color = { 65  86  44 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_GUAYANA
+}
+MX3 = { #Maxacalis
+
+	color = { 198  83  187 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { patagonian }
+	capital = STATE_PATAGONIA
+}
+TL4 = { #Taluhet
+
+	color = { 144  64  80 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { patagonian }
+	capital = STATE_PATAGONIA
+}
+KWR = { #Kawesqar
+
+	color = { 239  143  72 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { patagonian }
+	capital = STATE_PATAGONIA
+}
+YGH = { #Yaghan
+
+	color = { 193  128  106 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { patagonian }
+	capital = STATE_PATAGONIA
+}
+ONA = { #Ona
+
+	color = { 224  163  255 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { patagonian }
+	capital = STATE_PATAGONIA
+}
+CHO = { #Chono
+
+	color = { 255  178  150 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { patagonian }
+	capital = STATE_PATAGONIA
+}
+HP1 = { #Huarpe
+
+	color = { 0  68  170 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { patagonian }
+	capital = STATE_PATAGONIA
+}
+TBA = { #Toba
+
+	color = { 224 255 53 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { patagonian }
+	capital = STATE_PATAGONIA
+}
+TEU = { #Teushen
+
+	color = { 109  140  0 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { patagonian }
+	capital = STATE_PATAGONIA
+}
+DIU = { #Diuihet
+
+	color = { 255  205  147 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { patagonian }
+	capital = STATE_BUENOS_AIRES
+}
+CH2 = { #Chechehet
+
+	color = { 188  255  122 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { patagonian }
+	capital = STATE_RIO_NEGRO
+}
+WHI = { #Wichí
+
+	color = { 255  71  86 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { guarani }
+	capital = STATE_CHACO
+}
+PUH = { #Puelche
+
+	color = { 102  105  255 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { patagonian }
+	capital = STATE_PATAGONIA
+}
+M2N = { #Maranhão
+
+	color = { 175  170  0 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { brazilian }
+	capital = STATE_MARANHAO
+}
 NEB = { #Dutch Brazil
 
 	color = { 168 112 63 }
@@ -227,6 +787,17 @@ NEB = { #Dutch Brazil
 	
 	cultures = { dutch }
 	capital = STATE_PERNAMBUCO
+}
+VL1 = { #Vilelas
+
+	color = { 0  136  147 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_AMAZONAS
 }
 TH1 = { #Tenharim
 
