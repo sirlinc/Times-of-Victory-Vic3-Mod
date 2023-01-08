@@ -1,4 +1,144 @@
 ﻿##### NORTH AMERICA ######
+WOLASTOQ = {
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+PENOBSCOT = {
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+ABENAKI = {
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+NIPMUC = {
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+HUNKPAPA = {
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+OMAHA = {
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+BRULE = {
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+OGLALA = {
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+IOWA = {
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+OJIBWA = {
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+SIOUX = {
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+WAHPETON = { #Wahpeton
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+SANTEE = { #Santee
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
+PEORIA = { #Peoria
+	color = { 12 163 123 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_OHIO
+}
 MSW = { #Massawomeck
 	color = { 12 163 123 }
 	
