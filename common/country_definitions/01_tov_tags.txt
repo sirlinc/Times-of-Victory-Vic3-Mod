@@ -1,6 +1,6 @@
 ﻿##### NORTH AMERICA ######
 WOLASTOQ = {
-	color = { 12 163 123 }
+	color = { 211 110 112 }
 	
 	country_type = decentralized
 	
@@ -10,7 +10,7 @@ WOLASTOQ = {
 	capital = STATE_OHIO
 }
 PENOBSCOT = {
-	color = { 12 163 123 }
+	color = { 254 0 0 }
 	
 	country_type = decentralized
 	
@@ -20,7 +20,7 @@ PENOBSCOT = {
 	capital = STATE_OHIO
 }
 ABENAKI = {
-	color = { 12 163 123 }
+	color = { 248 243 53 }
 	
 	country_type = decentralized
 	
@@ -30,7 +30,7 @@ ABENAKI = {
 	capital = STATE_OHIO
 }
 NIPMUC = {
-	color = { 12 163 123 }
+	color = { 37 82 141 }
 	
 	country_type = decentralized
 	
@@ -40,7 +40,7 @@ NIPMUC = {
 	capital = STATE_OHIO
 }
 HUNKPAPA = {
-	color = { 12 163 123 }
+	color = { 30 45 110 }
 	
 	country_type = decentralized
 	
@@ -50,7 +50,7 @@ HUNKPAPA = {
 	capital = STATE_OHIO
 }
 OMAHA = {
-	color = { 12 163 123 }
+	color = { 114 20 34 }
 	
 	country_type = decentralized
 	
@@ -60,7 +60,7 @@ OMAHA = {
 	capital = STATE_OHIO
 }
 BRULE = {
-	color = { 12 163 123 }
+	color = { 42 96 173 }
 	
 	country_type = decentralized
 	
@@ -70,7 +70,7 @@ BRULE = {
 	capital = STATE_OHIO
 }
 OGLALA = {
-	color = { 12 163 123 }
+	color = { 28 84 45 }
 	
 	country_type = decentralized
 	
@@ -80,7 +80,7 @@ OGLALA = {
 	capital = STATE_OHIO
 }
 IOWA = {
-	color = { 12 163 123 }
+	color = { 164 125 144 }
 	
 	country_type = decentralized
 	
@@ -90,7 +90,7 @@ IOWA = {
 	capital = STATE_OHIO
 }
 OJIBWA = {
-	color = { 12 163 123 }
+	color = { 160 52 113 }
 	
 	country_type = decentralized
 	
@@ -100,7 +100,7 @@ OJIBWA = {
 	capital = STATE_OHIO
 }
 SIOUX = {
-	color = { 12 163 123 }
+	color = { 82 124 141 }
 	
 	country_type = decentralized
 	
@@ -110,7 +110,7 @@ SIOUX = {
 	capital = STATE_OHIO
 }
 WAHPETON = { #Wahpeton
-	color = { 12 163 123 }
+	color = { 28 84 45 }
 	
 	country_type = decentralized
 	
@@ -120,7 +120,7 @@ WAHPETON = { #Wahpeton
 	capital = STATE_OHIO
 }
 SANTEE = { #Santee
-	color = { 12 163 123 }
+	color = { 173 160 74 }
 	
 	country_type = decentralized
 	
@@ -130,7 +130,7 @@ SANTEE = { #Santee
 	capital = STATE_OHIO
 }
 PEORIA = { #Peoria
-	color = { 12 163 123 }
+	color = { 149 142 242 }
 	
 	country_type = decentralized
 	
@@ -140,7 +140,7 @@ PEORIA = { #Peoria
 	capital = STATE_OHIO
 }
 MSW = { #Massawomeck
-	color = { 12 163 123 }
+	color = { 242 150 143 }
 	
 	country_type = decentralized
 	
@@ -150,7 +150,7 @@ MSW = { #Massawomeck
 	capital = STATE_OHIO
 }
 PEQ = { #Pequot
-	color = { 12 163 123 }
+	color = { 202 196 176 }
 	
 	country_type = decentralized
 	
@@ -160,7 +160,7 @@ PEQ = { #Pequot
 	capital = STATE_OHIO
 }
 T13 = { #Tamaulipecan
-	color = { 12 163 123 }
+	color = { 76 145 65 }
 	
 	country_type = decentralized
 	
@@ -170,7 +170,7 @@ T13 = { #Tamaulipecan
 	capital = STATE_OHIO
 }
 T12 = { #Coahuiltecan
-	color = { 12 163 123 }
+	color = { 32 33 79 }
 	
 	country_type = decentralized
 	
@@ -180,7 +180,7 @@ T12 = { #Coahuiltecan
 	capital = STATE_OHIO
 }
 T11 = { #Jumano
-	color = { 12 163 123 }
+	color = { 247 64 33 }
 	
 	country_type = decentralized
 	
@@ -190,7 +190,7 @@ T11 = { #Jumano
 	capital = STATE_OHIO
 }
 MK5 = { #Mi'kmaq (?)
-	color = { 12 163 123 }
+	color = { 109 63 91 }
 	
 	country_type = decentralized
 	
@@ -200,7 +200,7 @@ MK5 = { #Mi'kmaq (?)
 	capital = STATE_OHIO
 }
 SK2 = { #Sauk
-	color = { 12 163 123 }
+	color = { 94 33 41 }
 	
 	country_type = decentralized
 	
@@ -210,7 +210,7 @@ SK2 = { #Sauk
 	capital = STATE_OHIO
 }
 QU9 = { #Quapaw
-	color = { 12 163 123 }
+	color = { 142 64 42 }
 	
 	country_type = decentralized
 	
@@ -220,7 +220,7 @@ QU9 = { #Quapaw
 	capital = STATE_OHIO
 }
 TU5 = { #Tunica
-	color = { 12 163 123 }
+	color = { 49 102 80 }
 	
 	country_type = decentralized
 	
@@ -230,17 +230,7 @@ TU5 = { #Tunica
 	capital = STATE_OHIO
 }
 NTZ = { #Natchez
-	color = { 12 163 123 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-NTZ = { #Natchez
-	color = { 12 163 123 }
+	color = { 143 139 102 }
 	
 	country_type = decentralized
 	
@@ -2388,4 +2378,175 @@ A59 = { #Brahui
 	capital = STATE_BALUCHISTAN
 	cultures = { baluchi }
 	religion = sunni
+}
+#EUROPE
+PAS = { #Passau
+	color = { 188 216 221 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_BAVARIA
+	cultures = { south_german }
+	religion = catholic
+}
+BGE = { #Brzeg
+	color = { 138 25 75 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_SILESIA
+	cultures = { polish }
+	religion = catholic
+}
+WLO = { #Wolow
+	color = { 72 67 209 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_SILESIA
+	cultures = { polish }
+	religion = catholic
+}
+LEG = { #Legnica
+	color = { 163 58 209 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_SILESIA
+	cultures = { north_german polish }
+	religion = catholic
+}
+NAP = { #Naples
+	color = { 210 200 224 }
+	
+	country_type = recognized
+	tier = kingdom
+	
+	capital = STATE_CAMPAIA
+	cultures = { south_italian }
+	religion = catholic
+}
+SCI = { #Sicily
+	color = { 245 210 171 }
+	
+	country_type = recognized
+	tier = kingdom
+	
+	capital = STATE_CAMPAIA
+	cultures = { south_italian }
+	religion = catholic
+}
+RGS = { #Ragusa
+	color = { 237 144 149 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_DALMATIA
+	cultures = { bosniak slovene }
+	religion = catholic
+}
+FNM = { #Finmark
+	color = { 200 170 60 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_CAMPAIA
+	cultures = { sami norwegian }
+	religion = protestant
+}
+AKE = { #Akershus
+	color = { 72 121 220 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_EASTERN_NORWAY
+	cultures = { norwegian }
+	religion = protestant
+}
+TRL = { #Three Leagues
+	color = { 255 214 45 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_EAST_SWITZERLAND
+	cultures = { swiss } #PLACEHOLDER
+	religion = catholic
+}
+STI = { #Rep. of the Seven Tithings
+	color = { 233 64 61 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_WEST_SWITZERLAND
+	cultures = { swiss } #PLACEHOLDER
+	religion = catholic
+}
+BAE = { #Basel
+	color = { 107 89 101 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_WEST_SWITZERLAND
+	cultures = { swiss } #PLACEHOLDER
+	religion = catholic
+}
+QKH = { #Qasim Khanate
+	color = { 83 127 118 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	capital = STATE_TARTARIA
+	cultures = { tatar }
+	religion = sunni
+}
+KAR = { #Karelia
+	color = { 153 148 90 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_ORLEANS
+	cultures = { finnish }
+	religion = protestant
+}
+FR2 = { #The Parlementary Fronde (First Fronde)
+	color = { 17 27 104 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_ILE_DE_FRANCE
+	cultures = { french }
+	religion = catholic
+}
+JU1 = { #Julich
+	color = { 154 237 161 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_NORTH_RHINE
+	cultures = { north_german }
+	religion = catholic
+}
+LMA = { #La Mark
+	color = { 84 216 62 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_DALMATIA
+	cultures = { north_german }
+	religion = protestant
 }

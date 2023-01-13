@@ -54,36 +54,6 @@ widget = {
 			spriteborder_bottom = 0
 		}
 	}
-	### glow effect on top
-	widget = {
-		position = { 320 -450 }
-		parentanchor = center
-		size = { 500 500 }
-		alpha = 0
-		
-		icon = {
-			using = rotate_glow_animation_02
-		}
-		
-		state = {
-			name = main_menu_start
-			delay = 1.5
-			next = 2
-			using = Animation_Curve_Default
-			
-			size = { 800 800 }
-			duration = 0.6
-			alpha = 0.8
-		} 
-		state = {
-			name = 2
-			using = Animation_Curve_Default
-			
-			size = { 500 500 }
-			duration = 0.8
-			alpha = 0.4
-		}
-	}
 
 	widget = {
 		parentanchor = center
@@ -112,56 +82,12 @@ widget = {
 		parentanchor = center
 		size = { 1920 1080 }
 		scale = "[ScaleToFitElementInside('(int32)1920', '(int32)1080')]"
-
+		# BG top
 		widget = {
 			name = "left_panel"
 			parentanchor = left|vcenter
-			position = { -300 0 }
+			position = { 425 -10 }
 			size = { 500 880 }
-			alpha = 0
-			
-			state = {
-				name = main_menu_start
-				next = 2
-				duration = 0
-				alpha = 0
-				position_x = -300
-			}
-			state = {
-				name = 2
-				next = 3
-				delay = 1
-				duration = 0.4
-				using = Animation_Curve_Default
-				alpha = 1
-				position_x = 160
-				
-				start_sound = {
-					soundeffect = "event:/SFX/UI/Frontend/start_panel_show"
-				}
-			}
-			state = {
-				name = 3
-				duration = 0.1
-				using = Animation_Curve_Default
-				alpha = 1
-				position_x = 150
-			}
-			
-			# Continue Game 
-			state = {
-				name = "main_menu_continue"
-				duration = 0.4
-				bezier = { 0.5 0 1 0.5 }
-				delay = 0.4
-				alpha = 0
-
-				position_x = -100
-
-				start_sound = {
-					soundeffect = "event:/SFX/UI/Frontend/start_game"
-				}
-			}
 			
 			# Animated leafs
 			icon = {
@@ -241,41 +167,51 @@ widget = {
 			}
 			
 			# BG bottom
+			
+			### glow effect on top
 			widget = {
-				size = { 450 760 }
-				parentanchor = bottom|hcenter
+				position = { 0 -400 }
+				parentanchor = center
+				size = { 500 500 }
+				alpha = 0
 				
 				icon = {
-					size = { 100% 100% }
-					using = default_bg
-					
-					modify_texture = {
-						texture = "gfx/interface/menu/menu_frame_bottom_mask.dds"
-						spriteType = Corneredstretched
-						texture_density = 2
-						spriteborder = { 216 225 }
-						spriteborder_bottom = 350
-						blend_mode = alphamultiply
-					}
+					using = rotate_glow_animation_02
 				}
-				icon = {
-					texture = "gfx/interface/menu/menu_frame_bottom.dds"
-					size = { 100% 100% }
-					spriteType = Corneredstretched
-					texture_density = 2
-					spriteborder = { 216 225 }
-					spriteborder_bottom = 350
+				
+				state = {
+					name = main_menu_start
+					delay = 1.5
+					next = 2
+					using = Animation_Curve_Default
 					
-					using = main_menu_shimmer
+					size = { 800 800 }
+					duration = 0.6
+					alpha = 0.8
+				} 
+				state = {
+					name = 2
+					using = Animation_Curve_Default
+					
+					size = { 500 500 }
+					duration = 0.8
+					alpha = 0.4
 				}
 			}
 			
+			v3_logo_animation = {
+				parentanchor = hcenter
+				position = { 0 35 }
+				
+				blockoverride "menu_logo_delay" { 
+					delay = 1.5
+				}
+			} 
 
 			### BUTTONS  
 			vbox = {
 				datacontext = "[FrontEndMainView.AccessLoadView]"
 				margin = { 90 0 }
-				position = { 280 -60 }
 
 				vbox = {
 					margin_top = 210
@@ -669,8 +605,7 @@ widget = {
 	}
 }
 
-template main_menu_shimmer
-{
+template main_menu_shimmer = {
 	modify_texture = {
 		name = "glow"
 		texture = "gfx/interface/animation/shimmer.dds"
