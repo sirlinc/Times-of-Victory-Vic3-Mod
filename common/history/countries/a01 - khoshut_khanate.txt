@@ -18,3 +18,4 @@
 			add_ruling_interest_group = yes
 		}
 	}
+}
