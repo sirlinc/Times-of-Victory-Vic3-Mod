@@ -1,4 +1,12 @@
 ﻿NGame = {
 	START_DATE = "1648.10.24" 
-	END_DATE = "1800.1.1
+	END_DATE = "1936.1.1
+	
 }
+
+NMilitary = {
+	GENERAL_TRAVEL_AUTO_REASSIGN_INSTANTLY = 15	#If General is being auto reassigned (front destruction for example) and travel time is below this number of days make them travel instantly
+	GENERAL_INVALID_TRAVEL_DAYS = 10 #If our system fails to compute travel time due to invalid front/HQ position, then use this value as travel time instead. This prevents such cases from causing >300 days travels. This ignores GENERAL_TRAVEL_AUTO_REASSIGN_INSTANTLY.
+}
+
+

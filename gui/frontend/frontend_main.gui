@@ -76,6 +76,12 @@ widget = {
 			size = { 820 220 }
 			position = { -460 38 } 
 		}
+		icon = {
+			texture = "gfx/interface/menu/box.dds"
+			size = { 470 220 }
+			scale = 1.0
+			position = { -297 791 } 
+		}
 	}
 	
 	widget = {

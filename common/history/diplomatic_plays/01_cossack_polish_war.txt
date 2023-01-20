@@ -1,5 +1,5 @@
 ﻿DIPLOMATIC_PLAYS = {
-	c:PLC = {
+	c:POL = {
 		create_diplomatic_play = {
 			name = cossack_polish_war
 		
@@ -12,7 +12,7 @@
 			add_war_goal = {
 				holder = c:ZAP
 				type = conquer_state
-				target_state = s:STATE_KIEV.region_state:PLC
+				target_state = s:STATE_KIEV.region_state:POL
 			}
 		}			
 	}

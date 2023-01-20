@@ -6,6 +6,13 @@
 		}
 		
 	}
+	c:RUS = {
+		create_diplomatic_pact = {
+			country = c:QKH
+			type = vassal
+		}
+		
+	}
 	c:ENG = {
 		create_diplomatic_pact = {
 			country = c:BIC
@@ -209,6 +216,12 @@ c:BUR = {
 		create_diplomatic_pact = {
 			country = c:B37
 			type = vassal
+		}
+	}
+	c:TUR = {
+		create_diplomatic_pact = {
+			country = c:TRS
+			type = tributary
 		}
 	}
 	c:TUR = {

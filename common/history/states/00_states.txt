@@ -206,13 +206,9 @@ STATES = {
 	s:STATE_DOBRUDJA = {
 		create_state = {
 			country = c:TUR
-			owned_provinces = { xD9E021 xB06121 x7f25cd x7763F3 x940C8D xA3D7CE x316021 }
+			owned_provinces = { x50F5CB xD9E021 xB06121 x7f25cd x7763F3 x940C8D xA3D7CE x316021 }
 		}
-		create_state = {
-			country = c:RUS
-			owned_provinces = { x50F5CB }
-		}
-		
+
 		add_homeland = bulgarian
 		add_homeland = romanian
 		add_homeland = turkish
@@ -6844,7 +6840,7 @@ STATES = {
 	}
 	s:STATE_NORTHERN_SERBIA = {
 		create_state = {
-			country = c:SER
+			country = c:TUR
 			owned_provinces = { x4D115A xF9E78E x10A060 x4B1F45 xEDBA20 x3B6092 x74F1F4 x9061A0 x40AF95 x90A061 }
 		}
 		
@@ -6859,7 +6855,6 @@ STATES = {
 		add_homeland = serb
 		add_homeland = turkish
 		add_homeland = albanian
-		add_claim = c:SER
 	}
 	s:STATE_HUDAVENDIGAR = {
 		create_state = {
