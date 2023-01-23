@@ -30,7 +30,68 @@ front_battle_province_weight = {
 		}
 		multiply = 15
 	}
+	
+	# Increase weights for provinces that has a terrain in which the general specializes
+	if = {
+		limit = {
+			exists = scope:character
+			scope:is_advancing_side = yes
+			scope:province = {
+				has_terrain = forest
+			}
+            scope:character = {
+                has_trait = forest_commander
+            }
+		}
+		multiply = 9
 		
+	}
+	# Increase weights for provinces that has a terrain in which the general specializes
+	if = {
+		limit = {
+			exists = scope:character
+			scope:is_advancing_side = yes
+			scope:province = {
+				has_terrain = plains
+			}
+            scope:character = {
+                has_trait = plains_commander
+            }
+		}
+		multiply = 9
+		
+	}
+	# Increase weights for provinces that has a terrain in which the general specializes
+	if = {
+		limit = {
+			exists = scope:character
+			scope:is_advancing_side = yes
+			scope:province = {
+				has_terrain = mountain
+			}
+            scope:character = {
+                has_trait = mountain_commander
+            }
+		}
+		multiply = 9
+		
+	}
+	# Increase weights for provinces that has a terrain in which the general specializes
+	if = {
+		limit = {
+			exists = scope:character
+			scope:is_advancing_side = yes
+			scope:province = {
+				has_terrain = mountain
+			}
+            scope:character = {
+                has_trait = mountain_commander
+            }
+		}
+		multiply = 9
+		
+	}
+
 	# Increases the province's weight if it is within a state with a strategic attack focus
 	if = {
 		limit = {
@@ -45,7 +106,7 @@ front_battle_province_weight = {
 			exists = scope:own_commander
 			state = { is_target_of_wargoal = scope:own_commander.owner }
 		}
-		multiply = 10
+		multiply = 15
 	}
 	else_if = {
 		limit = {
@@ -119,19 +180,7 @@ land_battle_size = {
         }
 
 		max = {
-			value = 20
-			limit = {
-				state = { 
-					has_variable = good_supply
-				}
-				multiply = 1.5
-			}
-			limit = {
-				state = { 
-					has_variable = bad_supply
-				}
-				multiply = 0.5
-			}
+			value = 30
 			add = scope:province.state.infrastructure 
 			multiply = scope:province.combat_width
 		}
