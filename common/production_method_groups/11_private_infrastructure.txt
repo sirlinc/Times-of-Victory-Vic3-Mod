@@ -1,0 +1,87 @@
+﻿pmg_base_building_railway = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_steam_trains
+		pm_electric_trains
+		pm_diesel_trains
+	}
+}
+
+pmg_passenger_trains = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_no_passenger_trains
+		pm_wooden_passenger_carriages
+		pm_steel_passenger_carriages
+	}
+}
+
+pmg_ownership_capital_building_railway = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_building_railway
+		pm_publicly_traded_building_railway
+		pm_government_run_building_railway
+		pm_worker_cooperative_building_railway
+	}
+}
+
+pmg_base_building_trade_center = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		pm_merchant_guilds
+		pm_corporate_entity
+		pm_cooperative_association
+	}
+}
+
+pmg_ownership_building_trade_center = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+
+	production_methods = {
+
+		pm_trade_center_charter
+		pm_trade_center_privately_owned
+		pm_trade_center_government_run
+	}
+}
+
+pmg_base_building_financial_services = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_merchant_lenders
+		pm_banks
+		pm_brokerage_firms
+	}
+}
+
+pmg_instruments_financial_services = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+
+		pm_financial_services_underwriting
+		pm_financial_services_futures_contracts
+		pm_financial_services_mutual_funds
+		pm_financial_services_foreign_investment		
+	}
+}
+
+pmg_ownership_building_financial_services = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+
+	production_methods = {
+
+		pm_financial_services_privately_owned
+		pm_financial_services_government_run
+		pm_financial_services_credit_union
+	}
+}

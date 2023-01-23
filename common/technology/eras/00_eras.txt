@@ -1,0 +1,39 @@
+﻿era_1 = { #Pre-Gunpowder
+	technology_cost = 1000 # for progress bonuses, use an approximate third: 1650
+}
+
+era_2 = { #1636-1676
+	technology_cost = 2500 # for progress bonuses, use an approximate third: 1650
+}
+
+era_3 = { #1676-1716
+	technology_cost = 4000 # for progress bonuses, use an approximate third: 1650
+}
+
+era_4 = { #1716-1756
+	technology_cost = 5500 # for progress bonuses, use an approximate third: 1650
+}
+
+era_5 = { #1756-1796
+	technology_cost = 7000 # for progress bonuses, use an approximate third: 1650
+}
+
+era_6 = { #1796-1836
+	technology_cost = 9000 # for progress bonuses, use an approximate third: 1650
+}
+
+era_7 = { #1836-1861
+	technology_cost = 12500 # for progress bonuses, use an approximate third: 1650
+}
+
+era_8 = { #1862-1886
+	technology_cost = 15000 # for progress bonuses, use a third: 2500
+}
+
+era_9 = { #1887-1911
+	technology_cost = 17500 # for progress bonuses, use an approximate third: 3000
+}
+
+era_10 = { #1911-1936
+	technology_cost = 20000 # for progress bonuses, use an approximate third: 4000
+}

@@ -1,0 +1,78 @@
+﻿l_english:
+  
+  # Leader Ideologies
+
+
+  # Interest Group Ideologies
+
+
+  # flavor ideologies
+
+
+  # Government Principles group
+
+  
+  # Free speech group
+ law_informal_regulation: "Informal Regulation"
+ law_informal_regulation_desc: "There are no codified laws regulating speech, but it is nonetheless unwise to criticise those in power."
+  
+  # Army Model group
+ law_warrior_bands: "Warrior Society"
+ law_warrior_bands_desc: "Warfare is a part of life for the adult members of this society, or adjacent to their normal methods of survival. Virtually every man is expected to fight when needed."
+  
+  # Distribution of Power group
+  
+  # Voting System group
+  
+  # Workplace Safety group
+  
+  # Children's Rights group
+  
+  # Slavery group
+  
+  # Church and State group
+  
+ law_tolerance: "Tolerance"
+ law_tolerance_desc: "There is a tacit state religion, and heretics and heathens are often disadvantaged or heavily discriminated against."
+  
+  # Citizenship group
+ law_subjects: "Subjects"
+ law_subjects_desc: "The denizens of the state are not citizens, but subjects beholden to a lord, sovereign, or religious figure. They have a limited range of rights and autonomy."
+
+  # Economic System group
+
+ # Trade Policy group
+
+  # Taxation Group
+  
+  # Education System group
+  
+  # Health System group
+ 
+  # Welfare group
+  
+  # Rights of Women group
+  
+  # Policing
+  
+  # Bureaucracy
+ law_ad_hoc_bureaucrats: "Ad Hoc Bureaucrats"
+ law_ad_hoc_bureaucrats_desc: "There are no permanent bureaucratic positions, and roles of responsibility are created only when the need arises."
+  
+  # Colonization
+ law_territoriality: "Territoriality"
+ law_territoriality_desc: "We must consolidate our power on the all the far flung edges of our state, and expand our territory when no such boundary markers exist."
+  
+  # Internal Security
+ law_religious_zealotry: "Religious Zealotry"
+ law_religious_zealotry_desc: "There is but one true faith. Inquisitions, pogroms, and forced conversions of heretics and heathens are all sanctioned by the state."
+  
+  # Migration
+law_heavy_migration_controls: "Heavy Migration Controls"
+law_heavy_migration_controls_desc: "The movement of people across the border is tightly controlled with advanced forms of control such as passports, quotas, or severe punishments for illegal immigrants."
+
+law_light_migration_controls: "Light Migration Controls"
+law_light_migration_controls_desc: "Simple identification measures are used at our borders, and only the common sites of crossing are monitored and enforced."
+
+law_freedom_of_movement: "Freedom of Movement"
+law_freedom_of_movement_desc: "Migrants are able to cross through your borders at whim."
