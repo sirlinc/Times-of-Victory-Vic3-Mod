@@ -1,1 +1,49 @@
-﻿
+﻿DIPLOMATIC_PLAYS = {
+	c:NET = {
+		create_diplomatic_play = {
+			name = insurreicao_pernambucana
+		
+			target_country = c:BRZ
+			add_initiator_backers = { c:NEB }
+			add_target_backers = { c:POR c:M2N }
+			war = yes
+			type = dp_conquer_state
+			
+			add_war_goal = {
+				holder = c:NEB
+				type = conquer_state
+				target_state = s:STATE_RIO_GRANDE_DO_NORTE.region_state:BRZ
+			}
+			add_war_goal = {
+				holder = c:NEB
+				type = conquer_state
+				target_state = s:STATE_CEARA.region_state:M2N
+			}
+			add_war_goal = {
+				holder = c:NEB
+				type = conquer_state
+				target_state = s:STATE_PIAUI.region_state:M2N
+			}
+			add_war_goal = {
+				holder = c:NEB
+				type = conquer_state
+				target_state = s:STATE_MARANHAO.region_state:M2N
+			}
+			add_war_goal = {
+				holder = c:NEB
+				type = conquer_state
+				target_state = s:STATE_PARAIBA.region_state:BRZ
+			}
+			add_war_goal = {
+				holder = c:NEB
+				type = conquer_state
+				target_state = s:STATE_PERNAMBUCO.region_state:BRZ
+			}
+			add_war_goal = {
+				holder = c:BRZ
+				type = annex_country
+				target_country = c:NEB
+			}
+		}			
+	}
+}

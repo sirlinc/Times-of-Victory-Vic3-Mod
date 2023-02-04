@@ -4,6 +4,7 @@
 			name = wars_of_the_three_kingdoms
 		
 			target_country = c:IRE
+			add_target_backers = { c:SCO }
 			
 			war = yes
 			
@@ -13,6 +14,11 @@
 				holder = c:ENG
 				type = annex_country
 				target_country = c:IRE
+			}
+			add_war_goal = {
+				holder = c:ENG
+				type = dp_make_puppet
+				target_country = c:SCO
 			}
 			add_war_goal = {
 				holder = c:IRE
@@ -29,36 +35,9 @@
 				type = make_puppet
 				target_country = c:ENG
 			}
-		}			
-	}
-	c:ENG = {
-		create_diplomatic_play = {
-			name = wars_of_the_three_kingdoms
-		
-			target_country = c:SCO
-			
-			war = yes
-			
-			type = dp_regime_change
-
-			add_war_goal = {
-				holder = c:ENG
-				type = dp_regime_change
-				target_country = c:SCO
-			}
-			add_war_goal = {
-				holder = c:ENG
-				type = dp_make_puppet
-				target_country = c:SCO
-			}
 			add_war_goal = {
 				holder = c:SCO
 				type = dp_regime_change
-				target_state = c:ENG
-			}
-			add_war_goal = {
-				holder = c:SCO
-				type = dp_make_puppet
 				target_country = c:ENG
 			}
 		}			
