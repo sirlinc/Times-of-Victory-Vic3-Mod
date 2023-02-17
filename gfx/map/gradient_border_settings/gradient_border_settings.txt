@@ -14,7 +14,7 @@ default = {
 	gradient_parameters = {
 		zoom_step = @zoom_step_ultra_near
 
-		gradient_alpha_inside = 	0
+		gradient_alpha_inside = 	0.1
 		gradient_alpha_outside = 	0
 		gradient_width = 			0.05
 		gradient_color_mult =		@color_multi
@@ -29,7 +29,7 @@ default = {
 	gradient_parameters = {
 		zoom_step = @zoom_step_near
 
-		gradient_alpha_inside = 	0
+		gradient_alpha_inside = 	0.25
 		gradient_alpha_outside = 	0.0
 		gradient_width = 			0.05
 		gradient_color_mult =		@color_multi
@@ -44,8 +44,8 @@ default = {
 	gradient_parameters = {
 		zoom_step = @zoom_step_mid
 
-		gradient_alpha_inside = 	0
-		gradient_alpha_outside = 	0.0
+		gradient_alpha_inside = 	0.45
+		gradient_alpha_outside = 	0.1
 		gradient_width = 			0.1
 		gradient_color_mult =		@color_multi
 		edge_width = 				0.05

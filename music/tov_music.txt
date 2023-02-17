@@ -1,0 +1,34 @@
+﻿##### MOOD
+
+tov_main_theme = {
+	music = "file:/music/tov_themes/tov_main_theme.ogg"
+	name = "01_The_Jubilee"
+	pause_factor = 0
+	mood = yes
+	can_be_interrupted = yes
+}
+
+eu4_autunno = {
+	music = "file:/music/tov_themes/l_autunno_eu4.ogg"
+	name = "02_L_Autunno"
+	pause_factor = 0
+	mood = yes
+	can_be_interrupted = yes
+}
+
+eu3_a_cruce_victoria = {
+	music = "file:/music/tov_themes/a_cruce_victoria_eu3.mp3"
+	name = "03_A_Cruce_Victoria"
+	pause_factor = 0
+	mood = yes
+	can_be_interrupted = yes
+}
+
+confutatis_maledictis = {
+	music = "file:/music/tov_themes/confutatis_maledictis.mp3"
+	name = "04_Confutatis_Maledictis"
+	pause_factor = 0
+	mood = yes
+	can_be_interrupted = yes
+}
+

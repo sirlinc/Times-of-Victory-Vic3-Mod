@@ -31,7 +31,7 @@ objective_hegemon = {
 	background = "gfx/interface/icons/objectives/hegemon_illu.dds"
 	icon = "gfx/interface/icons/objectives/hegemon.dds"
 	
-	recommended_tags = { AUS SPA JAP BRM }	
+	recommended_tags = { PRU SPA JAP EGY }	
 	
 	objective_subgoals = {
 		sg_colonization_laws
@@ -43,6 +43,7 @@ objective_hegemon = {
 		sg_greatest_power
 		sg_greater_power
 		sg_great_power
+		sg_unrecognized_power
 		sg_the_hegemon
 	}
 	

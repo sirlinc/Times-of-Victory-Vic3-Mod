@@ -1,0 +1,3 @@
+﻿modifier_transfer_state = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+}
