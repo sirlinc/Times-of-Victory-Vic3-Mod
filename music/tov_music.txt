@@ -1,34 +1,62 @@
 ﻿##### MOOD
 
-tov_main_theme = {
+01_the_jubilee = {
 	music = "file:/music/tov_themes/tov_main_theme.ogg"
-	name = "01_The_Jubilee"
+	name = "01_the_jubilee"
 	pause_factor = 0
 	mood = yes
-	can_be_interrupted = yes
+	can_be_interrupted = no
 }
 
-eu4_autunno = {
+02_l_autunno = {
 	music = "file:/music/tov_themes/l_autunno_eu4.ogg"
-	name = "02_L_Autunno"
+	name = "02_l_autunno"
 	pause_factor = 0
 	mood = yes
 	can_be_interrupted = yes
 }
 
-eu3_a_cruce_victoria = {
+03_a_cruce_victoria = {
 	music = "file:/music/tov_themes/a_cruce_victoria_eu3.mp3"
-	name = "03_A_Cruce_Victoria"
+	name = "03_a_cruce_victoria"
 	pause_factor = 0
 	mood = yes
 	can_be_interrupted = yes
 }
 
-confutatis_maledictis = {
+04_signs_of_victory = {
+	music = "file:/music/tov_themes/signs_of_victory_eu4.mp3"
+	name = "04_signs_of_victory"
+	pause_factor = 0
+	mood = yes
+	can_be_interrupted = yes
+	
+	#is_valid = {
+	#	
+	#}
+}
+05_undisclosed_tactics = {
+	music = "file:/music/tov_themes/undisclosed_tactics_eu4.mp3"
+	name = "05_undisclosed_tactics"
+	pause_factor = 0
+	mood = yes
+	can_be_interrupted = yes
+	
+	#is_valid = {
+	#	
+	#}
+}
+
+#WAR THEMES
+war_theme_confutatis_maledictis = {
 	music = "file:/music/tov_themes/confutatis_maledictis.mp3"
-	name = "04_Confutatis_Maledictis"
+	name = "war_theme_confutatis_maledictis"
 	pause_factor = 0
 	mood = yes
-	can_be_interrupted = yes
+	can_be_interrupted = no
+	
+	is_valid = {
+		is_at_war = yes
+		is_country_alive = yes
+	}
 }
-

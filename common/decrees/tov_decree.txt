@@ -1,0 +1,74 @@
+﻿# texture = filename								The icon that will show up in the Lens and on the map when this Focus is deployed
+# modifier											The effects this Decree has on its state
+# cost												The cost in AUT to set this Decree on a state (scales with Power Rank)
+# unlocking_technologies							A list of technologies, at least one of which must be known to the country to use this Focus
+# unlocking_laws									A list of laws, at least one which must be active in the country to use this Focus. If the country switches away from all unlocking laws the Focus will be removed
+# valid												A trigger in state context that determines if the Decree is permitted or not; should invalidate the Decree on a weekly basis if found invalid 
+# ai_weight											Scripted value which determines the chance of getting the Decree by AI
+
+decree_send_missionaries = {
+	texture = "gfx/interface/icons/decree/decree_send_missionaries.dds"
+	modifier = {
+		state_conversion_mult = 1.25
+		interest_group_ig_devout_pop_attraction_mult = 0.15	
+	}
+	valid = {
+		OR = {
+			has_law = law_type:law_state_religion
+			has_law = law_type:law_freedom_of_conscience
+		}
+	}
+	#unlocking_technologies = { 
+	#	centralization
+	#}
+	cost = 100
+
+	ai_weight = {
+		value = 0
+		
+		if = {
+			limit = { 
+				turmoil >= 0.5	
+			
+			}
+			add = 100
+		}
+		if = {
+			limit = { 
+				turmoil >= 0.75	
+			
+			}
+			add = 100
+		}
+		if = {
+			limit = {
+				scope:country = {
+					OR = {
+						has_strategy = ai_strategy_reactionary_agenda
+						has_strategy = ai_strategy_maintain_mandate_of_heaven
+					}
+				}
+			}
+			add = 100
+		}
+		if = {
+			limit = {
+				scope:country = {
+					OR = {
+						has_strategy = ai_strategy_progressive_agenda
+						has_law = law_type:law_total_separation
+					}
+				}
+			}
+			multiply = 0.5
+		}	
+		if = {
+			limit = {
+				scope:country = {
+					has_law = law_type:law_freedom_of_conscience
+				}
+			}
+			multiply = 0.75
+		}	
+	}
+}

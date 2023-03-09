@@ -1,0 +1,12 @@
+﻿category = {
+	id = "mx_category_02"
+	name = "Times_of_Victory_Soundtrack_categories"
+	tracks = {
+		"01_the_jubilee"
+		"02_l_autunno"
+		"03_a_cruce_victoria"
+		"04_signs_of_victory"
+		"05_undisclosed_tactics"
+		"war_theme_confutatis_maledictis"
+	}
+}

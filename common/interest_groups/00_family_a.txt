@@ -1,11 +1,8 @@
-﻿ig_armed_forces = {
-	color = hsv{ 0.09 0.29 0.39 }
-	texture = "gfx/interface/icons/ig_icons/armed_forces.dds"
+﻿ig_family_a = {
+	color = { 58 66 153 }
+	texture = "gfx/interface/icons/ig_icons/family_a.dds"
 	
 	ideologies = {
-		ideology_jingoist
-		ideology_loyalist
-		ideology_patriotic
 	}
 	
 	enable = {
@@ -13,9 +10,6 @@
 	}
 	
 	traits = {
-		ig_trait_patriotic_fervor
-		ig_trait_veteran_consultation
-		ig_trait_materiel_waste
 	}	
 	
 	on_enable = {}
@@ -24,56 +18,56 @@
 	
 	pop_potential = {
 		OR = {
-			is_pop_type = soldiers
-			is_pop_type = officers
 			is_pop_type = aristocrats
-			pop_is_discriminated = no
+			is_pop_type = clergymen
+			is_pop_type = officers
+			is_pop_type = farmers
 		}		
 	}
 	
 	pop_weight = {
 		value = 0
-		
-		add = {
-			desc = "POP_NOT_DISCRIMINATED"
-			if = {
-				limit = { 
-					pop_is_discriminated = no
-				}
-				value = 25
-			}
-		}		
-		
-		add = {
-			desc = "POP_SOLDIERS"
-			if = {
-				limit = { 
-					is_pop_type = soldiers
-				}
-				value = 100
-			}
-		}
-		
+	
 		add = {
 			desc = "POP_ARISTOCRATS"
 			if = {
 				limit = { 
 					is_pop_type = aristocrats
 				}
+				value = 250
+			}
+		}
+
+		add = {
+			desc = "POP_CLERGYMEN"
+			if = {
+				limit = { 
+					is_pop_type = clergymen
+				}
 				value = 50
 			}
-		}		
-	
+		}
+
 		add = {
 			desc = "POP_OFFICERS"
 			if = {
 				limit = { 
 					is_pop_type = officers
 				}
-				value = 200
+				value = 50
 			}
-		}
-					
+		}	
+
+		add = {
+			desc = "POP_FARMERS"
+			if = {
+				limit = { 
+					is_pop_type = farmers
+				}
+				value = 50
+			}
+		}			
+		
 		multiply = {
 			desc = "LEADER_POPULARITY"
 			scope:interest_group = {
@@ -102,15 +96,30 @@
 	}
 	
 	monarch_weight = {
-		value = 0.25
+		value = 0.0
+		if = {
+			limit = {
+				exists = scope:character 
+				has_ruling_interest_group = ig_family_a
+			}
+			add = 1.1
+		}
+		if = {
+			limit = {
+				exists = scope:character 
+				has_ruling_interest_group = ig_family_a
+				has_law = law_type:law_monarchy
+			}
+			add = 99.9
+		}
 	}
 	
 	commander_weight = {
-		value = 5.0
-	}
+		value = 2.0
+	}	
 	
 	noble_chance = {
-		value = 0.5
+		value = 1.0
 	}
 	
 	female_commander_chance = {	
@@ -119,7 +128,43 @@
 	
 	female_politician_chance = {
 		value = 0.0
-	}	
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_own_property
+				}
+				
+			}
+			add = {
+				value = 0.03
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_in_the_workplace
+				}
+				
+			}
+			add = {
+				value = 0.04
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_womens_suffrage
+				}
+				
+			}
+			add = {
+				value = 0.05
+			}
+		}
+	}
 	
 	# The chance that a commander belonging to this IG takes over leadership when it changes
 	# scope:character is the most popular commander in the IG

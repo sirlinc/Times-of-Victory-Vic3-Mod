@@ -1,0 +1,216 @@
+types politics_panel_types
+{
+	type politics_panel_families_content = hbox {
+		datacontext = "[AccessPlayer]"
+		
+		### Background
+		background = {
+				using = light_bg
+				alpha = 0.65
+				
+				modify_texture = {
+					texture = "gfx/interface/masks/fade_vertical_center.dds"
+					spriteType = Corneredstretched
+					spriteborder = { 0 0 }
+					blend_mode = alphamultiply
+				}
+				modify_texture = {
+					texture = "gfx/interface/masks/fade_horizontal_less_left.dds"
+					spriteType = Corneredstretched
+					spriteborder = { 0 0 }
+					blend_mode = alphamultiply
+				}
+			}
+		background = {
+			texture = "gfx/interface/illustrations/government/families_illustration.dds"
+			alpha = 0.3
+			fittype = end
+			
+			modify_texture = {
+				texture = "gfx/interface/masks/fade_vertical_center.dds"
+				spriteType = Corneredstretched
+				spriteborder = { 0 0 }
+				blend_mode = alphamultiply
+			}
+			modify_texture = {
+				texture = "gfx/interface/masks/fade_horizontal_less_left.dds"
+				spriteType = Corneredstretched
+				spriteborder = { 0 0 }
+				blend_mode = alphamultiply
+			}
+		}
+		hbox = {
+			widget = {
+				datacontext = "[InterestGroupPanel.GetInterestGroup]"
+				size = { 400 800 }
+				parentanchor = left
+				using = entry_bg_fancy
+			
+				flowcontainer = {
+					direction = vertical
+					parentanchor = hcenter
+					
+					### NAME
+					textbox = {
+						size = { 50 30 }
+						position = { -73 300 }
+						raw_text = "Family A"
+						autoresize = yes
+						using = fontsize_large
+						block "highlight_name" {}
+						elide = right
+					}
+				}
+			}
+			
+			}
+			widget = {
+				datacontext = "[AccessPlayer]"
+				size = { 400 800 }
+				parentanchor = left
+				using = entry_bg_fancy
+				
+				flowcontainer = {
+					direction = vertical
+					parentanchor = left
+					
+					textbox = {
+						text = "FAMILY_NAME"
+						autoresize = yes
+						parentanchor = left
+						align = nobaseline
+					}
+				}
+			}
+			widget = {
+				datacontext = "[AccessPlayer]"
+				size = { 400 800 }
+				parentanchor = left
+				using = entry_bg_fancy
+			
+				flowcontainer = {
+					direction = vertical
+					parentanchor = left
+					
+					textbox = {
+						text = "FAMILY_NAME"
+						autoresize = yes
+						parentanchor = left
+						align = nobaseline
+					}
+				}
+			}
+			widget = {
+				datacontext = "[AccessPlayer]"
+				size = { 400 800 }
+				parentanchor = left
+				using = entry_bg_fancy
+			
+				flowcontainer = {
+					direction = vertical
+					parentanchor = left
+					
+					textbox = {
+						text = "FAMILY_NAME"
+						position = { 10 10 }
+						autoresize = yes
+						parentanchor = left
+						align = nobaseline
+					}
+				}
+			}
+		}
+	}
+	type ig_item = widget {
+		layoutpolicy_horizontal = expanding
+		size = { 0 65 }
+		
+		tooltipwidget = {
+			FancyTooltip_IG = {}
+		}
+		
+		divider_clean = {}
+
+		hbox = {
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = expanding
+			spacing = 10 
+			margin_right = 15
+			margin_left = 10
+
+			ig_button = {
+				block "ig_icon_size" {
+					size = { 56 56 }
+				}
+				blockoverride "in_government_icon" {}
+			}
+
+			hbox = {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+
+				vbox = {
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = preferred
+					margin = { 0 5 }
+					
+					hbox = {
+						layoutpolicy_horizontal = expanding
+						textbox = {
+							margin_right = 5
+							autoresize = yes
+							text = "[InterestGroup.GetNameNoIcon]"
+							align = left|nobaseline
+							elide = right
+							block "fontsize_name" {
+								using = fontsize_large
+							}
+						}
+
+						button_icon_goto = {
+							size = { 25 25 }
+ 							onclick = "[InformationPanelBar.OpenInterestGroupPanel(InterestGroup.AccessSelf)]"
+							tooltip = "GO_TO_BUTTON_INTEREST_GROUP"
+							block "goto_visibility" {}
+ 						}
+
+ 						expand = {}
+					}
+					textbox = {
+						layoutpolicy_horizontal = expanding
+						size = { 0 20 }
+						raw_text = "[InterestGroup.GetApprovalRating] #bold ([InterestGroup.GetApprovalValue|=+])#!"
+						tooltip = "IG_APPROVAL_BREAKDOWN"
+						using = tooltip_below
+						align = nobaseline
+						elide = right
+					}
+				}
+				
+				textbox = {
+					autoresize = yes
+					text = "[InterestGroup.GetClout|%1]"
+					using = clout_tooltip_with_graph
+					align = nobaseline
+					block "fontsize_clout" {
+						using = fontsize_xxl
+					}
+				}
+			}
+
+			icon = {
+				visible = "[InterestGroup.GetPartyAffiliationHighest.IsValid]"
+				texture = "[InterestGroup.GetPartyAffiliationHighest.GetIcon]"
+				size = { 18 18 }
+				tooltip = "[InterestGroup.GetPartyAffiliationTooltip]"
+			}
+
+			icon = {
+				visible = "[Not(InterestGroup.GetPartyAffiliationHighest.IsValid)]"
+				texture = "gfx/interface/icons/generic_icons/undecided_icon.dds"
+				size = { 18 18 }
+				tooltip = "[InterestGroup.GetPartyAffiliationTooltip]"
+			}
+		}
+	}
+}
