@@ -251,7 +251,7 @@
 		}
 	}
 	s:STATE_ARAGON = {
-		region_state:SPA = {
+		region_state:ARN = {
 			create_pop = {
 				culture = spanish
 				size = 401200
@@ -267,7 +267,7 @@
 		}
 	}
 	s:STATE_CATALONIA = {
-		region_state:SPA = {
+		region_state:CTR = {
 			create_pop = {
 				culture = catalan
 				size = 704308
@@ -279,7 +279,7 @@
 		}
 	}
 	s:STATE_BALEARES = {
-		region_state:SPA = {
+		region_state:ARN = {
 			create_pop = {
 				culture = catalan
 				size = 145244
@@ -318,11 +318,21 @@
 		region_state:SPA = {
 			create_pop = {
 				culture = spanish
-				size = 989604
+				size = 459604
 			}
 			create_pop = {
 				culture = catalan
-				size = 490392
+				size = 220392
+			}
+		}
+		region_state:ARN = {
+			create_pop = {
+				culture = spanish
+				size = 459604
+			}
+			create_pop = {
+				culture = catalan
+				size = 270392
 			}
 		}
 	}

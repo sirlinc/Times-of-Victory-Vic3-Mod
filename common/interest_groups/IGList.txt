@@ -1,0 +1,9 @@
+#Nobility
+#Landowners
+#Devout
+#Armed Forces
+#Haute Bourgeoisie (Industrialists)
+#Moyenne Bourgeoisie (Intelligentsia)
+#Petty Bourgeoisie
+#Rural Folk
+#Trade Unions

@@ -295,7 +295,7 @@
 		}
 	}
 	s:STATE_HIGHLANDS = {
-		region_state:ENG = {
+		region_state:SCO = {
 			create_pop = {
 				culture = scottish
 				size = 672396
@@ -355,7 +355,7 @@
 		}
 	}
 	s:STATE_LOWLANDS = {
-		region_state:GBR = {
+		region_state:SCO = {
 			create_pop = {
 				culture = scottish
 				size = 1397200
@@ -398,7 +398,7 @@
 		}
 	}
 	s:STATE_MUNSTER = {
-		region_state:GBR = {
+		region_state:IRE = {
 			create_pop = {
 				culture = irish # Catholics
 				size = 2214388
@@ -424,7 +424,7 @@
 		}
 	}
 	s:STATE_LEINSTER = {
-		region_state:ENG = {
+		region_state:IRE = {
 			create_pop = {
 				culture = irish # Catholics
 				size = 1677581
@@ -459,14 +459,14 @@
 		}
 	}
 	s:STATE_CONNAUGHT = {
-		region_state:GBR = {
+		region_state:ENG = {
 			create_pop = {
 				culture = irish # Catholics
-				size = 1319428
+				size = 119428
 			}
 			create_pop = {
 				culture = british # Anglicans
-				size = 28463
+				size = 8463
 			}
 			create_pop = {
 				culture = irish # Anglicans
@@ -482,16 +482,44 @@
 				size = 5170
 			}
 		}
+		region_state:IRE = {
+			create_pop = {
+				culture = irish # Catholics
+				size = 869428
+			}
+			create_pop = {
+				culture = british # Anglicans
+				size = 58463
+			}
+			create_pop = {
+				culture = british  # Presbyterians and Methodists
+				size = 1683
+			}
+			create_pop = {
+				culture = irish  # Presbyterians and Methodists
+				size = 1291
+			}
+		}
 	}
 	s:STATE_ILE_DE_FRANCE = {
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 1306800
+				size = 400000
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 26000
+				size = 10000
+			}
+		}
+		region_state:FRA = {
+			create_pop = {
+				culture = french
+				size = 400000
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 16000
 			}
 		}
 	}
@@ -676,11 +704,21 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = occitan
-				size = 1546844
+				size = 746844
 			}
 			create_pop = {
 				culture = basque
-				size = 180000
+				size = 100055
+			}
+		}
+		region_state:FR2 = {
+			create_pop = {
+				culture = occitan
+				size = 824844
+			}
+			create_pop = {
+				culture = basque
+				size = 60978
 			}
 		}
 	}

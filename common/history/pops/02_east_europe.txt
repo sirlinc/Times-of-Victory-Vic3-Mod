@@ -252,10 +252,36 @@
 		}
 	}
 	s:STATE_LUHANSK = {
-		region_state:RUS = {
+		region_state:CRI = {
 			create_pop = {
 				culture = ukrainian
-				size = 1914584
+				size = 614584
+			}
+			create_pop = {
+				culture = south_german
+				size = 3996
+			}
+			create_pop = {
+				culture = russian
+				size = 161992
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 41000
+			}
+			create_pop = {
+				culture = north_german
+				size = 16000
+			}
+			create_pop = {
+				culture = greek
+				size = 20400
+			}
+		}
+		region_state:ZAP = {
+			create_pop = {
+				culture = ukrainian
+				size = 914584
 			}
 			create_pop = {
 				culture = south_german
@@ -309,7 +335,7 @@
 		}
 	}
 	s:STATE_CHERSON = {
-		region_state:RUS = {
+		region_state:ZAP = {
 			create_pop = {
 				culture = ukrainian
 				size = 986108
@@ -321,6 +347,28 @@
 			create_pop = {
 				culture = polish
 				size = 40000
+			}
+			create_pop = {
+				culture = russian
+				size = 36008
+			}
+			create_pop = {
+				culture = tatar
+				size = 20000
+			}
+		}
+		region_state:POL = {
+			create_pop = {
+				culture = ukrainian
+				size = 386108
+			}
+			create_pop = {
+				culture = south_italian
+				size = 20000
+			}
+			create_pop = {
+				culture = polish
+				size = 70000
 			}
 			create_pop = {
 				culture = russian

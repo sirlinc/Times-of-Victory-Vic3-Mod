@@ -146,7 +146,7 @@ STATES = {
 		}
 
 		create_state = {
-			country = c:FRA
+			country = c:FR2
 			owned_provinces = { x31C0DF x1727F7 xC03918 xB0C0E0 xBBB6AD x6D5E3F xB040E0 x3040E0 xCB9C34 xB0C060 }
 		}
 		
@@ -155,7 +155,7 @@ STATES = {
 	}
 	s:STATE_NORMANDY = {
 		create_state = {
-			country = c:FRA
+			country = c:FR2
 			owned_provinces = { x0B7098 x90A040 x79C0E6 x065CAE xA786BB x9020C0 xD642B5 xB06080 x65728E x1020C0 xB8903B }
 		}
 		
@@ -5017,7 +5017,11 @@ STATES = {
 	s:STATE_AQUITAINE = {
 		create_state = {
 			country = c:FRA
-			owned_provinces = { x76BA85 xF0A080 xBBF036 xA220D0 x606DEC x70A080 x086618 x5F7F2D x3784B2 x6E16BB xCD8E77 xF02080 x073FC4 }
+			owned_provinces = { x76BA85 xF0A080 x606DEC x70A080 x086618 x5F7F2D x3784B2 x6E16BB xCD8E77 xF02080 x073FC4 }
+		}
+		create_state = {
+			country = c:FR2
+			owned_provinces = { xBBF036 xA220D0 }
 		}
 		
 		add_homeland = french

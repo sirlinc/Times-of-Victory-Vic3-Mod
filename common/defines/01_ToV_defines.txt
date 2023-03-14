@@ -1,5 +1,5 @@
 ﻿NGame = {
 	START_DATE = "1648.10.24" 
-	END_DATE = "1936.1.1
+	END_DATE = "1836.1.1
 	
 }

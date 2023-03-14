@@ -91,6 +91,14 @@
 	}
 	c:SPA = {
 		create_diplomatic_pact = {
+			country = c:ARN
+			type = personal_union
+		}
+		create_diplomatic_pact = {
+			country = c:MIL
+			type = personal_union
+		}
+		create_diplomatic_pact = {
 			country = c:NAP
 			type = personal_union
 		}
