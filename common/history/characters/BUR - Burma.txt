@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:BUR = {
+		create_character = {
+			first_name = "Pindale Min"
+			last_name = "Toungoo"
+			ruler = yes
+			age = 40
+			}
+		}	
+}

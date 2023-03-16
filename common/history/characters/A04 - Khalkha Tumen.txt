@@ -1,0 +1,13 @@
+﻿CHARACTERS = {
+		c:A04 = {
+		create_character = {
+			# Khagan Gombodorj Borjigin
+			#role = politician # Remove this line
+			first_name = "Gombodorj"
+			last_name = "Borjigin"
+			ruler = yes
+			age = 31
+			is_general = yes # Both general and IG leader
+			}
+		}
+	}

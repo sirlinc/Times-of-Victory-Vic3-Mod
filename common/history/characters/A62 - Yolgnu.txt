@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:A62 = {
+		create_character = {
+			first_name = "Gali_Yalkarriwuy"
+			last_name = "Gurruwiwi"
+			ruler = yes
+			age = 40
+			}
+		}	
+}

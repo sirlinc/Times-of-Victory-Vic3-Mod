@@ -1,0 +1,19 @@
+﻿DIPLOMATIC_PLAYS = {
+	c:CHI = {
+		create_diplomatic_play = {
+			name = war_for_the_mandate_of_heaven
+		
+			target_country = c:A06
+			
+			war = yes
+			
+			type = dp_annex_country
+			
+			add_war_goal = {
+				holder = c:A06
+				type = annex_country
+				target_country = c:CHI
+			}			
+		}	
+	}
+}

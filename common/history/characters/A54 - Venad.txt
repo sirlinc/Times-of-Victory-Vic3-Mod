@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:A54 = {
+		create_character = {
+			first_name = "Rama_Varma_I"
+			last_name = "Venad"
+			ruler = yes
+			age = 19
+			}
+		}	
+}

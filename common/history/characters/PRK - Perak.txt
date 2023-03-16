@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:PRK = {
+		create_character = {
+			first_name = "Muzaffar"
+			last_name = "Shah_II"
+			ruler = yes
+			age = 44
+			}
+	}	
+}

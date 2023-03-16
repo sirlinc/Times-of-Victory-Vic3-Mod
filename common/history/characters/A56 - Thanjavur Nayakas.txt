@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:A56 = {
+		create_character = {
+			first_name = "Vijaya_Raghava"
+			last_name = "Nayaka"
+			ruler = yes
+			age = 38
+			}
+		}	
+}

@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:BRU = {
+		create_character = {
+			first_name = "Abdul"
+			last_name = "Jalilul_Akbar"
+			ruler = yes
+			age = 61
+			}
+		}	
+}

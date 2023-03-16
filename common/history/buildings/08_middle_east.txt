@@ -1,9 +1,9 @@
 ﻿BUILDINGS={
 	s:STATE_NEJD={
-		region_state:NEJ={
+		region_state:B11={
 			create_building={
 				building="building_livestock_ranch"
-				level=2
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
@@ -14,9 +14,31 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
+		region_state:B13={
+			create_building={
+				building="building_livestock_ranch"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_barracks"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+		}
+		region_state:B14={
+			create_building={
+				building="building_barracks"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+		}
 	}
 	s:STATE_OMAN={
-		region_state:OMA={
+		region_state:POR={
 			create_building={
 				building="building_shipyards"
 				level=1
@@ -25,19 +47,19 @@
 			}
 			create_building={
 				building="building_fishing_wharf"
-				level=2
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
 			}
 			create_building={
 				building="building_naval_base"
-				level=5
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_man_o_wars" "pm_frigates" "pm_commerce_raider" "pm_no_naval_theory" }
 			}
 			create_building={
 				building="building_barracks"
-				level=5
+				level=6
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
@@ -48,9 +70,37 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
+		region_state:B07={
+			create_building={
+				building="building_fishing_wharf"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
+			}
+			create_building={
+				building="building_barracks"
+				level=12
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+		}
+		region_state:B08={
+			create_building={
+				building="building_barracks"
+				level=8
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+		}
 	}
 	s:STATE_ABU_DHABI={
-		region_state:ABU={
+		region_state:B10={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -59,7 +109,7 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=1
+				level=5
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
@@ -72,20 +122,6 @@
 		}
 	}
 	s:STATE_YEMEN={
-		region_state:LAH={
-			create_building={
-				building="building_coffee_plantation"
-				level=2
-				reserves=1
-				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned" }
-			}		
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}	
-		}
 		region_state:ZAI={
 			create_building={
 				building="building_wheat_farm"
@@ -101,9 +137,23 @@
 			}
 			create_building={
 				building="building_coffee_plantation"
-				level=1
+				level=5
 				reserves=1
 				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_barracks"
+				level=13
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+		}
+		region_state:MAH={
+			create_building={
+				building="building_fishing_wharf"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
 			}
 			create_building={
 				building="building_barracks"
@@ -112,21 +162,20 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:HDJ={
+		region_state:KAT={
 			create_building={
-				building="building_fishing_wharf"
-				level=1
+				building="building_barracks"
+				level=5
 				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
+				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
-
-		}
+		}	
 	}
 	s:STATE_HEDJAZ={
-		region_state:HDJ={
+		region_state:B17={
 			create_building={
 				building="building_livestock_ranch"
-				level=2
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
@@ -136,13 +185,55 @@
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
+			}
+		}
+		region_state:B18={
+			create_building={
+				building="building_livestock_ranch"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_barracks"
+				level=8
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+		}
+		region_state:ZAI={
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
+			}
+			create_building={
+				building="building_barracks"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
 		}
 	}
 	s:STATE_HAIL={
-		region_state:JAB={
+		region_state:B14={
 			create_building={
 				building="building_barracks"
-				level=2
+				level=6
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}		
+		}
+		region_state:B16={
+			create_building={
+				building="building_barracks"
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}		
@@ -165,7 +256,7 @@
 		}
 	}
 	s:STATE_TRANSJORDAN={
-		region_state:EGY={
+		region_state:TUR={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -178,7 +269,7 @@
 		}
 	}
 	s:STATE_PALESTINE={
-		region_state:EGY={
+		region_state:TUR={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -200,7 +291,7 @@
 		}
 	}
 	s:STATE_LEBANON={
-		region_state:EGY={
+		region_state:TUR={
 			create_building={
 				building="building_millet_farm"
 				level=1
@@ -222,7 +313,7 @@
 		}
 	}
 	s:STATE_SYRIA={
-		region_state:EGY={
+		region_state:TUR={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -262,7 +353,7 @@
 		}
 	}
 	s:STATE_ALEPPO={
-		region_state:EGY={
+		region_state:TUR={
 			create_building={
 				building="building_glassworks"
 				level=2
@@ -898,7 +989,7 @@
 		}
 	}
 	s:STATE_ADANA={
-		region_state:EGY={
+		region_state:TUR={
 			create_building={
 				building="building_cotton_plantation"
 				level=1

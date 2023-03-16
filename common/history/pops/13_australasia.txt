@@ -1,140 +1,306 @@
-﻿POPS = {
-	s:STATE_NEW_SOUTH_WALES = {
-		region_state:NSW = {
+﻿POPS = { #Balanced for 1 million overall; will decrease to disease
+	s:STATE_NEW_SOUTH_WALES = { #500k
+		region_state:A75 = {
 			create_pop = {
-				culture = aborigine
-				size = 63200
+				culture = koori
+				size = 90000
 			}
 			create_pop = {
-				culture = australian
-				size = 101384
+				culture = murri
+				size = 10000
+			}
+		}
+		region_state:A79 = {
+			create_pop = {
+				culture = koori
+				size = 80000
 			}
 			create_pop = {
-				culture = irish
-				size = 16080
+				culture = murri
+				size = 30000
+			}
+		}
+		region_state:A80 = {
+			create_pop = {
+				culture = koori
+				size = 30000
+			}
+			create_pop = {
+				culture = murri
+				size = 70000
+			}
+		}
+		region_state:A81 = {
+			create_pop = {
+				culture = koori
+				size = 10000
+			}
+			create_pop = {
+				culture = murri
+				size = 90000
+			}
+		}
+		region_state:A82 = {
+			create_pop = {
+				culture = murri
+				size = 100000
 			}
 		}
 	}
-	s:STATE_VICTORIA = {
-		region_state:NSW = {
+	s:STATE_VICTORIA = { #130k
+		region_state:A74 = {
 			create_pop = {
-				culture = aborigine
-				size = 31118
+				culture = koori
+				size = 40000
 			}
 			create_pop = {
-				culture = australian
-				size = 24676
+				culture = nunga
+				size = 25000
+			}
+		}
+		region_state:A76 = {
+			create_pop = {
+				culture = koori
+				size = 60000
+			}
+			create_pop = {
+				culture = nunga
+				size = 5000
 			}
 		}
 	}
-
-	s:STATE_TASMANIA = {
-		region_state:TAS = {
+	s:STATE_TASMANIA = { #15k
+		region_state:A87 = {
 			create_pop = {
-				culture = aborigine
-				size = 12208
-			}
-			create_pop = {
-				culture = australian
-				size = 11319
+				culture = palawa
+				size = 15000
 			}
 		}
 	}
-	s:STATE_QUEENSLAND = {
-		region_state:NSW = {
+	s:STATE_QUEENSLAND = { #205k
+		region_state:A62 = {
 			create_pop = {
-				culture = aborigine
-				size = 59200
+				culture = murri
+				size = 35000
+			}
+		}
+		region_state:A64 = {
+			create_pop = {
+				culture = murri
+				size = 37000
+			}
+		}
+		region_state:A65 = {
+			create_pop = {
+				culture = murri
+				size = 23000
 			}
 			create_pop = {
-				culture = australian
+				culture = anangu
+				size = 5000
+			}
+		}
+		region_state:A83 = {
+			create_pop = {
+				culture = murri
+				size = 30000
+			}
+			create_pop = {
+				culture = melanesian
+				size = 5000
+			}
+		}
+		region_state:A84 = {
+			create_pop = {
+				culture = murri
+				size = 27000
+			}
+			create_pop = {
+				culture = anangu
+				size = 2000
+			}
+		}
+		region_state:A85 = {
+			create_pop = {
+				culture = murri
+				size = 7000
+			}
+			create_pop = {
+				culture = anangu
+				size = 3000
+			}
+		}
+	}
+	s:STATE_SOUTH_AUSTRALIA = { #50k
+		region_state:A72 = {
+			create_pop = {
+				culture = nunga
+				size = 7000
+			}		
+			create_pop = {
+				culture = anangu
+				size = 3000
+			}
+		}
+		region_state:A73 = {
+			create_pop = {
+				culture = nunga
+				size = 32000
+			}		
+			create_pop = {
+				culture = anangu
+				size = 3000
+			}
+		}
+		region_state:A89 = {
+			create_pop = {
+				culture = nunga
+				size = 500
+			}		
+			create_pop = {
+				culture = anangu
+				size = 4500
+			}
+		}
+	}
+	s:STATE_WESTERN_AUSTRALIA = { #85k
+		region_state:A69 = {
+			create_pop = {
+				culture = nyungar
+				size = 20000
+			}		
+			create_pop = {
+				culture = anangu
+				size = 7000
+			}
+		}
+		region_state:A70 = {
+			create_pop = {
+				culture = nyungar
+				size = 43000
+			}
+		}
+		region_state:A88 = {
+			create_pop = {
+				culture = nyungar
+				size = 10000
+			}
+			create_pop = {
+				culture = anangu
+				size = 5000
+			}
+		}
+	}
+	s:STATE_NORTHERN_TERRITORY = { #20k
+		region_state:A63 = {
+			create_pop = {
+				culture = anangu
+				size = 3000
+			}
+			create_pop = {
+				culture = murri
+				size = 1000
+			}
+		}
+		region_state:A66 = {
+			create_pop = {
+				culture = anangu
+				size = 3000
+			}
+			create_pop = {
+				culture = murri
+				size = 1000
+			}
+		}
+		region_state:A67 = {
+			create_pop = {
+				culture = anangu
+				size = 4000
+			}
+		}
+		region_state:A68 = {
+			create_pop = {
+				culture = anangu
+				size = 4000
+			}
+		}
+		region_state:A71 = {
+			create_pop = {
+				culture = anangu
 				size = 4000
 			}
 		}
 	}
-	s:STATE_SOUTH_AUSTRALIA = {
-		region_state:SAS = {
-			create_pop = {
-				culture = australian
-				size = 10500
-			}		
-			create_pop = {
-				culture = aborigine
-				size = 32000
-			}
-		}
-	}
-	s:STATE_WESTERN_AUSTRALIA = {
-		region_state:WAS = {
-			create_pop = {
-				culture = aborigine
-				size = 47500
-			}
-			create_pop = {
-				culture = australian
-				size = 3004
-			}
-		}
-		region_state:NNG = {
-			create_pop = {
-				culture = aborigine
-				size = 21100
-			}
-		}
-	}
-	s:STATE_NORTHERN_TERRITORY = {
-		region_state:NSW = {
-			create_pop = {
-				culture = aborigine
-				size = 31804
-			}
-		}
-	}
 	s:STATE_NORTH_ISLAND = {
-		region_state:UNT = {
+		region_state:A60 = {
 			create_pop = {
 				culture = maori
-				religion = protestant
-				size = 30000
+				size = 100000
 			}
-			create_pop = {
-				culture = maori
-				size = 25000
-			}
-		}
-		region_state:NSW = {
-			create_pop = {
-				culture = maori
-				size = 5000
-			}
-			create_pop = {
-				culture = australian
-				size = 1004
-			}
-		}
-		region_state:NTO = {
-			create_pop = {
-				culture = maori
-				size = 32000
-			}
-		}
 	}
 	s:STATE_SOUTH_ISLAND = {
-		region_state:NTO = {
-			create_pop = {
-				culture = australian
-				size = 428
-			}
+		region_state:A61 = {
 			create_pop = {
 				culture = maori
-				size = 12000
+				size = 40000
+			}
+	}
+}
+	s:STATE_EASTERN_LOWLANDS = { #20k
+		region_state:A77 = {
+			create_pop = {
+				culture = koori
+				size = 3000
+			}
+			create_pop = {
+				culture = murri
+				size = 1000
 			}
 		}
-		region_state:NTU = {
+		region_state:A78 = {
 			create_pop = {
-				culture = maori
-				size = 64000
+				culture = koori
+				size = 3000
+			}
+			create_pop = {
+				culture = anangu
+				size = 1000
+			}
+		}
+		region_state:A86 = {
+			create_pop = {
+				culture = murri
+				size = 3000
+			}
+			create_pop = {
+				culture = anangu
+				size = 1000
+			}
+		}
+		region_state:A90 = {
+			create_pop = {
+				culture = murri
+				size = 4000
+			}
+		}
+		region_state:A91 = {
+			create_pop = {
+				culture = koori
+				size = 3000
+			}
+			create_pop = {
+				culture = nunga
+				size = 1000
+			}
+		}
+		region_state:A92 = {
+			create_pop = {
+				culture = koori
+				size = 2000
+			}
+			create_pop = {
+				culture = murri
+				size = 2000
 			}
 		}
 	}
-}

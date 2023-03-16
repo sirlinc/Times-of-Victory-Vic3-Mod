@@ -20,7 +20,7 @@
 		}
 	}
 	s:STATE_SICHUAN={
-		region_state:CHI={
+		region_state:A06={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -54,7 +54,7 @@
 		}
 	}
 	s:STATE_YUNNAN={
-		region_state:CHI={
+		region_state:A06={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -69,13 +69,13 @@
 			}
 			create_building={
 				building="building_tea_plantation"
-				level=10
+				level=8
 				reserves=1
 				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_opium_plantation"
-				level=10
+				level=8
 				reserves=1
 				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
@@ -140,7 +140,7 @@
 		}
 	}
 	s:STATE_SHAOZHOU={
-		region_state:CHI={
+		region_state:A06={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -212,7 +212,7 @@
 		}
 	}
 	s:STATE_GUANGXI={
-		region_state:CHI={
+		region_state:A06={
 			create_building={
 				building="building_government_administration"
 				level=7
@@ -524,7 +524,7 @@
 		}
 	}
 	s:STATE_GUANGDONG={
-		region_state:CHI={
+		region_state:A06={
 			create_building={
 				building="building_government_administration"
 				level=8
@@ -608,7 +608,7 @@
 		}
 	}
 	s:STATE_FUJIAN={
-		region_state:CHI={
+		region_state:A06={
 			create_building={
 				building="building_government_administration"
 				level=7
@@ -874,7 +874,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-				region_state:A06={
+		region_state:A06={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -1495,13 +1495,11 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-			region_state:BUR={
+		region_state:BUR={
+			}
+		region_state:A13={
 			}
 		}
-			region_state:A13={
-			}
-		}
-	}
 	s:STATE_KACHIN={
 		region_state:BUR={
 			create_building={
@@ -2276,7 +2274,6 @@
 			}
 		}
 	}
-}
 
 
 

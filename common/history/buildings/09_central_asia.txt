@@ -222,7 +222,7 @@
 	s:STATE_URALSK={
 		region_state:A41={
 		}
-		region_state:KAZ={
+		region_state:A94={
 		}
 	}
 	s:STATE_KHIVA={
@@ -370,11 +370,11 @@
 		}
 	}
 	s:STATE_SEMIRECHE={
-		region_state:KAZ={
+		region_state:A94={
 		}
 	}
 	s:STATE_AKMOLINSK={
-		region_state:KAZ={
+		region_state:A94={
 		}
 	}
 	s:STATE_PASHTUNISTAN={
@@ -579,7 +579,7 @@
 		region_state:SIK={
 			create_building={
 				building="building_barracks"
-				level=1
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
@@ -587,7 +587,7 @@
 		region_state:BHU={
 			create_building={
 				building="building_barracks"
-				level=2
+				level=6
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
@@ -611,7 +611,22 @@
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
+		}
 		region_state:A45={
+			create_building={
+				building="building_rice_farm"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_fig_orchards" }
+			}
+			create_building={
+				building="building_barracks"
+				level=9
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+		}
+		region_state:B05={
 			create_building={
 				building="building_rice_farm"
 				level=1
@@ -627,103 +642,3 @@
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

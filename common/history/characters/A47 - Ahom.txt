@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:A47 = {
+		create_character = {
+			first_name = "Sutamla"
+			last_name = "Ahom"
+			ruler = yes
+			age = 70
+			}
+		}	
+}

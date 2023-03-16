@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:B01 = {
+		create_character = {
+			first_name = "Bahawal"
+			last_name = "Abbasi"
+			ruler = yes
+			age = 59
+			}
+		}	
+}

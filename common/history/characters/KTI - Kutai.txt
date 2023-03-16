@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:KTI = {
+		create_character = {
+			first_name = "Aji"
+			last_name = "Pangeran_Sinum_Panji_Mendapa"
+			ruler = yes
+			age = 50
+			}
+		}	
+}

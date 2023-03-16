@@ -1,0 +1,13 @@
+﻿CHARACTERS = {
+		c:A03 = {
+		create_character = {
+			# Abdullah Khan
+			#role = politician # Remove this line
+			first_name = "Erdenebaatar"
+			last_name = "Choros"
+			ruler = yes
+			age = 18
+			is_general = yes # Both general and IG leader
+			}
+		}
+}

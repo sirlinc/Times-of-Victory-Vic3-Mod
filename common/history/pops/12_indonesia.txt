@@ -39,7 +39,7 @@
 				size = 50000
 			}		
 		}
-		region_state:DEI = {
+		region_state:A23 = {
 			create_pop = {
 				culture = malay
 				size = 30000

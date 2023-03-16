@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:A21 = {
+		create_character = {
+			first_name = "Sedo"
+			last_name = "ing_Rajek"
+			ruler = yes
+			age = 27
+			}
+		}	
+}

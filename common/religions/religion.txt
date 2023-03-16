@@ -138,3 +138,33 @@ gedimu = {
 		liquor wine
 	} 
 }
+
+tikanga = {
+	texture = "gfx/interface/icons/religion_icons/animist.dds"
+	traits = {
+		animist
+	}
+	color = { 0.1 0.1 0.1 }
+	
+}
+
+the_dreaming = {
+	texture = "gfx/interface/icons/religion_icons/animist.dds"
+	traits = {
+		animist
+	}
+	color = { 0.3 0.6 0.6 }
+	
+}
+
+ibadi = {
+	texture = "gfx/interface/icons/religion_icons/shiite.dds"
+	traits = {
+		muslim
+	}
+	color = { 0.19 0.40 0.37 }
+	
+	taboos = {
+		liquor wine
+	} 
+}

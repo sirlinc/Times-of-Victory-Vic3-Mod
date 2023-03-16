@@ -1,0 +1,12 @@
+﻿CHARACTERS = {
+		c:A09 = {
+		create_character = {
+			# Nguyễn Phúc Tần
+			#role = politician # Remove this line
+			first_name = "Phuc_Tan"
+			last_name = "Nguyen"
+			ruler = yes
+			age = 28
+			}
+	}
+}

@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:A94 = {
+		create_character = {
+			first_name = "Salqam_Jangir"
+			last_name = "Khan"
+			ruler = yes
+			age = 38
+			}
+		}	
+}

@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:A95 = {
+		create_character = {
+			first_name = "Bhara"
+			last_name = "Namgyal"
+			ruler = yes
+			age = 50
+			}
+		}	
+}

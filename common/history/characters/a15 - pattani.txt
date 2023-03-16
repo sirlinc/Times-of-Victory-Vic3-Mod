@@ -7,4 +7,5 @@
 			ruler = yes
 			age = 24
 			}
-		}	
+	}	
+}	

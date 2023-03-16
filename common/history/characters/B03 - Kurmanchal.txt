@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:B03 = {
+		create_character = {
+			first_name = "Baz_Bahadur"
+			last_name = "Chand"
+			ruler = yes
+			age = 28
+			}
+		}	
+}

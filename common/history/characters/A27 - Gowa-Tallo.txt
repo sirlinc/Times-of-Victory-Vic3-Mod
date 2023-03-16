@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:A27 = {
+		create_character = {
+			first_name = "Malikussaid"
+			last_name = "of_Gowa-Tallo"
+			ruler = yes
+			age = 41
+			}
+		}	
+}

@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:MGD = {
+		create_character = {
+			first_name = "Muhammad"
+			last_name = "Kudarat"
+			ruler = yes
+			age = 30
+			}
+		}	
+}

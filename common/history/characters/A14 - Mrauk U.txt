@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:A14 = {
+		create_character = {
+			first_name = "Thado"
+			last_name = "Narapatigyi"
+			ruler = yes
+			age = 27
+			}
+	}
+}

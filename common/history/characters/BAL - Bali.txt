@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:BAL = {
+		create_character = {
+			first_name = "Anglurah"
+			last_name = "Agung"
+			ruler = yes
+			age = 40
+			}
+		}	
+}

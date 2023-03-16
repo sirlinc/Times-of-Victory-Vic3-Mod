@@ -1,0 +1,12 @@
+﻿CHARACTERS = {
+		c:A08 = {
+		create_character = {
+			# Trịnh Tráng
+			#role = politician # Remove this line
+			first_name = "Trang"
+			last_name = "Trinh"
+			ruler = yes
+			age = 71
+			}
+	}
+}

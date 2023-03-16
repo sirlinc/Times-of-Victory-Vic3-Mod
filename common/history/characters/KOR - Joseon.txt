@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:KOR = {
+		create_character = {
+			first_name = "Injo"
+			last_name = "Joseon"
+			ruler = yes
+			age = 52
+			}
+		}	
+}

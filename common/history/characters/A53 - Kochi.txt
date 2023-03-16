@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:A53 = {
+		create_character = {
+			first_name = "Veera_Kerala"
+			last_name = "Varma_IV"
+			ruler = yes
+			age = 49
+			}
+		}	
+}

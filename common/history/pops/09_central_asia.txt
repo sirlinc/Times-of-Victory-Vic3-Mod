@@ -274,7 +274,7 @@
 			}
 		}
 
-		region_state:KAZ = {
+		region_state:A94 = {
 			create_pop = {
 				culture = kazak
 				size = 30000
@@ -548,7 +548,7 @@
 		}
 	}
 	s:STATE_SEMIRECHE = {
-		region_state:KAZ = {
+		region_state:A94 = {
 			create_pop = {
 				culture = kazak
 				size = 164162
@@ -595,7 +595,7 @@
 		}
 	}
 	s:STATE_AKMOLINSK = {
-		region_state:KAZ = {
+		region_state:A94 = {
 			create_pop = {
 				culture = kazak
 				size = 260000
@@ -623,7 +623,7 @@
 		}
 	}
 	s:STATE_WESTERN_AFGHANISTAN = {
-		region_state:AFG = {
+		region_state:A43 = {
 			create_pop = {
 				culture = tajik
 				size = 370172
@@ -707,7 +707,7 @@
 		}
 	}
 	s:STATE_EASTERN_AFGHANISTAN = {
-		region_state:AFG = {
+		region_state:A43 = {
 			create_pop = {
 				culture = pashtun
 				size = 1131236
@@ -807,7 +807,7 @@
 		region_state:A01 = {
 			create_pop = {
 				culture = tibetan
-				size = 1820000
+				size = 1784000
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -819,6 +819,16 @@
 				size = 54000
 			}
 		}
+		region_state:B06 = {
+			create_pop = {
+				culture = tibetan
+				religion = animist
+				size = 30000
+			}
+			create_pop = {
+				culture = tibetan
+				size = 4000
+			}
 	}
 	s:STATE_NGARI = {
 		region_state:A01 = {
@@ -858,15 +868,15 @@
 				size = 16004
 			}
 		}
-		region_state:A46 = {
+		region_state:B05 = {
 			create_pop = {
 				culture = nepali
-				size = 229204
+				size = 209204
 			}
 			create_pop = {
 				culture = bihari
 				religion = animist
-				size = 82000
+				size = 62000
 			}
 			create_pop = {
 				culture = tibetan
@@ -878,25 +888,40 @@
 				size = 27008
 			}
 		}
-		region_state:A45 = {
+		region_state:A46 = {
 			create_pop = {
 				culture = nepali
 				religion = hindu
-				size = 209204
+				size = 189204
 			}
 			create_pop = {
 				culture = nepali
-				size = 69204
+				size = 60204
 			}
 			create_pop = {
 				culture = bihari
 				religion = animist
-				size = 52000
+				size = 49000
 			}
 			create_pop = {
 				culture = tibetan
 				size = 72008
 			}
 		}
+		region_state:A45 = {
+			create_pop = {
+			culture = nepali
+			religion = hindu
+			size = 17204
+		}
+			create_pop = {
+			culture = nepali
+			size = 52204
+		}
+			create_pop = {
+			culture = tibetan
+			size = 3708
+		}
 	}
+}
 }

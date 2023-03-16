@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:STG = {
+		create_character = {
+			first_name = "Tunggal"
+			last_name = "of_Sintang"
+			ruler = yes
+			age = 54
+			}
+		}	
+}

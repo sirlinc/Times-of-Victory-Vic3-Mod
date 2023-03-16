@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:A24 = {
+		create_character = {
+			first_name = "Amangkurat_I"
+			last_name = "Agung"
+			ruler = yes
+			age = 29
+			}
+		}	
+}

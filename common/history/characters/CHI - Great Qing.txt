@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:CHI = {
+		create_character = {
+			first_name = "Shunzhi"
+			last_name = "of_the_Aisin-Gioro"
+			ruler = yes
+			age = 10
+			}
+		}	
+}

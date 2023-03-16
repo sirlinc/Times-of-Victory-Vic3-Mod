@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:A41 = {
+		create_character = {
+			first_name = "Shukhur"
+			last_name = "Daichin"
+			ruler = yes
+			age = 37
+			}
+		}	
+}

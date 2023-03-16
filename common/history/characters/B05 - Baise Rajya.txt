@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:B04 = {
+		create_character = {
+			first_name = "Bahadurasahi"
+			last_name = "Kalyal"
+			ruler = yes
+			age = 41
+			}
+		}	
+}

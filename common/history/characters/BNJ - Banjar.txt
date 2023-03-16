@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:BNJ = {
+		create_character = {
+			first_name = "Saidullah"
+			last_name = "of_Banjar"
+			ruler = yes
+			age = 31
+			}
+		}	
+}

@@ -1,0 +1,12 @@
+﻿CHARACTERS = {
+		c:A06 = {
+		create_character = {
+			# Yongli Emperor
+			#role = politician # Remove this line
+			first_name = "Yongli"
+			last_name = "of_the_Ming_Dynasty"
+			ruler = yes
+			age = 25
+			}
+	}
+}

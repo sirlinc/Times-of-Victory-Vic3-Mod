@@ -6,4 +6,6 @@
 			ruler = yes
 			age = 31
 			}
-		}	
+		}
+	}
+	

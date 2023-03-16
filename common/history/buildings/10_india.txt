@@ -120,6 +120,9 @@
 		}
 		region_state:A48={
 		}
+		region_state:A97={
+		}
+
 	}
 	s:STATE_DELHI={
 		region_state:A43={
@@ -180,6 +183,34 @@
 			create_building={
 				building="building_barracks"
 				level=20
+				reserves=1
+				activate_production_methods={ "pm_line_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+		}
+		region_state:B03={
+			create_building={
+				building="building_tea_plantation"
+				level=1
+				reserves=1
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_barracks"
+				level=7
+				reserves=1
+				activate_production_methods={ "pm_line_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+		}
+		region_state:B04={
+			create_building={
+				building="building_tea_plantation"
+				level=1
+				reserves=1
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_barracks"
+				level=7
 				reserves=1
 				activate_production_methods={ "pm_line_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
@@ -294,7 +325,7 @@
 		}
 	}
 	s:STATE_KASHMIR={
-		region_state:A43={
+		region_state:A95={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -328,6 +359,20 @@
 			create_building={
 				building="building_barracks"
 				level=20
+				reserves=1
+				activate_production_methods={ "pm_line_infantry" "pm_cannon_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+		}
+		region_state:A43={
+			create_building={
+				building="building_logging_camp"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_merchant_guilds_building_logging_camp" "pm_no_equipment" "pm_road_carts" "pm_hardwood" }			
+			}
+			create_building={
+				building="building_barracks"
+				level=5
 				reserves=1
 				activate_production_methods={ "pm_line_infantry" "pm_cannon_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
@@ -391,7 +436,7 @@
 			}	
 			create_building={
 				building="building_tea_plantation"
-				level=7
+				level=3
 				reserves=1
 				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
@@ -415,29 +460,49 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=70
+				level=25
 				reserves=1
 				activate_production_methods={ "pm_line_infantry" "pm_cannon_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
+		}
+		region_state:B01={
+			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}
+			create_building={
+				building="building_tea_plantation"
+				level=2
+				reserves=1
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_barracks"
+				level=10
+				reserves=1
+				activate_production_methods={ "pm_line_infantry" "pm_cannon_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+		}
+		region_state:B02={
+			create_building={
+				building="building_tea_plantation"
+				level=1
+				reserves=1
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
+				}
+			create_building={
+				building="building_barracks"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_line_infantry" "pm_cannon_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+				}
+			}
+		}
 	}
 	s:STATE_NAGPUR={
-		region_state:BUN={
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_irregular_infantry" "pm_cannon_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
-			}
-		}
-		region_state:HYD={
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
-			}
-		}
-		region_state:NAG={
+		region_state:A43={
 			create_building={
 				building="building_textile_mills"
 				level=4
@@ -458,30 +523,12 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=20
+				level=15
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
-		region_state:BAS={
-			create_building={
-				building="building_textile_mills"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_handsewn_clothes" "pm_merchant_guilds_building_textile_mills" "pm_traditional_looms" "pm_craftsman_sewing" }
-			}
-			create_building={
-				building="building_opium_plantation"
-				level=1
-				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_dye_plantation"
-				level=2
-				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
-			}
+		region_state:A98={
 			create_building={
 				building="building_barracks"
 				level=10
@@ -651,19 +698,53 @@
 		}
 	}
 	s:STATE_RAJPUTANA={
-		region_state:A43={
+		region_state:BIK={
 			create_building={
 				building="building_barracks"
-				level=15
+				level=10
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
+		}
+		region_state:A43={
+			create_building={
+				building="building_barracks"
+				level=10
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
+			}
+		}
+		region_state:JAS={
+			create_building={
+				building="building_barracks"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
+			}
+		}
+		region_state:MEW={
 			create_building={
 				building="building_opium_plantation"
 				level=4
 				reserves=1
 				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
+			create_building={
+				building="building_barracks"
+				level=15
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
+			}
+		}
+		region_state:JOD={
+			create_building={
+				building="building_barracks"
+				level=15
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
+			}
+		}
+		region_state:JAI={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -775,6 +856,22 @@
 				level=4
 				reserves=1
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+		}
+		region_state:A99={
+			create_building={
+				building="building_logging_camp"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_merchant_guilds_building_logging_camp" "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+			}	
+		}
+		region_state:BIC={
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 	}

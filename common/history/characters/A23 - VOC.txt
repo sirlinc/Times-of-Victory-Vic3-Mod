@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:A23 = {
+		create_character = {
+			first_name = "Cornelis"
+			last_name = "van_der_Lijn"
+			ruler = yes
+			age = 40
+			}
+		}	
+}

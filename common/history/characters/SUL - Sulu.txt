@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:SUL = {
+		create_character = {
+			first_name = "Nasiruddin"
+			last_name = "II"
+			ruler = yes
+			age = 30
+			}
+		}	
+}

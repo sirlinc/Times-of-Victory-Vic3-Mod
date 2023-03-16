@@ -1,0 +1,11 @@
+﻿CHARACTERS = {
+	c:ACE = {
+		create_character = {
+			first_name = "Taj_ul-Alam_Safiatuddin"
+			last_name = "Syah"
+			ruler = yes
+			female = yes
+			age = 36
+			}
+		}	
+}

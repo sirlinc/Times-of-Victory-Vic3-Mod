@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:A25 = {
+		create_character = {
+			first_name = "Prabhu_Tawangalun"
+			last_name = "II"
+			ruler = yes
+			age = 31
+			}
+		}	
+}

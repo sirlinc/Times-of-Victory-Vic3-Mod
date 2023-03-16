@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:TID = {
+		create_character = {
+			first_name = "Saidi"
+			last_name = "of_Tidore"
+			ruler = yes
+			age = 30
+			}
+		}	
+}

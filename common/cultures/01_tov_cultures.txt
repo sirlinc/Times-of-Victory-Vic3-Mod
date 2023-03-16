@@ -166,7 +166,7 @@ khalkha={
 
 hui={
 	color= rgb{ 0 163 108 }
-	religion = gedimu
+	religion = sunni
 	traits = { sinosphere han_chinese east_asian_heritage }
 	male_common_first_names={
 		Chen
@@ -664,78 +664,6 @@ larantuqueiro={
 	}
 }
 
-even={
-	color= { 95 146 235 }
-	religion = animist
-	traits = { north_asian_heritage siberian_culture_group }
-	male_common_first_names={
-		Aysen
-		Aytal
-		Elley
-		Manchaary
-		Nyurgun
-	}
-	female_common_first_names = {
-		Anna
-		Natalia
-		Sardana
-		Zoya
-	}	
-	noble_last_names = {
-		Anabar
-		Darkhan
-		Kigilyakh
-	}
-	common_last_names={
-		Okhlopkov
-		Ondar
-		Pinigin
-		Shishigin
-		Shtyrov
-		Sivtsev
-	}
-	ethnicities = {
-		1 = circumpolar
-	}
-	graphics = asian
-}
-
-luorawetlan={
-	color= { 87 32 132 }
-	religion = animist
-	traits = { north_asian_heritage siberian_culture_group }
-	male_common_first_names={
-		Aysen
-		Aytal
-		Elley
-		Manchaary
-		Nyurgun
-	}
-	female_common_first_names = {
-		Anna
-		Natalia
-		Sardana
-		Zoya
-	}	
-	noble_last_names = {
-		Anabar
-		Darkhan
-		Kigilyakh
-	}
-	common_last_names={
-		Okhlopkov
-		Ondar
-		Pinigin
-		Shishigin
-		Shtyrov
-		Sivtsev
-	}
-	ethnicities = {
-		1 = circumpolar
-	}
-	graphics = asian
-}
-
 mughal={
 	color= { 58 108 60 }
 	religion = sunni
@@ -795,4 +723,294 @@ mughal={
 		1 = central_asian
 	}
 	graphics = asian
+}
+
+koori={ 
+	color= { 181 130 111 }
+	religion = the_dreaming
+	traits = { indigenous_oceanic_heritage aboriginal_australian }
+	male_common_first_names={
+		Bennelong
+		Billibellary
+		Calyute
+		Derrimut
+		Ellemarra
+		Jandamarra
+		Loongkoonan
+		Mokare
+		Morndi
+		Midgegooroo
+		Nemarluk
+		Pemulwy
+		Tollamareena
+		Tjyllyungoo
+		Umbarra
+		Wylie
+		Yagan
+		Yellagonga
+	}
+	female_common_first_names = {
+		Mindup
+		Naata
+		Yamup
+	}	
+	noble_last_names = {
+		Agwamin
+		Ayabakan
+		Badjiri
+		Bigambul
+		Bunuba
+		Dhiraila
+		Giabal Gulngay
+		Injinoo
+		Jarowair
+		Kooma
+		Kutjal
+		Quandamooka
+		Rakaya
+		Tepiti
+		Totj
+	}
+	common_last_names={
+		Bunurong
+		Lanne
+		Mullagh
+		Noongar
+		Nannup
+		Nungurray
+		Windich
+		Wonga
+		Wangkatha
+	}
+	ethnicities = {
+		1 = polynesian
+	}
+	graphics = generic
+}
+
+murri={ 
+	color= { 165 111 181 }
+	religion = the_dreaming
+	traits = { indigenous_oceanic_heritage aboriginal_australian }
+	male_common_first_names={
+		Bennelong
+		Billibellary
+		Calyute
+		Derrimut
+		Ellemarra
+		Jandamarra
+		Loongkoonan
+		Mokare
+		Morndi
+		Midgegooroo
+		Nemarluk
+		Pemulwy
+		Tollamareena
+		Tjyllyungoo
+		Umbarra
+		Wylie
+		Yagan
+		Yellagonga
+	}
+	female_common_first_names = {
+		Mindup
+		Naata
+		Yamup
+	}	
+	noble_last_names = {
+		Agwamin
+		Ayabakan
+		Badjiri
+		Bigambul
+		Bunuba
+		Dhiraila
+		Giabal Gulngay
+		Injinoo
+		Jarowair
+		Kooma
+		Kutjal
+		Quandamooka
+		Rakaya
+		Tepiti
+		Totj
+	}
+	common_last_names={
+		Bunurong
+		Lanne
+		Mullagh
+		Noongar
+		Nannup
+		Nungurray
+		Windich
+		Wonga
+		Wangkatha
+	}
+	ethnicities = {
+		1 = polynesian
+	}
+	graphics = generic
+}
+
+nyungar={ 
+	color= { 127 181 111 }
+	religion = the_dreaming
+	traits = { indigenous_oceanic_heritage aboriginal_australian }
+	male_common_first_names={
+		Bennelong
+		Billibellary
+		Calyute
+		Derrimut
+		Ellemarra
+		Jandamarra
+		Loongkoonan
+		Mokare
+		Morndi
+		Midgegooroo
+		Nemarluk
+		Pemulwy
+		Tollamareena
+		Tjyllyungoo
+		Umbarra
+		Wylie
+		Yagan
+		Yellagonga
+	}
+	female_common_first_names = {
+		Mindup
+		Naata
+		Yamup
+	}	
+	noble_last_names = {
+		Agwamin
+		Ayabakan
+		Badjiri
+		Bigambul
+		Bunuba
+		Dhiraila
+		Giabal Gulngay
+		Injinoo
+		Jarowair
+		Kooma
+		Kutjal
+		Quandamooka
+		Rakaya
+		Tepiti
+		Totj
+	}
+	common_last_names={
+		Bunurong
+		Lanne
+		Mullagh
+		Noongar
+		Nannup
+		Nungurray
+		Windich
+		Wonga
+		Wangkatha
+	}
+	ethnicities = {
+		1 = polynesian
+	}
+	graphics = generic
+}
+
+maori={
+	color= hsv{ 0.74 0.32 0.63 }
+	religion = tikanga
+	traits = { polynesian_group indigenous_oceanic_heritage }
+	male_common_first_names={
+		Auha
+		Koroki
+		Mahuta
+		Matutaera
+		Potatau
+		Rangi-Kahu
+		Tawhiao
+		Te_Ata-i
+		Te_Rata
+		Tukaroto
+		Pokaia
+	}
+	female_common_first_names = {
+		Hariata
+		Kahupeka
+		Parengaope
+		Ruawehea
+		Tarore
+		Tiahuia
+		Te_Tahuna
+		Ta_Puea
+		Te_Marama
+		Te_Kona
+		Tuhikura
+		Whakaawi
+	}	
+	noble_last_names = {
+		Herangi
+		Heke
+		Hongi
+		Te_Wherowhero
+		Whaanga
+	}
+	common_last_names={
+		Ataarangikaahu
+		Kenena
+		Ngapora
+		Raouparah
+		Wherowhero
+	}
+	ethnicities = {
+		1 = polynesian
+	}
+	graphics = generic
+}
+
+congo_pygmy={
+	color= { 93 136 60 }
+	religion = animist
+	traits = { central_african_culture_group african_heritage }
+	male_common_first_names={
+		Cakasekene
+		Cikombe
+		Cimbindu
+		Kangapu
+		Kaumba
+		Mbala
+		Mbumb
+		Mudib
+		Mulay
+		Mushidi
+		Mutand
+		Muteba
+		Nawej
+		Waranankong
+	}
+	female_common_first_names = {
+		Bulanda
+		Mabela
+		Tshiambuaya
+	}	
+	noble_last_names = {
+		Futa
+		Ilunga
+		Mbili
+	}
+	common_last_names={
+		Ditend
+		Isot
+		Kalong
+		Kamong
+		Kasang
+		Kat
+		Mukaz
+		Muteba
+		Nambing
+		Namwan
+		Naweej
+		Yaava
+	}
+	ethnicities = {
+		1 = african
+	}
+	graphics = african
 }

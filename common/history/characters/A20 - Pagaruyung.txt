@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:A20 = {
+		create_character = {
+			first_name = "Alam"
+			last_name = "Muningsyah"
+			ruler = yes
+			age = 44
+			}
+		}	
+}

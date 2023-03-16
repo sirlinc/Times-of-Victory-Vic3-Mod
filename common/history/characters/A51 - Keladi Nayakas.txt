@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:A51 = {
+		create_character = {
+			first_name = "Shivappa"
+			last_name = "Nayaka"
+			ruler = yes
+			age = 26
+			}
+		}	
+}

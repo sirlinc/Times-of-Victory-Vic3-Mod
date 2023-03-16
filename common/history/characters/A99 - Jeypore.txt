@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:A99 = {
+		create_character = {
+			first_name = "Veer_Vikram"
+			last_name = "Dev"
+			ruler = yes
+			age = 17
+			}
+		}	
+}
