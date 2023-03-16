@@ -378,6 +378,7 @@
 				religion = shiite
 				size = 5000
 			}
+		}
 		region_state:B15 = {
 			create_pop = {
 				culture = bedouin

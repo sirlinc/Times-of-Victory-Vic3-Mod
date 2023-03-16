@@ -54,7 +54,7 @@
 				size = 40000
 			}
 			create_pop = {
-				culture = nunga
+				culture = nyungar
 				size = 25000
 			}
 		}
@@ -64,7 +64,7 @@
 				size = 60000
 			}
 			create_pop = {
-				culture = nunga
+				culture = nyungar
 				size = 5000
 			}
 		}
@@ -72,7 +72,7 @@
 	s:STATE_TASMANIA = { #15k
 		region_state:A87 = {
 			create_pop = {
-				culture = palawa
+				culture = murri
 				size = 15000
 			}
 		}
@@ -96,7 +96,7 @@
 				size = 23000
 			}
 			create_pop = {
-				culture = anangu
+				culture = nyungar
 				size = 5000
 			}
 		}
@@ -116,7 +116,7 @@
 				size = 27000
 			}
 			create_pop = {
-				culture = anangu
+				culture = nyungar
 				size = 2000
 			}
 		}
@@ -126,7 +126,7 @@
 				size = 7000
 			}
 			create_pop = {
-				culture = anangu
+				culture = nyungar
 				size = 3000
 			}
 		}
@@ -134,31 +134,31 @@
 	s:STATE_SOUTH_AUSTRALIA = { #50k
 		region_state:A72 = {
 			create_pop = {
-				culture = nunga
+				culture = nyungar
 				size = 7000
 			}		
 			create_pop = {
-				culture = anangu
+				culture = nyungar
 				size = 3000
 			}
 		}
 		region_state:A73 = {
 			create_pop = {
-				culture = nunga
+				culture = nyungar
 				size = 32000
 			}		
 			create_pop = {
-				culture = anangu
+				culture = nyungar
 				size = 3000
 			}
 		}
 		region_state:A89 = {
 			create_pop = {
-				culture = nunga
+				culture = nyungar
 				size = 500
 			}		
 			create_pop = {
-				culture = anangu
+				culture = nyungar
 				size = 4500
 			}
 		}
@@ -170,7 +170,7 @@
 				size = 20000
 			}		
 			create_pop = {
-				culture = anangu
+				culture = nyungar
 				size = 7000
 			}
 		}
@@ -186,7 +186,7 @@
 				size = 10000
 			}
 			create_pop = {
-				culture = anangu
+				culture = nyungar
 				size = 5000
 			}
 		}
@@ -194,7 +194,7 @@
 	s:STATE_NORTHERN_TERRITORY = { #20k
 		region_state:A63 = {
 			create_pop = {
-				culture = anangu
+				culture = nyungar
 				size = 3000
 			}
 			create_pop = {
@@ -204,7 +204,7 @@
 		}
 		region_state:A66 = {
 			create_pop = {
-				culture = anangu
+				culture = nyungar
 				size = 3000
 			}
 			create_pop = {
@@ -214,19 +214,19 @@
 		}
 		region_state:A67 = {
 			create_pop = {
-				culture = anangu
+				culture = nyungar
 				size = 4000
 			}
 		}
 		region_state:A68 = {
 			create_pop = {
-				culture = anangu
+				culture = nyungar
 				size = 4000
 			}
 		}
 		region_state:A71 = {
 			create_pop = {
-				culture = anangu
+				culture = nyungar
 				size = 4000
 			}
 		}
@@ -263,7 +263,7 @@
 				size = 3000
 			}
 			create_pop = {
-				culture = anangu
+				culture = nyungar
 				size = 1000
 			}
 		}
@@ -273,7 +273,7 @@
 				size = 3000
 			}
 			create_pop = {
-				culture = anangu
+				culture = nyungar
 				size = 1000
 			}
 		}
@@ -289,7 +289,7 @@
 				size = 3000
 			}
 			create_pop = {
-				culture = nunga
+				culture = nyungar
 				size = 1000
 			}
 		}

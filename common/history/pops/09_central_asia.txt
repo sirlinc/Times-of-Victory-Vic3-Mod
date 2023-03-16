@@ -22,7 +22,7 @@
 		}
 	}
 	s:STATE_KUBAN = {
-		region_state:RUS = {
+		region_state:CRI = {
 			create_pop = {
 				culture = north_caucasian
 				size = 528804
@@ -217,7 +217,7 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 2656396
+				size = 2056396
 			}
 			create_pop = {
 				culture = tatar
@@ -231,6 +231,20 @@
 				culture = north_german
 				religion = catholic
 				size = 35996
+			}
+		}
+		region_state:QKH = {
+			create_pop = {
+				culture = russian
+				size = 9196
+			}
+			create_pop = {
+				culture = tatar
+				size = 52200
+			}
+			create_pop = {
+				culture = finnish
+				size = 92200
 			}
 		}
 	}
