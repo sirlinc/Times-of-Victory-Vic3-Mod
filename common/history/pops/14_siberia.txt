@@ -130,32 +130,20 @@
 		region_state:A38 = {
 			create_pop = {
 				culture = inuit
-				size = 3580
-			}
-			create_pop = {
-				culture = luorawetlan
-				size = 6044
-			}
-			create_pop = {
-				culture = even
-				size = 2096
+				size = 12580
 			}
 		}
 	}
 	s:STATE_KAMCHATKA = {
 		region_state:A38 = {
 			create_pop = {
-				culture = luorawetlan
-				size = 4600
-			}
-			create_pop = {
-				culture = even
-				size = 2400
+				culture = yakut
+				size = 7600
 			}
 		}
 		region_state:A39 = {
 			create_pop = {
-				culture = luorawetlan
+				culture = yakut
 				size = 7600
 			}
 			create_pop = {
@@ -165,7 +153,7 @@
 		}
 		region_state:AIN = {
 			create_pop = {
-				culture = luorawetlan
+				culture = yakut
 				size = 1900
 			}
 			create_pop = {
@@ -179,11 +167,7 @@
 		region_state:A37 = {
 			create_pop = {
 				culture = yakut
-				size = 8008
-			}
-			create_pop = {
-				culture = even
-				size = 20196
+				size = 28008
 			}
 			create_pop = {
 				culture = ainu
@@ -200,7 +184,7 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = yakut
-				size = 21100
+				size = 19100
 			}
 			create_pop = {
 				culture = yakut
@@ -215,23 +199,15 @@
 				culture = tatar
 				size = 5009
 			}
-			create_pop = {
-				culture = even
-				size = 4400
-			}
 		}
 		region_state:A42 = {
 			create_pop = {
 				culture = yakut
-				size = 9100
-			}
-			create_pop = {
-				culture = even
-				size = 4400
+				size = 13100
 			}
 			create_pop = {
 				culture = ugrian
-				size = 2300
+				size = 7300
 			}
 		}
 	}
@@ -241,20 +217,16 @@
 		region_state:A36 = {
 			create_pop = {
 				culture = yakut
-				size = 5992
+				size = 15992
 			}
 			create_pop = {
 				culture = khalkha
 				religion = animist
-				size = 29996
+				size = 49996
 			}
 			create_pop = {
 				culture = khalkha
 				size = 1996
-			}
-			create_pop = {
-				culture = even
-				size = 17996
 			}
 			create_pop = {
 				culture = manchu
@@ -283,12 +255,8 @@
 				religion = gelugpa
 			}
 			create_pop = {
-				culture = even
-				size = 4996
-			}
-			create_pop = {
 				culture = yakut
-				size = 3996
+				size = 8996
 			}
 		}
 		region_state:A40 = {
@@ -302,12 +270,8 @@
 				religion = gelugpa
 			}
 			create_pop = {
-				culture = even
-				size = 6996
-			}
-			create_pop = {
 				culture = yakut
-				size = 2596
+				size = 7596
 			}
 		}
 	}

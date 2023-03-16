@@ -170,6 +170,8 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}	
+		region_state:B09={
+		}	
 	}
 	s:STATE_HEDJAZ={
 		region_state:B17={
@@ -240,7 +242,7 @@
 		}
 	}
 	s:STATE_CYPRUS={
-		region_state:TUR={
+		region_state:B37={
 			create_building={
 				building="building_wheat_farm"
 				level=1

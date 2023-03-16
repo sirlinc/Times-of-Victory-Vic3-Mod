@@ -292,6 +292,13 @@
 				size = 6000
 			}
 		}
+		region_state:B09 = {
+			create_pop = {
+				culture = yemenite
+				religion = sunni
+				size = 1000
+			}
+		}
 	}
 	s:STATE_HEDJAZ = {
 		region_state:B17 = {
@@ -415,15 +422,10 @@
 				culture = turkish
 				size = 1040
 			}
-			create_pop = {
-				pop_type = slaves
-				culture = north_caucasian
-				size = 200
-			}
 		}
 	}
 	s:STATE_CYPRUS = {
-		region_state:TUR = {
+		region_state:B37 = {
 			create_pop = {
 				culture = turkish
 				size = 43764
@@ -433,11 +435,6 @@
 				size = 100012
 			}
 			create_pop = {
-				culture = sephardic
-				religion = jewish
-				size = 670
-			}
-			create_pop = {
 				culture = mashriqi
 				religion = catholic
 				size = 859
@@ -445,12 +442,7 @@
 			create_pop = {
 				pop_type = slaves
 				culture = north_caucasian
-				size = 360
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = lacustrine_bantu
-				size = 3000
+				size = 7360
 			}
 		}
 	}

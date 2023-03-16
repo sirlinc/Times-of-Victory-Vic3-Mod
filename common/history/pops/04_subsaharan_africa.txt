@@ -166,7 +166,7 @@
 				size = 7966
 			}
 		}
-		region_state:GBR = {
+		region_state:COU = {
 			create_pop = {
 				culture = latvian
 				size = 2910
@@ -178,6 +178,23 @@
 			create_pop = {
 				culture = wolof
 				size = 7860
+			}
+		}
+		region_state:B56 = {
+			create_pop = {
+				culture = mande
+				religion = animist
+				size = 80400
+			}
+			create_pop = {
+				culture = mande
+				religion = animist
+				size = 4000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = mande
+				size = 8000
 			}
 		}
 		region_state:B57 = {
@@ -768,6 +785,26 @@
 				size = 14000
 			}
 		}
+		region_state:B66 = {
+			create_pop = {
+				culture = songhai
+				size = 33004
+			}
+			create_pop = {
+				culture = mossi
+				size = 34992
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = tuareg
+				size = 19000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = songhai
+				size = 14000
+			}
+		}
 		region_state:B75 = {
 			create_pop = {
 				culture = hausa
@@ -775,7 +812,7 @@
 			}
 			create_pop = {
 				culture = mossi
-				size = 46400
+				size = 36400
 			}
 			create_pop = {
 				culture = songhai
@@ -3504,6 +3541,7 @@
 				culture = nguni
 				size = 31996
 			}
+		}
 		region_state:C33 = {
 			create_pop = {
 				culture = shona
@@ -3570,10 +3608,16 @@
 		}
 	}
 	s:STATE_NAMAQUALAND = {
-		region_state:NAM = {
+		region_state:C09 = {
 			create_pop = {
 				culture = khoisan
-				size = 56000
+				size = 26000
+			}
+		}
+		region_state:C10 = {
+			create_pop = {
+				culture = khoisan
+				size = 21000
 			}
 			create_pop = {
 				culture = tswana
@@ -3583,6 +3627,12 @@
 				pop_type = slaves
 				culture = tswana
 				size = 4000
+			}
+		}
+		region_state:C11 = {
+			create_pop = {
+				culture = khoisan
+				size = 31000
 			}
 		}
 	}
