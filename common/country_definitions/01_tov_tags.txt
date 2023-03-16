@@ -3346,7 +3346,7 @@ A37 = { #Even
 	tier = principality
 	
 	capital = STATE_OKHOTSK
-	cultures = { even }
+	cultures = { yakut }
 	religion = animist
 }
 
@@ -3357,7 +3357,7 @@ A38 = { #Chukchi
 	tier = principality
 	
 	capital = STATE_CHUKOTKA
-	cultures = { luorawetlan }
+	cultures = { yakut }
 	religion = animist
 }
 
@@ -3368,7 +3368,7 @@ A39 = { #Itelmen
 	tier = principality
 	
 	capital = STATE_KAMCHATKA
-	cultures = { luorawetlan }
+	cultures = { yakut }
 	religion = animist
 }
 
@@ -3632,7 +3632,7 @@ A63 = { #Walmadjari
 	tier = principality
 	
 	capital = STATE_NORTHERN_TERRITORY
-	cultures = { anangu }
+	cultures = { murri }
 	religion = the_dreaming
 }
 
@@ -3665,7 +3665,7 @@ A66 = { #Wunambal
 	tier = principality
 	
 	capital = STATE_NORTHERN_TERRITORY
-	cultures = { anangu }
+	cultures = { nyungar }
 	religion = the_dreaming
 }
 
@@ -3676,7 +3676,7 @@ A67 = { #Marrngu
 	tier = principality
 	
 	capital = STATE_NORTHERN_TERRITORY
-	cultures = { anangu }
+	cultures = { murri }
 	religion = the_dreaming
 }
 
@@ -3687,7 +3687,7 @@ A68 = { #Ngayarda
 	tier = principality
 	
 	capital = STATE_NORTHERN_TERRITORY
-	cultures = { anangu }
+	cultures = { nyungar }
 	religion = the_dreaming
 }
 
@@ -3720,7 +3720,7 @@ A71 = { #Aṉangu
 	tier = principality
 	
 	capital = STATE_WESTERN_AUSTRALIA
-	cultures = { anangu }
+	cultures = { nyungar }
 	religion = the_dreaming
 }
 
@@ -3731,7 +3731,7 @@ A72 = { #Murunitja
 	tier = principality
 	
 	capital = STATE_SOUTH_AUSTRALIA
-	cultures = { nunga }
+	cultures = { nyungar }
 	religion = the_dreaming
 }
 
@@ -3742,7 +3742,7 @@ A73 = { #Yura
 	tier = principality
 	
 	capital = STATE_SOUTH_AUSTRALIA
-	cultures = { nunga }
+	cultures = { nyungar }
 	religion = the_dreaming
 }
 
@@ -3753,7 +3753,7 @@ A74 = { #Ngarrindjeri
 	tier = principality
 	
 	capital = STATE_VICTORIA
-	cultures = { nunga }
+	cultures = { nyungar }
 	religion = the_dreaming
 }
 
@@ -3764,7 +3764,7 @@ A75 = { #Tharawal
 	tier = principality
 	
 	capital = STATE_NEW_SOUTH_WALES
-	cultures = { nunga }
+	cultures = { koori }
 	religion = the_dreaming
 }
 
@@ -3896,7 +3896,7 @@ A87 = { #Palawa
 	tier = principality
 	
 	capital = STATE_TASMANIA
-	cultures = { palawa }
+	cultures = { koori }
 	religion = the_dreaming
 }
 
@@ -3918,7 +3918,7 @@ A89 = { #Yankunytjatjara
 	tier = principality
 	
 	capital = STATE_SOUTH_AUSTRALIA
-	cultures = { anangu }
+	cultures = { nyungar }
 	religion = the_dreaming
 }
 
