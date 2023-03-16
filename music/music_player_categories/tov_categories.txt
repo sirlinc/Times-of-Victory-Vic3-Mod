@@ -1,5 +1,5 @@
 ﻿category = {
-	id = "mx_category_02"
+	id = "mx_category_03"
 	name = "Times_of_Victory_Soundtrack_categories"
 	tracks = {
 		"01_the_jubilee"
