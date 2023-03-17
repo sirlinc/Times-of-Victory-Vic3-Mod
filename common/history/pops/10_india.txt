@@ -148,6 +148,7 @@
 				pop_type = slaves
 				culture = manipuri
 				size = 3000
+			}
 		}
 		region_state:A97 = {
 			create_pop = {

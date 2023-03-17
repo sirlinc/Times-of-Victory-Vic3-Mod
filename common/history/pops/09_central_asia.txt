@@ -29,11 +29,7 @@
 			}
 			create_pop = {
 				culture = greek
-				size = 4000
-			}
-			create_pop = {
-				culture = russian
-				size = 108808
+				size = 14000
 			}
 			create_pop = {
 				culture = ukrainian

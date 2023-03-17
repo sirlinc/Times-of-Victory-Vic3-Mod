@@ -499,7 +499,7 @@
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 60000
+				size = 10000
 			}
 		}
 		region_state:FR2 = {
