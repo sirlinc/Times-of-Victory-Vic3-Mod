@@ -956,8 +956,8 @@ K5K = { #Karankawa
 	
 	tier = principality
 	
-	cultures = { french }
-	capital = STATE_OHIO
+	cultures = { southeastern_woodlands }
+	capital = STATE_TEXAS
 }
 CKW = { #Chickasaw
 	color = { 204 156 0 }
@@ -966,8 +966,8 @@ CKW = { #Chickasaw
 	
 	tier = principality
 	
-	cultures = { french }
-	capital = STATE_OHIO
+	cultures = { southeastern_woodlands }
+	capital = STATE_MISSISSIPPI
 }
 M1C = { #Michigamea
 	color = { 62 54 21 }
@@ -1666,8 +1666,8 @@ CWH = { #Chactaw
 	
 	tier = principality
 	
-	cultures = { french }
-	capital = STATE_OHIO
+	cultures = { southeastern_woodlands }
+	capital = STATE_MISSISSIPPI
 }
 CKM = { #Chickamauga
 	color = { 86 76 20 }
@@ -1686,8 +1686,8 @@ CRK = { #Creek
 	
 	tier = principality
 	
-	cultures = { french }
-	capital = STATE_OHIO
+	cultures = { southeastern_woodlands }
+	capital = STATE_ALABAMA
 }
 HIT = { #Hitchiti
 	color = { 28 59 128 }
@@ -1706,8 +1706,8 @@ ALM = { #Alabama
 	
 	tier = principality
 	
-	cultures = { french }
-	capital = STATE_OHIO
+	cultures = { southeastern_woodlands }
+	capital = STATE_ALABAMA
 }
 MNE = { #Menominee 
 	color = { 81 201 179 }
@@ -1806,8 +1806,8 @@ CNS = { #Constanoan
 	
 	tier = principality
 	
-	cultures = { french }
-	capital = STATE_OHIO
+	cultures = { southeastern_woodlands }
+	capital = STATE_FLORIDA
 }
 CLU = { #calusa
 	color = { 255 124 116 }
@@ -1816,8 +1816,8 @@ CLU = { #calusa
 	
 	tier = principality
 	
-	cultures = { french }
-	capital = STATE_OHIO
+	cultures = { southeastern_woodlands }
+	capital = STATE_FLORIDA
 }
 TQ2 = { #Tacobaga
 	color = { 187 120 183 }
@@ -1826,8 +1826,8 @@ TQ2 = { #Tacobaga
 	
 	tier = principality
 	
-	cultures = { french }
-	capital = STATE_OHIO
+	cultures = { southeastern_woodlands }
+	capital = STATE_FLORIDA
 }
 TEQ = { #tequesta
 	color = { 255 253 124 }
@@ -1836,8 +1836,8 @@ TEQ = { #tequesta
 	
 	tier = principality
 	
-	cultures = { french }
-	capital = STATE_OHIO
+	cultures = { southeastern_woodlands }
+	capital = STATE_FLORIDA
 }
 CHM = { #Chitimacha
 
@@ -1847,8 +1847,8 @@ CHM = { #Chitimacha
 	
 	tier = principality
 	
-	cultures = { french }
-	capital = STATE_OHIO
+	cultures = { southeastern_woodlands }
+	capital = STATE_LOUISIANA
 }
 EIR = { #Eire
 

@@ -337,35 +337,48 @@ types music_player_types
 
 			size = { 320 180 }
 			parentanchor = right
+
+			### This is the default category button. If you want to have a texture/background image, you need to make a new button like the ones below with blockeroverrides and make sure to add the Not('your category name') into this big visible statement for the default button
+			music_category_button = {
+				visible = "[And( And( Not(ObjectsEqual('Times_of_Victory_Soundtrack', MusicPlayer.GetCategoryNameLocKey( MusicPlayerCategory.Self ))), Not(ObjectsEqual('Victoria_3_Soundtrack', MusicPlayer.GetCategoryNameLocKey( MusicPlayerCategory.Self ))), Not(ObjectsEqual('Victoria_3_Preorder', MusicPlayer.GetCategoryNameLocKey( MusicPlayerCategory.Self )))), Not(ObjectsEqual('Melodies_for_the_Masses', MusicPlayer.GetCategoryNameLocKey( MusicPlayerCategory.Self ))))]"
+			}
+			
+			### TIMES OF VICTORY SOUNDTRACK
+			music_category_button = {
+				visible = "[ObjectsEqual('Times_of_Vicotry_Soundtrack', MusicPlayer.GetCategoryNameLocKey( MusicPlayerCategory.Self ))]"
+
+				blockoverride "button_texture" {
+					texture = "gfx/interface/illustrations/music_player/tov_soundtrack.dds"
+				}
+			}
 			
 			### VICTORIA 3 SOUNDTRACK
 			music_category_button = {
-				visible = "[ObjectsEqual('Victoria 3 Soundtrack', MusicPlayer.GetCategoryName( MusicPlayerCategory.Self ))]"
+				visible = "[ObjectsEqual('Victoria_3_Soundtrack', MusicPlayer.GetCategoryNameLocKey( MusicPlayerCategory.Self ))]"
 
 				blockoverride "button_texture" {
 					texture = "gfx/interface/illustrations/music_player/victoria_3_soundtrack.dds"
 				}
 			}
 
+			### MELODIES FOR THE MASSES
+			music_category_button = {
+				visible = "[ObjectsEqual('Melodies_for_the_Masses', MusicPlayer.GetCategoryNameLocKey( MusicPlayerCategory.Self ))]"
+
+				blockoverride "button_texture" {
+					texture = "gfx/interface/illustrations/music_player/melodies_for_the_masses.dds"
+				}
+			}
+
 			### VICTORIA 2 SOUNDTRACK
 			music_category_button = {
-				visible = "[ObjectsEqual('Victoria 2 Soundtrack', MusicPlayer.GetCategoryName( MusicPlayerCategory.Self ))]"
+				visible = "[ObjectsEqual('Victoria_3_Preorder', MusicPlayer.GetCategoryNameLocKey( MusicPlayerCategory.Self ))]"
 
 				blockoverride "button_texture" {
 					texture = "gfx/interface/illustrations/music_player/victoria_2_soundtrack.dds"
 				}
 			}
-			
-			### Times of Victory Soundtrack
-			music_category_button = {
-				visible = "[ObjectsEqual('Times of Victory Soundtrack', MusicPlayer.GetCategoryName( MusicPlayerCategory.Self ))]"
 
-				blockoverride "button_texture" {
-					texture = "gfx/interface/illustrations/music_player/tov_soundtrack.dds"
-				}
-				#tooltip = "TOV_REQUIRED_TT"
-			}
-			
 			icon = {
 				visible = "[MusicPlayer.IsSelectedCategory( MusicPlayerCategory.Self )]"
 				using = highlighted_square_selection
@@ -398,7 +411,7 @@ types music_player_types
 				parentanchor = vcenter
 				position = { 10 0 }
 				name = "category_checkbox"
-				checked = "[ObjectsEqual('Enabled', MusicPlayer.GetCategoryEnabledText( MusicPlayerCategory.Self ))]"
+				checked = "[MusicPlayerCategory.IsEnabled]"
 				onclick = "[MusicPlayer.OnToggleCategoryEnabled( MusicPlayerCategory.AccessSelf )]"
 				using = tooltip_above
 			}
@@ -411,12 +424,12 @@ types music_player_types
 		using = check_button_sound
 		tooltip = "MUSIC_PLAYER_SELECT_CATEGORY"
 		using = tooltip_above
-		alpha = "[TransparentIfFalse(ObjectsEqual('Enabled', MusicPlayer.GetCategoryEnabledText( MusicPlayerCategory.Self )))]"
+		alpha = "[TransparentIfFalse( MusicPlayerCategory.IsEnabled )]"
 
 		block "button_texture" {
-			#using = default_button
-			#text = "[MusicPlayer.GetCategoryName( MusicPlayerCategory.Self )]"
-			#using = fontsize_xl
+			using = default_button
+			text = "[MusicPlayer.GetCategoryName( MusicPlayerCategory.Self )]"
+			using = fontsize_xl
 		}
 
 		modify_texture = {
@@ -452,7 +465,7 @@ types music_player_types
 			button_checkbox = {
 				size = { 30 30 }
 				name = "track_checkbox"
-				checked = "[ObjectsEqual('Enabled', MusicPlayer.GetTrackEnabledText( MusicTrack.Self ))]"
+				checked = "[MusicTrack.IsEnabled]"
 				using = check_button_sound
 				onclick = "[MusicPlayer.OnToggleTrackEnabled( MusicTrack.AccessSelf )]"
 				tooltip = "MUSIC_PLAYER_ENABLE_TRACK"
@@ -466,7 +479,7 @@ types music_player_types
 				size = { 0 35 }
 				tooltip = "MUSIC_PLAYER_PLAY_TRACK"
 				onclick = "[MusicPlayer.OnSelectAndPlayTrack( MusicTrack.Self )]"
-				alpha = "[TransparentIfFalse(ObjectsEqual('Enabled', MusicPlayer.GetTrackEnabledText( MusicTrack.Self )))]"
+				alpha = "[TransparentIfFalse( MusicTrack.IsEnabled )]"
 
 				textbox = {
 					visible = "[ObjectsEqual(MusicPlayer.GetTrackName( MusicTrack.Self ), MusicPlayer.GetPlayingTrackName)]"
