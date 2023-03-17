@@ -1336,8 +1336,8 @@ SIOUX = {
 	
 	tier = principality
 	
-	cultures = { french }
-	capital = STATE_OHIO
+	cultures = { siouan }
+	capital = STATE_SOUTH_DAKOTA
 }
 WAHPETON = { #Wahpeton
 	color = { 28 84 45 }
