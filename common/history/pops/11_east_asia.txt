@@ -4,16 +4,16 @@
 			create_pop = {
 				culture = altishahri
 				religion = sunni
-				size = 17588
+				size=9533
 			}
 			create_pop = {
 				culture = kazak
 				religion = sunni
-				size = 10996
+				size=4782
 			}
 			create_pop = {
 				culture = oirat
-				size = 120000
+				size=65043
 			}
 		}
 	}
@@ -21,7 +21,7 @@
 		region_state:A02 = {
 			create_pop = {
 				culture = altishahri
-				size = 684180
+				size=439262
 			}
 			create_pop = {
 				culture = uzbek
@@ -30,15 +30,15 @@
 			create_pop = {
 				culture = kirgiz
 				religion = animist
-				size = 32072
+				size=14820
 			}
 			create_pop = {
 				culture = hui
-				size = 52000
+				size=24675
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 16196
+				size=7812
 			}
 			create_pop = {
 				culture = tajik
@@ -50,7 +50,7 @@
 		region_state:A06 = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 9479900
+				size=4234744
 			}
 			create_pop = {
 				culture = manchu
@@ -58,16 +58,16 @@
 			}
 			create_pop = {
 				culture = tibetan
-				size = 1703796
+				size=1071531
 			}
 			create_pop = {
 				culture = yi
-				size = 1480000
+				size=781733
 			}
 			create_pop = {
 				culture = han # nanfaren
 				religion = animist
-				size = 1336004
+				size=541030
 			}
 		}
 	}
@@ -75,7 +75,7 @@
 		region_state:A06 = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 3478092
+				size=1429835
 			}
 			create_pop = {
 				culture = manchu
@@ -84,33 +84,33 @@
 			create_pop = {
 				culture = han # nanfaren
 				religion = animist
-				size = 1316000
+				size=539399
 			}
 			create_pop = {
 				culture = zhuang
-				size = 85796
+				size=49912
 			}
 			create_pop = {
 				culture = yi
-				size = 608596
+				size=248951
 			}
 			create_pop = {
 				culture = yue
-				size = 188000
+				size=92123
 			}
 			create_pop = {
 				culture = miao
-				size = 70000
+				size=39070
 			}
 			create_pop = {
 				culture = hui
-				size = 40000
+				size=19410
 			}
 		}
 		region_state:A07 = {
 			create_pop = {
 				culture = miao
-				size = 30000
+				size=12982
 			}
 			create_pop = {
 				culture = yi
@@ -121,7 +121,7 @@
 		region_state:A06 = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 3188452
+				size=1955641
 			}
 			create_pop = {
 				culture = manchu
@@ -129,19 +129,19 @@
 			}
 			create_pop = {
 				culture = zhuang
-				size = 892020
+				size=490565
 			}
 			create_pop = {
 				culture = yue
-				size = 304000
+				size=141844
 			}
 			create_pop = {
 				culture = miao
-				size = 236408
+				size=100858
 			}
 			create_pop = {
 				culture = hui
-				size = 16000
+				size=8594
 			}
 		}
 	}
@@ -149,15 +149,15 @@
 		region_state:A06 = {
 			create_pop = {
 				culture = yue
-				size = 3781992
+				size=2146701
 			}
 			create_pop = {
 				culture = hakka
-				size = 1564000
+				size=650595
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 2568000
+				size=1567310
 			}
 		}
 	}
@@ -165,7 +165,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = khalkha
-				size = 476392
+				size=192120
 			}
 			create_pop = {
 				culture = manchu
@@ -173,7 +173,7 @@
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 11600
+				size=6729
 			}
 		}
 	}
@@ -181,7 +181,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = khalkha
-				size = 536940
+				size=327752
 			}
 			create_pop = {
 				culture = manchu
@@ -189,7 +189,7 @@
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 12000
+				size=4963
 			}
 		}
 	}
@@ -197,7 +197,7 @@
 		region_state:A06 = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 7306504
+				size=4278031
 			}
 			create_pop = {
 				culture = manchu
@@ -205,15 +205,15 @@
 			}
 			create_pop = {
 				culture = zhuang
-				size = 4212000
+				size=2070635
 			}
 			create_pop = {
 				culture = yue
-				size = 3051996
+				size=1244237
 			}
 			create_pop = {
 				culture = miao
-				size = 303200
+				size=167754
 			}
 		}
 	}
@@ -221,15 +221,15 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 14597600
+				size=7072920
 			}
 			create_pop = {
 				culture = hui
-				size = 348400
+				size=218491
 			}
 			create_pop = {
 				culture = manchu
-				size = 81994
+				size=40216
 			}
 		}
 	}
@@ -237,15 +237,15 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 1291006
+				size=825864
 			}
 			create_pop = {
 				culture = hui
-				size = 80000
+				size=46065
 			}
 			create_pop = {
 				culture = manchu
-				size = 801994
+				size=389645
 			}
 		}
 	}
@@ -253,15 +253,15 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = manchu
-				size = 1303996
+				size=679638
 			}
 			create_pop = {
 				culture = korean
-				size = 11996
+				size=7443
 			}
 			create_pop = {
 				culture = siberian
-				size = 32800
+				size=15279
 			}
 		}
 	}
@@ -269,19 +269,19 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = manchu
-				size = 5210800
+				size=2734290
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 3011992
+				size=1603632
 			}
 			create_pop = {
 				culture = korean
-				size = 504000
+				size=244413
 			}
 			create_pop = {
 				culture = khalkha
-				size = 80412
+				size=49360
 			}
 		}
 	}
@@ -289,15 +289,15 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = manchu
-				size = 2821200
+				size=1780043
 			}
 			create_pop = {
 				culture = siberian
-				size = 32000
+				size=18122
 			}
 			create_pop = {
 				culture = khalkha
-				size = 236404
+				size=111745
 			}
 		}
 	}
@@ -305,11 +305,11 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 14377592
+				size=6446684
 			}
 			create_pop = {
 				culture = hui
-				size = 160000
+				size=103082
 			}
 			create_pop = {
 				culture = manchu
@@ -321,7 +321,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 6637392
+				size=3317567
 			}
 			create_pop = {
 				culture = manchu
@@ -329,11 +329,11 @@
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 1688000
+				size=717087
 			}
 			create_pop = {
 				culture = hui
-				size = 492200
+				size=262030
 			}
 		}
 	}
@@ -341,7 +341,7 @@
 		region_state:A05 = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 4233588
+				size=2023399
 			}
 			create_pop = {
 				culture = manchu
@@ -349,15 +349,15 @@
 			}
 			create_pop = {
 				culture = khalkha
-				size = 1735900
+				size=945525
 			}
 			create_pop = {
 				culture = hui
-				size = 401660
+				size=211526
 			}
 			create_pop = {
 				culture = kazak
-				size = 48000
+				size=21130
 			}
 		}
 	}
@@ -365,7 +365,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 8351000
+				size=4029261
 			}
 			create_pop = {
 				culture = manchu
@@ -373,11 +373,11 @@
 			}
 			create_pop = {
 				culture = khalkha
-				size = 1122488
+				size=688232
 			}
 			create_pop = {
 				culture = hui
-				size = 216304
+				size=94992
 			}
 		}
 	}
@@ -385,7 +385,7 @@
 		region_state:A01 = {
 			create_pop = {
 				culture = tibetan
-				size = 819404
+				size=391826
 			}
 			create_pop = {
 				culture = manchu
@@ -393,16 +393,16 @@
 			}
 			create_pop = {
 				culture = oirat
-				size = 264000
+				size=133943
 			}
 			create_pop = {
 				culture = kazak
 				religion = animist
-				size = 100000
+				size=48482
 			}
 			create_pop = {
 				culture = kazak
-				size = 56000
+				size=26651
 			}
 			create_pop = {
 				culture = hui
@@ -414,7 +414,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 19546404
+				size=12236718
 			}
 		}
 	}
@@ -422,7 +422,7 @@
 		region_state:A06 = {
 			create_pop = {
 				culture = yue
-				size = 9748000
+				size=5523670
 			}
 			create_pop = {
 				culture = manchu
@@ -430,34 +430,34 @@
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 774792
+				size=386058
 			}
 			create_pop = {
 				culture = min
-				size = 883996
+				size=563797
 			}
 			create_pop = {
 				culture = miao
-				size = 656004
+				size=418184
 			}
 			create_pop = {
 				culture = zhuang
-				size = 217000
+				size=129236
 			}
 			create_pop = {
 				culture = han # nanfaren
 				religion = animist
-				size = 204400
+				size=112950
 			}
 			create_pop = {
 				culture = hakka
-				size = 148000
+				size=88898
 			}
 		}
 		region_state:POR = {
 			create_pop = {
 				culture = yue
-				size = 336000
+				size=203937
 			}
 			create_pop = {
 				culture = portuguese
@@ -474,7 +474,7 @@
 		region_state:A06 = {
 			create_pop = {
 				culture = min
-				size = 9210004
+				size=5688197
 			}
 			create_pop = {
 				culture = manchu
@@ -482,15 +482,15 @@
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 4690204
+				size=2727178
 			}
 			create_pop = {
 				culture = hakka
-				size = 2096000
+				size=1319419
 			}
 			create_pop = {
 				culture = miao
-				size = 220004
+				size=107471
 			}
 		}
 	}
@@ -498,7 +498,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 6664400
+				size=3572452
 			}
 			create_pop = {
 				culture = manchu
@@ -506,16 +506,16 @@
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 2293708
+				size=997267
 			}
 			create_pop = {
 				culture = min
 				religion = animist
-				size = 352000
+				size=171895
 			}
 			create_pop = {
 				culture = miao
-				size = 156000
+				size=65572
 			}
 		}
 	}
@@ -523,7 +523,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 10985904
+				size=5378130
 			}
 			create_pop = {
 				culture = manchu
@@ -535,11 +535,11 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 11080192
+				size=6117892
 			}
 			create_pop = {
 				culture = manchu
-				size = 52000
+				size=22949
 			}
 		}
 	}
@@ -547,7 +547,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 20338400
+				size=11292916
 			}
 			create_pop = {
 				culture = manchu
@@ -555,7 +555,7 @@
 			}
 			create_pop = {
 				culture = hui
-				size = 589596
+				size=279585
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -568,7 +568,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 8446940
+				size=3885670
 			}
 			create_pop = {
 				culture = manchu
@@ -576,7 +576,7 @@
 			}
 			create_pop = {
 				culture = hui
-				size = 54528
+				size=30407
 			}
 		}
 	}
@@ -584,7 +584,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 10049900
+				size=5956650
 			}
 			create_pop = {
 				culture = manchu
@@ -592,33 +592,33 @@
 			}
 			create_pop = {
 				culture = hakka
-				size = 3054600
+				size=1598231
 			}
 			create_pop = {
 				culture = miao
-				size = 136000
+				size=65200
 			}
 			create_pop = {
 				culture = hui
-				size = 136000
+				size=64194
 			}
 		}
 		region_state:A06 = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 6549900
+				size=3429766
 			}
 			create_pop = {
 				culture = hakka
-				size = 1954600
+				size=1087535
 			}
 			create_pop = {
 				culture = miao
-				size = 126000
+				size=68689
 			}
 			create_pop = {
 				culture = hui
-				size = 100000
+				size=59877
 			}
 		}
 	}
@@ -626,7 +626,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 21473408
+				size=10021952
 			}
 			create_pop = {
 				culture = manchu
@@ -634,11 +634,11 @@
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 1051996
+				size=531183
 			}
 			create_pop = {
 				culture = hui
-				size = 304004
+				size=192220
 			}
 		}
 	}
@@ -646,11 +646,11 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 10312000
+				size=6311473
 			}
 			create_pop = {
 				culture = hui
-				size = 348000
+				size=214222
 			}
 		}
 	}
@@ -658,15 +658,15 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 12116000
+				size=6570637
 			}
 			create_pop = {
 				culture = hui
-				size = 144000
+				size=85266
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 884000
+				size=354312
 			}
 		}
 	}
@@ -674,7 +674,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 13222096
+				size=7805525
 			}
 			create_pop = {
 				culture = manchu
@@ -682,11 +682,11 @@
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 160400
+				size=64827
 			}
 			create_pop = {
 				culture = hui
-				size = 135996
+				size=81789
 			}
 		}
 	}
@@ -694,7 +694,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 12513400
+				size=5813508
 			}
 			create_pop = {
 				culture = manchu
@@ -702,11 +702,11 @@
 			}
 			create_pop = {
 				culture = yue
-				size = 491996
+				size=308965
 			}
 			create_pop = {
 				culture = miao
-				size = 384000
+				size=191277
 			}
 		}
 	}
@@ -722,7 +722,7 @@
 			}
 			create_pop = {
 				culture = formosan
-				size = 60100
+				size=39039
 			}
 		}
 		region_state:PHI = {
@@ -736,7 +736,7 @@
 			}
 			create_pop = {
 				culture = formosan
-				size = 18055
+				size=9957
 			}
 		}
 		region_state:A23 = {
@@ -750,7 +750,7 @@
 			}
 			create_pop = {
 				culture = formosan
-				size = 13255
+				size=6682
 			}
 		}
 	}
@@ -758,7 +758,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 15088000
+				size=8448502
 			}
 		}
 	}
@@ -766,7 +766,7 @@
 		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
-				size = 16836004
+				size=10877563
 			}
 		}
 	}
@@ -774,15 +774,15 @@
 		region_state:A04 = {
 			create_pop = {
 				culture = khalkha
-				size = 540608
+				size=257772
 			}
 			create_pop = {
 				culture = yakut
-				size = 12000
+				size=7612
 			}
 			create_pop = {
 				culture = kazak
-				size = 48000
+				size=25828
 			}
 		}
 	}
@@ -790,11 +790,11 @@
 		region_state:A04 = {
 			create_pop = {
 				culture = khalkha
-				size = 751104
+				size=400685
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 15996
+				size=8551
 			}
 			create_pop = {
 				culture = yakut
@@ -806,7 +806,7 @@
 		region_state:A13 = {
 			create_pop = {
 				culture = khmer
-				size = 176400
+				size=101036
 			}
 			create_pop = {
 				pop_type = slaves
@@ -815,7 +815,7 @@
 			}
 			create_pop = {
 				culture = yue
-				size = 11996
+				size=6329
 			}
 			create_pop = {
 				culture = thai
@@ -825,25 +825,25 @@
 		region_state:CAM = {
 			create_pop = {
 				culture = khmer
-				size = 623202
+				size=275764
 			}
 			create_pop = {
 				culture = yue
-				size = 23996
+				size=9893
 			}
 			create_pop = {
 				culture = khmer
 				religion = animist
-				size = 12000
+				size=6778
 			}
 			create_pop = {
 				culture = vietnamese
-				size = 13002
+				size=5571
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = khmer
-				size = 40204
+				size=25395
 			}
 		}
 	}
@@ -851,20 +851,20 @@
 		region_state:A13 = {
 			create_pop = {
 				culture = thai
-				size = 1534004
+				size=966284
 			}
 			create_pop = {
 				culture = malay
-				size = 184400
+				size=74145
 			}
 			create_pop = {
 				culture = yue
-				size = 154400
+				size=98656
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = yue
-				size = 30000
+				size=16316
 			}
 		}
 	}
@@ -872,29 +872,29 @@
 		region_state:A08 = {
 			create_pop = {
 				culture = vietnamese
-				size = 1841220
+				size=970720
 			}
 			create_pop = {
 				culture = miao
-				size = 96004
+				size=50648
 			}
 			create_pop = {
 				culture = vietnamese
 				religion = catholic
-				size = 228000
+				size=125971
 			}
 			create_pop = {
 				culture = yue
-				size = 28000
+				size=17956
 			}
 			create_pop = {
 				culture = min
-				size = 16000
+				size=9924
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = vietnamese
-				size = 20100
+				size=9543
 			}
 		}
 	}
@@ -902,32 +902,32 @@
 		region_state:A09 = {
 			create_pop = {
 				culture = vietnamese
-				size = 2040333
+				size=1151085
 			}
 			create_pop = {
 				culture = yue
-				size = 31996
+				size=20287
 			}
 			create_pop = {
 				culture = miao
-				size = 87900
+				size=48780
 			}
 			create_pop = {
 				culture = vietnamese
 				religion = catholic
-				size = 216000
+				size=118325
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = vietnamese
-				size = 30063
+				size=18751
 			}
 		}
 		region_state:A10 = {
 			create_pop = {
 				culture = cham
 				religion = animist
-				size = 16000
+				size=8493
 			}
 			create_pop = {
 				culture = cham
@@ -945,11 +945,11 @@
 		region_state:A11 = {
 			create_pop = {
 				culture = cham
-				size = 40000
+				size=18619
 			}
 			create_pop = {
 				culture = khmer
-				size = 20000
+				size=10976
 			}
 			create_pop = {
 				pop_type = slaves
@@ -959,17 +959,17 @@
 			create_pop = {
 				pop_type = slaves
 				culture = khmer
-				size = 10000
+				size=4225
 			}
 		}
 		region_state:CAM = {
 			create_pop = {
 				culture = khmer
-				size = 50396
+				size=21978
 			}
 			create_pop = {
 				culture = cham
-				size = 10000
+				size=4866
 			}
 			create_pop = {
 				culture = malay
@@ -980,20 +980,20 @@
 		region_state:A12 = {
 			create_pop = {
 				culture = lao
-				size = 280024
+				size=144699
 			}
 			create_pop = {
 				culture = miao
-				size = 40832
+				size=22756
 			}
 			create_pop = {
 				culture = khmu
-				size = 69000
+				size=39673
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = lao
-				size = 11004
+				size=5079
 			}
 			create_pop = {
 				pop_type = slaves
@@ -1006,24 +1006,24 @@
 		region_state:CMI = {
 			create_pop = {
 				culture = thai
-				size = 526096
+				size=328815
 			}
 			create_pop = {
 				culture = yue
-				size = 12004
+				size=6629
 			}
 			create_pop = {
 				culture = shan
-				size = 267500
+				size=167037
 			}
 			create_pop = {
 				culture = lao
-				size = 88400
+				size=39735
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = shan
-				size = 30200
+				size=14390
 			}
 		}
 	}
@@ -1031,40 +1031,40 @@
 		region_state:A13 = {
 			create_pop = {
 				culture = lao
-				size = 58000
+				size=28724
 			}
 			create_pop = {
 				culture = yue
-				size = 33000
+				size=19642
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = yue
-				size = 15000
+				size=7549
 			}
 			create_pop = {
 				culture = thai
-				size = 194312
+				size=82930
 			}
 			create_pop = {
 				culture = khmer
-				size = 39000
+				size=19047
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = khmer
-				size = 13000
+				size=8303
 			}
 		}
 		region_state:A12 = {
 			create_pop = {
 				culture = lao
-				size = 188000
+				size=116886
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = yue
-				size = 15000
+				size=8456
 			}
 			create_pop = {
 				culture = thai
@@ -1072,12 +1072,12 @@
 			}
 			create_pop = {
 				culture = khmer
-				size = 39000
+				size=20080
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = khmer
-				size = 13000
+				size=8437
 			}
 		}
 	}
@@ -1085,11 +1085,11 @@
 		region_state:BUR = {
 			create_pop = {
 				culture = karen
-				size = 140800
+				size=83493
 			}
 			create_pop = {
 				culture = burmese
-				size = 112000
+				size=64773
 			}
 			create_pop = {
 				culture = mon
@@ -1097,12 +1097,12 @@
 			}
 			create_pop = {
 				culture = thai
-				size = 36004
+				size=22125
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = karen
-				size = 20000
+				size=12287
 			}
 		}
 		region_state:A13 = {
@@ -1125,7 +1125,7 @@
 			}
 			create_pop = {
 				culture = thai
-				size = 12020
+				size=7579
 			}
 		}
 		region_state:A15 = {
@@ -1135,7 +1135,7 @@
 			}
 			create_pop = {
 				culture = malay
-				size = 34020
+				size=21781
 			}
 		}
 
@@ -1144,25 +1144,25 @@
 		region_state:BUR = {
 			create_pop = {
 				culture = kachin
-				size = 408000
+				size=205264
 			}
 			create_pop = {
 				culture = shan
-				size = 92004
+				size=55263
 			}
 			create_pop = {
 				culture = thai
 				religion = animist
-				size = 18000
+				size=9075
 			}
 			create_pop = {
 				culture = burmese
-				size = 128400
+				size=59651
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = kachin
-				size = 40000
+				size=20772
 			}
 		}
 	}
@@ -1170,16 +1170,16 @@
 		region_state:BUR = {
 			create_pop = {
 				culture = shan
-				size = 553996
+				size=335980
 			}
 			create_pop = {
 				culture = kachin
-				size = 68000
+				size=35038
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = shan
-				size = 30000
+				size=18474
 			}
 		}
 	}
@@ -1188,16 +1188,16 @@
 		region_state:BUR = {
 			create_pop = {
 				culture = burmese
-				size = 1059596
+				size=650965
 			}
 			create_pop = {
 				culture = kachin
-				size = 68000
+				size=27772
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = burmese
-				size = 50000
+				size=21793
 			}
 		}
 	}
@@ -1205,44 +1205,44 @@
 		region_state:BUR = {
 			create_pop = {
 				culture = burmese
-				size = 787900
+				size=413755
 			}
 			create_pop = {
 				culture = mon
-				size = 12400
+				size=6663
 			}
 			create_pop = {
 				culture = karen
-				size = 415600
+				size=238689
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = burmese
-				size = 40000
+				size=24385
 			}
 		}
 		region_state:A14 = {
 			create_pop = {
 				culture = burmese
-				size = 80000
+				size=35172
 			}
 			create_pop = {
 				culture = burmese
 				religion = sunni
-				size = 22000
+				size=12966
 			}
 			create_pop = {
 				culture = mon
-				size = 11000
+				size=4797
 			}
 			create_pop = {
 				culture = bengali
-				size = 10996
+				size=5612
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = burmese
-				size = 17030
+				size=7550
 			}
 		}
 	}
@@ -1250,11 +1250,11 @@
 		region_state:SKH = {
 			create_pop = {
 				culture = ainu
-				size = 24004
+				size=12293
 			}
 			create_pop = {
 				culture = siberian
-				size = 16000
+				size=8291
 			}
 		}
 	}
@@ -1262,17 +1262,17 @@
 		region_state:AIN = {
 			create_pop = {
 				culture = ainu
-				size = 707500
+				size=431197
 			}
 		}
 		region_state:JAP = {
 			create_pop = {
 				culture = ainu
-				size = 60020
+				size=26347
 			}
 			create_pop = {
 				culture = japanese
-				size = 67862
+				size=39108
 			}
 		}
 	}
@@ -1280,12 +1280,12 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 2374632
+				size=1190416
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 917280
+				size=551674
 			}
 		}
 	}
@@ -1293,12 +1293,12 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 4050072
+				size=1693011
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 1123204
+				size=673738
 			}
 		}
 	}
@@ -1306,12 +1306,12 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 4127776
+				size=2060743
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 1745764
+				size=802752
 			}
 		}
 	}
@@ -1319,12 +1319,12 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 6178176
+				size=2845051
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 1686204
+				size=822255
 			}
 		}
 	}
@@ -1332,7 +1332,7 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 3170167
+				size=1857026
 			}
 			create_pop = {
 				culture = micronesian
@@ -1341,11 +1341,11 @@
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 1067036
+				size=667571
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 18712
+				size=7935
 			}
 		}
 	}
@@ -1354,7 +1354,7 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 259181
+				size=162046
 			}
 		}	
 	}
@@ -1363,12 +1363,12 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 2024340
+				size=1277076
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 744588
+				size=426205
 			}
 		}
 	}
@@ -1376,12 +1376,12 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 1161416
+				size=483477
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 352420
+				size=144858
 			}
 		}
 	}
@@ -1389,7 +1389,7 @@
 		region_state:KOR = {
 			create_pop = {
 				culture = korean
-				size = 2800004
+				size=1645811
 			}
 		}
 	}
@@ -1397,7 +1397,7 @@
 		region_state:KOR = {
 			create_pop = {
 				culture = korean
-				size = 1372002
+				size=725253
 			}
 		}
 	}
@@ -1405,7 +1405,7 @@
 		region_state:KOR = {
 			create_pop = {
 				culture = korean
-				size = 1372002
+				size=595746
 			}
 		}
 	}
@@ -1413,7 +1413,7 @@
 		region_state:KOR = {
 			create_pop = {
 				culture = korean
-				size = 1260704
+				size=723056
 			}
 		}
 	}
@@ -1421,7 +1421,7 @@
 		region_state:KOR = {
 			create_pop = {
 				culture = korean
-				size = 2479992
+				size=1147580
 			}
 		}
 	}
