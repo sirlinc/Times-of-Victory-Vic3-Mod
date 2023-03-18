@@ -4,15 +4,11 @@
 		# + Fairfax County, VA. Total pop in 1830 was 9204, 5203 free/4001 slaves
 		# + Montgomery Co, Prince George's Co, Charles co, St. Mary's Co and Calvert Co in MD- 80418 total, 42176 free/38242 slaves
 		# Number of actual pops adjusted from historical research to better fit the buildings
-		region_state:USA = { 
+		region_state:ENG = { 
 			create_pop = {
-				culture = yankee
-				size = 15851
+				culture = english
+				size = 20851
 			}		
-			create_pop = {
-				culture = dixie
-				size = 52520
-			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_american
@@ -84,24 +80,24 @@
 		}
 	}
 	s:STATE_VIRGINIA = { # population of VA proper minus Fairfax County, which had its population figures added to DC to inflate the pop count there
-		region_state:USA = {
+		region_state:ENG = {
 			create_pop = {
-				culture = dixie
-				size = 203147
+				culture = english
+				size = 60000
 			}
 			create_pop = {
-				culture = dixie
+				culture = english
 				religion = catholic
-				size = 27260
+				size = 6815
 			}
 			create_pop = {
 				culture = afro_american
-				size = 22808
+				size = 6702
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_american
-				size = 149002
+				size = 45250
 			}
 		}
 	}
@@ -1267,27 +1263,94 @@
 		}
 	}
 	s:STATE_TEXAS = {
-		region_state:TEX = {
-			create_pop = {
-				culture = dixie
-				size = 22988
-			}
+		region_state:K22 = {
 			create_pop = {
 				culture = siouan
-				size = 1996
+				size = 5000
 			}
 			create_pop = {
 				culture = caddoan
 				size = 4000
 			}
+		}
+		region_state:MGO = {
 			create_pop = {
-				pop_type = slaves
-				culture = afro_american
-				size = 6040
+				culture = siouan
+				size = 5000
 			}
 			create_pop = {
-				culture = mexican
-				size = 2004
+				culture = caddoan
+				size = 4000
+			}
+		}
+		region_state:EKG = {
+			create_pop = {
+				culture = siouan
+				size = 5000
+			}
+			create_pop = {
+				culture = caddoan
+				size = 4000
+			}
+		}
+		region_state:TWI = {
+			create_pop = {
+				culture = siouan
+				size = 5000
+			}
+			create_pop = {
+				culture = caddoan
+				size = 4000
+			}
+		}
+		region_state:K22 = {
+			create_pop = {
+				culture = siouan
+				size = 5000
+			}
+			create_pop = {
+				culture = caddoan
+				size = 4000
+			}
+		}
+		region_state:APC = {
+			create_pop = {
+				culture = siouan
+				size = 5000
+			}
+			create_pop = {
+				culture = caddoan
+				size = 4000
+			}
+		}
+		region_state:T11 = {
+			create_pop = {
+				culture = siouan
+				size = 5000
+			}
+			create_pop = {
+				culture = caddoan
+				size = 4000
+			}
+		}
+		region_state:T12 = {
+			create_pop = {
+				culture = siouan
+				size = 5000
+			}
+			create_pop = {
+				culture = caddoan
+				size = 4000
+			}
+		}
+		region_state:T13 = {
+			create_pop = {
+				culture = siouan
+				size = 5000
+			}
+			create_pop = {
+				culture = caddoan
+				size = 4000
 			}
 		}
 		region_state:MEX = {
