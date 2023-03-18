@@ -1,0 +1,6 @@
+POPULATION = {
+	c:NEB = {
+		effect_starting_pop_wealth_colonial = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+}

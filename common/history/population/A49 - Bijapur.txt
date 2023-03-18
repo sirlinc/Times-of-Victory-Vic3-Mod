@@ -1,0 +1,6 @@
+POPULATION = {
+	c:A49 = {
+		effect_starting_pop_wealth_silkroad = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+}

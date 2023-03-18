@@ -1,7 +1,6 @@
-﻿POPULATION = {
+POPULATION = {
 	c:A13 = {
-		
-		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_wealth_silkroad = yes
 		effect_starting_pop_literacy_baseline = yes
 	}
 }

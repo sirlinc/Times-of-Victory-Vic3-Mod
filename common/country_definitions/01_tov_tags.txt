@@ -1799,7 +1799,7 @@ CN1 = { #Pomo
 	cultures = { french }
 	capital = STATE_OHIO
 }
-CNS = { #Constanoan
+CNS = { #Costanoan
 	color = { 58 170 255 }
 	
 	country_type = decentralized
@@ -1850,7 +1850,7 @@ CHM = { #Chitimacha
 	cultures = { southeastern_woodlands }
 	capital = STATE_LOUISIANA
 }
-EIR = { #Eire
+EIR = { #Erie
 
 	color = { 255 96 61 }
 	
@@ -2980,7 +2980,7 @@ A05 = { #Milayin Rebellion
 	
 	country_type = unrecognized
 	
-	cultures = { hui han }
+	cultures = { han }
 	religion = gedimu
 	
 	capital = STATE_GANSU

@@ -1,0 +1,6 @@
+POPULATION = {
+	c:B37 = {
+		effect_starting_pop_wealth_imperial = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+}
