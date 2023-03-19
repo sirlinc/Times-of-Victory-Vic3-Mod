@@ -4590,12 +4590,17 @@ STATES = {
 	s:STATE_NORTH_ANGOLA = {
 		create_state = {
 			country = c:POR
-			owned_provinces = { xC93845 x087B9D x8F94AF xDAA27C x6FD2F7 x78C387 xCFA0E7 }
+			owned_provinces = { xC93845 x087B9D x8F94AF xDAA27C x78C387 xCFA0E7 }
 			state_type = unincorporated
 		}		
 		create_state = {
 			country = c:B98
 			owned_provinces = { xC02050 x82C47B xBF65DC x32E90E xD30F2F xCFF013 x491B8B xA71792 }
+		}
+		create_state = {
+			country = c:NEB
+			owned_provinces = { x6FD2F7 }
+			state_type = treaty_port
 		}
 		create_state = {
 			country = c:C01
