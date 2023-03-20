@@ -3,15 +3,13 @@
 		create_diplomatic_play = {
 			name = milayin_rebellion
 			
-			target_state = s:STATE_GANSU.region_state:A05
-			
 			war = yes
 			
-			type = dp_return_state
+			type = dp_annex_country
 			
 			add_war_goal = {
 				holder = c:A05
-				type = annex_country
+				type = independence
 				target_country = c:CHI
 			}			
 		}	
