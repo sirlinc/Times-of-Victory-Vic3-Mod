@@ -2020,7 +2020,7 @@ STATES = {
 	}
 	s:STATE_CUBA = {
 		create_state = {
-			country = c:CUB
+			country = c:SPA
 			owned_provinces = { xF3F2C9 x61FC10 xB325C7 xFCDEED xDCAB5D x4DD008 xA70607 x58C211 x20EFEA xFE4123 xC3EB7D x0DA38C xC464AE x9957D8 xEBE1C7 x152D1C xD810EC x69C041 x30B001 xE70FA4 x519343 xB48FF1 }
 			state_type = unincorporated
 		}
@@ -2047,7 +2047,7 @@ STATES = {
 	}
 	s:STATE_SANTO_DOMINGO = {
 		create_state = {
-			country = c:CUB
+			country = c:SPA
 			owned_provinces = { x317080 x41A862 x1785E8 xACBDD9 x7252EC x961483 x877F90 x907A0C }
 		}
 		
@@ -2056,12 +2056,8 @@ STATES = {
 	}
 	s:STATE_HAITI = {
 		create_state = {
-			country = c:HAI
-			owned_provinces = { xC6C663 x2FC1FC x0E35C0 x4FE008 x1A20A4 xEA2C2D }
-		}
-		create_state = {
-			country = c:CUB
-			owned_provinces = { xB0B001 }
+			country = c:SPA
+			owned_provinces = { xB0B001 xC6C663 x2FC1FC x0E35C0 x4FE008 x1A20A4 xEA2C2D }
 		}
 		add_homeland = afro_antillean
 	}
@@ -4594,12 +4590,17 @@ STATES = {
 	s:STATE_NORTH_ANGOLA = {
 		create_state = {
 			country = c:POR
-			owned_provinces = { xC93845 x087B9D x8F94AF xDAA27C x6FD2F7 x78C387 xCFA0E7 }
+			owned_provinces = { xC93845 x087B9D x8F94AF xDAA27C x78C387 xCFA0E7 }
 			state_type = unincorporated
 		}		
 		create_state = {
 			country = c:B98
 			owned_provinces = { xC02050 x82C47B xBF65DC x32E90E xD30F2F xCFF013 x491B8B xA71792 }
+		}
+		create_state = {
+			country = c:NEB
+			owned_provinces = { x6FD2F7 }
+			state_type = treaty_port
 		}
 		create_state = {
 			country = c:C01
@@ -5335,7 +5336,7 @@ STATES = {
 	}
 	s:STATE_JAMAICA = {
 		create_state = {
-			country = c:CUB
+			country = c:SPA
 			owned_provinces = { x535B49 x7070B8 x1E761E }
 			state_type = unincorporated
 		}

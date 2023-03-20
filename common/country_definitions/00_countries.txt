@@ -2275,7 +2275,7 @@ BRZ = {
 	tier = empire
 	
 	cultures = { brazilian }
-	capital = STATE_RIO_DE_JANEIRO
+	capital = STATE_BAHIA
 }
 
 CHL = {

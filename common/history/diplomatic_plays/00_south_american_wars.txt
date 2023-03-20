@@ -7,7 +7,7 @@
 			add_initiator_backers = { c:NEB }
 			add_target_backers = { c:POR c:M2N }
 			war = yes
-			type = dp_conquer_state
+			type = dp_humiliation
 			
 			add_war_goal = {
 				holder = c:NEB
@@ -41,8 +41,23 @@
 			}
 			add_war_goal = {
 				holder = c:BRZ
-				type = annex_country
-				target_country = c:NEB
+				type = conquer_state
+				target_state = s:STATE_PARAIBA.region_state:NEB
+			}
+			add_war_goal = {
+				holder = c:BRZ
+				type = conquer_state
+				target_state = s:STATE_PERNAMBUCO.region_state:NEB
+			}
+			add_war_goal = {
+				holder = c:BRZ
+				type = conquer_state
+				target_state = s:STATE_RIO_GRANDE_DO_NORTE.region_state:NEB
+			}
+			add_war_goal = {
+				holder = c:POR
+				type = take_treaty_port
+				target_state = s:STATE_NORTH_ANGOLA.region_state:NEB
 			}
 		}			
 	}
