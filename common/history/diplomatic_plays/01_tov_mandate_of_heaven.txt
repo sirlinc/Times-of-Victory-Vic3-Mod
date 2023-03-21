@@ -7,7 +7,7 @@
 			
 			war = yes
 			
-			type = dp_annex_country
+			type = dp_annex_war
 			
 			add_war_goal = {
 				holder = c:A06

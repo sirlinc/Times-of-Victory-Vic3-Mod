@@ -2,13 +2,15 @@
 	c:CHI = {
 		create_diplomatic_play = {
 			name = milayin_rebellion
+		
+			target_country = c:A05
 			
 			war = yes
 			
-			type = dp_annex_country
+			type = dp_annex_war
 			
 			add_war_goal = {
-				holder = c:A05
+				holder = c:MEX
 				type = independence
 				target_country = c:CHI
 			}			

@@ -74,7 +74,7 @@ widget = {
 		icon = {
 			texture = "gfx/interface/menu/times_of_victory.dds"
 			size = { 820 220 }
-			position = { -460 38 } 
+			position = { -460 138 } 
 		}
 		icon = {
 			texture = "gfx/interface/menu/box.dds"
@@ -205,14 +205,7 @@ widget = {
 				}
 			}
 			
-			v3_logo_animation = {
-				parentanchor = hcenter
-				position = { 0 35 }
-				
-				blockoverride "menu_logo_delay" { 
-					delay = 1.5
-				}
-			} 
+
 
 			### BUTTONS  
 			vbox = {
