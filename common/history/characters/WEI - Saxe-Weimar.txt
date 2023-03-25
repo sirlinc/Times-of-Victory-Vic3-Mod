@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	WEI = {
+		create_character = {
+			first_name = "wilhelm"
+			last_name = "wettin"
+			age = 50
+			ruler = yes
+		}
+	}
+}

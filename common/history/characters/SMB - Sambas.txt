@@ -1,10 +1,10 @@
 ﻿CHARACTERS = {
-	c:SMB = {
+	SMB = {
 		create_character = {
-			first_name = "Abdul"
-			last_name = "Saifuddin_I"
-			ruler = yes
+			first_name = "abdul"
+			last_name = "saifuddin_i"
 			age = 37
-			}
-		}	
+			ruler = yes
+		}
+	}
 }

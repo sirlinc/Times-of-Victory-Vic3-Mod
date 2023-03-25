@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	MLT = {
+		create_character = {
+			first_name = "giovanni_paolo"
+			last_name = "lascaris"
+			age = 84
+			ruler = yes
+		}
+	}
+}

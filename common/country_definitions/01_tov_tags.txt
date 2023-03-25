@@ -2471,16 +2471,6 @@ GJ1 = { #Guajajara
 	cultures = { amazonian }
 	capital = STATE_MARANHAO
 }
-#GJ1 = { #Guajajara
-#	color = { 92  137  67 }
-#	
-#	country_type = decentralized
-#	
-#	tier = principality
-#	
-#	cultures = { amazonian }
-#	capital = STATE_MARANHAO
-#}
 WY1 = { #Wayanas
 	color = { 92  137  67 }
 	

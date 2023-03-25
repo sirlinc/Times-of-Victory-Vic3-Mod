@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	LIE = {
+		create_character = {
+			first_name = "maximilien_henri"
+			last_name = "de_baviere"
+			age = 27
+			ruler = yes
+		}
+	}
+}

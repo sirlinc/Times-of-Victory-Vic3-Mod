@@ -2,4 +2,10 @@
 
 # building
 
-building_financial_services: "Financial Services"
+building_temperate_farmland: "Temperate Farmland"
+building_tropical_farmland: "Tropical Farmland"
+building_wetlands_farmland: "Wetlands Farmland"
+building_arid_farmland: "Arid Farmland"
+building_prime_pasture: "Prime Pasture"
+building_marginal_pasture: "Marginal Pasture"
+building_livestock_ranches: "Livestock Ranches"

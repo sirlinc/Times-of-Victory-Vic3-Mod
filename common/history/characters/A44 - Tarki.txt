@@ -1,10 +1,10 @@
 ﻿CHARACTERS = {
-	c:A44 = {
+	A44 = {
 		create_character = {
-			first_name = "Surkhay_III"
-			last_name = "of_Tarki"
+			first_name = "surkhay_iii"
+			last_name = "of_tarki"
+			age = 
 			ruler = yes
-			age = 33
-			}
-		}	
+		}
+	}
 }

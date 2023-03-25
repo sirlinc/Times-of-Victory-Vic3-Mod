@@ -1,10 +1,10 @@
 ﻿CHARACTERS = {
-	c:A46 = {
+	A46 = {
 		create_character = {
-			first_name = "Pratap"
-			last_name = "Malla"
-			ruler = yes
+			first_name = "pratap"
+			last_name = "malla"
 			age = 31
-			}
-		}	
+			ruler = yes
+		}
+	}
 }

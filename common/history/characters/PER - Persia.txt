@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	PER = {
+		create_character = {
+			first_name = "abbas_ii"
+			last_name = "safavid"
+			age = 16
+			ruler = yes
+		}
+	}
+}

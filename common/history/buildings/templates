@@ -1,0 +1,41 @@
+			create_building={
+				building="building_temperate_farmland"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_rye_cultivation_tef" "pm_no_secondary_yields_tef" "pm_tools_disabled_tef" "pm_manual_labor" "pm_tributary_system_farmland" }
+			}
+
+			create_building={
+				building="building_tropical_farmland"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_grain_legume_cultivation_trf" "pm_no_secondary_yields_trf" "pm_tools_disabled_trf" "pm_manual_labor" "pm_tributary_system_farmland" }
+			}
+
+			create_building={
+				building="building_monsoonal_farmland"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_rice_cultivation_mof" "pm_no_secondary_yields_mof" "pm_tools_disabled_mof" "pm_manual_labor" "pm_tributary_system_farmland" }
+			}
+
+			create_building={
+				building="building_arid_farmland"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_sorghum_cultivation_arf" "pm_no_secondary_yields_arf" "pm_tools_disabled_arf" "pm_manual_labor" "pm_tributary_system_farmland" }
+			}
+
+			create_building={
+				building="building_prime_pasture"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_free_range_prp" "pm_cured_meats" "pm_no_secondary_pasture" }
+			}
+
+            create_building={
+				building="building_marginal_pasture"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_free_range_map" "pm_cured_meats" "pm_no_secondary_pasture" }
+			}

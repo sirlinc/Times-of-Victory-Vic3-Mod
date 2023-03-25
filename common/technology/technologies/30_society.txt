@@ -2,7 +2,7 @@
 
 mediums_of_exchange = {
 	era = era_1
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/currency_standards.dds"
 	category = society
 	
 	modifier = {
@@ -15,7 +15,7 @@ mediums_of_exchange = {
 
 monopoly_on_violence = {
 	era = era_1
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/military_drill.dds"
 	category = society
 	
 	modifier = {
@@ -30,7 +30,7 @@ monopoly_on_violence = {
 divine_right = {
 	#Hereditary Bureaucracy
 	era = era_1
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/pluralism.dds"
 	category = society
 	
 	modifier = {
@@ -44,7 +44,7 @@ divine_right = {
 
 histories_and_ontologies = {
 	era = era_1
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/human_rights.dds"
 	category = society
 	
 	modifier = {
@@ -61,7 +61,7 @@ deferred_payments = {
 	# Unlocks Trade Agreements
 	# Unlocks War Reparations
 	era = era_1
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/international_diplomacy.dds"
 	category = society
 	
 	modifier = {
@@ -75,7 +75,7 @@ deferred_payments = {
 
 code_of_law = {
 	era = era_1
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/rationalism.dds"
 	category = society
 	
 	modifier = {
@@ -92,7 +92,7 @@ code_of_law = {
 literacy = {
 	# Unlocks Religious Schools - Education Laws
 	era = era_1
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/academia.dds"
 	category = society
 	
 	modifier = {
@@ -110,7 +110,7 @@ literacy = {
 
 joint_stock_company = {
 	era = era_2
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/stock_exchanges.dds"
 	category = society
 	
 	modifier = {
@@ -125,7 +125,7 @@ joint_stock_company = {
 
 silver_standard = {
 	era = era_2
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/power_of_the_purse.dds"
 	category = society
 	
 	modifier = {
@@ -143,7 +143,7 @@ mercantilism = {
 	#Unlocks Customs Unions
 	#Unlocks Embargos
 	era = era_2
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/international_trade.dds"
 	category = society
 	
 	modifier = {
@@ -162,7 +162,7 @@ state_sovereignty = {
 	# Unlocks Religious Zealotry - Home Affairs
 	# Unlocks Alliances
 	era = era_2
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/nationalism.dds"
 	category = society
 	
 	modifier = {
@@ -181,7 +181,7 @@ pluralism = {
  # Unlocks Tolerance - Church and State Law
  # Unlocks Art Academy Building
 	era = era_2
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/pluralism.dds"
 	category = society
 	
 	modifier = {
@@ -211,7 +211,7 @@ empiricism = {
 
 bills_of_exchange = {
 	era = era_2
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/stock_exchanges.dds"
 	category = society
 	
 	modifier = {
@@ -227,7 +227,7 @@ bills_of_exchange = {
 social_contract_theory = {
 # Unlocks Charitable Health - Health System Laws
 	era = era_2
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/dialectics.dds"
 	category = society
 	
 	modifier = {
@@ -244,7 +244,7 @@ social_contract_theory = {
 
 print_culture = {
 	era = era_2
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/military_statistics.dds"
 	category = society
 	
 	modifier = {
@@ -260,7 +260,7 @@ print_culture = {
 
 optics = {
 	era = era_2
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/mass_surveillance.dds"
 	category = society
 	
 	modifier = {
@@ -277,7 +277,7 @@ optics = {
 
 fractional_reserve_banking = {
 	era = era_3
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/banking.dds"
 	category = society
 	
 	modifier = {
@@ -295,7 +295,7 @@ absolutism = {
 	# Unlocks Censorship - Freedom of Speech Law
 	# Unlocks Territoriality - Colonial Affairs
 	era = era_3
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/centralization.dds"
 	category = society
 	
 	modifier = {
@@ -330,13 +330,12 @@ higher_learning = {
 	# Unlocks Arts Academy building
 	# Unlocks Private Schools - Education Law
 	era = era_3
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/academia.dds"
 	category = society
 	
 	modifier = {
 		country_weekly_innovation_add = 5 
 		country_weekly_innovation_max_add = 5
-		state_education_access_wealth_add = 0.01
 	}
 
 	unlocking_technologies = {
@@ -348,7 +347,7 @@ central_banks = {
 	# Unlocks Interventionism - Economic Law
 	# Unlocks Take on Debt
 	era = era_3
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/central_banking.dds"
 	category = society
 	
 	modifier = {
@@ -382,7 +381,7 @@ urbanization = {
 diplomatic_service = {
 	# Unlocks Expel Diplomats
 	era = era_3
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/army_reserves.dds"
 	category = society
 	
 	modifier = {
@@ -397,7 +396,7 @@ diplomatic_service = {
 
 coffee_houses = {
 	era = era_3
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/psychoanalysis.dds"
 	category = society
 	
 	modifier = {
@@ -413,7 +412,7 @@ coffee_houses = {
 newtonianism = {
 	# Unlocks Philosophy Department PM 
 	era = era_3
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/analytical_philosophy.dds"
 	category = society
 	
 	modifier = {
@@ -430,7 +429,7 @@ newtonianism = {
 
 anatomical_science = {
 	era = era_3
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/psychiatry.dds"
 	category = society
 	
 	modifier = {
@@ -446,7 +445,7 @@ anatomical_science = {
 
 cheques_and_banknotes = {
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/stock_exchanges.dds"
 	category = society
 	
 	modifier = {
@@ -464,7 +463,7 @@ the_balance_of_power = {
 	# Unlocks Defensive Pact and Rivalry
 	# Unlocks Protectionism - Economic Law
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/sea_lane_strategies.dds"
 	category = society
 	
 	modifier = {
@@ -481,7 +480,7 @@ the_balance_of_power = {
 
 espionage = {
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/espionage.dds"
 	category = society
 	
 	modifier = {
@@ -496,7 +495,7 @@ espionage = {
 riot_acts = {
     # Unlocks Local Police - Policing Laws
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/law_enforcement.dds"
 	category = society
 	
 	modifier = {
@@ -511,7 +510,7 @@ riot_acts = {
 
 theory_of_race = {
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/international_diplomacy.dds"
 	category = society
 	
 	modifier = {
@@ -527,7 +526,7 @@ theory_of_race = {
 financial_securities = {
 	# Unlocks Bankroll
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/bureaucracy.dds"
 	category = society
 	
 	modifier = {
@@ -542,7 +541,7 @@ financial_securities = {
 morality_standards = {
 	#Unlocks Outlawed Dissent - Free Speech Laws
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/pluralism.dds"
 	category = society
 	
 	modifier = {
@@ -558,7 +557,7 @@ morality_standards = {
 the_public_sphere = {
 	# Unlocks Right of Assembly - Freedom of Speech Law
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/mass_communication.dds"
 	category = society
 	
 	modifier = {
@@ -575,7 +574,7 @@ the_public_sphere = {
 operatic_theatre = {
 	#Unlocks Neoclassicism PM - Art Academy
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/rationalism.dds"
 	category = society
 	
 	modifier = {
@@ -591,7 +590,7 @@ operatic_theatre = {
 natural_philosophy = {
 	#Unlocks Philosophy Department PM 
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/realism.dds"
 	category = society
 	
 	modifier = {
@@ -609,7 +608,7 @@ natural_philosophy = {
 classical_liberalism = {
 	#Unlocks Free Trade - Economic Law
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/macroeconomics.dds"
 	category = society
 	
 	modifier = {
@@ -627,7 +626,7 @@ civil_service = {
 	# Unlocks Payroll Tax - Income Taxation Law
 	# Unlocks Government Administration building
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/bureaucracy.dds"
 	category = society
 	
 	modifier = {
@@ -645,7 +644,7 @@ natural_law = {
 	# Unlocks Freedom of Conscience - Church and State Law
 	# Unlocks Emergency Relief Decree
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/human_rights.dds"
 	category = society
 	
 	modifier = {
@@ -677,7 +676,7 @@ modernity = {
 	# Unlocks Greener Grass Campaign Decree	
 	# Unlocks Protectorate
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/chemical_bleaching.dds"
 	category = society
 	
 	modifier = {
@@ -692,7 +691,7 @@ modernity = {
 scientific_expeditions = {
 	# Unlocks various expedition decisions
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/colonization.dds"
 	category = society
 	
 	modifier = {
@@ -707,7 +706,7 @@ scientific_expeditions = {
 
 entrepreneurship = {
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/power_of_the_purse.dds"
 	category = society
 	
 	modifier = {
@@ -724,7 +723,7 @@ entrepreneurship = {
 direct_taxation = {
 	# Unlocks Horizontal Filing Cabinets PM in Government Admin
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/power_of_the_purse.dds"
 	category = society
 	
 	modifier = {
@@ -739,7 +738,7 @@ direct_taxation = {
 
 political_assemblies = {
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/political_agitation.dds"
 	category = society
 	
 	modifier = {
@@ -755,7 +754,7 @@ political_assemblies = {
 radicalism = {
 	#Unlocks Poor Laws - Welfare
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/egalitarianism.dds"
 	category = society
 	
 	modifier = {
@@ -772,7 +771,7 @@ romanticism = {
 	# Unlocks Agrarianism - Economic System Law
 	# Unlocks Romanticism PM - Art Academy
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/romanticism.dds"
 	category = society
 	
 	modifier = {
@@ -806,7 +805,7 @@ rationalism = {
 laissez_faire_economics = {
 	# Unlocks Free Trade - Economic System Law
 	era = era_6
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/international_exchange_standards.dds"
 	category = society
 	
 	modifier = {
@@ -821,7 +820,7 @@ laissez_faire_economics = {
 
 international_relations = {
 	era = era_6	
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/civilizing_mission.dds"
 	category = society
 	
 	modifier = {
@@ -837,7 +836,7 @@ international_relations = {
 supremacism = {
 	#Unlocks Promote National Values Decree
 	era = era_6
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/centralization.dds"
 	category = society
 	
 	modifier = {
@@ -852,7 +851,7 @@ supremacism = {
 
 symphony_orchestra = {
 	era = era_6
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/realism.dds"
 	category = society
 	
 	modifier = {
@@ -868,7 +867,7 @@ symphony_orchestra = {
 haute_couture = {
 	#Unlocks Bourgeoise Patronage - Art Center
 	era = era_6
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/psychoanalysis.dds"
 	category = society
 	
 	modifier = {
@@ -885,7 +884,7 @@ the_nation_state = {
 	# Unlocks  Immigration Controls  - Migration Law
 	# New leaders may spawn with the Ethno-Nationalist Ideology
 	era = era_6
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/nationalism.dds"
 	category = society
 	
 	modifier = {
@@ -902,7 +901,7 @@ the_nation_state = {
 the_marketplace_of_ideas = {
 	# Unlocks Total Separate - Church and State Law
 	era = era_6
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/mass_propaganda.dds"
 	category = society
 	
 	modifier = {
@@ -919,7 +918,7 @@ the_marketplace_of_ideas = {
 pedagogy = {
 	# Unlocks Restricted Child Labor - Children's Rights Laws
 	era = era_6
-	texture = "gfx/interface/icons/invention_icons/rationalism.dds"
+	texture = "gfx/interface/icons/invention_icons/academia.dds"
 	category = society
 	
 	modifier = {
@@ -934,7 +933,7 @@ pedagogy = {
 
 medical_professionalism = {
 	era = era_6
-	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	texture = "gfx/interface/icons/invention_icons/medical_degrees.dds"
 	category = society
 	
 	modifier = {
@@ -955,7 +954,6 @@ academia = {
 	modifier = {
 		technology_invention_cost_mult = -0.01
 		country_institution_schools_max_investment_add = 1
-		state_education_access_wealth_add = 0.01
 	}	
 	unlocking_technologies = {
 		pedagogy
@@ -967,7 +965,7 @@ academia = {
 
 economic_specialization = {
 	era = era_7
-	texture = "gfx/interface/icons/invention_icons/international_trade.dds"
+	texture = "gfx/interface/icons/invention_icons/logistics_tech.dds"
 	category = society
 
 	modifier = {
@@ -982,7 +980,7 @@ economic_specialization = {
 
 standardized_measurements = {
 	era = era_7
-	texture = "gfx/interface/icons/invention_icons/banking.dds"
+	texture = "gfx/interface/icons/invention_icons/bureaucracy.dds"
 	category = society
 	
 	modifier = {
@@ -1014,7 +1012,7 @@ urban_planning = {
 
 geopolitics = {
 	era = era_7
-	texture = "gfx/interface/icons/invention_icons/international_diplomacy.dds"
+	texture = "gfx/interface/icons/invention_icons/civilizing_mission.dds"
 	category = society
 
 	modifier = {
@@ -1114,9 +1112,9 @@ monetary_policy = {
 	}
 
 
-	postal_service = {
+postal_service = {
 	era = era_7
-	texture = "gfx/interface/icons/invention_icons/centralization.dds"
+	texture = "gfx/interface/icons/invention_icons/postal_savings.dds"
 	category = society
 	
 	modifier = {
@@ -1152,7 +1150,7 @@ new_imperialism = {
 realism = {
 	# Unlocks Realist Art PM in Art Academies
 	era = era_7
-	texture = "gfx/interface/icons/invention_icons/empiricism.dds"
+	texture = "gfx/interface/icons/invention_icons/realism.dds"
 	category = society
 	
 	modifier = {
@@ -1168,7 +1166,7 @@ realism = {
 
 social_sciences = {
 	era = era_7
-	texture = "gfx/interface/icons/invention_icons/bureaucracy.dds"
+	texture = "gfx/interface/icons/invention_icons/civilizing_mission.dds"
 	category = society
 	
 	modifier = {
@@ -1216,7 +1214,7 @@ postal_savings = {
 
 irredentism = {
 	era = era_8
-	texture = "gfx/interface/icons/invention_icons/postal_savings.dds"
+	texture = "gfx/interface/icons/invention_icons/centralization.dds"
 	category = society
 	
 	modifier = {
@@ -1299,9 +1297,9 @@ pharmaceuticals = {
 	}
 }
 
-statistics = {
+census_bureau = {
 	# Unlocks Horizontal Drawer Cabinets PM for Government Administration
-	era = era_8
+	era = era_10
 	texture = "gfx/interface/icons/invention_icons/central_archives.dds"
 	category = society
 	
@@ -1319,7 +1317,7 @@ statistics = {
 public_sector = {
 	# Unlocks Vertical Filing Cabinets PM in Government Administrations
 	era = era_8
-	texture = "gfx/interface/icons/invention_icons/nationalism.dds"
+	texture = "gfx/interface/icons/invention_icons/enlistment_offices.dds"
 	category = society
 	
 	modifier = {
@@ -1389,7 +1387,7 @@ quinine = {
 
 probability_theory = {
 	era = era_9
-	texture = "gfx/interface/icons/invention_icons/central_banking.dds"
+	texture = "gfx/interface/icons/invention_icons/mutual_funds.dds"
 	category = society
 	
 	modifier = {
@@ -1399,7 +1397,7 @@ probability_theory = {
 	
 	unlocking_technologies = {
 		stock_exchange
-		statistics
+		census_bureau
 	}
 }
 
@@ -1417,14 +1415,14 @@ identification_documents = {
 	}
 	
 	unlocking_technologies = {
-		statistics
+		census_bureau
 		public_sector
 	}
 }
 
 manifest_destiny = {
 	era = era_9
-	texture = "gfx/interface/icons/invention_icons/civilizing_mission.dds"
+	texture = "gfx/interface/icons/invention_icons/democracy.dds"
 	category = society
 
 	modifier = {
@@ -1576,7 +1574,7 @@ feminism = {
 journalism = {
 	# Unlocks Protected Speech - Freedom of Speech Law
 	era = era_9
-	texture = "gfx/interface/icons/invention_icons/camera.dds"
+	texture = "gfx/interface/icons/invention_icons/mass_communication.dds"
 	category = society
 	
 	modifier = {
@@ -1592,7 +1590,7 @@ journalism = {
 
 vaccination = {
 	era = era_9
-	texture = "gfx/interface/icons/invention_icons/malaria_prevention.dds"
+	texture = "gfx/interface/icons/invention_icons/antibiotics.dds"
 	category = society
 
 	modifier = {
@@ -1638,17 +1636,18 @@ central_planning = {
 	}
 }
 
-multilateral_alliances = {
+political_science = {
 	era = era_10
-	texture = "gfx/interface/icons/invention_icons/multilateral_alliances.dds"
+	texture = "gfx/interface/icons/invention_icons/behaviorism.dds"
 	category = society
 	
 	modifier = {
-		country_diplomatic_play_maneuvers_add = 25
+		country_diplomatic_play_maneuvers_add = 50
+		state_bureaucracy_population_base_cost_factor_mult = -0.05
 		country_allow_multiple_alliances = yes
 	}
 	
-	unlocking_technologies = {	
+	unlocking_technologies = {
 		pan_nationalism
 	}
 }
@@ -1683,7 +1682,7 @@ analytical_philosophy = {
 
 	modifier = {
 		country_weekly_innovation_max_add = 5
-		state_expected_sol_from_literacy = 0.5
+		state_expected_sol_from_literacy = 1
 	}
 	
 	unlocking_technologies = {
@@ -1722,19 +1721,19 @@ macroeconomics = {
 	}
 }
 
-political_science = {
+statistics = {
+	# Unlocks Horizontal Drawer Cabinets PM for Government Administration
 	era = era_10
-	texture = "gfx/interface/icons/invention_icons/behaviorism.dds"
+	texture = "gfx/interface/icons/invention_icons/central_archives.dds"
 	category = society
 	
 	modifier = {
-		country_diplomatic_play_maneuvers_add = 25
-		state_bureaucracy_population_base_cost_factor_mult = -0.05
+		state_tax_capacity_add = 25
+		country_bureaucracy_mult = 0.1
 	}
 	
 	unlocking_technologies = {
-		manifest_destiny
-		multilateral_alliances
+		central_planning
 	}
 }
 
@@ -1794,7 +1793,7 @@ mass_propaganda = {
 art_nouveau = {
     # Unlocks Art Nouveau PM in Art Academy
 	era = era_10
-	texture = "gfx/interface/icons/invention_icons/mass_propaganda.dds"
+	texture = "gfx/interface/icons/invention_icons/romanticism.dds"
 	category = society
 	
 	modifier = {
@@ -1809,7 +1808,7 @@ art_nouveau = {
 
 antibiotics = {
 	era = era_10
-	texture = "gfx/interface/icons/invention_icons/antibiotics.dds"
+	texture = "gfx/interface/icons/invention_icons/vitamins.dds"
 	category = society
 	
 	modifier = {

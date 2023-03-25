@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	B17 = {
+		create_character = {
+			first_name = "zayd"
+			last_name = "ibn_muhsin"
+			age = 41
+			ruler = yes
+		}
+	}
+}

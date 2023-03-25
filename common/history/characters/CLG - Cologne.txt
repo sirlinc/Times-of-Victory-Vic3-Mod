@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	CLG = {
+		create_character = {
+			first_name = "ferdinand"
+			last_name = "von_bayern"
+			age = 70
+			ruler = yes
+		}
+	}
+}

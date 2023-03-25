@@ -1,10 +1,10 @@
 ﻿CHARACTERS = {
-	c:A97 = {
+	A97 = {
 		create_character = {
-			first_name = "Birdarpa"
-			last_name = "Narayan"
-			ruler = yes
+			first_name = "birdarpa"
+			last_name = "narayan"
 			age = 24
-			}
-		}	
+			ruler = yes
+		}
+	}
 }

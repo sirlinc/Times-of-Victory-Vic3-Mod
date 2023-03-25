@@ -1,13 +1,10 @@
 ﻿CHARACTERS = {
-		c:A04 = {
+	A04 = {
 		create_character = {
-			# Khagan Gombodorj Borjigin
-			#role = politician # Remove this line
-			first_name = "Gombodorj"
-			last_name = "Borjigin"
-			ruler = yes
+			first_name = "gombodorj"
+			last_name = "borjigin"
 			age = 31
-			is_general = yes # Both general and IG leader
-			}
+			ruler = yes
 		}
 	}
+}

@@ -1,0 +1,4 @@
+﻿CHARACTERS = {
+	L2E = {
+	}
+}

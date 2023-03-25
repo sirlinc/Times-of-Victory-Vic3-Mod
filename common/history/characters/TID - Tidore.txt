@@ -1,10 +1,10 @@
 ﻿CHARACTERS = {
-	c:TID = {
+	TID = {
 		create_character = {
-			first_name = "Saidi"
-			last_name = "of_Tidore"
-			ruler = yes
+			first_name = "saidi"
+			last_name = "of_tidore"
 			age = 30
-			}
-		}	
+			ruler = yes
+		}
+	}
 }

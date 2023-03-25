@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	WUR = {
+		create_character = {
+			first_name = "william_louis"
+			last_name = "wurttemberg"
+			age = 1
+			ruler = yes
+		}
+	}
+}

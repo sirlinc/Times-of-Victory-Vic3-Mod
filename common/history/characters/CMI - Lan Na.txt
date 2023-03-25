@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	CMI = {
+		create_character = {
+			first_name = "thipphanet"
+			last_name = "of_lan_na"
+			age = 41
+			ruler = yes
+		}
+	}
+}

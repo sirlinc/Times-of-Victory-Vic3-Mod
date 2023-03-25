@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	JU1 = {
+		create_character = {
+			first_name = "wolfgang_wilhelm"
+			last_name = "von_pfalz_neuburg"
+			age = 75
+			ruler = yes
+		}
+	}
+}

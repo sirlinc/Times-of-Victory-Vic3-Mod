@@ -1,12 +1,10 @@
 ﻿CHARACTERS = {
-		c:A11 = {
+	A11 = {
 		create_character = {
-			# Po Rome
-			#role = politician # Remove this line
-			first_name = "Po_Rome"
-			last_name = "Churu"
-			ruler = yes
+			first_name = "po_rome"
+			last_name = "churu"
 			age = 42
-			}
+			ruler = yes
+		}
 	}
 }

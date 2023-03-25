@@ -1,0 +1,4 @@
+﻿CHARACTERS = {
+	BN1 = {
+	}
+}

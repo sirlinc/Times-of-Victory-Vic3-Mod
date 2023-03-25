@@ -1,10 +1,10 @@
 ﻿CHARACTERS = {
-	c:A26 = {
+	A26 = {
 		create_character = {
-			first_name = "Ola"
-			last_name = "Adobala"
-			ruler = yes
+			first_name = "ola"
+			last_name = "adobala"
 			age = 27
-			}
-		}	
+			ruler = yes
+		}
+	}
 }

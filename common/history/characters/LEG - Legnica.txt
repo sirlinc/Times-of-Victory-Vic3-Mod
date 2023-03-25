@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	LEG = {
+		create_character = {
+			first_name = "louis_iv"
+			last_name = "piast"
+			age = 42
+			ruler = yes
+		}
+	}
+}

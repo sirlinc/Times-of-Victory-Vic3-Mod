@@ -1,0 +1,4 @@
+﻿CHARACTERS = {
+	KR1 = {
+	}
+}

@@ -1,11 +1,11 @@
 ﻿CHARACTERS = {
-	c:A15 = {
+	A15 = {
 		create_character = {
-			first_name = "Kuning"
-			last_name = "the_Yellow_Queen"
-			female = yes
-			ruler = yes
+			first_name = "kuning"
+			last_name = "the_yellow_queen"
 			age = 24
-			}
-	}	
-}	
+			ruler = yes
+			female = yes
+		}
+	}
+}

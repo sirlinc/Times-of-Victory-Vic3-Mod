@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	MOD = {
+		create_character = {
+			first_name = "francesco"
+			last_name = "d_este"
+			age = 38
+			ruler = yes
+		}
+	}
+}

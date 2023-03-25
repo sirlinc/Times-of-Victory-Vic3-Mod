@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	CTR = {
+		create_character = {
+			first_name = "pau"
+			last_name = "claris"
+			age = 50
+			ruler = yes
+		}
+	}
+}

@@ -1,10 +1,10 @@
 ﻿CHARACTERS = {
-	c:B04 = {
+	B05 = {
 		create_character = {
-			first_name = "Bahadurasahi"
-			last_name = "Kalyal"
-			ruler = yes
+			first_name = "bahadurasahi"
+			last_name = "kalyal"
 			age = 41
-			}
-		}	
+			ruler = yes
+		}
+	}
 }

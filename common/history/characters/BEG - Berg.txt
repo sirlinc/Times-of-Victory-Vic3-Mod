@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	BEG = {
+		create_character = {
+			first_name = "philipp"
+			last_name = "wittelsbach"
+			age = 50
+			ruler = yes
+		}
+	}
+}

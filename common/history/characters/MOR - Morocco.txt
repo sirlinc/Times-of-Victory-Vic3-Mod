@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	MOR = {
+		create_character = {
+			first_name = "muhammad_ibn_sharif"
+			last_name = "alawite"
+			age = 18
+			ruler = yes
+		}
+	}
+}

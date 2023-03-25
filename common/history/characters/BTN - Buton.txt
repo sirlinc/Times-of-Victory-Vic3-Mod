@@ -1,10 +1,10 @@
 ﻿CHARACTERS = {
-	c:BTN = {
+	BTN = {
 		create_character = {
-			first_name = "Mardan"
-			last_name = "Ali"
-			ruler = yes
+			first_name = "mardan"
+			last_name = "ali"
 			age = 35
-			}
-		}	
+			ruler = yes
+		}
+	}
 }

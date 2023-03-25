@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	DPU = {
+		create_character = {
+			first_name = "frederick_william"
+			last_name = "hohenzollern"
+			age = 
+			ruler = yes
+		}
+	}
+}

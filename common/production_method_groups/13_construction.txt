@@ -1,11 +1,24 @@
-﻿pmg_base_building_construction_sector = {
+﻿pmg_building_methods_construction = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
-		pm_wooden_buildings
+		pm_braced_framing
+		pm_window_glazing
+		pm_balloon_framing
 		pm_iron_frame_buildings
 		pm_steel_frame_buildings
-		pm_arc_welded_buildings
+		pm_earthmovers
 	}
+}
+
+pmg_organization_construction = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+
+	production_methods = {
+		pm_corvee_labour_construction
+		pm_artisan_guilds_construction
+		pm_construction_firms_construction
+		pm_engineer_corps_construction
+		pm_industrial_conglomerate_construction
 }

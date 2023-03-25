@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	MOL = {
+		create_character = {
+			first_name = "vasile"
+			last_name = "lupu"
+			age = 66
+			ruler = yes
+		}
+	}
+}

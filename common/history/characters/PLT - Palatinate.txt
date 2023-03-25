@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	PLT = {
+		create_character = {
+			first_name = "charles_louis"
+			last_name = "wittelsbach"
+			age = 23
+			ruler = yes
+		}
+	}
+}

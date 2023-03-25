@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	PHI = {
+		create_character = {
+			first_name = "diego"
+			last_name = "fajardo_chacón"
+			age = 49
+			ruler = yes
+		}
+	}
+}

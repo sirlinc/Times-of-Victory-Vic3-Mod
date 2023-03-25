@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	COB = {
+		create_character = {
+			first_name = "friedrich_wilhelm_ii"
+			last_name = "wettin"
+			age = 45
+			ruler = yes
+		}
+	}
+}

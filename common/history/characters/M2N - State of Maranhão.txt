@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	M2N = {
+		create_character = {
+			first_name = "manuel"
+			last_name = "da_veiga"
+			age = 36
+			ruler = yes
+		}
+	}
+}

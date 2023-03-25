@@ -1,10 +1,10 @@
 ﻿CHARACTERS = {
-	c:BRU = {
+	BRU = {
 		create_character = {
-			first_name = "Abdul"
-			last_name = "Jalilul_Akbar"
-			ruler = yes
+			first_name = "abdul"
+			last_name = "jalilul_akbar"
 			age = 61
-			}
-		}	
+			ruler = yes
+		}
+	}
 }

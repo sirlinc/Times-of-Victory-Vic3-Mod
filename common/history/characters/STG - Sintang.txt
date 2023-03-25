@@ -1,10 +1,10 @@
 ﻿CHARACTERS = {
-	c:STG = {
+	STG = {
 		create_character = {
-			first_name = "Tunggal"
-			last_name = "of_Sintang"
-			ruler = yes
+			first_name = "tunggal"
+			last_name = "of_sintang"
 			age = 54
-			}
-		}	
+			ruler = yes
+		}
+	}
 }

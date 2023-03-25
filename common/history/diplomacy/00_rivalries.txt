@@ -87,6 +87,66 @@
 			type = rivalry
 		}
 	}
+	c:A03 = {
+		create_diplomatic_pact = {
+			country = c:A04
+			type = rivalry
+		}
+	}
+	c:A04 = {
+		create_diplomatic_pact = {
+			country = c:A03
+			type = rivalry
+		}
+	}
+	c:A08 = {
+		create_diplomatic_pact = {
+			country = c:A09
+			type = rivalry
+		}
+	}
+	c:A09 = {
+		create_diplomatic_pact = {
+			country = c:A08
+			type = rivalry
+		}
+	}
+	c:A13 = {
+		create_diplomatic_pact = {
+			country = c:BUR
+			type = rivalry
+		}
+	}
+	c:BUR = {
+		create_diplomatic_pact = {
+			country = c:A13
+			type = rivalry
+		}
+	}
+	c:A06 = {
+		create_diplomatic_pact = {
+			country = c:CHI
+			type = rivalry
+		}
+	}
+	c:CHI = {
+		create_diplomatic_pact = {
+			country = c:A06
+			type = rivalry
+		}
+	}
+	c:A28 = {
+		create_diplomatic_pact = {
+			country = c:A29
+			type = rivalry
+		}
+	}
+	c:A29 = {
+		create_diplomatic_pact = {
+			country = c:A28
+			type = rivalry
+		}
+	}
 }	
 
 

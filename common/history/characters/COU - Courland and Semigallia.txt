@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	COU = {
+		create_character = {
+			first_name = "jacob"
+			last_name = "kettler"
+			age = 38
+			ruler = yes
+		}
+	}
+}

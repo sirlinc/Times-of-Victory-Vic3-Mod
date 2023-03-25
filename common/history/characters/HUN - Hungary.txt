@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	HUN = {
+		create_character = {
+			first_name = "ferdinand_IV"
+			last_name = "habsburg"
+			age = 8
+			ruler = yes
+		}
+	}
+}

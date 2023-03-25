@@ -1,0 +1,4 @@
+﻿CHARACTERS = {
+	JJ5 = {
+	}
+}

@@ -1,10 +1,10 @@
 ﻿CHARACTERS = {
-	c:JAP = {
+	JAP = {
 		create_character = {
-			first_name = "Iemitsu"
-			last_name = "Tokugawa"
-			ruler = yes
+			first_name = "iemitsu"
+			last_name = "tokugawa"
 			age = 46
-			}
-		}	
+			ruler = yes
+		}
+	}
 }

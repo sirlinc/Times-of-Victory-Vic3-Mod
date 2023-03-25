@@ -1,0 +1,11 @@
+﻿CHARACTERS = {
+	C02 = {
+		create_character = {
+			first_name = "njinga"
+			last_name = "mbande"
+			age = 62
+			ruler = yes
+			female = yes
+		}
+	}
+}

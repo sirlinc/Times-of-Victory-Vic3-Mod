@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	LIP = {
+		create_character = {
+			first_name = "simon_philip"
+			last_name = "lippe"
+			age = 16
+			ruler = yes
+		}
+	}
+}

@@ -1,0 +1,4 @@
+﻿CHARACTERS = {
+	ST3 = {
+	}
+}

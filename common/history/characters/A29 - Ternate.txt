@@ -1,10 +1,10 @@
 ﻿CHARACTERS = {
-	c:A29 = {
+	A29 = {
 		create_character = {
-			first_name = "Mandar"
-			last_name = "Syah"
-			ruler = yes
+			first_name = "mandar"
+			last_name = "syah"
 			age = 23
-			}
-		}	
+			ruler = yes
+		}
+	}
 }

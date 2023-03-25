@@ -3,11 +3,11 @@
 		region_state:SWE = {
 			create_pop = {
 				culture = swedish
-				size = 401329
+				size=401329
 			}
 			create_pop = {
 				culture = finnish
-				size = 20612
+				size=20612
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -19,7 +19,7 @@
 		region_state:SWE = {
 			create_pop = {
 				culture = swedish
-				size = 246931
+				size=246931
 			}
 			create_pop = {
 				culture = norwegian
@@ -37,7 +37,7 @@
 			}
 			create_pop = {
 				culture = norwegian
-				size = 28036
+				size=28036
 			}
 		}
 	}
@@ -45,7 +45,7 @@
 		region_state:SWE = {
 			create_pop = {
 				culture = swedish
-				size = 26194
+				size=26194
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -55,11 +55,11 @@
 		region_state:DEN = {
 			create_pop = {
 				culture = swedish
-				size = 91674
+				size=91674
 			}
 			create_pop = {
 				culture = danish
-				size = 20146
+				size=20146
 			}
 		}
 	}
@@ -67,15 +67,15 @@
 		region_state:SWE = {
 			create_pop = {
 				culture = swedish
-				size = 124882
+				size=124882
 			}
 			create_pop = {
 				culture = finnish
-				size = 9232
+				size=9232
 			}
 			create_pop = {
 				culture = sami
-				size = 9471
+				size=9471
 			}
 		}
 	}
@@ -83,7 +83,7 @@
 		region_state:SWE = {
 			create_pop = {
 				culture = swedish
-				size = 17219
+				size=17219
 			}
 		}
 	}
@@ -91,7 +91,7 @@
 		region_state:DEN = {
 			create_pop = {
 				culture = danish
-				size = 297596
+				size=297596
 			}
 		}
 	}
@@ -99,7 +99,7 @@
 		region_state:DEN = {
 			create_pop = {
 				culture = danish
-				size = 416200
+				size=416200
 			}
 			create_pop = {
 				culture = north_german
@@ -115,7 +115,7 @@
 		region_state:NOR = {
 			create_pop = {
 				culture = norwegian
-				size = 345444
+				size=345444
 			}
 		}
 	}
@@ -123,21 +123,21 @@
 		region_state:NOR = {
 			create_pop = {
 				culture = norwegian
-				size = 168612
+				size=168612
 			}
 			create_pop = {
 				culture = sami
-				size = 16870
+				size=16870
 			}
 			create_pop = {
 				culture = finnish
-				size = 6815
+				size=6815
 			}
 		}
 		region_state:FNM = {
 			create_pop = {
 				culture = sami
-				size = 8427
+				size=8427
 			}
 		}
 	}
@@ -145,7 +145,7 @@
 		region_state:NOR = {
 			create_pop = {
 				culture = norwegian
-				size = 89666
+				size=89666
 			}
 			create_pop = {
 				culture = finnish
@@ -155,7 +155,7 @@
 		region_state:AKE = {
 			create_pop = {
 				culture = norwegian
-				size = 23040
+				size=23040
 			}
 		}
 	}
@@ -163,7 +163,7 @@
 		region_state:DEN = {
 			create_pop = {
 				culture = icelandic
-				size = 28732
+				size=28732
 			}
 			create_pop = {
 				culture = danish
@@ -193,15 +193,15 @@
 		region_state:SWE = {
 			create_pop = {
 				culture = swedish
-				size = 31337
+				size=31337
 			}
 			create_pop = {
 				culture = finnish
-				size = 184103
+				size=184103
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 7043
+				size=7043
 			}
 		}
 	}
@@ -209,12 +209,12 @@
 		region_state:SWE = {
 			create_pop = {
 				culture = finnish
-				size = 39456
+				size=39456
 			}
 			create_pop = {
 				culture = finnish
 				religion = orthodox
-				size = 4439
+				size=4439
 			}
 			create_pop = {
 				culture = swedish
@@ -224,12 +224,12 @@
 		region_state:KAR = {
 			create_pop = {
 				culture = finnish
-				size = 20289
+				size=20289
 			}
 			create_pop = {
 				culture = finnish
 				religion = orthodox
-				size = 5854
+				size=5854
 			}
 		}
 	}
@@ -237,7 +237,7 @@
 		region_state:FIN = {
 			create_pop = {
 				culture = swedish
-				size = 6795
+				size=6795
 			}
 			create_pop = {
 				culture = finnish
@@ -249,15 +249,15 @@
 		region_state:SWE = {
 			create_pop = {
 				culture = finnish
-				size = 141375
+				size=141375
 			}
 			create_pop = {
 				culture = swedish
-				size = 18159
+				size=18159
 			}
 			create_pop = {
 				culture = sami
-				size = 22979
+				size=22979
 			}
 		}
 	}
@@ -265,21 +265,21 @@
 		region_state:ENG = {
 			create_pop = {
 				culture = british
-				size = 1320162
+				size=1320162
 			}
 			create_pop = {
 				culture = british
 				religion = jewish
-				size = 9231
+				size=9231
 			}
 			create_pop = {
 				culture = british
 				religion = catholic
-				size = 50049
+				size=50049
 			}
 			create_pop = {
 				culture = irish
-				size = 13323
+				size=13323
 			}
 		}
 	}
@@ -287,16 +287,16 @@
 		region_state:ENG = {
 			create_pop = {
 				culture = british
-				size = 1029911
+				size=1029911
 			}
 			create_pop = {
 				culture = british
 				religion = catholic
-				size = 38538
+				size=38538
 			}
 			create_pop = {
 				culture = irish
-				size = 47661
+				size=47661
 			}
 		}
 	}
@@ -304,11 +304,11 @@
 		region_state:ENG = {
 			create_pop = {
 				culture = welsh
-				size = 355591
+				size=355591
 			}
 			create_pop = {
 				culture = british
-				size = 94293
+				size=94293
 			}
 		}
 	}
@@ -316,16 +316,16 @@
 		region_state:ENG = {
 			create_pop = {
 				culture = british
-				size = 877378
+				size=877378
 			}
 			create_pop = {
 				culture = irish
-				size = 8271
+				size=8271
 			}
 			create_pop = {
 				culture = british
 				religion = catholic
-				size = 26477
+				size=26477
 			}
 		}
 	}
@@ -333,7 +333,7 @@
 		region_state:SCO = {
 			create_pop = {
 				culture = scottish
-				size = 389881
+				size=389881
 			}
 			create_pop = {
 				culture = scottish
@@ -346,16 +346,16 @@
 		region_state:ENG = {
 			create_pop = {
 				culture = british
-				size = 1149064
+				size=1149064
 			}
 			create_pop = {
 				culture = british
 				religion = catholic
-				size = 15752
+				size=15752
 			}
 			create_pop = {
 				culture = irish
-				size = 6281
+				size=6281
 			}
 		}
 	}
@@ -363,7 +363,7 @@
 		region_state:ENG = {
 			create_pop = {
 				culture = british
-				size = 709580
+				size=709580
 			}
 			create_pop = {
 				culture = british
@@ -376,12 +376,12 @@
 		region_state:ENG = {
 			create_pop = {
 				culture = british
-				size = 1230384
+				size=1230384
 			}
 			create_pop = {
 				culture = british
 				religion = catholic
-				size = 7063
+				size=7063
 			}
 			create_pop = {
 				culture = irish
@@ -393,16 +393,16 @@
 		region_state:SCO = {
 			create_pop = {
 				culture = scottish
-				size = 581855
+				size=581855
 			}
 			create_pop = {
 				culture = scottish
 				religion = catholic
-				size = 98849
+				size=98849
 			}
 			create_pop = {
 				culture = irish
-				size = 29268
+				size=29268
 			}
 		}
 	}
@@ -410,7 +410,7 @@
 		region_state:ENG = {
 			create_pop = {
 				culture = irish # Catholics
-				size = 445955
+				size=445955
 			}
 			create_pop = {
 				culture = british # Anglicans
@@ -419,11 +419,11 @@
 			create_pop = {
 				culture = irish # Anglicans
 				religion = protestant
-				size = 14092
+				size=14092
 			}
 			create_pop = {
 				culture = scottish  # Presbyterians and Methodists
-				size = 13304
+				size=13304
 			}
 		}
 	}
@@ -431,13 +431,13 @@
 		region_state:IRE = {
 			create_pop = {
 				culture = irish # Catholics
-				size = 486922
+				size=486922
 			}
 		}
 		region_state:ENG = {
 			create_pop = {
 				culture = irish # Catholics
-				size = 40773
+				size=40773
 			}
 			create_pop = {
 				culture = british # Anglicans
@@ -454,22 +454,22 @@
 		region_state:IRE = {
 			create_pop = {
 				culture = irish # Catholics
-				size = 295909
+				size=295909
 			}
 		}
 		region_state:ENG = {
 			create_pop = {
 				culture = irish # Catholics
-				size = 526459
+				size=526459
 			}
 			create_pop = {
 				culture = british # Anglicans
-				size = 30527
+				size=30527
 			}
 			create_pop = {
 				culture = irish # Anglicans
 				religion = protestant
-				size = 9520
+				size=9520
 			}
 		}
 	}
@@ -477,7 +477,7 @@
 		region_state:ENG = {
 			create_pop = {
 				culture = irish # Catholics
-				size = 41937
+				size=41937
 			}
 			create_pop = {
 				culture = scottish
@@ -487,7 +487,7 @@
 		region_state:IRE = {
 			create_pop = {
 				culture = irish # Catholics
-				size = 539644
+				size=539644
 			}
 		}
 	}
@@ -495,21 +495,21 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 81019
+				size=81019
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 5631
+				size=5631
 			}
 		}
 		region_state:FR2 = {
 			create_pop = {
 				culture = french
-				size = 183599
+				size=183599
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 8102
+				size=8102
 			}
 		}
 	}
@@ -517,7 +517,7 @@
 		region_state:SAV = {
 			create_pop = {
 				culture = north_italian
-				size = 6585
+				size=6585
 			}
 			create_pop = {
 				culture = french
@@ -531,13 +531,13 @@
 			}
 			create_pop = {
 				culture = occitan
-				size = 6109
+				size=6109
 			}
 		}
 		region_state:FR2 = {
 			create_pop = {
 				culture = occitan
-				size = 393283
+				size=393283
 			}
 		}
 	}
@@ -545,7 +545,7 @@
 		region_state:FR2 = {
 			create_pop = {
 				culture = french
-				size = 801268
+				size=801268
 			}
 		}
 	}
@@ -553,11 +553,11 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = occitan
-				size = 471943
+				size=471943
 			}
 			create_pop = {
 				culture = catalan
-				size = 6287
+				size=6287
 			}
 		}
 		region_state:CTR = {
@@ -567,7 +567,7 @@
 			}
 			create_pop = {
 				culture = catalan
-				size = 26289
+				size=26289
 			}
 		}
 	}
@@ -575,15 +575,15 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 1103342
+				size=1103342
 			}
 			create_pop = {
 				culture = occitan
-				size = 294532
+				size=294532
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 4726
+				size=4726
 			}
 		}
 	}
@@ -591,7 +591,7 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 866746
+				size=866746
 			}
 		}
 	}
@@ -599,21 +599,21 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 614423
+				size=614423
 			}
 			create_pop = {
 				culture = flemish
-				size = 40319
+				size=40319
 			}
 		}
 		region_state:SPA = {
 			create_pop = {
 				culture = spanish
-				size = 19740
+				size=19740
 			}
 			create_pop = {
 				culture = flemish
-				size = 29029
+				size=29029
 			}
 		}
 	}
@@ -621,7 +621,7 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 31692
+				size=31692
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -629,18 +629,18 @@
 			}
 			create_pop = {
 				culture = south_german
-				size = 10147
+				size=10147
 			}
 			create_pop = {
 				culture = south_german
 				religion = protestant
-				size = 8585
+				size=8585
 			}
 		}
 		region_state:LOR = {
 			create_pop = {
 				culture = french
-				size = 139468
+				size=139468
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -648,12 +648,12 @@
 			}
 			create_pop = {
 				culture = south_german
-				size = 73611
+				size=73611
 			}
 			create_pop = {
 				culture = south_german
 				religion = protestant
-				size = 35240
+				size=35240
 			}
 		}
 	}
@@ -661,7 +661,7 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 683910
+				size=683910
 			}
 		}
 	}
@@ -669,7 +669,7 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = occitan
-				size = 903202
+				size=903202
 			}
 		}
 	}
@@ -677,11 +677,11 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = occitan
-				size = 622168
+				size=622168
 			}
 			create_pop = {
 				culture = french
-				size = 146275
+				size=146275
 			}
 		}
 	}
@@ -689,11 +689,11 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 410080
+				size=410080
 			}
 			create_pop = {
 				culture = breton
-				size = 1029123
+				size=1029123
 			}
 		}
 	}
@@ -701,13 +701,13 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 246485
+				size=246485
 			}
 		}
 		region_state:SPA = {
 			create_pop = {
 				culture = french
-				size = 884408
+				size=884408
 			}
 		}
 	}
@@ -715,19 +715,19 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 360503
+				size=360503
 			}
 		}
 		region_state:SPA = {
 			create_pop = {
 				culture = wallonian
-				size = 22838
+				size=22838
 			}
 		}
 		region_state:LIE = {
 			create_pop = {
 				culture = wallonian
-				size = 49183
+				size=49183
 			}
 		}
 	}
@@ -735,21 +735,21 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 144494
+				size=144494
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 7070
+				size=7070
 			}
 			create_pop = {
 				culture = south_german
-				size = 16956
+				size=16956
 			}
 		}
 		region_state:LOR = {
 			create_pop = {
 				culture = french
-				size = 313381
+				size=313381
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -757,13 +757,13 @@
 			}
 			create_pop = {
 				culture = south_german
-				size = 53738
+				size=53738
 			}
 		}
 		region_state:SPA = {
 			create_pop = {
 				culture = french
-				size = 172291
+				size=172291
 			}
 			create_pop = {
 				culture = spanish
@@ -775,7 +775,7 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = occitan
-				size = 845747
+				size=845747
 			}
 		}
 	}
@@ -783,21 +783,21 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = occitan
-				size = 452484
+				size=452484
 			}
 			create_pop = {
 				culture = basque
-				size = 50523
+				size=50523
 			}
 		}
 		region_state:FR2 = {
 			create_pop = {
 				culture = occitan
-				size = 370746
+				size=370746
 			}
 			create_pop = {
 				culture = basque
-				size = 24577
+				size=24577
 			}
 		}
 	}
@@ -805,7 +805,7 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 801842
+				size=801842
 			}
 		}
 	}
@@ -813,15 +813,15 @@
 		region_state:NET = {
 			create_pop = {
 				culture = dutch
-				size = 619739
+				size=619739
 			}
 			create_pop = {
 				culture = flemish
-				size = 10568
+				size=10568
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 20095
+				size=20095
 			}
 		}
 	}
@@ -829,11 +829,11 @@
 		region_state:NET = {
 			create_pop = {
 				culture = dutch
-				size = 347283
+				size=347283
 			}
 			create_pop = {
 				culture = north_german
-				size = 6335
+				size=6335
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -845,7 +845,7 @@
 		region_state:NET = {
 			create_pop = {
 				culture = dutch
-				size = 351034
+				size=351034
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -857,13 +857,13 @@
 			}
 			create_pop = {
 				culture = north_german
-				size = 4309
+				size=4309
 			}
 		}
 		region_state:SPA = {
 			create_pop = {
 				culture = dutch
-				size = 36970
+				size=36970
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -871,11 +871,11 @@
 			}
 			create_pop = {
 				culture = flemish
-				size = 6996
+				size=6996
 			}
 			create_pop = {
 				culture = north_german
-				size = 14807
+				size=14807
 			}
 		}
 	}
@@ -883,41 +883,41 @@
 		region_state:LIE = {
 			create_pop = {
 				culture = wallonian
-				size = 44654
+				size=44654
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 26833
+				size=26833
 			}
 		}
 		region_state:LUX = {
 			create_pop = {
 				culture = wallonian
-				size = 11038
+				size=11038
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 55516
+				size=55516
 			}
 		}
 		region_state:SPA = {
 			create_pop = {
 				culture = wallonian
-				size = 652368
+				size=652368
 			}
 			create_pop = {
 				culture = north_german
-				size = 16009
+				size=16009
 			}
 			create_pop = {
 				culture = flemish
-				size = 43506
+				size=43506
 			}
 			create_pop = {
 				culture = dutch
-				size = 8204
+				size=8204
 			}
 		}
 	}
@@ -925,29 +925,29 @@
 		region_state:SPA = {
 			create_pop = {
 				culture = flemish
-				size = 407226
+				size=407226
 			}
 			create_pop = {
 				culture = wallonian
-				size = 44300
+				size=44300
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 8302
+				size=8302
 			}
 		}
 		region_state:LIE = {
 			create_pop = {
 				culture = flemish
-				size = 55347
+				size=55347
 			}
 			create_pop = {
 				culture = wallonian
-				size = 6130
+				size=6130
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 9290
+				size=9290
 			}
 		}
 	}
@@ -955,7 +955,7 @@
 		region_state:AUS = {
 			create_pop = {
 				culture = south_german
-				size = 1069385
+				size=1069385
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -963,12 +963,12 @@
 			}
 			create_pop = {
 				culture = hungarian
-				size = 8523
+				size=8523
 			}
 			create_pop = {
 				culture = czech
 				religion = catholic
-				size = 9670
+				size=9670
 			}
 			create_pop = {
 				culture = hungarian
@@ -981,16 +981,16 @@
 		region_state:AUS = {
 			create_pop = {
 				culture = south_german
-				size = 898087
+				size=898087
 			}
 			create_pop = {
 				culture = czech
 				religion = catholic
-				size = 1433989
+				size=1433989
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 42520
+				size=42520
 			}
 		}
 	}
@@ -998,20 +998,20 @@
 		region_state:AUS = {
 			create_pop = {
 				culture = south_german
-				size = 286147
+				size=286147
 			}
 			create_pop = {
 				culture = czech
 				religion = catholic
-				size = 494994
+				size=494994
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 14785
+				size=14785
 			}
 			create_pop = {
 				culture = polish
-				size = 29416
+				size=29416
 			}
 		}
 	}
@@ -1019,11 +1019,11 @@
 		region_state:AUS = {
 			create_pop = {
 				culture = south_german
-				size = 363034
+				size=363034
 			}
 			create_pop = {
 				culture = slovene
-				size = 45136
+				size=45136
 			}
 		}
 	}
@@ -1031,13 +1031,13 @@
 		region_state:AUS = {
 			create_pop = {
 				culture = south_german
-				size = 140144
+				size=140144
 			}
 		}
 		region_state:SLZ = {
 			create_pop = {
 				culture = south_german
-				size = 35551
+				size=35551
 			}
 		}
 	}
@@ -1045,7 +1045,7 @@
 		region_state:AUS = {
 			create_pop = {
 				culture = south_german
-				size = 83802
+				size=83802
 			}
 			create_pop = {
 				culture = north_italian
@@ -1057,16 +1057,16 @@
 		region_state:BRM = {
 			create_pop = {
 				culture = north_german
-				size = 310680
+				size=310680
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 45686
+				size=45686
 			}
 			create_pop = {
 				culture = polish
-				size = 22600
+				size=22600
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -1076,12 +1076,12 @@
 		region_state:SWE = {
 			create_pop = {
 				culture = north_german
-				size = 109278
+				size=109278
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 46858
+				size=46858
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -1093,7 +1093,7 @@
 		region_state:BRE = {
 			create_pop = {
 				culture = north_german
-				size = 57869
+				size=57869
 			}
 			create_pop = {
 				culture = north_german
@@ -1104,7 +1104,7 @@
 		region_state:HAM = {
 			create_pop = {
 				culture = north_german
-				size = 73245
+				size=73245
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -1114,7 +1114,7 @@
 		region_state:HAN = {
 			create_pop = {
 				culture = north_german
-				size = 268888
+				size=268888
 			}
 		}
 	}
@@ -1123,25 +1123,25 @@
 			create_pop = {
 				culture = swiss
 				religion = catholic
-				size = 115034
+				size=115034
 			}
 			create_pop = {
 				culture = swiss
-				size = 68713
+				size=68713
 			}
 		}
 		region_state:TRL = {
 			create_pop = {
 				culture = swiss
-				size = 21417
+				size=21417
 			}
 			create_pop = {
 				culture = north_italian
-				size = 10097
+				size=10097
 			}
 			create_pop = {
 				culture = south_german
-				size = 15313
+				size=15313
 			}
 		}
 	}
@@ -1149,38 +1149,38 @@
 		region_state:SWI = {
 			create_pop = {
 				culture = swiss
-				size = 129981
+				size=129981
 			}
 			create_pop = {
 				culture = french
-				size = 19598
+				size=19598
 			}
 			create_pop = {
 				culture = swiss
 				religion = catholic
-				size = 94310
+				size=94310
 			}
 		}
 		region_state:BAE = {
 			create_pop = {
 				culture = swiss
-				size = 87894
+				size=87894
 			}
 			create_pop = {
 				culture = south_german
 				religion = catholic
-				size = 17232
+				size=17232
 			}
 		}
 		region_state:STI = {
 			create_pop = {
 				culture = swiss
-				size = 40047
+				size=40047
 			}
 			create_pop = {
 				culture = north_italian
 				religion = catholic
-				size = 44494
+				size=44494
 			}
 		}
 	}
@@ -1189,59 +1189,59 @@
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 86380
+				size=86380
 			}
 			create_pop = {
 				culture = north_german
-				size = 25554
+				size=25554
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 6110
+				size=6110
 			}
 		}
 		region_state:HEK = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 15567
+				size=15567
 			}
 			create_pop = {
 				culture = north_german
-				size = 21415
+				size=21415
 			}
 		}
 		region_state:CLG = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 28880
+				size=28880
 			}
 			create_pop = {
 				culture = north_german
-				size = 29097
+				size=29097
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 4315
+				size=4315
 			}
 		}
 		region_state:LIP = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 32108
+				size=32108
 			}
 			create_pop = {
 				culture = north_german
-				size = 16468
+				size=16468
 			}
 		}	
 		region_state:SCM = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 7504
+				size=7504
 			}
 			create_pop = {
 				culture = north_german
@@ -1253,39 +1253,39 @@
 		region_state:ANH = {
 			create_pop = {
 				culture = north_german
-				size = 72358
+				size=72358
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 8839
+				size=8839
 			}
 		}
 		region_state:MDG = {
 			create_pop = {
 				culture = north_german
-				size = 69465
+				size=69465
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 6961
+				size=6961
 			}
 		}
 		region_state:SAX = {
 			create_pop = {
 				culture = north_german
-				size = 73626
+				size=73626
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 8550
+				size=8550
 			}
 		}
 		region_state:BRM = {
 			create_pop = {
 				culture = north_german
-				size = 30482
+				size=30482
 			}
 		}
 	}
@@ -1294,47 +1294,47 @@
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 34871
+				size=34871
 			}
 			create_pop = {
 				culture = french
-				size = 11356
+				size=11356
 			}
 			create_pop = {
 				culture = north_german
-				size = 62812
+				size=62812
 			}
 		}
 		region_state:SPH = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 20611
+				size=20611
 			}
 			create_pop = {
 				culture = french
-				size = 6339
+				size=6339
 			}
 			create_pop = {
 				culture = north_german
-				size = 36532
+				size=36532
 			}
 		}
 		region_state:BEG = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 24772
+				size=24772
 			}
 			create_pop = {
 				culture = north_german
-				size = 44115
+				size=44115
 			}
 		}
 		region_state:PLT = {
 			create_pop = {
 				culture = south_german
-				size = 83187
+				size=83187
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -1342,7 +1342,7 @@
 			}
 			create_pop = {
 				culture = north_german
-				size = 100304
+				size=100304
 			}
 		}
 	}
@@ -1351,74 +1351,74 @@
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 114933
+				size=114933
 			}
 			create_pop = {
 				culture = north_german
-				size = 71832
+				size=71832
 			}
 			create_pop = {
 				culture = wallonian
-				size = 8109
+				size=8109
 			}
 		}
 		region_state:JU1 = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 22731
+				size=22731
 			}
 			create_pop = {
 				culture = north_german
-				size = 35671
+				size=35671
 			}
 		}
 		region_state:CLE = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 98279
+				size=98279
 			}
 			create_pop = {
 				culture = north_german
-				size = 76191
+				size=76191
 			}
 			create_pop = {
 				culture = dutch
-				size = 5846
+				size=5846
 			}
 		}
 		region_state:LMA = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 80357
+				size=80357
 			}
 			create_pop = {
 				culture = north_german
-				size = 76185
+				size=76185
 			}
 		}
 		region_state:CLG = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 47651
+				size=47651
 			}
 			create_pop = {
 				culture = north_german
-				size = 54262
+				size=54262
 			}
 		}
 		region_state:BEG = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 38188
+				size=38188
 			}
 			create_pop = {
 				culture = north_german
-				size = 66199
+				size=66199
 			}
 		}
 	}
@@ -1426,35 +1426,35 @@
 		region_state:BRM = {
 			create_pop = {
 				culture = north_german
-				size = 407726
+				size=407726
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 6582
+				size=6582
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 10249
+				size=10249
 			}
 			create_pop = {
 				culture = polish
-				size = 10315
+				size=10315
 			}
 		}
 		region_state:SAX = {
 			create_pop = {
 				culture = north_german
-				size = 52772
+				size=52772
 			}
 			create_pop = {
 				culture = czech
-				size = 5240
+				size=5240
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 12487
+				size=12487
 			}
 		}
 	}
@@ -1462,7 +1462,7 @@
 		region_state:HOL = {
 			create_pop = {
 				culture = north_german
-				size = 208896
+				size=208896
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -1475,13 +1475,13 @@
 			}
 			create_pop = {
 				culture = danish
-				size = 12108
+				size=12108
 			}
 		}
 		region_state:LUB = {
 			create_pop = {
 				culture = north_german
-				size = 47242
+				size=47242
 			}
 			create_pop = {
 				culture = north_german
@@ -1492,11 +1492,11 @@
 		region_state:SCH = {
 			create_pop = {
 				culture = north_german
-				size = 88432
+				size=88432
 			}
 			create_pop = {
 				culture = danish
-				size = 71832
+				size=71832
 			}
 		}
 	}
@@ -1505,33 +1505,33 @@
 			create_pop = {
 				culture = south_german
 				religion = protestant
-				size = 433096
+				size=433096
 			}
 			create_pop = {
 				culture = south_german
-				size = 139619
+				size=139619
 			}
 		}
 		region_state:HOH = {
 			create_pop = {
 				culture = south_german
 				religion = protestant
-				size = 24129
+				size=24129
 			}
 			create_pop = {
 				culture = south_german
-				size = 8644
+				size=8644
 			}
 		}	
 		region_state:ULM = {
 			create_pop = {
 				culture = south_german
 				religion = protestant
-				size = 29769
+				size=29769
 			}
 			create_pop = {
 				culture = south_german
-				size = 16497
+				size=16497
 			}
 		}		
 	}
@@ -1539,42 +1539,42 @@
 		region_state:BAD = {
 			create_pop = {
 				culture = south_german
-				size = 220473
+				size=220473
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 34410
+				size=34410
 			}
 			create_pop = {
 				culture = south_german
 				religion = protestant
-				size = 74336
+				size=74336
 			}
 		}
 		region_state:PLT = {
 			create_pop = {
 				culture = north_german
-				size = 73107
+				size=73107
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 7493
+				size=7493
 			}
 			create_pop = {
 				culture = south_german
 				religion = protestant
-				size = 24957
+				size=24957
 			}
 		}
 		region_state:AUS = {
 			create_pop = {
 				culture = south_german
-				size = 33525
+				size=33525
 			}
 			create_pop = {
 				culture = south_german
 				religion = protestant
-				size = 15350
+				size=15350
 			}
 		}
 	}
@@ -1582,40 +1582,40 @@
 		region_state:OLD = {
 			create_pop = {
 				culture = north_german
-				size = 121663
+				size=121663
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 17449
+				size=17449
 			}
 		}
 		region_state:CLB = {
 			create_pop = {
 				culture = north_german
-				size = 82358
+				size=82358
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 17746
+				size=17746
 			}
 		}
 		region_state:MUN = {
 			create_pop = {
 				culture = north_german
-				size = 48255
+				size=48255
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 9254
+				size=9254
 			}
 		}
 		region_state:EFR = {
 			create_pop = {
 				culture = north_german
-				size = 30684
+				size=30684
 			}
 			create_pop = {
 				culture = north_german
@@ -1626,12 +1626,12 @@
 		region_state:HAN = {
 			create_pop = {
 				culture = north_german
-				size = 113592
+				size=113592
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 43826
+				size=43826
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -1647,7 +1647,7 @@
 		region_state:HAN = {
 			create_pop = {
 				culture = north_german
-				size = 90312
+				size=90312
 			}
 			create_pop = {
 				culture = north_german
@@ -1658,7 +1658,7 @@
 		region_state:BRA = {
 			create_pop = {
 				culture = north_german
-				size = 95135
+				size=95135
 			}
 			create_pop = {
 				culture = north_german
@@ -1669,7 +1669,7 @@
 		region_state:PRU = {
 			create_pop = {
 				culture = north_german
-				size = 61706
+				size=61706
 			}
 		}
 	}
@@ -1677,42 +1677,42 @@
 		region_state:BAV = {
 			create_pop = {
 				culture = south_german
-				size = 672753
+				size=672753
 			}
 			create_pop = {
 				culture = south_german
 				religion = protestant
-				size = 35383
+				size=35383
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 8645
+				size=8645
 			}
 		}
 		region_state:AG1 = {
 			create_pop = {
 				culture = south_german
-				size = 36826
+				size=36826
 			}
 			create_pop = {
 				culture = south_german
 				religion = protestant
-				size = 14101
+				size=14101
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 4530
+				size=4530
 			}
 		}
 		region_state:PAS = {
 			create_pop = {
 				culture = south_german
-				size = 31281
+				size=31281
 			}
 			create_pop = {
 				culture = south_german
 				religion = protestant
-				size = 16630
+				size=16630
 			}
 		}
 	}
@@ -1720,7 +1720,7 @@
 		region_state:NUR = {
 			create_pop = {
 				culture = south_german
-				size = 46867
+				size=46867
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -1729,13 +1729,13 @@
 			create_pop = {
 				culture = south_german
 				religion = protestant
-				size = 72394
+				size=72394
 			}
 		}
 		region_state:ANB = {
 			create_pop = {
 				culture = south_german
-				size = 80880
+				size=80880
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -1744,13 +1744,13 @@
 			create_pop = {
 				culture = south_german
 				religion = protestant
-				size = 57976
+				size=57976
 			}
 		}
 		region_state:BYR = {
 			create_pop = {
 				culture = south_german
-				size = 67327
+				size=67327
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -1759,13 +1759,13 @@
 			create_pop = {
 				culture = south_german
 				religion = protestant
-				size = 60956
+				size=60956
 			}
 		}
 		region_state:WRB = {
 			create_pop = {
 				culture = south_german
-				size = 83158
+				size=83158
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -1774,7 +1774,7 @@
 			create_pop = {
 				culture = south_german
 				religion = protestant
-				size = 52991
+				size=52991
 			}
 		}
 	}
@@ -1782,12 +1782,12 @@
 		region_state:SAX = {
 			create_pop = {
 				culture = north_german
-				size = 775916
+				size=775916
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 7801
+				size=7801
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -1795,18 +1795,18 @@
 			}
 			create_pop = { # rough estimate of 200k Sorbs in 1836
 				culture = sorb
-				size = 93694
+				size=93694
 			}
 			create_pop = {
 				culture = sorb
 				religion = protestant
-				size = 24259
+				size=24259
 			}
 		}
 		region_state:MEI = {
 			create_pop = {
 				culture = north_german
-				size = 83710
+				size=83710
 			}
 			create_pop = {
 				culture = north_german
@@ -1821,7 +1821,7 @@
 		region_state:WEI = {
 			create_pop = {
 				culture = north_german
-				size = 119252
+				size=119252
 			}
 			create_pop = {
 				culture = north_german
@@ -1836,7 +1836,7 @@
 		region_state:COB = {
 			create_pop = {
 				culture = north_german
-				size = 84974
+				size=84974
 			}
 			create_pop = {
 				culture = north_german
@@ -1851,7 +1851,7 @@
 		region_state:SCW = {
 			create_pop = {
 				culture = north_german
-				size = 50256
+				size=50256
 			}
 			create_pop = {
 				culture = north_german
@@ -1868,7 +1868,7 @@
 		region_state:FRM = {
 			create_pop = {
 				culture = north_german
-				size = 58128
+				size=58128
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -1883,12 +1883,12 @@
 		region_state:HES = {
 			create_pop = {
 				culture = north_german
-				size = 140139
+				size=140139
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 62772
+				size=62772
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -1898,12 +1898,12 @@
 		region_state:HEK = {
 			create_pop = {
 				culture = north_german
-				size = 104629
+				size=104629
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 58514
+				size=58514
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -1913,7 +1913,7 @@
 		region_state:NAS = {
 			create_pop = {
 				culture = north_german
-				size = 60736
+				size=60736
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -1922,24 +1922,24 @@
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 40869
+				size=40869
 			}
 		}
 		region_state:WLD = {
 			create_pop = {
 				culture = north_german
-				size = 17012
+				size=17012
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 16910
+				size=16910
 			}
 		}
 		region_state:MNZ = {
 			create_pop = {
 				culture = north_german
-				size = 63233
+				size=63233
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -1948,18 +1948,18 @@
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 37620
+				size=37620
 			}
 		}
 		region_state:FUL = {
 			create_pop = {
 				culture = north_german
-				size = 29871
+				size=29871
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 42375
+				size=42375
 			}
 		}	
 	}
@@ -1967,7 +1967,7 @@
 		region_state:MEC = {
 			create_pop = {
 				culture = north_german
-				size = 222929
+				size=222929
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -1977,7 +1977,7 @@
 		region_state:MST = {
 			create_pop = {
 				culture = north_german
-				size = 43983
+				size=43983
 			}
 		}		
 	}

@@ -1,233 +1,138 @@
-﻿pmg_base_building_coffee_plantation = {
+﻿#Base Plantations
+
+pmg_infrastructure_base_plantation = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		default_building_coffee_plantation
-		automatic_irrigation_building_coffee_plantation
+		pm_minimal_infrastructure
+		pm_irrigation_networks
+		pm_warehouses
+		pm_rail_linkages
+		pm_cold_storage
+		pm_electrified_fences
 	}
 }
 
-pmg_train_automation_building_coffee_plantation = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
-	production_methods = {
-		pm_road_carts
-		pm_steam_rail_transport
-	}
-}
-
-pmg_ownership_land_building_coffee_plantation = {
+pmg_ownership_base_plantation = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
 	production_methods = {
-		pm_privately_owned
-		pm_publicly_traded
-		pm_government_run
-		pm_worker_cooperative_plantation
+		pm_titled_aristocracy
+		pm_religious_order
+		pm_planter_aristocracy
+		pm_corporate_entities_plantation
+		pm_state_owned_plantations
 	}
 }
 
-pmg_base_building_cotton_plantation = {
+pmg_labor_equity_base_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_forced_labor
+		pm_exploitation
+		pm_tenant_farming
+		pm_collectivization
+		pm_fair_trade
+	}
+}
+
+#Sugarcane Plantation
+
+pmg_innovations_sugarcane_plantation = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		default_building_cotton_plantation
-		automatic_irrigation_building_cotton_plantation
+		pm_sugarloaf_molds_sugarcane
+		pm_molasses_separation_sugarcane
+		pm_cane_crushers_sugarcane
+		pm_vacuum_pan_evaporation_sugarcane
+		pm_centrifugation_sugarcane
 	}
 }
 
-pmg_train_automation_building_cotton_plantation = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
-	production_methods = {
-		pm_road_carts
-		pm_steam_rail_transport
-	}
-}
+#Cotton Plantation
 
-pmg_ownership_land_building_cotton_plantation = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_privately_owned
-		pm_publicly_traded
-		pm_government_run
-		pm_worker_cooperative_plantation
-	}
-}
-
-pmg_base_building_dye_plantation = {
+pmg_innovations_cotton_plantation = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		default_building_dye_plantation
-		automatic_irrigation_building_dye_plantation
+		pm_hand_picking_cotton
+		pm_fiber_carding_tools_cotton
+		pm_cotton_gins_cotton
+		pm_diesel_powered_gins_cotton
+		pm_cotton_harvesters_cotton
 	}
 }
 
-pmg_train_automation_building_dye_plantation = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
-	production_methods = {
-		pm_road_carts
-		pm_steam_rail_transport
-	}
-}
+#Tea Plantation
 
-pmg_ownership_land_building_dye_plantation = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_privately_owned
-		pm_publicly_traded
-		pm_government_run
-		pm_worker_cooperative_plantation
-	}
-}
-
-pmg_base_building_opium_plantation = {
+pmg_innovations_tea_plantation = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		default_building_opium_plantation
-		automatic_irrigation_building_opium_plantation
+		pm_hand_rolling_tea
+		pm_withering_racks_tea
+		pm_hydraulic_tea_press_tea
+		pm_tea_blending_machines_tea
+		pm_ctc_machines_tea
 	}
 }
 
-pmg_train_automation_building_opium_plantation = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
-	production_methods = {
-		pm_road_carts
-		pm_steam_rail_transport
-	}
-}
+#Coffee Plantation
 
-pmg_ownership_land_building_opium_plantation = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_privately_owned
-		pm_publicly_traded
-		pm_government_run
-		pm_worker_cooperative_plantation
-	}
-}
-
-pmg_base_building_tea_plantation = {
+pmg_innovations_coffee_plantation = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		default_building_tea_plantation
-		automatic_irrigation_building_tea_plantation
+		pm_dry_processing_coffee
+		pm_strip_picking_tools_coffee
+		pm_roasting_machines_coffee
+		pm_fermentation_tanks_coffee
+		pm_freeze_dried_coffee_coffee
 	}
 }
 
-pmg_train_automation_building_tea_plantation = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
-	production_methods = {
-		pm_road_carts
-		pm_steam_rail_transport
-	}
-}
+#Tobacco Plantation
 
-pmg_ownership_land_building_tea_plantation = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_privately_owned
-		pm_publicly_traded
-		pm_government_run
-		pm_worker_cooperative_plantation
-	}
-}
-
-pmg_base_building_tobacco_plantation = {
+pmg_innovations_tobacco_plantation = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		default_building_tobacco_plantation
-		automatic_irrigation_building_tobacco_plantation
+		pm_darkleaf_tobacco_tobacco
+		pm_protective_frames_tobacco
+		pm_brightleaf_tobacco_tobacco
+		pm_shredding_machines_tobacco
+		pm_cigarette_rolling_machines_tobacco
 	}
 }
 
-pmg_train_automation_building_tobacco_plantation = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
-	production_methods = {
-		pm_road_carts
-		pm_steam_rail_transport
-	}
-}
+#Spice Plantation
 
-pmg_ownership_land_building_tobacco_plantation = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_privately_owned
-		pm_publicly_traded
-		pm_government_run
-		pm_worker_cooperative_plantation
-	}
-}
-
-pmg_base_building_sugar_plantation = {
+pmg_innovations_spice_plantation = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		default_building_sugar_plantation
-		automatic_irrigation_building_sugar_plantation
+		pm_natural_spices_spice
+		pm_grinding_mills_spice
+		pm_aromatics_extraction_spice
+		pm_steam_sterilization_spice
+		pm_sorting_and_grading_machines_spice
 	}
 }
 
-pmg_train_automation_building_sugar_plantation = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
-	production_methods = {
-		pm_road_carts
-		pm_steam_rail_transport
-	}
-}
+#Silk Plantation
 
-pmg_ownership_land_building_sugar_plantation = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_privately_owned
-		pm_publicly_traded
-		pm_government_run
-		pm_worker_cooperative_plantation
-	}
-}
-
-pmg_base_building_banana_plantation = {
+pmg_innovations_silk_plantation = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		default_building_banana_plantation
-		automatic_irrigation_building_banana_plantation
+		pm_wild_silk_silk
+		pm_silk_threading_looms_silk
+		pm_rotary_mountage_silk
+		pm_mechanical_spooling_silk
+		pm_automatic_reeling_devices_silk
 	}
 }
 
-pmg_train_automation_building_banana_plantation = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
-	production_methods = {
-		pm_road_carts
-		pm_steam_rail_transport
-	}
-}
+#Opium Plantation
 
-pmg_ownership_land_building_banana_plantation = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_privately_owned
-		pm_publicly_traded
-		pm_government_run
-		pm_worker_cooperative_plantation
-	}
-}
-
-pmg_base_building_silk_plantation = {
+pmg_innovations_opium_plantation = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		default_building_silk_plantation
-		automatic_irrigation_building_silk_plantation
-	}
-}
-
-pmg_train_automation_building_silk_plantation = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
-	production_methods = {
-		pm_road_carts
-		pm_steam_rail_transport
-	}
-}
-
-pmg_ownership_land_building_silk_plantation = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_privately_owned
-		pm_publicly_traded
-		pm_government_run
-		pm_worker_cooperative_plantation
+		pm_camphorated_opium_opium
+		pm_morphine_extraction_opium
+		pm_codeine_isolation_opium
+		pm_heroin_synthesis_opium
 	}
 }

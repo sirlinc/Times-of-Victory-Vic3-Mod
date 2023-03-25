@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	C57 = {
+		create_character = {
+			first_name = "ibrahim_adeer"
+			last_name = "gobroon"
+			age = 28
+			ruler = yes
+		}
+	}
+}

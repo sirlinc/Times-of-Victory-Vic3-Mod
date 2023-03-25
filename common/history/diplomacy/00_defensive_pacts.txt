@@ -1,7 +1,25 @@
 ﻿DIPLOMACY = {
-	c:GBR = {
+	c:ENG = {
 		create_diplomatic_pact = {
 			country = c:POR
+			type = defensive_pact
+		}	
+	}	
+	c:MGD = {
+		create_diplomatic_pact = {
+			country = c:SUL
+			type = defensive_pact
+		}	
+	}	
+	c:PHI = {
+		create_diplomatic_pact = {
+			country = c:TID
+			type = defensive_pact
+		}	
+	}	
+	c:A43 = {
+		create_diplomatic_pact = {
+			country = c:MAK
 			type = defensive_pact
 		}	
 	}	

@@ -1,241 +1,237 @@
-﻿pmg_base_building_rye_farm = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_simple_farming
-		pm_soil_enriching_farming
-		pm_fertilization
-		pm_chemical_fertilizer
-	}
-}
+﻿#Base Farmland
 
-pmg_secondary_building_rye_farm = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
-	production_methods = {
-		pm_no_secondary
-		pm_potatoes
-		pm_apple_orchards
-	}
-}
-
-pmg_harvesting_process_building_rye_farm = {
+pmg_motive_power_base_farmland = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
-		pm_tools_disabled
-		pm_tools
-		pm_steam_threshers
-		pm_tractors
-		pm_compression_ignition_tractors
+		pm_manual_labor_farmland
+		pm_draft_animals_farmland
+		pm_portable_engine_farmland
+		pm_steam_powered_tractors_farmland
+		pm_diesel_tractors_farmland
 	}
 }
 
-pmg_ownership_land_building_rye_farm = {
+pmg_land_tenure_base_farmland = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
 	production_methods = {
-		pm_privately_owned
-		pm_publicly_traded
-		pm_government_run
-		pm_worker_cooperative_farm
+		pm_tributary_system_farmland
+		pm_smallholders_farmland
+		pm_military_homesteads_farmland
+		pm_corporate_entities_farmland
+		pm_state_ownership_farmland
+		pm_worker_cooperative_farmland
 	}
 }
 
-pmg_base_building_wheat_farm = {
+#Temperate Farmland
+
+pmg_wheat_yield_temperate_farmland = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_simple_farming
-		pm_soil_enriching_farming
-		pm_fertilization
-		pm_chemical_fertilizer
+		pm_rye_cultivation_tef
+		pm_potash_tef
+		pm_bread_wheat_cultivation_tef
+		pm_gypsum_fertilizer_tef
+		pm_pesticides_tef
+		pm_ammonia_fertilizer_tef
 	}
 }
 
-pmg_secondary_building_wheat_farm = {
+pmg_secondary_building_temperate_farmland = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
-		pm_no_secondary
-		pm_citrus_orchards
-		pm_vineyards
+		pm_no_secondary_yields_tef
+		pm_mulberry_groves_tef
+		pm_coppice_woodland_tef
+		pm_vineyards_tef
+		pm_tomato_greenhouses_tef
 	}
 }
 
-pmg_harvesting_process_building_wheat_farm = {
+pmg_mechanization_temperate_farmland = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
-		pm_tools_disabled
-		pm_tools
-		pm_steam_threshers
-		pm_tractors
-		pm_compression_ignition_tractors
+		pm_tools_disabled_tef
+		pm_mould_board_plows_tef
+		pm_reaper_binders_tef
+		pm_combine_harvesters_tef
+		pm_automated_irrigation_tef
 	}
 }
 
-pmg_ownership_land_building_wheat_farm = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_privately_owned
-		pm_publicly_traded
-		pm_government_run
-		pm_worker_cooperative_farm
-	}
-}
+#Tropical Farmland
 
-pmg_base_building_rice_farm = {
+pmg_legume_yield_tropical_farmland = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_simple_farming_building_rice_farm
-		pm_soil_enriching_farming_building_rice_farm
-		pm_fertilization_building_rice_farm
-		pm_chemical_fertilizer_building_rice_farm
+		pm_grain_legume_cultivation_trf
+		pm_cereal_intercropping_trf
+		pm_high_yield_landraces_trf
+		pm_potassium_fertilizer_trf
+		pm_pesticides_trf
+		pm_ammonia_fertilizer_trf
 	}
 }
 
-pmg_secondary_building_rice_farm = {
+pmg_secondary_building_tropical_farmland = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
-		pm_no_secondary
-		pm_fig_orchards
+		pm_no_secondary_yields_trf
+		pm_cacao_plantations_trf
+		pm_tropical_dyes_trf
+		pm_palm_fermentation_trf
 	}
 }
 
-pmg_harvesting_process_building_rice_farm = {
+pmg_mechanization_tropical_farmland = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
-		pm_tools_disabled
-		pm_tools
-		pm_steam_threshers
+		pm_tools_disabled_trf
+		pm_tillage_tools_trf
+		pm_threshers_trf
+		pm_combine_harvesters_trf
+		pm_automated_irrigation_trf
 	}
 }
 
-pmg_ownership_land_building_rice_farm = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_privately_owned
-		pm_publicly_traded
-		pm_government_run
-		pm_worker_cooperative_farm
-	}
-}
+#Monsoonal Farmland
 
-pmg_base_building_maize_farm = {
+pmg_rice_yield_wetlands_farmland = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_simple_farming
-		pm_soil_enriching_farming
-		pm_fertilization
-		pm_chemical_fertilizer
+		pm_rice_cultivation_wef
+		pm_paddies_and_terraces_wef
+		pm_rice_hybridization_wef
+		pm_pesticides_wef
+		pm_nitrate_fertilizer_wef
+		pm_enriched_rice_wef
 	}
 }
 
-pmg_secondary_building_maize_farm = {
+pmg_secondary_building_wetlands_farmland = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
-		pm_no_secondary
-		pm_citrus_orchards
-		pm_vineyards_building_maize_farm
+		pm_no_secondary_yields_wef
+		pm_jute_plantations_wef
+		pm_rice_fish_aquaculture_wef
+		pm_rice_triple_cropping_wef
 	}
 }
 
-pmg_harvesting_process_building_maize_farm = {
+pmg_mechanization_wetlands_farmland = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
-		pm_tools_disabled
-		pm_tools
-		pm_steam_threshers
-		pm_tractors
-		pm_compression_ignition_tractors
+		pm_tools_disabled_wef
+		pm_spike_harrows_wef
+		pm_hulling_machines_wef
+		pm_combine_harvesters_wef
+		pm_automated_irrigation_wef
 	}
 }
 
-pmg_ownership_land_building_maize_farm = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_privately_owned
-		pm_publicly_traded
-		pm_government_run
-		pm_worker_cooperative_farm
-	}
-}
+#Arid Farmland
 
-pmg_base_building_millet_farm = {
+pmg_millet_yield_arid_farmland = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_simple_farming
-		pm_soil_enriching_farming
-		pm_fertilization
-		pm_chemical_fertilizer
+		pm_sorghum_cultivation_arf
+		pm_cereal_intercropping_arf
+		pm_pearl_millet_cultivation_arf
+		pm_gypsum_fertilizer_arf
+		pm_pesticides_arf
+		pm_ammonia_fertilizer_arf
 	}
 }
 
-pmg_secondary_building_millet_farm = {
+pmg_secondary_building_arid_farmland = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
-		pm_no_secondary
-		pm_fig_orchards
+		pm_no_secondary_yields_arf
+		pm_coffee_plantations_arf
+		pm_fig_tree_orchards_arf
+		pm_vineyards_arf
 	}
 }
 
-pmg_harvesting_process_building_millet_farm = {
+pmg_mechanization_arid_farmland = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
-		pm_tools_disabled
-		pm_tools
-		pm_steam_threshers
-		pm_tractors
-		pm_compression_ignition_tractors
+		pm_tools_disabled_arf
+		pm_panemone_windmills_arf
+		pm_irrigation_aqueducts_arf
+		pm_combine_harvesters_arf
+		pm_automated_irrigation_arf
 	}
 }
 
-pmg_ownership_land_building_millet_farm = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_privately_owned
-		pm_publicly_traded
-		pm_government_run
-		pm_worker_cooperative_farm
-	}
-}
+#Base Pasture
 
-pmg_base_building_livestock_ranch = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+pmg_processing_base_pasture = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
-		pm_simple_ranch
-		pm_intensive_grazing_ranch
-	}
-}
-
-pmg_slaughtering = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
-	production_methods = {
-		pm_open_air_stockyards
+		pm_cured_meats
+		pm_natural_preservatives
 		pm_butchering_tools
-		pm_slaughterhouses
-		pm_mechanized_slaughtering
+		pm_abattoirs
+		pm_refrigerated_rail_cars
 	}
 }
 
-pmg_fencing = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+pmg_tanneries_base_pasture = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
-		pm_standard_fences
-		pm_barbed_wire_fences
-		pm_electric_fencing
+		pm_no_secondary_pasture
+		pm_vegetable_tannins
+		pm_dyed_hides
+		pm_chrome_tanning
 	}
 }
 
-pmg_refrigeration_building_livestock_ranch = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+pmg_secondary_livestock_base_pasture = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
-		pm_unrefrigerated
-		pm_refrigerated_storage_building_livestock_ranch
-		pm_refrigerated_rail_cars_building_livestock_ranch
+		pm_no_secondary_livestock
+		pm_horse_ranches
+		pm_livestock_barns
+		pm_collagen_glue_factories
+		pm_dairy_farms
 	}
 }
 
-pmg_ownership_land_building_livestock_ranch = {
+pmg_land_tenure_base_pasture = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
 	production_methods = {
-		pm_privately_owned
-		pm_publicly_traded
-		pm_government_run
-		pm_worker_cooperative_farm
+		pm_commons_pasture
+		pm_rural_estates_pasture
+		pm_fortified_ranches_pasture
+		pm_corporate_entities_pasture
+		pm_state_ownership_pasture
+		pm_worker_cooperative_pasture
+	}
+}
+
+#Prime Pasture
+
+pmg_prime_pasture = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_free_range_prp
+		pm_silage_prp
+		pm_prime_breeds_prp
+		pm_rotational_grazing_prp
+		pm_batteries_prp
+	}
+}
+
+#Marginal Pasture
+
+pmg_marginal_pasture = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_free_range_map
+		pm_silage_map
+		pm_hardy_breeds_map
+		pm_rotational_grazing_map
+		pm_batteries_map
 	}
 }

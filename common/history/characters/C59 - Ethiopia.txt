@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	C59 = {
+		create_character = {
+			first_name = "fasilides"
+			last_name = "solomon"
+			age = 34
+			ruler = yes
+		}
+	}
+}

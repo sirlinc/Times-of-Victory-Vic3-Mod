@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	ZAP = {
+		create_character = {
+			first_name = "bohdan"
+			last_name = "khmelnytsky"
+			age = 50
+			ruler = yes
+		}
+	}
+}

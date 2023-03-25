@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	POR = {
+		create_character = {
+			first_name = "john_iv"
+			last_name = "braganza"
+			age = 38
+			ruler = yes
+		}
+	}
+}

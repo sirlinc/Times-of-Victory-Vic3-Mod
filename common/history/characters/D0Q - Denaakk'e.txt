@@ -1,0 +1,4 @@
+﻿CHARACTERS = {
+	D0Q = {
+	}
+}

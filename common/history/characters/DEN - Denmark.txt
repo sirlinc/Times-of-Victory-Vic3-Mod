@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	DEN = {
+		create_character = {
+			first_name = "frederick_III"
+			last_name = "oldenburg"
+			age = 29
+			ruler = yes
+		}
+	}
+}

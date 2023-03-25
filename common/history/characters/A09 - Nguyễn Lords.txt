@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	A09 = {
+		create_character = {
+			first_name = "phuc_tan"
+			last_name = "nguyen"
+			age = 28
+			ruler = yes
+		}
+	}
+}

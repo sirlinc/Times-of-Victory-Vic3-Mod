@@ -19,24 +19,18 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 517005
+				size = 67005
 			}
 			create_pop = {
 				culture = siberian
-				size = 2008
+				size = 5008
 			}
 			create_pop = {
 				culture = tatar
-				religion = animist
-				size = 10853
+				size = 20346
 			}
 			create_pop = {
-				culture = tatar
-				size = 10346
-			}
-			create_pop = {
-				culture = tatar
-				religion = gelugpa
+				culture = khalkha
 				size = 7415
 			}
 		}
@@ -46,8 +40,7 @@
 				size = 17619
 			}
 			create_pop = {
-				culture = tatar
-				religion = gelugpa
+				culture = khalkha
 				size = 10215
 			}
 		}
