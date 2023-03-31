@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:CIR = {
+		create_character = {
+			first_name = "alegoqo"
+			last_name = "shogenuqo"
+			age = 44
+			ruler = yes
+		}
+	}
+}

@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:GEN = {
+		create_character = {
+			first_name = "giacomo "
+			last_name = "de_franch_toso"
+			age = 60
+			ruler = yes
+		}
+	}
+}

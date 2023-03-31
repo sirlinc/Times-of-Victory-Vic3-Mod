@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:B36 = {
+		create_character = {
+			first_name = "si_betka "
+			last_name = "mokrani"
+			age = 38
+			ruler = yes
+		}
+	}
+}

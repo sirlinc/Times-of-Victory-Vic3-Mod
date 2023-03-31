@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:TUS = {
+		create_character = {
+			first_name = "ferdinand_II"
+			last_name = "medici"
+			age = 53
+			ruler = yes
+		}
+	}
+}

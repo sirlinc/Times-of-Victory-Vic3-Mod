@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:ARN = {
+		create_character = {
+			first_name = "philip_iv"
+			last_name = "habsburg"
+			age = 34
+			ruler = yes
+		}
+	}
+}

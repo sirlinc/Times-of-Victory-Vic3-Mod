@@ -217,6 +217,7 @@
 				culture = maori
 				size = 100000
 			}
+		}
 	}
 	s:STATE_SOUTH_ISLAND = {
 		region_state:A61 = {
@@ -224,8 +225,8 @@
 				culture = maori
 				size = 40000
 			}
+		}
 	}
-}
 	s:STATE_EASTERN_LOWLANDS = { #20k
 		region_state:A77 = {
 			create_pop = {
@@ -284,3 +285,4 @@
 			}
 		}
 	}
+}

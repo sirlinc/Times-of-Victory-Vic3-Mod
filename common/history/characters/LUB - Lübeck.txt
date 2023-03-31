@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:LUB = {
+		create_character = {
+			first_name = "john_x"
+			last_name = "oldenburg"
+			age = 42
+			ruler = yes
+		}
+	}
+}

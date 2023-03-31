@@ -1,6 +1,6 @@
-POPULATION = {
-	c:KRU = {
-		effect_starting_pop_wealth_subsistence = yes
-		effect_starting_pop_literacy_illiterate = yes
-	}
+﻿POPULATION = {
+    c:KRU = {
+        effect_starting_pop_wealth_subsistence = yes
+        effect_starting_pop_literacy_illiterate = yes
+    }
 }

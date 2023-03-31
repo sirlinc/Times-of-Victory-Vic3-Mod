@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:MST = {
+		create_character = {
+			first_name = "gustav_adolf"
+			last_name = "mecklenburg"
+			age = 15
+			ruler = yes
+		}
+	}
+}

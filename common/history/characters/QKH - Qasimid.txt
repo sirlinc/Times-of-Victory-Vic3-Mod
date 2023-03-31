@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:QKH = {
+		create_character = {
+			first_name = "al_mutawakkil"
+			last_name = "Ismail"
+			age = 38
+			ruler = yes
+		}
+	}
+}

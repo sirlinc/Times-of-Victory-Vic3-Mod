@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:PAR = {
+		create_character = {
+			first_name = "ranuccio_ii"
+			last_name = "farnese"
+			age = 18
+			ruler = yes
+		}
+	}
+}

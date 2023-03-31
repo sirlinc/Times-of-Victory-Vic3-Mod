@@ -1,6 +1,6 @@
-POPULATION = {
-	c:B13 = {
-		effect_starting_pop_wealth_africa = yes
-		effect_starting_pop_literacy_baseline = yes
-	}
+﻿POPULATION = {
+    c:B13 = {
+        effect_starting_pop_wealth_africa = yes
+        effect_starting_pop_literacy_baseline = yes
+    }
 }

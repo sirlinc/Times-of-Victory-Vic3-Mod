@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:MYS = {
+		create_character = {
+			first_name = "kanthirava_narasaraja_i"
+			last_name = "wadiyar"
+			age = 25
+			ruler = yes
+		}
+	}
+}

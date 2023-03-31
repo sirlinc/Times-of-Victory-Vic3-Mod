@@ -1,6 +1,6 @@
-POPULATION = {
-	c:A30 = {
-		effect_starting_pop_wealth_africa = yes
-		effect_starting_pop_literacy_illiterate = yes
-	}
+﻿POPULATION = {
+    c:A30 = {
+        effect_starting_pop_wealth_africa = yes
+        effect_starting_pop_literacy_illiterate = yes
+    }
 }

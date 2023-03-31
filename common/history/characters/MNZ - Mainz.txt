@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:MNZ = {
+		create_character = {
+			first_name = "johann_philipp"
+			last_name = "von_schonborn"
+			age = 43
+			ruler = yes
+		}
+	}
+}

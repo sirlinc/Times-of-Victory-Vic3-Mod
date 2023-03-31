@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:NET = {
+		create_character = {
+			first_name = "willem_II"
+			last_name = "orange"
+			age = 20
+			ruler = yes
+		}
+	}
+}

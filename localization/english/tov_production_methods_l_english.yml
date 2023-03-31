@@ -2,7 +2,6 @@
 
 # Financial Services
 
-pmg_base_building_financial_services: "$pm_base$"
 pm_merchant_lenders: "Merchant Lenders"
 pm_banks: "Banks"
 pm_brokerage_firms: "Brokerage Firms"
@@ -56,3 +55,429 @@ pm_cinematography: "Cinematography"
 
 pm_religious_patronage: "Religious Patronage"
 pm_military_patronage: "Military Patronage"
+
+#building_base_farmland
+
+pmg_motive_power_base_farmland: "Farming Motive Power"
+pm_manual_labor_farmland: "Manual Labor"
+pm_draft_animals_farmland: "Draft Animals"
+pm_portable_engine_farmland: "Portable Engine"
+pm_steam_powered_tractors_farmland: "Steam-powered Tractors"
+pm_diesel_tractors_farmland: "Diesel Tractors"
+
+pmg_land_tenure_base_farmland: "Land Tenure"
+pm_tributary_system_farmland: "Tributary System"
+pm_smallholders_farmland: "Smallholders"
+pm_military_homesteads_farmland: "Military Homesteads"
+pm_corporate_entities_farmland: "Corporate Entities"
+pm_state_ownership_farmland: "State Ownership"
+pm_worker_cooperative_farmland: "Worker Cooperative"
+
+#Temperate Farmland
+
+pmg_wheat_yield_temperate_farmland: "Wheat Yield"
+pm_rye_cultivation_tef: "Rye Cultivation"
+pm_potash_tef: "Potash"
+pm_bread_wheat_cultivation_tef: "Bread Wheat Cultivation"
+pm_gypsum_fertilizer_tef: "Gypsum Fertilizer"
+pm_pesticides_tef: "Pesticides"
+pm_ammonia_fertilizer_tef: "Ammonia Fertilizer"
+
+pmg_secondary_building_temperate_farmland: "Secondary Buildings"
+pm_no_secondary_yields_tef: "No Secondary Yields"
+pm_mulberry_groves_tef: "Mulberry Groves"
+pm_coppice_woodland_tef: "Coppice Woodland"
+pm_vineyards_tef: "Vineyards"
+pm_tomato_greenhouses_tef: "Tomato Greenhouses"
+
+pmg_mechanization_temperate_farmland: "Wheat Mechanization"
+pm_tools_disabled_tef: "No Tools"
+pm_mould_board_plows_tef: "Mould-Board Plows"
+pm_reaper_binders_tef: "Reaper-binders"
+pm_combine_harvesters_tef: "Combine Harvesters"
+pm_automated_irrigation_tef: "Automated Irrigation"
+
+#Tropical Farmland
+
+pmg_legume_yield_tropical_farmland: "Legume Yield"
+pm_grain_legume_cultivation_trf: "Grain Legume Cultivation"
+pm_cereal_intercropping_trf: "Cereal Intercropping"
+pm_high_yield_landraces_trf: "High Yield Landraces"
+pm_potassium_fertilizer_trf: "Potassium Fertilizer"
+pm_pesticides_trf: "Pesticides"
+pm_ammonia_fertilizer_trf: "Ammonia Fertilizer"
+
+pmg_secondary_building_tropical_farmland: "Secondary Buildings"
+pm_no_secondary_yields_trf: "No Secondary Yields"
+pm_cacao_plantations_trf: "Cacao Plantations"
+pm_tropical_dyes_trf: "Tropical Dyes"
+pm_palm_fermentation_trf: "Palm Fermentation"
+
+pmg_mechanization_tropical_farmland: "Legume Mechanization"
+pm_tools_disabled_trf: "No Tools"
+pm_tillage_tools_trf: "Tillage Tools"
+pm_threshers_trf: "Threshers"
+pm_combine_harvesters_trf: "Combine Harvesters"
+pm_automated_irrigation_trf: "Automated Irrigation"
+
+#wetlands Farmland
+
+pmg_rice_yield_wetlands_farmland: "Rice Yield"
+pm_rice_cultivation_wef: "Rice Cultivation"
+pm_paddies_and_terraces_wef: "Paddies and Terraces"
+pm_rice_hybridization_wef: "Rice Hybridization"
+pm_pesticides_wef: "Pesticides"
+pm_nitrate_fertilizer_wef: "Nitrate Fertilizer"
+pm_enriched_rice_wef: "Enriched Rice"
+
+pmg_secondary_building_wetlands_farmland: "Secondary Buildings"
+pm_no_secondary_yields_wef: "No Secondary Yields"
+pm_jute_plantations_wef: "Jute Plantations"
+pm_rice_fish_aquaculture_wef: "Rice-Fish Aquaculture"
+pm_rice_triple_cropping_wef: "Rice Triple Cropping"
+
+pmg_mechanization_wetlands_farmland: "Rice Mechanization"
+pm_tools_disabled_wef: "No Tools"
+pm_spike_harrows_wef: "Spike Harrows"
+pm_hulling_machines_wef: "Hulling Machines"
+pm_combine_harvesters_wef: "Combine Harvesters"
+pm_automated_irrigation_wef: "Automated Irrigation"
+
+#Arid Farmland
+
+pmg_millet_yield_arid_farmland: "Millet Yield"
+pm_sorghum_cultivation_arf: "Sorghum Cultivation"
+pm_cereal_intercropping_arf: "Cereal Intercropping"
+pm_pearl_millet_cultivation_arf: "Pearl Millet Cultivation"
+pm_gypsum_fertilizer_arf: "Gypsum Fertilizer"
+pm_pesticides_arf: "Pesticides"
+pm_ammonia_fertilizer_arf: "Ammonia Fertilizer"
+
+pmg_secondary_building_arid_farmland: "Secondary Buildings"
+pm_no_secondary_yields_arf: "No Secondary Yields"
+pm_coffee_plantations_arf: "Coffee Plantations"
+pm_fig_tree_orchards_arf: "Fig Orchards"
+pm_vineyards_arf: "Vineyards"
+
+pmg_mechanization_arid_farmland: "Millet Mechanization"
+pm_tools_disabled_arf: "No Tools"
+pm_panemone_windmills_arf: "Panemone Windmills"
+pm_irrigation_aqueducts_arf: "Irrigation Aqueducts"
+pm_combine_harvesters_arf: "Combine Harvesters"
+pm_automated_irrigation_arf: "Automated Irrigation"
+
+#Base Pasture
+
+pmg_processing_base_pasture: "Processing"
+pm_cured_meats: "Cured Meats"
+pm_natural_preservatives: "Natural Preservatives"
+pm_butchering_tools: "Butchering Tools"
+pm_abattoirs: "Abattoirs"
+pm_refrigerated_rail_cars: "Refrigerated Rail Cars"
+
+pmg_tanneries_base_pasture: "Tanneries"
+pm_no_secondary_pasture: "No Tanning"
+pm_vegetable_tannins: "Vegetable Tannins"
+pm_dyed_hides: "Dyed Hides"
+pm_chrome_tanning: "Chrome Tanning"
+
+pmg_secondary_livestock_base_pasture: "Secondary Livestock"
+pm_no_secondary_livestock: "No Secondary Livestock"
+pm_horse_ranches: "Horse Ranches"
+pm_livestock_barns: "Livestock Barns"
+pm_collagen_glue_factories: "Collagen Glue Factories"
+pm_dairy_farms: "Dairy Farms"
+
+pmg_land_tenure_base_pasture: "Land Tenure"
+pm_commons_pasture: "Commons"
+pm_rural_estates_pasture: "Rural Estates"
+pm_fortified_ranches_pasture: "Fortified Ranches"
+pm_corporate_entities_pasture: "Corporate Entities"
+pm_state_ownership_pasture: "State Ownership"
+pm_worker_cooperative_pasture: "Worker Cooperative"
+
+#Prime Pasture
+
+pmg_prime_pasture: "Prime Pasture"
+pm_free_range_prp: "Free Range"
+pm_silage_prp: "Silage"
+pm_prime_breeds_prp: "Prime Breeds"
+pm_rotational_grazing_prp: "Rotational Grazing"
+pm_batteries_prp: "Batteries"
+
+#Marginal Pasture
+
+pmg_marginal_pasture: "Prime Pasture"
+pm_free_range_map: "Free Range"
+pm_silage_map: "Silage"
+pm_hardy_breeds_map: "Hardy Breeds"
+pm_rotational_grazing_map: "Rotational Grazing"
+pm_batteries_map: "Batteries"
+
+#Base Mine
+
+pmg_processing_base_mine: "Processing"
+pm_manual_sorting_base_mine: "Manual Sorting"
+pm_arrastras_base_mine: "Arrastras"
+pm_stamp_mills_base_mine: "Stamp Mills"
+pm_newcomen_engine_base_mine: "Newcomen Engine"
+pm_ore_vanning_base_mine: "Ore Vanning"
+pm_flameless_lights_base_mine: "Flameless Lights"
+pm_electrostatic_separator_base_mine: "Electrostatic Separator"
+
+pmg_resource_rights_base_mine: "Resource Rights"
+pm_liege_rights_base_mine: "Liege Rights"
+pm_guild_privileges_base_mine: "Guild Privileges"
+pm_leasehold_rights_base_mine: "Leasehold Rights"
+pm_prospector_claims_base_mine: "Prospector Claims"
+pm_private_property_base_mine: "Private Property"
+pm_national_patrimony_base_mine: "National Patrimony"
+
+#Coal Mine
+
+pmg_extraction_coal_mine: "Extraction"
+pm_picks_and_shovels_coal_mine: "Picks and Shovels"
+pm_drainage_pumps_coal_mine: "Drainage Pumps"
+pm_minecarts_coal_mine: "Minecarts"
+pm_hydraulic_mining_coal_mine: "Hydraulic Mining"
+pm_deep_shaft_machinery_coal_mine: "Deep Shaft Machinery"
+pm_ventilation_fans_coal_mine: "Ventilation Fans"
+pm_boring_machines_coal_mine: "Boring Machines"
+
+pmg_blasting_coal_mine: "Blasting"
+pm_no_blasting_coal_mine: "No Blasting"
+pm_fire_setting_coal_mine: "Fire Setting"
+pm_blackpowder_coal_mine: "Blackpowder"
+pm_nitroglycerin_coal_mine: "Nitroglycerin"
+pm_dynamite_coal_mine: "Dynamite"
+
+#Iron Mine
+
+pmg_extraction_iron_mine: "Extraction"
+pm_picks_and_shovels_iron_mine: "Picks and Shovels"
+pm_drainage_pumps_iron_mine: "Drainage Pumps"
+pm_minecarts_iron_mine: "Minecarts"
+pm_hydraulic_mining_iron_mine: "Hydraulic Mining"
+pm_deep_shaft_machinery_iron_mine: "Deep Shaft Machinery"
+pm_ventilation_fans_iron_mine: "Ventilation Fans"
+pm_boring_machines_iron_mine: "Boring Machines"
+
+pmg_blasting_iron_mine: "Blasting"
+pm_no_blasting_iron_mine: "No Blasting"
+pm_fire_setting_iron_mine: "Fire Setting"
+pm_blackpowder_iron_mine: "Blackpowder"
+pm_nitroglycerin_iron_mine: "Nitroglycerin"
+pm_dynamite_iron_mine: "Dynamite"
+
+#Lead Mine
+
+pmg_extraction_lead_mine: "Extraction"
+pm_picks_and_shovels_lead_mine: "Picks and Shovels"
+pm_drainage_pumps_lead_mine: "Drainage Pumps"
+pm_minecarts_lead_mine: "Minecarts"
+pm_hydraulic_mining_lead_mine: "Hydraulic Mining"
+pm_deep_shaft_machinery_lead_mine: "Deep Shaft Machinery"
+pm_ventilation_fans_lead_mine: "Ventilation Fans"
+pm_boring_machines_lead_mine: "Boring Machines"
+
+pmg_blasting_lead_mine: "Blasting"
+pm_no_blasting_lead_mine: "No Blasting"
+pm_fire_setting_lead_mine: "Fire Setting"
+pm_blackpowder_lead_mine: "Blackpowder"
+pm_nitroglycerin_lead_mine: "Nitroglycerin"
+pm_dynamite_lead_mine: "Dynamite"
+
+#Sulfur Mine
+
+pmg_extraction_sulfur_mine: "Extraction"
+pm_picks_and_shovels_sulfur_mine: "Picks and Shovels"
+pm_drainage_pumps_sulfur_mine: "Drainage Pumps"
+pm_minecarts_sulfur_mine: "Minecarts"
+pm_hydraulic_mining_sulfur_mine: "Hydraulic Mining"
+pm_deep_shaft_machinery_sulfur_mine: "Deep Shaft Machinery"
+pm_ventilation_fans_sulfur_mine: "Ventilation Fans"
+pm_boring_machines_sulfur_mine: "Boring Machines"
+
+pmg_blasting_sulfur_mine: "Blasting"
+pm_no_blasting_sulfur_mine: "No Blasting"
+pm_fire_setting_sulfur_mine: "Fire Setting"
+pm_blackpowder_sulfur_mine: "Blackpowder"
+pm_nitroglycerin_sulfur_mine: "Nitroglycerin"
+pm_dynamite_sulfur_mine: "Dynamite"
+
+#Gold Mine
+
+pmg_extraction_gold_mine: "Extraction"
+pm_picks_and_shovels_gold_mine: "Picks and Shovels"
+pm_drainage_pumps_gold_mine: "Drainage Pumps"
+pm_minecarts_gold_mine: "Minecarts"
+pm_hydraulic_mining_gold_mine: "Hydraulic Mining"
+pm_deep_shaft_machinery_gold_mine: "Deep Shaft Machinery"
+pm_ventilation_fans_gold_mine: "Ventilation Fans"
+pm_boring_machines_gold_mine: "Boring Machines"
+
+pmg_blasting_gold_mine: "Blasting"
+pm_no_blasting_gold_mine: "No Blasting"
+pm_fire_setting_gold_mine: "Fire Setting"
+pm_blackpowder_gold_mine: "Blackpowder"
+pm_nitroglycerin_gold_mine: "Nitroglycerin"
+pm_dynamite_gold_mine: "Dynamite"
+
+#Oil Derrick
+
+#Construction Sector
+
+pmg_building_methods_construction: "Building Methods"
+pm_braced_framing: "Braced Framimg"
+pm_window_glazing: "Window Glazing"
+pm_balloon_framing: "Balloon Framing"
+pm_iron_frame_buildings: "Iron Frame Buildings"
+pm_steel_frame_buildings: "Steel Frame Buildings"
+pm_earthmovers: "Earthmovers"
+
+pmg_organization_construction: "Organization"
+pm_corvee_labour_construction: "Corvée Labour"
+pm_artisan_guilds_construction: "Artisan Guilds"
+pm_construction_firms_construction: "Construction Firms"
+pm_engineer_corps_construction: "Engineer Corps"
+pm_industrial_conglomerate_construction: "Industrial Conglomerate"
+
+#Logging Camp
+pmg_logging_logging_camp: "Logging"
+pm_crosscut_saws: "Crosscut Saws"
+pm_frame_saws: "Frame Saws"
+pm_circular_saws: "Circular Saws"
+pm_powered_saws: "Powered Saws"
+pm_band_saws: "Band Saws"
+pm_chainsaws: "Chainsaws"
+
+pmg_hauling_logging_camp: "Hauling"
+pm_manual_hauling: "Manual Hauling"
+pm_skid_trails: "Skid Trails"
+pm_log_flumes: "Log Flumes"
+pm_steam_donkey: "Steam Donkey"
+pm_logging_trucks: "Logging Trucks"
+
+pmg_forestry_management_logging_camp: "Forestry Management"
+pm_aristocratic_reserve: "Aristocratic Reserve"
+pm_common_land: "Common Land"
+pm_state_ownership_logging_camp: "State Ownership"
+pm_private_ownership_logging_camp: "Private Ownership"
+pm_national_parks: "National Parks"
+
+#Oil Derricks
+
+pmg_extraction_oil_derrick: "Extraction"
+pm_cable_tool_drilling: "Cable Tool Drilling"
+pm_rotary_drilling: "Rotary Drilling"
+pm_directional_drilling: "Directional Drilling"
+
+pmg_drilling_rig_oil_derrick: "Drilling Rigs"
+pm_steam_powered_drilling_rigs: "Steam-powered Drilling Rigs"
+pm_gas_powered_drilling_rigs: "Gas-powered Drilling Rigs"
+pm_electric_drilling_rigs: "Electric Drilling Rigs"
+
+pmg_transportation_oil_derrick: "Transportation"
+pm_blue_barrels: "Blue Barrels"
+pm_tanker_railcars: "Tanker Railcars"
+pm_oil_pipelines: "Oil Pipelines"
+
+pmg_ownership_oil_derrick: "Ownership"
+pm_oil_magnates: "Oil Magnates"
+pm_nationalized_oil: "Nationalized Oil"
+pm_industrial_conglomerate_oil: "Industrial Conglomerate"
+pm_military_industrial_complex_oil: "Military-Industrial Complex"
+
+#Base Plantations
+
+pmg_infrastructure_base_plantation: "Infrastructure"
+pm_minimal_infrastructure: "Minimal Infrastructure"
+pm_irrigation_networks: "Irrigation Networks"
+pm_warehouses: "Warehouses"
+pm_rail_linkages: "Rail Linkages"
+pm_cold_storage: "Cold Storage"
+pm_electrified_fences: "Electrified Fences"
+
+pmg_ownership_base_plantation: "Ownership"
+pm_titled_aristocracy: "Titled Aristocracy"
+pm_religious_order: "Religious Order"
+pm_planter_aristocracy: "Planter Aristocracy"
+pm_corporate_entities_plantation: "Corporate Entities"
+pm_state_owned_plantations: "State Owned Plantations"
+
+pmg_labor_equity_base_plantation: "Labor Equity"
+pm_forced_labor: "Forced Labor"
+pm_exploitation: "Exploitation"
+pm_tenant_farming: "Tenant Farming"
+pm_collectivization: "Collectivization"
+pm_fair_trade: "Fair Trade"
+
+#Tea Plantation
+pmg_innovations_tea_plantation: "Tea Innovations"
+pm_hand_rolling_tea: "Hand-rolling"
+pm_withering_racks_tea: "Withering Racks"
+pm_hydraulic_tea_press_tea: "Hydraulic Tea Press"
+pm_tea_blending_machines_tea: "Tea Blending Machines"
+pm_ctc_machines_tea: "CTC Machines"
+
+#Coffee Plantation
+pmg_innovations_coffee_plantation: "Coffee Innovations"
+pm_dry_processing_coffee: "Dry Processing"
+pm_strip_picking_tools_coffee: "Strip Picking Tools"
+pm_roasting_machines_coffee: "Roasting Machines"
+pm_fermentation_tanks_coffee: "Fermentation Tanks"
+pm_freeze_dried_coffee_coffee: "Freeze Dried Coffee"
+
+#Spice Plantation
+pmg_innovations_spice_plantation: "Spice Innovations"
+pm_natural_spices_spice: "Natural Spices"
+pm_grinding_mills_spice: "Grinding Mills"
+pm_aromatics_extraction_spice: "Aromatics Extraction"
+pm_steam_sterilization_spice: "Steam Sterilization"
+pm_sorting_and_grading_machines_spice: "Sorting and Grading Machines"
+
+#Sugarcane Plantation
+pmg_innovations_sugarcane_plantation: "Sugarcane Innovations"
+pm_sugarloaf_molds_sugarcane: "Sugarloaf Molds"
+pm_molasses_separation_sugarcane: "Molasses Separation"
+pm_cane_crushers_sugarcane: "Cane Crushers"
+pm_vacuum_pan_evaporation_sugarcane: "Vacuum Pan Evaporation"
+pm_centrifugation_sugarcane: "Centrifugation"
+
+#Cotton Plantation
+pmg_innovations_cotton_plantation: "Cotton Innovations"
+pm_hand_picking_cotton: "Hand-picking"
+pm_fiber_carding_tools_cotton: "Fiber Carding Tools"
+pm_cotton_gin_cottons: "Cotton Gins"
+pm_diesel_powered_gins_cotton: "Diesel-powered Gins"
+pm_cotton_harvesters_cotton: "Cotton Harvesters"
+
+#Tobacco Plantation
+pmg_innovations_tobacco_plantation: "Tobacco Innovations"
+pm_darkleaf_tobacco_tobacco: "Darkleaf Tobacco"
+pm_protective_frames_tobacco: "Protective Frames"
+pm_brightleaf_tobacco_tobacco: "Brightleaf Tobacco"
+pm_shredding_machines_tobacco: "Shredding Machines"
+pm_cigarette_rolling_machines_tobacco: "Cigarette Rolling Machines"
+
+#Silk Plantation
+pmg_innovations_silk_plantation: "Silk Innovations"
+pm_wild_sil_silk: "Wild Silk"
+pm_silk_threading_looms_silk: "Silk Threading Looms"
+pm_rotary_mountage_silk: "Rotary Mountage"
+pm_mechanical_spooling_silk: "Mechanical Spooling"
+pm_automatic_reeling_devices_silk: "Automatic Reeling Devices"
+
+#Rubber Plantation
+pmg_innovations_rubber_plantation: "Rubber Innovations"
+pm_rubber_mastication_rubber: "Rubber Mastication"
+pm_vulcanized_rubber_rubber: "Vulcanized Rubber"
+pm_coagulating_agents_rubber: "Coagulating Agents"
+pm_creping_roller_rubbers: "Creping Rollers"
+
+#Opium Plantation
+pmg_innovations_opium_plantation: "Opium Innovations"
+pm_camphorated_opium_opium: "Camphorated Opium"
+pm_morphine_extraction_opium: "Morphine Extraction"
+pm_codeine_isolation_opium: "Codeine Isolation"
+pm_heroin_synthesis_opium: "Heroin Synthesis"

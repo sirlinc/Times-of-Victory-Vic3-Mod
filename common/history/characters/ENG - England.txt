@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:ENG = {
+		create_character = {
+			first_name = "charles_i"
+			last_name = "stuart"
+			age = 39
+			ruler = yes
+		}
+	}
+}

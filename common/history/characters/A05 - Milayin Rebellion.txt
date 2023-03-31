@@ -1,13 +1,10 @@
 ﻿CHARACTERS = {
-		c:A05 = {
+	c:A05 = {
 		create_character = {
-			# Milayin
-			#role = politician # Remove this line
-			first_name = "Milayin"
-			last_name = "of_the_Hui"
-			ruler = yes
+			first_name = "milayin"
+			last_name = "hui"
 			age = 37
-			is_general = yes # Both general and IG leader
-			}
+			ruler = yes
+		}
 	}
 }

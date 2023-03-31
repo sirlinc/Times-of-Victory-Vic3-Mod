@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:BUK = {
+		create_character = {
+			first_name = "abd_al_aziz"
+			last_name = "khan"
+			age = 22
+			ruler = yes
+		}
+	}
+}

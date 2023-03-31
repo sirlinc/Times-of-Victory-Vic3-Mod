@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:MEW = {
+		create_character = {
+			first_name = "singh_i"
+			last_name = "sisodias"
+			age = 19
+			ruler = yes
+		}
+	}
+}

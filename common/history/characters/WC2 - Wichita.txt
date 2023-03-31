@@ -1,0 +1,4 @@
+﻿CHARACTERS = {
+	c:WC2 = {
+	}
+}

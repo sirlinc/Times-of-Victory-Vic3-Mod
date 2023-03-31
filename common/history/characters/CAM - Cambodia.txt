@@ -1,10 +1,10 @@
 ﻿CHARACTERS = {
 	c:CAM = {
 		create_character = {
-			first_name = "Ibrahim"
-			last_name = "Ramathipadi_I"
-			ruler = yes
+			first_name = "ibrahim"
+			last_name = "ramathipadi_i"
 			age = 34
-			}
-		}	
+			ruler = yes
+		}
+	}
 }

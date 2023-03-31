@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:VEN = {
+		create_character = {
+			first_name = "francesco"
+			last_name = "molin"
+			age = 51
+			ruler = yes
+		}
+	}
+}

@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:MEC = {
+		create_character = {
+			first_name = "adolf_frederick"
+			last_name = "mecklenburg"
+			age = 59
+			ruler = yes
+		}
+	}
+}

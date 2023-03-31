@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:JOH = {
+		create_character = {
+			first_name = "abdul"
+			last_name = "jalil_iii"
+			age = 22
+			ruler = yes
+		}
+	}
+}

@@ -1,0 +1,11 @@
+﻿COUNTRIES = {
+	c:A01 = {
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_traditional = yes
+		                ig:ig_devout = {
+                        set_interest_group_name = ig_vajrayana_monks
+                        remove_ideology = ideology_moralist
+                        add_ideology = ideology_buddhist_moralist
+                }
+	}
+}

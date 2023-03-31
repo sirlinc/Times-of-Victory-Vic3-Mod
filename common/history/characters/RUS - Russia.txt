@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:RUS = {
+		create_character = {
+			first_name = "alexei"
+			last_name = "romanov"
+			age = 20
+			ruler = yes
+		}
+	}
+}

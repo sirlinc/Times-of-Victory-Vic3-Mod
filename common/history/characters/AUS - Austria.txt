@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:AUS = {
+		create_character = {
+			first_name = "ferdinand_iii"
+			last_name = "habsburg"
+			age = 39
+			ruler = yes
+		}
+	}
+}

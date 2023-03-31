@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:BRM = {
+		create_character = {
+			first_name = "frederick_william"
+			last_name = "hohenzollern"
+			age = 28
+			ruler = yes
+		}
+	}
+}

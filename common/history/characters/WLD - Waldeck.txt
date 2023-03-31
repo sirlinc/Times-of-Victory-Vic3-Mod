@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:WLD = {
+		create_character = {
+			first_name = "josias_ii"
+			last_name = "waldeck"
+			age = 12
+			ruler = yes
+		}
+	}
+}

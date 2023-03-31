@@ -1,13 +1,10 @@
 ﻿CHARACTERS = {
-		c:A01 = {
+	c:A01 = {
 		create_character = {
-			# Khagan Güshi Khan
-			#role = politician # Remove this line
-			first_name = "Gushi"
-			last_name = "Galwas"
-			ruler = yes
+			first_name = "gushi"
+			last_name = "galwas"
 			age = 52
-			is_general = yes # Both general and IG leader
-			}
+			ruler = yes
 		}
+	}
 }

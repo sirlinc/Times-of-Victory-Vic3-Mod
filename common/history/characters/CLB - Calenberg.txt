@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:CLB = {
+		create_character = {
+			first_name = "george_wilhelm"
+			last_name = "von_braunschweig_luneburg"
+			age = 24
+			ruler = yes
+		}
+	}
+}

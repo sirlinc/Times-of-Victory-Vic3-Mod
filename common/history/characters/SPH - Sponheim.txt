@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:SPH = {
+		create_character = {
+			first_name = "george_william"
+			last_name = "wittelsbach"
+			age = 57
+			ruler = yes
+		}
+	}
+}

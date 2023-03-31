@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:JAS = {
+		create_character = {
+			first_name = "abdul"
+			last_name = "jalil"
+			age = 26
+			ruler = yes
+		}
+	}
+}

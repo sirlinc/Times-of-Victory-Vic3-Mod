@@ -1,10 +1,10 @@
 ﻿CHARACTERS = {
 	c:A33 = {
 		create_character = {
-			first_name = "Kudung"
-			last_name = "of_Mempawah"
-			ruler = yes
+			first_name = "kudung"
+			last_name = "of_mempawah"
 			age = 51
-			}
-		}	
+			ruler = yes
+		}
+	}
 }

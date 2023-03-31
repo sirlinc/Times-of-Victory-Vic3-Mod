@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:BRA = {
+		create_character = {
+			first_name = "augustus_the_younger"
+			last_name = "welf"
+			age = 49
+			ruler = yes
+		}
+	}
+}

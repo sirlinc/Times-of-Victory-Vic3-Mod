@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:TRV = {
+		create_character = {
+			first_name = "philipp_christoph "
+			last_name = "von_sotern"
+			age = 69
+			ruler = yes
+		}
+	}
+}

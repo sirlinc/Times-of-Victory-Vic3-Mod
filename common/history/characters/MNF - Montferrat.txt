@@ -1,0 +1,11 @@
+﻿CHARACTERS = {
+	c:MNF = {
+		create_character = {
+			first_name = "maria"
+			last_name = "gonzaga"
+			age = 39
+			ruler = yes
+			female = yes
+		}
+	}
+}

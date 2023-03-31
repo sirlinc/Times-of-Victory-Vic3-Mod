@@ -1,10 +1,4 @@
 ﻿CHARACTERS = {
 	c:JMB = {
-		create_character = {
-			first_name = "Abdul"
-			last_name = "Jalil"
-			ruler = yes
-			age = 26
-			}
-		}	
+	}
 }

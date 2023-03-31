@@ -1,10 +1,10 @@
 ﻿CHARACTERS = {
 	c:A17 = {
 		create_character = {
-			first_name = "Rijaluddin"
-			last_name = "Muhammad"
-			ruler = yes
+			first_name = "rijaluddin"
+			last_name = "muhammad"
 			age = 44
-			}
-		}	
+			ruler = yes
+		}
+	}
 }

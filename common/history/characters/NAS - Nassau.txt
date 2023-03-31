@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:NAS = {
+		create_character = {
+			first_name = "louis_henry"
+			last_name = "nassau"
+			age = 54
+			ruler = yes
+		}
+	}
+}

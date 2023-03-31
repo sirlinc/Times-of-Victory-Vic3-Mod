@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:NFR = {
+		create_character = {
+			first_name = "Louis_d_ailleboust "
+			last_name = "de_Coulonge"
+			age = 
+			ruler = yes
+		}
+	}
+}

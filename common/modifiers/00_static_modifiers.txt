@@ -13,17 +13,17 @@ base_values = {
 	
 	country_legitimacy_govt_size_add = 1
 	
-	country_bureaucracy_add = 100
+	country_bureaucracy_add = 50 #100
 	country_authority_add = 10 #100
 	country_influence_add = 10 #100
 
 	country_revolution_secession_speed_add = 0.15 #0.1
 	
-	state_education_access_wealth_add = 0.007 #0.02
+	state_education_access_wealth_add = 0.02 #0.02
 	
 	country_minting_add = 50 #250
 
-	state_tax_capacity_add = 10 #100
+	state_tax_capacity_add = 50 #100
 	state_infrastructure_add = 3
 	
 	state_poor_expected_sol = 5

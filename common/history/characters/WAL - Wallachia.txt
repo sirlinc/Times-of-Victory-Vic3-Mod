@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:WAL = {
+		create_character = {
+			first_name = "george"
+			last_name = "ghica"
+			age = 48
+			ruler = yes
+		}
+	}
+}

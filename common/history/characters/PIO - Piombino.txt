@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:PIO = {
+		create_character = {
+			first_name = "niccolo"
+			last_name = "ludovisi"
+			age = 38
+			ruler = yes
+		}
+	}
+}

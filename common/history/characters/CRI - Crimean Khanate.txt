@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:CRI = {
+		create_character = {
+			first_name = "islam_iii"
+			last_name = "giray"
+			age = 44
+			ruler = yes
+		}
+	}
+}

@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:HOL = {
+		create_character = {
+			first_name = "frederick_iii"
+			last_name = "holstein_gottorp"
+			age = 
+			ruler = yes
+		}
+	}
+}

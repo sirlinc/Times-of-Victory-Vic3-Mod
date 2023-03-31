@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:MON = {
+		create_character = {
+			first_name = "mardarije"
+			last_name = "kornecanin"
+			age = 28
+			ruler = yes
+		}
+	}
+}

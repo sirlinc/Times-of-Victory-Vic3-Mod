@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:BRD = {
+		create_character = {
+			first_name = "mwezi_II"
+			last_name = "nyaburunga"
+			age = 
+			ruler = yes
+		}
+	}
+}

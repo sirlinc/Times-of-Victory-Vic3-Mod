@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:A08 = {
+		create_character = {
+			first_name = "trang"
+			last_name = "trinh"
+			age = 71
+			ruler = yes
+		}
+	}
+}

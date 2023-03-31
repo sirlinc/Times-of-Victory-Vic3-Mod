@@ -1,0 +1,383 @@
+﻿# goods						The good being referenced
+# weight					The base weight that is applied to this good based on market Sell Order share
+# max_weight				The maximum weight that can be applied to this good based on market Sell Order share, only meaningful in relation to weight
+# min_weight				The minimum weight that can be applied to this good based on market Sell Order share, only meaningful in relation to weight
+
+
+popneed_low_food = {
+	default = grain
+
+	entry = {
+		goods = groceries		
+		weight = 1
+		max_weight = 5.0
+		min_weight = 0.0
+	}	
+
+	entry = {
+		goods = fish		
+		weight = 0.55
+		max_weight = 2.0
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = grain		
+		weight = 0.5
+		max_weight = 5
+		min_weight = 0.0
+	}
+}
+
+popneed_mid_food = {
+	default = meat
+
+	entry = {
+		goods = groceries
+		
+		weight = 1
+		max_weight = 5.0
+		min_weight = 0.0
+	}	
+	entry = {
+		goods = meat
+		
+		weight = 0.75
+		max_weight = 5.0
+		min_weight = 3.0
+	}
+}
+
+popneed_lux_food = {
+	default = animal_products
+
+	entry = {
+		goods = spice
+		
+		weight = 1
+		max_weight = 3.0
+		min_weight = 0.0
+	}
+	entry = {
+		goods = animal_products
+		
+		weight = 0.75
+		max_weight = 3.0
+		min_weight = 0.0
+	}	
+}
+
+popneed_low_clothing = {
+	default = clothes
+
+	entry = {
+		goods = clothes
+		
+		weight = 1
+		max_weight = 5.0
+		min_weight = 0.0
+	}	
+	entry = {
+		goods = fabric
+		
+		weight = 0.1
+		max_weight = 5.0
+		min_weight = 0.0
+	}
+}
+
+popneed_mid_clothing = {
+	default = clothes
+
+	entry = {
+		goods = clothes
+		
+	}	
+}
+
+popneed_lux_clothing = {
+	default = luxury_clothes
+
+	entry = {
+		goods = luxury_clothes
+		
+	}	
+}
+
+
+popneed_low_furniture = {
+	default = furniture
+
+	entry = {
+		goods = furniture
+		
+		weight = 1
+		max_weight = 5.0
+		min_weight = 0.0
+	}	
+	entry = {
+		goods = fabric
+		
+		weight = 0.5
+		max_weight = 3.0
+		min_weight = 0.0
+	}
+	entry = {
+		goods = wood
+		
+		weight = 0.4
+		max_weight = 3.0
+		min_weight = 0.0
+	}
+}
+
+popneed_mid_furniture = {
+	default = furniture
+
+	entry = {
+		goods = furniture
+		
+		weight = 1
+		max_weight = 5.0
+		min_weight = 0.0
+	}	
+}
+
+popneed_lux_furniture = {
+	default = luxury_furniture
+
+	entry = {
+		goods = luxury_furniture
+		
+		weight = 1
+		max_weight = 4.0
+		min_weight = 0.0
+	}	
+	entry = {
+		goods = fine_art
+		
+		weight = 0.5
+		max_weight = 1.0
+		min_weight = 0.0
+	}
+}
+
+popneed_low_household = {
+	default = porcelain
+
+	entry = {
+		goods = porcelain
+		
+		weight = 1
+		max_weight = 2.0
+		min_weight = 0.0
+	}
+	entry = {
+		goods = glass
+		
+		weight = 0.75
+		max_weight = 2.0
+		min_weight = 0.0
+	}	
+	entry = {
+		goods = paper
+		
+		weight = 0.7
+		max_weight = 2.0
+		min_weight = 0.0
+	}
+}
+
+popneed_lux_household = {
+	default = telecomms
+
+	entry = {
+		goods = telecomms
+		
+		weight = 1
+		max_weight = 2.0
+		min_weight = 0.0
+	}	
+	entry = {
+		goods = rubber
+		
+		weight = 0.5
+		max_weight = 2.0
+		min_weight = 0.0
+	}	
+	entry = {
+		goods = electricity
+		
+		weight = 0.25
+		max_weight = 2.0
+		min_weight = 0.0
+	}
+}
+
+popneed_low_heating = {
+	default = wood
+
+	entry = {
+		goods = fuel_oil
+		
+		weight = 1
+		max_weight = 4.0
+		min_weight = 0.0
+	}	
+	entry = {
+		goods = coal
+		
+		weight = 0.75
+		max_weight = 3.0
+		min_weight = 0.0
+	}
+	entry = {
+		goods = wood
+		
+		weight = 0.5
+		max_weight = 3.0
+		min_weight = 0.0
+	}
+	entry = {
+		goods = fabric
+		
+		weight = 0.2
+		max_weight = 1.0
+		min_weight = 0.0
+	}
+}
+
+
+popneed_lux_heating = {
+	default = electricity
+
+	entry = {
+		goods = electricity
+		
+		weight = 1
+		max_weight = 3.0
+		min_weight = 2.0
+	}	
+	entry = {
+		goods = fuel_oil
+		
+		weight = 1
+		max_weight = 2.0
+		min_weight = 0.0
+	}	
+	entry = {
+		goods = coal
+		
+		weight = 0.75
+		max_weight = 2.0
+		min_weight = 0.0
+	}
+	entry = {
+		goods = wood
+		
+		weight = 0.5
+		max_weight = 2.0
+		min_weight = 0.0
+	}
+}
+
+popneed_drinks = {
+	default = tea
+
+	entry = {
+		goods = tea
+		
+		weight = 1
+		max_weight = 3.0
+		min_weight = 0.0
+	}	
+	entry = {
+		goods = coffee
+		
+		weight = 0.75
+		max_weight = 2.0
+		min_weight = 0.0
+	}
+	entry = {
+		goods = sugar
+		
+		weight = 0.6
+		max_weight = 3.0
+		min_weight = 0.0
+	}
+}
+
+popneed_intoxicants = {
+	default = liquor
+
+	entry = {
+		goods = liquor
+		
+		weight = 1
+		max_weight = 3.0
+		min_weight = 0.0
+	}
+	entry = {
+		goods = tobacco
+		
+		weight = 0.8
+		max_weight = 2.0
+		min_weight = 0.0
+	}
+	entry = {
+		goods = coffee
+		
+		weight = 0.6
+		max_weight = 2.0
+		min_weight = 0.0
+	}
+	entry = {
+		goods = opium
+		
+		weight = 0.4
+		max_weight = 5.0
+		min_weight = 0.0
+	}	
+}
+
+popneed_free_movement = {
+	default = transportation
+
+	entry = {
+		goods = automobiles
+		
+		weight = 1
+		max_weight = 4.0
+		min_weight = 0.0
+	}	
+	entry = {
+		goods = transportation
+		
+		weight = 0.9
+		max_weight = 3.0
+		min_weight = 0.0
+	}
+	entry = {
+		goods = horses
+		
+		weight = 0.7
+		max_weight = 3.0
+		min_weight = 0.0
+	}
+}
+
+popneed_services = {	
+	entry = {
+		goods = services
+		weight = 1
+		max_weight = 5.0
+		min_weight = 0.0
+	}
+	entry = {
+		goods = paper
+		
+		weight = 0.1
+		max_weight = 1.0
+		min_weight = 0.0
+	}
+}

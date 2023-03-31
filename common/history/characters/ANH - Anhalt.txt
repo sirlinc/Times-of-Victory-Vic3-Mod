@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:ANH = {
+		create_character = {
+			first_name = "christian_ii"
+			last_name = "anhalt"
+			age = 48
+			ruler = yes
+		}
+	}
+}

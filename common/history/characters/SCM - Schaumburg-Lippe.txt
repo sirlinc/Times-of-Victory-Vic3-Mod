@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:SCM = {
+		create_character = {
+			first_name = "philip_i"
+			last_name = "lippe"
+			age = 22
+			ruler = yes
+		}
+	}
+}

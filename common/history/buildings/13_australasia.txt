@@ -74,7 +74,7 @@
 		}
 	}
 	s:STATE_SOUTH_ISLAND={
-		region_state:N61={
+		region_state:A61={
 		}
 	}
 	s:STATE_EASTERN_LOWLANDS={

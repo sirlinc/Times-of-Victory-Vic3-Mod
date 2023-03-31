@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:SAX = {
+		create_character = {
+			first_name = "john_george_i"
+			last_name = "wettin"
+			age = 62
+			ruler = yes
+		}
+	}
+}

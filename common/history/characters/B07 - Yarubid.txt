@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:B07 = {
+		create_character = {
+			first_name = "nasir_bin_murshid"
+			last_name = "al_said"
+			age = 61
+			ruler = yes
+		}
+	}
+}

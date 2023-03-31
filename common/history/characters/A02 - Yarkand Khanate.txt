@@ -1,14 +1,10 @@
 ﻿CHARACTERS = {
-		c:A02 = {
+	c:A02 = {
 		create_character = {
-			# Abdullah Khan
-			#role = politician # Remove this line
-			first_name = "Abdullah"
-			last_name = "Abdurashid"
-			ruler = yes
+			first_name = "abdullah"
+			last_name = "abdurashid"
 			age = 18
-			is_general = yes # Both general and IG leader
-			}
+			ruler = yes
 		}
+	}
 }
-

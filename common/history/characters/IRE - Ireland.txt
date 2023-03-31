@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:IRE = {
+		create_character = {
+			first_name = "owen_roe"
+			last_name = "o_neill"
+			age = 63
+			ruler = yes
+		}
+	}
+}

@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:WSG = {
+		create_character = {
+			first_name = "gerad"
+			last_name = "ali"
+			age = 49
+			ruler = yes
+		}
+	}
+}

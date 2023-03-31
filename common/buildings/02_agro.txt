@@ -1,0 +1,298 @@
+﻿############# FARMING & RANCHING
+
+building_temperate_farmland = {
+	building_group = bg_temperate_farmland
+	
+	texture = "gfx/interface/icons/building_icons/wheat_farm.dds"
+
+	city_type = farm
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_wheat_yield_temperate_farmland
+		pmg_secondary_building_temperate_farmland
+		pmg_mechanization_temperate_farmland
+		pmg_motive_power_base_farmland
+		pmg_land_tenure_base_farmland
+	}
+
+	required_construction = construction_cost_low
+	
+	terrain_manipulator = farmland_wheat
+}
+
+building_tropical_farmland = {
+	building_group = bg_tropical_farmland
+	
+	texture = "gfx/interface/icons/building_icons/tropical_farmland.dds"
+
+	city_type = farm
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_legume_yield_tropical_farmland
+		pmg_secondary_building_tropical_farmland
+		pmg_mechanization_tropical_farmland
+		pmg_motive_power_base_farmland
+		pmg_land_tenure_base_farmland
+	}
+
+	required_construction = construction_cost_low
+	
+	terrain_manipulator = farmland_rye
+}
+
+
+building_wetlands_farmland = {
+	building_group = bg_wetlands_farmland
+	
+	texture = "gfx/interface/icons/building_icons/rice_farm.dds"
+
+	city_type = farm
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_rice_yield_wetlands_farmland
+		pmg_secondary_building_wetlands_farmland
+		pmg_mechanization_wetlands_farmland
+		pmg_motive_power_base_farmland
+		pmg_land_tenure_base_farmland
+	}
+
+	required_construction = construction_cost_low
+	
+	terrain_manipulator = farmland_rice
+}
+
+building_arid_farmland = {
+	building_group = bg_arid_farmland
+	
+	texture = "gfx/interface/icons/building_icons/millet_farm.dds"
+
+	city_type = farm
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_millet_yield_arid_farmland
+		pmg_secondary_building_arid_farmland
+		pmg_mechanization_arid_farmland
+		pmg_motive_power_base_farmland
+		pmg_land_tenure_base_farmland
+	}
+
+	required_construction = construction_cost_low
+	
+	terrain_manipulator = farmland_millet
+}
+
+building_prime_pasture = {
+	building_group = bg_prime_pasture
+
+	texture = "gfx/interface/icons/building_icons/cattle_ranch.dds"
+	
+	city_type = farm
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_prime_pasture
+		pmg_secondary_livestock_base_pasture
+		pmg_tanneries_base_pasture
+		pmg_processing_base_pasture
+		pmg_land_tenure_base_pasture
+	}
+
+	required_construction = construction_cost_low
+
+	terrain_manipulator = pasture
+}
+
+building_marginal_pasture = {
+	building_group = bg_marginal_pasture
+
+	texture = "gfx/interface/icons/building_icons/marginal_pasture.dds"
+	
+	city_type = farm
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_marginal_pasture
+		pmg_secondary_livestock_base_pasture
+		pmg_tanneries_base_pasture
+		pmg_processing_base_pasture
+		pmg_land_tenure_base_pasture
+	}
+
+	required_construction = construction_cost_low
+
+	terrain_manipulator = pasture
+}
+
+# Vanilla
+
+building_rye_farm = {
+	building_group = bg_rye_farms
+	
+	texture = "gfx/interface/icons/building_icons/rye_farm.dds"
+
+	city_type = farm
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_rye_farm
+		pmg_secondary_building_rye_farm
+		pmg_harvesting_process_building_rye_farm
+		pmg_ownership_land_building_rye_farm
+	}
+
+	required_construction = construction_cost_low
+	
+	terrain_manipulator = farmland_rye
+}
+
+building_wheat_farm = {
+	building_group = bg_wheat_farms
+	
+	texture = "gfx/interface/icons/building_icons/wheat_farm.dds"
+
+	city_type = farm
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_wheat_farm
+		pmg_secondary_building_wheat_farm
+		pmg_harvesting_process_building_wheat_farm
+		pmg_ownership_land_building_wheat_farm
+	}
+
+	required_construction = construction_cost_low
+	
+	terrain_manipulator = farmland_wheat
+}
+
+building_rice_farm = {
+	building_group = bg_rice_farms
+	
+	texture = "gfx/interface/icons/building_icons/rice_farm.dds"
+
+	city_type = farm
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_rice_farm
+		pmg_secondary_building_rice_farm
+		pmg_harvesting_process_building_rice_farm
+		pmg_ownership_land_building_rice_farm
+	}
+
+	required_construction = construction_cost_low
+	
+	terrain_manipulator = farmland_rice
+}
+
+building_maize_farm = {
+	building_group = bg_maize_farms
+	
+	texture = "gfx/interface/icons/building_icons/maize_farm.dds"
+
+	city_type = farm
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		enclosure
+	}
+	
+	production_method_groups = {
+		pmg_base_building_maize_farm
+		pmg_secondary_building_maize_farm
+		pmg_harvesting_process_building_maize_farm
+		pmg_ownership_land_building_maize_farm
+	}
+
+	required_construction = construction_cost_low
+	
+	terrain_manipulator = farmland_maize
+}
+
+building_millet_farm = {
+	building_group = bg_millet_farms
+	
+	texture = "gfx/interface/icons/building_icons/millet_farm.dds"
+
+	city_type = farm
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_millet_farm
+		pmg_secondary_building_millet_farm
+		pmg_harvesting_process_building_millet_farm
+		pmg_ownership_land_building_millet_farm
+	}
+
+	required_construction = construction_cost_low
+	
+	terrain_manipulator = farmland_millet
+}
+
+building_livestock_ranch = {
+	building_group = bg_livestock_ranches
+
+	texture = "gfx/interface/icons/building_icons/cattle_ranch.dds"
+	
+	city_type = farm
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+	}
+
+	production_method_groups = {
+		pmg_base_building_livestock_ranch
+		pmg_slaughtering
+		pmg_fencing
+		pmg_refrigeration_building_livestock_ranch
+		pmg_ownership_land_building_livestock_ranch
+	}
+
+	required_construction = construction_cost_low
+
+	terrain_manipulator = pasture
+}
