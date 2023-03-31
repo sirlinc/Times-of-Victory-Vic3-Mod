@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	TID = {
+	c:TID = {
 		create_character = {
 			first_name = "saidi"
 			last_name = "of_tidore"

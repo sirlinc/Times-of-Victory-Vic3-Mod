@@ -14,10 +14,6 @@
 		
 	}
 	c:ENG = {
-		create_diplomatic_pact = {
-			country = c:BIC
-			type = dominion
-		}
 	}
 	c:POL = {
 		create_diplomatic_pact = {
@@ -105,10 +101,6 @@
 		create_diplomatic_pact = {
 			country = c:SCI
 			type = personal_union
-		}
-		create_diplomatic_pact = {
-			country = c:CUB
-			type = puppet
 		}
 		create_diplomatic_pact = {
 			country = c:PHI

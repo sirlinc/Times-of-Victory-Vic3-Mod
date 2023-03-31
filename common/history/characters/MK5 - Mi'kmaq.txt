@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	MK5 = {
+	c:MK5 = {
 	}
 }

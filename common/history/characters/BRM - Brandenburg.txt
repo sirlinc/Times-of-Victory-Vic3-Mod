@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	BRM = {
+	c:BRM = {
 		create_character = {
 			first_name = "frederick_william"
 			last_name = "hohenzollern"

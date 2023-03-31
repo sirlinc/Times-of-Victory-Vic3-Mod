@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	IRE = {
+	c:IRE = {
 		create_character = {
 			first_name = "owen_roe"
 			last_name = "o_neill"

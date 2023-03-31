@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	KRU = {
+	c:KRU = {
 	}
 }

@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	B03 = {
+	c:B03 = {
 		create_character = {
 			first_name = "baz_bahadur"
 			last_name = "chand"

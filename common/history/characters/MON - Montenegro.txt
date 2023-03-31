@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	MON = {
+	c:MON = {
 		create_character = {
 			first_name = "mardarije"
 			last_name = "kornecanin"

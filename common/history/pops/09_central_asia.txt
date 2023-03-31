@@ -64,6 +64,7 @@
 				culture = georgian
 				size = 4000
 			}
+		}
 	}
 	s:STATE_AZERBAIJAN = {
 		region_state:PER = {
@@ -833,6 +834,7 @@
 				culture = tibetan
 				size = 4000
 			}
+		}
 	}
 	s:STATE_NGARI = {
 		region_state:A01 = {

@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	BNJ = {
+	c:BNJ = {
 		create_character = {
 			first_name = "saidullah"
 			last_name = "of_banjar"

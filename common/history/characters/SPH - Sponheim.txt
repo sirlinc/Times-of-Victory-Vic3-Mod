@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	SPH = {
+	c:SPH = {
 		create_character = {
 			first_name = "george_william"
 			last_name = "wittelsbach"

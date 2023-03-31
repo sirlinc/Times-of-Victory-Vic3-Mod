@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:TUR = {
+		create_character = {
+			first_name = "mehmed_iv"
+			last_name = "osman"
+			age = 6
+			ruler = yes
+		}
+	}
+}

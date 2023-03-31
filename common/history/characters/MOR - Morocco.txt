@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	MOR = {
+	c:MOR = {
 		create_character = {
 			first_name = "muhammad_ibn_sharif"
 			last_name = "alawite"

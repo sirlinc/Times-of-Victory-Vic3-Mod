@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	NTZ = {
+	c:NTZ = {
 	}
 }

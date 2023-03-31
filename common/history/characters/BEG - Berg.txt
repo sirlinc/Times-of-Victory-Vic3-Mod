@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	BEG = {
+	c:BEG = {
 		create_character = {
 			first_name = "philipp"
 			last_name = "wittelsbach"

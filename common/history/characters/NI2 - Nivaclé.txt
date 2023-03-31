@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	NI2 = {
+	c:NI2 = {
 	}
 }

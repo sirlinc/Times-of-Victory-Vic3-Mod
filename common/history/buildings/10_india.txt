@@ -7,11 +7,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_government_administration"
-				level=3
-				reserves=1
-			}
-			create_building={
 				building="building_prime_pasture"
 				level=5
 				reserves=1
@@ -20,24 +15,10 @@
 				building="building_wetlands_farmland"
 				level=5
 				reserves=1
-			}			
+			}
 			create_building={
 				building="building_sugar_plantation"
 				level=3
-				reserves=1
-			}
-			create_building={
-				building="building_dye_plantation"
-				level=5
-				reserves=1
-			}
-		}
-	}
-	s:STATE_NORTH_BENGAL={
-		region_state:A43={
-			create_building={
-				building="building_government_administration"
-				level=5
 				reserves=1
 			}
 			create_building={
@@ -75,11 +56,6 @@
 	s:STATE_ASSAM={
 		region_state:A47={
 			create_building={
-				building="building_government_administration"
-				level=2
-				reserves=1
-			}
-			create_building={
 				building="building_wetlands_farmland"
 				level=3
 				reserves=1
@@ -97,11 +73,6 @@
 	}
 	s:STATE_DELHI={
 		region_state:A43={
-			create_building={
-				building="building_government_administration"
-				level=8
-				reserves=1
-			}
 			create_building={
 				building="building_textile_mills"
 				level=5
@@ -126,7 +97,7 @@
 				building="building_temperate_farmland"
 				level=7
 				reserves=1
-			}			
+			}
 			create_building={
 				building="building_prime_pasture"
 				level=4
@@ -171,22 +142,12 @@
 	s:STATE_AWADH={
 		region_state:A43={
 			create_building={
-				building="building_government_administration"
-				level=2
-				reserves=1
-			}
-			create_building={
 				building="building_glassworks"
 				level=2
 				reserves=1
 			}
 			create_building={
 				building="building_temperate_farmland"
-				level=5
-				reserves=1
-			}
-			create_building={
-				building="building_dye_plantation"
 				level=5
 				reserves=1
 			}
@@ -204,11 +165,6 @@
 	}
 	s:STATE_GUJARAT={
 		region_state:A43={
-			create_building={
-				building="building_government_administration"
-				level=2
-				reserves=1
-			}			
 			create_building={
 				building="building_furniture_manufacturies"
 				level=2
@@ -263,11 +219,6 @@
 	s:STATE_KASHMIR={
 		region_state:A95={
 			create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-			}
-			create_building={
 				building="building_arms_industry"
 				level=2
 				reserves=1
@@ -278,7 +229,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_prime_pasture"
+				building="building_marginal_pasture"
 				level=2
 				reserves=1
 			}
@@ -286,7 +237,7 @@
 				building="building_arid_farmland"
 				level=3
 				reserves=1
-			}			
+			}
 			create_building={
 				building="building_barracks"
 				level=20
@@ -309,20 +260,15 @@
 	s:STATE_PUNJAB={
 		region_state:A43={
 			create_building={
-				building="building_government_administration"
-				level=10
-				reserves=1
-			}
-			create_building={
 				building="building_arms_industry"
 				level=3
 				reserves=1
-			}			
+			}
 			create_building={
 				building="building_glassworks"
 				level=2
 				reserves=1
-			}		
+			}
 			create_building={
 				building="building_textile_mills"
 				level=3
@@ -342,7 +288,7 @@
 				building="building_logging_camp"
 				level=2
 				reserves=1
-			}				
+			}
 			create_building={
 				building="building_prime_pasture"
 				level=3
@@ -359,22 +305,12 @@
 				reserves=1
 			}
 			create_building={
-				building="building_dye_plantation"
-				level=4
-				reserves=1
-			}
-			create_building={
 				building="building_barracks"
 				level=25
 				reserves=1
 			}
 		}
 		region_state:B01={
-			create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-			}
 			create_building={
 				building="building_prime_pasture"
 				level=2
@@ -407,12 +343,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_dye_plantation"
-				level=3
-				reserves=1
-			}
-			create_building={
-				building="building_tropical_farmland"
+				building="building_wetlands_farmland"
 				level=3
 				reserves=1
 			}
@@ -433,11 +364,6 @@
 	s:STATE_SOUTH_BENGAL={
 		region_state:A43={
 			create_building={
-				building="building_government_administration"
-				level=6
-				reserves=1
-			}
-			create_building={
 				building="building_textile_mills"
 				level=2
 				reserves=1
@@ -455,11 +381,6 @@
 			create_building={
 				building="building_silk_plantation"
 				level=2
-				reserves=1
-			}
-			create_building={
-				building="building_dye_plantation"
-				level=4
 				reserves=1
 			}
 			create_building={
@@ -492,12 +413,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_arid_farmland"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_prime_pasture"
+				building="building_tropical_farmland"
 				level=1
 				reserves=1
 			}
@@ -587,7 +503,7 @@
 				building="building_barracks"
 				level=5
 				reserves=1
-			}		
+			}
 		}
 		region_state:A23={
 			create_building={
@@ -604,16 +520,11 @@
 				building="building_port"
 				level=1
 				reserves=1
-			}			
+			}
 		}
 		region_state:POR={
 			create_building={
 				building="building_fishing_wharf"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_coffee_plantation"
 				level=1
 				reserves=1
 			}
@@ -626,7 +537,7 @@
 				building="building_port"
 				level=1
 				reserves=1
-			}			
+			}
 		}
 	}
 	s:STATE_INDIAN_OCEAN_TERRITORY={
@@ -650,12 +561,17 @@
 		}
 		region_state:A99={
 			create_building={
-				building="building_logging_camp"
+				building="building_cotton_plantation"
 				level=2
 				reserves=1
-			}	
+			}
+			create_building={
+				building="building_wetlands_farmland"
+				level=1
+				reserves=1
+			}
 		}
-		region_state:BIC={
+		region_state:ENG={
 			create_building={
 				building="building_port"
 				level=1
@@ -666,11 +582,6 @@
 	s:STATE_CIRCARS={
 		region_state:A50={
 			create_building={
-				building="building_government_administration"
-				level=5
-				reserves=1
-			}
-			create_building={
 				building="building_textile_mills"
 				level=5
 				reserves=1
@@ -678,11 +589,6 @@
 			create_building={
 				building="building_iron_mine"
 				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_dye_plantation"
-				level=6
 				reserves=1
 			}
 			create_building={
@@ -697,11 +603,6 @@
 			}
 		}
 		region_state:A49={
-			create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-			}
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -733,17 +634,12 @@
 			}
 			create_building={
 				building="building_gold_mine"
-				level=2
-				reserves=1
-			}			
-			create_building={
-				building="building_tropical_farmland"
-				level=4
+				level=1
 				reserves=1
 			}
 			create_building={
-				building="building_dye_plantation"
-				level=5
+				building="building_tropical_farmland"
+				level=4
 				reserves=1
 			}
 			create_building={
@@ -754,15 +650,10 @@
 		}
 		region_state:A51={
 			create_building={
-				building="building_coffee_plantation"
-				level=1
-				reserves=1
-			}
-			create_building={
 				building="building_gold_mine"
 				level=2
 				reserves=1
-			}			
+			}
 			create_building={
 				building="building_barracks"
 				level=5
@@ -785,22 +676,12 @@
 		}
 		region_state:A52={
 			create_building={
-				building="building_coffee_plantation"
-				level=1
-				reserves=1
-			}
-			create_building={
 				building="building_barracks"
 				level=5
 				reserves=1
 			}
 		}
 		region_state:A54={
-			create_building={
-				building="building_dye_plantation"
-				level=1
-				reserves=1
-			}
 			create_building={
 				building="building_barracks"
 				level=5
@@ -809,7 +690,7 @@
 		}
 	}
 	s:STATE_MADRAS={
-		region_state:DEN={		
+		region_state:DEN={
 			create_building={
 				building="building_port"
 				level=1
@@ -817,11 +698,6 @@
 			}
 		}
 		region_state:A55={
-			create_building={
-				building="building_government_administration"
-				level=4
-				reserves=1
-			}	
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -843,11 +719,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_dye_plantation"
-				level=2
-				reserves=1
-			}
-			create_building={
 				building="building_naval_base"
 				level=1
 				reserves=1
@@ -860,27 +731,12 @@
 		}
 		region_state:A56={
 			create_building={
-				building="building_government_administration"
-				level=2
-				reserves=1
-			}		
-			create_building={
 				building="building_iron_mine"
 				level=1
 				reserves=1
 			}
 			create_building={
 				building="building_fishing_wharf"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_coffee_plantation"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_dye_plantation"
 				level=1
 				reserves=1
 			}
@@ -897,11 +753,6 @@
 		}
 		region_state:A57={
 			create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-			}	
-			create_building={
 				building="building_textile_mills"
 				level=1
 				reserves=1
@@ -914,20 +765,10 @@
 		}
 	}
 	s:STATE_HYDERABAD={
-		region_state:HYD={
-			create_building={
-				building="building_government_administration"
-				level=5
-				reserves=1
-			}		
+		region_state:A50={
 			create_building={
 				building="building_glassworks"
-				level=3
-				reserves=1
-			}
-			create_building={
-				building="building_arms_industry"
-				level=2
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -950,22 +791,12 @@
 	s:STATE_BOMBAY={
 		region_state:POR={
 			create_building={
-				building="building_dye_plantation"
-				level=2
-				reserves=1
-			}
-			create_building={
 				building="building_port"
 				level=1
 				reserves=1
 			}
 		}
 		region_state:A43={
-			create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-			}
 			create_building={
 				building="building_barracks"
 				level=15
@@ -978,11 +809,6 @@
 			}
 		}
 		region_state:A49={
-			create_building={
-				building="building_government_administration"
-				level=8
-				reserves=1
-			}
 			create_building={
 				building="building_textile_mills"
 				level=4

@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	PIO = {
+	c:PIO = {
 		create_character = {
 			first_name = "niccolo"
 			last_name = "ludovisi"

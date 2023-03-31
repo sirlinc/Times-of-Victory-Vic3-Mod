@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	WUR = {
+	c:WUR = {
 		create_character = {
 			first_name = "william_louis"
 			last_name = "wurttemberg"

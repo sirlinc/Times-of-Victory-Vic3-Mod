@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	HEK = {
+	c:HEK = {
 		create_character = {
 			first_name = "wilhelm_vi"
 			last_name = "von_hessen_kassel"

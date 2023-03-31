@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	QU9 = {
+	c:QU9 = {
 	}
 }

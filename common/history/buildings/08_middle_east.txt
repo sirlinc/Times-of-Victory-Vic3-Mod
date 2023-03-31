@@ -261,7 +261,7 @@
 	s:STATE_LEBANON={
 		region_state:TUR={
 			create_building={
-				building="building_arid_farmland"
+				building="building_temperate_farmland"
 				level=1
 				reserves=1
 			}
@@ -437,18 +437,6 @@
 				building= "building_argebam"
 			}
 		}
-		region_state:OMA={
-			create_building={
-				building="building_fishing_wharf"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-			}
-		}
 	}
 	s:STATE_SISTAN={
 		region_state:PER={
@@ -520,7 +508,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_prime_pasture"
+				building="building_marginal_pasture"
 				level=1
 				reserves=1
 			}
@@ -634,7 +622,7 @@
 	s:STATE_LURISTAN={
 		region_state:PER={
 			create_building={
-				building="building_temperate_farmland"
+				building="building_arid_farmland"
 				level=1
 				reserves=1
 			}
@@ -881,7 +869,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_arid_farmland"
+				building="building_temperate_farmland"
 				level=1
 				reserves=1
 			}

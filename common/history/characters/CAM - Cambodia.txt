@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	CAM = {
+	c:CAM = {
 		create_character = {
 			first_name = "ibrahim"
 			last_name = "ramathipadi_i"

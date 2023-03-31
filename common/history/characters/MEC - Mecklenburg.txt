@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	MEC = {
+	c:MEC = {
 		create_character = {
 			first_name = "adolf_frederick"
 			last_name = "mecklenburg"

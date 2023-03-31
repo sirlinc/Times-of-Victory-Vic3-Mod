@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	FR2 = {
+	c:FR2 = {
 		create_character = {
 			first_name = "gaston_jean_baptiste"
 			last_name = "bourbon"

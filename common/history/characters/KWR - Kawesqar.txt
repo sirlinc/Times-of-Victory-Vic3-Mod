@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	KWR = {
+	c:KWR = {
 	}
 }

@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	DN1 = {
+	c:DN1 = {
 	}
 }

@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	POL = {
+	c:POL = {
 		create_character = {
 			first_name = "john_II_casimir"
 			last_name = "vasa"

@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	MOD = {
+	c:MOD = {
 		create_character = {
 			first_name = "francesco"
 			last_name = "d_este"

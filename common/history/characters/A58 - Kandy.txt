@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	A58 = {
+	c:A58 = {
 		create_character = {
 			first_name = "rajasingha_ii"
 			last_name = "of_kandy"

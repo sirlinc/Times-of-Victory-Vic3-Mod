@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	GUT = {
+	c:GUT = {
 	}
 }

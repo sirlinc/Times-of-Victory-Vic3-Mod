@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	QP1 = {
+	c:QP1 = {
 	}
 }

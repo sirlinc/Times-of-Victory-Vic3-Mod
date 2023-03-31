@@ -258,7 +258,7 @@
 		region_state:ENG={
 			create_building={
 				building="building_fishing_wharf"
-				level=2
+				level=1
 				reserves=1
 			}
 		}

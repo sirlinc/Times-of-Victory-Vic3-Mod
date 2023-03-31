@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	CH2 = {
+	c:CH2 = {
 	}
 }

@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	KW0 = {
+	c:KW0 = {
 	}
 }

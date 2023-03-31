@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	WS8 = {
+	c:WS8 = {
 	}
 }

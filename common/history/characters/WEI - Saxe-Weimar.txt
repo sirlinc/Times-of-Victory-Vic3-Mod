@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	WEI = {
+	c:WEI = {
 		create_character = {
 			first_name = "wilhelm"
 			last_name = "wettin"

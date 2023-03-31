@@ -378,8 +378,8 @@ pedigrees = {
 		selective_breeding
 	}
 	modifier = {
-		building_output_horses_mult = 0.25
-		building_output_animal_products_mult = 0.25
+		building_throughput_horses_mult = 0.25
+		building_throughput_animal_products_mult = 0.25
 	}
 
 }
@@ -754,6 +754,7 @@ chemical_fertilizer = {
 	
 	unlocking_technologies = {	
 		food_additives
+		pest_control
 	}
 }
 
@@ -1114,14 +1115,14 @@ factory_farming = {
 	}
 }
 
-portable_power_tools = {
+engineering_science = {
 	era = era_10
 	texture = "gfx/interface/icons/invention_icons/concrete_fortifications.dds"
 	category = production
 
 	unlocking_technologies = {
 		dual_cylinder_banks
-
+		turbine_engines
 	}
 }
 

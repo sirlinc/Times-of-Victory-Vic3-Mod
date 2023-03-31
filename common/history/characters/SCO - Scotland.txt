@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	SCO = {
+	c:SCO = {
 		create_character = {
 			first_name = "charles_i"
 			last_name = "stuart"

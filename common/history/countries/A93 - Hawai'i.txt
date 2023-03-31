@@ -1,16 +1,14 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:A93 = {
-		effect_starting_technology_tier_6_tech = yes		
+		effect_starting_technology_tier_6_tech = yes
 		effect_starting_politics_traditional = yes
-		effect_native_conscription_5 = yes	
+		effect_native_conscription_5 = yes
 				ig:ig_landowners = {
 			set_interest_group_name = ig_alii
 			add_ideology = ideology_loyalist
-		}	
+		}
 				ig:ig_rural_folk = {
 			set_interest_group_name = ig_maka_ainana
 		}
-		
 	}
 }
-

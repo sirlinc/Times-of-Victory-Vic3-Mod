@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	SCM = {
+	c:SCM = {
 		create_character = {
 			first_name = "philip_i"
 			last_name = "lippe"

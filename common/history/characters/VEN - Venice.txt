@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	VEN = {
+	c:VEN = {
 		create_character = {
 			first_name = "francesco"
 			last_name = "molin"

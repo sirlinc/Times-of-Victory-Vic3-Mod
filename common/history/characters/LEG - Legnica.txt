@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	LEG = {
+	c:LEG = {
 		create_character = {
 			first_name = "louis_iv"
 			last_name = "piast"

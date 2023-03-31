@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	WY2 = {
+	c:WY2 = {
 	}
 }

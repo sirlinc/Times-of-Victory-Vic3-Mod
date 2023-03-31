@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	HOH = {
+	c:HOH = {
 		create_character = {
 			first_name = "eitel_friedrich_ii"
 			last_name = "hohenzollern"

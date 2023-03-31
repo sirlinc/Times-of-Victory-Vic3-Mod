@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	T2E = {
+	c:T2E = {
 	}
 }

@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	LIE = {
+	c:LIE = {
 		create_character = {
 			first_name = "maximilien_henri"
 			last_name = "de_baviere"

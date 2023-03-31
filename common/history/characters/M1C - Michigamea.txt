@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	M1C = {
+	c:M1C = {
 	}
 }

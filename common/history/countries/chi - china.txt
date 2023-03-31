@@ -1,20 +1,17 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:CHI = {
-		effect_starting_technology_tier_3_tech = yes		
+		effect_starting_technology_tier_3_tech = yes
 		effect_starting_politics_traditional = yes
-		 = yes	
 				ig:ig_devout = {
 			set_interest_group_name = ig_confucian
 			remove_ideology = ideology_pious
 			remove_ideology = ideology_moralist
 			add_ideology = ideology_confucian
-		}	
+		}
 				ig:ig_landowners = { 
 			set_interest_group_name = ig_scholar_officials
 			remove_ideology = ideology_paternalistic
 			add_ideology = ideology_scholar_paternalistic
 		}
-		
 	}
 }
-

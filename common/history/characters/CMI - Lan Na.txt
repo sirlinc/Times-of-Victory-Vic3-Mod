@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	CMI = {
+	c:CMI = {
 		create_character = {
 			first_name = "thipphanet"
 			last_name = "of_lan_na"

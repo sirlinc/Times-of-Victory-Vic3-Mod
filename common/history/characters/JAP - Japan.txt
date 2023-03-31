@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	JAP = {
+	c:JAP = {
 		create_character = {
 			first_name = "iemitsu"
 			last_name = "tokugawa"

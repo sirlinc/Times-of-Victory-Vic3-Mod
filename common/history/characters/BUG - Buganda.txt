@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	BUG = {
+	c:BUG = {
 	}
 }

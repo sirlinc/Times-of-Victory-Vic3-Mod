@@ -413,6 +413,7 @@ pm_collectivization: "Collectivization"
 pm_fair_trade: "Fair Trade"
 
 #Tea Plantation
+pmg_innovations_tea_plantation: "Tea Innovations"
 pm_hand_rolling_tea: "Hand-rolling"
 pm_withering_racks_tea: "Withering Racks"
 pm_hydraulic_tea_press_tea: "Hydraulic Tea Press"
@@ -420,6 +421,7 @@ pm_tea_blending_machines_tea: "Tea Blending Machines"
 pm_ctc_machines_tea: "CTC Machines"
 
 #Coffee Plantation
+pmg_innovations_coffee_plantation: "Coffee Innovations"
 pm_dry_processing_coffee: "Dry Processing"
 pm_strip_picking_tools_coffee: "Strip Picking Tools"
 pm_roasting_machines_coffee: "Roasting Machines"
@@ -427,6 +429,7 @@ pm_fermentation_tanks_coffee: "Fermentation Tanks"
 pm_freeze_dried_coffee_coffee: "Freeze Dried Coffee"
 
 #Spice Plantation
+pmg_innovations_spice_plantation: "Spice Innovations"
 pm_natural_spices_spice: "Natural Spices"
 pm_grinding_mills_spice: "Grinding Mills"
 pm_aromatics_extraction_spice: "Aromatics Extraction"
@@ -434,6 +437,7 @@ pm_steam_sterilization_spice: "Steam Sterilization"
 pm_sorting_and_grading_machines_spice: "Sorting and Grading Machines"
 
 #Sugarcane Plantation
+pmg_innovations_sugarcane_plantation: "Sugarcane Innovations"
 pm_sugarloaf_molds_sugarcane: "Sugarloaf Molds"
 pm_molasses_separation_sugarcane: "Molasses Separation"
 pm_cane_crushers_sugarcane: "Cane Crushers"
@@ -441,6 +445,7 @@ pm_vacuum_pan_evaporation_sugarcane: "Vacuum Pan Evaporation"
 pm_centrifugation_sugarcane: "Centrifugation"
 
 #Cotton Plantation
+pmg_innovations_cotton_plantation: "Cotton Innovations"
 pm_hand_picking_cotton: "Hand-picking"
 pm_fiber_carding_tools_cotton: "Fiber Carding Tools"
 pm_cotton_gin_cottons: "Cotton Gins"
@@ -448,6 +453,7 @@ pm_diesel_powered_gins_cotton: "Diesel-powered Gins"
 pm_cotton_harvesters_cotton: "Cotton Harvesters"
 
 #Tobacco Plantation
+pmg_innovations_tobacco_plantation: "Tobacco Innovations"
 pm_darkleaf_tobacco_tobacco: "Darkleaf Tobacco"
 pm_protective_frames_tobacco: "Protective Frames"
 pm_brightleaf_tobacco_tobacco: "Brightleaf Tobacco"
@@ -455,6 +461,7 @@ pm_shredding_machines_tobacco: "Shredding Machines"
 pm_cigarette_rolling_machines_tobacco: "Cigarette Rolling Machines"
 
 #Silk Plantation
+pmg_innovations_silk_plantation: "Silk Innovations"
 pm_wild_sil_silk: "Wild Silk"
 pm_silk_threading_looms_silk: "Silk Threading Looms"
 pm_rotary_mountage_silk: "Rotary Mountage"
@@ -462,12 +469,14 @@ pm_mechanical_spooling_silk: "Mechanical Spooling"
 pm_automatic_reeling_devices_silk: "Automatic Reeling Devices"
 
 #Rubber Plantation
+pmg_innovations_rubber_plantation: "Rubber Innovations"
 pm_rubber_mastication_rubber: "Rubber Mastication"
 pm_vulcanized_rubber_rubber: "Vulcanized Rubber"
 pm_coagulating_agents_rubber: "Coagulating Agents"
 pm_creping_roller_rubbers: "Creping Rollers"
 
 #Opium Plantation
+pmg_innovations_opium_plantation: "Opium Innovations"
 pm_camphorated_opium_opium: "Camphorated Opium"
 pm_morphine_extraction_opium: "Morphine Extraction"
 pm_codeine_isolation_opium: "Codeine Isolation"

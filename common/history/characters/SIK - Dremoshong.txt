@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	SIK = {
+	c:SIK = {
 		create_character = {
 			first_name = "phuntsog"
 			last_name = "namgyal"

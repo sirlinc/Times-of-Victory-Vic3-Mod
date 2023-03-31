@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	BAL = {
+	c:BAL = {
 		create_character = {
 			first_name = "anglurah"
 			last_name = "agung"

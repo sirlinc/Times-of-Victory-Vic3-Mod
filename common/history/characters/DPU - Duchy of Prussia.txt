@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	DPU = {
+	c:DPU = {
 		create_character = {
 			first_name = "frederick_william"
 			last_name = "hohenzollern"

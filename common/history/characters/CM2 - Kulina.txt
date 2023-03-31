@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	CM2 = {
+	c:CM2 = {
 	}
 }

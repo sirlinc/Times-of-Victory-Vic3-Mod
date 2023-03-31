@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	A27 = {
+	c:A27 = {
 		create_character = {
 			first_name = "malikussaid"
 			last_name = "of_gowa_tallo"

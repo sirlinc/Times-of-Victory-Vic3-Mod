@@ -7,17 +7,8 @@
 				reserves=1
 			}
 		}
-		region_state:BLE={
-		}
-		region_state:KNG={
-		}
-		region_state:AYI={
-		}
-	}
 	s:STATE_WINDWARD_COAST={
 		region_state:KBD={
-		}
-		region_state:BLE={
 		}
 		region_state:KRU={
 		}
@@ -138,12 +129,6 @@
 		}
 	}
 	s:STATE_SIERRA_LEONE={
-		region_state:GBR={
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-			}
 		}
 	}
 	s:STATE_VOLTA={
@@ -204,18 +189,6 @@
 		}
 	}
 	s:STATE_LIBERIA={
-		region_state:LIB={
-			create_building={
-				building="building_tropical_farmland"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-			}
-		}
 	}
 	s:STATE_HAUSALAND={
 		region_state:B75={
@@ -543,21 +516,9 @@
 		}
 		region_state:B61={
 		}
-		region_state:B62={
-			create_building={
-				building="building_wetlands_farmland"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-			}
-		}
 	}
 	s:STATE_GHANA={
-		region_state:GBR={
+		region_state:ENG={
 			create_building={
 				building="building_port"
 				level=1
@@ -702,7 +663,7 @@
 		}
 	}
 	s:STATE_ZANZIBAR={
-		region_state:OMA={
+		region_state:POR={
 			create_building={
 				building="building_coffee_plantation"
 				level=1
@@ -711,11 +672,6 @@
 			create_building={
 				building="building_cotton_plantation"
 				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_logging_camp"
-				level=2
 				reserves=1
 			}
 			create_building={
@@ -1330,22 +1286,8 @@
 		}
 	}
 	s:STATE_CONGO_ORIENTALE={
-		region_state:MNB={
-		}
-		region_state:ZND={
-		}
-		region_state:LGA={
-		}
-		region_state:HMB={
-		}
-		region_state:LBA={
-		}
 	}
 	s:STATE_KASAI={
-		region_state:KBA={
-		}
-		region_state:LBA={
-		}
 	}
 	s:STATE_BAS_CONGO={
 		region_state:B98={
@@ -1374,10 +1316,6 @@
 		}
 	}
 	s:STATE_EQUATEUR={
-		region_state:BNG={
-		}
-		region_state:BOB={
-		}
 	}
 	s:STATE_NORTH_ANGOLA={
 		region_state:POR={
@@ -1423,16 +1361,8 @@
 		}
 	}
 	s:STATE_SOUTH_ANGOLA={
-		region_state:POR={
-		}
-		region_state:OVM={
-		}
 	}
 	s:STATE_EAST_ANGOLA={
-		region_state:CHK={
-		}
-		region_state:LND={
-		}
 		region_state:C01={
 			create_building={
 				building="building_temperate_farmland"
@@ -1471,16 +1401,8 @@
 		}
 	}
 	s:STATE_KATANGA={
-		region_state:KZM={
-		}
-		region_state:LND={
-		}
-		region_state:LBA={
-		}
 	}
 	s:STATE_GABON={
-		region_state:FNG={
-		}
 		region_state:B96={
 			create_building={
 				building="building_tropical_farmland"
@@ -1495,10 +1417,6 @@
 		}
 	}
 	s:STATE_ZAMBIA={
-		region_state:LZO={
-		}
-		region_state:BMB={
-		}
 	}
 	s:STATE_ZAMBEZIA={
 		region_state:POR={

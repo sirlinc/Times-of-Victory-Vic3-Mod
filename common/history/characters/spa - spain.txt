@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	SPA = {
+	c:SPA = {
 		create_character = {
 			first_name = "philip_iv"
 			last_name = "habsburg"

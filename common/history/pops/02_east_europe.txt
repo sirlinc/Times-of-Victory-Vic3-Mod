@@ -274,6 +274,7 @@
 				culture = byelorussian
 				size=33580
 			}
+		}
 	}
 	s:STATE_EAST_KARELIA = {
 		region_state:RUS = {
@@ -553,6 +554,7 @@
 			create_pop = {
 				culture = ukrainian
 				size=21928
+			}
 		}
 	}
 	s:STATE_ROSTOV = {
@@ -1042,6 +1044,7 @@
 				culture = hungarian
 				size=17572
 			}
+		}
 	}
 	s:STATE_BEKES = {
 		region_state:TUR = {

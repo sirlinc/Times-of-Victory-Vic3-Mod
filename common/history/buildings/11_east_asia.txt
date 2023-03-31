@@ -2,7 +2,7 @@
 	s:STATE_DZUNGARIA={
 		region_state:A03={
 			create_building={
-				building="building_prime_pasture"
+				building="building_marginal_pasture"
 				level=3
 				reserves=1
 			}
@@ -156,7 +156,7 @@
 	s:STATE_ALXA={
 		region_state:CHI={
 			create_building={
-				building="building_prime_pasture"
+				building="building_marginal_pasture"
 				level=1
 				reserves=1
 			}
@@ -261,8 +261,8 @@
 				reserves=1
 			}
 			create_building={
-				building="building_prime_pasture"
-				level=10
+				building="building_marginal_pasture"
+				level=3
 				reserves=1
 			}
 			create_building={
@@ -366,8 +366,8 @@
 	s:STATE_GANSU={
 		region_state:A05={
 			create_building={
-				building="building_prime_pasture"
-				level=6
+				building="building_marginal_pasture"
+				level=3
 				reserves=1
 			}
 			create_building={
@@ -797,7 +797,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_wetlands_farmland"
+				building="building_temperate_farmland"
 				level=6
 				reserves=1
 			}
@@ -911,7 +911,7 @@
 		}
 	}
 	s:STATE_FORMOSA={
-		region_state:DEI={
+		region_state:A23={
 		}
 		region_state:PHI={
 		}
@@ -927,12 +927,12 @@
 			}
 			create_building={
 				building="building_glassworks"
-				level=10
+				level=3
 				reserves=1
 			}
 			create_building={
 				building="building_textile_mills"
-				level=8
+				level=5
 				reserves=1
 			}
 			create_building={
@@ -947,12 +947,12 @@
 			}
 			create_building={
 				building="building_fishing_wharf"
-				level=6
+				level=4
 				reserves=1
 			}
 			create_building={
 				building="building_barracks"
-				level=10
+				level=3
 				reserves=1
 			}
 			create_building={
@@ -986,7 +986,7 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=10
+				level=5
 				reserves=1
 			}
 			create_building={
@@ -997,22 +997,30 @@
 		}
 	}
 	s:STATE_ULIASTAI={
-		region_state:CHI={
+		region_state:A04={
 			create_building={
 				building="building_prime_pasture"
-				level=4
+				level=2
 				reserves=1
 			}
-		}
+			create_building={
+				building="building_barracks"
+				level=10
+				reserves=1
+			}
 	}
 	s:STATE_URGA={
-		region_state:CHI={
+		region_state:A04={
 			create_building={
 				building="building_prime_pasture"
-				level=6
+				level=1
 				reserves=1
 			}
-		}
+			create_building={
+				building="building_barracks"
+				level=10
+				reserves=1
+			}
 	}
 	s:STATE_CAMBODIA={
 		region_state:A13={

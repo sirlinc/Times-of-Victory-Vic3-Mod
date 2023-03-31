@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	TH1 = {
+	c:TH1 = {
 	}
 }

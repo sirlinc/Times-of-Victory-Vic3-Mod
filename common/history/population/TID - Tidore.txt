@@ -1,6 +1,6 @@
-POPULATION = {
-	c:TID = {
-		effect_starting_pop_wealth_silkroad = yes
-		effect_starting_pop_literacy_baseline = yes
-	}
+﻿POPULATION = {
+    c:TID = {
+        effect_starting_pop_wealth_silkroad = yes
+        effect_starting_pop_literacy_baseline = yes
+    }
 }

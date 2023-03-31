@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:MEX = {
+		create_character = {
+			first_name = "marcos"
+			last_name = "torres_y_rueda"
+			age = 57
+			ruler = yes
+		}
+	}
+}

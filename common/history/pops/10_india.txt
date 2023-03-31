@@ -67,6 +67,7 @@
 				religion = hindu
 				size = 4040
 			}
+		}
 	}
 	s:STATE_ASSAM = {
 		region_state:A47 = {
@@ -179,6 +180,7 @@
 				pop_type = slaves
 				culture = manipuri
 				size = 3000
+			}
 		}
 	}
 	s:STATE_DELHI = {
@@ -1027,7 +1029,7 @@
 				size = 4200
 			}
 		}
-		region_state:BIC = {
+		region_state:ENG = {
 			create_pop = {
 				culture = oriya
 				size=22171

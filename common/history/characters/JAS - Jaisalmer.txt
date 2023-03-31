@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	JAS = {
+	c:JAS = {
 		create_character = {
 			first_name = "abdul"
 			last_name = "jalil"

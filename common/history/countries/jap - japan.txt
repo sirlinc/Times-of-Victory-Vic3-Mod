@@ -1,13 +1,12 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:JAP = {
-		effect_starting_technology_tier_3_tech = yes		
+		effect_starting_technology_tier_3_tech = yes
 		effect_starting_politics_traditional = yes
-		 = yes	
 				ig:ig_armed_forces = {
 			add_ideology = ideology_bakufu
 			set_interest_group_name = ig_samurai
 			add_ruling_interest_group = yes
-		}	
+		}
 				ig:ig_devout = {
 			set_interest_group_name = ig_buddhist_monks
 			remove_ideology = ideology_moralist
@@ -19,4 +18,3 @@ COUNTRIES = {
 		}
 	}
 }
-

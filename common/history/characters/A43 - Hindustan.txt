@@ -1,7 +1,7 @@
 ﻿CHARACTERS = {
-	A43 = {
+	c:A43 = {
 		create_character = {
-			first_name = "shah_jahan_i"
+			first_name = "jahan_i"
 			last_name = "gurkani"
 			age = 56
 			ruler = yes

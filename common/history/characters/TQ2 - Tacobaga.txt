@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	TQ2 = {
+	c:TQ2 = {
 	}
 }

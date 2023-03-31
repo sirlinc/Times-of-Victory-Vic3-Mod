@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	C57 = {
+	c:C57 = {
 		create_character = {
 			first_name = "ibrahim_adeer"
 			last_name = "gobroon"

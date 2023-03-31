@@ -233,7 +233,7 @@ pm_forced_labor = {
 
 	building_modifiers = {
 		unscaled = {
-			building_laborer_mortality_mult = 0.2
+			building_laborers_mortality_mult = 0.2
 			building_minimum_wage_mult = -0.3
 		}
 	}
@@ -251,7 +251,7 @@ pm_exploitation = {
 
 	building_modifiers = {
 		unscaled = {
-			building_laborer_mortality_mult = 0.1
+			building_laborers_mortality_mult = 0.1
 			building_minimum_wage_mult = -0.15
 		}
 	}
@@ -316,7 +316,7 @@ pm_fair_trade = {
 			building_laborers_shares_add = 1
 			building_farmers_shares_add = 1
 			building_machinists_shares_add = 1
-			building_working_conditions_mult = 0.15
+			building_laborers_mortality_mult = -0.15
 			building_minimum_wage_mult = 0.15
 		}	
 	}
@@ -535,7 +535,7 @@ pm_cotton_harvesters_cotton = {
 	pollution_generation = 5
 		
 	unlocking_technologies = {
-		portable_power_tools
+		engineering_science
 	}
 	
 	building_modifiers = {

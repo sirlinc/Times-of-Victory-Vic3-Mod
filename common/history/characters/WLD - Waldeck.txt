@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	WLD = {
+	c:WLD = {
 		create_character = {
 			first_name = "josias_ii"
 			last_name = "waldeck"

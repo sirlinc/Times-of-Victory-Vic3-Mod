@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	NY4 = {
+	c:NY4 = {
 	}
 }

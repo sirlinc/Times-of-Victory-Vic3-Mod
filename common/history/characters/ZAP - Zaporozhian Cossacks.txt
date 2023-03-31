@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	ZAP = {
+	c:ZAP = {
 		create_character = {
 			first_name = "bohdan"
 			last_name = "khmelnytsky"

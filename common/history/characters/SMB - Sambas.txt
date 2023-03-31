@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	SMB = {
+	c:SMB = {
 		create_character = {
 			first_name = "abdul"
 			last_name = "saifuddin_i"

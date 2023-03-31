@@ -90,12 +90,12 @@
 		region_state:RUS={
 			create_building={
 				building="building_temperate_farmland"
-				level=4
+				level=2
 				reserves=1
 			}
 			create_building={
 				building="building_barracks"
-				level=20
+				level=5
 				reserves=1
 			}
 		}
@@ -103,17 +103,7 @@
 	s:STATE_KAZAN={
 		region_state:RUS={
 			create_building={
-				building="building_arms_industry"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_paper_mills"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_temperate_farmland"
+				building="building_arid_farmland"
 				level=1
 				reserves=1
 			}
@@ -138,7 +128,7 @@
 			}
 			create_building={
 				building="building_temperate_farmland"
-				level=2
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -150,12 +140,12 @@
 		region_state:QKH={
 			create_building={
 				building="building_temperate_farmland"
-				level=4
+				level=3
 				reserves=1
 			}
 			create_building={
 				building="building_barracks"
-				level=15
+				level=12
 				reserves=1
 			}
 		}
@@ -202,12 +192,12 @@
 	s:STATE_UZBEKIA={
 		region_state:BUK={
 			create_building={
-				building="building_arid_farmland"
+				building="building_temperate_farmland"
 				level=3
 				reserves=1
 			}
 			create_building={
-				building="building_prime_pasture"
+				building="building_marginal_pasture"
 				level=1
 				reserves=1
 			}
@@ -305,15 +295,10 @@
 		}
 	}
 	s:STATE_SEMIRECHE={
-		region_state:A94={
-			create_building={
-				building="building_arid_farmland"
-				level=1
-				reserves=1
-			}	
+		region_state:A94={	
 			create_building={
 				building="building_barracks"
-				level=12
+				level=8
 				reserves=1
 			}
 		}
@@ -347,7 +332,7 @@
 		}
 	}
 	s:STATE_WESTERN_AFGHANISTAN={
-		region_state:AFG={
+		region_state:A43={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -431,13 +416,6 @@
 			create_building={
 				building="building_barracks"
 				level=2
-				reserves=1
-			}
-		}
-		region_state:A3={			
-			create_building={
-				building="building_barracks"
-				level=1
 				reserves=1
 			}
 		}

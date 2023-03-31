@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	LOR = {
+	c:LOR = {
 		create_character = {
 			first_name = "charles_iv"
 			last_name = "lorraine"

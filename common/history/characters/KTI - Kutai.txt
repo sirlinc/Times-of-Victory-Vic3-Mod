@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	KTI = {
+	c:KTI = {
 		create_character = {
 			first_name = "aji"
 			last_name = "pangeran_sinum_panji_mendapa"

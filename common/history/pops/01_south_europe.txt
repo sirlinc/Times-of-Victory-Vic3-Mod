@@ -533,28 +533,6 @@
 				size=48172
 			}
 		}
-		region_state:RUS = {
-			create_pop = {
-				culture = turkish
-				size = 2560
-			}
-			create_pop = {
-				culture = ukrainian
-				size = 9000
-			}
-			create_pop = {
-				culture = bulgarian
-				size = 2000
-			}
-			create_pop = {
-				culture = greek
-				size = 100
-			}
-			create_pop = {
-				culture = romanian
-				size = 8000
-			}
-		}
 	}
 	s:STATE_ALBANIA = {
 		region_state:TUR = {
@@ -833,7 +811,7 @@
 		}
 	}
 	s:STATE_CRETE = {
-		region_state:EGY = {
+		region_state:B37 = {
 			create_pop = {
 				culture = turkish
 				size=35976
@@ -845,7 +823,7 @@
 		}
 	}
 	s:STATE_WEST_AEGEAN_ISLANDS = {
-		region_state:GRE = {
+		region_state:TUR = {
 			create_pop = {
 				culture = greek
 				size=33925

@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	D0Q = {
+	c:D0Q = {
 	}
 }

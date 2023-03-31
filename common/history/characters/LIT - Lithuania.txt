@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	LIT = {
+	c:LIT = {
 	}
 }

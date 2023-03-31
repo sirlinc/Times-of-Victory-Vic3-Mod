@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	B37 = {
+	c:B37 = {
 		create_character = {
 			first_name = "tarhoncu_ahmed"
 			last_name = "pasha"

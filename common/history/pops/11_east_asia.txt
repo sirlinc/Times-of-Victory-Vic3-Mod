@@ -116,6 +116,7 @@
 				culture = yi
 				size = 4000
 			}
+		}
 	}
 	s:STATE_GUIZHOU = {
 		region_state:A06 = {
@@ -975,6 +976,7 @@
 				culture = malay
 				size = 6000
 			}
+		}
 	}
 	s:STATE_LAOS = {
 		region_state:A12 = {

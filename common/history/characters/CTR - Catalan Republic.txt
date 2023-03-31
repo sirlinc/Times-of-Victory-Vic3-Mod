@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	CTR = {
+	c:CTR = {
 		create_character = {
 			first_name = "pau"
 			last_name = "claris"

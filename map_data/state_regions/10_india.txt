@@ -113,7 +113,7 @@ STATE_CENTRAL_INDIA = {
     mine = "xBC06E9"
     wood = "x51E979"
     arable_land = 554
-    arable_resources = { "bg_arid_farmland" "bg_marginal_pasture" "bg_coffee_plantations" "bg_cotton_plantations" "bg_opium_plantations" "bg_tea_plantations" }
+    arable_resources = { "bg_temperate_farmland" "bg_marginal_pasture" "bg_coffee_plantations" "bg_cotton_plantations" "bg_opium_plantations" "bg_tea_plantations" }
     capped_resources = {
         bg_logging = 6
     }
@@ -236,7 +236,7 @@ STATE_CEYLON = {
     mine = "xDAB923"
     wood = "xC23350"
     arable_land = 74
-    arable_resources = { "bg_wetlands_farmland" "bg_prime_pasture" "bg_coffee_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" }
+    arable_resources = { "bg_wetlands_farmland" "bg_marginal_pasture" "bg_coffee_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" }
     capped_resources = {
         bg_logging = 11
         bg_fishing = 13

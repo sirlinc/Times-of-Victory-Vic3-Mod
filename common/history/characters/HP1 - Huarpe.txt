@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	HP1 = {
+	c:HP1 = {
 	}
 }

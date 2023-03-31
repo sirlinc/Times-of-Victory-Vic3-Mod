@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	XI5 = {
+	c:XI5 = {
 	}
 }

@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	MOL = {
+	c:MOL = {
 		create_character = {
 			first_name = "vasile"
 			last_name = "lupu"

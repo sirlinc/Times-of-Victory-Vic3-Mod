@@ -27,3 +27,104 @@ popneed_drinks: "Drinks"
 popneed_intoxicants: "Intoxicants"
 popneed_free_movement: "Free Movement"
 popneed_services: "Services"
+
+building_output_horses_add
+building_output_luxury_fabric_add
+building_output_iron_ore_add
+building_output_crude_oil_add
+building_output_fuel_oil_add
+building_output_alloys_add
+building_output_chemicals_add
+building_output_machined_parts_add
+building_output_animal_products_add
+building_output_spices_add
+building_output_telecomms_add
+building_input_horses_add
+building_input_luxury_fabric_add
+building_input_iron_ore_add
+building_input_crude_oil_add
+building_input_fuel_oil_add
+building_input_alloys_add
+building_input_chemicals_add
+building_input_machined_parts_add
+building_input_animal_products_add
+building_input_spices_add
+building_input_telecomms_add
+building_throughput_horses_mult
+building_throughput_luxury_fabric_mult
+building_throughput_iron_ore_mult
+building_throughput_crude_oil_mult
+building_throughput_fuel_oil_mult
+building_throughput_alloys_mult
+building_throughput_chemicals_mult
+building_throughput_machined_parts_mult
+building_throughput_animal_products_mult
+building_throughput_spices_mult
+building_throughput_telecomms_mult
+
+modifier_building_output_horses_add: "@horses! Horses output per level"
+modifier_building_output_horses_add_desc: "The amount of @horses! Horses produced by buildings"
+modifier_building_output_luxury_fabric_add: "@luxury_fabric! Luxury Fabric output per level"
+modifier_building_output_luxury_fabric_add_desc: "The amount of @luxury_fabric! Luxury Fabric produced by buildings"
+modifier_building_output_iron_ore_add: "@iron_ore! Iron Ore output per level"
+modifier_building_output_iron_ore_add_desc: "The amount of @iron_ore! Iron Ore produced by buildings"
+modifier_building_output_crude_oil_add: "@crude_oil! Crude Oil output per level"
+modifier_building_output_crude_oil_add_desc: "The amount of @crude_oil! Crude Oil produced by buildings"
+modifier_building_output_fuel_oil_add: "@fuel_oil! Fuel Oil output per level"
+modifier_building_output_fuel_oil_add_desc: "The amount of @fuel_oil! Fuel Oil produced by buildings"
+modifier_building_output_alloys_add: "@alloys! Alloys output per level"
+modifier_building_output_alloys_add_desc: "The amount of @alloys! Alloys produced by buildings"
+modifier_building_output_chemicals_add: "@chemicals! Chemicals output per level"
+modifier_building_output_chemicals_add_desc: "The amount of @chemicals! Chemicals produced by buildings"
+modifier_building_output_machined_parts_add: "@machined_parts! Machined Parts output per level"
+modifier_building_output_machined_parts_add_desc: "The amount of @machined_parts! Machined Parts produced by buildings"
+modifier_building_output_animal_products_add: "@animal_products! Animal Products output per level"
+modifier_building_output_animal_products_add_desc: "The amount of @animal_products! Animal Products produced by buildings"
+modifier_building_output_spices_add: "@spices! Spices output per level"
+modifier_building_output_spices_add_desc: "The amount of @spices! Spices produced by buildings"
+modifier_building_output_telecomms_add: "@telecomms! Telecomms output per level"
+modifier_building_output_telecomms_add_desc: "The amount of @telecomms! Telecomms produced by buildings"
+modifier_building_input_horses_add: "@horses! Horses input per level"
+modifier_building_input_horses_add_desc: "The amount of @horses! Horses consumed by buildings"
+modifier_building_input_luxury_fabric_add: "@luxury_fabric! Luxury Fabric input per level"
+modifier_building_input_luxury_fabric_add_desc: "The amount of @luxury_fabric! Luxury Fabric consumed by buildings"
+modifier_building_input_iron_ore_add: "@iron_ore! Iron Ore input per level"
+modifier_building_input_iron_ore_add_desc: "The amount of @iron_ore! Iron Ore consumed by buildings"
+modifier_building_input_crude_oil_add: "@crude_oil! Crude oil input per level"
+modifier_building_input_crude_oil_add_desc: "The amount of @crude_oil! Crude oil consumed by buildings"
+modifier_building_input_fuel_oil_add: "@fuel_oil! Fuel oil input per level"
+modifier_building_input_fuel_oil_add_desc: "The amount of @fuel_oil! Fuel oil consumed by buildings"
+modifier_building_input_alloys_add: "@alloys! Alloys input per level"
+modifier_building_input_alloys_add_desc: "The amount of @alloys! Alloys consumed by buildings"
+modifier_building_input_chemicals_add: "@chemicals! Chemicals input per level"
+modifier_building_input_chemicals_add_desc: "The amount of @chemicals! Chemicals consumed by buildings"
+modifier_building_input_machined_parts_add: "@machined_parts! Machined parts input per level"
+modifier_building_input_machined_parts_add_desc: "The amount of @machined_parts! Machined parts consumed by buildings"
+modifier_building_input_animal_products_add: "@animal_products! Animal products input per level"
+modifier_building_input_animal_products_add_desc: "The amount of @animal_products! Animal products consumed by buildings"
+modifier_building_input_spices_add: "@spices! Spices input per level"
+modifier_building_input_spices_add_desc: "The amount of @spices! Spices consumed by buildings"
+modifier_building_input_telecomms_add: "@telecomms! Telecomms input per level"
+modifier_building_input_telecomms_add_desc: "The amount of @telecomms! Telecomms consumed by buildings"
+
+trade_route_import_lens_option_horses_tooltip: "Establish a $horses$ import trade route"
+trade_route_import_lens_option_machined_parts_tooltip: "Establish a $machined_parts$ import trade route"
+trade_route_import_lens_option_chemicals_tooltip: "Establish a $chemicals$ import trade route"
+trade_route_import_lens_option_alloys_tooltip: "Establish an $alloys$ import trade route"
+trade_route_import_lens_option_fuel_oil_tooltip: "Establish a $fuel_oil$ import trade route"
+trade_route_import_lens_option_iron_ore_tooltip: "Establish an $iron_ore$ import trade route"
+trade_route_import_lens_option_animal_products_tooltip: "Establish an $animal_products$ import trade route"
+trade_route_import_lens_option_spices_tooltip: "Establish a $spices$ import trade route"
+trade_route_import_lens_option_telecomms_tooltip: "Establish a $telecomms$ import trade route"
+trade_route_import_lens_option_luxury_fabric_tooltip: "Establish a $luxury_fabric$ import trade route"
+
+trade_route_export_lens_option_horses_tooltip: "Establish a $horses$ export trade route"
+trade_route_export_lens_option_machined_parts_tooltip: "Establish a $machined_parts$ export trade route"
+trade_route_export_lens_option_chemicals_tooltip: "Establish a $chemicals$ export trade route"
+trade_route_export_lens_option_alloys_tooltip: "Establish an $alloys$ export trade route"
+trade_route_export_lens_option_fuel_oil_tooltip: "Establish a $fuel_oil$ export trade route"
+trade_route_export_lens_option_iron_ore_tooltip: "Establish an $iron_ore$ export trade route"
+trade_route_export_lens_option_animal_products_tooltip: "Establish an $animal_products$ export trade route"
+trade_route_export_lens_option_spices_tooltip: "Establish a $spices$ export trade route"
+trade_route_export_lens_option_telecomms_tooltip: "Establish a $telecomms$ export trade route"
+trade_route_export_lens_option_luxury_fabric_tooltip: "Establish a $luxury_fabric$ export trade route"

@@ -8,4 +8,53 @@ building_wetlands_farmland: "Wetlands Farmland"
 building_arid_farmland: "Arid Farmland"
 building_prime_pasture: "Prime Pasture"
 building_marginal_pasture: "Marginal Pasture"
-building_livestock_ranches: "Livestock Ranches"
+building_cultural_center: "Cultural Center"
+building_distilleries: "Distilleries"
+building_kiln_industries: "Kiln Industries"
+building_metalworks: "Metalworks"
+building_engineering_firms: "Engineering Firms"
+building_dyeworks: "Dyeworks"
+building_petroleum_refinery: "Petroleum Refinery"
+building_automotive_firms: "Automotive Firms"
+
+modifier_building_tropical_farmland_throughput_mult: "$building_tropical_farmland$ building [concept_throughput]"
+modifier_building_tropical_farmland_throughput_mult_desc: "A bonus or penalty to both input and output of $building_tropical_farmland$"
+
+modifier_building_wetlands_farmland_throughput_mult: "$building_wetlands_farmland$ building [concept_throughput]"
+modifier_building_wetlands_farmland_throughput_mult_desc: "A bonus or penalty to both input and output of $building_wetlands_farmland$"
+
+modifier_building_arid_farmland_throughput_mult: "$building_arid_farmland$ building [concept_throughput]"
+modifier_building_arid_farmland_throughput_mult_desc: "A bonus or penalty to both input and output of $building_arid_farmland$"
+
+modifier_building_prime_pasture_throughput_mult: "$building_prime_pasture$ building [concept_throughput]"
+modifier_building_prime_pasture_throughput_mult_desc: "A bonus or penalty to both input and output of $building_prime_pasture$"
+
+modifier_building_marginal_pasture_throughput_mult: "$building_marginal_pasture$ building [concept_throughput]"
+modifier_building_marginal_pasture_throughput_mult_desc: "A bonus or penalty to both input and output of $building_marginal_pasture$"
+
+modifier_building_temperate_farmland_throughput_mult: "Temperate Farmland building [concept_throughput]"
+modifier_building_temperate_farmland_throughput_mult_desc: "A bonus or penalty to both input and output of Temperate Farmland"
+
+modifier_building_cultural_center_throughput_mult: "Cultural Center building [concept_throughput]"
+modifier_building_cultural_center_throughput_mult_desc: "A bonus or penalty to both input and output of Cultural Center"
+
+modifier_building_distilleries_throughput_mult: "Distilleries building [concept_throughput]"
+modifier_building_distilleries_throughput_mult_desc: "A bonus or penalty to both input and output of Distilleries"
+
+modifier_building_kiln_industries_throughput_mult: "Kiln Industries building [concept_throughput]"
+modifier_building_kiln_industries_throughput_mult_desc: "A bonus or penalty to both input and output of Kiln Industries"
+
+modifier_building_metalworks_throughput_mult: "Metalworks building [concept_throughput]"
+modifier_building_metalworks_throughput_mult_desc: "A bonus or penalty to both input and output of Metalworks"
+
+modifier_building_engineering_firms_throughput_mult: "Engineering Firms building [concept_throughput]"
+modifier_building_engineering_firms_throughput_mult_desc: "A bonus or penalty to both input and output of Engineering Firms"
+
+modifier_building_dyeworks_throughput_mult: "Dyeworks building [concept_throughput]"
+modifier_building_dyeworks_throughput_mult_desc: "A bonus or penalty to both input and output of Dyeworks"
+
+modifier_building_petroleum_refinery_throughput_mult: "Petroleum Refinery building [concept_throughput]"
+modifier_building_petroleum_refinery_throughput_mult_desc: "A bonus or penalty to both input and output of Petroleum Refinery"
+
+modifier_building_automotive_firms_throughput_mult: "Automotive Firms building [concept_throughput]"
+modifier_building_automotive_firms_throughput_mult_desc: "A bonus or penalty to both input and output of Automotive Firms"

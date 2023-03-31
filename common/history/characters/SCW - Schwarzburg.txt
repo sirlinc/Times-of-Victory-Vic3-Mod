@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	SCW = {
+	c:SCW = {
 		create_character = {
 			first_name = "louis_gunther_ii"
 			last_name = "schwarzburg"

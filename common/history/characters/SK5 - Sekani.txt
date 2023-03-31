@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	SK5 = {
+	c:SK5 = {
 	}
 }

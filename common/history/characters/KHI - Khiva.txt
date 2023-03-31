@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	KHI = {
+	c:KHI = {
 		create_character = {
 			first_name = "abu_al_ghazi"
 			last_name = "Bahadur"

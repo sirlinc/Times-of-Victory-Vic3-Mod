@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	ACE = {
+	c:ACE = {
 		create_character = {
 			first_name = "taj_ul_alam_safiatuddin"
 			last_name = "syah"

@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	PLT = {
+	c:PLT = {
 		create_character = {
 			first_name = "charles_louis"
 			last_name = "wittelsbach"

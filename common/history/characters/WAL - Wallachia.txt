@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	WAL = {
+	c:WAL = {
 		create_character = {
 			first_name = "george"
 			last_name = "ghica"

@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	BAD = {
+	c:BAD = {
 		create_character = {
 			first_name = "hermann_vi"
 			last_name = "baden"

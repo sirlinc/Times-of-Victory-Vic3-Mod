@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	CLE = {
+	c:CLE = {
 		create_character = {
 			first_name = "johann_moritz"
 			last_name = "von_nassau_siegen"

@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	BUR = {
+	c:BUR = {
 		create_character = {
 			first_name = "pindale_min"
 			last_name = "toungoo"

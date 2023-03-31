@@ -830,40 +830,20 @@
 		region_state:PER = {
 			create_pop = {
 				culture = persian
-				size=118267
+				size=128267
 			}
 			create_pop = {
 				culture = bedouin
-				size=19117
+				size=21117
 			}
 			create_pop = {
 				culture = somali
-				size = 8920
+				size = 10920
 				pop_type = slaves
 			}
 			create_pop = {
 				culture = bambara
-				size = 8720
-				pop_type = slaves
-			}
-		}
-		region_state:OMA = {
-			create_pop = {
-				culture = persian
-				size=15668
-			}
-			create_pop = {
-				culture = bedouin
-				size = 9300
-			}
-			create_pop = {
-				culture = somali
-				size = 2000
-				pop_type = slaves
-			}
-			create_pop = {
-				culture = bambara
-				size = 2200
+				size = 10720
 				pop_type = slaves
 			}
 		}
@@ -1371,19 +1351,15 @@
 			}
 			create_pop = {
 				culture = georgian
-				size = 4500
+				size = 9500
 			}
 			create_pop = {
 				culture = kurdish
-				size=8551
+				size=14551
 			}
 			create_pop = {
 				culture = armenian
-				size=17405
-			}
-			create_pop = {
-				culture = greek
-				size=6938
+				size=34405
 			}
 			create_pop = {
 				pop_type = slaves
@@ -1394,20 +1370,6 @@
 				pop_type = slaves
 				culture = georgian
 				size = 1400
-			}
-		}
-		region_state:RUS = {
-			create_pop = {
-				culture = azerbaijani
-				size=8166
-			}
-			create_pop = {
-				culture = kurdish
-				size = 7000
-			}
-			create_pop = {
-				culture = armenian
-				size=6038
 			}
 		}
 	}

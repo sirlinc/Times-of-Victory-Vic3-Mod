@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	UN2 = {
+	c:UN2 = {
 	}
 }

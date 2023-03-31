@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	HUN = {
+	c:HUN = {
 		create_character = {
 			first_name = "ferdinand_IV"
 			last_name = "habsburg"

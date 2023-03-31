@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	BRU = {
+	c:BRU = {
 		create_character = {
 			first_name = "abdul"
 			last_name = "jalilul_akbar"

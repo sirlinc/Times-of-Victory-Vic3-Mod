@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	LUB = {
+	c:LUB = {
 		create_character = {
 			first_name = "john_x"
 			last_name = "oldenburg"

@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	CLB = {
+	c:CLB = {
 		create_character = {
 			first_name = "george_wilhelm"
 			last_name = "von_braunschweig_luneburg"

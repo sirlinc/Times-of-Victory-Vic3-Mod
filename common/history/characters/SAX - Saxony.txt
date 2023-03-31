@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	SAX = {
+	c:SAX = {
 		create_character = {
 			first_name = "john_george_i"
 			last_name = "wettin"

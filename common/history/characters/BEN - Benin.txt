@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	BEN = {
+	c:BEN = {
 		create_character = {
 			first_name = "ohuan"
 			last_name = "of_benin"

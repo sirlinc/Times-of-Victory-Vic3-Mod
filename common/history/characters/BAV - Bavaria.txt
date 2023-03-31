@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	BAV = {
+	c:BAV = {
 		create_character = {
 			first_name = "maximilian_I"
 			last_name = "wittelsbach"

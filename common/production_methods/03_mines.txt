@@ -436,7 +436,7 @@ pm_boring_machines_coal_mine = {
 	pollution_generation = 18
 
 	unlocking_technologies = {
-		oil_turbine
+		turbine_engines
 	}
 	
 	building_modifiers = {

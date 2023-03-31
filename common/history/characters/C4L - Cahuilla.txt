@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	C4L = {
+	c:C4L = {
 	}
 }

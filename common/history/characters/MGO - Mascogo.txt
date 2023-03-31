@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	MGO = {
+	c:MGO = {
 	}
 }

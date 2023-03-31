@@ -129,7 +129,7 @@ law_private_schools = {
 	progressiveness = 25
 	
 	unlocking_technologies = {
-		academies
+		pedagogy
 	}
 
 	disallowing_laws = {
@@ -199,7 +199,7 @@ law_public_schools = {
 	progressiveness = 50
 	
 	unlocking_technologies = {
-		rationalism
+		social_sciences
 	}
 
 	disallowing_laws = {

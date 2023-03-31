@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	SWE = {
+	c:SWE = {
 		create_character = {
 			first_name = "christina"
 			last_name = "vasa"

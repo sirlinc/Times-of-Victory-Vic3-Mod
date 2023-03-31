@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	ST3 = {
+	c:ST3 = {
 	}
 }

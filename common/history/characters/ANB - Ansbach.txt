@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	ANB = {
+	c:ANB = {
 		create_character = {
 			first_name = "albrecht_ii"
 			last_name = "hohenzollern"

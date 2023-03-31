@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	MNF = {
+	c:MNF = {
 		create_character = {
 			first_name = "maria"
 			last_name = "gonzaga"

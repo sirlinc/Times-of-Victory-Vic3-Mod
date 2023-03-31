@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	BRZ = {
+	c:BRZ = {
 		create_character = {
 			first_name = "antonio_teles"
 			last_name = "de_meneses"

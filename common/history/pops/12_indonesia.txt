@@ -437,6 +437,7 @@
 				culture = javan
 				religion = hindu
 				size = 7000
+			}
 		}
 	}
 	s:STATE_CENTRAL_JAVA = {
@@ -460,6 +461,7 @@
 				religion = animist
 				size=5404
 			}
+		}
 	}
 	s:STATE_NORTH_SUMATRA = {
 		region_state:A20 = {
@@ -900,7 +902,7 @@
 				size = 2996
 			}
 		}
-		region_state:A24 = {
+		region_state:A23 = {
 			create_pop = {
 				culture = moluccan
 				size=9987

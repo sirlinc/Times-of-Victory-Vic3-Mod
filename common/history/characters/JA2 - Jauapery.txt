@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	JA2 = {
+	c:JA2 = {
 	}
 }

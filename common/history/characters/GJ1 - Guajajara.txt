@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	GJ1 = {
+	c:GJ1 = {
 	}
 }

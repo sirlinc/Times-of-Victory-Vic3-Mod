@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	BTN = {
+	c:BTN = {
 		create_character = {
 			first_name = "mardan"
 			last_name = "ali"

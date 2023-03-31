@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	KA2 = {
+	c:KA2 = {
 	}
 }

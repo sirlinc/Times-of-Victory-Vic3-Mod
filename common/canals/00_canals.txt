@@ -18,7 +18,7 @@ canal_panama = {
 	texture = "gfx/interface/icons/building_icons/panama_canal.dds"
 
 	possible = {
-		has_technology_researched = portable_power_tools
+		has_technology_researched = engineering_science
 		owns_treaty_port_in = STATE_PANAMA
 
 		custom_tooltip = {

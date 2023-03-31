@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	WSH = {
+	c:WSH = {
 	}
 }

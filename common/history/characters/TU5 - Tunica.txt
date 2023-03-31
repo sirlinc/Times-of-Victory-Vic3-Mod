@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	TU5 = {
+	c:TU5 = {
 	}
 }

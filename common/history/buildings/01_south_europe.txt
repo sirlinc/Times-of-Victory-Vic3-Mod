@@ -108,7 +108,7 @@
 			}	
 			create_building={
 				building="building_fishing_wharf"
-				level=2
+				level=1
 				reserves=1
 			}			
 			create_building={
@@ -444,7 +444,7 @@
 			}		
 			create_building={
 				building="building_fishing_wharf"
-				level=2
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -805,11 +805,6 @@
 				building="building_textile_mills"
 				level=3
 				reserves=1
-			}
-			create_building={
-				building="building_tobacco_plantation"
-				level=2
-				reserves=1
 			}			
 			create_building={
 				building="building_iron_mine"
@@ -876,7 +871,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=2
 				reserves=1
 			}
@@ -927,11 +922,6 @@
 				building="building_fishing_wharf"
 				level=2
 				reserves=1
-			}
-			create_building={
-				building="building_tobacco_plantation"
-				level=1
-				reserves=1
 			}			
 			create_building={
 				building="building_port"
@@ -958,11 +948,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_tobacco_plantation"
-				level=5
-				reserves=1
-			}
-			create_building={
 				building="building_sugar_plantation"
 				level=2
 				reserves=1
@@ -984,11 +969,6 @@
 			create_building={
 				building="building_wetlands_farmland"
 				level=4
-				reserves=1
-			}
-			create_building={
-				building="building_tobacco_plantation"
-				level=3
 				reserves=1
 			}			
 			create_building={
@@ -1023,12 +1003,7 @@
 				building="building_paper_mills"
 				level=2
 				reserves=1
-			}			
-			create_building={
-				building="building_tobacco_plantation"
-				level=1
-				reserves=1
-			}			
+			}					
 			create_building={
 				building="building_prime_pasture"
 				level=1
@@ -1045,12 +1020,7 @@
 				building="building_textile_mills"
 				level=3
 				reserves=1
-			}
-			create_building={
-				building="building_tobacco_plantation"
-				level=2
-				reserves=1
-			}			
+			}		
 			create_building={
 				building="building_silk_plantation"
 				level=2
@@ -1630,7 +1600,7 @@
 		}
 	}
 	s:STATE_WEST_AEGEAN_ISLANDS={
-		region_state:GRE={
+		region_state:TUR={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -1685,13 +1655,8 @@
 				reserves=1
 			}
 			create_building={
-				building="building_tobacco_plantation"
-				level=4
-				reserves=1
-			}
-			create_building={
 				building="building_temperate_farmland"
-				level=1
+				level=2
 				reserves=1
 			}
 			create_building={
@@ -1749,11 +1714,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_tobacco_plantation"
-				level=3
-				reserves=1
-			}
-			create_building={
 				building="building_barracks"
 				level=10
 				reserves=1
@@ -1766,12 +1726,7 @@
 		}
 	}
 	s:STATE_IONIAN_ISLANDS={
-		region_state:ION={
-			create_building={
-				building="building_temperate_farmland"
-				level=1
-				reserves=1
-			}
+		region_state:VEN={
 			create_building={
 				building="building_fishing_wharf"
 				level=1

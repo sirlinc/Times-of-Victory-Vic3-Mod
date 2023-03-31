@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	BHU = {
+	c:BHU = {
 		create_character = {
 			first_name = "ngawang_namgyal"
 			last_name = "rinpoche"

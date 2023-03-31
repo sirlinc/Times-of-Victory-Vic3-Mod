@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	FUL = {
+	c:FUL = {
 	}
 }

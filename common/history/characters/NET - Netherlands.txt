@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	NET = {
+	c:NET = {
 		create_character = {
 			first_name = "willem_II"
 			last_name = "orange"

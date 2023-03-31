@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	C1K = {
+	c:C1K = {
 	}
 }

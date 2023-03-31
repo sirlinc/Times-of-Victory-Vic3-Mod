@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	EFR = {
+	c:EFR = {
 		create_character = {
 			first_name = "enno_louis"
 			last_name = "cirksena"

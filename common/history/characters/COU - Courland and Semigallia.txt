@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	COU = {
+	c:COU = {
 		create_character = {
 			first_name = "jacob"
 			last_name = "kettler"

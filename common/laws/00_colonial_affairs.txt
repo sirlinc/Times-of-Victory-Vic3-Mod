@@ -44,7 +44,7 @@ law_colonial_resettlement = {
 	progressiveness = 25
 
 	unlocking_technologies = {
-		colonization
+		natural_law
 	}
 	
 	modifier = {
@@ -69,7 +69,7 @@ law_colonial_exploitation = {
 	progressiveness = -25
 
 	unlocking_technologies = {
-		colonization
+		natural_law
 	}
 	
 	modifier = {

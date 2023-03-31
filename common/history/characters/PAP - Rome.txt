@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	PAP = {
+	c:PAP = {
 		create_character = {
 			first_name = "innocent_x"
 			last_name = "bishop_of_rome"

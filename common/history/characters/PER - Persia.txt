@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	PER = {
+	c:PER = {
 		create_character = {
 			first_name = "abbas_ii"
 			last_name = "safavid"

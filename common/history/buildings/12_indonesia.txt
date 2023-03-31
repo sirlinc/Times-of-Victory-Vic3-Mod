@@ -348,6 +348,11 @@
 				reserves=1
 			}
 			create_building={
+				building="building_tropical_farmland"
+				level=2
+				reserves=1
+			}
+			create_building={
 				building="building_sugar_plantation"
 				level=1
 				reserves=1
@@ -434,7 +439,7 @@
 	s:STATE_ACEH={
 		region_state:ACE={
 			create_building={
-				building="building_wetlands_farmland"
+				building="building_tropical_farmland"
 				level=1
 				reserves=1
 			}
@@ -604,7 +609,7 @@
 	s:STATE_MINDANAO={
 		region_state:PHI={
 			create_building={
-				building="building_wetlands_farmland"
+				building="building_tropical_farmland"
 				level=1
 				reserves=1
 			}
@@ -628,7 +633,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_wetlands_farmland"
+				building="building_tropical_farmland"
 				level=1
 				reserves=1
 			}

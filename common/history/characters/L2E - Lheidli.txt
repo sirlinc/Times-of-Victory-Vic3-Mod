@@ -1,4 +1,4 @@
 ﻿CHARACTERS = {
-	L2E = {
+	c:L2E = {
 	}
 }

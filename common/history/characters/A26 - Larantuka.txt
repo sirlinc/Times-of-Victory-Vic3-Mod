@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	A26 = {
+	c:A26 = {
 		create_character = {
 			first_name = "ola"
 			last_name = "adobala"

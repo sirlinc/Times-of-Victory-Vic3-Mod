@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	TRS = {
+	c:TRS = {
 		create_character = {
 			first_name = "george_II"
 			last_name = "rakoczi"

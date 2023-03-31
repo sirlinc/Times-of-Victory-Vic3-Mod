@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	PRK = {
+	c:PRK = {
 		create_character = {
 			first_name = "muzaffar"
 			last_name = "shah_ii"

@@ -45,12 +45,7 @@
 				building="building_sugar_plantation"
 				level=4
 				reserves=1
-			}
-			create_building={
-				building="building_tobacco_plantation"
-				level=8
-				reserves=1
-			}			
+			}		
 			create_building={
 				building="building_cotton_plantation"
 				level=8
@@ -123,11 +118,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_tobacco_plantation"
-				level=3
-				reserves=1
-			}
-			create_building={
 				building="building_barracks"
 				level=20
 				reserves=1
@@ -181,7 +171,6 @@
 				level=3
 				reserves=1
 			}
-		}
 			create_building={
 				building="building_port"
 				level=1

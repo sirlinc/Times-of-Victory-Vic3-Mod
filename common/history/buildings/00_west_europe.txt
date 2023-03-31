@@ -1025,22 +1025,17 @@
 			}
 			create_building={
 				building="building_textile_mills"
-				level=7
+				level=3
 				reserves=1
 			}
 			create_building={
 				building="building_paper_mills"
-				level=6
+				level=3
 				reserves=1
 			}
 			create_building={
 				building="building_logging_camp"
-				level=4
-				reserves=1
-			}
-			create_building={
-				building="building_coal_mine"
-				level=4
+				level=2
 				reserves=1
 			}
 			create_building={
@@ -1073,11 +1068,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_munition_plants"
-				level=5
-				reserves=1
-			}
-			create_building={
 				building="building_temperate_farmland"
 				level=3
 				reserves=1
@@ -1101,7 +1091,6 @@
 	}
 	s:STATE_PICARDY={
 		region_state:SPA={
-	
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -1389,7 +1378,6 @@
 			}
 		}
 		region_state:LOR={
-	
 			create_building={
 				building="building_furniture_manufacturies"
 				level=2
@@ -1447,11 +1435,6 @@
 		region_state:FRA={
 			create_building={
 				building="building_government_administration"
-				level=3
-				reserves=1
-			}
-			create_building={
-				building="building_food_industry"
 				level=3
 				reserves=1
 			}
@@ -1638,6 +1621,7 @@
 				level=1
 				reserves=1
 			}
+		}
 	}
 	s:STATE_WALLONIA={
 		region_state:LUX={
@@ -1704,7 +1688,7 @@
 		}
 	}
 	s:STATE_FLANDERS={
-		region_state:BEL={
+		region_state:SPA={
 			create_building={
 				building="building_construction_sector"
 				level=1
@@ -1732,12 +1716,12 @@
 			}
 			create_building={
 				building="building_furniture_manufacturies"
-				level=2
+				level=1
 				reserves=1
 			}
 			create_building={
 				building="building_logging_camp"
-				level=4
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -1755,6 +1739,13 @@
 				level=3
 				reserves=1
 			}
+		}
+		region_state:LIE={
+			create_building={
+				building="building_temperate_farmland"
+				level=2
+				reserves=1
+			}	
 		}
 	}
 	s:STATE_AUSTRIA={
@@ -1848,11 +1839,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_food_industry"
-				level=3
-				reserves=1
-			}
-			create_building={
 				building="building_logging_camp"
 				level=3
 				reserves=1
@@ -1865,11 +1851,6 @@
 			create_building={
 				building="building_barracks"
 				level=10
-				reserves=1
-			}
-			create_building={
-				building="building_coal_mine"
-				level=2
 				reserves=1
 			}
 		}
@@ -1912,7 +1893,7 @@
 			}
 			create_building={
 				building="building_gold_mine"
-				level=2
+				level=1
 				reserves=1
 			}			
 		}
@@ -2016,8 +1997,6 @@
 				level=1
 				reserves=1
 			}			
-		}
-		region_state:HAM={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=2
@@ -2240,7 +2219,6 @@
 	}
 	s:STATE_RHINELAND={
 		region_state:PLT={
-		
 			create_building={
 				building="building_tooling_workshops"
 				level=1
@@ -2730,8 +2708,6 @@
 				reserves=1
 			}
 		}
-		region_state:PRU={
-		}
 	}
 	s:STATE_BAVARIA={
 		region_state:BAV={
@@ -2817,7 +2793,7 @@
 		}
 	}
 	s:STATE_FRANCONIA={
-		region_state:WUR={
+		region_state:WRB={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -2851,8 +2827,8 @@
 				reserves=1
 			}
 			create_building={
-				building="building_prime_pasture"
-				level=1
+				building="building_temperate_farmland"
+				level=3
 				reserves=1
 			}
 			create_building={
@@ -2888,7 +2864,7 @@
 				reserves=1
 			}
 		}
-		region_state:WUR={
+		region_state:NUR={
 			create_building={
 				building="building_prime_pasture"
 				level=1
@@ -2921,11 +2897,6 @@
 			create_building={
 				building="building_glassworks"
 				level=5
-				reserves=1
-			}
-			create_building={
-				building="building_coal_mine"
-				level=3
 				reserves=1
 			}
 			create_building={
@@ -2976,11 +2947,6 @@
 				building="building_prime_pasture"
 				level=1
 				reserves=1
-			}
-			create_building={
-				building="building_coal_mine"
-				level=1
-				reserves=1
 			}			
 			create_building={
 				building="building_barracks"
@@ -3019,7 +2985,7 @@
 		}			
 	}
 	s:STATE_HESSE={
-		region_state:FRM={
+		region_state:HEK={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -3043,7 +3009,7 @@
 				reserves=1
 			}			
 		}
-		region_state:HEK={
+		region_state:FRM={
 			create_building={
 				building="building_temperate_farmland"
 				level=1
@@ -3053,7 +3019,7 @@
 				building="building_prime_pasture"
 				level=1
 				reserves=1
-			}			}
+			}
 			create_building={
 				building="building_logging_camp"
 				level=1

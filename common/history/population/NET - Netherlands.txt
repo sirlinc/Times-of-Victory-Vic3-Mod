@@ -1,6 +1,6 @@
-POPULATION = {
-	c:NET = {
-		effect_starting_pop_wealth_advanced = yes
-		effect_starting_pop_literacy_advanced = yes
-	}
+﻿POPULATION = {
+    c:NET = {
+        effect_starting_pop_wealth_advanced = yes
+        effect_starting_pop_literacy_advanced = yes
+    }
 }
