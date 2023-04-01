@@ -945,6 +945,185 @@ ideology_jingoist_leader = {
 	}
 }
 
+ideology_enlightened_despot = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_royalist.dds"
+	
+	character_ideology = yes
+	
+	lawgroup_distribution_of_power = {
+		law_autocracy = strongly_approve
+		law_landed_voting = approve
+		law_oligarchy = neutral
+		law_wealth_voting = disapprove
+		law_census_voting = strongly_disapprove
+		law_universal_suffrage = strongly_disapprove
+		law_anarchy = strongly_disapprove
+	}
+	
+	lawgroup_governance_principles = {
+		law_monarchy = strongly_approve
+		law_theocracy = approve			
+		law_presidential_republic = neutral
+		law_parliamentary_republic = neutral
+		law_council_republic = strongly_disapprove
+	}
+	
+	lawgroup_education_system = {
+		law_private_schools = approve
+		law_public_schools = approve
+		law_religious_schools = neutral
+		law_no_schools = disapprove
+	}
+	
+	lawgroup_health_system = {
+		law_private_health_insurance = approve
+		law_public_health_insurance = approve
+		law_charitable_health_system = neutral
+		law_no_health_system = disapprove
+	}
+	
+	lawgroup_church_and_state = {
+		law_state_religion = disapprove
+		law_tolerance = approve
+		law_freedom_of_conscience = neutral
+		law_total_separation = disapprove
+	}
+	
+	lawgroup_labor_rights = {
+		law_serfdom_banned = approve
+		law_serfdom = disapprove
+		law_regulatory_bodies = disapprove
+		law_worker_protections = strongly_disapprove
+	}		
+	
+	lawgroup_free_speech = {
+		law_protected_speech = strongly_approve
+		law_right_of_assembly = approve
+		law_censorship = neutral
+		law_outlawed_dissent = disapprove
+	}
+
+	possible = {
+		owner = { has_technology_researched = classical_liberalism }
+		# no monarchists in countries with strong republican tradition
+		owner = {
+			NOR = {
+				any_interest_group = {
+					has_ideology = ideology_republican_paternalistic
+				}
+				has_variable = monarchy_stamped_out_var
+			}
+		}
+		scope:interest_group = { 
+			is_interest_group_type = ig_nobility
+		}
+		scope:interest_group = {
+			NOR = {
+				has_variable = communist_ig_var
+				has_variable = chose_vanguardism
+				has_variable = chose_fascism
+				has_variable = chose_conservatism
+				has_variable = chose_ethno_nationalism
+			}
+		}
+	}
+	
+	leader_weight = {
+		value = 100
+		# less likely in a theocracy
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_theocracy
+				}
+			}
+			add = -100
+		}
+		# less likely if IG is happy in a republic
+		if = {
+			limit = {
+				owner = {
+					NOT = { has_law = law_type:law_monarchy }
+				}
+				scope:interest_group = {
+					ig_approval > 0
+				}
+			}
+			add = -100
+		}
+		# more likely if IG is happy in a monarchy
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_monarchy
+				}
+				scope:interest_group = {
+					ig_approval > 5
+				}
+			}
+			add = 15
+		}
+		# more likely if IG is in a constitutional monarchy
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_monarchy
+					has_law = law_type:law_oligarchy
+				}
+			}
+			add = 10
+		}
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_monarchy
+					has_law = law_type:law_elder_council
+				}
+			}
+			add = 15
+		}
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_monarchy
+					has_law = law_type:law_landed_voting
+				}
+			}
+			add = 25
+		}
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_monarchy
+					has_law = law_type:law_wealth_voting
+				}
+			}
+			add = 50
+		}
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_monarchy
+					has_law = law_type:law_census_voting
+				}
+			}
+			add = 75
+		}
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_monarchy
+					OR = { 
+						has_law = law_type:law_universal_suffrage
+						has_law = law_type:law_anarchy
+					}
+				}
+			}
+			add = 100
+		}
+	}
+}
+
 ideology_royalist = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_royalist.dds"
 	

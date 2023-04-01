@@ -340,12 +340,12 @@ types music_player_types
 
 			### This is the default category button. If you want to have a texture/background image, you need to make a new button like the ones below with blockeroverrides and make sure to add the Not('your category name') into this big visible statement for the default button
 			music_category_button = {
-				visible = "[And( And( Not(ObjectsEqual('Times_of_Victory_Soundtrack', MusicPlayer.GetCategoryNameLocKey( MusicPlayerCategory.Self ))), Not(ObjectsEqual('Victoria_3_Soundtrack', MusicPlayer.GetCategoryNameLocKey( MusicPlayerCategory.Self ))), Not(ObjectsEqual('Victoria_3_Preorder', MusicPlayer.GetCategoryNameLocKey( MusicPlayerCategory.Self )))), Not(ObjectsEqual('Melodies_for_the_Masses', MusicPlayer.GetCategoryNameLocKey( MusicPlayerCategory.Self ))))]"
+				visible = "[And( And( Not(ObjectsEqual('ToV_Soundtrack', MusicPlayer.GetCategoryNameLocKey( MusicPlayerCategory.Self ))), Not(ObjectsEqual('Victoria_3_Soundtrack', MusicPlayer.GetCategoryNameLocKey( MusicPlayerCategory.Self ))), Not(ObjectsEqual('Victoria_3_Preorder', MusicPlayer.GetCategoryNameLocKey( MusicPlayerCategory.Self )))), Not(ObjectsEqual('Melodies_for_the_Masses', MusicPlayer.GetCategoryNameLocKey( MusicPlayerCategory.Self ))))]"
 			}
 			
 			### TIMES OF VICTORY SOUNDTRACK
 			music_category_button = {
-				visible = "[ObjectsEqual('Times_of_Vicotry_Soundtrack', MusicPlayer.GetCategoryNameLocKey( MusicPlayerCategory.Self ))]"
+				visible = "[ObjectsEqual('ToV_Soundtrack', MusicPlayer.GetCategoryNameLocKey( MusicPlayerCategory.Self ))]"
 
 				blockoverride "button_texture" {
 					texture = "gfx/interface/illustrations/music_player/tov_soundtrack.dds"

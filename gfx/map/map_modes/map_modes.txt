@@ -85,7 +85,7 @@ mm_default = {
 	map_painting_mode = countries
 	map_painting_mode_alternate = colonizable_provinces
 	map_names = countries
-	map_markers = { battle_marker construction_marker construction_queue_marker event_marker front_marker city_marker input_shortage_marker state_effect_marker sea_node_marker colony_marker sea_infra_marker }
+	map_markers = { commander_order_marker hq_marker battle_marker construction_marker construction_queue_marker event_marker front_marker city_marker input_shortage_marker state_effect_marker sea_node_marker colony_marker sea_infra_marker }
 	map_tooltip_offset = state
 
 	is_visible = yes
@@ -109,7 +109,7 @@ mm_ongoing_diplo_play = {
 mm_strategic_region = {
 	map_painting_mode = strategic_regions
 	map_names = strategic_regions
-	map_markers = { construction_marker construction_queue_marker event_marker sea_node_marker strategic_region_marker diplomatic_play_marker }
+	map_markers = { construction_marker event_marker sea_node_marker strategic_region_marker diplomatic_play_marker }
 	map_tooltip_offset = strategic_region
 
 	is_visible = yes
