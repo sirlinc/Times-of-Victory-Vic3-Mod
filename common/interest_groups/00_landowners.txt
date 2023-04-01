@@ -6,7 +6,7 @@
 		ideology_paternalistic
 		ideology_moralist
 		ideology_patriarchal
-		ideology_plutocrat
+		ideology_oligarchism
 	}
 	
 	enable = {

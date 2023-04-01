@@ -1,5 +1,5 @@
-﻿ideology_plutocrat = {
-	icon = "gfx/interface/icons/ideology_icons/plutocrat.dds"
+﻿ideology_oligarchism = {
+	icon = "gfx/interface/icons/ideology_icons/oligarchism.dds"
 	
 	lawgroup_bureaucracy = {
 		law_hereditary_bureaucrats = approve
