@@ -725,6 +725,7 @@ STATE_NORTHERN_TRANSYLVANIA = {
     arable_resources = { "bg_temperate_farmland" "bg_marginal_pasture" }
     capped_resources = {
         bg_coal_mining = 48
+        bg_kaolin_mining = 6
         bg_iron_mining = 63
         bg_logging = 13
     }

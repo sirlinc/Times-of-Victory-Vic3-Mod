@@ -1,4 +1,198 @@
-﻿#pmg_commerce_urban - Services
+﻿#pmg_fuel_power_plant
+
+pm_coal_power_plant = {
+	texture = "gfx/interface/icons/production_method_icons/power_plant.dds"
+	pollution_generation = 30
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			building_input_coal_add = 30
+			building_output_electricity_add = 40
+		}
+
+		level_scaled = {
+		}
+	}
+}
+
+pm_fuel_oil_power_plant = {
+	texture = "gfx/interface/icons/production_method_icons/power_plant.dds"
+	pollution_generation = 60
+	
+	unlocking_technologies = {
+		steam_turbine
+	}				
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			building_input_fuel_oil_add = 40
+			building_output_electricity_add = 60
+		}
+
+		level_scaled = {
+		}
+	}
+}
+
+pm_pumped_storage_power_plant = {
+	texture = "gfx/interface/icons/production_method_icons/power_plant.dds"
+	pollution_generation = 65
+	
+	unlocking_technologies = {
+		hydroelectric_dams	
+	}
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			building_input_fuel_oil_add = 40
+			building_input_tools_add = 20
+			building_output_electricity_add = 90
+		}
+
+		level_scaled = {
+		}
+	}
+}
+
+#pmg_power_generation_power_plant
+
+
+pm_reciprocating_steam_engines_power_plant = {
+	texture = "gfx/interface/icons/production_method_icons/power_plant.dds"
+	pollution_generation = 30
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			building_input_engines_add = 10
+			building_output_electricity_add = 40
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 2500
+			building_employment_machinists_add = 1800
+			building_employment_engineers_add = 1200
+		}
+	}
+}
+
+pm_steam_turbines_power_plant = {
+	texture = "gfx/interface/icons/production_method_icons/power_plant.dds"
+	pollution_generation = 45
+	
+	unlocking_technologies = {
+		steam_turbine
+	}				
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			building_input_engines_add = 15
+			building_output_electricity_add = 60
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1400
+		}
+	}
+}
+
+pm_francis_turbines_power_plant = {
+	texture = "gfx/interface/icons/production_method_icons/power_plant.dds"
+	pollution_generation = 65
+	
+	unlocking_technologies = {
+		oil_turbine
+	}
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			building_input_engines_add = 20
+			building_output_electricity_add = 90
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1400
+		}
+	}
+}
+	
+
+#pmg_ownership_power_plant
+
+pm_private_ownership_power_plant = {
+	texture = "gfx/interface/icons/production_method_icons/oil_magnates.dds"
+	
+	disallowing_laws = {
+		law_command_economy
+		law_council_republic
+	}
+
+	unlocking_technologies = {
+		mutual_funds
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_capitalists_add = 150
+		}
+		unscaled = {
+			building_capitalists_shares_add = 5
+		}
+	}
+}
+
+pm_public_private_partnership_power_plant = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+	
+	disallowing_laws = {
+		law_laissez_faire
+		law_command_economy
+	}
+
+	unlocking_technologies = {
+		monetary_policy
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_capitalists_add = 75
+			building_employment_bureaucrats_add = 75
+		}
+		unscaled = {
+			building_capitalists_shares_add = 3
+			building_bureaucrats_shares_add = 1
+			building_engineers_shares_add = 1
+		}
+	}
+}
+
+pm_nationalized_plants_power_plant = {
+	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
+	
+	disallowing_laws = {
+		law_laissez_faire
+	}
+
+	unlocking_technologies = {
+		central_planning
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_bureaucrats_add = 150
+		}
+		unscaled = {
+			building_bureaucrats_shares_add = 1
+			building_engineers_shares_add = 1
+			building_government_shares_add = 1
+		}
+	}
+}
+
+#pmg_commerce_urban - Services
 
 pm_travelling_fairs = {
 	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
@@ -20,7 +214,7 @@ pm_travelling_fairs = {
 			building_laborers_shares_add = 2
 		}
 	}
-}		
+}	
 
 pm_market_squares = {
 	texture = "gfx/interface/icons/production_method_icons/market_squares.dds"
@@ -605,92 +799,6 @@ pm_independent_artists = {
 		unscaled = {
 			building_academics_shares_add = 5
 			building_clerks_shares_add = 2
-		}
-	}
-}
-
-pm_hydroelectric_plant = {
-	texture = "gfx/interface/icons/production_method_icons/power_plant.dds"
-	pollution_generation = 10
-	
-	building_modifiers = { 
-		workforce_scaled = {
-			building_input_engines_add = 10
-			building_output_electricity_add = 50
-		}
-
-		level_scaled = {
-			building_employment_laborers_add = 2500
-			building_employment_machinists_add = 1800
-			building_employment_engineers_add = 1200
-		}
-	}
-}
-
-pm_coal-fired_plant = {
-	texture = "gfx/interface/icons/production_method_icons/power_plant.dds"
-	pollution_generation = 50
-	
-	unlocking_technologies = {
-		steam_turbine
-	}				
-	
-	building_modifiers = { 
-		workforce_scaled = {
-			building_input_engines_add = 15
-			building_input_coal_add = 30
-			building_output_electricity_add = 100
-		}
-
-		level_scaled = {
-			building_employment_laborers_add = 2000
-			building_employment_machinists_add = 1500
-			building_employment_engineers_add = 1400
-		}
-	}
-}
-
-pm_oil-fired_plant = {
-	texture = "gfx/interface/icons/production_method_icons/power_plant.dds"
-	pollution_generation = 75
-	
-	unlocking_technologies = {
-		oil_turbine
-	}
-	
-	building_modifiers = { 
-		workforce_scaled = {
-			building_input_engines_add = 20
-			building_input_oil_add = 40
-			building_output_electricity_add = 150
-		}
-
-		level_scaled = {
-			building_employment_laborers_add = 2000
-			building_employment_machinists_add = 1500
-			building_employment_engineers_add = 1400
-		}
-	}
-}
-
-pm_publicly_traded_building_power_plant = {
-	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
-	
-	disallowing_laws = {
-		law_command_economy
-		law_council_republic
-	}
-
-	unlocking_technologies = {
-		mutual_funds
-	}
-
-	building_modifiers = {
-		level_scaled = {
-			building_employment_capitalists_add = 150
-		}
-		unscaled = {
-			building_capitalists_shares_add = 5
 		}
 	}
 }

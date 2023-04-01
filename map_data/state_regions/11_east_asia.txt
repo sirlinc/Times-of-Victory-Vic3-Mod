@@ -78,6 +78,7 @@ STATE_GUIZHOU = {
     arable_resources = { "bg_wetlands_farmland" "bg_marginal_pasture" "bg_opium_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
     capped_resources = {
         bg_coal_mining = 32
+        bg_kaolin_mining = 20
         bg_logging = 26
     }
 }
@@ -112,7 +113,7 @@ STATE_ALXA = {
     mine = "x9E1C8F"
     wood = "x53E07B"
     arable_land = 42
-    arable_resources = { "bg_arid_farmland" }
+    arable_resources = { "bg_marginal_pasture" }
     capped_resources = {
         bg_coal_mining = 32
     }
@@ -149,6 +150,7 @@ STATE_GUANGXI = {
     arable_resources = { "bg_wetlands_farmland" "bg_prime_pasture" "bg_silk_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
     capped_resources = {
         bg_logging = 9
+        bg_kaolin_mining = 27
     }
 }
 
@@ -201,7 +203,7 @@ STATE_OUTER_MANCHURIA = {
     mine = "x5BD04E"
     wood = "xB7CA59"
     arable_land = 96
-    arable_resources = { "bg_arid_farmland" }
+    arable_resources = { "bg_marginal_pasture" }
     capped_resources = {
         bg_coal_mining = 32
         bg_iron_mining = 45
@@ -392,6 +394,7 @@ STATE_FUJIAN = {
     capped_resources = {
         bg_logging = 16
         bg_fishing = 10
+        bg_kaolin_mining = 11
     }
     naval_exit_id = 3056
 }
@@ -500,6 +503,7 @@ STATE_JIANGXI = {
     arable_land = 1462
     arable_resources = { "bg_wetlands_farmland" "bg_prime_pasture" "bg_cotton_plantations" "bg_silk_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
     capped_resources = {
+        bg_kaolin_mining = 60
         bg_coal_mining = 52
         bg_logging = 15
     }
@@ -741,6 +745,7 @@ STATE_TONKIN = {
     capped_resources = {
         bg_coal_mining = 32
         bg_logging = 15
+        bg_kaolin_mining = 10
         bg_fishing = 7
     }
     resource = {
@@ -813,6 +818,7 @@ STATE_LAOS = {
         bg_coal_mining = 32
         bg_iron_mining = 36
         bg_logging = 23
+        bg_kaolin_mining = 5
     }
 }
 
@@ -851,6 +857,7 @@ STATE_NAKHON_RATCHASIMA = {
     arable_resources = { "bg_wetlands_farmland" "bg_prime_pasture" "bg_cotton_plantations" "bg_silk_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" }
     capped_resources = {
         bg_logging = 25
+        bg_kaolin_mining = 8
     }
     resource = {
         type = "bg_rubber"
@@ -1114,6 +1121,7 @@ STATE_KYUSHU = {
         bg_lead_mining = 36
         bg_sulfur_mining = 40
         bg_fishing = 18
+        bg_kaolin_mining = 9
     }
     naval_exit_id = 3059
 }
@@ -1271,6 +1279,7 @@ STATE_PYONGYANG = {
         bg_coal_mining = 60
         bg_iron_mining = 36
         bg_lead_mining = 36
+        bg_kaolin_mining = 11
         bg_logging = 15
         bg_fishing = 8
     }

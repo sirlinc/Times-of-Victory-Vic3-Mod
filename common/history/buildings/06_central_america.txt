@@ -111,7 +111,7 @@
 	s:STATE_SANTO_DOMINGO={
 		region_state:SPA={
 			create_building={
-				building="building_tropical_farmland"
+				building="building_wetlands_farmland"
 				level=1
 				reserves=1
 			}
@@ -193,7 +193,7 @@
 	s:STATE_CUBA={
 		region_state:SPA={
 			create_building={
-				building="building_tropical_farmland"
+				building="building_wetlands_farmland"
 				level=2
 				reserves=1
 			}

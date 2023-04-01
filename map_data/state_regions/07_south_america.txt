@@ -38,7 +38,9 @@ STATE_GUAYANA = {
     arable_resources = { "bg_wetlands_farmland" "bg_prime_pasture" "bg_coffee_plantations" "bg_sugar_plantations" }
     capped_resources = {
         bg_logging = 11
+        bg_kaolin_mining = 5
         bg_fishing = 6
+        
     }
     resource = {
         type = "bg_gold_fields"
@@ -803,6 +805,7 @@ STATE_PARA = {
     arable_resources = { "bg_wetlands_farmland" "bg_prime_pasture" "bg_cotton_plantations" "bg_tobacco_plantations" }
     capped_resources = {
         bg_logging = 9
+        bg_kaolin_mining = 14
         bg_fishing = 3
     }
     resource = {
@@ -854,6 +857,7 @@ STATE_AMAZONAS = {
     arable_resources = { "bg_wetlands_farmland" "bg_prime_pasture" "bg_coffee_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" }
     capped_resources = {
         bg_logging = 16
+        bg_kaolin_mining = 21
     }
     resource = {
         type = "bg_rubber"
@@ -920,6 +924,7 @@ STATE_MATO_GROSSO = {
     arable_resources = { "bg_tropical_farmland" "bg_prime_pasture" "bg_cotton_plantations" }
     capped_resources = {
         bg_logging = 29
+        bg_kaolin_mining = 17
     }
     resource = {
         type = "bg_rubber"
@@ -945,6 +950,7 @@ STATE_RIO_GRANDE_DO_SUL = {
     arable_resources = { "bg_temperate_farmland" "bg_marginal_pasture" "bg_coffee_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" }
     capped_resources = {
         bg_coal_mining = 28
+        bg_kaolin_mining = 5
         bg_logging = 11
         bg_fishing = 6
     }

@@ -63,4 +63,7 @@
 	building_sulfur_mine = {
 		"african_colonial_manufactory_01_mesh"
 	}
+	building_kaolin_mine  = {
+		"african_mining_processing_01_mesh"
+	}
 }

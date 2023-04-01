@@ -155,6 +155,31 @@ pmg_blasting_gold_mine = {
 	}
 }
 
+#Kaolin Mine
+pmg_kaolin_extraction = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_picks_and_shovels_kaolin_mine
+		pm_stamp_mills_kaolin_mine
+		pm_hydraulic_mining_kaolin_mine
+		pm_centrifugation_kaolin_mine
+		pm_open_pit_mining_kaolin_mine
+	}
+}
+
+pmg_kaolin_kilns = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_crossdraft_kilns_kaolin_mine
+		pm_shuttle_kilns_kaolin_mine
+		pm_gas_fired_kilns_kaolin_mine
+		pm_hoffmann_kilns_kaolin_mine
+	}
+}
+
+
+
+
 #Vanilla
 
 pmg_base_coal_building_gold_fields = {

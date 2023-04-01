@@ -282,7 +282,7 @@ pm_industrial_conglomerate_construction = {
 	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
 
 	unlocking_technologies = {
-		mutual_funds
+		vertical_integration
 	}
 
 	disallowing_laws = {

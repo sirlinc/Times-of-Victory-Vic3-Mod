@@ -4,8 +4,8 @@
 		building_modifiers = {
 
 			workforce_scaled = {
-				building_output_grain_add = 0.8
-				building_output_fabric_add = 0.15
+				building_output_grain_add = 1
+				building_output_fabric_add = 0.3
 			}
 
 			level_scaled = {
@@ -26,7 +26,7 @@
 
 			workforce_scaled = {
 				building_group_bg_agriculture_throughput_mult = 0.01
-				state_bureaucracy_population_base_cost_factor_mult = -0.005
+				state_bureaucracy_population_base_cost_factor_mult = -0.05
 			}
 		}
 	}
@@ -38,8 +38,8 @@ default_building_subsistence_orchards = {
 		building_modifiers = {
 
 			workforce_scaled = {
-				building_output_grain_add = 0.8
-				building_output_fabric_add = 0.15
+				building_output_grain_add = 1
+				building_output_fabric_add = 0.3
 			}
 
 			level_scaled = {
@@ -60,7 +60,7 @@ default_building_subsistence_orchards = {
 
 			workforce_scaled = {
 				building_group_bg_agriculture_throughput_mult = 0.01
-				state_bureaucracy_population_base_cost_factor_mult = -0.005
+				state_bureaucracy_population_base_cost_factor_mult = -0.05
 			}
 		}
 	}
@@ -72,8 +72,8 @@ default_building_subsistence_pastures = {
 		building_modifiers = {
 
 			workforce_scaled = {
-				building_output_meat_add = 0.8
-				building_output_fabric_add = 0.15
+				building_output_meat_add = 1
+				building_output_fabric_add = 0.3
 			}
 
 			level_scaled = {
@@ -94,7 +94,7 @@ default_building_subsistence_pastures = {
 
 			workforce_scaled = {
 				building_group_bg_agriculture_throughput_mult = 0.01
-				state_bureaucracy_population_base_cost_factor_mult = -0.005
+				state_bureaucracy_population_base_cost_factor_mult = -0.05
 			}
 		}
 	}

@@ -42,6 +42,15 @@ default_city = {
 		rotation = 0.0
 	}
 	
+	building_cultural_center = {"european_city_art_academy_01_mesh"}
+	building_engineering_firms = {"war_machines_manufactory_01_mesh"}
+	building_oil_refineries = {"glassworks_manufactory_01_mesh"}
+	building_automotive_firms = {"war_machines_manufactory_01_mesh"}
+	building_armories = {"colonial_manufactory_03_mesh"}
+	building_munitions_arsenal = {"colonial_manufactory_03_mesh"}
+	building_couture_industries = {"tools_manufactory_01_mesh"}
+	building_smelteries = {"generic_manufactory_01_mesh"}
+
 	building_construction_sector = {"generic_manufactory_03_mesh"}
 	building_food_industry = {"generic_manufactory_01_mesh"}
 	building_textile_mills = {"tools_manufactory_01_mesh"}

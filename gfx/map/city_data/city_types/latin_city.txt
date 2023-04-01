@@ -40,6 +40,15 @@
 		rotation = 0.0
 	}
 	
+	building_cultural_center = {"latin_urban_city_academy_01_mesh"}
+	building_engineering_firms = {"war_machines_manufactory_01_mesh"}
+	building_oil_refineries = {"latin_glassworks_manufactory_01_mesh"}
+	building_automotive_firms = {"war_machines_manufactory_01_mesh"}
+	building_armories = {"latin_colonial_manufactory_03_mesh"}
+	building_munitions_arsenal = {"latin_colonial_manufactory_03_mesh"}
+	building_couture_industries = {"latin_tools_manufactory_01_mesh"}
+	building_smelteries = {"latin_manufactory_01_mesh"}
+
 	building_construction_sector = {"latin_manufactory_03_mesh"}
 	building_food_industry = {"latin_manufactory_01_mesh"}
 	building_textile_mills = {"latin_tools_manufactory_01_mesh"}

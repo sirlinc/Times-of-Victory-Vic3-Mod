@@ -323,8 +323,6 @@ pm_blackpowder_gold_mine: "Blackpowder"
 pm_nitroglycerin_gold_mine: "Nitroglycerin"
 pm_dynamite_gold_mine: "Dynamite"
 
-#Oil Derrick
-
 #Construction Sector
 
 pmg_building_methods_construction: "Building Methods"
@@ -481,3 +479,306 @@ pm_camphorated_opium_opium: "Camphorated Opium"
 pm_morphine_extraction_opium: "Morphine Extraction"
 pm_codeine_isolation_opium: "Codeine Isolation"
 pm_heroin_synthesis_opium: "Heroin Synthesis"
+
+#Power Plant
+pmg_fuel_power_plant: "Fuel Source"
+pm_coal_power_plant: "Coal"
+pm_fuel_oil_power_plant: "Fuel Oil"
+pm_pumped_storage_power_plant: "Pumped Storage"
+
+pmg_power_generation_power_plant: "Electricity Generation"
+pm_reciprocating_steam_engines_power_plant: "Reciprocating Steam Engines"
+pm_steam_turbines_power_plant: "Steam Turbines"
+pm_francis_turbines_power_plant: "Francis Turbines"
+
+pmg_infrastructure_power_plant: "Electrical Infrastructure"
+production_methods: "Production Methods"
+pm_dc_power_stations_power_plant: "DC Power Stations"
+pm_high_voltage_ac_grids_power_plant: "High-Voltage AC Grids"
+pm_regional_power_grids_power_plant: "Regional Power Grids"
+
+pmg_ownership_power_plant: "Ownership"
+pm_private_ownership_power_plant: "Private Ownership"
+pm_public_private_partnership_power_plant: "Public-Private Partnership"
+pm_nationalized_plants_power_plant: "Nationalized Plants"
+
+#Kaolin Mine
+
+pmg_kaolin_extraction: "Kaolin Extraction"
+pm_picks_and_shovels_kaolin_mine: "Picks and Shovels"
+pm_stamp_mills_kaolin_mine: "Stamp Mills"
+pm_hydraulic_mining_kaolin_mine: "Hydraulic Mining"
+pm_centrifugation_kaolin_mine: "Centrifugation"
+pm_open_pit_mining_kaolin_mine: "Open-Pit Mining"
+
+pmg_kaolin_kilns: "Kaolin Kilns"
+pm_crossdraft_kilns_kaolin_mine: "Crossdraft Kilns"
+pm_shuttle_kilns_kaolin_mine: "Shuttle Kilns"
+pm_gas_fired_kilns_kaolin_mine: "Gas Fired Kilns"
+pm_hoffmann_kilns_kaolin_mine: "Hoffmann Kilns"
+
+#Base Industry
+
+pmg_motive_power: "Motive Power"
+pm_manual_labour: "Manual Labour"
+pm_draft_animals: "Draft Animals"
+pm_rotating_mills: "Rotating Mills"
+
+pmg_industrial_motive_power: "Industrial Motive Power"
+pm_steam_engines: "Steam Engines"
+pm_rotary_valve_engine: "Rotary Valve Engine"
+pm_petrol_engines: "Petrol Engines"
+pm_electronic_process_control: "Electronic Process Control"
+
+pmg_pre_industrial_organization: "Pre-Industrial Organization"
+pm_decentralized_industry: "Decentralized Industry"
+pm_aristocratic_control: "Aristocratic Control"
+pm_guild_monopolies: "Guild Monopolies"
+
+pmg_industrial_organization: "Industrial Organization"
+pm_state_owned_enterprise: "State-Owned Enterprise"
+pm_military_industrial_complex: "Military-Industrial Complex"
+pm_workers_cooperative: "Workers' Cooperative"
+pm_small_and_medium_enterprises: "Small and Medium Enterprises"
+pm_industrial_conglomerate: "Industrial Conglomerate"
+
+#Glassworks
+
+pmg_kilns: "Kilns"
+pm_crossdraft_kilns: "Crossdraft Kilns"
+pm_shuttle_kilns: "Shuttle Kilns"
+pm_gas_fired_kilns: "Gas-Fired Kilns"
+pm_hoffmann_kilns: "Hoffmann Kilns"
+
+pmg_glassworks: "Glassworks"
+pm_forest_glass: "Forest Glass"
+pm_lead_crystal_glass: "Lead Crystal Glass"
+pm_polished_plate_glass: "Polished Plate Glass"
+pm_cylinder_sheet_glass: "Cylinder Sheet Glass"
+pm_borosilicate_glass: "Borosilicate Glass"
+
+#Smelteries
+
+pmg_ironworks: "Ironworks"
+pm_bloomery: "Bloomery"
+pm_blast_furnace: "Blast Furnace"
+pm_rolling_mill: "Rolling Mill"
+pm_potting_and_stamping: "Potting and Stamping"
+pm_puddling_process: "Puddling Process"
+pm_electric_arc_furnace: "Electric Arc Furnace"
+
+pmg_steelworks: "Steelworks"
+pm_no_steel: "No Steel"
+pm_crucible_steel: "Crucible Steel"
+pm_bessemer_process: "Bessemer Process"
+pm_open_hearth_furnace: "Open-Hearth Furnace"
+pm_electric_arc_furnace: "Electric Arc Furnace"
+
+pmg_alloys: "Alloys"
+pm_no_alloys: "No Alloys"
+pm_pewter_alloys: "Pewter Alloys"
+pm_brass_alloys: "Brass Alloys"
+pm_soldering_alloys: "Soldering Alloys"
+pm_aluminium_alloys: "Aluminium Alloys"
+
+#Food Industries
+
+pmg_baking: "Baking"
+pm_comfits: "Comfits"
+pm_baking_powder: "Baking Powder"
+pm_commercial_yeast: "Commercial Yeast"
+pm_solid_chocolate: "Solid Chocolate"
+
+pmg_liquor_distillation: "Liquor Distillation"
+pm_grain_fermentation: "Grain Fermentation"
+pm_brew_kettles: "Brew Kettles"
+pm_pot_stills: "Pot Stills"
+pm_column_stills: "Column Stills"
+pm_chromium_vessels: "Chromium Vessels"
+
+pmg_opium_tinctures: "Opium Tinctures"
+pm_no_tinctures: "No Tinctures"
+pm_laudanum: "Laudanum"
+
+pmg_canning: "Canning"
+pm_no_canning: "No Canning"
+pm_glass_jars: "Glass Jars"
+pm_metal_cans: "Metal Cans"
+pm_vacuum_sealed_cans: "Vacuum-Sealed Cans"
+pm_freeze_dried_food: "Freeze-Dried Food"
+
+pmg_kitchen_appliances: "Kitchen Appliances"
+pm_basic_appliances: "Basic Appliances"
+pm_oven_thermometers: "Oven Thermometers"
+pm_gas_stoves: "Gas Stoves"
+pm_electric_mixers: "Electric Mixers"
+pm_dishwashers: "Dishwashers"
+
+#Couture Industries
+
+pmg_dyeworks: "Dyeworks"
+pm_organic_dyes: "Organic Dyes"
+pm_sulfate_mordants: "Sulfate Mordants"
+pm_chromium_mordants: "Chromium Mordants"
+pm_aniline_dyes: "Aniline Dyes"
+pm_azo_dyes: "Azo Dyes"
+
+pmg_luxury_clothes: "Luxury Clothes"
+pm_no_luxury_clothes: "No Luxury Clothes"
+pm_artisanal_weavers: "Artisanal Weavers"
+pm_couture_fabrics: "Couture Fabrics"
+pm_black_and_white_tie: "Black and White Tie"
+pm_sportswear: "Sportswear"
+
+pmg_waterproof_clothing: "Waterproof Clothing"
+pm_no_waterproof_clothing: "No Waterproof Clothing"
+pm_raincoats: "Raincoats"
+pm_trenchcoats: "Trenchcoats"
+
+#Textile Mills
+
+pmg_clothes: "Clothes"
+pm_treadle_looms: "Treadle Looms"
+pm_flying_shuttles: "Flying Shuttles"
+pm_spinning_jenny: "Spinning Jenny"
+pm_jacquard_heads: "Jacquard Heads"
+pm_sewing_machines: "Sewing Machines"
+pm_automatic_power_looms: "Automatic Power Looms"
+
+#Furniture Factories
+
+pmg_furniture: "Furniture"
+pm_handcarved_furniture: "Handcarved Furniture"
+pm_woodturning_lathes: "Woodturning Lathes"
+pm_veneering_machines: "Veneering Machines"
+pm_plywood: "Plywood"
+pm_precision_joinery: "Precision Joinery"
+
+pmg_luxury_furniture: "Luxury Furniture"
+pm_no_luxury_furniture: "No Luxury Furniture"
+pm_marquetry: "Marquetry"
+pm_upholstering: "Upholstering"
+pm_electroplated_metals: "Electroplated Metals"
+
+#Tooling Workshops
+
+pmg_tools: "Tools"
+pm_non_metal_tools: "Non-Metal Tools"
+pm_wrought_iron_tools: "Wrought Iron Tools"
+pm_case_hardened_tools: "Case Hardened Tools"
+pm_crucible_steel_tools: "Crucible Steel Tools"
+pm_chromium_steel_tools: "Chromium Steel Tools"
+pm_tungsten_carbide_tools: "Tungsten Carbide Tools"
+
+pmg_machined_parts: "Machined Parts"
+pm_no_machined_parts: "No Machined Parts"
+pm_turret_lathe: "Turret Lathe"
+pm_steel_milling_machines: "Steel Milling Machines"
+pm_drill_press: "Drill Press"
+pm_molded_polymers: "Molded Polymers"
+
+#Paper Mills
+
+pmg_papermaking: "Papermaking"
+pm_handmade_paper: "Handmade Paper"
+pm_pulping_mills: "Pulping Mills"
+pm_fourdrinier_machine: "Fourdrinier Machine"
+pm_rotary_press: "Rotary Press"
+pm_chemical_pulping: "Chemical Pulping"
+
+pmg_pulp_material: "Pulp Material"
+pm_rag_paper: "Rag Paper"
+pm_wood_pulp_paper: "Wood Pulp Paper"
+pm_acidic_paper: "Acidic Paper"
+
+#Chemical Industries
+
+pmg_chemicals: "Chemicals"
+pm_soda_ash: "Soda Ash"
+pm_iron_sulfate_process: "Iron Sulfate Process"
+pm_leblanc_process: "Leblanc Process"
+pm_solvay_process: "Solvay Process"
+pm_castner_kellner_process: "Castner-Kellner Process"
+
+pmg_fertilizer: "Fertilizer"
+pm_no_fertilizer: "No Fertilizer"
+pm_gypsum_fertilizer: "Gypsum Fertilizer"
+pm_ammonia_fertilizer: "Ammonia Fertilizer"
+pm_birkeland_eyde_process: "Birkeland-Eyde Process"
+pm_haber_bosch_process: "Haber-Bosch Process"
+
+#Synthetics Plant
+
+pmg_composite_porcelain: "Composite Porcelain"
+pm_hard_paste_porcelain: "Hard Paste Porcelain"
+pm_soft_paste_porcelain: "Soft Paste Porcelain"
+pm_bone_china: "Bone China"
+
+pmg_synthetic_fibers: "Synthetic Fibers"
+pm_no_synthetic_fibers: "No Synthetic Fibers"
+pm_art_silk: "Art Silk"
+pm_rayon: "Rayon"
+
+pmg_synthetic_polymers: "Synthetic Polymers"
+pm_no_synthetic_polymers: "No Synthetic Polymers"
+pm_isoprene_production: "Isoprene Production"
+pm_bakelite_production: "Bakelite Production"
+
+#Engineering Firms
+
+pmg_engines: "Engines"
+pm_piston_engine: "Piston Engine"
+pm_spark_ignition_engine: "Spark Ignition Engine"
+pm_diesel_engine: "Diesel Engine"
+pm_v8_engine: "V8 Engine"
+
+pmg_telecomms: "Telecommunications"
+pm_no_telecomms: "No Telecommunications"
+pm_telegraph: "Telegraph"
+pm_telephone: "Telephone"
+pm_radio: "Radio"
+
+pmg_ironclads: "Ironclads"
+pm_no_ironclads: "No Ironclads"
+pm_revolving_gun_turrets: "Revolving Gun Turrets"
+pm_streamlined_hulls: "Streamlined Hulls"
+pm_sloped_armor: "Sloped Armor"
+
+#Oil Refineries
+
+pmg_oil_cracking: "Oil Cracking"
+pm_thermal_cracking: "Thermal Cracking"
+pm_continuous_distillation: "Continuous Distillation"
+pm_catalytic_cracking: "Catalytic Cracking"
+pm_hydrocracking: "Hydrocracking"
+
+pmg_petrochemicals: "Petrochemicals"
+pm_no_petrochemicals: "No Petrochemicals"
+pm_naphtha_extraction: "Naphtha Extraction"
+pm_phenol_extraction: "Phenol Extraction"
+pm_ethylene_production: "Ethylene Production"
+pm_polymerization: "Polymerization"
+
+#Automotive Firms
+
+pmg_automobiles: "Automobiles"
+pm_motorwagon: "Motorwagon"
+pm_phaeton_carriage: "Phaeton Carriage"
+pm_touring_car: "Touring Car"
+
+pmg_tyres: "Tyres"
+pm_metal_tires: "Metal Tires"
+pm_solid_rubber_tyres: "Solid Rubber Tyres"
+pm_pneumatic_tyres: "Pneumatic Tyres"
+
+pmg_tanks: "Tanks"
+pm_no_tanks: "No Tanks"
+pm_landships: "Landships"
+pm_turreted_tanks: "Turreted Tanks"
+pm_sloped_armor: "Sloped Armor"
+
+pmg_aeroplanes: "Aeroplanes"
+pm_no_aeroplanes: "No Aeroplanes"
+pm_biplanes: "Biplanes"
+pm_monoplanes: "Monoplanes"
+pm_all_metal_aircraft: "All-Metal Aircraft"

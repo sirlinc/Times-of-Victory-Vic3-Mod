@@ -268,6 +268,7 @@ fractional_distillation = {
 	
 	unlocking_technologies = {
 		agricultural_refining
+		adhesives
 	}
 }
 
@@ -363,7 +364,6 @@ pot_stills = {
 	
 	unlocking_technologies = {
 		polished_plate_glass
-		adhesives
 		fractional_distillation
 	}
 }
@@ -636,7 +636,7 @@ industrial_lubricants = {
 	category = production
 	
 	unlocking_technologies = {	
-		watertube_boiler
+		continuous_process
 	}
 }
 
@@ -742,7 +742,7 @@ vacuum_sealing = {
 	texture = "gfx/interface/icons/invention_icons/vacuum_canning.dds"
 	category = production
 	
-	unlocking_technologies = {	
+	unlocking_technologies = {		
 		chemical_solvents
 	}
 }
@@ -839,8 +839,9 @@ chemical_isolation = {
 	category = production
 	
 	unlocking_technologies = {	
-		reinforced_concrete
+		chemical_fertilizer
 		vacuum_sealing
+
 	}
 }
 

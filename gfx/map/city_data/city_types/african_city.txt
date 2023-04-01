@@ -40,6 +40,16 @@
 		rotation = 0.0
 	}
 	
+	building_cultural_center = {"african_urban_city_academy_01_mesh"}
+	building_engineering_firms = {"war_machines_manufactory_01_mesh"}
+	building_oil_refineries = {"african_glassworks_manufactory_01_mesh"}
+	building_automotive_firms = {"war_machines_manufactory_01_mesh"}
+	building_armories = {"african_colonial_manufactory_03_mesh"}
+	building_munitions_arsenal = {"african_colonial_manufactory_03_mesh"}
+	building_couture_industries = {"african_tools_manufactory_01_mesh"}
+	building_smelteries = {"african_manufactory_01_mesh"}
+
+
 	building_construction_sector = {"african_manufactory_03_mesh"}
 	building_food_industry = {"african_manufactory_01_mesh"}
 	building_textile_mills = {"african_tools_manufactory_01_mesh"}

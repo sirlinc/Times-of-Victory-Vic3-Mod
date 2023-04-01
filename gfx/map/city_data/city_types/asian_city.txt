@@ -39,7 +39,16 @@
 		position = 0.0
 		rotation = 0.0
 	}
-	
+
+	building_cultural_center = {"asian_urban_city_academy_01_mesh"}
+	building_engineering_firms = {"war_machines_manufactory_01_mesh"}
+	building_oil_refineries = {"asian_glassworks_manufactory_01_mesh"}
+	building_automotive_firms = {"war_machines_manufactory_01_mesh"}
+	building_armories = {"asian_colonial_manufactory_03_mesh"}
+	building_munitions_arsenal = {"asian_colonial_manufactory_03_mesh"}
+	building_couture_industries = {"asian_tools_manufactory_01_mesh"}
+	building_smelteries = {"asian_manufactory_01_mesh"}
+
 	building_construction_sector = {"asian_manufactory_03_mesh"}
 	building_food_industry = {"asian_manufactory_01_mesh"}
 	building_textile_mills = {"asian_tools_manufactory_01_mesh"}

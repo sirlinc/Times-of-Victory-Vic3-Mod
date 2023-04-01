@@ -14,6 +14,7 @@
         bg_lead_mining = 24
         bg_logging = 17
         bg_fishing = 10
+        bg_kaolin_mining = 8
     }
     resource = {
         type = "bg_rubber"
@@ -39,6 +40,7 @@ STATE_NORTH_BORNEO = {
         bg_iron_mining = 24
         bg_sulfur_mining = 36
         bg_logging = 20
+        bg_kaolin_mining = 14
         bg_fishing = 8
     }
     resource = {
@@ -206,6 +208,7 @@ STATE_NORTH_SUMATRA = {
         bg_sulfur_mining = 48
         bg_logging = 29
         bg_fishing = 13
+        bg_kaolin_mining = 10
     }
     resource = {
         type = "bg_rubber"
@@ -277,6 +280,7 @@ STATE_WESTERN_NEW_GUINEA = {
     capped_resources = {
         bg_iron_mining = 18
         bg_logging = 20
+        bg_kaolin_mining = 14
         bg_fishing = 9
     }
     resource = {

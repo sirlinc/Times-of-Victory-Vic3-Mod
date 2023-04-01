@@ -12,6 +12,7 @@
     arable_resources = { "bg_tropical_farmland" "bg_prime_pasture" "bg_coffee_plantations" "bg_cotton_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" }
     capped_resources = {
         bg_logging = 14
+        bg_kaolin_mining = 6
         bg_fishing = 5
     }
     resource = {
@@ -36,6 +37,7 @@ STATE_WINDWARD_COAST = {
     capped_resources = {
         bg_iron_mining = 24
         bg_logging = 15
+        bg_kaolin_mining = 13
         bg_fishing = 6
     }
     resource = {
@@ -150,6 +152,7 @@ STATE_LIBERIA = {
     arable_resources = { "bg_tropical_farmland" "bg_prime_pasture" "bg_coffee_plantations" "bg_cotton_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" }
     capped_resources = {
         bg_iron_mining = 33
+        bg_kaolin_mining = 14
         bg_logging = 11
         bg_fishing = 7
     }
@@ -195,6 +198,7 @@ STATE_BENIN = {
     capped_resources = {
         bg_coal_mining = 48
         bg_iron_mining = 36
+        bg_kaolin_mining = 21
         bg_logging = 9
         bg_fishing = 3
     }
@@ -243,6 +247,7 @@ STATE_NIGER_DELTA = {
     capped_resources = {
         bg_logging = 11
         bg_fishing = 10
+        bg_kaolin_mining = 6
     }
     resource = {
         type = "bg_rubber"
@@ -674,6 +679,7 @@ STATE_NORTH_MADAGASCAR = {
         bg_logging = 20
         bg_whaling = 6
         bg_fishing = 10
+        bg_kaolin_mining = 9
     }
     resource = {
         type = "bg_rubber"
@@ -793,6 +799,7 @@ STATE_SOUTH_CAMEROON = {
     arable_resources = { "bg_tropical_farmland" "bg_marginal_pasture" "bg_coffee_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_sugar_plantations" }
     capped_resources = {
         bg_logging = 11
+        bg_kaolin_mining = 11
         bg_fishing = 7
     }
     resource = {
@@ -815,6 +822,7 @@ STATE_UBANGI_SHARI = {
     arable_resources = { "bg_tropical_farmland" "bg_marginal_pasture" "bg_coffee_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_sugar_plantations" }
     capped_resources = {
         bg_coal_mining = 48
+        bg_kaolin_mining = 6
         bg_logging = 13
     }
     resource = {
@@ -838,6 +846,7 @@ STATE_CONGO = {
     capped_resources = {
         bg_coal_mining = 48
         bg_logging = 17
+        bg_kaolin_mining = 11
         bg_fishing = 4
     }
     resource = {
@@ -861,6 +870,7 @@ STATE_CONGO_ORIENTALE = {
     arable_resources = { "bg_tropical_farmland" "bg_marginal_pasture" "bg_coffee_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_sugar_plantations" }
     capped_resources = {
         bg_coal_mining = 44
+        bg_kaolin_mining = 14
         bg_logging = 17
     }
     resource = {
@@ -929,6 +939,7 @@ STATE_EQUATEUR = {
     arable_resources = { "bg_tropical_farmland" "bg_marginal_pasture" "bg_coffee_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_sugar_plantations" }
     capped_resources = {
         bg_logging = 14
+        bg_kaolin_mining = 6
     }
     resource = {
         type = "bg_rubber"
@@ -1018,6 +1029,7 @@ STATE_KATANGA = {
     arable_resources = { "bg_tropical_farmland" "bg_marginal_pasture" "bg_coffee_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_sugar_plantations" }
     capped_resources = {
         bg_iron_mining = 27
+        bg_kaolin_mining = 17
         bg_logging = 18
     }
     resource = {
