@@ -16,7 +16,7 @@
 	traits = {
 		ig_trait_noblesse_oblige #ig_trait_loyal_lands
 		ig_trait_family_ties #ig_trait_pertinent_desire
-		ig_trait_noble_privileges #ig_trait_disgruntled_landowners
+		ig_trait_dissident_ranches
 	}
 	
 	on_enable = {}

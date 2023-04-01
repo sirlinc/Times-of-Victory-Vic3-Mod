@@ -15,7 +15,9 @@
 	}
 	
 	traits = {
-
+		ig_trait_majestic_loyalty
+		ig_trait_elite_ties
+		ig_trait_noble_privileges
 	}
 	
 	on_enable = {}
