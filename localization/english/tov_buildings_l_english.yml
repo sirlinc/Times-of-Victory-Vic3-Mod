@@ -70,17 +70,12 @@ building_kaolin_mine: "Kaolin Mine"
 modifier_building_kaolin_mine_throughput_mult: "$building_kaolin_mine$ building [concept_throughput]"
 modifier_building_kaolin_mine_throughput_mult_desc: "A bonus or penalty to both input and output of $building_kaolin_mine$"
 
-# Couture Industries
-building_couture_industries: "Couture Industries"
-modifier_building_couture_industries_throughput_mult: "$building_couture_industries$ building [concept_throughput]"
-modifier_building_couture_industries_throughput_mult_desc: "A bonus or penalty to both input and output of $building_couture_industries$"
+# Ironworks
+building_ironworks: "Ironworks"
+modifier_building_ironworks_throughput_mult: "$building_ironworks$ building [concept_throughput]"
+modifier_building_ironworks_throughput_mult_desc: "A bonus or penalty to both input and output of $building_ironworks$"
 
-# Smelteries
-building_smelteries: "Smelteries"
-modifier_building_smelteries_throughput_mult: "$building_smelteries$ building [concept_throughput]"
-modifier_building_smelteries_throughput_mult_desc: "A bonus or penalty to both input and output of $building_smelteries$"
-
-# Glassworks
-building_glassworks: "Glassworks"
-modifier_building_glassworks_throughput_mult: "$building_glassworks$ building [concept_throughput]"
-modifier_building_glassworks_throughput_mult_desc: "A bonus or penalty to both input and output of $building_glassworks$"
+# Alloy Smelters
+building_alloy_smelters: "Alloy Smelters"
+modifier_building_alloy_smelters_throughput_mult: "$building_alloy_smelters$ building [concept_throughput]"
+modifier_building_alloy_smelters_throughput_mult_desc: "A bonus or penalty to both input and output of $building_alloy_smelters$"

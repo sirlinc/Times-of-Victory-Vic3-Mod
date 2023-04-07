@@ -1,77 +1,92 @@
-﻿pmg_commerce_urban = {
+﻿pmg_print_culture = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	production_methods = {
+		pm_woodblock_printing
+		pm_pamphlets
+		pm_daily_newspapers
+		pm_paperback_novels
+		pm_journalistic_media
+		pm_radio_dramas
+	}
+}
+
+pmg_performed_culture = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	production_methods = {
+		pm_traditional_art
+		pm_piano_compositions
+		pm_symphony_orchestras
+		pm_deguerrotypes
+		pm_motion_pictures
+		pm_theatre_realism
+	}
+}
+
+pmg_patronage = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	ai_selection = most_productive
+	production_methods = {
+		pm_traditional_patrons
+		pm_religious_institutions
+		pm_captains_of_industry
+		pm_state_mouthpiece
+		pm_military_media_interface
+		pm_workers_unions
+		pm_independent_art_movements
+	}
+}
+
+pmg_ideological_focus = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	ai_selection = most_productive
+	production_methods = {
+		pm_apolitical
+		pm_traditionalism
+		pm_jingoism
+		pm_liberalism
+		pm_nationalism
+		pm_radicalism
+	}
+}
+
+pmg_utilities = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	production_methods = {
+		pm_drainage_ditches
+		pm_public_wells
+		pm_kerosene_steet_lamps
+		pm_sewerage_systems
+		pm_electric_steet_lamps
+		pm_utility_poles
+	}
+}
+
+pmg_roadways = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	production_methods = {
+		pm_dirt_trails
+		pm_trackways
+		pm_paved_roads
+		pm_macadam_roads
+		pm_tarmacadam_roads
+		pm_motorways
+	}
+}
+
+pmg_commerce = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 	production_methods = {
 		pm_travelling_fairs
 		pm_market_squares
-		pm_storefronts
+		pm_banks
 		pm_arcades
+		pm_stock_exchanges
 		pm_department_stores
-	}
-}
-
-pmg_media_urban = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
-	ai_selection = most_productive
-	production_methods = {
-		pm_town_criers
-		pm_printed_pamphlets
-		pm_daily_periodicals
-		pm_journalistic_media
-	}
-}
-
-pmg_public_transport = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
-	production_methods = {
-		pm_no_public_transport
-		pm_public_trams
-		pm_public_motor_carriages
-	}
-}
-
-pmg_urban_clergy = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_state_urban_clergy
-		pm_free_urban_clergy
-	}
-}
-
-pmg_base_building_arts_academy = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	ai_selection = most_productive
-
-	production_methods = {
-		pm_traditional_art
-		pm_baroque_architecture
-		pm_romanticist_literature
-		pm_realist_paintings
-		pm_art_nouveau_design
-	}
-}
-
-pmg_performance_arts_academy = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	ai_selection = most_productive
-
-	production_methods = {
-		pm_traditional_performance
-		pm_coffee_houses
-		pm_operatic_theatre
-		pm_symphony_orchestra
-		pm_cinematography
-	}
-}
-
-pmg_ownership_building_arts_academy = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_traditional_patronage
-		pm_religious_patronage
-		pm_bourgeoisie_patronage
-		pm_military_patronage
-		pm_independent_artists
 	}
 }
 

@@ -71,7 +71,7 @@ pmg_glassworks = {
 	}
 }
 
-#Smelteries
+#Ironworks
 
 pmg_ironworks = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
@@ -85,11 +85,24 @@ pmg_ironworks = {
 	}
 }
 
+pmg_slag_byproducts = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_resmelting
+		pm_iron_mordants
+		pm_ferrous_fertilizers
+		pm_mineral_wool
+		pm_slag_glass
+	}
+}
+
+#Alloy Smelters
+
 pmg_steelworks = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_no_steel
 		pm_crucible_steel
+		pm_blister_steel
 		pm_bessemer_process
 		pm_open_hearth_furnace
 		pm_electric_arc_furnace
@@ -104,6 +117,31 @@ pmg_alloys = {
 		pm_brass_alloys
 		pm_soldering_alloys
 		pm_aluminium_alloys
+	}
+}
+
+#Tooling Workshops
+
+pmg_tools = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_non_metal_tools
+		pm_wrought_iron_tools
+		pm_case_hardened_tools
+		pm_turret_lathe
+		pm_powered_milling_machines
+		pm_cam_driven_machines
+	}
+}
+
+pmg_machined_parts = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_machined_parts
+		pm_crucible_steel_parts
+		pm_chromium_steel_parts
+		pm_tungsten_carbide_parts
+		pm_molded_polymers
 	}
 }
 
@@ -161,39 +199,6 @@ pmg_kitchen_appliances = {
 	}
 }
 
-#Couture Industries
-
-pmg_dyeworks = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_organic_dyes
-		pm_sulfate_mordants
-		pm_chromium_mordants
-		pm_aniline_dyes
-		pm_azo_dyes
-	}
-}
-
-pmg_luxury_clothes = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_no_luxury_clothes
-		pm_artisanal_weavers
-		pm_couture_fabrics
-		pm_black_and_white_tie
-		pm_sportswear
-	}
-}
-
-pmg_waterproof_clothing = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_no_waterproof_clothing
-		pm_raincoats
-		pm_trenchcoats
-	}
-}
-
 #Textile Mills
 
 pmg_clothes = {
@@ -205,6 +210,17 @@ pmg_clothes = {
 		pm_jacquard_heads
 		pm_sewing_machines
 		pm_automatic_power_looms
+	}
+}
+
+pmg_luxury_clothes = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_luxury_clothes
+		pm_artisanal_weavers
+		pm_couture_fabrics
+		pm_black_and_white_tie
+		pm_sportswear
 	}
 }
 
@@ -228,31 +244,6 @@ pmg_luxury_furniture = {
 		pm_marquetry
 		pm_upholstering
 		pm_electroplated_metals
-	}
-}
-
-#Tooling Workshops
-
-pmg_tools = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_non_metal_tools
-		pm_wrought_iron_tools
-		pm_case_hardened_tools
-		pm_crucible_steel_tools
-		pm_chromium_steel_tools
-		pm_tungsten_carbide_tools
-	}
-}
-
-pmg_machined_parts = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_no_machined_parts
-		pm_turret_lathe
-		pm_steel_milling_machines
-		pm_drill_press
-		pm_molded_polymers
 	}
 }
 
@@ -280,11 +271,22 @@ pmg_pulp_material = {
 
 #Chemical Industries
 
+pmg_dyeworks = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_organic_dyes
+		pm_sulfate_mordants
+		pm_chromium_mordants
+		pm_aniline_dyes
+		pm_azo_dyes
+	}
+}
+
 pmg_chemicals = {
     texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
     production_methods = {
+        pm_no_chemicals
         pm_soda_ash
-        pm_iron_sulfate_process
         pm_leblanc_process
         pm_solvay_process
         pm_castner_kellner_process
@@ -311,6 +313,15 @@ pmg_composite_porcelain = {
         pm_soft_paste_porcelain
         pm_bone_china
     }
+}
+
+pmg_waterproof_clothing = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_waterproof_clothing
+		pm_raincoats
+		pm_trenchcoats
+	}
 }
 
 pmg_synthetic_fibers = {
@@ -363,6 +374,29 @@ pmg_ironclads = {
     }
 }
 
+#Oil Refineries
+
+pmg_oil_cracking = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_thermal_cracking
+        pm_continuous_distillation
+        pm_catalytic_cracking
+        pm_hydrocracking
+    }
+}
+
+pmg_petrochemicals = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+		pm_no_petrochemicals
+        pm_naphtha_extraction
+        pm_phenol_extraction
+        pm_ethylene_production
+        pm_polymerization
+    }
+}
+
 #Automotive Firms
        
 pmg_automobiles = {
@@ -401,29 +435,6 @@ pmg_aeroplanes = {
 		pm_monoplanes
 		pm_all_metal_aircraft
 	}
-}
-
-#Oil Refineries
-
-pmg_oil_cracking = {
-    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-    production_methods = {
-        pm_thermal_cracking
-        pm_continuous_distillation
-        pm_catalytic_cracking
-        pm_hydrocracking
-    }
-}
-
-pmg_petrochemicals = {
-    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-    production_methods = {
-		pm_no_petrochemicals
-        pm_naphtha_extraction
-        pm_phenol_extraction
-        pm_ethylene_production
-        pm_polymerization
-    }
 }
 
 

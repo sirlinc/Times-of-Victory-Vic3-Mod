@@ -48,8 +48,8 @@ default_city = {
 	building_automotive_firms = {"war_machines_manufactory_01_mesh"}
 	building_armories = {"colonial_manufactory_03_mesh"}
 	building_munitions_arsenal = {"colonial_manufactory_03_mesh"}
-	building_couture_industries = {"tools_manufactory_01_mesh"}
-	building_smelteries = {"generic_manufactory_01_mesh"}
+	building_alloy_smelters = {"tools_manufactory_01_mesh"}
+	building_ironworks = {"generic_manufactory_01_mesh"}
 
 	building_construction_sector = {"generic_manufactory_03_mesh"}
 	building_food_industry = {"generic_manufactory_01_mesh"}

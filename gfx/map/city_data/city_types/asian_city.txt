@@ -46,8 +46,8 @@
 	building_automotive_firms = {"war_machines_manufactory_01_mesh"}
 	building_armories = {"asian_colonial_manufactory_03_mesh"}
 	building_munitions_arsenal = {"asian_colonial_manufactory_03_mesh"}
-	building_couture_industries = {"asian_tools_manufactory_01_mesh"}
-	building_smelteries = {"asian_manufactory_01_mesh"}
+	building_alloy_smelters = {"asian_tools_manufactory_01_mesh"}
+	building_ironworks = {"asian_manufactory_01_mesh"}
 
 	building_construction_sector = {"asian_manufactory_03_mesh"}
 	building_food_industry = {"asian_manufactory_01_mesh"}

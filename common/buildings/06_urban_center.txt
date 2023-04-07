@@ -11,10 +11,9 @@ building_urban_center = {
 	}
 	
 	production_method_groups = {
-		pmg_commerce_urban
-		pmg_media_urban
-		pmg_public_transport
-		pmg_urban_clergy
+		pmg_utilities
+		pmg_roadways
+		pmg_commerce
 	}
 	
 	buildable = no
@@ -36,9 +35,10 @@ building_arts_academy = {
 	}
 
 	production_method_groups = {
-		pmg_base_building_arts_academy
-		pmg_performance_arts_academy
-		pmg_ownership_building_arts_academy
+		pmg_print_culture
+		pmg_performed_culture
+		pmg_patronage
+		pmg_ideological_focus
 	}
 	
 	texture = "gfx/interface/icons/building_icons/building_arts_academy.dds"

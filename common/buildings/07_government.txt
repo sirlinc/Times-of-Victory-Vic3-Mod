@@ -33,7 +33,7 @@ building_government_administration = {
 	levels_per_mesh = 10
 
 	unlocking_technologies = {
-		civil_service
+		principles_of_government
 	}
 
 	production_method_groups = {

@@ -1,470 +1,5 @@
-﻿#pmg_motive_power
-#pmg_industrial_motive_power
-
-pm_manual_labour = {
-	texture = "gfx/interface/icons/production_method_icons/no_infrastructure.dds"
-
-	building_modifiers = {
-		workforce_scaled = {
-			building_employment_laborers_add = 4500
-		}
-		unscaled = {
-			building_throughput_mult = -0.1
-		}
-	}
-}
-
-pm_draft_animals = {
-	texture = "gfx/interface/icons/production_method_icons/canals.dds"
-
-	building_modifiers = {
-		workforce_scaled = {												
-			building_input_horses_add = 5	
-			building_employment_laborers_add = 4500
-		}
-	}
-}
-
-pm_rotating_mills = {
-	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
-
-	unlocking_technologies = {
-		rotating_mills
-	}
-	building_modifiers = {
-		workforce_scaled = {												
-			building_input_wood_add = 10	
-			building_input_horses_add = 5
-			building_employment_laborers_add = 4000
-			building_employment_machinists_add = 200
-		}
-		unscaled = {
-			building_throughput_mult = 0.05
-		}		
-	}
-}
-
-pm_steam_engines = {
-	texture = "gfx/interface/icons/production_method_icons/rail_linkages.dds"
-
-	pollution_generation = 8
-
-	unlocking_technologies = {
-		steamworks
-	}
-	building_modifiers = {
-		workforce_scaled = {								
-			building_input_iron_add = 10 
-			building_input_coal_add = 10
-			building_employment_laborers_add = 3500
-			building_employment_machinists_add = 400
-		}
-		unscaled = {
-			building_throughput_mult = 0.1
-		}		
-	}
-}
-
-pm_rotary_valve_engine = {
-	texture = "gfx/interface/icons/production_method_icons/cold_storage.dds"
-
-	pollution_generation = 8
-
-	unlocking_technologies = {
-		rotary_valve_engine
-	}
-	building_modifiers = {
-		workforce_scaled = {								
-			building_input_steel_add = 5 
-			building_input_coal_add = 15
-			building_employment_laborers_add = 3000
-			building_employment_machinists_add = 600
-			building_employment_engineers_add = 100
-		}
-		unscaled = {
-			building_throughput_mult = 0.15
-		}		
-	}
-}
-
-pm_petrol_engines = {
-	texture = "gfx/interface/icons/production_method_icons/electrified_fencing.dds"
-
-	pollution_generation = 8
-
-	unlocking_technologies = {
-		combustion_engine
-	}
-	building_modifiers = {
-		workforce_scaled = {							
-			building_input_engines_add = 5 
-			building_input_fuel_oil_add = 10
-			building_employment_laborers_add = 2250
-			building_employment_machinists_add = 900
-			building_employment_engineers_add = 200
-		}
-		unscaled = {
-			building_throughput_mult = 0.25
-		}		
-	}
-}
-
-pm_electronic_process_control = {
-	texture = "gfx/interface/icons/production_method_icons/electrified_fencing.dds"
-
-	pollution_generation = 8
-
-	unlocking_technologies = {
-		engineering_science
-	}
-	building_modifiers = {
-		workforce_scaled = {							
-			building_input_engines_add = 5 
-			building_input_fuel_oil_add = 10
-			building_input_electricity_add = 15
-			building_employment_laborers_add = 1500
-			building_employment_machinists_add = 1200
-			building_employment_engineers_add = 300
-		}
-		unscaled = {
-			building_throughput_mult = 0.35
-		}		
-	}
-}
-
-#pmg_pre_industrial_organization
-#pmg_industrial_organization
-
-pm_decentralized_industry = {
-	texture = "gfx/interface/icons/production_method_icons/decentralized.dds"
-
-	building_modifiers = {
-	}
-}
-
-pm_aristocratic_control = {
-	texture = "gfx/interface/icons/production_method_icons/tributary_system.dds"
-
-	disallowing_laws = {
-		law_command_economy
-		law_council_republic
-	}
-
-	building_modifiers = {
-		level_scaled = {
-			building_employment_aristocrats_add = 100
-			building_employment_clergymen_add = 100
-		}
-		unscaled = {
-			building_aristocrats_shares_add = 4
-			building_clergymen_shares_add = 1
-		}
-	}
-}
-
-pm_guild_monopolies = {
-	texture = "gfx/interface/icons/production_method_icons/merchant_guilds.dds"
-
-	disallowing_laws = {
-		law_laissez_faire
-	}
-
-	building_modifiers = {
-		level_scaled = {
-			building_employment_shopkeepers_add = 500
-		}
-		unscaled = {
-			building_shopkeepers_shares_add = 4
-			building_engineers_shares_add = 1		
-		}
-	}
-}
-
-pm_state_owned_enterprise = {
-	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
-	
-	disallowing_laws = {
-		law_laissez_faire
-	}
-	
-	building_modifiers = {
-		level_scaled = {
-			building_employment_bureaucrats_add = 150
-		}
-		unscaled = {
-			building_bureaucrats_shares_add = 2
-			building_government_shares_add = 1
-		}
-	}
-}
-
-pm_small_and_medium_enterprises = {
-	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
-
-	unlocking_technologies = {
-		entrepreneurship
-	}
-
-	disallowing_laws = {
-		law_command_economy
-	}
-
-	building_modifiers = {
-		level_scaled = {
-			building_employment_shopkeepers_add = 300
-			building_employment_capitalists_add = 100			
-		}
-		unscaled = {
-			building_capitalists_shares_add = 2
-			building_shopkeepers_shares_add = 2
-			building_engineers_shares_add = 1
-		}
-	}
-}
-
-pm_worker_cooperative = {
-	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds"
-
-	unlocking_technologies = {
-		socialism
-	}
-
-	unlocking_laws = {
-		law_council_republic
-		law_cooperative_ownership
-	}
-
-	building_modifiers = {
-		level_scaled = {
-			building_employment_engineers_add = 100
-		}
-		unscaled = {
-			building_engineers_shares_add = 2
-			building_laborers_shares_add = 1
-			building_machinists_shares_add = 1
-		}
-	}
-}
-
-pm_military_industrial_complex = {
-	texture = "gfx/interface/icons/production_method_icons/military_industrial_complex.dds"
-
-	unlocking_technologies = {
-		riot_acts
-	}
-
-	building_modifiers = {
-		level_scaled = {
-			building_employment_officers_add = 75
-			building_employment_capitalists_add = 75
-		}
-		unscaled = {
-			building_officers_shares_add = 2 
-			building_capitalists_shares_add = 2 
-		}	
-	}
-}
-
-pm_industrial_conglomerate = {
-	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
-
-	unlocking_technologies = {
-		vertical_integration
-	}
-
-	disallowing_laws = {
-	}
-
-	building_modifiers = {
-		level_scaled = {
-			building_employment_clerks_add = 300
-			building_employment_capitalists_add = 100			
-		}
-		unscaled = {
-			building_capitalists_shares_add = 4
-			building_clerks_shares_add = 1
-		}
-	}
-}
-
-#pmg_kilns
-
-pm_crossdraft_kilns = {
-	texture = "gfx/interface/icons/production_method_icons/kaolin_kilns.dds"
-	pollution_generation = 5
-		
-	building_modifiers = {
-		workforce_scaled = {				
-				building_input_wood_add = 5
-				building_employment_laborers_add = 4500
-			}
-	}
-}
-
-pm_shuttle_kilns = {
-	texture = "gfx/interface/icons/production_method_icons/kaolin_kilns.dds"
-	pollution_generation = 5
-		
-	unlocking_technologies = {
-		rolling_stock
-	}
-		
-	building_modifiers = {
-		workforce_scaled = {				
-				building_input_tools_add = 2
-				building_input_coal_add = 5
-				building_employment_laborers_add = 4000
-				building_employment_machinists_add = 200
-			}
-		unscaled = {
-			building_throughput = 0.1
-		}
-	}
-}
-
-pm_gas_fired_kilns = {
-	texture = "gfx/interface/icons/production_method_icons/kaolin_kilns.dds"
-	pollution_generation = 10
-		
-	unlocking_technologies = {
-		flue_gas_stack
-	}
-		
-	building_modifiers = {
-		workforce_scaled = {				
-				building_input_steel_add = 3
-				building_input_coal_add = 5
-				building_employment_laborers_add = 3500
-				building_employment_machinists_add = 400
-			}
-		unscaled = {
-			building_throughput = 0.2
-		}
-	}
-}
-
-pm_hoffmann_kilns = {
-	texture = "gfx/interface/icons/production_method_icons/kaolin_kilns.dds"
-	pollution_generation = 12
-
-	unlocking_technologies = {
-		batch_process
-	}
-
-	building_modifiers = {
-		workforce_scaled = {				
-				building_input_steel_add = 8
-				building_input_fuel_oil_add = 5
-				building_employment_laborers_add = 3000
-				building_employment_machinists_add = 600
-				building_employment_engineers_add = 100
-			}
-		unscaled = {
-			building_throughput = 0.3
-		}
-	}
-}
-
-
-#pmg_kitchen_appliances
-
-pm_basic_appliances = {
-	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
-
-	building_modifiers = {
-		workforce_scaled = {
-			building_employment_laborers_add = 4500
-		}
-		unscaled = {
-			building_throughput_mult = -0.1
-		}
-	}
-}
-
-pm_oven_thermometers = {
-	texture = "gfx/interface/icons/production_method_icons/oven_thermometers.dds"
-
-	unlocking_technologies = {
-		tool_specialization
-	}
-
-	building_modifiers = {
-		workforce_scaled = {												
-			building_input_tools_add = 2	
-			building_input_coal_add = 2
-			building_employment_laborers_add = 4000
-			building_employment_machinists_add = 200
-		}
-	}
-}
-
-pm_gas_stoves = {
-	texture = "gfx/interface/icons/production_method_icons/gas_stoves.dds"
-
-	unlocking_technologies = {
-		flue_gas_stack
-	}
-	building_modifiers = {
-		workforce_scaled = {												
-			building_input_tools_add = 4	
-			building_input_coal_add = 6
-			building_employment_laborers_add = 3500
-			building_employment_machinists_add = 400
-		}
-		unscaled = {
-			building_throughput_mult = 0.1
-		}		
-	}
-}
-
-pm_electric_mixers = {
-	texture = "gfx/interface/icons/production_method_icons/automated_bakery.dds"
-
-	pollution_generation = 8
-
-	unlocking_technologies = {
-		product_standardization
-	}
-	building_modifiers = {
-		workforce_scaled = {								
-			building_input_machined_parts_add = 3 
-			building_input_electricity_add = 6
-			building_employment_laborers_add = 3000
-			building_employment_machinists_add = 600
-			building_employment_engineers_add = 100
-		}
-		unscaled = {
-			building_throughput_mult = 0.2
-		}		
-	}
-}
-
-pm_dishwashers = {
-	texture = "gfx/interface/icons/production_method_icons/automated_bottle_blowers.dds"
-
-	pollution_generation = 8
-
-	unlocking_technologies = {
-		fordism
-	}
-	building_modifiers = {
-		workforce_scaled = {								
-			building_input_machined_parts_add = 5 
-			building_input_electricity_add = 10
-			building_employment_laborers_add = 2250
-			building_employment_machinists_add = 900
-			building_employment_engineers_add = 200
-		}
-		unscaled = {
-			building_throughput_mult = 0.3
-		}		
-	}
-}
-
-#pmg_glassworks
-
-pm_forest_glass = {
-    texture = "gfx/interface/icons/production_method_icons/forest_glass"
+﻿pm_forest_glass = {
+    texture = "gfx/interface/icons/production_method_icons/forest_glass.dds"
 
     
 
@@ -477,7 +12,7 @@ pm_forest_glass = {
 }
 
 pm_lead_crystal_glass = {
-    texture = "gfx/interface/icons/production_method_icons/leaded_glass"
+    texture = "gfx/interface/icons/production_method_icons/leaded_glass.dds"
 
     unlocking_technologies = {
 		lead_crystal_glass
@@ -493,7 +28,7 @@ pm_lead_crystal_glass = {
 }
 
 pm_polished_plate_glass = {
-    texture = "gfx/interface/icons/production_method_icons/bleached_paper"
+    texture = "gfx/interface/icons/production_method_icons/bleached_paper.dds"
 
     unlocking_technologies = {
 		polished_plate_glass
@@ -509,7 +44,7 @@ pm_polished_plate_glass = {
 }
 
 pm_cylinder_sheet_glass = {
-    texture = "gfx/interface/icons/production_method_icons/crystal_glass"
+    texture = "gfx/interface/icons/production_method_icons/crystal_glass.dds"
 
     unlocking_technologies = {
 		cylinder_sheet_glass
@@ -525,7 +60,7 @@ pm_cylinder_sheet_glass = {
 }
 
 pm_borosilicate_glass = {
-    texture = "gfx/interface/icons/production_method_icons/sulfite_pulping"
+    texture = "gfx/interface/icons/production_method_icons/sulfite_pulping.dds"
 
     unlocking_technologies = {
 		borosilicate_glass
@@ -540,10 +75,8 @@ pm_borosilicate_glass = {
     }
 }
 
-#pmg_ironworks
-
 pm_bloomery = {
-    texture = "gfx/interface/icons/production_method_icons/bloomery"
+    texture = "gfx/interface/icons/production_method_icons/bloomery.dds"
 
     
 
@@ -557,7 +90,7 @@ pm_bloomery = {
 }
 
 pm_blast_furnace = {
-    texture = "gfx/interface/icons/production_method_icons/blister_steel_process"
+    texture = "gfx/interface/icons/production_method_icons/blister_steel_process.dds"
 
     unlocking_technologies = {
 		blast_furnace
@@ -573,7 +106,7 @@ pm_blast_furnace = {
 }
 
 pm_rolling_mill = {
-    texture = "gfx/interface/icons/production_method_icons/blister_steel_process"
+    texture = "gfx/interface/icons/production_method_icons/blister_steel_process.dds"
 
     unlocking_technologies = {
 		rolling_mill
@@ -581,16 +114,15 @@ pm_rolling_mill = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_iron_ore_add = 60
+            building_input_iron_ore_add = 65
 			building_input_coal_add = 15
-			building_input_tools_add = 5
             building_output_iron_add = 60
         }
     }
 }
 
 pm_potting_and_stamping = {
-    texture = "gfx/interface/icons/production_method_icons/blister_steel_process"
+    texture = "gfx/interface/icons/production_method_icons/blister_steel_process.dds"
 
     unlocking_technologies = {
 		potting_and_stamping
@@ -598,16 +130,15 @@ pm_potting_and_stamping = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_iron_ore_add = 80
+            building_input_iron_ore_add = 85
 			building_input_coal_add = 30
-			building_input_tools_add = 15
-            building_output_iron_add = 90
+            building_output_iron_add = 100
         }
     }
 }
 
 pm_puddling_process = {
-    texture = "gfx/interface/icons/production_method_icons/iron_frame_buildings"
+    texture = "gfx/interface/icons/production_method_icons/iron_frame_buildings.dds"
 
     unlocking_technologies = {
 		puddling_process
@@ -615,16 +146,15 @@ pm_puddling_process = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_iron_ore_add = 105
-			building_input_coal_add = 40
-			building_input_tools_add = 25
-            building_output_iron_add = 120
+            building_input_iron_ore_add = 110
+			building_input_coal_add = 35
+            building_output_iron_add = 140
         }
     }
 }
 
 pm_electric_arc_furnace = {
-    texture = "gfx/interface/icons/production_method_icons/electric_arc_process"
+    texture = "gfx/interface/icons/production_method_icons/electric_arc_process.dds"
 
     unlocking_technologies = {
 		electric_arc_furnace
@@ -633,30 +163,88 @@ pm_electric_arc_furnace = {
     building_modifiers = {
         workforce_scaled = {
             building_input_iron_ore_add = 130
-			building_input_electricity_add = 40
+			building_input_electricity_add = 35
 			building_input_machined_parts_add = 10
-            building_output_iron_add = 160
+            building_output_iron_add = 200
         }
     }
 }
 
-#pmg_steelworks
-
-pm_no_steel = {
-    texture = "gfx/interface/icons/production_method_icons/no_steel"
+pm_resmelting = {
+    texture = "gfx/interface/icons/production_method_icons/resmelting.dds"
 
     
 
     building_modifiers = {
         workforce_scaled = {
             
+            building_output_iron_add = 5
+        }
+    }
+}
+
+pm_iron_mordants = {
+    texture = "gfx/interface/icons/production_method_icons/iron_mordants.dds"
+
+    unlocking_technologies = {
+		adhesives
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
             
+            building_output_dye_add = 10
+        }
+    }
+}
+
+pm_ferrous_fertilizers = {
+    texture = "gfx/interface/icons/production_method_icons/ferrous_fertilizers.dds"
+
+    unlocking_technologies = {
+		agricultural_minerals
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            
+            building_output_fertilizer_add = 10
+        }
+    }
+}
+
+pm_mineral_wool = {
+    texture = "gfx/interface/icons/production_method_icons/elastics.dds"
+
+    unlocking_technologies = {
+		reinforced_concrete
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            
+            building_output_fabric_add = 15
+        }
+    }
+}
+
+pm_slag_glass = {
+    texture = "gfx/interface/icons/production_method_icons/forest_glass.dds"
+
+    unlocking_technologies = {
+		cylinder_sheet_glass
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            
+            building_output_glass_add = 15
         }
     }
 }
 
 pm_crucible_steel = {
-    texture = "gfx/interface/icons/production_method_icons/blister_steel_process"
+    texture = "gfx/interface/icons/production_method_icons/blister_steel_process.dds"
 
     unlocking_technologies = {
 		crucible_steel
@@ -671,8 +259,24 @@ pm_crucible_steel = {
     }
 }
 
+pm_blister_steel = {
+    texture = "gfx/interface/icons/production_method_icons/blister_steel_process.dds"
+
+    unlocking_technologies = {
+		potting_and_stamping
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_iron_add = 45
+			building_input_coal_add = 20
+            building_output_steel_add = 45
+        }
+    }
+}
+
 pm_bessemer_process = {
-    texture = "gfx/interface/icons/production_method_icons/bessemer_process"
+    texture = "gfx/interface/icons/production_method_icons/bessemer_process.dds"
 
     unlocking_technologies = {
 		bessemer_process
@@ -680,16 +284,15 @@ pm_bessemer_process = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_iron_add = 65
+            building_input_iron_add = 60
 			building_input_coal_add = 25
-			building_input_tools_add = 10
             building_output_steel_add = 70
         }
     }
 }
 
 pm_open_hearth_furnace = {
-    texture = "gfx/interface/icons/production_method_icons/open_hearth_process"
+    texture = "gfx/interface/icons/production_method_icons/open_hearth_process.dds"
 
     unlocking_technologies = {
 		batch_process
@@ -699,14 +302,13 @@ pm_open_hearth_furnace = {
         workforce_scaled = {
             building_input_iron_add = 100
 			building_input_coal_add = 30
-			building_input_machined_parts_add = 10
             building_output_steel_add = 120
         }
     }
 }
 
 pm_electric_arc_furnace = {
-    texture = "gfx/interface/icons/production_method_icons/electric_arc_process"
+    texture = "gfx/interface/icons/production_method_icons/electric_arc_process.dds"
 
     unlocking_technologies = {
 		electric_arc_furnace
@@ -715,17 +317,14 @@ pm_electric_arc_furnace = {
     building_modifiers = {
         workforce_scaled = {
             building_input_iron_add = 120
-			building_input_electricity_add = 50
-			building_input_machined_parts_add = 15
+			building_input_electricity_add = 35
             building_output_steel_add = 150
         }
     }
 }
 
-#pmg_alloys
-
 pm_no_alloys = {
-    texture = "gfx/interface/icons/production_method_icons/no_steel"
+    texture = "gfx/interface/icons/production_method_icons/no_steel.dds"
 
     
 
@@ -738,7 +337,7 @@ pm_no_alloys = {
 }
 
 pm_pewter_alloys = {
-    texture = "gfx/interface/icons/production_method_icons/blister_steel_process"
+    texture = "gfx/interface/icons/production_method_icons/blister_steel_process.dds"
 
     
 
@@ -746,13 +345,13 @@ pm_pewter_alloys = {
         workforce_scaled = {
             building_input_lead_add = 5
 			building_input_wood_add = 10
-            building_output_alloys_add = 20
+            building_output_alloys_add = 15
         }
     }
 }
 
 pm_brass_alloys = {
-    texture = "gfx/interface/icons/production_method_icons/blister_steel_process"
+    texture = "gfx/interface/icons/production_method_icons/blister_steel_process.dds"
 
     unlocking_technologies = {
 		zinc_alloys
@@ -761,15 +360,14 @@ pm_brass_alloys = {
     building_modifiers = {
         workforce_scaled = {
             building_input_lead_add = 15
-			building_input_tools_add = 5
 			building_input_coal_add = 10
-            building_output_alloys_add = 35
+            building_output_alloys_add = 30
         }
     }
 }
 
 pm_soldering_alloys = {
-    texture = "gfx/interface/icons/production_method_icons/blister_steel_process"
+    texture = "gfx/interface/icons/production_method_icons/blister_steel_process.dds"
 
     unlocking_technologies = {
 		stranded_wire
@@ -779,14 +377,14 @@ pm_soldering_alloys = {
         workforce_scaled = {
             building_input_lead_add = 25
 			building_input_chemicals_add = 5
-			building_input_coal_add = 20
-            building_output_alloys_add = 55
+			building_input_coal_add = 15
+            building_output_alloys_add = 50
         }
     }
 }
 
 pm_aluminium_alloys = {
-    texture = "gfx/interface/icons/production_method_icons/blister_steel_process"
+    texture = "gfx/interface/icons/production_method_icons/blister_steel_process.dds"
 
     unlocking_technologies = {
 		electric_arc_furnace
@@ -796,16 +394,184 @@ pm_aluminium_alloys = {
         workforce_scaled = {
             building_input_lead_add = 40
 			building_input_machined_parts_add = 5
-			building_input_electricity_add = 30
-            building_output_alloys_add = 80
+			building_input_electricity_add = 20
+            building_output_alloys_add = 75
         }
     }
 }
 
-#pmg_baking
+pm_non_metal_tools = {
+    texture = "gfx/interface/icons/production_method_icons/crude_tools.dds"
+
+    
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_wood_add = 10
+			building_input_animal_products_add = 5
+            building_output_tools_add = 25
+        }
+    }
+}
+
+pm_wrought_iron_tools = {
+    texture = "gfx/interface/icons/production_method_icons/crude_tools.dds"
+
+    
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_iron_add = 10
+			building_input_wood_add = 15
+            building_output_tools_add = 35
+        }
+    }
+}
+
+pm_case_hardened_tools = {
+    texture = "gfx/interface/icons/production_method_icons/crude_tools.dds"
+
+    unlocking_technologies = {
+		rolling_mill
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_iron_add = 20
+			building_input_wood_add = 25
+            building_output_tools_add = 50
+        }
+    }
+}
+
+pm_turret_lathes = {
+    texture = "gfx/interface/icons/production_method_icons/pig_iron_tools.dds"
+
+    unlocking_technologies = {
+		crucible_steel
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_iron_add = 35
+			building_input_wood_add = 30
+            building_output_tools_add = 65
+        }
+    }
+}
+
+pm_powered_milling_machines = {
+    texture = "gfx/interface/icons/production_method_icons/steel_tools.dds"
+
+    unlocking_technologies = {
+		batch_process
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_iron_add = 50
+			building_input_alloys_add = 10
+            building_output_tools_add = 80
+        }
+    }
+}
+
+pm_cam_driven_machines = {
+    texture = "gfx/interface/icons/production_method_icons/steel_tools.dds"
+
+    unlocking_technologies = {
+		electric_arc_furnace
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_iron_add = 70
+			building_input_alloys_add = 15
+            building_output_tools_add = 100
+        }
+    }
+}
+
+pm_no_machined_parts = {
+    texture = "gfx/interface/icons/production_method_icons/no_tool_production.dds"
+
+    
+
+    building_modifiers = {
+        workforce_scaled = {
+            
+            
+        }
+    }
+}
+
+pm_crucible_steel_parts = {
+    texture = "gfx/interface/icons/production_method_icons/lathes.dds"
+
+    unlocking_technologies = {
+		machine_tools
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_steel_add = 5
+			building_input_alloys_add = 5
+            building_output_machined_parts_add = 15
+        }
+    }
+}
+
+pm_chromium_steel_parts = {
+    texture = "gfx/interface/icons/production_method_icons/lathes.dds"
+
+    unlocking_technologies = {
+		pneumatic_tools
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_steel_add = 10
+			building_input_alloys_add = 10
+            building_output_machined_parts_add = 25
+        }
+    }
+}
+
+pm_tungsten_carbide_parts = {
+    texture = "gfx/interface/icons/production_method_icons/ctc_machines.dds"
+
+    unlocking_technologies = {
+		product_standardization
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_steel_add = 25
+			building_input_alloys_add = 15
+            building_output_machined_parts_add = 45
+        }
+    }
+}
+
+pm_molded_parts = {
+    texture = "gfx/interface/icons/production_method_icons/ctc_machines.dds"
+
+    unlocking_technologies = {
+		fordism
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_steel_add = 30
+			building_input_alloys_add = 15
+			building_input_rubber_add = 10
+            building_output_machined_parts_add = 70
+        }
+    }
+}
 
 pm_comfits = {
-    texture = "gfx/interface/icons/production_method_icons/bakeries"
+    texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
 
     
 
@@ -819,7 +585,7 @@ pm_comfits = {
 }
 
 pm_confectionery = {
-    texture = "gfx/interface/icons/production_method_icons/sweeteners"
+    texture = "gfx/interface/icons/production_method_icons/sweeteners.dds"
 
     unlocking_technologies = {
 		fractional_distillation
@@ -827,15 +593,15 @@ pm_confectionery = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_grain_add = 30
-			building_input_sugar_add = 20
+            building_input_grain_add = 25
+			building_input_sugar_add = 15
             building_output_groceries_add = 30
         }
     }
 }
 
 pm_baking_powder = {
-    texture = "gfx/interface/icons/production_method_icons/baking_powder"
+    texture = "gfx/interface/icons/production_method_icons/baking_powder.dds"
 
     unlocking_technologies = {
 		food_additives
@@ -843,15 +609,15 @@ pm_baking_powder = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_grain_add = 50
-			building_input_sugar_add = 30
+            building_input_grain_add = 40
+			building_input_sugar_add = 25
             building_output_groceries_add = 60
         }
     }
 }
 
 pm_commercial_yeast = {
-    texture = "gfx/interface/icons/production_method_icons/synthetic_dyes"
+    texture = "gfx/interface/icons/production_method_icons/synthetic_dyes.dds"
 
     unlocking_technologies = {
 		chemical_isolation
@@ -859,15 +625,15 @@ pm_commercial_yeast = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_grain_add = 70
-			building_input_sugar_add = 40
+            building_input_grain_add = 60
+			building_input_sugar_add = 35
             building_output_groceries_add = 90
         }
     }
 }
 
 pm_solid_chocolate = {
-    texture = "gfx/interface/icons/production_method_icons/plywood"
+    texture = "gfx/interface/icons/production_method_icons/plywood.dds"
 
     unlocking_technologies = {
 		injection_molding
@@ -875,18 +641,16 @@ pm_solid_chocolate = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_grain_add = 90
-			building_input_sugar_add = 50
+            building_input_grain_add = 80
+			building_input_sugar_add = 40
 			building_input_spices_add = 10
-            building_output_groceries_add = 130
+            building_output_groceries_add = 140
         }
     }
 }
 
-#pmg_liquor_distillation
-
 pm_no_liquor = {
-    texture = "gfx/interface/icons/production_method_icons/no_liquor"
+    texture = "gfx/interface/icons/production_method_icons/no_liquor.dds"
 
     
 
@@ -898,8 +662,8 @@ pm_no_liquor = {
     }
 }
 
-pm_wooden_casks = {
-    texture = "gfx/interface/icons/production_method_icons/wooden_casks"
+pm_distillery_barrels = {
+    texture = "gfx/interface/icons/production_method_icons/wooden_casks.dds"
 
     unlocking_technologies = {
 		fractional_distillation
@@ -916,7 +680,7 @@ pm_wooden_casks = {
 }
 
 pm_pot_stills = {
-    texture = "gfx/interface/icons/production_method_icons/vacuum_pan_evaporation"
+    texture = "gfx/interface/icons/production_method_icons/vacuum_pan_evaporation.dds"
 
     unlocking_technologies = {
 		pot_stills
@@ -933,7 +697,7 @@ pm_pot_stills = {
 }
 
 pm_column_stills = {
-    texture = "gfx/interface/icons/production_method_icons/column_stills"
+    texture = "gfx/interface/icons/production_method_icons/column_stills.dds"
 
     unlocking_technologies = {
 		heat_treatments
@@ -950,7 +714,7 @@ pm_column_stills = {
 }
 
 pm_chromium_vessels = {
-    texture = "gfx/interface/icons/production_method_icons/column_stills"
+    texture = "gfx/interface/icons/production_method_icons/column_stills.dds"
 
     unlocking_technologies = {
 		sterilization
@@ -960,16 +724,14 @@ pm_chromium_vessels = {
         workforce_scaled = {
             building_input_grain_add = 40
 			building_input_sugar_add = 40
-			building_input_machined_parts_add = 10
+			building_input_machined_parts_add = 5
             building_output_liquor_add = 100
         }
     }
 }
 
-#pmg_canning
-
 pm_no_canning = {
-    texture = "gfx/interface/icons/production_method_icons/no_canning"
+    texture = "gfx/interface/icons/production_method_icons/no_canning.dds"
 
     
 
@@ -982,7 +744,7 @@ pm_no_canning = {
 }
 
 pm_glass_jars = {
-    texture = "gfx/interface/icons/production_method_icons/canneries"
+    texture = "gfx/interface/icons/production_method_icons/canneries.dds"
 
     unlocking_technologies = {
 		food_processing_machines
@@ -998,7 +760,7 @@ pm_glass_jars = {
 }
 
 pm_metal_cans = {
-    texture = "gfx/interface/icons/production_method_icons/canneries"
+    texture = "gfx/interface/icons/production_method_icons/canneries.dds"
 
     unlocking_technologies = {
 		industrial_kitchens
@@ -1014,7 +776,7 @@ pm_metal_cans = {
 }
 
 pm_vacuum_sealed_cans = {
-    texture = "gfx/interface/icons/production_method_icons/vaccum_canning"
+    texture = "gfx/interface/icons/production_method_icons/vaccum_canning.dds"
 
     unlocking_technologies = {
 		vacuum_sealing
@@ -1031,7 +793,7 @@ pm_vacuum_sealed_cans = {
 }
 
 pm_freeze_dried_food = {
-    texture = "gfx/interface/icons/production_method_icons/freeze_dried"
+    texture = "gfx/interface/icons/production_method_icons/freeze_dried.dds"
 
     unlocking_technologies = {
 		sterilization
@@ -1047,10 +809,8 @@ pm_freeze_dried_food = {
     }
 }
 
-#pmg_opium_tinctures
-
 pm_no_tinctures = {
-    texture = "gfx/interface/icons/production_method_icons/no_tinctures"
+    texture = "gfx/interface/icons/production_method_icons/no_tinctures.dds"
 
     
 
@@ -1063,7 +823,7 @@ pm_no_tinctures = {
 }
 
 pm_laudanum = {
-    texture = "gfx/interface/icons/production_method_icons/synthetic_dyes"
+    texture = "gfx/interface/icons/production_method_icons/synthetic_dyes.dds"
 
     unlocking_technologies = {
 		latex_tapping
@@ -1078,210 +838,8 @@ pm_laudanum = {
     }
 }
 
-#pmg_dyeworks
-
-pm_organic_dyes = {
-    texture = "gfx/interface/icons/production_method_icons/dye_workshops"
-
-    
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_wood_add = 10
-			building_input_tools_add = 3
-            building_output_dyes_add = 15
-        }
-    }
-}
-
-pm_sulfate_mordants = {
-    texture = "gfx/interface/icons/production_method_icons/sweeteners"
-
-    unlocking_technologies = {
-		destructive_distillation
-	}
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_sulfur_add = 15
-			building_input_tools_add = 5
-            building_output_dyes_add = 30
-        }
-    }
-}
-
-pm_chromium_mordants = {
-    texture = "gfx/interface/icons/production_method_icons/sulfate_mordants"
-
-    unlocking_technologies = {
-		chemistry
-	}
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_alloys_add = 5
-			building_input_tools_add = 10
-            building_output_dyes_add = 45
-        }
-    }
-}
-
-pm_aniline_dyes = {
-    texture = "gfx/interface/icons/production_method_icons/synthetic_dyes"
-
-    unlocking_technologies = {
-		synthetic_dye
-	}
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_chemicals_add = 20
-			building_input_tools_add = 10
-            building_output_dyes_add = 65
-        }
-    }
-}
-
-pm_azo_dyes = {
-    texture = "gfx/interface/icons/production_method_icons/synthetic_dyes"
-
-    unlocking_technologies = {
-		plastics
-	}
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_chemicals_add = 20
-			building_input_machined_parts_add = 10
-            building_output_dyes_add = 90
-        }
-    }
-}
-
-#pmg_luxury_clothes
-
-pm_no_luxury_clothes = {
-    texture = "gfx/interface/icons/production_method_icons/no_luxury_clothes"
-
-    
-
-    building_modifiers = {
-        workforce_scaled = {
-            
-            
-        }
-    }
-}
-
-pm_artisanal_weavers = {
-    texture = "gfx/interface/icons/production_method_icons/handsewn_clothes"
-
-    
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_luxury_fabric_add = 5
-            building_output_luxury_clothes_add = 5
-        }
-    }
-}
-
-pm_couture_fabrics = {
-    texture = "gfx/interface/icons/production_method_icons/dye_workshops"
-
-    
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_luxury_fabric_add = 15
-			building_input_tools_add = 5
-            building_output_luxury_clothes_add = 20
-        }
-    }
-}
-
-pm_black_and_white_tie = {
-    texture = "gfx/interface/icons/production_method_icons/black_and_white_tie"
-
-    unlocking_technologies = {
-		modernity
-	}
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_luxury_fabric_add = 25
-			building_input_tools_add = 15
-            building_output_luxury_clothes_add = 25
-        }
-    }
-}
-
-pm_sportswear = {
-    texture = "gfx/interface/icons/production_method_icons/black_and_white_tie"
-
-    unlocking_technologies = {
-		organized_sports
-	}
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_luxury_fabric_add = 35
-			building_input_tools_add = 25
-            building_output_luxury_clothes_add = 35
-        }
-    }
-}
-
-#pmg_waterproof_clothing
-
-pm_no_waterproof_clothing = {
-    texture = "gfx/interface/icons/production_method_icons/no_luxury_clothes"
-
-    
-
-    building_modifiers = {
-        workforce_scaled = {
-            
-            
-        }
-    }
-}
-
-pm_raincoats = {
-    texture = "gfx/interface/icons/production_method_icons/black_and_white_tie"
-
-    unlocking_technologies = {
-		heat_treatments
-	}
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_rubber_add = 15
-            building_output_luxury_clothes_add = 20
-        }
-    }
-}
-
-pm_trenchcoats = {
-    texture = "gfx/interface/icons/production_method_icons/black_and_white_tie"
-
-    unlocking_technologies = {
-		blended_fabrics
-	}
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_rubber_add = 15
-			building_input_chemicals_add = 5
-            building_output_luxury_clothes_add = 30
-        }
-    }
-}
-
-#pmg_clothes
-
 pm_treadle_looms = {
-    texture = "gfx/interface/icons/production_method_icons/handsewn_clothes"
+    texture = "gfx/interface/icons/production_method_icons/handsewn_clothes.dds"
 
     
 
@@ -1294,7 +852,7 @@ pm_treadle_looms = {
 }
 
 pm_flying_shuttles = {
-    texture = "gfx/interface/icons/production_method_icons/handsewn_clothes"
+    texture = "gfx/interface/icons/production_method_icons/handsewn_clothes.dds"
 
     unlocking_technologies = {
 		compound_machines
@@ -1309,7 +867,7 @@ pm_flying_shuttles = {
 }
 
 pm_spinning_jenny = {
-    texture = "gfx/interface/icons/production_method_icons/spinning_jenny"
+    texture = "gfx/interface/icons/production_method_icons/spinning_jenny.dds"
 
     unlocking_technologies = {
 		tool_specialization
@@ -1325,7 +883,7 @@ pm_spinning_jenny = {
 }
 
 pm_jacquard_heads = {
-    texture = "gfx/interface/icons/production_method_icons/spinning_jenny"
+    texture = "gfx/interface/icons/production_method_icons/spinning_jenny.dds"
 
     unlocking_technologies = {
 		mechanical_separators
@@ -1342,7 +900,7 @@ pm_jacquard_heads = {
 }
 
 pm_sewing_machines = {
-    texture = "gfx/interface/icons/production_method_icons/sewing_machines"
+    texture = "gfx/interface/icons/production_method_icons/sewing_machines.dds"
 
     unlocking_technologies = {
 		mechanized_workshops
@@ -1359,7 +917,7 @@ pm_sewing_machines = {
 }
 
 pm_automatic_power_looms = {
-    texture = "gfx/interface/icons/production_method_icons/ctc_machines"
+    texture = "gfx/interface/icons/production_method_icons/ctc_machines.dds"
 
     unlocking_technologies = {
 		vertical_conveyors
@@ -1375,10 +933,80 @@ pm_automatic_power_looms = {
     }
 }
 
-#pmg_furniture
+pm_no_luxury_clothes = {
+    texture = "gfx/interface/icons/production_method_icons/no_luxury_clothes.dds"
+
+    
+
+    building_modifiers = {
+        workforce_scaled = {
+            
+            
+        }
+    }
+}
+
+pm_artisanal_weavers = {
+    texture = "gfx/interface/icons/production_method_icons/handsewn_clothes.dds"
+
+    
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_luxury_fabric_add = 5
+            building_output_luxury_clothes_add = 5
+        }
+    }
+}
+
+pm_couture_fabrics = {
+    texture = "gfx/interface/icons/production_method_icons/dye_workshops.dds"
+
+    
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_luxury_fabric_add = 15
+			building_input_tools_add = 5
+            building_output_luxury_clothes_add = 20
+        }
+    }
+}
+
+pm_black_and_white_tie = {
+    texture = "gfx/interface/icons/production_method_icons/black_and_white_tie.dds"
+
+    unlocking_technologies = {
+		modernity
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_luxury_fabric_add = 25
+			building_input_tools_add = 15
+            building_output_luxury_clothes_add = 25
+        }
+    }
+}
+
+pm_sportswear = {
+    texture = "gfx/interface/icons/production_method_icons/sportswear.dds"
+
+    unlocking_technologies = {
+		organized_sports
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_luxury_fabric_add = 35
+			building_input_tools_add = 25
+            building_output_luxury_clothes_add = 35
+        }
+    }
+}
 
 pm_handcarved_furniture = {
-    texture = "gfx/interface/icons/production_method_icons/furniture_handicraft"
+    texture = "gfx/interface/icons/production_method_icons/furniture_handicraft.dds"
 
     
 
@@ -1391,7 +1019,7 @@ pm_handcarved_furniture = {
 }
 
 pm_woodturning_lathes = {
-    texture = "gfx/interface/icons/production_method_icons/lathes"
+    texture = "gfx/interface/icons/production_method_icons/lathes.dds"
 
     unlocking_technologies = {
 		tool_specialization
@@ -1407,7 +1035,7 @@ pm_woodturning_lathes = {
 }
 
 pm_veneering_machines = {
-    texture = "gfx/interface/icons/production_method_icons/lathes"
+    texture = "gfx/interface/icons/production_method_icons/lathes.dds"
 
     unlocking_technologies = {
 		mechanical_separators
@@ -1423,7 +1051,7 @@ pm_veneering_machines = {
 }
 
 pm_plywood = {
-    texture = "gfx/interface/icons/production_method_icons/plywood"
+    texture = "gfx/interface/icons/production_method_icons/plywood.dds"
 
     unlocking_technologies = {
 		product_standardization
@@ -1440,7 +1068,7 @@ pm_plywood = {
 }
 
 pm_precision_joinery = {
-    texture = "gfx/interface/icons/production_method_icons/ctc_machines"
+    texture = "gfx/interface/icons/production_method_icons/ctc_machines.dds"
 
     unlocking_technologies = {
 		fordism
@@ -1456,10 +1084,8 @@ pm_precision_joinery = {
     }
 }
 
-#pmg_luxury_furniture
-
 pm_no_luxury_furniture = {
-    texture = "gfx/interface/icons/production_method_icons/no_lux_furniture"
+    texture = "gfx/interface/icons/production_method_icons/no_lux_furniture.dds"
 
     
 
@@ -1472,7 +1098,7 @@ pm_no_luxury_furniture = {
 }
 
 pm_marquetry = {
-    texture = "gfx/interface/icons/production_method_icons/marquetry"
+    texture = "gfx/interface/icons/production_method_icons/marquetry.dds"
 
     
 
@@ -1486,7 +1112,7 @@ pm_marquetry = {
 }
 
 pm_upholstering = {
-    texture = "gfx/interface/icons/production_method_icons/marquetry"
+    texture = "gfx/interface/icons/production_method_icons/marquetry.dds"
 
     unlocking_technologies = {
 		tool_specialization
@@ -1503,7 +1129,7 @@ pm_upholstering = {
 }
 
 pm_electroplated_metals = {
-    texture = "gfx/interface/icons/production_method_icons/electroplating"
+    texture = "gfx/interface/icons/production_method_icons/electroplating.dds"
 
     unlocking_technologies = {
 		electrochemistry
@@ -1520,185 +1146,8 @@ pm_electroplated_metals = {
     }
 }
 
-#pmg_tools
-
-pm_non_metal_tools = {
-    texture = "gfx/interface/icons/production_method_icons/crude_tools"
-
-    
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_wood_add = 20
-			building_input_animal_products_add = 5
-            building_output_tools_add = 25
-        }
-    }
-}
-
-pm_wrought_iron_tools = {
-    texture = "gfx/interface/icons/production_method_icons/crude_tools"
-
-    
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_wood_add = 20
-			building_input_iron_add = 10
-            building_output_tools_add = 35
-        }
-    }
-}
-
-pm_case_hardened_tools = {
-    texture = "gfx/interface/icons/production_method_icons/crude_tools"
-
-    unlocking_technologies = {
-		rolling_mill
-	}
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_wood_add = 30
-			building_input_iron_add = 20
-            building_output_tools_add = 50
-        }
-    }
-}
-
-pm_crucible_steel_tools = {
-    texture = "gfx/interface/icons/production_method_icons/pig_iron_tools"
-
-    unlocking_technologies = {
-		crucible_steel
-	}
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_wood_add = 30
-			building_input_steel_add = 10
-            building_output_tools_add = 65
-        }
-    }
-}
-
-pm_chromium_steel_tools = {
-    texture = "gfx/interface/icons/production_method_icons/steel_tools"
-
-    unlocking_technologies = {
-		batch_process
-	}
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_alloys_add = 10
-			building_input_steel_add = 15
-            building_output_tools_add = 80
-        }
-    }
-}
-
-pm_tungsten_carbide_tools = {
-    texture = "gfx/interface/icons/production_method_icons/steel_tools"
-
-    unlocking_technologies = {
-		electric_arc_furnace
-	}
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_alloys_add = 15
-			building_input_steel_add = 20
-            building_output_tools_add = 100
-        }
-    }
-}
-
-#pmg_machined_parts
-
-pm_no_machined_parts = {
-    texture = "gfx/interface/icons/production_method_icons/no_tool_production"
-
-    
-
-    building_modifiers = {
-        workforce_scaled = {
-            
-            
-        }
-    }
-}
-
-pm_turret_lathe = {
-    texture = "gfx/interface/icons/production_method_icons/lathes"
-
-    unlocking_technologies = {
-		machine_tools
-	}
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_wood_add = 20
-            building_output_machined_parts_add = 10
-			building_output_tools_add = -25
-        }
-    }
-}
-
-pm_steel_milling_machines = {
-    texture = "gfx/interface/icons/production_method_icons/lathes"
-
-    unlocking_technologies = {
-		pneumatic_tools
-	}
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_steel_add = 10
-            building_output_machined_parts_add = 20
-			building_output_tools_add = -25
-        }
-    }
-}
-
-pm_drill_press = {
-    texture = "gfx/interface/icons/production_method_icons/ctc_machines"
-
-    unlocking_technologies = {
-		product_standardization
-	}
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_steel_add = 15
-			building_input_alloys_add = 10
-            building_output_machined_parts_add = 40
-			building_output_tools_add = -25
-        }
-    }
-}
-
-pm_molded_polymers = {
-    texture = "gfx/interface/icons/production_method_icons/ctc_machines"
-
-    unlocking_technologies = {
-		fordism
-	}
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_steel_add = 15
-			building_input_rubber_add = 10
-            building_output_machined_parts_add = 60
-			building_output_tools_add = -25
-        }
-    }
-}
-
-#pmg_papermaking
-
 pm_handmade_paper = {
-    texture = "gfx/interface/icons/production_method_icons/dye_workshops"
+    texture = "gfx/interface/icons/production_method_icons/dye_workshops.dds"
 
     
 
@@ -1711,7 +1160,7 @@ pm_handmade_paper = {
 }
 
 pm_pulping_mills = {
-    texture = "gfx/interface/icons/production_method_icons/dye_workshops"
+    texture = "gfx/interface/icons/production_method_icons/dye_workshops.dds"
 
     unlocking_technologies = {
 		compound_machines
@@ -1726,7 +1175,7 @@ pm_pulping_mills = {
 }
 
 pm_fourdrinier_machine = {
-    texture = "gfx/interface/icons/production_method_icons/fourdrinier_machine"
+    texture = "gfx/interface/icons/production_method_icons/fourdrinier_machine.dds"
 
     unlocking_technologies = {
 		continuous_process
@@ -1741,7 +1190,7 @@ pm_fourdrinier_machine = {
 }
 
 pm_rotary_press = {
-    texture = "gfx/interface/icons/production_method_icons/ctc_machines"
+    texture = "gfx/interface/icons/production_method_icons/ctc_machines.dds"
 
     unlocking_technologies = {
 		rotary_valve_engine
@@ -1756,7 +1205,7 @@ pm_rotary_press = {
 }
 
 pm_chemical_pulping = {
-    texture = "gfx/interface/icons/production_method_icons/chemical_pulping"
+    texture = "gfx/interface/icons/production_method_icons/chemical_pulping.dds"
 
     unlocking_technologies = {
 		industrial_solvents
@@ -1770,10 +1219,8 @@ pm_chemical_pulping = {
     }
 }
 
-#pmg_pulp_material
-
 pm_rag_paper = {
-    texture = "gfx/interface/icons/production_method_icons/crude_paper"
+    texture = "gfx/interface/icons/production_method_icons/crude_paper.dds"
 
     
 
@@ -1786,7 +1233,7 @@ pm_rag_paper = {
 }
 
 pm_wood_pulp_paper = {
-    texture = "gfx/interface/icons/production_method_icons/bleached_paper"
+    texture = "gfx/interface/icons/production_method_icons/bleached_paper.dds"
 
     unlocking_technologies = {
 		mechanized_workshops
@@ -1801,7 +1248,7 @@ pm_wood_pulp_paper = {
 }
 
 pm_acidic_paper = {
-    texture = "gfx/interface/icons/production_method_icons/acidic_paper"
+    texture = "gfx/interface/icons/production_method_icons/acidic_paper.dds"
 
     unlocking_technologies = {
 		industrial_solvents
@@ -1816,24 +1263,38 @@ pm_acidic_paper = {
     }
 }
 
-#pmg_chemicals
-
-pm_soda_ash = {
-    texture = "gfx/interface/icons/production_method_icons/molasses_separation"
+pm_organic_dyes = {
+    texture = "gfx/interface/icons/production_method_icons/dye_workshops.dds"
 
     
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_grain_add = 20
-			building_input_fabric_add = 20
-            building_output_chemicals_add = 25
+            building_input_wood_add = 10
+			building_input_tools_add = 3
+            building_output_dyes_add = 15
         }
     }
 }
 
-pm_iron_sulfate_process = {
-    texture = "gfx/interface/icons/production_method_icons/sulfate_mordants"
+pm_sulfate_mordants = {
+    texture = "gfx/interface/icons/production_method_icons/sweeteners.dds"
+
+    unlocking_technologies = {
+		destructive_distillation
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_sulfur_add = 15
+			building_input_tools_add = 5
+            building_output_dyes_add = 30
+        }
+    }
+}
+
+pm_chromium_mordants = {
+    texture = "gfx/interface/icons/production_method_icons/sulfate_mordants.dds"
 
     unlocking_technologies = {
 		chemistry
@@ -1841,15 +1302,76 @@ pm_iron_sulfate_process = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_sulfur_add = 10
-			building_input_iron_ore_add = 10
-            building_output_chemicals_add = 35
+            building_input_alloys_add = 5
+			building_input_tools_add = 10
+            building_output_dyes_add = 45
+        }
+    }
+}
+
+pm_aniline_dyes = {
+    texture = "gfx/interface/icons/production_method_icons/synthetic_dyes.dds"
+
+    unlocking_technologies = {
+		synthetic_dye
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_tools_add = 10
+            building_output_dyes_add = 65
+			building_output_chemicals_add = -40
+        }
+    }
+}
+
+pm_azo_dyes = {
+    texture = "gfx/interface/icons/production_method_icons/synthetic_dyes.dds"
+
+    unlocking_technologies = {
+		plastics
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_machined_parts_add = 10
+            building_output_dyes_add = 90
+			building_output_chemicals_add = -40
+        }
+    }
+}
+
+pm_no_chemicals = {
+    texture = "gfx/interface/icons/production_method_icons/no_tinctures.dds"
+
+    
+
+    building_modifiers = {
+        workforce_scaled = {
+            
+            
+        }
+    }
+}
+
+pm_soda_ash = {
+    texture = "gfx/interface/icons/production_method_icons/molasses_separation.dds"
+
+    unlocking_technologies = {
+		chemistry
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_grain_add = 20
+			building_input_fabric_add = 20
+            building_output_chemicals_add = 40
         }
     }
 }
 
 pm_leblanc_process = {
-    texture = "gfx/interface/icons/production_method_icons/sulfate_mordants"
+    texture = "gfx/interface/icons/production_method_icons/sulfate_mordants.dds"
 
     unlocking_technologies = {
 		heat_treatments
@@ -1865,7 +1387,7 @@ pm_leblanc_process = {
 }
 
 pm_solvay_process = {
-    texture = "gfx/interface/icons/production_method_icons/solvay_process"
+    texture = "gfx/interface/icons/production_method_icons/solvay_process.dds"
 
     unlocking_technologies = {
 		chemical_isolation
@@ -1880,7 +1402,7 @@ pm_solvay_process = {
 }
 
 pm_castner_kellner_process = {
-    texture = "gfx/interface/icons/production_method_icons/haber_bosch"
+    texture = "gfx/interface/icons/production_method_icons/haber_bosch.dds"
 
     unlocking_technologies = {
 		electrochemistry
@@ -1894,10 +1416,8 @@ pm_castner_kellner_process = {
     }
 }
 
-#pmg_fertilizer
-
 pm_no_fertilizer = {
-    texture = "gfx/interface/icons/production_method_icons/no_fertilizers"
+    texture = "gfx/interface/icons/production_method_icons/no_fertilizers.dds"
 
     
 
@@ -1910,7 +1430,7 @@ pm_no_fertilizer = {
 }
 
 pm_gypsum_fertilizer = {
-    texture = "gfx/interface/icons/production_method_icons/fertilization"
+    texture = "gfx/interface/icons/production_method_icons/fertilization.dds"
 
     unlocking_technologies = {
 		agricultural_minerals
@@ -1926,7 +1446,7 @@ pm_gypsum_fertilizer = {
 }
 
 pm_ammonia_fertilizer = {
-    texture = "gfx/interface/icons/production_method_icons/improved_fertilizer"
+    texture = "gfx/interface/icons/production_method_icons/improved_fertilizer.dds"
 
     unlocking_technologies = {
 		chemical_fertilizer
@@ -1942,7 +1462,7 @@ pm_ammonia_fertilizer = {
 }
 
 pm_birkeland_eyde_process = {
-    texture = "gfx/interface/icons/production_method_icons/chemical_fertilizers"
+    texture = "gfx/interface/icons/production_method_icons/chemical_fertilizers.dds"
 
     unlocking_technologies = {
 		synthetic_fertilizer
@@ -1958,7 +1478,7 @@ pm_birkeland_eyde_process = {
 }
 
 pm_haber_bosch_process = {
-    texture = "gfx/interface/icons/production_method_icons/haber_bosch"
+    texture = "gfx/interface/icons/production_method_icons/haber_bosch.dds"
 
     unlocking_technologies = {
 		factory_farming
@@ -1973,10 +1493,8 @@ pm_haber_bosch_process = {
     }
 }
 
-#pmg_composite_porcelain
-
 pm_hard_paste_porcelain = {
-    texture = "gfx/interface/icons/production_method_icons/hard_paste_porcelain"
+    texture = "gfx/interface/icons/production_method_icons/hard_paste_porcelain.dds"
 
     
 
@@ -1989,7 +1507,7 @@ pm_hard_paste_porcelain = {
 }
 
 pm_soft_paste_porcelain = {
-    texture = "gfx/interface/icons/production_method_icons/hard_paste_porcelain"
+    texture = "gfx/interface/icons/production_method_icons/hard_paste_porcelain.dds"
 
     unlocking_technologies = {
 		chemistry
@@ -2005,7 +1523,7 @@ pm_soft_paste_porcelain = {
 }
 
 pm_bone_china = {
-    texture = "gfx/interface/icons/production_method_icons/bone_china"
+    texture = "gfx/interface/icons/production_method_icons/bone_china.dds"
 
     unlocking_technologies = {
 		chemical_solvents
@@ -2020,10 +1538,8 @@ pm_bone_china = {
     }
 }
 
-#pmg_synthetic_fibers
-
-pm_no_synthetic_fibers = {
-    texture = "gfx/interface/icons/production_method_icons/no_synthetic_fibers"
+pm_no_waterproof_clothing = {
+    texture = "gfx/interface/icons/production_method_icons/no_luxury_clothes.dds"
 
     
 
@@ -2035,8 +1551,52 @@ pm_no_synthetic_fibers = {
     }
 }
 
-pm_rayon = {
-    texture = "gfx/interface/icons/production_method_icons/rayon_tov"
+pm_raincoats = {
+    texture = "gfx/interface/icons/production_method_icons/black_and_white_tie.dds"
+
+    unlocking_technologies = {
+		heat_treatments
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_rubber_add = 15
+            building_output_luxury_clothes_add = 20
+        }
+    }
+}
+
+pm_trenchcoats = {
+    texture = "gfx/interface/icons/production_method_icons/black_and_white_tie.dds"
+
+    unlocking_technologies = {
+		blended_fabrics
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_rubber_add = 15
+			building_input_chemicals_add = 5
+            building_output_luxury_clothes_add = 30
+        }
+    }
+}
+
+pm_no_synthetic_fibers = {
+    texture = "gfx/interface/icons/production_method_icons/no_synthetic_fibers.dds"
+
+    
+
+    building_modifiers = {
+        workforce_scaled = {
+            
+            
+        }
+    }
+}
+
+pm_art_silk = {
+    texture = "gfx/interface/icons/production_method_icons/rayon_tov.dds"
 
     unlocking_technologies = {
 		blended_fabrics
@@ -2051,8 +1611,8 @@ pm_rayon = {
     }
 }
 
-pm_elastics = {
-    texture = "gfx/interface/icons/production_method_icons/elastics_tov"
+pm_rayon = {
+    texture = "gfx/interface/icons/production_method_icons/elastics_tov.dds"
 
     unlocking_technologies = {
 		injection_molding
@@ -2067,10 +1627,8 @@ pm_elastics = {
     }
 }
 
-#pmg_synthetic_polymers
-
 pm_no_synthetic_polymers = {
-    texture = "gfx/interface/icons/production_method_icons/no_synthetic_polymers"
+    texture = "gfx/interface/icons/production_method_icons/no_synthetic_polymers.dds"
 
     
 
@@ -2083,7 +1641,7 @@ pm_no_synthetic_polymers = {
 }
 
 pm_isoprene_production = {
-    texture = "gfx/interface/icons/production_method_icons/houseware_plastics"
+    texture = "gfx/interface/icons/production_method_icons/houseware_plastics.dds"
 
     unlocking_technologies = {
 		plastics
@@ -2099,7 +1657,7 @@ pm_isoprene_production = {
 }
 
 pm_bakelite_production = {
-    texture = "gfx/interface/icons/production_method_icons/bakelite_production"
+    texture = "gfx/interface/icons/production_method_icons/bakelite_production.dds"
 
     unlocking_technologies = {
 		injection_molding
@@ -2114,23 +1672,21 @@ pm_bakelite_production = {
     }
 }
 
-#pmg_engines
-
 pm_piston_engine = {
-    texture = "gfx/interface/icons/production_method_icons/pumps"
+    texture = "gfx/interface/icons/production_method_icons/pumps.dds"
 
     
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_iron_add = 30
+            building_input_iron_add = 25
             building_output_engines_add = 20
         }
     }
 }
 
 pm_spark_ignition_engine = {
-    texture = "gfx/interface/icons/production_method_icons/spark_ignition_engine"
+    texture = "gfx/interface/icons/production_method_icons/spark_ignition_engine.dds"
 
     unlocking_technologies = {
 		combustion_engine
@@ -2138,14 +1694,14 @@ pm_spark_ignition_engine = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_steel_add = 30
+            building_input_steel_add = 25
             building_output_engines_add = 30
         }
     }
 }
 
 pm_diesel_engine = {
-    texture = "gfx/interface/icons/production_method_icons/diesel_engines"
+    texture = "gfx/interface/icons/production_method_icons/diesel_engines.dds"
 
     unlocking_technologies = {
 		compression_ignition
@@ -2161,7 +1717,7 @@ pm_diesel_engine = {
 }
 
 pm_v8_engine = {
-    texture = "gfx/interface/icons/production_method_icons/electric_engines"
+    texture = "gfx/interface/icons/production_method_icons/electric_engines.dds"
 
     unlocking_technologies = {
 		dual_cylinder_banks
@@ -2176,10 +1732,8 @@ pm_v8_engine = {
     }
 }
 
-#pmg_telecomms
-
 pm_no_telecomms = {
-    texture = "gfx/interface/icons/production_method_icons/no_telecomms_tov"
+    texture = "gfx/interface/icons/production_method_icons/no_telecomms_tov.dds"
 
     
 
@@ -2192,7 +1746,7 @@ pm_no_telecomms = {
 }
 
 pm_telegraph = {
-    texture = "gfx/interface/icons/production_method_icons/telephones_tov"
+    texture = "gfx/interface/icons/production_method_icons/telephones_tov.dds"
 
     
 
@@ -2207,7 +1761,7 @@ pm_telegraph = {
 }
 
 pm_telephone = {
-    texture = "gfx/interface/icons/production_method_icons/telephones_tov"
+    texture = "gfx/interface/icons/production_method_icons/telephones_tov.dds"
 
     
 
@@ -2222,7 +1776,7 @@ pm_telephone = {
 }
 
 pm_radio = {
-    texture = "gfx/interface/icons/production_method_icons/radio_tov"
+    texture = "gfx/interface/icons/production_method_icons/radio_tov.dds"
 
     
 
@@ -2236,10 +1790,8 @@ pm_radio = {
     }
 }
 
-#pmg_ironclads
-
 pm_no_ironclads = {
-    texture = "gfx/interface/icons/production_method_icons/no_military_ships"
+    texture = "gfx/interface/icons/production_method_icons/no_military_ships.dds"
 
     
 
@@ -2252,7 +1804,7 @@ pm_no_ironclads = {
 }
 
 pm_revolving_gun_turrets = {
-    texture = "gfx/interface/icons/production_method_icons/reinforced_steam_ships"
+    texture = "gfx/interface/icons/production_method_icons/reinforced_steam_ships.dds"
 
     
 
@@ -2266,7 +1818,7 @@ pm_revolving_gun_turrets = {
 }
 
 pm_streamlined_hulls = {
-    texture = "gfx/interface/icons/production_method_icons/reinforced_steam_ships"
+    texture = "gfx/interface/icons/production_method_icons/reinforced_steam_ships.dds"
 
     
 
@@ -2279,8 +1831,8 @@ pm_streamlined_hulls = {
     }
 }
 
-pm_sloped_armor = {
-    texture = "gfx/interface/icons/production_method_icons/arc_welded_steam_ships"
+pm_sloped_armor_tanks = {
+    texture = "gfx/interface/icons/production_method_icons/arc_welded_steam_ships.dds"
 
     
 
@@ -2293,10 +1845,147 @@ pm_sloped_armor = {
     }
 }
 
-#pmg_automobiles
+pm_thermal_cracking = {
+    texture = "gfx/interface/icons/production_method_icons/column_stills.dds"
+
+    
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_crude_oil_add = 50
+			building_input_tools_add = 15
+            building_output_fuel_oil_add = 50
+        }
+    }
+}
+
+pm_continuous_distillation = {
+    texture = "gfx/interface/icons/production_method_icons/column_stills.dds"
+
+    unlocking_technologies = {
+		chemical_isolation
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_crude_oil_add = 100
+			building_input_machined_parts_add = 10
+            building_output_fuel_oil_add = 100
+        }
+    }
+}
+
+pm_catalytic_cracking = {
+    texture = "gfx/interface/icons/production_method_icons/column_stills.dds"
+
+    unlocking_technologies = {
+		electrochemistry
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_crude_oil_add = 180
+			building_input_machined_parts_add = 15
+            building_output_fuel_oil_add = 180
+        }
+    }
+}
+
+pm_hydrocracking = {
+    texture = "gfx/interface/icons/production_method_icons/column_stills.dds"
+
+    unlocking_technologies = {
+		pipeline_systems
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_crude_oil_add = 250
+			building_input_machined_parts_add = 25
+            building_output_fuel_oil_add = 250
+        }
+    }
+}
+
+pm_no_petrochemicals = {
+    texture = "gfx/interface/icons/production_method_icons/no_liquor.dds"
+
+    
+
+    building_modifiers = {
+        workforce_scaled = {
+            
+            
+        }
+    }
+}
+
+pm_naphtha_extraction = {
+    texture = "gfx/interface/icons/production_method_icons/electric_arc_process.dds"
+
+    unlocking_technologies = {
+		vacuum_sealing
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_tools_add = 10
+            building_output_chemicals_add = 30
+			building_output_fuel_oil_add = -50
+        }
+    }
+}
+
+pm_phenol_extraction = {
+    texture = "gfx/interface/icons/production_method_icons/electric_arc_process.dds"
+
+    unlocking_technologies = {
+		chemical_isolation
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_tools_add = 20
+            building_output_chemicals_add = 60
+			building_output_fuel_oil_add = -50
+        }
+    }
+}
+
+pm_ethylene_production = {
+    texture = "gfx/interface/icons/production_method_icons/electric_arc_process.dds"
+
+    unlocking_technologies = {
+		blended_fabrics
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_machined_parts_add = 25
+            building_output_chemicals_add = 90
+			building_output_fuel_oil_add = -50
+        }
+    }
+}
+
+pm_polymerization = {
+    texture = "gfx/interface/icons/production_method_icons/electric_arc_process.dds"
+
+    unlocking_technologies = {
+		plastics
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_machined_parts_add = 40
+            building_output_chemicals_add = 150
+			building_output_fuel_oil_add = -50
+        }
+    }
+}
 
 pm_motorwagon = {
-    texture = "gfx/interface/icons/production_method_icons/motorwagon"
+    texture = "gfx/interface/icons/production_method_icons/motorwagon.dds"
 
     
 
@@ -2311,7 +2000,7 @@ pm_motorwagon = {
 }
 
 pm_phaeton_carriage = {
-    texture = "gfx/interface/icons/production_method_icons/phaeton_carriage"
+    texture = "gfx/interface/icons/production_method_icons/phaeton_carriage.dds"
 
     unlocking_technologies = {
 		vertical_conveyors
@@ -2328,7 +2017,7 @@ pm_phaeton_carriage = {
 }
 
 pm_touring_car = {
-    texture = "gfx/interface/icons/production_method_icons/touring_car"
+    texture = "gfx/interface/icons/production_method_icons/touring_car.dds"
 
     unlocking_technologies = {
 		fordism
@@ -2344,10 +2033,8 @@ pm_touring_car = {
     }
 }
 
-#pmg_tyres
-
 pm_metal_tires = {
-    texture = "gfx/interface/icons/production_method_icons/wheel"
+    texture = "gfx/interface/icons/production_method_icons/wheel.dds"
 
     
 
@@ -2361,7 +2048,7 @@ pm_metal_tires = {
 }
 
 pm_solid_rubber_tyres = {
-    texture = "gfx/interface/icons/production_method_icons/wheel"
+    texture = "gfx/interface/icons/production_method_icons/wheel.dds"
 
     unlocking_technologies = {
 		electric_motors
@@ -2377,7 +2064,7 @@ pm_solid_rubber_tyres = {
 }
 
 pm_pneumatic_tyres = {
-    texture = "gfx/interface/icons/production_method_icons/wheel"
+    texture = "gfx/interface/icons/production_method_icons/wheel.dds"
 
     unlocking_technologies = {
 		pressure_vessels
@@ -2392,10 +2079,8 @@ pm_pneumatic_tyres = {
     }
 }
 
-#pmg_tanks
-
 pm_no_tanks = {
-    texture = "gfx/interface/icons/production_method_icons/no_tanks_tov"
+    texture = "gfx/interface/icons/production_method_icons/no_tanks_tov.dds"
 
     
 
@@ -2408,7 +2093,7 @@ pm_no_tanks = {
 }
 
 pm_landships = {
-    texture = "gfx/interface/icons/production_method_icons/tanks_tov"
+    texture = "gfx/interface/icons/production_method_icons/tanks_tov.dds"
 
     
 
@@ -2422,7 +2107,7 @@ pm_landships = {
 }
 
 pm_turreted_tanks = {
-    texture = "gfx/interface/icons/production_method_icons/tanks_tov"
+    texture = "gfx/interface/icons/production_method_icons/tanks_tov.dds"
 
     
 
@@ -2436,8 +2121,8 @@ pm_turreted_tanks = {
     }
 }
 
-pm_sloped_armor = {
-    texture = "gfx/interface/icons/production_method_icons/tanks_tov"
+pm_sloped_armor_tanks = {
+    texture = "gfx/interface/icons/production_method_icons/tanks_tov.dds"
 
     
 
@@ -2451,10 +2136,8 @@ pm_sloped_armor = {
     }
 }
 
-#pmg_aeroplanes
-
 pm_no_aeroplanes = {
-    texture = "gfx/interface/icons/production_method_icons/no_aeroplanes_tov"
+    texture = "gfx/interface/icons/production_method_icons/no_aeroplanes_tov.dds"
 
     
 
@@ -2467,7 +2150,7 @@ pm_no_aeroplanes = {
 }
 
 pm_biplanes = {
-    texture = "gfx/interface/icons/production_method_icons/aeroplanes"
+    texture = "gfx/interface/icons/production_method_icons/aeroplanes.dds"
 
     
 
@@ -2482,7 +2165,7 @@ pm_biplanes = {
 }
 
 pm_monoplanes = {
-    texture = "gfx/interface/icons/production_method_icons/aeroplanes"
+    texture = "gfx/interface/icons/production_method_icons/aeroplanes.dds"
 
     
 
@@ -2497,7 +2180,7 @@ pm_monoplanes = {
 }
 
 pm_all_metal_aircraft = {
-    texture = "gfx/interface/icons/production_method_icons/aeroplanes"
+    texture = "gfx/interface/icons/production_method_icons/aeroplanes.dds"
 
     
 
@@ -2506,149 +2189,6 @@ pm_all_metal_aircraft = {
             building_input_alloys_add = 40
             building_output_aeroplanes_add = 8
 			building_output_automobiles_add = -10
-        }
-    }
-}
-
-#pmg_oil_cracking
-
-pm_thermal_cracking = {
-    texture = "gfx/interface/icons/production_method_icons/column_stills"
-
-    
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_crude_oil_add = 50
-			building_input_tools_add = 15
-            building_output_fuel_oil_add = 50
-        }
-    }
-}
-
-pm_continuous_distillation = {
-    texture = "gfx/interface/icons/production_method_icons/column_stills"
-
-    unlocking_technologies = {
-		chemical_isolation
-	}
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_crude_oil_add = 100
-			building_input_machined_parts_add = 10
-            building_output_fuel_oil_add = 100
-        }
-    }
-}
-
-pm_catalytic_cracking = {
-    texture = "gfx/interface/icons/production_method_icons/column_stills"
-
-    unlocking_technologies = {
-		electrochemistry
-	}
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_crude_oil_add = 180
-			building_input_machined_parts_add = 15
-            building_output_fuel_oil_add = 180
-        }
-    }
-}
-
-pm_hydrocracking = {
-    texture = "gfx/interface/icons/production_method_icons/column_stills"
-
-    unlocking_technologies = {
-		pipeline_systems
-	}
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_crude_oil_add = 250
-			building_input_machined_parts_add = 25
-            building_output_fuel_oil_add = 250
-        }
-    }
-}
-
-#pmg_petrochemicals
-
-pm_no_petrochemicals = {
-    texture = "gfx/interface/icons/production_method_icons/no_liquor"
-
-    
-
-    building_modifiers = {
-        workforce_scaled = {
-            
-            
-        }
-    }
-}
-
-pm_naphtha_extraction = {
-    texture = "gfx/interface/icons/production_method_icons/electric_arc_process"
-
-    unlocking_technologies = {
-		vacuum_sealing
-	}
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_tools_add = 10
-            building_output_chemicals_add = 30
-			building_output_fuel_oil_add = -50
-        }
-    }
-}
-
-pm_phenol_extraction = {
-    texture = "gfx/interface/icons/production_method_icons/electric_arc_process"
-
-    unlocking_technologies = {
-		chemical_isolation
-	}
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_tools_add = 20
-            building_output_chemicals_add = 60
-			building_output_fuel_oil_add = -50
-        }
-    }
-}
-
-pm_ethylene_production = {
-    texture = "gfx/interface/icons/production_method_icons/electric_arc_process"
-
-    unlocking_technologies = {
-		blended_fabrics
-	}
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_machined_parts_add = 25
-            building_output_chemicals_add = 90
-			building_output_fuel_oil_add = -50
-        }
-    }
-}
-
-pm_polymerization = {
-    texture = "gfx/interface/icons/production_method_icons/electric_arc_process"
-
-    unlocking_technologies = {
-		plastics
-	}
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_machined_parts_add = 40
-            building_output_chemicals_add = 150
-			building_output_fuel_oil_add = -50
         }
     }
 }

@@ -10,56 +10,90 @@
 	}
 }
 
-pmg_base_building_government_administration = {
+
+pmg_organisation = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
-
 	production_methods = {
-		pm_simple_organization
-		pm_horizontal_drawer_cabinets
+		pm_repositories
+		pm_central_archives
+		pm_public_libraries
+		pm_public_works_departments
+		pm_index_cards
 		pm_vertical_filing_cabinets
-		pm_switch_boards
 	}
 }
 
-pmg_government_administration_bureaucrat_professionalism = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	ai_selection = most_productive
-
-	production_methods = {
-		pm_hereditary_bureaucrats
-		pm_professional_bureaucrats
-	}
-}
-
-pmg_government_administration_religious_administration = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	ai_selection = most_productive
-
-	production_methods = {
-		pm_religious_bureaucrats
-		pm_secular_bureaucrats
-	}
-}
-
-pmg_base_building_university = {
+pmg_communication = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
-
 	production_methods = {
-		pm_scholastic_education
-		pm_philosophy_department
-		pm_analytical_philosophy_department
+		pm_horseback_couriers
+		pm_posthouses
+		pm_semaphore_towers
+		pm_electrical_telegraphs
+		pm_telephone_switchboards
+		pm_radio_towers
 	}
 }
 
-pmg_university_academia = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	ai_selection = most_productive
-
+pmg_law_enforcement = {
+	texture = "gfx/interface/icons/government_icons/mixed_icon_base.dds"
+	ai_selection = military
 	production_methods = {
-		pm_religious_academia
-		pm_secular_academia
+		pm_unorganised_militia
+		pm_city_watch
+		pm_courts_of_law
+		pm_police_departments
+		pm_detective_units
+	}
+}
+
+pmg_education = {
+	texture = "gfx/interface/icons/government_icons/mixed_icon_base.dds"
+	ai_selection = civilian
+	production_methods = {
+		pm_liberal_arts
+		pm_humanities
+		pm_academic_philosophy
+		pm_social_sciences
+		pm_political_ecology
+	}
+}
+
+pmg_scientific_infrastructure = {
+	texture = "gfx/interface/icons/government_icons/mixed_icon_base.dds"
+	ai_selection = civilian
+	production_methods = {
+		pm_no_science_infrastructure
+		pm_operating_theatres
+		pm_scientific_journals
+		pm_chemical_laboratories
+		pm_research_departments
+		pm_applied_research_labs
+	}
+}
+
+pmg_institutions = {
+	texture = "gfx/interface/icons/government_icons/mixed_icon_ownership.dds"
+	ai_selection = civilian
+	production_methods = {
+		pm_elitist_schools
+		pm_private_institutions
+		pm_religious_schools
+		pm_military_academies
+		pm_public_institutions
+	}
+}
+
+pmg_academic_principles = {
+	texture = "gfx/interface/icons/government_icons/mixed_icon_ownership.dds"
+	ai_selection = civilian
+	production_methods = {
+		pm_indoctrination
+		pm_censorship
+		pm_freedom
+		pm_radicalism
 	}
 }
 

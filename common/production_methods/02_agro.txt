@@ -1289,7 +1289,6 @@ pm_cured_meats = {
 	texture = "gfx/interface/icons/production_method_icons/cured_meats.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_wood_add = 5
 		}
 	}
 }		
@@ -1304,7 +1303,7 @@ pm_natural_preservatives = {
 		workforce_scaled = {												
 			building_input_wood_add = 3
 			building_input_sugar_add = 5
-			building_throughput_mult = 0.03
+			building_throughput_mult = 0.05
 		}
 	}
 }

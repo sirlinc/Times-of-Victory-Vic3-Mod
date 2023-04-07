@@ -1,60 +1,126 @@
 ﻿l_english:
 
-# Financial Services
+#Arts Academy
 
-pm_merchant_lenders: "Merchant Lenders"
+pmg_print_culture: "Print Culture"
+pm_woodblock_printing: "Woodblock Printing"
+pm_pamphlets: "Pamphlets"
+pm_daily_newspapers: "Daily Newspapers"
+pm_paperback_novels: "Paperback Novels"
+pm_journalistic_media: "Journalistic Media"
+pm_radio_dramas: "Radio Dramas"
+
+pmg_performed_culture: "Performed Culture"
+pm_traditional_art: "Traditional Art"
+pm_piano_compositions: "Piano Compositions"
+pm_symphony_orchestras: "Symphony Orchestras"
+pm_deguerrotypes: "Deguerrotypes"
+pm_motion_pictures: "Motion Pictures"
+pm_theatre_realism: "Theatre Realism"
+
+pmg_patronage: "Patronage"
+pm_traditional_patrons: "Traditional Patrons"
+pm_religious_institutions: "Religious Institutions"
+pm_captains_of_industry: "Captains of Industry"
+pm_state_mouthpiece: "State Mouthpiece"
+pm_military_media_interface: "Military-Media Interface"
+pm_workers_unions: "Worker's Unions"
+pm_independent_art_movements: "Independent Art Movements"
+
+pmg_ideological_focus: "Ideological Focus"
+pm_apolitical: "Apolitical"
+pm_traditionalism: "Traditionalism"
+pm_jingoism: "Jingoism"
+pm_liberalism: "Liberalism"
+pm_nationalism: "Nationalism"
+pm_radicalism: "Radicalism"
+
+#Urban Center
+
+pmg_utilities: "Utilities"
+pm_drainage_ditches: "Drainage Ditches"
+pm_public_wells: "Public Wells"
+pm_kerosene_steet_lamps: "Kerosene Street Lamps"
+pm_sewerage_systems: "Sewerage Systems"
+pm_electric_steet_lamps: "Electric Street Lamps"
+pm_utility_poles: "Utility Poles"
+
+pmg_roadways: "Roadways"
+pm_dirt_trails: "Dirt Trails"
+pm_trackways: "Trackways"
+pm_paved_roads: "Paved Roads"
+pm_macadam_roads: "Macadam Roads"
+pm_tarmacadam_roads: "Tarmacadam Roads"
+pm_motorways: "Motorways"
+
+pmg_commerce: "Commerce"
+pm_travelling_fairs: "Travelling Fairs"
+pm_market_squares: "Market Squares"
 pm_banks: "Banks"
-pm_brokerage_firms: "Brokerage Firms"
+pm_arcades: "Arcades"
+pm_stock_exchanges: "Stock Exchanges"
+pm_department_stores: "Department Stores"
 
-pmg_instruments_financial_services: "Financial Instruments"
-pm_financial_services_underwriting: "Underwriting"
-pm_financial_services_futures_contracts: "Futures Contrats"
-pm_financial_services_mutual_funds: "Mutual Funds"
-pm_financial_services_foreign_investment: "Foreign Investment"
+#Government Administration
 
-pmg_ownership_building_financial_services: "Financial Services"
-pm_financial_services_privately_owned: "Privately Owned"
-pm_financial_services_government_run: "Government Run"
-pm_financial_services_credit_union: "Credit Union"
+pmg_organisation: "Organisation"
+pm_repositories: "Repositories"
+pm_central_archives: "Central Archives"
+pm_public_libraries: "Public Libraries"
+pm_public_works_departments: "Public Works Departments"
+pm_vertical_filing_cabinets: "Vertical Filing Cabinets"
+pm_index_cards: "Index Cards"
+
+pmg_communication: "Communication"
+pm_horseback_couriers: "Horseback Couriers"
+pm_posthouses: "Posthouses"
+pm_semaphore_towers: "Semaphore Towers"
+pm_electrical_telegraphs: "Electrical Telegraphs"
+pm_telephone_switchboards: "Telephone Switchboards"
+pm_radio_towers: "Radio Towers"
+
+pmg_law_enforcement: "Law Enforcement"
+pm_unorganised_militia: "Unorganised Militia"
+pm_city_watch: "City Watch"
+pm_courts_of_law: "Courts of Law"
+pm_police_departments: "Police Departments"
+pm_detective_units: "Detective Units"
+
+#University
+
+pmg_education: "Education"
+pm_liberal_arts: "Liberal Arts"
+pm_humanities: "Humanities"
+pm_academic_philosophy: "Academic Philosophy"
+pm_social_sciences: "Social Sciences"
+pm_political_ecology: "Political Ecology"
+
+pmg_scientific_infrastructure: "Scientific Infrastructure"
+pm_no_science_infrastructure: "No Infrastructure"
+pm_operating_theatres: "Operating Theatres"
+pm_scientific_journals: "Scientific Journals"
+pm_chemical_laboratories: "Chemical Laboratories"
+pm_research_departments: "Research Departments"
+pm_applied_research_labs: "Applied Research Labs"
+
+pmg_institutions: "Institutions"
+pm_elitist_schools: "Elitist Institutions"
+pm_private_institutions: "Private Institutions"
+pm_religious_schools: "Religious Schools"
+pm_military_academies: "Military Academies"
+pm_public_institutions: "Government Institutions"
+
+pmg_academic_principles: "Academic Principles"
+pm_indoctrination: "Indoctrination"
+pm_censorship: "Censorship"
+pm_freedom: "Freedom"
+pm_radicalism: "Radicalism"
 
 # Trade Center
 
 pm_corporate_entity: "Corporate Entity"
 pm_cooperative_association: "Cooperative Association"
 pm_trade_center_charter: "Chartered"
-
-# Urban Center
-
-pmg_commerce_urban: "Commerce"
-pm_travelling_fairs: "Travelling Fairs"
-pm_market_squares: "Market Square"
-pm_storefronts: "Storefronts"
-pm_arcades: "Arcades"
-pm_department_stores: "Department Stores"
-
-pmg_media_urban: "News Media"
-pm_town_criers: "Town Criers"
-pm_printed_pamphlets: "Printed Pamphlets"
-pm_daily_periodicals: "Daily Periodicals"
-pm_journalistic_media: "Journalistic Media"
-
-# Arts Academy
-
-pm_traditional_art: "Traditional Art"
-pm_baroque_architecture: "Baroque Architecture"
-pm_romanticist_literature: "Romanticist Literature"
-pm_realist_paintings: "Realist Paintings"
-pm_art_nouveau_design: "Art Nouveau Design"
-
-pmg_performance_arts_academy: "Performing Arts"
-pm_traditional_performance: "Traditional Performance"
-pm_coffee_houses: "Coffee Houses"
-pm_operatic_theatre: "Operatic Theatre"
-pm_symphony_orchestra: "Symphony Orchestra"
-pm_cinematography: "Cinematography"
-
-pm_religious_patronage: "Religious Patronage"
-pm_military_patronage: "Military Patronage"
 
 #building_base_farmland
 

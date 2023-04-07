@@ -38,7 +38,7 @@
 				limit = { 
 					is_pop_type = clergymen
 				}
-				value = 250
+				value = 200
 			}
 		}	
 

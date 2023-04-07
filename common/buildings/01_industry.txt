@@ -17,7 +17,7 @@
 	required_construction = construction_cost_high
 }
 
-building_smelteries = {
+building_ironworks = {
 	building_group = bg_heavy_industry
 	texture = "gfx/interface/icons/building_icons/steel_mills.dds"
 	city_type = city
@@ -29,12 +29,54 @@ building_smelteries = {
 	
 	production_method_groups = {
 		pmg_ironworks
+		pmg_slag_byproducts
+		pmg_alloys
+		pmg_pre_industrial_organization
+	}
+	
+	required_construction = construction_cost_high
+}
+
+building_alloy_smelters = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/steel_mills.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		crucible_steel
+	}
+	
+	production_method_groups = {
 		pmg_steelworks
 		pmg_alloys
 		pmg_pre_industrial_organization
 	}
 	
 	required_construction = construction_cost_high
+}
+
+building_tooling_workshops = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/tooling_workshops.dds"
+	
+	unlocking_technologies = {
+		simple_machines
+	}
+
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_tools
+		pmg_machined_parts
+		pmg_motive_power
+		pmg_pre_industrial_organization
+	}
+
+	required_construction = construction_cost_high
+	
+	ai_value = 2000 # Tools are very important
 }
 
 building_food_industry = {
@@ -60,27 +102,6 @@ building_food_industry = {
 	
 }
 
-building_couture_industries = {
-	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/textile_industry.dds"
-	city_type = city
-	levels_per_mesh = 5
-	
-	unlocking_technologies = {
-		fluxes
-	}
-
-	production_method_groups = {
-		pmg_motive_power
-		pmg_pre_industrial_organization
-		pmg_dyeworks
-		pmg_luxury_clothes
-		pmg_waterproof_clothing
-	}
-	
-	required_construction = construction_cost_high
-}
-
 building_textile_mills = {
 	building_group = bg_light_industry
 	texture = "gfx/interface/icons/building_icons/textile_industry.dds"
@@ -93,6 +114,7 @@ building_textile_mills = {
 
 	production_method_groups = {
 		pmg_clothes
+		pmg_luxury_clothes
 		pmg_motive_power
 		pmg_pre_industrial_organization
 	}
@@ -118,29 +140,6 @@ building_furniture_manufacturies = {
 	}
 
 	required_construction = construction_cost_high
-}
-
-building_tooling_workshops = {
-	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/tooling_workshops.dds"
-	
-	unlocking_technologies = {
-		simple_machines
-	}
-
-	city_type = city
-	levels_per_mesh = 5
-
-	production_method_groups = {
-		pmg_tools
-		pmg_machined_parts
-		pmg_motive_power
-		pmg_pre_industrial_organization
-	}
-
-	required_construction = construction_cost_high
-	
-	ai_value = 2000 # Tools are very important
 }
 
 building_paper_mills = {
@@ -169,17 +168,18 @@ building_chemical_plants = {
 	texture = "gfx/interface/icons/building_icons/chemicals_industry.dds"
 	
 	unlocking_technologies = {
-		chemistry
+		fluxes
 	}
 	
 	city_type = city
 	levels_per_mesh = 5
 
 	production_method_groups = {
+		pmg_dyeworks
 		pmg_chemicals
 		pmg_fertilizer
-		pmg_industrial_motive_power
-		pmg_industrial_organization
+		pmg_motive_power
+		pmg_pre_industrial_organization
 	}
 
 	required_construction = construction_cost_high
@@ -197,6 +197,7 @@ building_synthetics_plants = {
 	
 	production_method_groups = {
 		pmg_composite_porcelain
+		pmg_waterproof_clothing
 		pmg_synthetic_fibers
 		pmg_synthetic_polymers
 		pmg_industrial_motive_power
@@ -227,6 +228,26 @@ building_engineering_firms = {
 	required_construction = construction_cost_high
 }
 
+building_oil_refineries = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/electrics_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		steel_frame_buildings
+	}
+
+	production_method_groups = {
+		pmg_oil_cracking
+		pmg_petrochemicals
+		pmg_industrial_motive_power
+		pmg_industrial_organization
+	}
+	
+	required_construction = construction_cost_very_high
+}
+
 building_automotive_firms = {
 	building_group = bg_heavy_industry
 	texture = "gfx/interface/icons/building_icons/vehicles_industry.dds"
@@ -242,26 +263,6 @@ building_automotive_firms = {
 		pmg_tyres
 		pmg_tanks
 		pmg_aeroplanes
-		pmg_industrial_motive_power
-		pmg_industrial_organization
-	}
-	
-	required_construction = construction_cost_very_high
-}
-
-building_oil_refineries = {
-	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/electrics_industry.dds"
-	city_type = city
-	levels_per_mesh = 5
-	
-	unlocking_technologies = {
-		steel_frame_buildings
-	}
-
-	production_method_groups = {
-		pmg_oil_cracking
-		pmg_petrochemicals
 		pmg_industrial_motive_power
 		pmg_industrial_organization
 	}

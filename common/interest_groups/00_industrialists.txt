@@ -27,30 +27,12 @@
 			is_pop_type = capitalists
 			is_pop_type = engineers
 			is_pop_type = shopkeepers
-			is_pop_type = aristocrats
 		}
 	}
 	
 	pop_weight = {
 		value = 0
-
-		add = {
-			desc = "WEALTH"
-			if = {
-				limit = { 
-					wealth > 25
-					NOT = { is_pop_type = aristocrats }
-					NOT = { is_pop_type = farmers }
-				}
-
-				value = wealth
-				subtract = 20
-				multiply = 4
-				max = 250
-
-			}
-			
-		}
+	
 		add = {
 			desc = "POP_CAPITALISTS"
 			if = {
@@ -71,25 +53,6 @@
 			}
 		}			
 
-		add = { #Some workers supports the capitalists
-			desc = "POP_MACHINISTS"
-			if = {
-				limit = { 
-					is_pop_type = machinists
-				}
-				value = 10
-			}
-		}	
-
-		add = { #Some workers supports the capitalists
-			desc = "POP_LABORERS"
-			if = {
-				limit = { 
-					is_pop_type = laborers
-				}
-				value = 5
-			}
-		}
 		add = {
 			desc = "POP_SHOPKEEPERS"
 			if = {
@@ -112,19 +75,7 @@
 				}
 			}
 		}	
-		if = {
-			limit = {
-				scope:interest_group = {
-					is_in_government = yes
-				}
-			}
-			multiply = {
-				desc = "IN_GOVERNMENT_ATTRACTION"
-				value = 1
-				add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
-				min = 0
-			}
-		}
+
 		multiply = {
 			desc = "decentralized_power"	
 			value = 1.0
