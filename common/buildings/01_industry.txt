@@ -19,7 +19,7 @@
 
 building_ironworks = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/steel_mills.dds"
+	texture = "gfx/interface/icons/building_icons/ironworks.dds"
 	city_type = city
 	levels_per_mesh = 5
 
@@ -165,7 +165,7 @@ building_paper_mills = {
 
 building_chemical_plants = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/chemicals_industry.dds"
+	texture = "gfx/interface/icons/building_icons/dyeworks.dds"
 	
 	unlocking_technologies = {
 		fluxes
@@ -230,7 +230,7 @@ building_engineering_firms = {
 
 building_oil_refineries = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/electrics_industry.dds"
+	texture = "gfx/interface/icons/building_icons/oil_refinery.dds"
 	city_type = city
 	levels_per_mesh = 5
 	

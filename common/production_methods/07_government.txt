@@ -89,8 +89,8 @@ pm_public_works_departments = {
     }
 }
 
-pm_index_cards = {
-    texture = "gfx/interface/icons/production_method_icons/index_cards.dds"
+pm_filing_cabinets = {
+    texture = "gfx/interface/icons/production_method_icons/vertical_filing_cabinets.dds"
 
     unlocking_technologies = {
 		index_cards
@@ -113,11 +113,11 @@ pm_index_cards = {
     }
 }
 
-pm_vertical_filing_cabinets = {
-    texture = "gfx/interface/icons/production_method_icons/vertical_filing_cabinets.dds"
+pm_index_cards = {
+    texture = "gfx/interface/icons/production_method_icons/index_cards.dds"
 
     unlocking_technologies = {
-		vertical_filing_cabinets
+		filing_cabinets
 	}
 
     building_modifiers = {
@@ -296,7 +296,7 @@ pm_city_watch = {
     texture = "gfx/interface/icons/production_method_icons/city_watch.dds"
 
     unlocking_technologies = {
-		riot_acts
+		watchmen
 	}
 
     building_modifiers = {
@@ -318,7 +318,7 @@ pm_courts_of_law = {
     texture = "gfx/interface/icons/production_method_icons/courts_of_law.dds"
 
     unlocking_technologies = {
-		jurisprudence
+		judiciary_system
 	}
 
     building_modifiers = {
@@ -620,11 +620,11 @@ pm_operating_theatres = {
     }
 }
 
-pm_scientific_journals = {
+pm_society_journals = {
     texture = "gfx/interface/icons/production_method_icons/paperback_novels.dds"
 
     unlocking_technologies = {
-		scientific_journals
+		society_journals
 	}
 
     building_modifiers = {
@@ -646,7 +646,7 @@ pm_chemical_laboratories = {
     texture = "gfx/interface/icons/production_method_icons/chemical_laboratories.dds"
 
     unlocking_technologies = {
-		experimentation
+		scientific_models
 	}
 
     building_modifiers = {

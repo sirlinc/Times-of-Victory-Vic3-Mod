@@ -311,7 +311,7 @@ pm_radio_dramas = {
     texture = "gfx/interface/icons/production_method_icons/telephones_tov.dds"
 
     unlocking_technologies = {
-		theatre_directors
+		mass_media
 	}
 
     building_modifiers = {
@@ -447,7 +447,7 @@ pm_theatre_realism = {
     texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
 
     unlocking_technologies = {
-		stanislavskis_system
+		auteurs
 	}
 
     building_modifiers = {
@@ -691,7 +691,7 @@ pm_jingoism = {
     texture = "gfx/interface/icons/production_method_icons/jingoism.dds"
 
     unlocking_technologies = {
-		political_agitation
+		unequal_treaties
 	}
 
     building_modifiers = {
@@ -713,7 +713,7 @@ pm_liberalism = {
     texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
 
     unlocking_technologies = {
-		political_agitation
+		classical_liberalism
 	}
 
     building_modifiers = {
@@ -735,7 +735,7 @@ pm_nationalism = {
     texture = "gfx/interface/icons/production_method_icons/government_run.dds"
 
     unlocking_technologies = {
-		political_agitation
+		national_mythos
 	}
 
     building_modifiers = {
@@ -757,7 +757,7 @@ pm_radicalism = {
     texture = "gfx/interface/icons/production_method_icons/fair_trade.dds"
 
     unlocking_technologies = {
-		political_agitation
+		radicalism
 	}
 
     building_modifiers = {
@@ -869,7 +869,7 @@ pm_electric_steet_lamps = {
     texture = "gfx/interface/icons/production_method_icons/electric_streetlights.dds"
 
     unlocking_technologies = {
-		public_safety
+		public_sector
 	}
 
     building_modifiers = {
