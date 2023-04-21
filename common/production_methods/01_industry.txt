@@ -1,4 +1,301 @@
-﻿pm_forest_glass = {
+﻿#pmg_motive_power
+#pmg_industrial_motive_power
+
+pm_manual_labour = {
+	texture = "gfx/interface/icons/production_method_icons/no_infrastructure.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_employment_laborers_add = 4500
+		}
+		unscaled = {
+			building_throughput_mult = -0.1
+		}
+	}
+}
+
+pm_draft_animals = {
+	texture = "gfx/interface/icons/production_method_icons/canals.dds"
+
+	building_modifiers = {
+		workforce_scaled = {												
+			building_input_horses_add = 5	
+			building_employment_laborers_add = 4500
+		}
+	}
+}
+
+pm_rotating_mills = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+
+	unlocking_technologies = {
+		rotating_mills
+	}
+	building_modifiers = {
+		workforce_scaled = {												
+			building_input_wood_add = 10	
+			building_input_horses_add = 5
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 200
+		}
+		unscaled = {
+			building_throughput_mult = 0.05
+		}		
+	}
+}
+
+pm_steam_engines = {
+	texture = "gfx/interface/icons/production_method_icons/rail_linkages.dds"
+
+	pollution_generation = 8
+
+	unlocking_technologies = {
+		steamworks
+	}
+	building_modifiers = {
+		workforce_scaled = {								
+			building_input_iron_add = 10 
+			building_input_coal_add = 10
+			building_employment_laborers_add = 3500
+			building_employment_machinists_add = 400
+		}
+		unscaled = {
+			building_throughput_mult = 0.1
+		}		
+	}
+}
+
+pm_rotary_valve_engine = {
+	texture = "gfx/interface/icons/production_method_icons/cold_storage.dds"
+
+	pollution_generation = 8
+
+	unlocking_technologies = {
+		rotary_valve_engine
+	}
+	building_modifiers = {
+		workforce_scaled = {								
+			building_input_steel_add = 5 
+			building_input_coal_add = 15
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 600
+			building_employment_engineers_add = 100
+		}
+		unscaled = {
+			building_throughput_mult = 0.15
+		}		
+	}
+}
+
+pm_petrol_engines = {
+	texture = "gfx/interface/icons/production_method_icons/electrified_fencing.dds"
+
+	pollution_generation = 8
+
+	unlocking_technologies = {
+		combustion_engine
+	}
+	building_modifiers = {
+		workforce_scaled = {							
+			building_input_engines_add = 5 
+			building_input_fuel_oil_add = 10
+			building_employment_laborers_add = 2250
+			building_employment_machinists_add = 900
+			building_employment_engineers_add = 200
+		}
+		unscaled = {
+			building_throughput_mult = 0.25
+		}		
+	}
+}
+
+pm_electronic_process_control = {
+	texture = "gfx/interface/icons/production_method_icons/electrified_fencing.dds"
+
+	pollution_generation = 8
+
+	unlocking_technologies = {
+		engineering_science
+	}
+	building_modifiers = {
+		workforce_scaled = {							
+			building_input_engines_add = 5 
+			building_input_fuel_oil_add = 10
+			building_input_electricity_add = 15
+			building_employment_laborers_add = 1500
+			building_employment_machinists_add = 1200
+			building_employment_engineers_add = 300
+		}
+		unscaled = {
+			building_throughput_mult = 0.35
+		}		
+	}
+}
+
+#pmg_pre_industrial_organization
+#pmg_industrial_organization
+
+pm_decentralized_industry = {
+	texture = "gfx/interface/icons/production_method_icons/decentralized.dds"
+
+	building_modifiers = {
+	}
+}
+
+pm_aristocratic_control = {
+	texture = "gfx/interface/icons/production_method_icons/tributary_system.dds"
+
+	disallowing_laws = {
+		law_command_economy
+		law_council_republic
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_aristocrats_add = 100
+			building_employment_clergymen_add = 100
+		}
+		unscaled = {
+			building_aristocrats_shares_add = 4
+			building_clergymen_shares_add = 1
+		}
+	}
+}
+
+pm_guild_monopolies = {
+	texture = "gfx/interface/icons/production_method_icons/merchant_guilds.dds"
+
+	unlocking_technologies = {
+		mercantilism
+	}
+
+	disallowing_laws = {
+		law_laissez_faire
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+		}
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+			building_engineers_shares_add = 1		
+		}
+	}
+}
+
+pm_state_owned_enterprise = {
+	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
+
+	unlocking_technologies = {
+		state_owned_enterprise
+	}
+
+	disallowing_laws = {
+		law_laissez_faire
+	}
+	
+	building_modifiers = {
+		level_scaled = {
+			building_employment_bureaucrats_add = 150
+		}
+		unscaled = {
+			building_bureaucrats_shares_add = 2
+			building_government_shares_add = 1
+		}
+	}
+}
+
+pm_small_and_medium_enterprises = {
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
+
+	unlocking_technologies = {
+		entrepreneurship
+	}
+
+	disallowing_laws = {
+		law_command_economy
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_shopkeepers_add = 300
+			building_employment_capitalists_add = 100			
+		}
+		unscaled = {
+			building_capitalists_shares_add = 2
+			building_shopkeepers_shares_add = 2
+			building_engineers_shares_add = 1
+		}
+	}
+}
+
+pm_worker_cooperative = {
+	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds"
+
+	unlocking_technologies = {
+		socialism
+	}
+
+	unlocking_laws = {
+		law_council_republic
+		law_cooperative_ownership
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_engineers_add = 100
+		}
+		unscaled = {
+			building_engineers_shares_add = 2
+			building_laborers_shares_add = 1
+			building_machinists_shares_add = 1
+		}
+	}
+}
+
+pm_military_industrial_complex = {
+	texture = "gfx/interface/icons/production_method_icons/military_industrial_complex.dds"
+
+	unlocking_technologies = {
+		vertical_integration
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_officers_add = 75
+			building_employment_capitalists_add = 75
+		}
+		unscaled = {
+			building_officers_shares_add = 2 
+			building_capitalists_shares_add = 2 
+		}	
+	}
+}
+
+pm_industrial_conglomerate = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+
+	unlocking_technologies = {
+		vertical_integration
+	}
+
+	disallowing_laws = {
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_clerks_add = 300
+			building_employment_capitalists_add = 100			
+		}
+		unscaled = {
+			building_capitalists_shares_add = 4
+			building_clerks_shares_add = 1
+		}
+	}
+}
+
+pm_forest_glass = {
     texture = "gfx/interface/icons/production_method_icons/forest_glass.dds"
 
     

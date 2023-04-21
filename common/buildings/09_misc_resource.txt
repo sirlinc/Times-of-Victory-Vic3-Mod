@@ -15,7 +15,7 @@
 
 building_oil_rig = {
 	building_group = bg_oil_extraction
-	texture = "gfx/interface/icons/building_icons/oil_rig.dds"
+	texture = "gfx/interface/icons/building_icons/oil_rig_tov.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_low

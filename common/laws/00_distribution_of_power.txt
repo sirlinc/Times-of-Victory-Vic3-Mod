@@ -108,7 +108,7 @@ law_landed_voting = {
 	progressiveness = -25
 
 	unlocking_technologies = {
-		democracy
+		the_marketplace_of_ideas
 	}
 
 	disallowing_laws = {
@@ -176,7 +176,7 @@ law_wealth_voting = {
 	progressiveness = 0
 
 	unlocking_technologies = {
-		democracy
+		the_marketplace_of_ideas
 	}
 
 	disallowing_laws = {
@@ -297,7 +297,7 @@ law_universal_suffrage = {
 	progressiveness = 100
 
 	unlocking_technologies = {
-		egalitarianism
+		democracy
 	}
 
 	disallowing_laws = {
@@ -368,7 +368,7 @@ law_anarchy = {
 	progressiveness = 200
 
 	unlocking_technologies = {
-		anarchism 
+		the_marketplace_of_ideas 
 	}
 	
 	unlocking_laws = {

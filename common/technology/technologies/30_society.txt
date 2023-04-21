@@ -229,7 +229,7 @@ fractional_reserve_banking = {
 
 central_archives = {
 	era = era_3
-	texture = "gfx/interface/icons/invention_icons/central_archives.dds"
+	texture = "gfx/interface/icons/invention_icons/central_archives_tov.dds"
 	category = society
 	modifier = {
 		country_bureaucracy_add = 10
@@ -311,7 +311,7 @@ watchmen = {
 	texture = "gfx/interface/icons/invention_icons/watchmen.dds"
 	category = society
 	unlocking_technologies = {
-		curfews
+		social_contract_theory
 	}
 }
 
@@ -661,7 +661,7 @@ symphony_orchestra = {
 	}
 }
 
-neoclassicism = {
+neoclassicism_tov = {
 	era = era_5
 	texture = "gfx/interface/icons/invention_icons/neoclassicism.dds"
 	category = society
@@ -727,7 +727,6 @@ democracy = {
 	texture = "gfx/interface/icons/invention_icons/democracy_tov.dds"
 	category = society
 	modifier = {
-		country_institution_social_security_max_investment_add = 1
 	}
 	unlocking_technologies = {
 		the_marketplace_of_ideas
@@ -752,7 +751,7 @@ pedagogy = {
 	texture = "gfx/interface/icons/invention_icons/pedagogy.dds"
 	category = society
 	modifier = {
-		country_institution_schools_max_investment_add = 2
+		country_institution_schools_max_investment_add = 1
 	}
 	unlocking_technologies = {
 		society_journals
@@ -844,7 +843,8 @@ index_cards = {
 	texture = "gfx/interface/icons/invention_icons/military_statistics.dds"
 	category = society
 	unlocking_technologies = {
-		postal_service
+		land_reform
+		urban_planning
 	}
 }
 
@@ -859,6 +859,7 @@ street_lighting = {
 
 manifest_destiny = {
 	era = era_7
+		texture = "gfx/interface/icons/invention_icons/geopolitics.dds"
 	category = society
 	modifier = {
 		country_institution_colonial_affairs_max_investment_add = 1
@@ -874,7 +875,6 @@ egalitarianism = {
 	texture = "gfx/interface/icons/invention_icons/egalitarianism.dds"
 	category = society
 	modifier = {
-		country_institution_social_security_max_investment_add = 1
 	}
 	unlocking_technologies = {
 		law_enforcement
@@ -984,7 +984,6 @@ social_sciences = {
 	texture = "gfx/interface/icons/invention_icons/psychiatry.dds"
 	category = society
 	modifier = {
-		country_institution_schools_max_investment_add = 1
 	}
 	unlocking_technologies = {
 		dialectics
@@ -1078,7 +1077,7 @@ filing_cabinets = {
 	texture = "gfx/interface/icons/invention_icons/central_archives.dds"
 	category = society
 	unlocking_technologies = {
-		census_bureau
+		identification_documents
 	}
 }
 
@@ -1091,7 +1090,7 @@ public_sector = {
 		country_government_wages_mult = 0.1
 	}
 	unlocking_technologies = {
-		census_bureau
+		identification_documents
 	}
 }
 
@@ -1113,7 +1112,6 @@ human_rights = {
 	texture = "gfx/interface/icons/invention_icons/international_diplomacy.dds"
 	category = society
 	modifier = {
-		country_institution_social_security_max_investment_add = 1
 		country_institution_workplace_safety_max_investment_add = 1
 	}
 	unlocking_technologies = {
@@ -1139,7 +1137,7 @@ psychiatry = {
 		country_weekly_innovation_max_add = 5
 	}
 	unlocking_technologies = {
-		behaviourism
+		behaviorism
 	}
 }
 
@@ -1267,7 +1265,6 @@ ethics = {
 	texture = "gfx/interface/icons/invention_icons/ethics.dds"
 	category = society
 	modifier = {
-		country_institution_schools_max_investment_add = 1
 		country_institution_workplace_safety_max_investment_add = 1
 	}
 	unlocking_technologies = {
@@ -1305,33 +1302,33 @@ central_planning = {
 		country_bureaucracy_mult = 0.1
 	}
 	unlocking_technologies = {
-		identification_documents
+		census_bureau
 		monetarism
 	}
 }
 
-mass_surveilance = {
+mass_surveillance = {
 	era = era_10
 	texture = "gfx/interface/icons/invention_icons/mass_surveillance.dds"
 	category = society
 	modifier = {
-		country_institution_police_max_investment_add = 1
 	}
 	unlocking_technologies = {
-		identification_documents
+		census_bureau
 		forensic_science
 	}
 }
 
 family_planning = {
 	era = era_10
-	texture = "gfx/interface/icons/invention_icons/democracy.dds"
+	texture = "gfx/interface/icons/invention_icons/family_planning.dds"
 	category = society
 	modifier = {
 		country_institution_social_security_max_investment_add = 1
 	}
 	unlocking_technologies = {
 		ethics
+		feminism
 	}
 }
 

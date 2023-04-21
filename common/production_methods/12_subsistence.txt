@@ -20,13 +20,14 @@
 				building_group_bg_subsistence_agriculture_peasants_standard_of_living_add = 5
 				building_group_bg_subsistence_agriculture_clergymen_standard_of_living_add = 8
 				building_group_bg_subsistence_agriculture_aristocrats_standard_of_living_add = 13
+				state_bureaucracy_population_base_cost_factor_mult = -0.9
 			}
 
 		state_modifiers = {
 
 			workforce_scaled = {
 				building_group_bg_agriculture_throughput_mult = 0.01
-				state_bureaucracy_population_base_cost_factor_mult = -0.05
+				
 			}
 		}
 	}

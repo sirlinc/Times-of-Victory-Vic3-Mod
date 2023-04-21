@@ -66,71 +66,165 @@
 
   # flavor ideologies
 
+#army_model
+law_warrior_bands: "Warrior Bands"
+law_warrior_bands_desc: "A military system relying on loosely organized bands of tribal warriors, bound by loyalty and common interests, often lacking formal training and hierarchy."
 
-  # Government Principles group
+law_mercenary_army: "Mercenary Army"
+law_mercenary_army_desc: "A military force primarily composed of hired soldiers who are motivated by financial incentives and will fight for any party that employs them."
 
-  
-  # Free speech group
- law_informal_regulation: "Informal Regulation"
- law_informal_regulation_desc: "There are no codified laws regulating speech, but it is nonetheless unwise to criticise those in power."
-  
-  # Army Model group
- law_warrior_bands: "Warrior Society"
- law_warrior_bands_desc: "Warfare is a part of life for the adult members of this society, or adjacent to their normal methods of survival. Virtually every man is expected to fight when needed."
-  
-  # Distribution of Power group
-  
-  # Voting System group
-  
-  # Workplace Safety group
-  
-  # Children's Rights group
-  
-  # Slavery group
-  
-  # Church and State group
-  
- law_tolerance: "Tolerance"
- law_tolerance_desc: "There is a tacit state religion, and heretics and heathens are often disadvantaged or heavily discriminated against."
-  
-  # Citizenship group
- law_subjects: "Subjects"
- law_subjects_desc: "The denizens of the state are not citizens, but subjects beholden to a lord, sovereign, or religious figure. They have a limited range of rights and autonomy."
+law_standing_army: "Standing Army"
+law_standing_army_desc: "A professional, full-time army maintained and funded by the nation, trained and equipped for both peacetime and wartime operations."
 
-  # Economic System group
+#bureaucracy
+law_hereditary_office: "Hereditary Office"
+law_hereditary_office_desc: "A system where bureaucratic positions are treated as inherited titles, passed down through family lines, often resulting in entrenched power structures."
 
- # Trade Policy group
+law_purchased_office: "Purchased Office"
+law_purchased_office_desc: "A system where bureaucratic positions and titles can be acquired by individuals with the financial means, potentially leading to corruption and inefficiency."
 
-  # Taxation Group
-  
-  # Education System group
-  
-  # Health System group
- 
-  # Welfare group
-  
-  # Rights of Women group
-  
-  # Policing
-  
-  # Bureaucracy
- law_ad_hoc_bureaucrats: "Ad Hoc Bureaucrats"
- law_ad_hoc_bureaucrats_desc: "There are no permanent bureaucratic positions, and roles of responsibility are created only when the need arises."
-  
-  # Colonization
- law_territoriality: "Territoriality"
- law_territoriality_desc: "We must consolidate our power on the all the far flung edges of our state, and expand our territory when no such boundary markers exist."
-  
-  # Internal Security
- law_religious_zealotry: "Religious Zealotry"
- law_religious_zealotry_desc: "There is but one true faith. Inquisitions, pogroms, and forced conversions of heretics and heathens are all sanctioned by the state."
-  
-  # Migration
+law_appointed_office: "Appointed Office"
+law_appointed_office_desc: "A system where bureaucratic positions are filled through appointment, typically made by higher-ranking officials or rulers, based on loyalty or political considerations."
+
+law_elected_office: "Elected Office"
+law_elected_office_desc: "A democratic system where bureaucratic positions are filled through elections, giving eligible citizens the opportunity to choose their representatives."
+
+law_meritocratic_office: "Meritocratic Office"
+law_meritocratic_office_desc: "A system that values competence and expertise, where bureaucratic positions are awarded based on demonstrated ability and proven track record."
+
+#childrens_rights
+law_child_labor_expected: "Child Labor Expected"
+law_child_labor_expected_desc: "A society that views child labor as an essential part of its economy, often leading to the exploitation of minors and deprivation of education."
+
+law_compulsory_education_to_twelve: "Compulsory Education to Twelve"
+law_compulsory_education_to_twelve_desc: "A system that enforces mandatory education for all children up to the age of twelve, aiming to provide basic knowledge and skills."
+
+law_compulsory_education_to_sixteen: "Compulsory Education to Sixteen"
+law_compulsory_education_to_sixteen_desc: "A system that enforces mandatory education for all children up to the age of sixteen, promoting a more educated and skilled population."
+
+#citizenship
+law_cultural_tolerance: "Cultural Tolerance"
+law_cultural_tolerance_desc: "A policy that fosters acceptance of diverse cultural groups within a society, shunning open discrimination and aspiring for equal treatment."
+
+#colonial_affairs
+law_commerce: "Commerce"
+law_commerce_desc: "A colonial policy focused on building and expanding trade networks, fostering economic relationships between the homeland and indigenous polities."
+
+law_paternalism: "Paternalism"
+law_paternalism_desc: "A colonial policy that views colonized peoples as needing guidance and supervision from the colonizing power, often leading to paternalistic control and exploitation."
+
+law_assimilation: "Assimilation"
+law_assimilation_desc: "A colonial policy aimed at forcefully integrating colonized peoples into the culture and society of the colonizing power, erasing their unique identities and customs."
+
+#economic_system
+law_corporatism: "Corporatism"
+law_corporatism_desc: "An economic system that promotes the organization of society into industrial and professional groups, working together to achieve shared economic and social goals."
+
+#education_system
+law_youth_leagues: "Youth Leagues"
+law_youth_leagues_desc: "Large-scale associations aimed at training and educating teenagers and young adults, often driven by ideological, religious, or nationalistic objectives, fostering loyalty and commitment."
+
+#policing
+law_informal_policing: "Informal Policing"
+law_informal_policing_desc: "An informal approach to policing that relies on local customs and social norms, with judgments typically decided by respected community figures or elders."
+
+law_police_by_consent: "Police by Consent"
+law_police_by_consent_desc: "A policing model that emphasizes public support, cooperation, and minimal use of force, seeking to build trust and maintain law and order through community engagement."
+
+law_regulated_police_force: "Regulated Police Force"
+law_regulated_police_force_desc: "An armed police system with standardized practices, procedures, and oversight mechanisms to ensure accountability, professionalism, and adherence to the rule of law."
+
+law_paramilitary_force: "Paramilitary"
+law_paramilitary_force_desc: "A policing approach that employs military-style tactics, equipment, and training to maintain order and enforce the law, often leading to an aggressive and confrontational stance."
+
+#rights_of_women
+law_women_in_leadership: "Women in Leadership"
+law_women_in_leadership_desc: "A society that actively encourages and supports the participation of women in leadership roles across various sectors/"
+
+#taxation
+law_exemption_taxation: "Exemption Taxation"
+law_exemption_taxation_desc: "A tax system that allows individuals to pay a specific levy, such as a heathen tax or exemption fees, in order to be exempt from certain civil obligations or requirements."
+
+#welfare
+law_disability_pension: "Disability Pension"
+law_disability_pension_desc: "A social welfare program that offers financial support to individuals unable to work due to disability, primarily focusing on veterans and others with long-term impairments."
+
+# Free speech group
+law_informal_regulation: "Informal Regulation"
+law_informal_regulation_desc: "While there are no explicit laws governing speech, discretion is advised when critiquing those in authority."
+
+# Church and State group
+law_tolerance: "Tolerance"
+law_tolerance_desc: "An implicit state religion exists, leading to discrimination and disadvantages for heretics and non-believers."
+
+# Internal Security
+law_religious_zealotry: "Religious Zealotry"
+law_religious_zealotry_desc: "A singular faith prevails; state-sanctioned inquisitions, pogroms, and forced conversions target heretics and heathens."
+
+# Migration
 law_heavy_migration_controls: "Heavy Migration Controls"
-law_heavy_migration_controls_desc: "The movement of people across the border is tightly controlled with advanced forms of control such as passports, quotas, or severe punishments for illegal immigrants."
+law_heavy_migration_controls_desc: "Strict controls on border crossings employ advanced measures such as passports, quotas, and harsh penalties for illegal immigration."
 
 law_light_migration_controls: "Light Migration Controls"
-law_light_migration_controls_desc: "Simple identification measures are used at our borders, and only the common sites of crossing are monitored and enforced."
+law_light_migration_controls_desc: "Basic identification is required at border crossings, which are monitored and enforced at popular transit points."
 
 law_freedom_of_movement: "Freedom of Movement"
-law_freedom_of_movement_desc: "Migrants are able to cross through your borders at whim."
+law_freedom_of_movement_desc: "Migrants can traverse borders with ease and without restriction."
+
+# Military Policy
+law_dominance: "Dominance"
+law_dominance_desc: "A military posture emphasizing asserting unilateral power and control over other nations and regions."
+
+law_interventionist: "Interventionist"
+law_interventionist_desc: "Proactive engagement in international affairs and conflicts aims to further national interests."
+
+law_balanced: "Balanced"
+law_balanced_desc: "A measured policy approach that balances both offensive and defensive military goals."
+
+law_deterrence: "Deterrence"
+law_deterrence_desc: "A military p a formidable military presence, potential adversaries are discouraged from attack or provocation."
+
+law_defensive: "Defensive"
+law_defensive_desc: "A military policy focused wholly on national security and defense, minimizing involvement in external conflicts."
+
+# Political Representation
+law_no_representation: "No Representation"
+law_no_representation_desc: "Citizens are denied the right to elect representatives or participate in the political decision-making process."
+
+law_temporary_assemblies: "Temporary Assemblies"
+law_temporary_assemblies_desc: "Ad hoc representative bodies convene to address specific issues or crises, but tend to have limited legislative impact."
+
+# Navy Model
+law_coastal_levies: "Coastal Levies"
+law_coastal_levies_desc: "Naval forces are raised by enlisting coastal communities to provide ships and sailors during times of need."
+
+law_privateer_fleets: "Privateer Fleets"
+law_privateer_fleets_desc: "Private vessels are commissioned to raid and capture enemy ships during times of war."
+
+law_standing_navy: "Standing Navy"
+law_standing_navy_desc: "A professional, full-time naval force is maintained for peacetime and wartime operations."
+
+law_auxiliary_fleets: "Auxiliary Fleets"
+law_auxiliary_fleets_desc: "A range of civilian vessels and personnel - such as a merchant navy - supplement the nation's naval forces during times of conflict."
+
+law_naval_task_forces: "Naval Task Forces"
+law_naval_task_forces_desc: "A step beyond the standing navy and auxiliary fleets, naval forces are organized into specialized units designed for specific missions and objectives."
+
+# Devolution of Power
+law_unitarism: "Unitarism"
+law_unitarism_desc: "Political power is centralized within a singular, national authority."
+
+law_federalism: "Federalism"
+law_federalism_desc: "Power is distributed between a central government and smaller, constituent political units."
+
+law_decentralization: "Decentralization"
+law_decentralization_desc: "Power is heavily weighted in favor of regional or local authorities, some of whom may function almost as de facto independent entities."
+
+law_confederation: "Confederation"
+law_confederation_desc: "An alliance-based political system uniting multiple polities, who cooperate on broader issues while retaining considerable sovereignty."
+
+law_consociationalism: "Consociationalism"
+law_consociationalism_desc: "A system of communal governance that fosters accommodation by sharing power and decision-making among diverse groups."
+
+law_anarchy: "Anarchy"
+law_anarchy_desc: "A society characterized by the absence of formal governance structures, relying on voluntary, self-organized cooperation."
