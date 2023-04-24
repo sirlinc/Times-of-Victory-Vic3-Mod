@@ -19,7 +19,7 @@
  
 building_iron_mine = {
 	building_group = bg_iron_mining
-	texture = "gfx/interface/icons/building_icons/iron_mine.dds"
+	texture = "gfx/interface/icons/building_icons/iron_mine_tov.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium

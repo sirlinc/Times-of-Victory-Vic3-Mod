@@ -830,6 +830,7 @@ steel_frame_buildings = {
 	
 	unlocking_technologies = {
 		pneumatic_tools
+		reinforced_concrete
 	}
 }
 
@@ -909,6 +910,7 @@ electric_arc_furnace = {
 	
 	unlocking_technologies = {	
 		batch_process
+		electrical_dynamos
 	}
 }
 

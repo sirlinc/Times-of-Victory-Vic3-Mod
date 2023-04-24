@@ -65,8 +65,8 @@ building_munitions_arsenal: "Munitions Arsenal"
 modifier_building_munitions_arsenal_throughput_mult: "$building_munitions_arsenal$ building [concept_throughput]"
 modifier_building_munitions_arsenal_throughput_mult_desc: "A bonus or penalty to both input and output of $building_munitions_arsenal$"
 
-# Kaolin Mine
-building_kaolin_mine: "Kaolin Mine"
+# Kaolin Mines
+building_kaolin_mine: "Kaolin Mines"
 modifier_building_kaolin_mine_throughput_mult: "$building_kaolin_mine$ building [concept_throughput]"
 modifier_building_kaolin_mine_throughput_mult_desc: "A bonus or penalty to both input and output of $building_kaolin_mine$"
 

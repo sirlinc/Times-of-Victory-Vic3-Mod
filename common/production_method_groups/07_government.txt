@@ -67,7 +67,7 @@ pmg_scientific_infrastructure = {
 	production_methods = {
 		pm_no_science_infrastructure
 		pm_operating_theatres
-		pm_scientific_journals
+		pm_society_journals
 		pm_chemical_laboratories
 		pm_research_departments
 		pm_applied_research_labs
