@@ -7,7 +7,7 @@
  ideology_traditionalist:0 "Traditionalist"
  ideology_traditionalist_desc:0 "#lore This leader believes in maintaining traditional customs, viewing them as an extension of natural laws. #!"
 
- ideology_atheist:1 "Rationalism"
+ ideology_atheist:1 "Rationalist"
  ideology_atheist_desc:0 "#lore This leader believes that reason and critical thinking are the only ways to achieve true knowledge in full, being very skeptical of religion. #!"
 
  ideology_republican_leader:0 "Civic Republican"
@@ -62,8 +62,85 @@
  ideology_market_liberal_desc:0 "#lore This leader believes that the invisible hand of the free market should be the guiding force of the nation's economy."
 
   # Interest Group Ideologies
+ 
+ ideology_absolutist: "Absolutist"
+ ideology_absolutist_desc: "This group believes that the figure of the monarch should hold the total concentration of power in a country."
+ 
+ ideology_oligarchism: "Oligarch"
+ ideology_oligarchism_desc: "#lore This group believes that a certain number of people, few compared to the rest of the population, should take power and govern."
+ 
+ ideology_paternalistic:0 "Paternalistic"
+ ideology_paternalistic_desc:0 "#lore This group has little faith in the populus attempting to govern itself, believing they need the guidance of a traditional aristocracy.#!"
+  
+ ideology_patriarchal:0 "Patriarchal"
+ ideology_patriarchal_desc:0 "#lore This group believes men should have political authority and that women should obey their fathers and husbands.#!"
+   
+ ideology_republican:0 "Civic Republican"
+ ideology_republican_desc:0 "#lore This group believes the best leaders are elected by public vote and supports a republican form of government.#!"
+  
+ ideology_populist:0 "Populist"
+ ideology_populist_desc:0 "#lore This group believes in governance by the people and seeks to expand the franchise to all social classes.#!"
+  
+ ideology_stratocratic:0 "Stratocratic"
+ ideology_stratocratic_desc:0 "#lore This group favors maintaining a hierarchy in society through traditional forms of taxation and labor relations.#!"
+  
+ ideology_laissez_faire:0 "Laissez-Faire"
+ ideology_laissez_faire_desc:0 "#lore This group believes in the free flow of trade and labor forces, favoring the judgment of markets over that of governments.#!"
+  
+ ideology_individualist:0 "Individualist"
+ ideology_individualist_desc:0 "#lore This group believes each person is responsible for their own fate and opposes government programs to provide services that can be paid for by the individual.#!"
+  
+ ideology_pious:0 "Pious"
+ ideology_pious_desc:0 "#lore This group believes religious principles are paramount moral truths and that they should permeate all of society.#!"
+  
+ ideology_particularist:0 "Particularist"
+ ideology_particularist_desc:0 "#lore This group wants local autonomy in their work, free of feudal provisions of indentured servitude.#!"
+  
+ ideology_isolationist:0 "Isolationist"
+ ideology_isolationist_desc:0 "#lore This group wants the state to focus on domestic matters, opposing ambitions to expand into foreign lands as well as immigration from them.#!"
+  
+ ideology_moralist:0 "Moralist"
+ ideology_moralist_desc:0 "#lore This group has a strong belief in a religious moral order and views diversity of opinion and cultures as a threat to this order.#!"
+  
+ ideology_jingoist:0 "Expansionist"
+ ideology_jingoist_desc:0 "#lore This group believes in an aggressive foreign policy and maintaining an army to back it up.#!"
 
+ ideology_loyalist:0 "Loyalist"
+ ideology_loyalist_desc:0 "#lore This group believes each citizen should pay their dues to fund the vital functions of the state.#!"
+ 
+ ideology_meritocratic:0 "Meritocratic"
+ ideology_meritocratic_desc:0 "#lore This group believes success is earned and that those who have achieved it deserve the accompanying responsibility and wealth.#!"
+   
+ ideology_patriotic:0 "Patriotic"
+ ideology_patriotic_desc:0 "#lore This group is fiercely devoted to its country and wants harsh measures against those who would spread dissent.#!"
+  
+ ideology_liberal:0 "Liberal"
+ ideology_liberal_desc:0 "#lore This group views liberty and legal equality as important values to be safeguarded.#!"
+  
+ ideology_anti_clerical:0 "Anti-Clerical"
+ ideology_anti_clerical_desc:1 "#lore This group opposes the influence of organized religion on the political and education system. They believe that rational minds should be at the forefront of governance.#!"
+  
+ ideology_proletarian:0 "Proletarian"
+ ideology_proletarian_desc:0 "#lore This group views politics through the lens of class struggle and sides with the workers in this conflict.#!"
+  
+ ideology_egalitarian:0 "Egalitarian"
+ ideology_egalitarian_desc:0 "#lore This group believes that equal and humane treatment of people should be a cornerstone of political policy.#!"
+   
+ ideology_anti_slavery:0 "Anti-Slavery"
+ ideology_anti_slavery_desc:0 "#lore This group abhors slavery and views it as a feature of a barbarous past.#!"
+ 
+ ideology_pro_slavery:0 "Pro-Slavery"
+ ideology_pro_slavery_desc:0 "#lore This group views slavery as a necessary part of a well-functioning society.#!"
+  
+ ideology_reactionary:0 "Reactionary"
+ ideology_reactionary_desc:0 "#lore This group is nostalgic for a past, real or imagined, where just kings ruled over a uniform society.#!"
+ 
+ ideology_plutocratic:0 "Plutocratic"
+ ideology_plutocratic_desc:0 "#lore This group believes that the wealthy have proven their worth as decision-makers and form an intellectual elite well suited to set the course of society.#!"
 
+ ideology_agrarian:0 "Agrarian"
+ ideology_agrarian_desc:0 "#lore This group believes the focus of economic policy should be on agriculture and the interests of farmers.#!"
+ 
   # flavor ideologies
 
 

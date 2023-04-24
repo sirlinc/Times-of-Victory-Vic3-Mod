@@ -3,14 +3,19 @@
 	texture = "gfx/interface/icons/ig_icons/intelligensia.dds"
 	
 	ideologies = {
-		ideology_liberal
 		ideology_anti_clerical
 		ideology_republican
-		ideology_anti_slavery
+		ideology_liberal
+		ideology_egalitarian
 	}
 	
 	enable = {
-		always = yes
+		trigger_if = {
+			#limit = { 
+			#	has_variable = moyenne_bourgeoise_event
+			#}
+			has_technology_researched = absolutism 
+		}
 	}
 	
 	traits = {
@@ -24,8 +29,7 @@
 	on_character_ig_membership = {}
 	
 	pop_potential = {
-		literacy_rate > 0.25
-		NOT = { is_pop_type = peasants }
+		literacy_rate > 0.2
 	}	
 	
 	pop_weight = {
@@ -80,6 +84,30 @@
 				value = 50
 			}
 		}		
+		
+		add = {
+			desc = "LITERACY_30_40"
+			
+			if = {
+				limit = { 
+					literacy_rate >= 0.30
+					literacy_rate < 0.40
+				}
+				add = 6
+			}
+		}	
+		
+		add = {
+			desc = "LITERACY_40_50"
+			
+			if = {
+				limit = { 
+					literacy_rate >= 0.40
+					literacy_rate < 0.50
+				}
+				add = 8
+			}
+		}	
 		
 		add = {
 			desc = "LITERACY_50_60"

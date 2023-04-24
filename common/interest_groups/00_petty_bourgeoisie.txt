@@ -3,9 +3,11 @@
 	texture = "gfx/interface/icons/ig_icons/petty_bourgeoisie.dds"
 	
 	ideologies = {
-		ideology_reactionary
+		#ideology_reactionary -> The term "reactionary" only began to be used during the French Revolution. Will replace "Liberal" and "Moralist" ideologies after the event "Fall of the Old Regime"
+		#ideology_patriotic -> Will be enable by techs
 		ideology_meritocratic
-		ideology_patriotic
+		ideology_liberal
+		ideology_moralist
 	}
 
 	enable = {
@@ -55,9 +57,19 @@
 				limit = { 
 					is_pop_type = clerks
 				}
-				value = 50
+				value = 60
 			}
 		}			
+		
+		add = {
+			desc = "POP_FARMERS"
+			if = {
+				limit = { 
+					is_pop_type = farmers
+				}
+				value = 30
+			}
+		}		
 
 		multiply = {
 			desc = "LEADER_POPULARITY"

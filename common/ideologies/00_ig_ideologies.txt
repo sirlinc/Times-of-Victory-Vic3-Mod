@@ -1,22 +1,22 @@
 ﻿ideology_paternalistic = {
 	icon = "gfx/interface/icons/ideology_icons/paternalistic.dds"
 	
+	lawgroup_distribution_of_power = {
+		law_autocracy = strongly_approve
+		law_landed_voting = approve
+		law_oligarchy = approve
+		law_wealth_voting = disapprove
+		law_census_voting = disapprove
+		law_universal_suffrage = strongly_disapprove
+		law_anarchy = strongly_disapprove
+	}
+	
 	lawgroup_governance_principles = {
 		law_monarchy = strongly_approve
 		law_theocracy = approve			
 		law_presidential_republic = neutral
 		law_parliamentary_republic = neutral
 		law_council_republic = strongly_disapprove
-	}
-	
-	lawgroup_distribution_of_power = {
-		law_landed_voting = strongly_approve
-		law_autocracy = strongly_approve
-		law_oligarchy = approve
-		law_wealth_voting = neutral
-		law_census_voting = disapprove
-		law_universal_suffrage = strongly_disapprove
-		law_anarchy = strongly_disapprove
 	}
 	
 	lawgroup_bureaucracy = {
@@ -253,7 +253,8 @@ ideology_moralist = {
 
 	lawgroup_church_and_state = {
 		law_state_religion = strongly_approve
-		law_freedom_of_conscience = neutral
+		law_tolerance = neutral
+		law_freedom_of_conscience = disapprove
 		law_total_separation = strongly_disapprove
 	}
 
@@ -274,6 +275,13 @@ ideology_meritocratic = {
 		law_appointed_bureaucrats = neutral		
 		law_hereditary_bureaucrats = disapprove
 	}	
+	
+	lawgroup_army_model = {
+		law_professional_army = approve
+		law_mass_conscription = neutral
+		law_national_militia = disapprove
+		law_peasant_levies = disapprove
+	}
 	
 	lawgroup_taxation = {
 		law_per_capita_based_taxation = approve
@@ -338,16 +346,23 @@ ideology_jingoist = {
 	}
 }
 
+ideology_cultural_tolerance = {
+	icon = "gfx/interface/icons/ideology_icons/jingoist.dds"
+	
+
+
+}
+
 ideology_liberal = {
 	icon = "gfx/interface/icons/ideology_icons/liberal.dds"
 	
-	lawgroup_citizenship = {
-		law_multicultural = disapprove
-		law_ethnostate = disapprove
-		law_national_supremacy = disapprove
-		law_racial_segregation = neutral
-		law_cultural_exclusion = approve	
-	}
+	#lawgroup_citizenship = {
+	#	law_multicultural = disapprove
+	#	law_ethnostate = disapprove
+	#	law_national_supremacy = disapprove
+	#	law_racial_segregation = neutral
+	#	law_cultural_exclusion = approve	
+	#}
 	
 	lawgroup_policing = {
 		law_no_police = neutral
@@ -384,6 +399,7 @@ ideology_anti_clerical = {
 	lawgroup_church_and_state = {
 		law_total_separation = strongly_approve
 		law_freedom_of_conscience = approve
+		law_tolerance = approve
 		law_state_religion = disapprove
 	}
 	
@@ -475,13 +491,21 @@ ideology_proletarian = {
 ideology_egalitarian = {
 	icon = "gfx/interface/icons/ideology_icons/egalitarian.dds"
 	
+	lawgroup_citizenship = {
+		law_multicultural = disapprove #Balancing
+		law_ethnostate = disapprove
+		law_national_supremacy = disapprove
+		law_racial_segregation = neutral
+		law_cultural_exclusion = approve	
+	}
+	
 	lawgroup_free_speech = {
 		law_protected_speech = strongly_approve
 		law_right_of_assembly = approve
 		law_censorship = neutral
 		law_outlawed_dissent = disapprove
 	}
-	
+
 	lawgroup_childrens_rights = {
 		law_compulsory_primary_school = strongly_approve
 		law_restricted_child_labor = approve	
@@ -575,6 +599,12 @@ ideology_plutocratic = {
 		law_autocracy = disapprove
 		law_universal_suffrage = strongly_disapprove
 		law_anarchy = strongly_disapprove
+	}
+	
+	lawgroup_bureaucracy = {
+		law_hereditary_bureaucrats = approve
+		law_appointed_bureaucrats = disapprove
+		law_elected_bureaucrats = neutral
 	}
 
 	lawgroup_governance_principles = {

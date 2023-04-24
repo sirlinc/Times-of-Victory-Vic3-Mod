@@ -1,5 +1,5 @@
 ﻿ig_devout = {
-	color = hsv{ 0.50 0.30 0.67 }
+	color = hsv{ 0.6 0.1 0.99 }
 	texture = "gfx/interface/icons/ig_icons/devout.dds"
 	
 	ideologies = {
@@ -7,7 +7,7 @@
 		ideology_moralist
 		ideology_patriarchal
 	}
-	
+
 	enable = {
 		always = yes
 	}

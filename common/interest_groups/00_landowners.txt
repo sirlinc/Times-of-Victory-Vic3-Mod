@@ -1,10 +1,11 @@
 ﻿ig_landowners = {
-	color = hsv{ 0.63 0.40 0.69 }
+	color = hsv{ 0.50 0.89 0.78 }
 	texture = "gfx/interface/icons/ig_icons/landowners.dds"
 	
 	ideologies = {
-		ideology_paternalistic
+		ideology_agrarian
 		ideology_stratocratic
+		ideology_plutocratic
 		ideology_patriarchal
 	}
 	
@@ -13,9 +14,9 @@
 	}
 	
 	traits = {
-		ig_trait_noblesse_oblige
-		ig_trait_family_ties
-		ig_trait_noble_privileges
+		ig_trait_golden_age_agriculture
+		ig_trait_feudal_relations
+		ig_trait_conspiracies_from_rural_lands
 	}
 	
 	on_enable = {}
@@ -27,13 +28,14 @@
 			is_pop_type = aristocrats
 			is_pop_type = clergymen
 			is_pop_type = officers
+			is_pop_type = clergymen
 			is_pop_type = farmers
 		}		
 	}
 	
 	pop_weight = {
 		value = 0
-	
+		
 		add = {
 			desc = "POP_ARISTOCRATS"
 			if = {
@@ -50,7 +52,22 @@
 				limit = { 
 					is_pop_type = clergymen
 				}
-				value = 50
+				value = 45
+			}
+		}
+		
+		add = {
+			desc = "POP_CLERGYMEN_CHURCH_SUPPORT"
+			if = {
+				limit = { 
+					is_pop_type = clergymen
+					scope:interest_group = { is_in_government = yes }
+					OR = {
+						has_law = law_type:law_state_religion 
+						has_law = law_type:law_tolerance 
+					}
+				}
+				value = 20
 			}
 		}
 

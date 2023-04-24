@@ -1,16 +1,21 @@
 ﻿ig_trade_unions = {
-	color = hsv{ 0 0.56 0.58 }
+	color = hsv{ 1.0 0.8 1.0 }
 	texture = "gfx/interface/icons/ig_icons/trade_unions.dds"
 	
 	ideologies = {
 		ideology_proletarian
 		ideology_egalitarian
 		ideology_populist
-		ideology_anti_slavery
+		#ideology_anti_slavery
 	}
 	
 	enable = {
-		always = yes
+		trigger_if = {
+			#limit = { 
+			#	has_variable = trade_union_event
+			#}
+			has_technology_researched = natural_law 
+		}
 	}
 	
 	traits = {
