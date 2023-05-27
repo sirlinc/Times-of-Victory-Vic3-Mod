@@ -347,8 +347,8 @@ types information_panels_types
 			}
 
 			hbox = {
-				layoutpolicy_horizontal = expanding
-				layoutpolicy_vertical = preferred
+				#layoutpolicy_horizontal = expanding #preferred
+				#layoutpolicy_vertical = expanding #expanding
 				margin_bottom = 10
 
 				widget = { size = { 15 15 }}
@@ -386,6 +386,25 @@ types information_panels_types
 							}
 						}
 						
+						### NAME
+						textbox = {
+							#layoutpolicy_horizontal = expanding
+							size = { 0 30 }
+							raw_text = "#v [InterestGroup.GetNameNoFormatting]#!"
+							align = left|nobaseline
+							autoresize = yes
+							using = fontsize_large
+							block "highlight_name" {}
+							elide = right
+						}
+
+						button_icon_goto = {
+							size = { 25 25 }
+ 							onclick = "[InformationPanelBar.OpenInterestGroupPanel(InterestGroup.AccessSelf)]"
+							tooltip = "GO_TO_BUTTON_INTEREST_GROUP"
+							block "goto_visibility" {}
+ 						}
+						
 						### LEADING IG
 						icon = {
 							texture = "gfx/interface/icons/generic_icons/leading_interest_group_icon.dds"
@@ -421,60 +440,40 @@ types information_panels_types
 							texture = "gfx/interface/icons/generic_icons/ig_bolster.dds"
 						}
 
-						### NAME
-						textbox = {
-							#layoutpolicy_horizontal = expanding
-							size = { 0 30 }
-							raw_text = "#v [InterestGroup.GetNameNoFormatting]#!"
-							align = left|nobaseline
-							autoresize = yes
-							using = fontsize_large
-							block "highlight_name" {}
-							elide = right
-						}
-
-						button_icon_goto = {
-							size = { 25 25 }
- 							onclick = "[InformationPanelBar.OpenInterestGroupPanel(InterestGroup.AccessSelf)]"
-							tooltip = "GO_TO_BUTTON_INTEREST_GROUP"
-							block "goto_visibility" {}
- 						}
-
  						expand = {}
 						
 						### CLOUT
 						vbox = {
 							layoutpolicy_vertical = preferred
-							spacing = 4
 							using = clout_tooltip_with_graph
 							
 							textbox = {
 								layoutpolicy_horizontal = preferred
 								size = { 0 20 }
 								align = right|nobaseline
-								margin_right = 2
+								margin_right = 10
 								text = "[InterestGroup.GetClout|%1]"
 								default_format = "#variable"
 								using = fontsize_large
 							}
 							
-							bar_horizontal = {
-								size = { 150 10 }
-
-								blockoverride "values" {
-									min = 0
-									max = "[GetPlayer.GetMaxCloutOrPopulationPercentage]"
-									value = "[FixedPointToFloat(InterestGroup.GetClout)]"
-									invertprogress = yes
-								}
-								blockoverride "marker_widgetanchor" {
-									widgetanchor = left
-									mirror = horizontal
-								}
-								blockoverride "color" {
-									color = "[InterestGroup.GetColor]"
-								}
-							}
+							#bar_horizontal = {
+							#	size = { 150 10 }
+							#
+							#	blockoverride "values" {
+							#		min = 0
+							#		max = "[GetPlayer.GetMaxCloutOrPopulationPercentage]"
+							#		value = "[FixedPointToFloat(InterestGroup.GetClout)]"
+							#		invertprogress = yes
+							#	}
+							#	blockoverride "marker_widgetanchor" {
+							#		widgetanchor = left
+							#		mirror = horizontal
+							#	}
+							#	blockoverride "color" {
+							#		color = "[InterestGroup.GetColor]"
+							#	}
+							#}
 						}
 
 						icon = {
@@ -539,7 +538,7 @@ types information_panels_types
 							datamodel = "[InterestGroup.AccessIntrinsicIdeologies]"
 							item = {
 								widget = {
-									size = { 37 35 }
+									size = { 35 35 }
 
 									icon = {
 										texture = "[Ideology.GetTexture]"
@@ -562,27 +561,27 @@ types information_panels_types
 				}
 
 				### LEADER
-				widget = {
-					size = { 90 90 }
-
-					character_portrait_medium = {
-						datacontext = "[InterestGroup.AccessLeader]"
-						using = tooltip_above
-						blockoverride "show_hat" {}
-						parentanchor = vcenter
-						blockoverride "highlight" {}
-					}
-
-					icon = {
-						datacontext = "[InterestGroup.AccessLeader.GetIdeology]"
-						texture = "[Ideology.GetTexture]"
-						tooltipwidget = {
-							FancyTooltip_Ideology = {}
-						}
-						size = { 35 35 }
-						parentanchor = bottom|right
-					}
-				}
+				#widget = {
+				#	size = { 90 90 }
+				#
+				#	character_portrait_medium = {
+				#		datacontext = "[InterestGroup.AccessLeader]"
+				#		using = tooltip_above
+				#		blockoverride "show_hat" {}
+				#		parentanchor = vcenter
+				#		blockoverride "highlight" {}
+				#	}
+				#
+				#	icon = {
+				#		datacontext = "[InterestGroup.AccessLeader.GetIdeology]"
+				#		texture = "[Ideology.GetTexture]"
+				#		tooltipwidget = {
+				#			FancyTooltip_Ideology = {}
+				#		}
+				#		size = { 35 35 }
+				#		parentanchor = bottom|right
+				#	}
+				#}
 				
 				widget = { size = { 15 15 }}
 			}

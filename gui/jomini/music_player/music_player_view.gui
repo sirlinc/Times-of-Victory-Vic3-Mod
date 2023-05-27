@@ -354,7 +354,7 @@ types music_player_types
 			
 			### VICTORIA 3 SOUNDTRACK
 			music_category_button = {
-				visible = "[ObjectsEqual('Victoria_3_Soundtrack', MusicPlayer.GetCategoryNameLocKey( MusicPlayerCategory.Self ))]"
+				visible = "[ObjectsEqual(' ', MusicPlayer.GetCategoryNameLocKey( MusicPlayerCategory.Self ))]"
 
 				blockoverride "button_texture" {
 					texture = "gfx/interface/illustrations/music_player/victoria_3_soundtrack.dds"

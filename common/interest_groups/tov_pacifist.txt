@@ -1,0 +1,248 @@
+﻿ig_pacifist = {
+	color = hsv{ 0.65 0.54 0.52 }
+	texture = "gfx/interface/icons/ig_icons/ideology.dds"
+	
+	ideologies = {
+		ideology_pacifist
+	}
+
+	enable = {
+		always = yes
+	}
+	
+	traits = {}	
+	
+	on_enable = {}
+	on_disable = {}	
+	on_character_ig_membership = {}
+	
+	pop_potential = {
+		NOT = { is_pop_type = officers }
+	}
+
+	pop_weight = {
+		value = 0
+		
+		add = {
+			desc = "NOT_OFFICERS"
+			if = {
+				limit = { NOT = { is_pop_type = officers } }
+				value = 10
+			}
+		}	
+		
+		add = {
+			desc = "LOW_CLERGY"
+			if = {
+				limit = {
+					standard_of_living <= 14
+					is_pop_type = clergymen
+					owner = { 
+						is_at_war = no 
+						any_diplomatic_play = { 
+							NOT = { is_diplomatic_play_undecided_participant }
+						}
+					}
+					
+				}
+				value = 50
+			}
+		}	
+		
+		add = {
+			desc = "DIPLOMATIC_PLAY_SOL_14"
+			if = {
+				limit = {
+					standard_of_living <= 14
+					NOT = { is_pop_type = officers }
+					owner = { 
+						is_at_war = no 
+						any_diplomatic_play = { 
+							NOT = { is_diplomatic_play_undecided_participant }
+						}
+					}
+					
+				}
+				value = 50
+			}
+		}	
+		
+		add = {
+			desc = "WAR_SUPPORT_50"
+			if = {
+				limit = { 
+					NOT = { is_pop_type = officers }
+					owner = { 
+						is_at_war = yes 
+						any_scope_war = { 
+							has_war_support <= 50
+						}
+					}
+					
+				}
+				value = 10
+			}
+		}	
+
+		add = {
+			desc = "WAR_SUPPORT_25"
+			if = {
+				limit = { 
+					NOT = { is_pop_type = officers }
+					owner = { 
+						is_at_war = yes 
+						any_scope_war = { 
+							has_war_support <= 25
+						}
+					}
+					
+				}
+				value = 15
+			}
+		}
+		
+		add = {
+			desc = "WAR_SUPPORT_0"
+			if = {
+				limit = { 
+					NOT = { is_pop_type = officers }
+					owner = { 
+						is_at_war = yes 
+						any_scope_war = { 
+							has_war_support <= 0
+						}
+					}
+					
+				}
+				value = 25
+			}
+		}
+		
+		add = {
+			desc = "WAR_SUPPORT_N_10"
+			if = {
+				limit = { 
+					NOT = { is_pop_type = officers }
+					owner = { 
+						is_at_war = yes 
+						any_scope_war = { 
+							has_war_support <= -10
+						}
+					}
+					
+				}
+				value = 45
+			}
+		}
+		
+		add = {
+			desc = "WAR_SUPPORT_N_25"
+			if = {
+				limit = { 
+					NOT = { is_pop_type = officers }
+					owner = { 
+						is_at_war = yes 
+						any_scope_war = { 
+							has_war_support <= -25
+						}
+					}
+					
+				}
+				value = 50
+			}
+		}
+		
+		add = {
+			desc = "WAR_SUPPORT_N_50"
+			if = {
+				limit = { 
+					NOT = { is_pop_type = officers }
+					owner = { 
+						is_at_war = yes 
+						any_scope_war = { 
+							has_war_support <= -50
+						}
+					}
+					
+				}
+				value = 100
+			}
+		}
+
+		multiply = {
+			desc = "LEADER_POPULARITY"
+			scope:interest_group = {
+				leader = {
+					value = popularity
+					multiply = 0.0025
+					add = 1
+					max = 1.25
+					min = 0.75
+				}
+			}
+		}		
+
+		multiply = {
+			desc = "decentralized_power"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						is_country_type = decentralized
+					}
+				}
+				value = 0.0
+			}		
+		}
+		if = {
+			limit = {
+				scope:interest_group = {
+					is_in_government = yes
+				}
+			}
+			multiply = {
+				desc = "IN_GOVERNMENT_ATTRACTION"
+				value = 1
+				add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
+				min = 0
+			}
+		}
+	}
+
+	monarch_weight = {
+		value = 0.25
+	}	
+	
+	commander_weight = {
+		value = 1.0
+	}	
+	
+	noble_chance = {
+		value = 0.1
+	}
+	
+	female_commander_chance = {	
+		value = 0.0
+	}
+	
+	female_politician_chance = {
+		value = 0.0
+	}
+	
+	# The chance that a commander belonging to this IG takes over leadership when it changes
+	# scope:character is the most popular commander in the IG
+	commander_leader_chance = {
+		value = 0.25
+		if = {
+			limit = {
+				exists = scope:character
+			}
+			multiply = {
+				value = 1
+				add = scope:character.popularity
+				min = 0
+			}
+		}
+	}
+}

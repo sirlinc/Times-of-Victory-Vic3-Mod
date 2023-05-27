@@ -1,0 +1,223 @@
+﻿ig_paternalistic = {
+	color = hsv{ 0.65 0.54 0.52 }
+	texture = "gfx/interface/icons/ig_icons/ideology.dds"
+	
+	ideologies = {
+		ideology_paternalistic
+	}
+
+	enable = {
+		always = yes
+	}
+	
+	traits = {}	
+	
+	on_enable = {}
+	on_disable = {}	
+	on_character_ig_membership = {}
+	
+	pop_potential = {
+		is_pop_type = aristocrats
+		is_pop_type = clergymen
+		is_pop_type = officers
+	}
+
+	pop_weight = {
+		value = 0
+		
+		add = {
+			desc = "POP_ARISTOCRATS"
+			if = {
+				limit = { 
+					is_pop_type = aristocrats
+				}
+				value = 200
+			}
+		}	
+		
+		add = {
+			desc = "POP_CLERGYMEN"
+			if = {
+				limit = { 
+					is_pop_type = clergymen
+				}
+				value = 75
+			}
+		}	
+		
+		add = {
+			desc = "POP_CLERGYMEN_CHURCH_SUPPORT"
+			if = {
+				limit = { 
+					is_pop_type = clergymen
+					scope:interest_group = { is_in_government = yes }
+					OR = {
+						has_law = law_type:law_state_religion 
+						has_law = law_type:law_tolerance 
+					}
+				}
+				value = 20
+			}
+		}
+		
+		add = {
+			desc = "POP_PEASANTS_15"
+			if = {
+				limit = { 
+					NOR = {
+						is_pop_type = aristocrats
+						is_pop_type = clergymen
+						is_pop_type = officers
+						is_pop_type = farmers
+					}
+					NOT = { owner = { has_variable = enlightment_ideas } }
+					literacy_rate <= 0.15
+				}
+				value = 50
+			}
+		}	
+		
+		add = {
+			desc = "POP_PEASANTS_10"
+			if = {
+				limit = { 
+					NOR = {
+						is_pop_type = aristocrats
+						is_pop_type = clergymen
+						is_pop_type = officers
+						is_pop_type = farmers
+					}
+					NOT = { owner = { has_variable = enlightment_ideas } }
+					literacy_rate <= 0.10
+				}
+				value = 75
+			}
+		}	
+		
+		add = {
+			desc = "POP_PEASANTS_5"
+			if = {
+				limit = { 
+					NOR = {
+						is_pop_type = aristocrats
+						is_pop_type = clergymen
+						is_pop_type = officers
+						is_pop_type = farmers
+					}
+					NOT = { owner = { has_variable = enlightment_ideas } }
+					literacy_rate <= 0.05
+				}
+				value = 100
+			}
+		}
+		
+		add = {
+			desc = "RURAL_POP"
+			if = {
+				limit = { 
+					is_pop_type = capitalists
+					OR = {
+						pop_employment_building_group = bg_agriculture
+						pop_employment_building_group = bg_ranching
+						pop_employment_building_group = bg_plantations				
+					}
+				}
+				value = 25
+			}
+		}
+		
+		multiply = {
+			desc = "LEADER_POPULARITY"
+			scope:interest_group = {
+				leader = {
+					value = popularity
+					multiply = 0.0025
+					add = 1
+					max = 1.25
+					min = 0.75
+				}
+			}
+		}		
+
+		add = {
+			desc = "SLAVE_STATE"
+			if = {
+				limit = {
+					state = { 
+						is_slave_state = yes
+					}
+					OR = {
+						pop_employment_building_group = bg_agriculture
+						pop_employment_building_group = bg_ranching
+						pop_employment_building_group = bg_plantations				
+					}
+				}
+				value = 150
+			}
+		}
+		
+		multiply = {
+			desc = "IG_IS_MARGINALIZED"
+			value = 1.0
+			
+			scope:interest_group = {
+				if = {
+					limit = {
+						is_marginal = yes
+					}
+					value = 0.5
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				scope:interest_group = {
+					is_in_government = yes
+				}
+			}
+			multiply = {
+				desc = "IN_GOVERNMENT_ATTRACTION"
+				value = 1
+				add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
+				min = 0
+			}
+		}
+	}
+
+	monarch_weight = {
+		value = 0.25
+	}	
+	
+	commander_weight = {
+		value = 1.0
+	}	
+	
+	noble_chance = {
+		value = 0.1
+	}
+	
+	female_commander_chance = {	
+		value = 0.0
+	}
+	
+	female_politician_chance = {
+		value = 0.0
+	}
+	
+	# The chance that a commander belonging to this IG takes over leadership when it changes
+	# scope:character is the most popular commander in the IG
+	commander_leader_chance = {
+		value = 0.25
+		if = {
+			limit = {
+				exists = scope:character
+			}
+			multiply = {
+				value = 1
+				add = scope:character.popularity
+				min = 0
+			}
+		}
+	}
+}

@@ -1,0 +1,243 @@
+﻿ig_rationalist = {
+	color = hsv{ 0.65 0.54 0.52 }
+	texture = "gfx/interface/icons/ig_icons/ideology.dds"
+	
+	ideologies = {
+		ideology_anti_clerical #Rationalist
+	}
+
+	enable = {
+		trigger_if = {
+			#limit = { 
+			#	has_variable = discovered_rationalism
+			#}
+			has_technology_researched = rationalism 
+		}
+	}
+	
+	traits = {}	
+	
+	on_enable = {}
+	on_disable = {}	
+	on_character_ig_membership = {}
+	
+	pop_potential = {
+		NOT = { is_pop_type = clergymen }
+	}
+
+	pop_weight = {
+		value = -75
+		
+		add = {
+			desc = "POP_LITERACY_10_15"
+			if = {
+				limit = { 
+					NOT = { is_pop_type = clergymen }
+					literacy_rate >= 0.10
+					literacy_rate < 0.15
+				}
+				add = 25
+			}
+		}	
+		
+		add = {
+			desc = "POP_LITERACY_15_20"
+			if = {
+				limit = { 
+					NOT = { is_pop_type = clergymen }
+					literacy_rate >= 0.15
+					literacy_rate < 0.20
+				}
+				add = 25
+			}
+		}	
+		
+		add = {
+			desc = "POP_LITERACY_20_25"
+			if = {
+				limit = { 
+					NOT = { is_pop_type = clergymen }
+					literacy_rate >= 0.20
+					literacy_rate < 0.25
+				}
+				add = 25
+			}
+		}	
+		
+		add = {
+			desc = "POP_LITERACY_25_30"
+			if = {
+				limit = { 
+					NOT = { is_pop_type = clergymen }
+					literacy_rate >= 0.25
+					literacy_rate < 0.30
+				}
+				add = 50
+			}
+		}	
+		
+		add = {
+			desc = "POP_LITERACY_30_35"
+			if = {
+				limit = { 
+					NOT = { is_pop_type = clergymen }
+					literacy_rate >= 0.30
+					literacy_rate < 0.35
+				}
+				add = 50
+			}
+		}	
+		
+		add = {
+			desc = "POP_LITERACY_35_40"
+			if = {
+				limit = { 
+					NOT = { is_pop_type = clergymen }
+					literacy_rate >= 0.35
+					literacy_rate < 0.40
+				}
+				add = 50
+			}
+		}	
+		
+		add = {
+			desc = "POP_LITERACY_40_45"
+			if = {
+				limit = { 
+					NOT = { is_pop_type = clergymen }
+					literacy_rate >= 0.40
+					literacy_rate < 0.45
+				}
+				add = 50
+			}
+		}	
+		
+		multiply = {
+			desc = "PROHIBITION_OF_BOOKS"
+			if = {
+				limit = {
+					owner = {
+						has_law = law_type:law_state_religion
+						NOR = { 
+							has_law = law_type:law_right_of_assembly
+							has_law = law_type:law_protected_speech
+						}
+					}
+				}
+				value = 0.5
+			}
+		}	
+		
+		multiply = {
+			desc = "LEADER_POPULARITY"
+			scope:interest_group = {
+				leader = {
+					value = popularity
+					multiply = 0.0025
+					add = 1
+					max = 1.25
+					min = 0.75
+				}
+			}
+		}		
+
+		multiply = {
+			desc = "decentralized_power"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						is_country_type = decentralized
+					}
+				}
+				value = 0.0
+			}		
+		}
+		if = {
+			limit = {
+				scope:interest_group = {
+					is_in_government = yes
+				}
+			}
+			multiply = {
+				desc = "IN_GOVERNMENT_ATTRACTION"
+				value = 1
+				add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
+				min = 0
+			}
+		}
+	}
+
+	monarch_weight = {
+		value = 0.25
+	}	
+	
+	commander_weight = {
+		value = 1.0
+	}	
+	
+	noble_chance = {
+		value = 0.1
+	}
+	
+	female_commander_chance = {	
+		value = 0.0
+	}
+	
+	female_politician_chance = {
+		value = 0.0
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_own_property
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_in_the_workplace
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_womens_suffrage
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+	}
+	
+	# The chance that a commander belonging to this IG takes over leadership when it changes
+	# scope:character is the most popular commander in the IG
+	commander_leader_chance = {
+		value = 0.25
+		if = {
+			limit = {
+				exists = scope:character
+			}
+			multiply = {
+				value = 1
+				add = scope:character.popularity
+				min = 0
+			}
+		}
+	}
+}

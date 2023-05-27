@@ -99,7 +99,7 @@ types politics_panel_types
 				blockoverride "third_button_name" {
 					name = "tutorial_highlight_laws_tab"
 				}
-
+				
 				blockoverride "fourth_button" {
 					text = "INSTITUTIONS"
 				}
@@ -167,6 +167,17 @@ types politics_panel_types
 				using = default_fade_in_out
 				blockoverride "scrollarea_content" {
 					politics_panel_laws_content = {
+						layoutpolicy_horizontal = expanding
+						layoutpolicy_vertical = expanding
+					}
+				}
+			}
+			
+			fullscreen_scrollarea = {
+				visible = "[InformationPanel.IsTabSelected('parliament')]"
+				using = default_fade_in_out
+				blockoverride "scrollarea_content" {
+					politics_panel_parliament_content = {
 						layoutpolicy_horizontal = expanding
 						layoutpolicy_vertical = expanding
 					}

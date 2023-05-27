@@ -36,75 +36,75 @@
 	pop_weight = {
 		value = 0
 		
-		add = {
-			desc = "RURAL_POP"
-			if = {
-				limit = { 
-					OR = {
-						pop_employment_building_group = bg_agriculture
-						pop_employment_building_group = bg_ranching
-						pop_employment_building_group = bg_plantations				
-					}
-				}
-				value = 100
-			}
-		}		
-
-		add = {
-			desc = "POP_FARMERS"
-			if = {
-				limit = { 
-					is_pop_type = farmers
-				}
-				value = 200
-			}
-		}	
-
-		add = {
-			desc = "POP_PEASANTS"
-			if = {
-				limit = { 
-					is_pop_type = peasants
-				}
-				value = 200
-			}
-		}	
-
-		add = {
-			desc = "POP_CLERGYMEN"
-			if = {
-				limit = { 
-					is_pop_type = clergymen
-				}
-				value = 100
-			}
-		}			
-		
-		multiply = {
-			desc = "LEADER_POPULARITY"
-			scope:interest_group = {
-				leader = {
-					value = popularity
-					multiply = 0.0025
-					add = 1
-					max = 1.25
-					min = 0.75
-				}
-			}
-		}
-		if = {
-			limit = {
-				scope:interest_group = {
-					is_in_government = yes
-				}
-			}
-			multiply = {
-				desc = "IN_GOVERNMENT_ATTRACTION"
-				value = 1
-				add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
-				min = 0
-			}
-		}
+		#add = {
+		#	desc = "RURAL_POP"
+		#	if = {
+		#		limit = { 
+		#			OR = {
+		#				pop_employment_building_group = bg_agriculture
+		#				pop_employment_building_group = bg_ranching
+		#				pop_employment_building_group = bg_plantations				
+		#			}
+		#		}
+		#		value = 100
+		#	}
+		#}		
+		#
+		#add = {
+		#	desc = "POP_FARMERS"
+		#	if = {
+		#		limit = { 
+		#			is_pop_type = farmers
+		#		}
+		#		value = 200
+		#	}
+		#}	
+		#
+		#add = {
+		#	desc = "POP_PEASANTS"
+		#	if = {
+		#		limit = { 
+		#			is_pop_type = peasants
+		#		}
+		#		value = 200
+		#	}
+		#}	
+		#
+		#add = {
+		#	desc = "POP_CLERGYMEN"
+		#	if = {
+		#		limit = { 
+		#			is_pop_type = clergymen
+		#		}
+		#		value = 100
+		#	}
+		#}			
+		#
+		#multiply = {
+		#	desc = "LEADER_POPULARITY"
+		#	scope:interest_group = {
+		#		leader = {
+		#			value = popularity
+		#			multiply = 0.0025
+		#			add = 1
+		#			max = 1.25
+		#			min = 0.75
+		#		}
+		#	}
+		#}
+		#if = {
+		#	limit = {
+		#		scope:interest_group = {
+		#			is_in_government = yes
+		#		}
+		#	}
+		#	multiply = {
+		#		desc = "IN_GOVERNMENT_ATTRACTION"
+		#		value = 1
+		#		add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
+		#		min = 0
+		#	}
+		#}
 	}
 	
 	monarch_weight = {

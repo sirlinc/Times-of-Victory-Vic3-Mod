@@ -819,8 +819,8 @@ ideology_pacifist = {
 			limit = {
 				owner = {
 					NOR = {
-						has_law = law_type:law_colonial_resettlement
-						has_law = law_type:law_colonial_exploitation
+						has_law = law_type:law_resettlement
+						has_law = law_type:law_exploitation
 						has_law = law_type:law_peasant_levies
 						has_law = law_type:law_mass_conscription
 					}

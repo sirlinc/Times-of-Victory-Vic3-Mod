@@ -1,0 +1,288 @@
+﻿ig_expansionist = {
+	color = hsv{ 0.65 0.54 0.52 }
+	texture = "gfx/interface/icons/ig_icons/ideology.dds"
+	
+	ideologies = {
+		ideology_jingoist
+	}
+
+	enable = {
+		always = yes
+	}
+	
+	traits = { }	
+	
+	on_enable = {}
+	on_disable = {}	
+	on_character_ig_membership = {}
+	
+	pop_potential = {
+		OR = {
+			is_pop_type = soldiers
+			is_pop_type = officers
+			is_pop_type = aristocrats
+			pop_is_discriminated = no
+		}	
+	}
+
+	pop_weight = {
+		value = 0
+		
+		add = {
+			desc = "IG_HAS_RIVAL"
+			if = {
+				limit = {
+					owner = {
+						any_rival_country = {
+							count = 0
+						}
+					}
+				}
+				value = 0
+			}
+			else_if = {
+				limit = {
+					owner = {
+						any_rival_country = {
+							count = 1
+						}
+					}
+				}
+				value = 5
+			}
+			else_if ={
+				limit = {
+					owner = {
+						any_rival_country = {
+							count = 2
+						}
+					}
+				}
+				value = 10
+			}
+			else_if ={
+				limit = {
+					owner = {
+						any_rival_country = {
+							count = 3
+						}
+					}
+				}
+				value = 15
+			}
+			else_if ={
+				limit = {
+					owner = {
+						any_rival_country = {
+							count >= 4
+						}
+					}
+				}
+				value = 20
+			}
+		}
+		
+		add = {
+			desc = "POP_NOT_DISCRIMINATED"
+			if = {
+				limit = { 
+					pop_is_discriminated = no
+				}
+				value = 25
+			}
+		}		
+		
+		add = {
+			desc = "POP_SOLDIERS"
+			if = {
+				limit = { 
+					is_pop_type = soldiers
+				}
+				value = 100
+			}
+		}
+		
+		add = {
+			desc = "POP_ARISTOCRATS"
+			if = {
+				limit = { 
+					is_pop_type = aristocrats
+				}
+				value = 50
+			}
+		}		
+	
+		add = {
+			desc = "POP_OFFICERS"
+			if = {
+				limit = { 
+					is_pop_type = officers
+				}
+				value = 200
+			}
+		}
+		
+		add = {
+			desc = "IG_EMPLOYED_MIC"
+			if = {
+				limit = {
+					OR = {
+						pop_employment_building = building_war_machine_industry
+						pop_employment_building = building_arms_industry
+						pop_employment_building = building_munition_plants
+						AND = {
+							pop_employment_building = building_shipyards
+							workplace = {
+								OR = {
+									has_active_production_method = pm_military_shipbuilding_wooden
+									has_active_production_method = pm_military_shipbuilding_wooden_2
+									has_active_production_method = pm_military_shipbuilding_steam
+									has_active_production_method = pm_military_shipbuilding_steam_2
+								}
+							}
+						}
+					}
+				}
+				value = 50
+			}
+		}
+
+		add = {
+			desc = "MIC_OWNER"
+			if = {
+				limit ={	
+					is_pop_type = capitalists 
+					OR = { 
+						pop_employment_building = building_arms_industry
+						pop_employment_building = building_munition_plants
+						pop_employment_building = building_war_machine_industry
+						AND = {
+							pop_employment_building = building_shipyards
+							workplace = {
+								OR = {
+									has_active_production_method = pm_military_shipbuilding_wooden
+									has_active_production_method = pm_military_shipbuilding_wooden_2
+									has_active_production_method = pm_military_shipbuilding_steam
+									has_active_production_method = pm_military_shipbuilding_steam_2
+								}
+							}
+						}
+					}
+				}
+				value = 125
+			}
+		}
+
+		multiply = {
+			desc = "LEADER_POPULARITY"
+			scope:interest_group = {
+				leader = {
+					value = popularity
+					multiply = 0.0025
+					add = 1
+					max = 1.25
+					min = 0.75
+				}
+			}
+		}		
+
+		multiply = {
+			desc = "decentralized_power"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						is_country_type = decentralized
+					}
+				}
+				value = 0.0
+			}		
+		}
+		if = {
+			limit = {
+				scope:interest_group = {
+					is_in_government = yes
+				}
+			}
+			multiply = {
+				desc = "IN_GOVERNMENT_ATTRACTION"
+				value = 1
+				add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
+				min = 0
+			}
+		}
+	}
+
+	monarch_weight = {
+		value = 0.25
+	}	
+	
+	commander_weight = {
+		value = 1.0
+	}	
+	
+	noble_chance = {
+		value = 0.1
+	}
+	
+	female_commander_chance = {	
+		value = 0.0
+	}
+	
+	female_politician_chance = {
+		value = 0.0
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_own_property
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_in_the_workplace
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_womens_suffrage
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+	}
+	
+	# The chance that a commander belonging to this IG takes over leadership when it changes
+	# scope:character is the most popular commander in the IG
+	commander_leader_chance = {
+		value = 0.25
+		if = {
+			limit = {
+				exists = scope:character
+			}
+			multiply = {
+				value = 1
+				add = scope:character.popularity
+				min = 0
+			}
+		}
+	}
+}
