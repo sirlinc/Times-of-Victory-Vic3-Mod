@@ -5,6 +5,18 @@ standing_army = {
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
 	category = military
+	}
+	ai_weight = {
+		value = 1
+}
+
+posthouses = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	}
+	ai_weight = {
+		value = 1
 }
 
 navigation = {
@@ -17,7 +29,10 @@ navigation = {
 	
 	modifier = {
 		state_building_port_max_level_add = 2
-    }
+	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 drydocks = {
@@ -32,6 +47,9 @@ drydocks = {
 	
 	unlocking_technologies = {	
 		navigation
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -48,6 +66,9 @@ mandatory_service = {
 	unlocking_technologies = {
 		standing_army
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 gunsmithing = {
@@ -60,6 +81,9 @@ gunsmithing = {
 	unlocking_technologies = {
 		standing_army
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 artillery = {
@@ -71,6 +95,9 @@ artillery = {
 	
 	unlocking_technologies = {
 		gunsmithing
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -86,6 +113,9 @@ military_drill = {
 	unlocking_technologies = {
 		standing_army
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 napoleonic_warfare = {
@@ -97,6 +127,9 @@ napoleonic_warfare = {
 	unlocking_technologies = {
 		line_infantry
 		artillery
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -127,6 +160,9 @@ army_reserves = {
 	unlocking_technologies = {	
 		line_infantry
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 line_infantry = {
@@ -138,6 +174,9 @@ line_infantry = {
 	unlocking_technologies = {	
 		mandatory_service
 		military_drill
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -152,6 +191,9 @@ paddle_steamer = {
 	
 	unlocking_technologies = {
 		admiralty
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -173,10 +215,12 @@ field_works = {
 	unlocking_technologies = {
 		napoleonic_warfare
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 logistics = {
-	# #todo#! Does nothing yet
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/logistics_tech.dds"
 	category = military
@@ -189,6 +233,22 @@ logistics = {
 		napoleonic_warfare
 		army_reserves
 	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+semaphore_towers = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/logistics_tech.dds"
+	category = military
+	
+	unlocking_technologies = {	
+		posthouses
+	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 triage = {
@@ -200,6 +260,9 @@ triage = {
 	unlocking_technologies = {
 		logistics
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 shell_gun = {
@@ -210,6 +273,9 @@ shell_gun = {
 	
 	unlocking_technologies = {	
 		artillery
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -223,6 +289,9 @@ percussion_cap = {
 	unlocking_technologies = {	
 		gunsmithing
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 rifling = {
@@ -234,6 +303,9 @@ rifling = {
 	unlocking_technologies = {	
 		percussion_cap
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 general_staff = {
@@ -244,6 +316,23 @@ general_staff = {
 	
 	unlocking_technologies = {	
 		army_reserves
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+military_academies = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	
+	unlocking_technologies = {	
+		army_reserves
+	}
+
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -260,6 +349,9 @@ screw_frigate = {
 	unlocking_technologies = {	
 		paddle_steamer
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 power_of_the_purse = {
@@ -274,6 +366,9 @@ power_of_the_purse = {
 	
 	unlocking_technologies = {	
 		admiralty
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -290,9 +385,31 @@ hydraulic_cranes = {
 	unlocking_technologies = {	
 		drydocks
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 ### ERA 3
+
+nitroglycerin = {
+	
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/nitroglycerin.dds"
+	category = military
+	
+	modifier = {
+		country_resource_discovery_chance_mult = 0.25
+	}
+	
+	unlocking_technologies = {	
+		percussion_cap
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
 
 modern_nursing = {
 	# Unlocks Field Hospitals PM in Barracks
@@ -302,6 +419,9 @@ modern_nursing = {
 	
 	unlocking_technologies = {
 		triage
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -317,6 +437,9 @@ enlistment_offices = {
 	unlocking_technologies = {	
 		logistics
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 electric_telegraph = {
@@ -330,6 +453,10 @@ electric_telegraph = {
 	
 	unlocking_technologies = {	
 		logistics
+		semaphore_towers
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -346,6 +473,9 @@ military_statistics = {
 		electric_telegraph
 		general_staff
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 repeaters = {
@@ -357,6 +487,9 @@ repeaters = {
 	
 	unlocking_technologies = {	
 		rifling
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -371,6 +504,9 @@ breech_loading_artillery = {
 	unlocking_technologies = {	
 		rifling
 		shell_gun
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -388,6 +524,9 @@ handcranked_machine_gun = {
 		repeaters
 		breech_loading_artillery
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 self_propelled_torpedoes = {
@@ -399,6 +538,9 @@ self_propelled_torpedoes = {
 	unlocking_technologies = {	
 		ironclad_tech
 		jeune_ecole
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -415,6 +557,9 @@ monitor_tech = {
 	unlocking_technologies = {	
 		ironclad_tech
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 ironclad_tech = {
@@ -427,6 +572,9 @@ ironclad_tech = {
 	
 	unlocking_technologies = {	
 		screw_frigate
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -442,6 +590,9 @@ jeune_ecole = {
 	
 	unlocking_technologies = {	
 		power_of_the_purse
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -459,6 +610,9 @@ floating_harbor = {
 	unlocking_technologies = {	
 		gantry_cranes
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 gantry_cranes = {
@@ -474,9 +628,30 @@ gantry_cranes = {
 	unlocking_technologies = {	
 		hydraulic_cranes
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 ### ERA 4
+
+dynamite = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/dynamite.dds"
+	category = military
+	
+	modifier = {
+		country_resource_discovery_chance_mult = 0.25
+	}
+	
+	unlocking_technologies = {	
+		nitroglycerin
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
 
 trench_works = {
 	# Unlocks Officer Training PM in Barracks
@@ -489,6 +664,9 @@ trench_works = {
 	unlocking_technologies = {
 		general_staff
 		electric_telegraph
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -505,6 +683,9 @@ war_propaganda = {
 	unlocking_technologies = {	
 		enlistment_offices
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 wargaming = {
@@ -519,6 +700,9 @@ wargaming = {
 	
 	unlocking_technologies = {
 		military_statistics
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -538,6 +722,9 @@ defense_in_depth = {
 	unlocking_technologies = {	
 		trench_works
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 bolt_action_rifles = {
@@ -550,6 +737,9 @@ bolt_action_rifles = {
 	unlocking_technologies = {	
 		repeaters
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 automatic_machine_guns = {
@@ -561,6 +751,46 @@ automatic_machine_guns = {
 	unlocking_technologies = {	
 		handcranked_machine_gun
 		bolt_action_rifles
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+
+telephone = {
+	# Unlocks Electrics Industry building
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/telephone.dds"
+	category = military
+	
+	unlocking_technologies = {
+		electric_telegraph
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+radio = {
+	# Unlocks Radios PM in Electrics Industry
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/radio.dds"
+	category = military
+	
+	unlocking_technologies = {
+		telephone
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -577,6 +807,9 @@ submarine = {
 	unlocking_technologies = {	
 		self_propelled_torpedoes
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 destroyer = {
@@ -588,6 +821,9 @@ destroyer = {
 	unlocking_technologies = {	
 		monitor_tech
 		ironclad_tech
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -608,6 +844,9 @@ dreadnought = {
 		ironclad_tech
 		sea_lane_strategies
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 sea_lane_strategies = {
 	# Unlocks Sea Lane Strategies PM in Naval Bases
@@ -621,6 +860,9 @@ sea_lane_strategies = {
 	
 	unlocking_technologies = {	
 		jeune_ecole
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -636,6 +878,9 @@ landing_craft = {
 	unlocking_technologies = {	
 		jeune_ecole
 		monitor_tech
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -653,6 +898,9 @@ concrete_dockyards = {
 	unlocking_technologies = {	
 		floating_harbor
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 ### ERA 5
@@ -667,6 +915,9 @@ nco_training = {
 		military_statistics
 		trench_works
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 chemical_warfare = {
@@ -677,6 +928,9 @@ chemical_warfare = {
 	
 	unlocking_technologies = {	
 		automatic_machine_guns
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -689,6 +943,9 @@ stormtroopers = {
 	unlocking_technologies = {	
 		wargaming
 		trench_works
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -708,6 +965,9 @@ concrete_fortifications = {
 	unlocking_technologies = {	
 		defense_in_depth
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 mobile_armor = {
@@ -721,6 +981,9 @@ mobile_armor = {
 		military_aviation
 		concrete_fortifications
 		nco_training
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -739,6 +1002,9 @@ military_aviation = {
 	unlocking_technologies = {	
 		defense_in_depth
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 flamethrowers = {
@@ -754,6 +1020,9 @@ flamethrowers = {
 	modifier = {
 		unit_kill_rate_add = 0.05
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 carrier_tech = {
@@ -765,6 +1034,9 @@ carrier_tech = {
 	unlocking_technologies = {	
 		dreadnought
 	}
+	ai_weight = {
+		value = 1
+	}
 }
 
 battleship_tech = {
@@ -775,6 +1047,9 @@ battleship_tech = {
 	
 	unlocking_technologies = {	
 		dreadnought
+	}
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -791,5 +1066,8 @@ battlefleet_tactics = {
 	unlocking_technologies = {	
 		battleship_tech
 		sea_lane_strategies
+	}
+	ai_weight = {
+		value = 1
 	}
 }

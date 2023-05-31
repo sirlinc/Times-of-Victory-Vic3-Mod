@@ -222,16 +222,3 @@ pmg_prime_pasture = {
 		pm_batteries_prp
 	}
 }
-
-#Marginal Pasture
-
-pmg_marginal_pasture = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_free_range_map
-		pm_silage_map
-		pm_hardy_breeds_map
-		pm_rotational_grazing_map
-		pm_batteries_map
-	}
-}

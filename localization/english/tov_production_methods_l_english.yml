@@ -86,6 +86,12 @@ pm_courts_of_law: "Courts of Law"
 pm_police_departments: "Police Departments"
 pm_detective_units: "Detective Units"
 
+pmg_academic_principles: "Academic Principles"
+pm_indoctrination: "Indoctrination"
+pm_censorship: "Censorship"
+pm_freedom: "Freedom"
+pm_radicalism: "Radicalism"
+
 #University
 
 pmg_education: "Education"
@@ -646,6 +652,13 @@ pm_pewter_alloys: "Pewter Alloys"
 pm_brass_alloys: "Brass Alloys"
 pm_soldering_alloys: "Soldering Alloys"
 pm_aluminium_alloys: "Aluminium Alloys"
+
+pmg_slag_byproducts: "Slag Byproducts"
+pm_resmelting: "Resmelting"
+pm_iron_mordants: "Iron Mordants"
+pm_ferrous_fertilizers: "Ferrous Fertilizers"
+pm_mineral_wool: "Mineral Wool"
+pm_slag_glass: "Slag Glass"
 
 #Food Industries
 

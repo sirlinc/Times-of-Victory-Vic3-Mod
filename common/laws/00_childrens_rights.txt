@@ -10,12 +10,12 @@ law_child_labor_expected = {
 	progressiveness = -100
 
 	modifier = {
-		state_laborers_mortality_mult = 0.1
-		state_machinists_mortality_mult = 0.1
-		state_farmers_mortality_mult = 0.1
-		state_peasants_mortality_mult = 0.1
+		state_laborers_mortality_mult = 0.75
+		state_machinists_mortality_mult = 0.75
+		state_farmers_mortality_mult = 0.075
+		state_peasants_mortality_mult = 0.075
 		
-		state_dependent_wage_mult = 0.50
+		state_dependent_wage_mult = 0.40
 	}
 	
 	possible_political_movements = {
@@ -97,7 +97,7 @@ law_restricted_child_labor = {
 	}
 }
 
-compulsory_education_to_twelve = {
+law_compulsory_education_to_twelve = {
 	group = lawgroup_childrens_rights
 
 	unlocking_technologies = {
@@ -113,7 +113,7 @@ compulsory_education_to_twelve = {
 	}
 }
 
-compulsory_education_to_sixteen = {
+law_compulsory_education_to_sixteen = {
 	group = lawgroup_childrens_rights
 
 	unlocking_technologies = {
@@ -125,6 +125,9 @@ compulsory_education_to_sixteen = {
 	progressiveness = 50
 		
 	modifier = {
+		state_laborers_mortality_mult = -0.02
+		state_farmers_mortality_mult = -0.02
+		state_peasants_mortality_mult = -0.02
 		country_institution_schools_max_investment_add = 3
 	}
 }

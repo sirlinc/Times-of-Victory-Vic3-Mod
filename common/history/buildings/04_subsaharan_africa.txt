@@ -7,6 +7,7 @@
 				reserves=1
 			}
 		}
+	}
 	s:STATE_WINDWARD_COAST={
 		region_state:KBD={
 		}
@@ -23,7 +24,7 @@
 		}
 		region_state:B54={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -116,7 +117,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=2
 				reserves=1
 			}
@@ -126,11 +127,9 @@
 				reserves=1
 			}
 		}
-		}
 	}
 	s:STATE_SIERRA_LEONE={
 		}
-	}
 	s:STATE_VOLTA={
 		region_state:B63={
 			create_building={
@@ -177,7 +176,7 @@
 		}
 		region_state:B67={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -358,7 +357,7 @@
 		}
 		region_state:B66={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -370,14 +369,14 @@
 		}
 		region_state:B77={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
 		}
 		region_state:BOR={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=2
 				reserves=1
 			}
@@ -753,7 +752,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -924,7 +923,7 @@
 	s:STATE_SOMALILAND={
 		region_state:ISQ={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -936,7 +935,7 @@
 		}
 		region_state:WSG={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -1013,7 +1012,7 @@
 		}
 		region_state:MJT={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -1044,7 +1043,7 @@
 		}
 		region_state:C42={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -1568,4 +1567,6 @@
 				level=3
 				reserves=1
 			}
-			create_building={
+		}
+	}
+}

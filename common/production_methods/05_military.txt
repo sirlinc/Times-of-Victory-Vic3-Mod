@@ -382,7 +382,7 @@ pm_bicycle_messengers = {
 	texture = "gfx/interface/icons/production_method_icons/bicycle_messengers.dds"
 
 	unlocking_technologies = {
-		vulcanization
+		heat_treatments
 	}	
 	
 	building_modifiers = {
@@ -969,7 +969,7 @@ pm_bicycle_messengers_conscription = {
 	texture = "gfx/interface/icons/production_method_icons/bicycle_messengers.dds"
 
 	unlocking_technologies = {
-		vulcanization
+		heat_treatments
 	}
 	disallowing_laws = {
 		law_peasant_levies

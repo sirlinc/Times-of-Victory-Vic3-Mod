@@ -192,8 +192,7 @@ pm_corvee_labour_construction = {
 	texture = "gfx/interface/icons/production_method_icons/serfdom.dds"
 
 	disallowing_laws = {
-		slavery_banned
-		law_serfdom_banned
+		law_slavery_banned
 		law_regulatory_bodies
 		law_worker_protections
 	}

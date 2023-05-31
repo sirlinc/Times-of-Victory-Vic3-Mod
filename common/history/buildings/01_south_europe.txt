@@ -19,7 +19,7 @@
 		}
 		region_state:MAN={		
             create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -70,7 +70,7 @@
 				reserves=1
 			}
             create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -139,7 +139,7 @@
 				reserves=1
 			}			
             create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -156,7 +156,7 @@
 				reserves=1
 			}			
             create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -223,7 +223,7 @@
 				reserves=1
 			}				
             create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -232,7 +232,7 @@
 	s:STATE_CORSICA={
 		region_state:GEN={
             create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -330,7 +330,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=3
 				reserves=1
 			}
@@ -402,7 +402,7 @@
 				reserves=1
 			}
             create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=2
 				reserves=1
 			}
@@ -426,7 +426,7 @@
 				reserves=1
 			}		
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=2
 				reserves=1
 			}
@@ -460,7 +460,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -580,7 +580,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -837,7 +837,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=2
 				reserves=1
 			}
@@ -895,7 +895,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -1531,7 +1531,7 @@
 		}
 		region_state:MON={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -1564,7 +1564,7 @@
 	s:STATE_SOUTHERN_SERBIA={
 		region_state:TUR={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=3
 				reserves=1
 			}

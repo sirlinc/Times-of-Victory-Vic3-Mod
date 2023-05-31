@@ -20,7 +20,7 @@ pm_fuel_oil_power_plant = {
 	pollution_generation = 60
 	
 	unlocking_technologies = {
-		steam_turbine
+		turbine_engines
 	}				
 	
 	building_modifiers = { 
@@ -80,7 +80,7 @@ pm_steam_turbines_power_plant = {
 	pollution_generation = 45
 	
 	unlocking_technologies = {
-		steam_turbine
+		turbine_engines
 	}				
 	
 	building_modifiers = { 
@@ -102,7 +102,7 @@ pm_francis_turbines_power_plant = {
 	pollution_generation = 65
 	
 	unlocking_technologies = {
-		oil_turbine
+		engineering_science
 	}
 	
 	building_modifiers = { 
@@ -153,7 +153,7 @@ pm_public_private_partnership_power_plant = {
 	}
 
 	unlocking_technologies = {
-		monetary_policy
+		monetarism
 	}
 
 	building_modifiers = {
@@ -377,7 +377,7 @@ pm_symphony_orchestras = {
     texture = "gfx/interface/icons/production_method_icons/traditional_art.dds"
 
     unlocking_technologies = {
-		symphony_orchestras
+		symphony_orchestra
 	}
 
     building_modifiers = {
@@ -1008,7 +1008,7 @@ pm_tarmacadam_roads = {
     texture = "gfx/interface/icons/production_method_icons/touring_car.dds"
 
     unlocking_technologies = {
-		tarmacadam_roads
+		tarmac_roads
 	}
 
     building_modifiers = {

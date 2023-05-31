@@ -314,7 +314,7 @@
 	s:STATE_CHIHUAHUA={
 		region_state:MEX={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}

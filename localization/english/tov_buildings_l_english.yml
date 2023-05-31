@@ -21,14 +21,15 @@ modifier_building_arid_farmland_throughput_mult: "$building_arid_farmland$ build
 modifier_building_arid_farmland_throughput_mult_desc: "A bonus or penalty to both input and output of $building_arid_farmland$"
 
 # Prime Pasture
-building_prime_pasture: "Prime Pasture"
+building_prime_pasture: "Pasture"
 modifier_building_prime_pasture_throughput_mult: "$building_prime_pasture$ building [concept_throughput]"
 modifier_building_prime_pasture_throughput_mult_desc: "A bonus or penalty to both input and output of $building_prime_pasture$"
 
-# Marginal Pasture
-building_marginal_pasture: "Marginal Pasture"
-modifier_building_marginal_pasture_throughput_mult: "$building_marginal_pasture$ building [concept_throughput]"
-modifier_building_marginal_pasture_throughput_mult_desc: "A bonus or penalty to both input and output of $building_marginal_pasture$"
+# Spice Plantations
+building_prime_pasture: "Spice Plantations"
+modifier_building_prime_pasture_throughput_mult: "$building_spice_plantations$ building [concept_throughput]"
+modifier_building_prime_pasture_throughput_mult_desc: "A bonus or penalty to both input and output of $building_spice_plantations$"
+
 
 # Cultural Center
 building_cultural_center: "Cultural Center"

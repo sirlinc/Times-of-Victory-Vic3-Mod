@@ -339,7 +339,7 @@
 		}
 	}
 	s:STATE_GANSU = {
-		region_state:A05 = {
+		region_state:A06 = {
 			create_pop = {
 				culture = han # nanfaren
 				size=2023399

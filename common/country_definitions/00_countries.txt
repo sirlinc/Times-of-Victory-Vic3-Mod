@@ -883,7 +883,7 @@ SWI = {
 	tier = kingdom
 	
 	capital = STATE_WEST_SWITZERLAND
-	cultures = { swiss }
+	cultures = { alemannic francoprovencal }
 }
 
 TRS = {

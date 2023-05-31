@@ -173,7 +173,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -197,7 +197,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -216,7 +216,7 @@
 	s:STATE_TAJIKISTAN={
 		region_state:BUK={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -240,7 +240,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -271,7 +271,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=2
 				reserves=1
 			}
@@ -283,7 +283,7 @@
 		}
 		region_state:BUK={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -320,7 +320,7 @@
 				reserves=1
 			}					
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=2
 				reserves=1
 			}			
@@ -344,7 +344,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -366,7 +366,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -390,7 +390,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=2
 				reserves=1
 			}
@@ -435,7 +435,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=2
 				reserves=1
 			}
@@ -449,7 +449,7 @@
 	s:STATE_NGARI={
 		region_state:A01={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}

@@ -87,6 +87,26 @@ building_tea_plantation = {
 	}
 }
 
+building_spice_plantation = {
+	building_group = bg_spice_plantations
+	texture = "gfx/interface/icons/building_icons/spice_plantations.dds"
+	required_construction = construction_cost_low
+
+	unlocking_technologies = {
+		plantations
+	}
+
+	city_type = farm
+	levels_per_mesh = 5
+	
+	production_method_groups = {
+		pmg_innovations_spice_plantation
+		pmg_infrastructure_base_plantation
+		pmg_ownership_base_plantation
+		pmg_labor_equity_base_plantation
+	}
+}
+
 building_tobacco_plantation = {
 	building_group = bg_tobacco_plantations
 	texture = "gfx/interface/icons/building_icons/tobacco_plantation.dds"

@@ -3,10 +3,6 @@
 pm_repositories = {
     texture = "gfx/interface/icons/production_method_icons/paperback_novels.dds"
 
-    unlocking_technologies = {
-		repositories
-	}
-
     building_modifiers = {
         workforce_scaled = {
             building_input_paper_add = 5
@@ -89,7 +85,7 @@ pm_public_works_departments = {
     }
 }
 
-pm_filing_cabinets = {
+pm_index_cards = {
     texture = "gfx/interface/icons/production_method_icons/vertical_filing_cabinets.dds"
 
     unlocking_technologies = {
@@ -113,7 +109,7 @@ pm_filing_cabinets = {
     }
 }
 
-pm_index_cards = {
+pm_filing_cabinets = {
     texture = "gfx/interface/icons/production_method_icons/index_cards.dds"
 
     unlocking_technologies = {
@@ -207,7 +203,7 @@ pm_electrical_telegraphs = {
     texture = "gfx/interface/icons/production_method_icons/telephones_tov.dds"
 
     unlocking_technologies = {
-		electrical_telegraphs
+		electric_telegraphs
 	}
 
     building_modifiers = {
@@ -230,7 +226,7 @@ pm_telephone_switchboards = {
     texture = "gfx/interface/icons/production_method_icons/telephone_switchboards.dds"
 
     unlocking_technologies = {
-		telephone_switchboards
+		telephone
 	}
 
     building_modifiers = {
@@ -253,7 +249,7 @@ pm_radio_towers = {
     texture = "gfx/interface/icons/production_method_icons/radio_towers.dds"
 
     unlocking_technologies = {
-		radio_towers
+		radio
 	}
 
     building_modifiers = {
@@ -318,7 +314,7 @@ pm_courts_of_law = {
     texture = "gfx/interface/icons/production_method_icons/courts_of_law.dds"
 
     unlocking_technologies = {
-		judiciary_system
+		judicial_system
 	}
 
     building_modifiers = {
@@ -430,7 +426,7 @@ pm_military_bureaucracy = {
     texture = "gfx/interface/icons/production_method_icons/military_bureaucracy.dds"
 
     unlocking_technologies = {
-		military_commisary
+		military_aviation
 	}
 
     building_modifiers = {
@@ -451,7 +447,7 @@ pm_professional_bureaucracy = {
     texture = "gfx/interface/icons/production_method_icons/ownership_academics.dds"
 
     unlocking_technologies = {
-		civil_service
+		central_planning
 	}
 
     building_modifiers = {
@@ -646,7 +642,7 @@ pm_chemical_laboratories = {
     texture = "gfx/interface/icons/production_method_icons/chemical_laboratories.dds"
 
     unlocking_technologies = {
-		scientific_models
+		pharmaceuticals
 	}
 
     building_modifiers = {
@@ -811,7 +807,7 @@ pm_public_institutions = {
     texture = "gfx/interface/icons/production_method_icons/ownership_bureacrats.dds"
 
     unlocking_technologies = {
-		academia
+		pedagogy
 	}
 
     building_modifiers = {
@@ -905,7 +901,7 @@ pm_radicalism = {
     texture = "gfx/interface/icons/production_method_icons/censorship.dds"
 
     unlocking_technologies = {
-		political_agitation
+		radicalism
 	}
 
     building_modifiers = {
@@ -1099,7 +1095,7 @@ pm_airship_mooring_post = {
 	texture = "gfx/interface/icons/production_method_icons/airship_mooring_post.dds"
 	
 	unlocking_technologies = {
-		zeppelins
+		military_aviation
 	}
 	
 	country_modifiers = {

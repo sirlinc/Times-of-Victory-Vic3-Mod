@@ -49,6 +49,18 @@ pmg_law_enforcement = {
 	}
 }
 
+pmg_bureaucracy = {
+	texture = "gfx/interface/icons/government_icons/mixed_icon_ownership.dds"
+	ai_selection = military
+	production_methods = {
+		pm_hereditary_bureaucracy
+		pm_religious_bureaucracy
+		pm_military_bureaucracy
+		pm_professional_bureaucracy
+	}
+}
+
+
 pmg_education = {
 	texture = "gfx/interface/icons/government_icons/mixed_icon_base.dds"
 	ai_selection = civilian

@@ -122,7 +122,7 @@ bic_breakup.1 = {
 		name = bic_breakup.1.b
 		highlighted_option = yes
 		trigger = {
-			has_technology_researched = pan-nationalism
+			has_technology_researched = pan_nationalism
 		}
 		ai_chance = {
 			factor = 1 # this will be quite rare for the AI

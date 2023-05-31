@@ -161,7 +161,7 @@ law_proportional_taxation = {
 	}	
 	
 	unlocking_technologies = {
-		monetary_policy
+		financial_securities
 	}
 
 	tax_modifier_very_low = {
@@ -212,7 +212,7 @@ law_graduated_taxation = {
 	}	
 	
 	unlocking_technologies = {
-		socialism
+		land_reform
 	}
 	
 	tax_modifier_very_low = {

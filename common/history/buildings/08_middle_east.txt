@@ -2,7 +2,7 @@
 	s:STATE_NEJD={
 		region_state:B11={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -14,7 +14,7 @@
 		}
 		region_state:B13={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -112,7 +112,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -129,7 +129,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -157,7 +157,7 @@
 	s:STATE_HEDJAZ={
 		region_state:B17={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -174,7 +174,7 @@
 		}
 		region_state:B18={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -230,7 +230,7 @@
 	s:STATE_TRANSJORDAN={
 		region_state:TUR={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -371,7 +371,7 @@
 	s:STATE_DEIR_EZ_ZOR={
 		region_state:TUR={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -465,7 +465,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -508,7 +508,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -574,7 +574,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -749,7 +749,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -782,7 +782,7 @@
 	s:STATE_DIYARBAKIR={
 		region_state:TUR={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -811,7 +811,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=2
 				reserves=1
 			}
@@ -864,7 +864,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -883,7 +883,7 @@
 	s:STATE_KARS={
 		region_state:TUR={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=2
 				reserves=1
 			}
@@ -907,7 +907,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=2
 				reserves=1
 			}

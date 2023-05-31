@@ -7,8 +7,8 @@
 	
 	possible_political_movements = {
 		law_local_police
-		law_dedicated_police
-		law_militarized_police
+		law_police_by_consent
+		law_paramilitary_force
 	}	
 	
 	# AI shouldn't try to abolish institutions
@@ -122,6 +122,7 @@ law_paramilitary_force = {
 		state_radicals_from_discrimination_mult = -0.05
 		interest_group_ig_armed_forces_pol_str_mult = 0.10
 		state_mortality_turmoil_mult = 0.004
+		state_mortality_mult = 0.002
 	}
 	
 	possible_political_movements = {

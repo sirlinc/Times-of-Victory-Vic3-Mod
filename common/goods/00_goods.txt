@@ -446,16 +446,6 @@ meat = {
 	consumption_tax_cost = 200
 }
 
-animal_products = {
-	texture = "gfx/interface/icons/goods_icons/animal_products.dds"
-	cost = 60
-	category = luxury
-	
-	obsession_chance = 1.0
-	prestige_factor = 5
-	
-}
-
 liquor = {
 	texture = "gfx/interface/icons/goods_icons/liquor.dds"
 	cost = 30

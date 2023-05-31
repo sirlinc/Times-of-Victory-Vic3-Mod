@@ -2,7 +2,7 @@
 	s:STATE_DZUNGARIA={
 		region_state:A03={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=3
 				reserves=1
 			}
@@ -11,7 +11,7 @@
 	s:STATE_TIANSHAN={
 		region_state:A02={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=3
 				reserves=1
 			}
@@ -156,7 +156,7 @@
 	s:STATE_ALXA={
 		region_state:CHI={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -261,7 +261,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=3
 				reserves=1
 			}
@@ -364,9 +364,9 @@
 		}
 	}
 	s:STATE_GANSU={
-		region_state:A05={
+		region_state:A06={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=3
 				reserves=1
 			}
@@ -399,7 +399,7 @@
 	s:STATE_QINGHAI={
 		region_state:A01={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=5
 				reserves=1
 			}
@@ -1260,7 +1260,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -1795,7 +1795,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}

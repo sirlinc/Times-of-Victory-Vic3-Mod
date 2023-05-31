@@ -2888,14 +2888,14 @@ BRM = {
 }
 
 SAV = {
-	color = { 204  144  185 }
+	color = { 235 196 231 }
 	
 	country_type = recognized
-	
+
 	tier = principality
 	
-	cultures = { north_italian }
 	capital = STATE_SAVOY
+	cultures = { francoprovencal }
 }
 
 MIL = {
@@ -2961,19 +2961,6 @@ A04 = { #Khalkha Tumen
 	religion = gelugpa
 	
 	capital = STATE_URGA
-}
-
-A05 = { #Milayin Rebellion
-	color = { 0 163 108 }
-	
-	tier = principality
-	
-	country_type = unrecognized
-	
-	cultures = { han }
-	religion = gedimu
-	
-	capital = STATE_GANSU
 }
 
 A06 = { #Great Ming
@@ -4096,7 +4083,7 @@ B07 = { #Yarubid Imamate
 	
 	capital = STATE_OMAN
 	cultures = { bedouin }
-	religion = ibadi
+	religion = sunni
 }
 
 B08 = { #Banu Jabr
@@ -5911,7 +5898,7 @@ TRL = { #Three Leagues
 	tier = principality
 	
 	capital = STATE_EAST_SWITZERLAND
-	cultures = { swiss } #PLACEHOLDER
+	cultures = { alemannic } #PLACEHOLDER
 	religion = catholic
 }
 STI = { #Rep. of the Seven Tithings
@@ -5921,7 +5908,7 @@ STI = { #Rep. of the Seven Tithings
 	tier = principality
 	
 	capital = STATE_WEST_SWITZERLAND
-	cultures = { swiss } #PLACEHOLDER
+	cultures = { alemannic francoprovencal } #PLACEHOLDER
 	religion = catholic
 }
 BAE = { #Basel
@@ -5931,7 +5918,7 @@ BAE = { #Basel
 	tier = principality
 	
 	capital = STATE_WEST_SWITZERLAND
-	cultures = { swiss } #PLACEHOLDER
+	cultures = { alemannic francoprovencal } #PLACEHOLDER
 	religion = catholic
 }
 QKH = { #Qasim Khanate

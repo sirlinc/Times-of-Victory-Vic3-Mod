@@ -728,7 +728,7 @@ pm_refrigerated_storage_building_fishing_wharf = {
 	texture = "gfx/interface/icons/production_method_icons/refrigerated_storage.dds"
 	
 	unlocking_technologies = {
-		pasteurization
+		sterilization
 	}
 	building_modifiers = {
 		workforce_scaled = {
@@ -749,7 +749,7 @@ pm_refrigerated_rail_cars_building_fishing_wharf = {
 	pollution_generation = 15
 	
 	unlocking_technologies = {
-		electric_railway
+		electrified_railways
 	}
 	building_modifiers = {
 		workforce_scaled = {
@@ -769,7 +769,7 @@ pm_flash_freezing_building_fishing_wharf = {
 	texture = "gfx/interface/icons/production_method_icons/flash_refrigerated.dds"
 	
 	unlocking_technologies = {
-		flash_freezing
+		borosilicate_glass
 	}
 	
 	building_modifiers = {
@@ -957,7 +957,7 @@ pm_refrigerated_storage_building_whaling_station = {
 	texture = "gfx/interface/icons/production_method_icons/refrigerated_storage.dds"
 	
 	unlocking_technologies = {
-		pasteurization
+		sterilization
 	}
 	building_modifiers = {
 		workforce_scaled = {
@@ -978,7 +978,7 @@ pm_refrigerated_rail_cars_building_whaling_station = {
 	pollution_generation = 15
 	
 	unlocking_technologies = {
-		electric_railway
+		electrified_railways
 	}
 	building_modifiers = {
 		workforce_scaled = {
@@ -998,7 +998,7 @@ pm_flash_freezing_building_whaling_station = {
 	texture = "gfx/interface/icons/production_method_icons/flash_refrigerated.dds"
 	
 	unlocking_technologies = {
-		flash_freezing
+		borosilicate_glass
 	}
 	
 	building_modifiers = {

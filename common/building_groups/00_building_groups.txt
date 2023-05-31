@@ -193,22 +193,6 @@ bg_prime_pasture = {
 	cash_reserves_max = 25000
 }
 
-bg_marginal_pasture = {
-	parent_group = bg_ranching
-	
-	default_building = building_marginal_pasture
-	
-	cash_reserves_max = 25000
-}
-
-bg_livestock_ranches = {
-	parent_group = bg_ranching
-	
-	default_building = building_livestock_ranches
-	
-	cash_reserves_max = 25000
-}
-
 bg_subsistence_ranching = {
 	parent_group = bg_ranching
 
@@ -267,12 +251,6 @@ bg_silk_plantations = {
 	default_building = building_silk_plantation
 }
 
-bg_dye_plantations = {
-	parent_group = bg_plantations
-	
-	default_building = building_dye_plantation
-}
-
 bg_opium_plantations = {
 	parent_group = bg_plantations
 	
@@ -285,6 +263,12 @@ bg_tea_plantations = {
 	default_building = building_tea_plantation
 }
 
+bg_spice_plantations = {
+	parent_group = bg_plantations
+	
+	default_building = building_spice_plantation
+}
+
 bg_tobacco_plantations = {
 	parent_group = bg_plantations
 	
@@ -295,12 +279,6 @@ bg_sugar_plantations = {
 	parent_group = bg_plantations
 	
 	default_building = building_sugar_plantation
-}
-
-bg_banana_plantations = {
-	parent_group = bg_plantations
-	
-	default_building = building_banana_plantation
 }
 
 # Mining

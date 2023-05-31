@@ -6,7 +6,8 @@
 	progressiveness = 0
 
 	disallowing_laws = {
-		law_compulsory_primary_school
+		law_compulsory_education_to_twelve
+		law_compulsory_education_to_sixteen
 	}
 	
 	# AI will never abolish institutions entirely

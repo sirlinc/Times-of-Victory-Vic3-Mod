@@ -1,4 +1,4 @@
-﻿BUILDINGS={
+﻿sBUILDINGS={
 	s:STATE_LOWER_EGYPT={
 		region_state:B37={
 			create_building={
@@ -193,7 +193,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -205,7 +205,7 @@
 		}
 		region_state:B20={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -226,7 +226,7 @@
 	s:STATE_KORDOFAN={
 		region_state:DFR={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=2
 				reserves=1
 			}
@@ -238,7 +238,7 @@
 		}
 		region_state:B29={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=2
 				reserves=1
 			}
@@ -252,7 +252,7 @@
 	s:STATE_DARFUR={
 		region_state:DFR={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -276,7 +276,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=2
 				reserves=1
 			}
@@ -293,7 +293,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -322,7 +322,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -442,7 +442,7 @@
 	s:STATE_INNER_MOROCCO={
 		region_state:MOR={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=2
 				reserves=1
 			}
@@ -505,7 +505,7 @@
 				reserves=1
 			}			
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -529,7 +529,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -592,7 +592,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -685,7 +685,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -730,7 +730,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -765,7 +765,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -779,7 +779,7 @@
 	s:STATE_NIGER={
 		region_state:B50={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -793,7 +793,7 @@
 	s:STATE_CHAD={
 		region_state:WAD={
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}

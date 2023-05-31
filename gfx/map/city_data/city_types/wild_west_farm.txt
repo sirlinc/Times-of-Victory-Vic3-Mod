@@ -134,6 +134,9 @@
 	building_tea_plantation = {
 		"southern_plantation_mesh"
 	}
+	building_spice_plantation = {
+		"southern_plantation_mesh"
+	}
 	building_tobacco_plantation = {
 		"southern_plantation_mesh"
 	}

@@ -3,7 +3,7 @@
 		region_state:SWE={
 			create_building={
 				building="building_government_administration"
-				level=4
+				level=2
 				reserves=1
 			}
 			create_building={
@@ -71,7 +71,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=3
 				reserves=1
 			}
@@ -154,7 +154,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=2
 				reserves=1
 			}
@@ -260,7 +260,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=3
 				reserves=1
 			}
@@ -299,7 +299,7 @@
 				reserves=1
 			}			
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -381,7 +381,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -623,7 +623,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -1058,8 +1058,8 @@
 	s:STATE_LOIRE={
 		region_state:FRA={
 			create_building={
-				building="building_arms_industry"
-				level=4
+				building="building_government_administration"
+				level=2
 				reserves=1
 			}
 			create_building={
@@ -1079,7 +1079,7 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=25
+				level=15
 				reserves=1
 			}
 			create_building={
@@ -1232,7 +1232,7 @@
 		region_state:FRA={
 			create_building={
 				building="building_government_administration"
-				level=5
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -1873,7 +1873,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -2054,7 +2054,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -2071,7 +2071,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -2315,23 +2315,6 @@
 				reserves=1
 			}
 		}
-		region_state:CLG={
-			create_building={
-				building="building_textile_mills"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_temperate_farmland"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_barracks"
-				level=6
-				reserves=1
-			}
-		}
 		region_state:JU1={
 			create_building={
 				building="building_textile_mills"
@@ -2346,30 +2329,6 @@
 			create_building={
 				building="building_barracks"
 				level=6
-				reserves=1
-			}
-		}
-		region_state:LMA={
-			create_building={
-				building="building_temperate_farmland"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_barracks"
-				level=6
-				reserves=1
-			}
-		}
-		region_state:CLE={
-			create_building={
-				building="building_temperate_farmland"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_barracks"
-				level=8
 				reserves=1
 			}
 		}
@@ -2391,6 +2350,56 @@
 			}
 		}
 	}
+
+	s:STATE_RUHR={
+		region_state:CLG={
+			create_building={
+				building="building_textile_mills"
+				level=2
+				reserves=1
+			}
+			create_building={
+				building="building_temperate_farmland"
+				level=2
+				reserves=1
+			}
+			create_building={
+				building="building_barracks"
+				level=6
+				reserves=1
+			}
+		}
+		region_state:LMA={
+			create_building={
+				building="building_temperate_farmland"
+				level=2
+				reserves=1
+			}
+			create_building={
+				building="building_paper_mills"
+				level=1
+				reserves=1
+			}
+			create_building={
+				building="building_barracks"
+				level=6
+				reserves=1
+			}
+		}
+		region_state:CLE={
+			create_building={
+				building="building_temperate_farmland"
+				level=2
+				reserves=1
+			}
+			create_building={
+				building="building_barracks"
+				level=8
+				reserves=1
+			}
+		}
+	}
+
 	s:STATE_BRANDENBURG={
 		region_state:BRM={
 			create_building={

@@ -6,7 +6,7 @@
 	ai_will_do = { always = no }
 	
 	possible = {
-		has_technology_researched = pan-nationalism
+		has_technology_researched = pan_nationalism
 	}
 }
 
@@ -46,6 +46,7 @@ ARM = {
 	states = {
 		STATE_ARMENIA
 		STATE_ERZURUM
+		STATE_KARS
 	}
 	
 	ai_will_do = { always = no }
@@ -187,7 +188,14 @@ CSA = {
 }
 
 ASA = {
-	use_culture_states = yes
+	states = {
+		STATE_GEORGIA
+		STATE_LOUISIANA
+		STATE_SOUTH_CAROLINA
+		STATE_MISSISSIPPI
+		STATE_ALABAMA
+		STATE_FLORIDA
+	}
 
 	ai_will_do = { always = no }
 }
@@ -276,19 +284,20 @@ FRA = {
 		STATE_NORMANDY 
 		STATE_LANGUEDOC
 		STATE_RHONE
-		STATE_LOIRE
+		STATE_FRENCH_LOW_COUNTRIES
 		STATE_PICARDY
 		STATE_ALSACE_LORRAINE
 		STATE_POITOU
-		STATE_ARMAGNAC
-		STATE_LIMOUSIN
+		STATE_GUYENNE
+		STATE_AUVERGNE_LIMOUSIN
 		STATE_BRITTANY
 		STATE_BURGUNDY
 		STATE_CHAMPAGNE
 		STATE_FRANCHE_COMTE
-		STATE_AUVERGNE
+		STATE_LORRAINE
 		STATE_AQUITAINE
 		STATE_ORLEANS
+		STATE_MAINE_ANJOU
 	}
 	
 	ai_will_do = { always = no }
@@ -426,7 +435,7 @@ WES = {
 	states = { 
 		STATE_WESTPHALIA 
 		STATE_NORTH_RHINE 
-		STATE_RHINELAND
+		STATE_RUHR
 	}
 	
 	required_num_states = 2
@@ -1052,11 +1061,10 @@ ALD = {
 	states = {
 		STATE_ALGIERS
 		STATE_CONSTANTINE
-		STATE_TLEMCEN
+		STATE_ORAN
 		STATE_SAHARA
 		STATE_EAST_SAHARA
 	}
-	
 	ai_will_do = { always = no }
 }
 
@@ -1066,7 +1074,7 @@ YUG = {
 	required_num_states = 3
 
 	possible = {
-		has_technology_researched = pan-nationalism
+		has_technology_researched = pan_nationalism
 	}
 	
 	ai_will_do = { always = no }
@@ -1124,7 +1132,7 @@ CZH = {
 	required_num_states = 3
 
 	possible = {
-		has_technology_researched = pan-nationalism
+		has_technology_researched = pan_nationalism
 	}
 }
 
@@ -1202,7 +1210,7 @@ ISR = {
 	ai_will_do = { always = no }
 
 	possible = {
-		has_technology_researched = pan-nationalism
+		has_technology_researched = pan_nationalism
 	}
 }
 
@@ -1238,7 +1246,7 @@ SIB = {
 	ai_will_do = { always = no }
 
 	possible = {
-		has_technology_researched = pan-nationalism
+		has_technology_researched = pan_nationalism
 	}
 }
 
@@ -1384,7 +1392,10 @@ SAR = {
 	states = {
 		STATE_PIEDMONT
 		STATE_SARDINIA
+		STATE_SAVOY
 	}
+	required_num_states = 2
+
 	ai_will_do = { always = no }
 }
 
@@ -1886,15 +1897,13 @@ TRC = {
 
 ASM = {
 	states = {
-		STATE_TURKMENIA
+		STATE_ASSAM
 	}
 	ai_will_do = { always = no }
 }
 
 MNP = {
-	states = {
-		STATE_TURKMENIA
-	}
+	provinces = { xB03121 xA17DC4 x8C53B3 xCB0893 x30B15A x8F90F5 xB238B2 }
 	ai_will_do = { always = no }
 }
 
@@ -2212,5 +2221,156 @@ KLM = {
 		STATE_ASTRAKHAN
 	}
 
+	ai_will_do = { always = no }
+}
+
+CAU = {
+	states = {
+		STATE_GREATER_CAUCASUS
+		STATE_ARMENIA
+		STATE_AZERBAIJAN
+		STATE_KARS
+	}
+	
+	required_num_states = 3
+
+	ai_will_do = { always = no }
+	
+	possible = {
+		has_technology_researched = pan_nationalism
+	}
+}
+
+MOR = {
+	states = {
+		STATE_MARRAKECH
+		STATE_FEZ
+		STATE_AL_RIF
+		STATE_INNER_MOROCCO
+	}
+	
+	required_num_states = 3
+
+	ai_will_do = { always = no }
+}
+
+TUN = {
+	states = {
+		STATE_TUNISIA
+	}
+
+	ai_will_do = { always = no }
+}
+
+TRI = {
+	states = {
+		STATE_TRIPOLI
+		STATE_LIBYA
+		STATE_LIBYAN_DESERT
+	}
+
+	ai_will_do = { always = no }
+}
+
+ETH = {
+	use_culture_states = yes
+
+	ai_will_do = { always = no }
+}
+
+LIB = {
+	states = {
+		STATE_LIBERIA
+	}
+	ai_will_do = { always = no }
+}
+
+DFR = {
+	states = {
+		STATE_DARFUR
+	}
+	ai_will_do = { always = no }
+}
+
+ASH = {
+	states = {
+		STATE_GHANA
+	}
+	ai_will_do = { always = no }
+}
+
+DAH = {
+	states = {
+		STATE_DAHOMEY
+	}
+	ai_will_do = { always = no }
+}
+
+WAD = {
+	states = {
+		STATE_CHAD
+		STATE_WADDAI
+	}
+	ai_will_do = { always = no }
+}
+
+MAD = {
+	use_culture_states = yes
+	
+	ai_will_do = { always = no }
+}
+
+KAU = {
+	states = { 
+		STATE_SOUTH_AUSTRALIA
+	}
+
+	ai_will_do = { always = no }
+}
+
+YUZ = {
+	states = { 
+		STATE_FORMOSA
+	}
+	ai_will_do = { always = no }
+}
+
+SAV = {
+	states = {
+		STATE_SAVOY
+		STATE_RHONE
+	}
+	
+	ai_will_do = { always = no }
+}
+
+RHE = {
+	states = { 
+		STATE_RHINELAND
+		STATE_NORTH_RHINE 
+		STATE_RUHR
+	}
+	
+	required_num_states = 2
+	
+	ai_will_do = { always = no }
+}
+
+CON = {
+	states = {
+		STATE_CONSTANTINE
+	}
+	ai_will_do = { always = no }
+}
+
+MAS = {
+	states = {
+		STATE_ORAN
+	}
+	ai_will_do = { always = no }
+}
+
+AIT = {
+	provinces = { x429B12 x9AF6A4 x8E7690 x2DF9DB x3A0E38 x0090A0 xB1BCFF x0C5C65 }
 	ai_will_do = { always = no }
 }

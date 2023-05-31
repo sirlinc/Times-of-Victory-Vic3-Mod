@@ -269,6 +269,7 @@
 				level=1
 				reserves=1
 			}
+		}
 	}
 	s:STATE_ARKHANGELSK={
 		region_state:RUS={
@@ -1119,7 +1120,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_marginal_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -1182,8 +1183,6 @@
 				level=1
 				reserves=1
 			}
-		}
-		region_state:MOL={
 		}
 	}
 }

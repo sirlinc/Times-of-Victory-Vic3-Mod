@@ -1,70 +1,19 @@
 ﻿l_english:
-  
-  # Leader Ideologies
- ideology_moderate:0 "Moderate"
- ideology_moderate_desc:0 "#lore This leader is considered a moderate in their Interest Group, with no particular ideology of their own.#!"
- 
- ideology_traditionalist:0 "Traditionalist"
- ideology_traditionalist_desc:0 "#lore This leader believes in maintaining traditional customs, viewing them as an extension of natural laws. #!"
 
- ideology_atheist:1 "Rationalism"
- ideology_atheist_desc:0 "#lore This leader believes that reason and critical thinking are the only ways to achieve true knowledge in full, being very skeptical of religion. #!"
+#administrative_infrastructure
 
- ideology_republican_leader:0 "Civic Republican"
- ideology_republican_leader_desc:0 "#lore This leader seeks to establish a republic ruled by elected officials. #!"
-
- ideology_radical:0 "Radical"
- ideology_radical_desc:0 "#lore This leader strives for radical liberal reforms advancing democratic ideals. #!"
-
- ideology_abolitionist:0 "Abolitionist"
- ideology_abolitionist_desc:0 "#lore This leader finds slavery an abhorrent violation of human rights and seeks to abolish it from the world. #!"
-
- ideology_slaver:0 "Slaver"
- ideology_slaver_desc:0 "#lore This leader views slavery as a natural part of their way of life and opposes its abolition. #!"
-
- ideology_feminist:0 "Feminist"
- ideology_feminist_desc:0 "#lore This leader holds that women are equal to men and strives for the extension of their rights as citizens.#!"
- 
- ideology_reformer:0 "Reformer"
- ideology_reformer_desc:0 "#lore This leader wants to make a few incremental changes to make society just a bit more equal. But not too much.#!"
-
- ideology_pacifist:0 "Pacifist"
- ideology_pacifist_desc:0 "#lore This leader believes in non-violence as their method and peace as their goal.#!"
-
- ideology_jingoist_leader:0 "Expansionist"
- ideology_jingoist_leader_desc:0 "#lore This leader advocates an aggressive foreign policy, emphasizing readiness to go to war to advance its ambitions. #!"
-
- ideology_royalist:0 "Royalist"
- ideology_royalist_desc:0 "#lore This leader's loyalties are to the monarchy and its rightful ruler.#!"
- 
- ideology_social_democrat:0 "Classical Radicalist"
- ideology_social_democrat_desc:0 "#lore "This leader has a strong desire for radical Enlightenment social reforms, prioritizing economic and social equality, supporting limiting government power.#!"
-
- ideology_communist:0 "Communist"
- ideology_communist_desc:0 "#lore This leader believes in the working class seizing political power through whatever means necessary. #!"
-
- ideology_vanguardist:0 "Jacobinism"
- ideology_vanguardist_desc:0 "#lore This leader advocates the establishment of a revolutionary Jacobinist society that will lead the people to a society based on the principles of liberty, equality and fraternity, through a total mobilization of the people and the active participation of the masses so that the movement is fully realized. #!"
-
- ideology_fascist:0 "Fascist"
- ideology_fascist_desc:0 "#lore This leader is an ultranationalist who espouses the revival of perceived traditional, authoritarian values in a modern context. #!"
-
- ideology_anarchist:0 "Libertarian"
- ideology_anarchist_desc:0 "#lore This leader seeks and defends the maximization of individual freedom and the total restriction of government. #!"
-
- ideology_ethno_nationalist:0 "Ethnic Separatist"
- ideology_ethno_nationalist_desc:0 "#lore This leader believes in a nation defined on ethnic grounds. #!"
-
- ideology_theocrat:0 "Theocrat"
- ideology_theocrat_desc:0 "#lore This leader believes in a state run by the church in line with doctrinal values.#!"
-
- ideology_market_liberal:0 "Economic Liberal"
- ideology_market_liberal_desc:0 "#lore This leader believes that the invisible hand of the free market should be the guiding force of the nation's economy."
-
-  # Interest Group Ideologies
-
-
-  # flavor ideologies
+law_tribal_councils: ""
+law_tribal_councils_desc: ""
+law_feudal_courts: ""
+law_feudal_courts_desc: ""
+law_absolutism: ""
+law_absolutism_desc: ""
+law_patronage_system: ""
+law_patronage_system_desc: ""
+law_public_servants: ""
+law_public_servants_desc: ""
+law_government_agencies: ""
+law_government_agencies_desc: ""
 
 #army_model
 law_warrior_bands: "Warrior Bands"
@@ -139,7 +88,7 @@ law_paramilitary_force_desc: "A policing approach that employs military-style ta
 
 #rights_of_women
 law_women_in_leadership: "Women in Leadership"
-law_women_in_leadership_desc: "A society that actively encourages and supports the participation of women in leadership roles across various sectors/"
+law_women_in_leadership_desc: "A society that actively encourages and supports the participation of women in leadership roles across various sectors."
 
 #taxation
 law_exemption_taxation: "Exemption Taxation"
@@ -182,7 +131,7 @@ law_balanced: "Balanced"
 law_balanced_desc: "A measured policy approach that balances both offensive and defensive military goals."
 
 law_deterrence: "Deterrence"
-law_deterrence_desc: "A military p a formidable military presence, potential adversaries are discouraged from attack or provocation."
+law_deterrence_desc: "A defence-oriented military posture focused on a formidable military presence, so potential adversaries are discouraged from attack or provocation."
 
 law_defensive: "Defensive"
 law_defensive_desc: "A military policy focused wholly on national security and defense, minimizing involvement in external conflicts."

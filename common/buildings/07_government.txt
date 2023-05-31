@@ -34,12 +34,13 @@ building_government_administration = {
 
 	unlocking_technologies = {
 		principles_of_government
-	}
+	}+
 
 	production_method_groups = {
-		pmg_base_building_government_administration
-		pmg_government_administration_bureaucrat_professionalism
-		pmg_government_administration_religious_administration
+		pmg_organisation
+		pmg_communication
+		pmg_law_enforcement
+		pmg_bureaucracy
 	}
 
 	texture = "gfx/interface/icons/building_icons/building_government_administration.dds"
@@ -60,8 +61,10 @@ building_university = {
 	}
 
 	production_method_groups = {
-		pmg_base_building_university
-		pmg_university_academia
+		pmg_education
+		pmg_scientific_infrastructure
+		pmg_institutions
+		pmg_academic_principles
 	}
 
 	texture = "gfx/interface/icons/building_icons/building_university.dds"

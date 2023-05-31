@@ -1612,7 +1612,7 @@
 		region_state:BRN = {
 			create_pop = {
 				culture = oromo
-				religion = christian
+				religion = oriental_orthodox
 				size=14773
 			}
 			create_pop = {

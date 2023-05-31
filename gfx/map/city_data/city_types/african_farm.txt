@@ -95,6 +95,9 @@
 	building_dye_plantation = {
 		"african_rural_plantation_01_mesh"
 	}
+	building_spice_plantation = {
+		"african_rural_plantation_01_mesh"
+	}
 	building_opium_plantation = {
 		"african_rural_plantation_01_mesh"
 	}

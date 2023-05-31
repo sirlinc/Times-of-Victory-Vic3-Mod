@@ -50,7 +50,7 @@ pm_steam_engines = {
 	pollution_generation = 8
 
 	unlocking_technologies = {
-		steamworks
+		watertube_boiler
 	}
 	building_modifiers = {
 		workforce_scaled = {								
@@ -705,8 +705,7 @@ pm_non_metal_tools = {
     building_modifiers = {
         workforce_scaled = {
             building_input_wood_add = 10
-			building_input_animal_products_add = 5
-            building_output_tools_add = 25
+            building_output_tools_add = 10
         }
     }
 }
@@ -729,7 +728,7 @@ pm_case_hardened_tools = {
     texture = "gfx/interface/icons/production_method_icons/crude_tools.dds"
 
     unlocking_technologies = {
-		rolling_mill
+		rolling_mills
 	}
 
     building_modifiers = {
@@ -1505,7 +1504,7 @@ pm_chemical_pulping = {
     texture = "gfx/interface/icons/production_method_icons/chemical_pulping.dds"
 
     unlocking_technologies = {
-		industrial_solvents
+		chemical_solvents
 	}
 
     building_modifiers = {
@@ -1548,7 +1547,7 @@ pm_acidic_paper = {
     texture = "gfx/interface/icons/production_method_icons/acidic_paper.dds"
 
     unlocking_technologies = {
-		industrial_solvents
+		chemical_solvents
 	}
 
     building_modifiers = {

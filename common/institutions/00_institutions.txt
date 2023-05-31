@@ -32,6 +32,14 @@ institution_health_system = {
 	background_texture = "gfx/interface/illustrations/institutions/institution_icon_bg.dds"
 }
 
+institution_police = {
+	icon = "gfx/interface/icons/institution_icons/police.dds"
+    background_texture = "gfx/interface/illustrations/institutions/police.dds"
+	modifier = {
+		state_turmoil_effects_mult = -0.1
+	}
+}
+
 institution_home_affairs = {
 	icon = "gfx/interface/icons/institution_icons/home_affairs.dds"
 	background_texture = "gfx/interface/illustrations/institutions/institution_icon_bg.dds"
@@ -49,7 +57,7 @@ institution_army_professionalism = {
 }
 
 institution_naval_professionalism = {
-	icon = "gfx/interface/icons/institution_icons/home_affairs.dds"
+	icon = "gfx/interface/icons/institution_icons/naval_professionalism.dds"
 	background_texture = "gfx/interface/illustrations/institutions/institution_icon_bg.dds"
 	modifier = {
 		country_navy_power_projection_mult = 0.1
