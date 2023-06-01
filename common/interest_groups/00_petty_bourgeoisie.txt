@@ -3,11 +3,9 @@
 	texture = "gfx/interface/icons/ig_icons/petty_bourgeoisie.dds"
 	
 	ideologies = {
-		#ideology_reactionary -> The term "reactionary" only began to be used during the French Revolution. Will replace "Liberal" and "Moralist" ideologies after the event "Fall of the Old Regime"
-		#ideology_patriotic -> Will be enable by techs
+		ideology_reactionary
 		ideology_meritocratic
-		ideology_liberal
-		ideology_moralist
+		ideology_patriotic
 	}
 
 	enable = {
@@ -39,77 +37,67 @@
 	}
 
 	pop_weight = {
-		value = 0
+		value = 75
 	
-		#add = {
-		#	desc = "POP_SHOPKEEPERS"
-		#	if = {
-		#		limit = { 
-		#			is_pop_type = shopkeepers
-		#		}
-		#		value = 200
-		#	}
-		#}	
-		#
-		#add = {
-		#	desc = "POP_CLERKS"
-		#	if = {
-		#		limit = { 
-		#			is_pop_type = clerks
-		#		}
-		#		value = 60
-		#	}
-		#}			
-		#
-		#add = {
-		#	desc = "POP_FARMERS"
-		#	if = {
-		#		limit = { 
-		#			is_pop_type = farmers
-		#		}
-		#		value = 30
-		#	}
-		#}		
-		#
-		#multiply = {
-		#	desc = "LEADER_POPULARITY"
-		#	scope:interest_group = {
-		#		leader = {
-		#			value = popularity
-		#			multiply = 0.0025
-		#			add = 1
-		#			max = 1.25
-		#			min = 0.75
-		#		}
-		#	}
-		#}		
-		#
-		#multiply = {
-		#	desc = "decentralized_power"	
-		#	value = 1.0
-		#	
-		#	if = {
-		#		limit = { 
-		#			owner = {
-		#				is_country_type = decentralized
-		#			}
-		#		}
-		#		value = 0.0
-		#	}		
-		#}
-		#if = {
-		#	limit = {
-		#		scope:interest_group = {
-		#			is_in_government = yes
-		#		}
-		#	}
-		#	multiply = {
-		#		desc = "IN_GOVERNMENT_ATTRACTION"
-		#		value = 1
-		#		add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
-		#		min = 0
-		#	}
-		#}
+		add = {
+			desc = "POP_SHOPKEEPERS"
+			if = {
+				limit = { 
+					is_pop_type = shopkeepers
+				}
+				value = 200
+			}
+		}	
+		
+		add = {
+			desc = "POP_CLERKS"
+			if = {
+				limit = { 
+					is_pop_type = clerks
+				}
+				value = 50
+			}
+		}			
+
+		multiply = {
+			desc = "LEADER_POPULARITY"
+			scope:interest_group = {
+				leader = {
+					value = popularity
+					multiply = 0.0025
+					add = 1
+					max = 1.25
+					min = 0.75
+				}
+			}
+		}		
+
+		multiply = {
+			desc = "decentralized_power"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						is_country_type = decentralized
+					}
+				}
+				value = 0.0
+			}		
+		}
+		if = {
+			limit = {
+				scope:interest_group = {
+					is_in_government = yes
+				}
+			}
+			multiply = {
+				desc = "IN_GOVERNMENT_ATTRACTION"
+				value = 1
+				add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
+				min = 0
+			}
+		}
 	}
 
 	monarch_weight = {

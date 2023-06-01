@@ -27,7 +27,7 @@ law_autocracy = {
 	}
 
 	modifier = {
-		country_legitimacy_headofstate_add = 40
+		country_legitimacy_headofstate_add = 30
 		country_legitimacy_govt_total_clout_add = 120
 		country_legitimacy_ideological_incoherence_mult = 0.5
 		country_aristocrats_pol_str_mult = 0.5

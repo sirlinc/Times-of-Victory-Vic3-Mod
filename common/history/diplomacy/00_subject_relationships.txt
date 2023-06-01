@@ -9,9 +9,11 @@
 	c:RUS = {
 		create_diplomatic_pact = {
 			country = c:QKH
-			type = protectorate
+			type = vassal
 		}
 		
+	}
+	c:ENG = {
 	}
 	c:POL = {
 		create_diplomatic_pact = {
@@ -60,17 +62,17 @@
 		}
 		create_diplomatic_pact = {
 			country = c:FNM
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:AKE
-			type = puppet
+			type = vassal
 		}
 	}
 	c:SWE = {
 		create_diplomatic_pact = {
 			country = c:KAR
-			type = puppet
+			type = vassal
 		}
 	}
 	c:FRA = {

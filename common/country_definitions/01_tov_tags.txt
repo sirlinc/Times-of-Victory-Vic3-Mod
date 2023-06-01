@@ -5928,7 +5928,7 @@ QKH = { #Qasim Khanate
 	tier = principality
 	
 	capital = STATE_TARTARIA
-	cultures = { tatar }
+	cultures = { tatar, finnish }
 	religion = sunni
 }
 KAR = { #Karelia

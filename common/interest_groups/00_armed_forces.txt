@@ -34,71 +34,71 @@
 	pop_weight = {
 		value = 0
 		
-		#add = {
-		#	desc = "POP_NOT_DISCRIMINATED"
-		#	if = {
-		#		limit = { 
-		#			pop_is_discriminated = no
-		#		}
-		#		value = 25
-		#	}
-		#}		
-		#
-		#add = {
-		#	desc = "POP_SOLDIERS"
-		#	if = {
-		#		limit = { 
-		#			is_pop_type = soldiers
-		#		}
-		#		value = 100
-		#	}
-		#}
-		#
-		#add = {
-		#	desc = "POP_ARISTOCRATS"
-		#	if = {
-		#		limit = { 
-		#			is_pop_type = aristocrats
-		#		}
-		#		value = 50
-		#	}
-		#}		
-		#
-		#add = {
-		#	desc = "POP_OFFICERS"
-		#	if = {
-		#		limit = { 
-		#			is_pop_type = officers
-		#		}
-		#		value = 200
-		#	}
-		#}
-		#			
-		#multiply = {
-		#	desc = "LEADER_POPULARITY"
-		#	scope:interest_group = {
-		#		leader = {
-		#			value = popularity
-		#			multiply = 0.0025
-		#			add = 1
-		#			max = 1.25
-		#			min = 0.75
-		#		}
-		#	}
-		#}
-		#if = {
-		#	limit = {
-		#		scope:interest_group = {
-		#			is_in_government = yes
-		#		}
-		#	}
-		#	multiply = {
-		#		desc = "IN_GOVERNMENT_ATTRACTION"
-		#		value = 1
-		#		add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
-		#		min = 0
-		#	}
-		#}
+		add = {
+			desc = "POP_NOT_DISCRIMINATED"
+			if = {
+				limit = { 
+					pop_is_discriminated = no
+				}
+				value = 25
+			}
+		}		
+		
+		add = {
+			desc = "POP_SOLDIERS"
+			if = {
+				limit = { 
+					is_pop_type = soldiers
+				}
+				value = 100
+			}
+		}
+		
+		add = {
+			desc = "POP_ARISTOCRATS"
+			if = {
+				limit = { 
+					is_pop_type = aristocrats
+				}
+				value = 50
+			}
+		}		
+	
+		add = {
+			desc = "POP_OFFICERS"
+			if = {
+				limit = { 
+					is_pop_type = officers
+				}
+				value = 200
+			}
+		}
+					
+		multiply = {
+			desc = "LEADER_POPULARITY"
+			scope:interest_group = {
+				leader = {
+					value = popularity
+					multiply = 0.0025
+					add = 1
+					max = 1.25
+					min = 0.75
+				}
+			}
+		}
+		if = {
+			limit = {
+				scope:interest_group = {
+					is_in_government = yes
+				}
+			}
+			multiply = {
+				desc = "IN_GOVERNMENT_ATTRACTION"
+				value = 1
+				add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
+				min = 0
+			}
+		}
 	}
 	
 	monarch_weight = {

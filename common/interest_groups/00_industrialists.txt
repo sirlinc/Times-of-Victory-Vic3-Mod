@@ -1,5 +1,5 @@
 ﻿ig_industrialists = {
-	color = hsv{ 0.02 0.6 0.7 }
+	color = hsv{ 0.06 0.60 0.89 }
 	texture = "gfx/interface/icons/ig_icons/industrialists.dds"
 	
 	ideologies = {
@@ -33,75 +33,75 @@
 	pop_weight = {
 		value = 0
 	
-		#add = {
-		#	desc = "POP_CAPITALISTS"
-		#	if = {
-		#		limit = { 
-		#			is_pop_type = capitalists
-		#		}
-		#		value = 200
-		#	}
-		#}	
-		#
-		#add = {
-		#	desc = "POP_ENGINEERS"
-		#	if = {
-		#		limit = { 
-		#			is_pop_type = engineers
-		#		}
-		#		value = 50
-		#	}
-		#}			
-		#
-		#add = {
-		#	desc = "POP_SHOPKEEPERS"
-		#	if = {
-		#		limit = { 
-		#			is_pop_type = shopkeepers
-		#		}
-		#		value = 50			
-		#	}			
-		#}	
-		#
-		#multiply = {
-		#	desc = "LEADER_POPULARITY"
-		#	scope:interest_group = {
-		#		leader = {
-		#			value = popularity
-		#			multiply = 0.0025
-		#			add = 1
-		#			max = 1.25
-		#			min = 0.75
-		#		}
-		#	}
-		#}	
-		#
-		#multiply = {
-		#	desc = "decentralized_power"	
-		#	value = 1.0
-		#	
-		#	if = {
-		#		limit = { 
-		#			owner = {
-		#				is_country_type = decentralized
-		#			}
-		#		}
-		#		value = 0.0
-		#	}		
-		#}
-		#if = {
-		#	limit = {
-		#		scope:interest_group = {
-		#			is_in_government = yes
-		#		}
-		#	}
-		#	multiply = {
-		#		desc = "IN_GOVERNMENT_ATTRACTION"
-		#		value = 1
-		#		add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
-		#		min = 0
-		#	}
-		#}
+		add = {
+			desc = "POP_CAPITALISTS"
+			if = {
+				limit = { 
+					is_pop_type = capitalists
+				}
+				value = 200
+			}
+		}	
+	
+		add = {
+			desc = "POP_ENGINEERS"
+			if = {
+				limit = { 
+					is_pop_type = engineers
+				}
+				value = 50
+			}
+		}			
+
+		add = {
+			desc = "POP_SHOPKEEPERS"
+			if = {
+				limit = { 
+					is_pop_type = shopkeepers
+				}
+				value = 50			
+			}			
+		}	
+		
+		multiply = {
+			desc = "LEADER_POPULARITY"
+			scope:interest_group = {
+				leader = {
+					value = popularity
+					multiply = 0.0025
+					add = 1
+					max = 1.25
+					min = 0.75
+				}
+			}
+		}	
+
+		multiply = {
+			desc = "decentralized_power"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						is_country_type = decentralized
+					}
+				}
+				value = 0.0
+			}		
+		}
+		if = {
+			limit = {
+				scope:interest_group = {
+					is_in_government = yes
+				}
+			}
+			multiply = {
+				desc = "IN_GOVERNMENT_ATTRACTION"
+				value = 1
+				add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
+				min = 0
+			}
+		}
 	}
 	
 	monarch_weight = {
