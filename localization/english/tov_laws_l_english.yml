@@ -2,18 +2,18 @@
 
 #administrative_infrastructure
 
-law_tribal_councils: ""
-law_tribal_councils_desc: ""
-law_feudal_courts: ""
-law_feudal_courts_desc: ""
-law_absolutism: ""
-law_absolutism_desc: ""
-law_patronage_system: ""
-law_patronage_system_desc: ""
-law_public_servants: ""
-law_public_servants_desc: ""
-law_government_agencies: ""
-law_government_agencies_desc: ""
+law_tribal_councils: "Tribal Councils"
+law_tribal_councils_desc: "Tribal councils make laws and resolve disputes based on communal agreement and traditional customs."
+law_feudal_courts: "Feudal Courts"
+law_feudal_courts_desc: "Landholding lords adjudicate disputes and enforce laws within their domains, with little oversight or assistance from their liege or the state."
+law_absolutism: "Absolutism"
+law_absolutism_desc: "In an absolutist form of administration, a single executive - usually a sovereign monarch - holds unrestricted power, unconstrained by other political entities."
+law_patronage_system: "Patronage System"
+law_patronage_system_desc: "The Patronage System rewards loyal supporters with public offices and contracts to maintain political control."
+law_public_servants: "Public Servants"
+law_public_servants_desc: "Public servants neutrally implement laws, maintain civil order, and provide essential public services."
+law_government_agencies: "Government Agencies"
+law_government_agencies_desc: "Government Agencies are specialized bodies that implement and enforce laws and policies, managing distinct public functions."
 
 #army_model
 law_warrior_bands: "Warrior Bands"

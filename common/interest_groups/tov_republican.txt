@@ -1,0 +1,392 @@
+﻿ig_republican = {
+	color = hsv{ 0.65 0.54 0.52 }
+	texture = "gfx/interface/icons/ig_icons/ideology.dds"
+	
+	ideologies = { ideology_republican }
+
+	enable = {
+		trigger_if = {
+			#limit = { 
+			#	has_variable = discovered_rationalism
+			#}
+			has_technology_researched = classical_liberalism 
+		}
+	}
+	
+	traits = {}	
+	
+	on_enable = {}
+	on_disable = {}	
+	on_character_ig_membership = {}
+	
+	pop_potential = {
+		NOR = { is_pop_type = aristocrats }
+	}
+
+	pop_weight = {
+		value = 15
+	
+		add = {
+			desc = "LOWER_STRATA"
+			if = {
+				limit = { 
+					OR = { 
+						is_pop_type = clerks
+						is_pop_type = farmers
+						is_pop_type = labourers
+						is_pop_type = machinists
+						is_pop_type = peasants
+						is_pop_type = slaves
+					}
+				}
+				value = 150
+			}
+		}	
+		
+		add = {
+			desc = "MIDDLE_STRATA"
+			if = {
+				limit = { 
+					OR = { 
+						is_pop_type = academics
+						is_pop_type = bureaucrats
+						is_pop_type = engineers
+						is_pop_type = machinists
+						is_pop_type = shopkeepers
+					}
+				}
+				value = 100
+			}
+		}	
+		
+		add = {
+			desc = "SERVICEMEN"
+			if = {
+				limit = { 
+					OR = {
+						is_pop_type = servicemen
+						is_pop_type = soldiers
+					}
+					owner = {
+						radical_fraction = {
+							value >= 0.2
+							pop_type = laborers
+						}
+					}
+				}
+				value = 70
+			}
+		}	
+		
+		add = {
+			desc = "OFFICERS"
+			if = {
+				limit = { 
+					is_pop_type = officers
+					standard_of_living < 10
+					owner = {
+						OR = {
+							radical_fraction = {
+								value >= 0.2
+								pop_type = servicemen
+							}
+							radical_fraction = {
+								value >= 0.2
+								pop_type = soldiers
+							}
+						}
+					}
+				}
+				value = 70
+			}
+		}	
+		
+		add = {
+			desc = "CAPITALISTS"
+			if = {
+				limit = { 
+					is_pop_type = capitalists
+					
+				}
+				value = 60
+			}
+		}	
+		
+		multiply = {
+			desc = "POPS_ANGER_SYMPATHY"
+			if = {
+				limit = { 
+					OR = {
+						is_pop_type = laborers
+						is_pop_type = machinists
+						is_pop_type = soldiers
+						is_pop_type = farmers
+						is_pop_type = academics
+					}
+					owner = {
+						radical_fraction = {
+							value >= 0.35
+							pop_type = laborers
+						}
+					}
+				}
+				value = 1.25
+			}
+		}
+		
+		#SoL in other governance principle
+		multiply = {
+			desc = "SOL_15_NOT_REPUBLIC"
+			if = {
+				limit = {
+					standard_of_living >= 15
+					owner = {
+						NOR = { 
+							has_law = law_type:law_parliamentary_republic
+							has_law = law_type:law_presidential_republic
+						}
+					}
+				}
+				value = 0.75
+			}
+		}
+		
+		multiply = {
+			desc = "SOL_12_10_NOT_REPUBLIC"
+			if = {
+				limit = {
+					standard_of_living >= 10
+					standard_of_living < 12
+					owner = {
+						NOR = { 
+							has_law = law_type:law_parliamentary_republic
+							has_law = law_type:law_presidential_republic
+						}
+					}
+				}
+				value = 1.25
+			}
+		}
+		
+		multiply = {
+			desc = "SOL_10_5_NOT_REPUBLIC"
+			if = {
+				limit = {
+					standard_of_living >= 5
+					standard_of_living < 10
+					owner = {
+						NOR = { 
+							has_law = law_type:law_parliamentary_republic
+							has_law = law_type:law_presidential_republic
+						}
+					}
+				}
+				value = 1.5
+			}
+		}
+		
+		multiply = {
+			desc = "SOL_5_1_NOT_REPUBLIC"
+			if = {
+				limit = {
+					standard_of_living >= 1
+					standard_of_living < 5
+					owner = {
+						NOR = { 
+							has_law = law_type:law_parliamentary_republic
+							has_law = law_type:law_presidential_republic
+						}
+					}
+				}
+				value = 1.75
+			}
+		}
+		
+		#Literacy
+		multiply = {
+			desc = "LITERACY_1_5" #Difficult contact with Enlightenment ideas
+			if = {
+				limit = {
+					literacy_rate >= 0.01
+					literacy_rate < 0.05
+				}
+				value = 0.75
+			}
+		}
+		multiply = {
+			desc = "LITERACY_10_15" #Normal contact with Enlightenment ideas
+			if = {
+				limit = {
+					literacy_rate >= 0.10
+					literacy_rate < 0.15
+				}
+				value = 1.25
+			}
+		}
+		multiply = {
+			desc = "LITERACY_15_20"
+			if = {
+				limit = {
+					literacy_rate >= 0.15
+					literacy_rate < 0.20
+				}
+				value = 1.5
+			}
+		}
+		multiply = {
+			desc = "LITERACY_20_25"
+			if = {
+				limit = {
+					literacy_rate >= 0.20
+					literacy_rate < 0.25
+				}
+				value = 1.75
+			}
+		}
+		
+		multiply = {
+			desc = "POP_ARISTOCRATS"
+			if = {
+				limit = { 
+					is_pop_type = aristocrats
+				}
+				value = 0.5
+			}
+		}	
+		
+		#Enlightenment Influence
+		multiply = {
+			desc = "PROHIBITION_OF_BOOKS"
+			if = {
+				limit = {
+					owner = {
+						OR = { 
+							has_law = law_type:law_chiefdom
+							has_law = law_type:law_monarchy
+							has_law = law_type:law_theocracy
+							has_law = law_type:law_council_republic
+							has_law = law_type:law_autocracy
+						}
+						NOR = { 
+							has_law = law_type:law_right_of_assembly
+							has_law = law_type:law_protected_speech
+						}
+					}
+				}
+				value = 0.5
+			}
+		}	
+		
+		multiply = {
+			desc = "LEADER_POPULARITY"
+			scope:interest_group = {
+				leader = {
+					value = popularity
+					multiply = 0.0025
+					add = 1
+					max = 1.25
+					min = 0.75
+				}
+			}
+		}		
+
+		multiply = {
+			desc = "decentralized_power"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						is_country_type = decentralized
+					}
+				}
+				value = 0.0
+			}		
+		}
+		if = {
+			limit = {
+				scope:interest_group = {
+					is_in_government = yes
+				}
+			}
+			multiply = {
+				desc = "IN_GOVERNMENT_ATTRACTION"
+				value = 1
+				add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
+				min = 0
+			}
+		}
+	}
+
+	monarch_weight = {
+		value = 0.25
+	}	
+	
+	commander_weight = {
+		value = 1.0
+	}	
+	
+	noble_chance = {
+		value = 0.1
+	}
+	
+	female_commander_chance = {	
+		value = 0.0
+	}
+	
+	female_politician_chance = {
+		value = 0.0
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_own_property
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_in_the_workplace
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_womens_suffrage
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+	}
+	
+	# The chance that a commander belonging to this IG takes over leadership when it changes
+	# scope:character is the most popular commander in the IG
+	commander_leader_chance = {
+		value = 0.25
+		if = {
+			limit = {
+				exists = scope:character
+			}
+			multiply = {
+				value = 1
+				add = scope:character.popularity
+				min = 0
+			}
+		}
+	}
+}
