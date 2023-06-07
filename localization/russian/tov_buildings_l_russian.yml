@@ -1,0 +1,61 @@
+﻿l_russian:
+
+# Temperate Farmland
+building_temperate_farmland: "Умеренные Фермы"
+modifier_building_temperate_farmland_throughput_mult: "Здание $building_temperate_farmland$ [concept_throughput]"
+modifier_building_temperate_farmland_throughput_mult_desc: "Бонус или штраф к входу и выходу $building_temperate_farmland$"
+
+# Tropical Farmland
+building_tropical_farmland: "Тропические Фермы"
+modifier_building_tropical_farmland_throughput_mult: "Здание $building_tropical_farmland$ [concept_throughput]"
+modifier_building_tropical_farmland_throughput_mult_desc: "Бонус или штраф к входу и выходу $building_tropical_farmland$"
+
+# Wetlands Farmland
+building_wetlands_farmland: "Фермы во Влажных Землях"
+modifier_building_wetlands_farmland_throughput_mult: "Здание $building_wetlands_farmland$ [concept_throughput]"
+modifier_building_wetlands_farmland_throughput_mult_desc: "Бонус или штраф к входу и выходу $building_wetlands_farmland$"
+
+# Arid Farmland
+building_arid_farmland: "Фермы в Аридных Землях"
+modifier_building_arid_farmland_throughput_mult: "Здание $building_arid_farmland$ [concept_throughput]"
+modifier_building_arid_farmland_throughput_mult_desc: "Бонус или штраф к входу и выходу $building_arid_farmland$"
+
+# Prime Pasture
+building_prime_pasture: "Пастбища"
+modifier_building_prime_pasture_throughput_mult: "Здание $building_prime_pasture$ [concept_throughput]"
+modifier_building_prime_pasture_throughput_mult_desc: "Бонус или штраф к входу и выходу $building_prime_pasture$"
+
+# Spice Plantations
+building_spice_plantation: "Плантации Специй"
+modifier_building_spice_plantation_throughput_mult: "Здание $building_spice_plantations$ [concept_throughput]"
+modifier_building_spice_plantation_throughput_mult_desc: "Бонус или штраф к входу и выходу $building_spice_plantations$"
+
+# Engineering Firms
+building_engineering_firms: "Инженерные Компании"
+modifier_building_engineering_firms_throughput_mult: "Здание $building_engineering_firms$ [concept_throughput]"
+modifier_building_engineering_firms_throughput_mult_desc: "Бонус или штраф к входу и выходу $building_engineering_firms$"
+
+# Oil Refineries
+building_oil_refineries: "Нефтеперерабатывающие Заводы"
+modifier_building_oil_refineries_throughput_mult: "Здание $building_oil_refineries$ [concept_throughput]"
+modifier_building_oil_refineries_throughput_mult_desc: "Бонус или штраф к входу и выходу $building_oil_refineries$"
+
+# Automotive Firms
+building_automotive_firms: "Автомобильные Компании"
+modifier_building_automotive_firms_throughput_mult: "Здание $building_automotive_firms$ [concept_throughput]"
+modifier_building_automotive_firms_throughput_mult_desc: "Бонус или штраф к входу и выходу $building_automotive_firms$"
+
+# Kaolin Mines
+building_kaolin_mine: "Каолиновые Шахты"
+modifier_building_kaolin_mine_throughput_mult: "Здание $building_kaolin_mine$ [concept_throughput]"
+modifier_building_kaolin_mine_throughput_mult_desc: "Бонус или штраф к входу и выходу $building_kaolin_mine$"
+
+# Ironworks
+building_ironworks: "Железоделательные Заводы"
+modifier_building_ironworks_throughput_mult: "Здание $building_ironworks$ [concept_throughput]"
+modifier_building_ironworks_throughput_mult_desc: "Бонус или штраф к входу и выходу $building_ironworks$"
+
+# Alloy Smelters
+building_alloy_smelters: "Плавильни Легированных Металлов"
+modifier_building_alloy_smelters_throughput_mult: "Здание $building_alloy_smelters$ [concept_throughput]"
+modifier_building_alloy_smelters_throughput_mult_desc: "Бонус или штраф к входу и выходу $building_alloy_smelters$"

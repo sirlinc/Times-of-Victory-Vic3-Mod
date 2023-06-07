@@ -67,13 +67,13 @@ je_mechanized_farming = {
 					}
 				}
 				OR = {
-					has_active_production_method = pm_tractors
-					has_active_production_method = pm_compression_ignition_tractors
+					has_active_production_method = pm_steam_powered_tractors_farmland
+					has_active_production_method = pm_diesel_tractors_farmland
 				}
 			}
 			trigger_else = {
 				OR = {
-					has_active_production_method = pm_tractors
+					has_active_production_method = pm_steam_powered_tractors_farmland
                 }
 			}
 			cash_reserves_ratio > 0.25
@@ -97,7 +97,7 @@ je_atmospheric_engine = {
 		is_player = yes
 		NOT = { has_variable = atmospheric_engine_je_done }
 		has_technology_researched = tool_specialization
-		NOT = { has_technology_researched = watertube_boiler }
+		NOT = { has_technology_researched = industrial_lubricants }
 	}
 
 	possible = {
@@ -127,10 +127,10 @@ je_atmospheric_engine = {
 			}
 			percent > 0.75
 			OR = {
-			    has_active_production_method = pm_atmospheric_engine_pump_building_coal_mine
-			    has_active_production_method = pm_atmospheric_engine_pump_building_iron_mine
-			    has_active_production_method = pm_atmospheric_engine_pump_building_lead_mine
-			    has_active_production_method = pm_atmospheric_engine_pump_building_sulfur_mine
+			    has_active_production_method = pm_newcomen_engine_base_mine
+				has_active_production_method = pm_ore_vanning_base_mine
+				has_active_production_method = pm_flameless_lights_base_mine
+				has_active_production_method = pm_electrostatic_separator_base_mine
             }
 			cash_reserves_ratio > 0.25
 			weekly_profit > 0
@@ -138,7 +138,7 @@ je_atmospheric_engine = {
 		}
 		OR = {
 			can_research = railways
-			can_research = watertube_boiler
+			can_research = industrial_lubricants
 		}
 	}
 
@@ -148,7 +148,7 @@ je_atmospheric_engine = {
 	}
 
 	fail = {
-		has_technology_researched = watertube_boiler
+		has_technology_researched = industrial_lubricants
 	}
 
 	timeout = 3650
@@ -166,14 +166,18 @@ je_plastics = {
 	possible = {
 		has_technology_researched = plastics
 		any_scope_building = {
-			is_building_type = building_glassworks
+			is_building_type = building_synthetics_plant
 		}
 	}
 
 	complete = {
 		any_scope_building = {
 			filter = {
-				is_building_type = building_glassworks
+				is_building_type = building_synthetics_plant
+				OR = {
+					has_active_production_method = pm_isoprene_production
+					has_active_production_method = pm_bakelite_production
+				}
 			}
 
 			percent >= 0.5
@@ -183,7 +187,8 @@ je_plastics = {
 			cash_reserves_ratio > 0.25
 			weekly_profit > 0
 			level >= 5
-			has_active_production_method = pm_houseware_plastics
+
+
 		}
 	}
 
@@ -209,14 +214,14 @@ je_radio = {
 	possible = {
 		has_technology_researched = radio
 		any_scope_building = {
-			is_building_type = building_electrics_industry
+			is_building_type = building_engineering_firms
 		}
 	}
 
 	complete = {
 		any_scope_building = {
 			filter = {
-				is_building_type = building_electrics_industry
+				is_building_type = building_engineering_firms
 			}
 
 			percent >= 0.5
@@ -287,10 +292,10 @@ je_dynamite = {
 				percent > 0.75
 				hidden_trigger = {
 					OR = {
-	                    has_active_production_method = pm_dynamite_building_coal_mine
-	                    has_active_production_method = pm_dynamite_building_iron_mine
-	                    has_active_production_method = pm_dynamite_building_lead_mine
-	                    has_active_production_method = pm_dynamite_building_sulfur_mine
+	                    has_active_production_method = pm_dynamite_base_mine
+	                    has_active_production_method = pm_dynamite_iron_mine
+	                    has_active_production_method = pm_dynamite_lead_mine
+	                    has_active_production_method = pm_dynamite_sulfur_mine
 	                }
                 }
                 custom_tooltip = has_activated_dynamite
@@ -307,9 +312,8 @@ je_dynamite = {
 			percent > 0.75
 			OR = {
 				has_active_production_method = pm_leblanc_process
-				has_active_production_method = pm_ammonia-soda_process
-				has_active_production_method = pm_vacuum_evaporation
-				has_active_production_method = pm_brine_electrolysis
+				has_active_production_method = pm_solvay_process
+				has_active_production_method = pm_castner_kellner_process
 			}
 			cash_reserves_ratio >= 0.25
 			weekly_profit > 0
@@ -353,7 +357,7 @@ je_combustion_engines = {
 					is_building_type = building_urban_center
 				}
 				percent > 0.75
-				has_active_production_method = pm_public_motor_carriages
+				has_active_production_method = pm_tarmacadam_roads
 				cash_reserves_ratio >= 0.25
 				weekly_profit > 0
 				occupancy >= 0.75
@@ -361,9 +365,14 @@ je_combustion_engines = {
 			any_scope_building = {
 				filter = {
 					is_building_type = building_automotive_firms
+					OR = {
+						has_active_production_method = pm_motorwagon
+						has_active_production_method = pm_phaeton_carriage
+						has_active_production_method = pm_touring_car
+					}
 				}
 				percent > 0.75
-				has_active_production_method = pm_automobile_production
+
 				cash_reserves_ratio >= 0.25
 				weekly_profit > 0
 				occupancy >= 0.75
@@ -394,17 +403,17 @@ je_railroads = {
 				is_building_type = building_iron_mine
 				is_building_type = building_lead_mine
 				is_building_type = building_sulfur_mine
+				is_building_type = building_kaolin_mine
 				is_building_type = building_logging_camp
 				is_building_type = building_oil_rig
 				is_building_type = building_coffee_plantation
 				is_building_type = building_cotton_plantation
-				is_building_type = building_dye_plantation
+				is_building_type = building_spice_plantation
 				is_building_type = building_opium_plantation
 				is_building_type = building_tea_plantation
 				is_building_type = building_tobacco_plantation
 				is_building_type = building_sugar_plantation
 				is_building_type = building_rubber_plantation
-				is_building_type = building_banana_plantation
 			}
 		}
 	}
@@ -425,6 +434,7 @@ je_railroads = {
 						is_building_type = building_iron_mine
 						is_building_type = building_lead_mine
 						is_building_type = building_sulfur_mine
+						is_building_type = building_kaolin_mine
 						is_building_type = building_logging_camp
 						is_building_type = building_oil_rig
 					}
@@ -437,6 +447,7 @@ je_railroads = {
 						is_building_type = building_iron_mine
 						is_building_type = building_lead_mine
 						is_building_type = building_sulfur_mine
+						is_building_type = building_kaolin_mine
 						is_building_type = building_logging_camp
 						is_building_type = building_oil_rig
 					}
@@ -456,13 +467,12 @@ je_railroads = {
 					OR = {
 						is_building_type = building_coffee_plantation
 						is_building_type = building_cotton_plantation
-						is_building_type = building_dye_plantation
+						is_building_type = building_spice_plantation
 						is_building_type = building_opium_plantation
 						is_building_type = building_tea_plantation
 						is_building_type = building_tobacco_plantation
 						is_building_type = building_sugar_plantation
 						is_building_type = building_rubber_plantation
-						is_building_type = building_banana_plantation
 					}
 				}
 			}
@@ -471,13 +481,12 @@ je_railroads = {
 					OR = {
 						is_building_type = building_coffee_plantation
 						is_building_type = building_cotton_plantation
-						is_building_type = building_dye_plantation
+						is_building_type = building_spice_plantation
 						is_building_type = building_opium_plantation
 						is_building_type = building_tea_plantation
 						is_building_type = building_tobacco_plantation
 						is_building_type = building_sugar_plantation
 						is_building_type = building_rubber_plantation
-						is_building_type = building_banana_plantation
 					}
 				}
 				percent > 0.2
@@ -509,7 +518,7 @@ je_telephone = {
 	is_shown_when_inactive = {
 		is_player = yes
 		NOT = { has_variable = telephone_je_done }
-		has_technology_researched = electrical_telegraph
+		has_technology_researched = electric_telegraph
 	}
 
 	possible = {
@@ -519,7 +528,7 @@ je_telephone = {
 
 	complete = {
 		any_scope_building = {
-			is_building_type = building_electrics_industry
+			is_building_type = building_engineering_firms
 			cash_reserves_ratio > 0.25
 			weekly_profit > 0
 			occupancy > 0.75

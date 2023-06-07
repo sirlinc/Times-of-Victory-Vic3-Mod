@@ -623,7 +623,7 @@ warlord_china_events.301 = {
 							any_scope_state = {
 								is_production_method_active = {
 									building_type = building_university
-									production_method = pm_philosophy_department
+									production_method = pm_research_departments
 								}
 							}
 						}

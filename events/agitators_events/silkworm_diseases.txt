@@ -32,8 +32,8 @@ silkworm_diseases.1 = {
 	        }
 		}
 		OR = {
-			can_research = pasteurization
-			is_researching_technology = pasteurization
+			can_research = sterilization
+			is_researching_technology = sterilization
 		}
 		OR = {	
 			country_is_in_europe = yes
@@ -148,14 +148,14 @@ silkworm_diseases.2 = {
 	option = {
 		name = silkworm_diseases.2.a
 		trigger = {
-			can_research = pasteurization
+			can_research = sterilization
 		}
 		add_modifier = {
 			name = modifier_pebrine_research_funds
 			months = short_modifier_time
 			multiplier = money_amount_multiplier_medium
 		}
-		add_technology_progress = { progress = 4000 technology = pasteurization }
+		add_technology_progress = { progress = 4000 technology = sterilization }
 		scope:pebrine_state = {
 			add_modifier = {
 				name = modifier_pebrine_state_modifier
@@ -425,7 +425,7 @@ silkworm_diseases.5 = {
 		ig:ig_industrialists = {
 			is_marginal = no
 		}
-		can_research = art_silk
+		can_research = blended_fabrics
 	}
 
 	immediate = {
@@ -579,7 +579,7 @@ silkworm_diseases.7 = {
 	dlc = dlc004
 
 	trigger = {
-		has_technology_researched = pasteurization
+		has_technology_researched = sterilization
 		any_scope_state = {
 			has_modifier = modifier_pebrine_state_modifier
 		}

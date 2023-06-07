@@ -71,25 +71,24 @@ je_mutual_funds = {
 				is_production_building = yes
 				}
 			}
-			percent >= 0.75
+			percent >= 0.6
 			hidden_trigger = {
 				OR = {
-				    has_active_production_method = pm_publicly_traded_building_textile_mills
-				    has_active_production_method = pm_publicly_traded_building_furniture_manufacturies
-				    has_active_production_method = pm_publicly_traded_building_glassworks
-				    has_active_production_method = pm_publicly_traded_building_tooling_workshops
-				    has_active_production_method = pm_publicly_traded_building_paper_mills
 				    has_active_production_method = pm_publicly_traded_building_shipyards
 				    has_active_production_method = pm_publicly_traded_building_arms_industry
-				    has_active_production_method = pm_publicly_traded
-				    has_active_production_method = pm_publicly_traded_building_logging_camp
 				    has_active_production_method = pm_publicly_traded_building_fishing_wharf
 				    has_active_production_method = pm_publicly_traded_building_whaling_station
-				    has_active_production_method = pm_publicly_traded_building_oil_rig
-				    has_active_production_method = pm_publicly_traded_building_coal_mine
-				    has_active_production_method = pm_publicly_traded_building_iron_mine
-				    has_active_production_method = pm_publicly_traded_building_lead_mine
-				    has_active_production_method = pm_publicly_traded_building_sulfur_mine
+				    has_active_production_method = pm_railways_industrial_conglomerate
+				    has_active_production_method = pmg_building_methods_construction
+					has_active_production_method = pm_industrial_conglomerate_construction
+					has_active_production_method = pm_private_ownership_logging_camp
+					has_active_production_method = pm_industrial_conglomerate_oil
+					has_active_production_method = pm_private_ownership_power_plant
+					has_active_production_method = pm_stock_exchanges
+					has_active_production_method = pm_industrial_conglomerate
+					has_active_production_method = pm_corporate_entities_farmland
+					has_active_production_method = pm_corporate_entities_plantation
+				    has_active_production_method = pm_private_property_base_mine
 	            }
 	        }
 	        custom_tooltip = has_activated_public_trading

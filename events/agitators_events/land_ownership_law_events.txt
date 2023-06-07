@@ -445,12 +445,11 @@ land_ownership_law_events.4 = {
 			is_incorporated = yes
 			any_scope_building = {
 				OR = {
-					is_building_type = building_rye_farm
-					is_building_type = building_wheat_farm
-					is_building_type = building_rice_farm
-					is_building_type = building_maize_farm
-					is_building_type = building_millet_farm
-					is_building_type = building_livestock_ranch
+					is_building_type = building_temperate_farmland
+					is_building_type = building_tropical_farmland
+					is_building_type = building_wetlands_farmland
+					is_building_type = building_arid_farmland
+					is_building_type = building_prime_pasture
 				}
 				occupancy > 0.8
 			}
@@ -494,12 +493,11 @@ land_ownership_law_events.4 = {
 				is_incorporated = yes
 				any_scope_building = {
 					OR = {
-						is_building_type = building_rye_farm
-						is_building_type = building_wheat_farm
-						is_building_type = building_rice_farm
-						is_building_type = building_maize_farm
-						is_building_type = building_millet_farm
-						is_building_type = building_livestock_ranch
+						is_building_type = building_temperate_farmland
+						is_building_type = building_tropical_farmland
+						is_building_type = building_wetlands_farmland
+						is_building_type = building_arid_farmland
+						is_building_type = building_prime_pasture
 					}
 					occupancy > 0.8
 				}
@@ -507,12 +505,11 @@ land_ownership_law_events.4 = {
 			random_scope_building = {
 				limit = {
 					OR = {
-						is_building_type = building_rye_farm
-						is_building_type = building_wheat_farm
-						is_building_type = building_rice_farm
-						is_building_type = building_maize_farm
-						is_building_type = building_millet_farm
-						is_building_type = building_livestock_ranch
+						is_building_type = building_temperate_farmland
+						is_building_type = building_tropical_farmland
+						is_building_type = building_wetlands_farmland
+						is_building_type = building_arid_farmland
+						is_building_type = building_prime_pasture
 						occupancy > 0.8
 					}
 				}
@@ -872,12 +869,11 @@ land_ownership_law_events.7 = {
 				is_incorporated = yes
 				any_scope_building = {
 					OR = {
-						is_building_type = building_rye_farm
-						is_building_type = building_wheat_farm
-						is_building_type = building_rice_farm
-						is_building_type = building_maize_farm
-						is_building_type = building_millet_farm
-						is_building_type = building_livestock_ranch
+						is_building_type = building_temperate_farmland
+						is_building_type = building_tropical_farmland
+						is_building_type = building_wetlands_farmland
+						is_building_type = building_arid_farmland
+						is_building_type = building_prime_pasture
 					}
 				}
 			}
@@ -958,12 +954,11 @@ land_ownership_law_events.8 = {
 			is_incorporated = yes
 			any_scope_building = {
 				OR = {
-					is_building_type = building_rye_farm
-					is_building_type = building_wheat_farm
-					is_building_type = building_rice_farm
-					is_building_type = building_maize_farm
-					is_building_type = building_millet_farm
-					is_building_type = building_livestock_ranch
+					is_building_type = building_temperate_farmland
+						is_building_type = building_tropical_farmland
+						is_building_type = building_wetlands_farmland
+						is_building_type = building_arid_farmland
+						is_building_type = building_prime_pasture
 				}
 			}
 		}
@@ -989,12 +984,11 @@ land_ownership_law_events.8 = {
 				is_incorporated = yes
 				any_scope_building = {
 					OR = {
-						is_building_type = building_rye_farm
-						is_building_type = building_wheat_farm
-						is_building_type = building_rice_farm
-						is_building_type = building_maize_farm
-						is_building_type = building_millet_farm
-						is_building_type = building_livestock_ranch
+						is_building_type = building_temperate_farmland
+						is_building_type = building_tropical_farmland
+						is_building_type = building_wetlands_farmland
+						is_building_type = building_arid_farmland
+						is_building_type = building_prime_pasture
 					}
 				}
 			}
@@ -1541,7 +1535,7 @@ land_ownership_law_events.12 = {
 			}
 		}
 		scope:collectivised_state = {
-			start_building_construction = building_steel_mills
+			start_building_construction = building_alloy_smelters
 		}
 		add_enactment_modifier = {
 			name = modifier_backyard_steel_progress

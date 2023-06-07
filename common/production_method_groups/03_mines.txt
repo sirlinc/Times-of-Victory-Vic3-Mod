@@ -43,11 +43,11 @@ pmg_extraction_coal_mine = {
 pmg_blasting_base_coal_mine = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_no_blasting_base_coal_mine
-		pm_fire_setting_base_coal_mine
-		pm_blackpowder_base_coal_mine
-		pm_nitroglycerin_base_coal_mine
-		pm_dynamite_base_coal_mine
+		pm_no_blasting_coal_mine
+		pm_fire_setting_coal_mine
+		pm_blackpowder_coal_mine
+		pm_nitroglycerin_coal_mine
+		pm_dynamite_coal_mine
 	}
 }
 
@@ -176,9 +176,6 @@ pmg_kaolin_kilns = {
 		pm_hoffmann_kilns_kaolin_mine
 	}
 }
-
-
-
 
 #Vanilla
 

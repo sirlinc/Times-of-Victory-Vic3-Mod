@@ -27,12 +27,14 @@ children_rights_events.1 = { #families hide their children so they won't have to
 				has_law = law_type:law_child_labor_allowed
 				OR = {
 					is_enacting_law = law_type:law_restricted_child_labor
-					is_enacting_law = law_type:law_compulsory_primary_school
+					is_enacting_law = law_type:law_compulsory_education_to_twelve
+					is_enacting_law = law_type:law_compulsory_education_to_sixteen
 				}
 			}
 			AND = {
 				has_law = law_type:law_restricted_child_labor
-				is_enacting_law = law_type:law_compulsory_primary_school
+				is_enacting_law = law_type:law_compulsory_education_to_twelve
+				is_enacting_law = law_type:law_compulsory_education_to_sixteen
 			}
 		}
 		any_interest_group = {
@@ -120,12 +122,14 @@ children_rights_events.2 = { #families send their children to work anyway becaus
 				has_law = law_type:law_child_labor_allowed
 				OR = {
 					is_enacting_law = law_type:law_restricted_child_labor
-					is_enacting_law = law_type:law_compulsory_primary_school
+					is_enacting_law = law_type:law_compulsory_education_to_twelve
+					is_enacting_law = law_type:law_compulsory_education_to_sixteen
 				}
 			}
 			AND = {
 				has_law = law_type:law_restricted_child_labor
-				is_enacting_law = law_type:law_compulsory_primary_school
+				is_enacting_law = law_type:law_compulsory_education_to_twelve
+				is_enacting_law = law_type:law_compulsory_education_to_sixteen
 			}
 		}
 		any_scope_pop = {
@@ -270,12 +274,14 @@ children_rights_events.3 = { #adult men injure themselves trying to do children 
 				has_law = law_type:law_child_labor_allowed
 				OR = {
 					is_enacting_law = law_type:law_restricted_child_labor
-					is_enacting_law = law_type:law_compulsory_primary_school
+					is_enacting_law = law_type:law_compulsory_education_to_twelve
+					is_enacting_law = law_type:law_compulsory_education_to_sixteen
 				}
 			}
 			AND = {
 				has_law = law_type:law_restricted_child_labor
-				is_enacting_law = law_type:law_compulsory_primary_school
+				is_enacting_law = law_type:law_compulsory_education_to_twelve
+				is_enacting_law = law_type:law_compulsory_education_to_sixteen
 			}
 		}
 		NOT = { has_modifier = workers_appeased_modifier }
@@ -349,7 +355,7 @@ children_rights_events.4 = { #ragged schools / advancement
 	cooldown = { months = normal_modifier_time }
 
 	trigger = {
-		is_enacting_law = law_type:law_compulsory_primary_school
+		is_enacting_law = law_type:law_compulsory_education_to_twelve
 		OR = {
 			has_law = law_type:law_child_labor_allowed
 			has_law = law_type:law_restricted_child_labor
@@ -466,9 +472,10 @@ children_rights_events.5 = { #pay for your school supplies / stall
 
 	trigger = {
 		OR = {
-			is_enacting_law = law_type:law_compulsory_primary_school
+			is_enacting_law = law_type:law_compulsory_education_to_twelve
+			is_enacting_law = law_type:law_compulsory_education_to_sixteen				
 			is_enacting_law = law_type:law_religious_schools
-			is_enacting_law = law_type:law_public_schools
+			is_enacting_law = law_type:law_public_schools		
 		}
 		OR = {
 			has_law = law_type:law_child_labor_allowed
@@ -534,7 +541,8 @@ children_rights_events.6 = { #gatekeeping education / debate
 
 	trigger = {
 		OR = {
-			is_enacting_law = law_type:law_compulsory_primary_school
+			is_enacting_law = law_type:law_compulsory_education_to_twelve
+			is_enacting_law = law_type:law_compulsory_education_to_sixteen			
 			is_enacting_law = law_type:law_public_schools
 			is_enacting_law = law_type:law_religious_schools
 		}
@@ -654,7 +662,7 @@ children_rights_events.6 = { #gatekeeping education / debate
 		trigger = {
 			OR = {
 				has_law = law_type:law_secret_police
-				has_technology_researched = mass_propaganda
+				has_technology_researched = mass_media
 				scope:school_ig = {
 					is_interest_group_type = ig_intelligentsia
 					is_powerful = yes

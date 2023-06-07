@@ -605,7 +605,7 @@ belle_epoque_events.6 = {
 		has_technology_researched = cinematography
 		any_scope_state = { 
 			is_incorporated = yes
-			has_building = building_electrics_industry
+			has_building = building_engineering_firms
 		}
 	}
 
@@ -613,7 +613,7 @@ belle_epoque_events.6 = {
 		random_scope_state = {
 			limit = {
 				is_incorporated = yes
-				has_building = building_electrics_industry
+				has_building = building_engineering_firms
 			}
 			save_scope_as = lumiere_state
 		}
@@ -785,8 +785,8 @@ belle_epoque_events.8 = {
 	trigger = {
 		any_scope_state = {
 			is_production_method_active = {
-				building_type = building_motor_industry
-				production_method = pm_automobile_production
+				building_type = building_automotive_firms
+				production_method = pm_motorwagon
 			}
 		}
 	}
@@ -1381,7 +1381,7 @@ belle_epoque_events.14 = {
 					}
 					has_journal_entry = je_belle_epoque
 					any_scope_building = {
-						has_active_production_method = pm_craftsman_sewing
+						has_active_production_method = pm_couture_fabrics
 					}
 				}
 			}

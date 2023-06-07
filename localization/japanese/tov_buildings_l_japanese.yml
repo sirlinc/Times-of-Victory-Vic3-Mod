@@ -1,0 +1,60 @@
+﻿l_japanese:
+# Temperate Farmland
+building_temperate_farmland: "温帯農地"
+modifier_building_temperate_farmland_throughput_mult: "$building_temperate_farmland$ 建物 [concept_throughput]"
+modifier_building_temperate_farmland_throughput_mult_desc: "$building_temperate_farmland$ の入力と出力に対するボーナスまたはペナルティ"
+
+# Tropical Farmland
+building_tropical_farmland: "熱帯農地"
+modifier_building_tropical_farmland_throughput_mult: "$building_tropical_farmland$ 建物 [concept_throughput]"
+modifier_building_tropical_farmland_throughput_mult_desc: "$building_tropical_farmland$ の入力と出力に対するボーナスまたはペナルティ"
+
+# Wetlands Farmland
+building_wetlands_farmland: "湿地農地"
+modifier_building_wetlands_farmland_throughput_mult: "$building_wetlands_farmland$ 建物 [concept_throughput]"
+modifier_building_wetlands_farmland_throughput_mult_desc: "$building_wetlands_farmland$ の入力と出力に対するボーナスまたはペナルティ"
+
+# Arid Farmland
+building_arid_farmland: "乾燥農地"
+modifier_building_arid_farmland_throughput_mult: "$building_arid_farmland$ 建物 [concept_throughput]"
+modifier_building_arid_farmland_throughput_mult_desc: "$building_arid_farmland$ の入力と出力に対するボーナスまたはペナルティ"
+
+# Prime Pasture
+building_prime_pasture: "牧草地"
+modifier_building_prime_pasture_throughput_mult: "$building_prime_pasture$ 建物 [concept_throughput]"
+modifier_building_prime_pasture_throughput_mult_desc: "$building_prime_pasture$ の入力と出力に対するボーナスまたはペナルティ"
+
+# Spice Plantations
+building_spice_plantation: "スパイスプランテーション"
+modifier_building_spice_plantation_throughput_mult: "$building_spice_plantations$ 建物 [concept_throughput]"
+modifier_building_spice_plantation_throughput_mult_desc: "$building_spice_plantations$ の入力と出力に対するボーナスまたはペナルティ"
+
+# Engineering Firms
+building_engineering_firms: "エンジニアリング会社"
+modifier_building_engineering_firms_throughput_mult: "$building_engineering_firms$ 建物 [concept_throughput]"
+modifier_building_engineering_firms_throughput_mult_desc: "$building_engineering_firms$ の入力と出力に対するボーナスまたはペナルティ"
+
+# Oil Refineries
+building_oil_refineries: "石油精製所"
+modifier_building_oil_refineries_throughput_mult: "$building_oil_refineries$ 建物 [concept_throughput]"
+modifier_building_oil_refineries_throughput_mult_desc: "$building_oil_refineries$ の入力と出力に対するボーナスまたはペナルティ"
+
+# Automotive Firms
+building_automotive_firms: "自動車会社"
+modifier_building_automotive_firms_throughput_mult: "$building_automotive_firms$ 建物 [concept_throughput]"
+modifier_building_automotive_firms_throughput_mult_desc: "$building_automotive_firms$ の入力と出力に対するボーナスまたはペナルティ"
+
+# Kaolin Mines
+building_kaolin_mine: "カオリン鉱山"
+modifier_building_kaolin_mine_throughput_mult: "$building_kaolin_mine$ 建物 [concept_throughput]"
+modifier_building_kaolin_mine_throughput_mult_desc: "$building_kaolin_mine$ の入力と出力に対するボーナスまたはペナルティ"
+
+# Ironworks
+building_ironworks: "製鉄所"
+modifier_building_ironworks_throughput_mult: "$building_ironworks$ 建物 [concept_throughput]"
+modifier_building_ironworks_throughput_mult_desc: "$building_ironworks$ の入力と出力に対するボーナスまたはペナルティ"
+
+# Alloy Smelters
+building_alloy_smelters: "合金製錬所"
+modifier_building_alloy_smelters_throughput_mult: "$building_alloy_smelters$ 建物 [concept_throughput]"
+modifier_building_alloy_smelters_throughput_mult_desc: "$building_alloy_smelters$ の入力と出力に対するボーナスまたはペナルティ"

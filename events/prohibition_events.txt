@@ -298,8 +298,8 @@ prohibition.3 = { #Industrialists dont like losing money
 			scope:temperance_state = {
 				any_scope_building = {
 					OR = {
-						has_active_production_method = pm_vineyards
-						has_active_production_method = pm_vineyards_building_maize_farm
+						has_active_production_method = pm_vineyards_tef
+						has_active_production_method = pm_vineyards_arf
 					}
 				}
 			}
@@ -467,7 +467,8 @@ prohibition.5 = { #people are using subsistence farms to make liquor
 					has_active_production_method = pm_home_workshops_building_subsistence_pastures
 					has_active_production_method = pm_home_workshops_building_subsistence_orchards
 					has_active_production_method = pm_home_workshops_building_subsistence_farms
-					has_active_production_method = pm_potatoes
+					has_active_production_method = pm_vineyards_tef
+					has_active_production_method = pm_vineyards_arf					
 				}
 			}
 			NOR = {
@@ -502,7 +503,8 @@ prohibition.5 = { #people are using subsistence farms to make liquor
 						has_active_production_method = pm_home_workshops_building_subsistence_pastures
 						has_active_production_method = pm_home_workshops_building_subsistence_orchards
 						has_active_production_method = pm_home_workshops_building_subsistence_farms
-						has_active_production_method = pm_potatoes
+						has_active_production_method = pm_vineyards_tef
+						has_active_production_method = pm_vineyards_arf
 					}
 				}
 				NOR = {
@@ -519,7 +521,8 @@ prohibition.5 = { #people are using subsistence farms to make liquor
 						has_active_production_method = pm_home_workshops_building_subsistence_pastures
 						has_active_production_method = pm_home_workshops_building_subsistence_orchards
 						has_active_production_method = pm_home_workshops_building_subsistence_farms
-						has_active_production_method = pm_potatoes
+						has_active_production_method = pm_vineyards_tef
+						has_active_production_method = pm_vineyards_arf
 					}
 				}
 				save_scope_as = temperance_building
@@ -602,8 +605,8 @@ prohibition.6 = { #Teetotalism
 		any_scope_state = {
 			any_scope_building = {
 				OR = {
-					has_active_production_method = pm_vineyards
-					has_active_production_method = pm_vineyards_building_maize_farm
+					has_active_production_method = pm_vineyards_tef
+					has_active_production_method = pm_vineyards_arf
 				}
 			}
 			NOT = { has_modifier = teetoliarism_modifier }
@@ -625,8 +628,8 @@ prohibition.6 = { #Teetotalism
 			limit = {
 				any_scope_building = {
 					OR = {
-						has_active_production_method = pm_vineyards
-						has_active_production_method = pm_vineyards_building_maize_farm
+						has_active_production_method = pm_vineyards_tef
+						has_active_production_method = pm_vineyards_arf
 					}
 				}
 				NOT = { has_modifier = teetoliarism_modifier }
@@ -635,8 +638,8 @@ prohibition.6 = { #Teetotalism
 			random_scope_building = {
 				limit = {
 					OR = {
-						has_active_production_method = pm_vineyards
-						has_active_production_method = pm_vineyards_building_maize_farm
+						has_active_production_method = pm_vineyards_tef
+						has_active_production_method = pm_vineyards_arf
 					}
 				}
 				save_scope_as = wine_building

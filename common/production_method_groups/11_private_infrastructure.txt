@@ -1,32 +1,63 @@
-﻿pmg_base_building_railway = {
+﻿pmg_railways_freight = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {
-		pm_steam_trains
-		pm_electric_trains
-		pm_diesel_trains
+		pm_rolling_wagons
+		pm_flatcars
+		pm_gondola_cars
+		pm_rotary_cars
+		pm_intermodal_freight_containers
 	}
 }
 
-pmg_passenger_trains = {
+pmg_railways_passenger = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_no_passenger_cars
+		pm_stagecoach_cars
+		pm_passenger_cars
+		pm_dining_cars
+		pm_passenger_streamliner
+	}
+}
+
+
+pmg_railways_bonus = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	ai_selection = most_productive
 
 	production_methods = {
-		pm_no_passenger_trains
-		pm_wooden_passenger_carriages
-		pm_steel_passenger_carriages
+		pm_no_railway_bonus
+		pm_scenic_touring_trains
+		pm_military_railways
+		pm_whistle_stop_tours
+		pm_colonial_railways
 	}
 }
 
-pmg_ownership_capital_building_railway = {
+pmg_railways_motive_power = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_horse_drawn_trains
+		pm_coal_trains
+		pm_electricity_trains
+		pm_petrol_trains
+	}
+}
+
+pmg_railways_ownership = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
 	production_methods = {
-		pm_privately_owned_building_railway
-		pm_publicly_traded_building_railway
-		pm_government_run_building_railway
-		pm_worker_cooperative_building_railway
+		pm_railways_private_ownership
+		pm_railways_military_owned
+		pm_railways_industrial_conglomerate
+		pm_railways_state_owned
+		pm_railways_worker_cooperative
 	}
 }
 
@@ -48,40 +79,5 @@ pmg_ownership_building_trade_center = {
 		pm_trade_center_charter
 		pm_trade_center_privately_owned
 		pm_trade_center_government_run
-	}
-}
-
-pmg_base_building_financial_services = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	ai_selection = most_productive
-
-	production_methods = {
-		pm_merchant_lenders
-		pm_banks
-		pm_brokerage_firms
-	}
-}
-
-pmg_instruments_financial_services = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	ai_selection = most_productive
-
-	production_methods = {
-
-		pm_financial_services_underwriting
-		pm_financial_services_futures_contracts
-		pm_financial_services_mutual_funds
-		pm_financial_services_foreign_investment		
-	}
-}
-
-pmg_ownership_building_financial_services = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-
-	production_methods = {
-
-		pm_financial_services_privately_owned
-		pm_financial_services_government_run
-		pm_financial_services_credit_union
 	}
 }

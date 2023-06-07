@@ -1,0 +1,916 @@
+﻿l_simp_chinese:
+
+#Arts Academy
+
+pmg_print_culture: "印刷文化"
+pm_woodblock_printing: "木版印刷"
+pm_pamphlets: "小册子"
+pm_daily_newspapers: "日报"
+pm_paperback_novels: "平装小说"
+pm_journalistic_media: "新闻媒体"
+pm_radio_dramas: "广播剧"
+
+pmg_performed_culture: "表演文化"
+pm_traditional_art: "传统艺术"
+pm_piano_compositions: "钢琴作曲"
+pm_symphony_orchestras: "交响乐团"
+pm_deguerrotypes: "德古埃罗图像"
+pm_motion_pictures: "电影"
+pm_theatre_realism: "戏剧现实主义"
+
+pmg_patronage: "赞助"
+pm_traditional_patrons: "传统赞助人"
+pm_religious_institutions: "宗教机构"
+pm_captains_of_industry: "工业巨头"
+pm_state_mouthpiece: "政府喉舌"
+pm_military_media_interface: "军事媒体界面"
+pm_workers_unions: "工人联合会"
+pm_independent_art_movements: "独立艺术运动"
+
+pmg_ideological_focus: "意识形态焦点"
+pm_apolitical: "非政治"
+pm_traditionalism: "传统主义"
+pm_jingoism: "沙文主义"
+pm_liberalism: "自由主义"
+pm_nationalism: "民族主义"
+pm_radicalism: "激进主义"
+
+#Urban Center
+
+pmg_utilities: "公共设施"
+pm_drainage_ditches: "排水沟"
+pm_public_wells: "公共井"
+pm_kerosene_steet_lamps: "煤油路灯"
+pm_sewerage_systems: "污水系统"
+pm_electric_steet_lamps: "电动路灯"
+pm_utility_poles: "公共设施杆"
+
+pmg_roadways: "道路"
+pm_dirt_trails: "土路"
+pm_trackways: "轨道"
+pm_paved_roads: "铺装道路"
+pm_macadam_roads: "马卡当道路"
+pm_tarmacadam_roads: "柏油道路"
+pm_motorways: "高速公路"
+
+pmg_commerce: "商业"
+pm_travelling_fairs: "巡回集市"
+pm_market_squares: "市场广场"
+pm_banks: "银行"
+pm_arcades: "拱廊"
+pm_stock_exchanges: "股票交易所"
+pm_department_stores: "百货公司"
+
+#Government Administration
+
+pmg_organisation: "组织"
+pm_repositories: "档案馆"
+pm_central_archives: "中央档案馆"
+pm_public_libraries: "公共图书馆"
+pm_public_works_departments: "公共工程部门"
+pm_index_cards: "索引卡"
+pm_filing_cabinets: "垂直文件柜"
+
+pmg_communication: "通信"
+pm_horseback_couriers: "骑马信使"
+pm_posthouses: "驿站"
+pm_semaphore_towers: "信号塔"
+pm_electrical_telegraphs: "电报"
+pm_telephone_switchboards: "电话交换机"
+pm_radio_towers: "无线电塔"
+
+pmg_law_enforcement: "执法"
+pm_unorganised_militia: "非组织民兵"
+pm_city_watch: "市民警察"
+pm_courts_of_law: "法院"
+pm_police_departments: "警察局"
+pm_detective_units: "侦探单位"
+
+pmg_academic_principles: "学术原则"
+pm_indoctrination: "灌输"
+pm_censorship: "审查制度"
+pm_freedom: "自由"
+pm_radicalism: "激进主义"
+
+#University
+
+pmg_education: "教育"
+pm_liberal_arts: "文科"
+pm_humanities: "人文学科"
+pm_academic_philosophy: "学术哲学"
+pm_social_sciences: "社会科学"
+pm_political_ecology: "政治生态学"
+
+pmg_scientific_infrastructure: "科学基础设施"
+pm_no_science_infrastructure: "无基础设施"
+pm_operating_theatres: "手术室"
+pm_society_journals: "学会期刊"
+pm_chemical_laboratories: "化学实验室"
+pm_research_departments: "研究部门"
+pm_applied_research_labs: "应用研究实验室"
+
+pmg_institutions: "机构"
+pm_elitist_schools: "精英学校"
+pm_private_institutions: "私立机构"
+pm_religious_schools: "宗教学校"
+pm_military_academies: "军事学院"
+pm_public_institutions: "政府机构"
+
+pmg_academic_principles: "学术原则"
+pm_indoctrination: "灌输"
+pm_censorship: "审查制度"
+pm_freedom: "自由"
+pm_radicalism: "激进主义"
+
+# Trade Center
+
+pm_corporate_entity: "公司实体"
+pm_cooperative_association: "合作社"
+pm_trade_center_charter: "特许"
+
+#building_base_farmland
+
+pmg_motive_power_base_farmland: "耕地动力"
+pm_manual_labor_farmland: "体力劳动"
+pm_draft_animals_farmland: "牲畜耕作"
+pm_portable_engine_farmland: "便携式发动机"
+pm_steam_powered_tractors_farmland: "蒸汽动力拖拉机"
+pm_diesel_tractors_farmland: "柴油拖拉机"
+
+pmg_land_tenure_base_farmland: "土地权益"
+pm_tributary_system_farmland: "贡税制度"
+pm_smallholders_farmland: "小农"
+pm_military_homesteads_farmland: "军属农舍"
+pm_corporate_entities_farmland: "公司实体"
+pm_state_ownership_farmland: "国有权益"
+pm_worker_cooperative_farmland: "工人合作社"
+
+#Temperate Farmland
+
+pmg_wheat_yield_temperate_farmland: "小麦产量"
+pm_rye_cultivation_tef: "黑麦种植"
+pm_potash_tef: "钾肥"
+pm_bread_wheat_cultivation_tef: "面包小麦种植"
+pm_gypsum_fertilizer_tef: "石膏肥料"
+pm_pesticides_tef: "杀虫剂"
+pm_ammonia_fertilizer_tef: "氨肥料"
+
+pmg_secondary_building_temperate_farmland: "次要建筑"
+pm_no_secondary_yields_tef: "无次要产量"
+pm_mulberry_groves_tef: "桑园"
+pm_coppice_woodland_tef: "矮林"
+pm_vineyards_tef: "葡萄园"
+pm_tomato_greenhouses_tef: "番茄温室"
+
+pmg_mechanization_temperate_farmland: "小麦机械化"
+pm_tools_disabled_tef: "无工具"
+pm_mould_board_plows_tef: "犁铧"
+pm_reaper_binders_tef: "联合收割机"
+pm_combine_harvesters_tef: "联合收割机"
+pm_automated_irrigation_tef: "自动灌溉"
+
+#Tropical Farmland
+
+pmg_legume_yield_tropical_farmland: "豆类产量"
+pm_grain_legume_cultivation_trf: "谷类豆类种植"
+pm_cereal_intercropping_trf: "谷物间作"
+pm_high_yield_landraces_trf: "高产土著种"
+pm_potassium_fertilizer_trf: "钾肥"
+pm_pesticides_trf: "杀虫剂"
+pm_ammonia_fertilizer_trf: "氨肥料"
+
+pmg_secondary_building_tropical_farmland: "次要建筑"
+pm_no_secondary_yields_trf: "无次要产量"
+pm_cacao_plantations_trf: "可可种植园"
+pm_tropical_dyes_trf: "热带染料"
+pm_palm_fermentation_trf: "棕榈发酵"
+
+pmg_mechanization_tropical_farmland: "豆类机械化"
+pm_tools_disabled_trf: "无工具"
+pm_tillage_tools_trf: "耕作工具"
+pm_threshers_trf: "脱粒机"
+pm_combine_harvesters_trf: "联合收割机"
+pm_automated_irrigation_trf: "自动灌溉"
+
+#wetlands Farmland
+
+pmg_rice_yield_wetlands_farmland: "稻米产量"
+pm_rice_cultivation_wef: "稻米种植"
+pm_paddies_and_terraces_wef: "稻田和梯田"
+pm_rice_hybridization_wef: "稻米杂交"
+pm_pesticides_wef: "杀虫剂"
+pm_nitrate_fertilizer_wef: "硝酸盐肥料"
+pm_enriched_rice_wef: "富饶稻米"
+
+pmg_secondary_building_wetlands_farmland: "次要建筑"
+pm_no_secondary_yields_wef: "无次要产量"
+pm_jute_plantations_wef: "黄麻种植园"
+pm_rice_fish_aquaculture_wef: "稻鱼共作"
+pm_rice_triple_cropping_wef: "稻三熟制"
+
+pmg_mechanization_wetlands_farmland: "稻米机械化"
+pm_tools_disabled_wef: "无工具"
+pm_spike_harrows_wef: "刺耙"
+pm_hulling_machines_wef: "脱壳机"
+pm_combine_harvesters_wef: "联合收割机"
+pm_automated_irrigation_wef: "自动灌溉"
+
+#Arid Farmland
+
+pmg_millet_yield_arid_farmland: "小米产量"
+pm_sorghum_cultivation_arf: "高粱种植"
+pm_cereal_intercropping_arf: "谷物间作"
+pm_pearl_millet_cultivation_arf: "谷子种植"
+pm_gypsum_fertilizer_arf: "石膏肥料"
+pm_pesticides_arf: "杀虫剂"
+pm_ammonia_fertilizer_arf: "氨肥料"
+
+pmg_secondary_building_arid_farmland: "次要建筑"
+pm_no_secondary_yields_arf: "无次要产量"
+pm_coffee_plantations_arf: "咖啡种植园"
+pm_fig_tree_orchards_arf: "无花果树园"
+pm_vineyards_arf: "葡萄园"
+
+pmg_mechanization_arid_farmland: "小米机械化"
+pm_tools_disabled_arf: "无工具"
+pm_panemone_windmills_arf: "风车"
+pm_irrigation_aqueducts_arf: "灌溉渠道"
+pm_combine_harvesters_arf: "联合收割机"
+pm_automated_irrigation_arf: "自动灌溉"
+
+#Base Pasture
+
+pmg_processing_base_pasture: "加工"
+pm_cured_meats: "腌制肉品"
+pm_natural_preservatives: "天然防腐剂"
+pm_butchering_tools: "屠宰工具"
+pm_abattoirs: "屠宰场"
+pm_refrigerated_rail_cars: "冷藏火车车厢"
+
+pmg_tanneries_base_pasture: "制革厂"
+pm_no_secondary_pasture: "无鞣制"
+pm_vegetable_tannins: "植物鞣剂"
+pm_dyed_hides: "染色皮革"
+pm_chrome_tanning: "铬鞣制"
+
+pmg_secondary_livestock_base_pasture: "次要牲畜"
+pm_no_secondary_livestock: "无次要牲畜"
+pm_horse_ranches: "马场"
+pm_livestock_barns: "牲畜棚"
+pm_collagen_glue_factories: "胶原蛋白胶粘剂工厂"
+pm_dairy_farms: "奶牛场"
+
+pmg_land_tenure_base_pasture: "土地权益"
+pm_commons_pasture: "公地"
+pm_rural_estates_pasture: "乡村庄园"
+pm_fortified_ranches_pasture: "筑城农庄"
+pm_corporate_entities_pasture: "公司实体"
+pm_state_ownership_pasture: "国有权益"
+pm_worker_cooperative_pasture: "工人合作社"
+
+#Prime Pasture
+
+pmg_prime_pasture: "优质牧场"
+pm_free_range_prp: "放养"
+pm_silage_prp: "青贮料"
+pm_prime_breeds_prp: "优质品种"
+pm_rotational_grazing_prp: "轮换放牧"
+pm_batteries_prp: "饲养场"
+
+#Base Mine
+
+pmg_processing_base_mine: "加工"
+pm_manual_sorting_base_mine: "手工分类"
+pm_arrastras_base_mine: "研磨石"
+pm_stamp_mills_base_mine: "压砂机"
+pm_newcomen_engine_base_mine: "纽科门蒸汽机"
+pm_ore_vanning_base_mine: "矿石选矿"
+pm_flameless_lights_base_mine: "无火灯光"
+pm_electrostatic_separator_base_mine: "静电分离器"
+
+pmg_resource_rights_base_mine: "资源权益"
+pm_liege_rights_base_mine: "封建主权"
+pm_guild_privileges_base_mine: "行会特权"
+pm_leasehold_rights_base_mine: "租赁权益"
+pm_prospector_claims_base_mine: "探矿权"
+pm_private_property_base_mine: "私有财产"
+pm_national_patrimony_base_mine: "国家遗产"
+
+#Coal Mine
+
+pmg_extraction_coal_mine: "开采"
+pm_picks_and_shovels_coal_mine: "镐和铲"
+pm_drainage_pumps_coal_mine: "排水泵"
+pm_minecarts_coal_mine: "矿车"
+pm_hydraulic_mining_coal_mine: "水力采矿"
+pm_deep_shaft_machinery_coal_mine: "深井机械"
+pm_ventilation_fans_coal_mine: "通风扇"
+pm_boring_machines_coal_mine: "钻机"
+
+pmg_blasting_coal_mine: "爆破"
+pm_no_blasting_coal_mine: "无爆破"
+pm_fire_setting_coal_mine: "烧火起爆"
+pm_blackpowder_coal_mine: "黑火药"
+pm_nitroglycerin_coal_mine: "硝化甘油"
+pm_dynamite_coal_mine: "炸药"
+
+#Iron Mine
+
+pmg_extraction_iron_mine: "开采"
+pm_picks_and_shovels_iron_mine: "镐和铲"
+pm_drainage_pumps_iron_mine: "排水泵"
+pm_minecarts_iron_mine: "矿车"
+pm_hydraulic_mining_iron_mine: "水力采矿"
+pm_deep_shaft_machinery_iron_mine: "深井机械"
+pm_ventilation_fans_iron_mine: "通风扇"
+pm_boring_machines_iron_mine: "钻机"
+
+pmg_blasting_iron_mine: "爆破"
+pm_no_blasting_iron_mine: "无爆破"
+pm_fire_setting_iron_mine: "烧火起爆"
+pm_blackpowder_iron_mine: "黑火药"
+pm_nitroglycerin_iron_mine: "硝化甘油"
+pm_dynamite_iron_mine: "炸药"
+
+#Lead Mine
+
+pmg_extraction_lead_mine: "提取"
+pm_picks_and_shovels_lead_mine: "镐和铲"
+pm_drainage_pumps_lead_mine: "排水泵"
+pm_minecarts_lead_mine: "矿车"
+pm_hydraulic_mining_lead_mine: "水力采矿"
+pm_deep_shaft_machinery_lead_mine: "深井机械"
+pm_ventilation_fans_lead_mine: "通风扇"
+pm_boring_machines_lead_mine: "钻机"
+
+pmg_blasting_lead_mine: "爆破"
+pm_no_blasting_lead_mine: "无爆破"
+pm_fire_setting_lead_mine: "烧火起爆"
+pm_blackpowder_lead_mine: "黑火药"
+pm_nitroglycerin_lead_mine: "硝化甘油"
+pm_dynamite_lead_mine: "炸药"
+
+#Sulfur Mine
+
+pmg_extraction_sulfur_mine: "提取"
+pm_picks_and_shovels_sulfur_mine: "镐和铲"
+pm_drainage_pumps_sulfur_mine: "排水泵"
+pm_minecarts_sulfur_mine: "矿车"
+pm_hydraulic_mining_sulfur_mine: "水力采矿"
+pm_deep_shaft_machinery_sulfur_mine: "深井机械"
+pm_ventilation_fans_sulfur_mine: "通风扇"
+pm_boring_machines_sulfur_mine: "钻机"
+
+pmg_blasting_sulfur_mine: "爆破"
+pm_no_blasting_sulfur_mine: "无爆破"
+pm_fire_setting_sulfur_mine: "烧火起爆"
+pm_blackpowder_sulfur_mine: "黑火药"
+pm_nitroglycerin_sulfur_mine: "硝化甘油"
+pm_dynamite_sulfur_mine: "炸药"
+
+#Gold Mine
+
+pmg_extraction_gold_mine: "提取"
+pm_picks_and_shovels_gold_mine: "镐和铲"
+pm_drainage_pumps_gold_mine: "排水泵"
+pm_minecarts_gold_mine: "矿车"
+pm_hydraulic_mining_gold_mine: "水力采矿"
+pm_deep_shaft_machinery_gold_mine: "深井机械"
+pm_ventilation_fans_gold_mine: "通风扇"
+pm_boring_machines_gold_mine: "钻机"
+
+pmg_blasting_gold_mine: "爆破"
+pm_no_blasting_gold_mine: "无爆破"
+pm_fire_setting_gold_mine: "烧火起爆"
+pm_blackpowder_gold_mine: "黑火药"
+pm_nitroglycerin_gold_mine: "硝化甘油"
+pm_dynamite_gold_mine: "炸药"
+
+#Construction Sector
+
+pmg_building_methods_construction: "建筑方法"
+pm_braced_framing: "支撑框架"
+pm_window_glazing: "窗户玻璃"
+pm_balloon_framing: "气球框架"
+pm_iron_frame_buildings: "铁框建筑"
+pm_steel_frame_buildings: "钢框建筑"
+pm_earthmovers: "土方机械"
+
+pmg_organization_construction: "组织"
+pm_corvee_labour_construction: "苦役劳动"
+pm_artisan_guilds_construction: "工匠行会"
+pm_construction_firms_construction: "建筑公司"
+pm_engineer_corps_construction: "工程兵团"
+pm_industrial_conglomerate_construction: "工业集团"
+
+#Logging
+
+pmg_logging_logging_camp: "伐木"
+pm_crosscut_saws: "横锯"
+pm_frame_saws: "架锯"
+pm_circular_saws: "圆锯"
+pm_powered_saws: "电动锯"
+pm_band_saws: "带锯"
+pm_chainsaws: "链锯"
+
+pmg_hauling_logging_camp: "运输"
+pm_manual_hauling: "手动运输"
+pm_skid_trails: "拖运小道"
+pm_log_flumes: "流木槽"
+pm_steam_donkey: "蒸汽机"
+pm_logging_trucks: "伐木卡车"
+
+pmg_forestry_management_logging_camp: "林业管理"
+pm_aristocratic_reserve: "贵族保留地"
+pm_common_land: "公共土地"
+pm_state_ownership_logging_camp: "国有化"
+pm_private_ownership_logging_camp: "私人所有权"
+pm_national_parks: "国家公园"
+
+#Oil Derrick
+
+pmg_extraction_oil_derrick: "提取"
+pm_cable_tool_drilling: "电缆工具钻探"
+pm_rotary_drilling: "旋转钻探"
+pm_directional_drilling: "定向钻探"
+
+pmg_drilling_rig_oil_derrick: "钻井设备"
+pm_steam_powered_drilling_rigs: "蒸汽动力钻井设备"
+pm_gas_powered_drilling_rigs: "燃气动力钻井设备"
+pm_electric_drilling_rigs: "电动钻井设备"
+
+pmg_transportation_oil_derrick: "运输"
+pm_blue_barrels: "蓝桶"
+pm_tanker_railcars: "罐车"
+pm_oil_pipelines: "石油管道"
+
+pmg_ownership_oil_derrick: "所有权"
+pm_oil_magnates: "石油巨头"
+pm_nationalized_oil: "国有化石油"
+pm_industrial_conglomerate_oil: "工业集团"
+pm_military_industrial_complex_oil: "军工复合体"
+
+#Base Plantation
+
+pmg_infrastructure_base_plantation: "基础设施"
+pm_minimal_infrastructure: "最低限度基础设施"
+pm_irrigation_networks: "灌溉网络"
+pm_warehouses: "仓库"
+pm_rail_linkages: "铁路联运"
+pm_cold_storage: "冷藏设施"
+pm_electrified_fences: "电气围栏"
+
+pmg_ownership_base_plantation: "所有权"
+pm_titled_aristocracy: "有头衔的贵族阶层"
+pm_religious_order: "宗教组织"
+pm_planter_aristocracy: "种植园主阶层"
+pm_corporate_entities_plantation: "企业实体"
+pm_state_owned_plantations: "国有种植园"
+
+pmg_labor_equity_base_plantation: "劳动公平"
+pm_forced_labor: "强迫劳动"
+pm_exploitation: "剥削"
+pm_tenant_farming: "租佃农业"
+pm_collectivization: "集体化"
+pm_fair_trade: "公平贸易"
+
+#Tea Plantation
+
+pmg_innovations_tea_plantation: "茶叶创新"
+pm_hand_rolling_tea: "手工滚制茶"
+pm_withering_racks_tea: "萎凋架"
+pm_hydraulic_tea_press_tea: "液压茶叶压制机"
+pm_tea_blending_machines_tea: "茶叶混合机"
+pm_ctc_machines_tea: "CTC机"
+
+#Coffee
+
+pmg_innovations_coffee_plantation: "咖啡创新"
+pm_dry_processing_coffee: "干燥处理"
+pm_strip_picking_tools_coffee: "剥离工具"
+pm_roasting_machines_coffee: "烘焙机"
+pm_fermentation_tanks_coffee: "发酵罐"
+pm_freeze_dried_coffee_coffee: "冷冻干燥咖啡"
+
+#Spice
+
+pmg_innovations_spice_plantation: "香料创新"
+pm_natural_spices_spice: "天然香料"
+pm_grinding_mills_spice: "磨粉机"
+pm_aromatics_extraction_spice: "芳香物质提取"
+pm_steam_sterilization_spice: "蒸汽灭菌"
+pm_sorting_and_grading_machines_spice: "分选和分级机"
+
+#Sugarcane Plantation
+
+pmg_innovations_sugarcane_plantation: "甘蔗创新"
+pm_sugarloaf_molds_sugarcane: "糖锥模具"
+pm_molasses_separation_sugarcane: "糖蜜分离"
+pm_cane_crushers_sugarcane: "甘蔗压榨机"
+pm_vacuum_pan_evaporation_sugarcane: "真空锅蒸发"
+pm_centrifugation_sugarcane: "离心法"
+
+#Cotton
+
+pmg_innovations_cotton_plantation: "棉花创新"
+pm_hand_picking_cotton: "手工采摘棉花"
+pm_fiber_carding_tools_cotton: "纤维梳理工具"
+pm_cotton_gin_cottons: "棉花轧棉机"
+pm_diesel_powered_gins_cotton: "柴油动力轧棉机"
+pm_cotton_harvesters_cotton: "棉花收割机"
+
+#Tobacco
+
+pmg_innovations_tobacco_plantation: "烟草创新"
+pm_darkleaf_tobacco_tobacco: "黑叶烟草"
+pm_protective_frames_tobacco: "保护架"
+pm_brightleaf_tobacco_tobacco: "明叶烟草"
+pm_shredding_machines_tobacco: "切丝机"
+pm_cigarette_rolling_machines_tobacco: "卷烟机"
+
+#Silk
+
+pmg_innovations_silk_plantation: "丝绸创新"
+pm_wild_silk: "野生丝绸"
+pm_silk_threading_looms_silk: "丝绸纺织机"
+pm_rotary_mountage_silk: "旋转卷丝"
+pm_mechanical_spooling_silk: "机械卷绕"
+pm_automatic_reeling_devices_silk: "自动卷绕装置"
+
+#rubber
+
+pmg_innovations_rubber_plantation: "橡胶创新"
+pm_rubber_mastication_rubber: "橡胶粉碎"
+pm_vulcanized_rubber_rubber: "硫化橡胶"
+pm_coagulating_agents_rubber: "凝结剂"
+pm_ammoniation_rubber: "氨化处理"
+
+#Opium
+
+pmg_innovations_opium_plantation: "鸦片创新"
+pm_camphorated_opium_opium: "樟脑鸦片"
+pm_morphine_extraction_opium: "吗啡提取"
+pm_codeine_isolation_opium: "可待因分离"
+pm_heroin_synthesis_opium: "海洛因合成"
+
+#Power Plant
+
+pmg_fuel_power_plant: "燃料来源"
+pm_coal_power_plant: "煤"
+pm_fuel_oil_power_plant: "燃料油"
+pm_pumped_storage_power_plant: "抽水蓄能"
+
+pmg_power_generation_power_plant: "电力发电"
+pm_reciprocating_steam_engines_power_plant: "往复式蒸汽发动机"
+pm_steam_turbines_power_plant: "蒸汽涡轮机"
+pm_francis_turbines_power_plant: "弗朗西斯涡轮机"
+
+pmg_infrastructure_power_plant: "电力基础设施"
+pm_no_power_grid_infrastructure: "没有电力网格基础设施"
+pm_neighborhood_power_grids: "社区电力网"
+pm_city_power_grids: "城市电力网"
+pm_regional_power_grids_power_plant: "区域电网"
+
+pmg_ownership_power_plant: "所有权"
+pm_private_ownership_power_plant: "私人所有权"
+pm_public_private_partnership_power_plant: "公私合作"
+pm_nationalized_plants_power_plant: "国有化发电厂"
+
+#Kaolin
+
+pmg_kaolin_extraction: "高岭土提取"
+pm_picks_and_shovels_kaolin_mine: "镐和铲"
+pm_stamp_mills_kaolin_mine: "冲击磨"
+pm_hydraulic_mining_kaolin_mine: "水力采矿"
+pm_centrifugation_kaolin_mine: "离心法"
+pm_open_pit_mining_kaolin_mine: "露天采矿"
+
+pmg_kaolin_kilns: "高岭土窑炉"
+pm_crossdraft_kilns_kaolin_mine: "横流窑炉"
+pm_shuttle_kilns_kaolin_mine: "往复窑炉"
+pm_gas_fired_kilns_kaolin_mine: "燃气窑炉"
+pm_hoffmann_kilns_kaolin_mine: "霍夫曼窑炉"
+
+#Industrial Motive
+
+pmg_motive_power: "动力"
+pm_manual_labour: "手工劳动"
+pm_draft_animals: "畜力"
+pm_rotating_mills: "旋转式磨坊"
+
+pmg_industrial_motive_power: "工业动力"
+pm_steam_engines: "蒸汽机"
+pm_rotary_valve_engine: "旋转阀门发动机"
+pm_petrol_engines: "汽油发动机"
+pm_electronic_process_control: "电子过程控制"
+
+pmg_pre_industrial_organization: "工业化前的组织"
+pm_decentralized_industry: "分散式工业"
+pm_aristocratic_control: "贵族控制"
+pm_guild_monopolies: "行会垄断"
+
+pmg_industrial_organization: "工业组织"
+pm_state_owned_enterprise: "国有企业"
+pm_military_industrial_complex: "军工复合体"
+pm_workers_cooperative: "工人合作社"
+pm_small_and_medium_enterprises: "中小企业"
+pm_industrial_conglomerate: "工业集团"
+
+#Glassworks
+
+pmg_kilns: "窑炉"
+pm_crossdraft_kilns: "贯流窑炉"
+pm_shuttle_kilns: "穿梭窑炉"
+pm_gas_fired_kilns: "煤气窑炉"
+pm_hoffmann_kilns: "霍夫曼窑炉"
+
+pmg_glassworks: "玻璃制品工厂"
+pm_forest_glass: "森林玻璃"
+pm_lead_crystal_glass: "铅晶玻璃"
+pm_polished_plate_glass: "抛光板玻璃"
+pm_cylinder_sheet_glass: "圆柱形片玻璃"
+pm_borosilicate_glass: "硼硅酸盐玻璃"
+
+
+#Iron
+
+pmg_ironworks: "铁工"
+pm_bloomery: "炼铁炉"
+pm_blast_furnace: "高炉"
+pm_rolling_mill: "轧钢厂"
+pm_potting_and_stamping: "装罐和冲压"
+pm_puddling_process: "湿法炼铁"
+pm_electric_arc_furnace_iron: "电弧炉"
+
+pmg_slag_byproducts: "炉渣副产品"
+pm_resmelting: "再熔"
+pm_iron_mordants: "铁媒染料"
+pm_ferrous_fertilizers: "铁肥料"
+pm_mineral_wool: "矿物棉"
+pm_slag_glass: "炉渣玻璃"
+
+#Alloy Smelters
+
+pmg_steelworks: "钢铁厂"
+pm_no_steel: "无钢铁"
+pm_crucible_steel: "坩埚钢"
+pm_bessemer_process: "贝塞尔法"
+pm_open_hearth_furnace: "开焰炉"
+pm_electric_arc_furnace_steel: "电弧炉"
+
+pmg_alloys: "合金"
+pm_no_alloys: "无合金"
+pm_pewter_alloys: "白蜡合金"
+pm_brass_alloys: "黄铜合金"
+pm_soldering_alloys: "焊料合金"
+pm_aluminium_alloys: "铝合金"
+
+pm_blister_steel: "水口钢"
+pm_powered_milling_machines: "电动铣床"
+pm_cam_driven_machines: "凸轮驱动机器"
+pm_crucible_steel_parts: "坩堝钢部件"
+pm_chromium_steel_parts: "铬钢部件"
+pm_tungsten_carbide_parts: "硬质合金部件"
+pm_confectionery: "糖果制品"
+pm_no_liquor: "无酒精"
+pm_no_chemicals: "无化学品"
+pm_cotton_gins_cotton: "轧棉机棉花"
+
+
+#Indústrias Alimentícias
+
+pmg_baking: "烘焙"
+pm_comfits: "糖果"
+pm_baking_powder: "发酵粉"
+pm_commercial_yeast: "商业酵母"
+pm_solid_chocolate: "固体巧克力"
+
+pmg_liquor_distillation: "酒精蒸馏"
+pm_grain_fermentation: "谷物发酵"
+pm_brew_kettles: "酿酒锅"
+pm_pot_stills: "罐式蒸馏器"
+pm_column_stills: "柱式蒸馏器"
+pm_chromium_vessels: "铬容器"
+
+pmg_opium_tinctures: "鸦片酊剂"
+pm_no_tinctures: "无酊剂"
+pm_laudanum: "罗定"
+
+pmg_canning: "罐装"
+pm_no_canning: "无罐装"
+pm_glass_jars: "玻璃罐"
+pm_metal_cans: "金属罐"
+pm_vacuum_sealed_cans: "真空密封罐"
+pm_freeze_dried_food: "冷冻干燥食品"
+
+pmg_kitchen_appliances: "厨房电器"
+pm_basic_appliances: "基本电器"
+pm_oven_thermometers: "烤箱温度计"
+pm_gas_stoves: "煤气灶"
+pm_electric_mixers: "电动搅拌器"
+pm_dishwashers: "洗碗机"
+
+#Indústrias da Alta-Costura
+
+pmg_dyeworks: "染色作坊"
+pm_organic_dyes: "有机染料"
+pm_sulfate_mordants: "硫酸盐媒染剂"
+pm_chromium_mordants: "铬媒染剂"
+pm_aniline_dyes: "苯胺染料"
+pm_azo_dyes: "偶氮染料"
+
+pmg_luxury_clothes: "奢侈服装"
+pm_no_luxury_clothes: "无奢侈服装"
+pm_artisanal_weavers: "手工编织者"
+pm_couture_fabrics: "高级时装面料"
+pm_black_and_white_tie: "黑白领带"
+pm_sportswear: "运动服装"
+
+pmg_waterproof_clothing: "防水服装"
+pm_no_waterproof_clothing: "无防水服装"
+pm_raincoats: "雨衣"
+pm_trenchcoats: "风衣"
+
+#Textile Industries
+
+pmg_clothes: "服装"
+pm_treadle_looms: "脚踏织布机"
+pm_flying_shuttles: "飞梭"
+pm_spinning_jenny: "纺锤机"
+pm_jacquard_heads: "雅各布头"
+pm_sewing_machines: "缝纫机"
+pm_automatic_power_looms: "自动动力织机"
+
+#Furniture Industries
+
+pmg_furniture: "家具"
+pm_handcarved_furniture: "手工雕刻家具"
+pm_woodturning_lathes: "木工旋盘机"
+pm_veneering_machines: "镶嵌机"
+pm_plywood: "胶合板"
+pm_precision_joinery: "精密连接"
+
+pmg_luxury_furniture: "豪华家具"
+pm_no_luxury_furniture: "无豪华家具"
+pm_marquetry: "镶嵌工艺"
+pm_upholstering: "织补工艺"
+pm_electroplated_metals: "电镀金属"
+
+#Tooling Workshops
+
+pmg_tools: "工具"
+pm_non_metal_tools: "非金属工具"
+pm_wrought_iron_tools: "锻铁工具"
+pm_case_hardened_tools: "渗碳工具"
+pm_crucible_steel_tools: "坩埚钢工具"
+pm_chromium_steel_tools: "铬钢工具"
+pm_tungsten_carbide_tools: "钨碳化物工具"
+
+pmg_machined_parts: "机械零件"
+pm_no_machined_parts: "无机械零件"
+pm_turret_lathe: "转塔车床"
+pm_steel_milling_machines: "钢铁铣床"
+pm_drill_press: "钻床"
+pm_molded_polymers: "模塑聚合物"
+
+#Papermaking Industries
+
+pmg_papermaking: "造纸"
+pm_handmade_paper: "手工造纸"
+pm_pulping_mills: "制浆厂"
+pm_fourdrinier_machine: "四德立纸机"
+pm_rotary_press: "转印机"
+pm_chemical_pulping: "化学制浆"
+
+pmg_pulp_material: "纸浆材料"
+pm_rag_paper: "棉纸"
+pm_wood_pulp_paper: "木浆纸"
+pm_acidic_paper: "酸性纸"
+
+#Chemical Plants
+
+pmg_chemicals: "化学品"
+pm_soda_ash: "苏打灰"
+pm_iron_sulfate_process: "硫酸铁工艺"
+pm_leblanc_process: "勒布朗工艺"
+pm_solvay_process: "索尔维工艺"
+pm_castner_kellner_process: "卡斯特纳凯尔纳工艺"
+
+pmg_fertilizer: "肥料"
+pm_no_fertilizer: "无肥料"
+pm_gypsum_fertilizer: "石膏肥料"
+pm_ammonia_fertilizer: "氨肥料"
+pm_birkeland_eyde_process: "比尔克兰·艾德工艺"
+pm_haber_bosch_process: "哈伯·博克斯工艺"
+
+#Synthetic Plants
+
+pmg_composite_porcelain: "复合瓷器"
+pm_hard_paste_porcelain: "硬质瓷器"
+pm_soft_paste_porcelain: "软质瓷器"
+pm_bone_china: "骨瓷"
+
+pmg_synthetic_fibers: "合成纤维"
+pm_no_synthetic_fibers: "无合成纤维"
+pm_art_silk: "人造丝"
+pm_rayon: "人造丝"
+
+pmg_synthetic_polymers: "合成聚合物"
+pm_no_synthetic_polymers: "无合成聚合物"
+pm_isoprene_production: "异戊二烯生产"
+pm_bakelite_production: "酚醛树脂生产"
+
+#Engineering Firms
+
+pmg_engines: "发动机"
+pm_piston_engine: "活塞发动机"
+pm_spark_ignition_engine: "火花点火发动机"
+pm_diesel_engine: "柴油发动机"
+pm_v8_engine: "V8发动机"
+
+pmg_telecomms: "电信"
+pm_no_telecomms: "无电信"
+pm_telegraph: "电报"
+pm_telephone: "电话"
+pm_radio: "无线电"
+
+pmg_ironclads: "铁甲舰"
+pm_no_ironclads: "无铁甲舰"
+pm_revolving_gun_turrets: "旋转炮塔"
+pm_streamlined_hulls: "流线型船体"
+pm_sloped_armor_ironclads "倾斜装甲"
+
+#Oil Refineries
+
+pmg_oil_cracking: "石油裂化"
+pm_thermal_cracking: "热裂化"
+pm_continuous_distillation: "连续蒸馏"
+pm_catalytic_cracking: "催化裂化"
+pm_hydrocracking: "加氢裂化"
+
+pmg_petrochemicals: "石油化工"
+pm_no_petrochemicals: "无石油化工"
+pm_naphtha_extraction: "萃取石脑油"
+pm_phenol_extraction: "萃取苯酚"
+pm_ethylene_production: "乙烯生产"
+pm_polymerization: "聚合反应"
+
+#Automotive Firms
+
+pmg_automobiles: "汽车"
+pm_motorwagon: "汽车马车"
+pm_phaeton_carriage: "华顿马车"
+pm_touring_car: "旅行车"
+
+pmg_tyres: "轮胎"
+pm_metal_tires: "金属轮胎"
+pm_solid_rubber_tyres: "实心橡胶轮胎"
+pm_pneumatic_tyres: "气动轮胎"
+
+pmg_tanks: "坦克"
+pm_no_tanks: "无坦克"
+pm_landships: "陆上舰艇"
+pm_turreted_tanks: "装有炮塔的坦克"
+pm_sloped_armor_tanks: "倾斜装甲"
+
+pmg_aeroplanes: "飞机"
+pm_no_aeroplanes: "无飞机"
+pm_biplanes: "双翼飞机"
+pm_monoplanes: "单翼飞机"
+pm_all_metal_aircraft: "全金属飞机"
+
+#Railways
+
+pmg_railways_freight: "货运铁路"
+pm_rolling_wagons: "滚动车厢"
+pm_flatcars: "平板车"
+pm_gondola_cars: "货车"
+pm_rotary_cars: "旋转车"
+pm_intermodal_freight_containers: "多式联运货柜"
+
+pmg_railways_passenger: "客运铁路"
+pm_no_passenger_cars: "无客运车厢"
+pm_stagecoach_cars: "驿站车厢"
+pm_passenger_cars: "客车"
+pm_dining_cars: "餐车"
+pm_passenger_streamliner: "客运列车"
+
+pmg_railways_bonus: "铁路奖励"
+pm_no_railway_bonus: "无铁路奖励"
+pm_scenic_touring_trains: "风景观光列车"
+pm_military_railways: "军事铁路"
+pm_whistle_stop_tours: "旅游列车"
+pm_colonial_railways: "殖民地铁路"
+
+pmg_railways_motive_power: "动力来源"
+pm_horse_drawn_trains: "马车拖动"
+pm_coal_trains: "煤炭"
+pm_electricity_trains: "电力"
+pm_petrol_trains: "汽油"
+
+pmg_railways_ownership: "铁路所有权"
+pm_railways_private_ownership: "私人所有"
+pm_railways_military_owned: "军方所有"
+pm_railways_industrial_conglomerate: "工业集团所有"
+pm_railways_state_owned: "国有"
+pm_railways_worker_cooperative: "工人合作社"

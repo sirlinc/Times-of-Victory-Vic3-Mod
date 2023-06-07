@@ -932,7 +932,7 @@ ig_suppression_events.1001 = {
 			limit = {
 				NOT = { has_technology_researched = multilateral_alliances }
 				has_technology_researched = pan_nationalism
-				can_research = international_relations
+				can_research = multilateral_alliances
 			}
 			add_technology_progress = { progress = 2500 technology = multilateral_alliances }
 		}

@@ -1,0 +1,159 @@
+﻿l_simp_chinese:
+
+#administrative_infrastructure
+lawgroup_administrative_infrastructure: "行政基础设施"
+law_tribal_councils: "部落议会"
+law_tribal_councils_desc: "部落议会根据共识和传统习俗制定法律和解决争端。"
+law_feudal_courts: "封建法院"
+law_feudal_courts_desc: "土地拥有的领主在其领地内解决争端并执行法律，而无需其封臣或国家的大量监督或援助。"
+law_absolutism: "绝对主义"
+law_absolutism_desc: "在绝对主义的管理形式中，单一行政机构（通常是君主）拥有无限制的权力，不受其他政治实体的制约。"
+law_patronage_system: "赞助制度"
+law_patronage_system_desc: "赞助制度通过公职和合同奖励忠诚的支持者以维持政治控制。"
+law_public_servants: "公务员"
+law_public_servants_desc: "公务员中立地执行法律，维护公共秩序，并提供基本公共服务。"
+law_government_agencies: "政府机构"
+law_government_agencies_desc: "政府机构是执行和执行法律和政策，管理公共功能的专门机构。"
+
+#army_model
+law_warrior_bands: "勇士团"
+law_warrior_bands_desc: "军事系统依赖于缺乏正式训练和等级制度的部落战士的松散组织，他们通过忠诚和共同利益联系在一起。"
+law_mercenary_army: "雇佣军"
+law_mercenary_army_desc: "主要由雇佣兵组成的军事力量，他们受到金钱激励，会为雇用他们的任何一方战斗。"
+law_standing_army: "常备军"
+law_standing_army_desc: "由国家维护和资助的专业全职军队，经过训练并装备齐全，无论是在和平时期还是战时都能进行操作。"
+
+#bureaucracy
+law_hereditary_office: "世袭职位"
+law_hereditary_office_desc: "一种将官僚职位视为世袭头衔的制度，通过家族线传递，经常导致权力结构根深蒂固。"
+law_purchased_office: "购买职位"
+law_purchased_office_desc: "一种可以通过财务手段由个人获取官僚职位和头衔的制度，可能导致腐败和效率低下。"
+law_appointed_office: "任命职位"
+law_appointed_office_desc: "一种通过任命填充官僚职位的制度，通常由高级官员或统治者基于忠诚或政治考虑进行任命。"
+law_elected_office: "选举职位"
+law_elected_office_desc: "一种通过选举填充官僚职位的民主制度，使有资格的公民有机会选择他们的代表。"
+law_meritocratic_office: "精英职位"
+law_meritocratic_office_desc: "一个重视能力和专业知识的系统，根据表现出的能力和证明的业绩来授予官僚职位。"
+
+#childrens_rights
+law_child_labor_expected: "期望的童工"
+law_child_labor_expected_desc: "将童工视为其经济的重要组成部分的社会，常常导致对未成年人的剥削和剥夺教育的情况。"
+law_compulsory_education_to_twelve: "强制教育至十二岁"
+law_compulsory_education_to_twelve_desc: "强制所有儿童接受到十二岁的教育的制度，旨在提供基本的知识和技能。"
+law_compulsory_education_to_sixteen: "强制教育至十六岁"
+law_compulsory_education_to_sixteen_desc: "强制所有儿童接受到十六岁的教育的制度，旨在促进更有教育和技能的人口的发展。"
+
+#citizenship
+law_cultural_tolerance: "文化包容"
+law_cultural_tolerance_desc: "一种促进社会内多元文化群体接受的政策，避免公开的歧视并追求平等对待。"
+
+#colonial_affairs
+law_commerce: "商业"
+law_commerce_desc: "一种以建立和扩展贸易网络，促进本土和土著政权之间的经济关系为重点的殖民政策。"
+law_paternalism: "家长制"
+law_paternalism_desc: "一种视被殖民的人民需要来自殖民权力的指导和监督的殖民政策，往往导致家长式的控制和剥削。"
+law_assimilation: "同化"
+law_assimilation_desc: "一种旨在强制被殖民的人民融入殖民权力的文化和社会，抹去他们独特身份和习俗的殖民政策。"
+
+#economic_system
+law_corporatism: "公司制"
+law_corporatism_desc: "一种推动社会组织为工业和专业群体，共同实现共享的经济和社会目标的经济制度。"
+
+#education_system
+law_youth_leagues: "青年联盟"
+law_youth_leagues_desc: "旨在培训和教育青少年和年轻人的大规模协会，通常受到意识形态、宗教或民族主义目标的驱动，培养忠诚和承诺。"
+
+#policing
+law_informal_policing: "非正式警务"
+law_informal_policing_desc: "一种依赖于本地习俗和社会规范的非正式警务方法，裁判通常由社区尊敬的人物或长老决定。"
+law_police_by_consent: "公众同意的警务"
+law_police_by_consent_desc: "一种强调公众支持、合作和最小化使用武力的警务模型，寻求通过社区参与建立信任并维持法律和秩序。"
+law_regulated_police_force: "受监管的警察部队"
+law_regulated_police_force_desc: "一个带有标准化做法、程序和监督机制的武装警察系统，以确保问责、专业性和遵守法治。"
+law_paramilitary_force: "准军事力量"
+law_paramilitary_force_desc: "一种采用军事风格的策略、设备和训练来维持秩序和执行法律的警务方法，往往导致咄咄逼人和对抗性的立场。"
+
+#rights_of_women
+law_women_in_leadership: "女性领导层"
+law_women_in_leadership_desc: "鼓励并支持女性在各个领域担任领导角色的社会。"
+
+#taxation
+law_exemption_taxation: "豁免税"
+law_exemption_taxation_desc: "一种允许个人支付特定征税，例如异教徒税或豁免费用，以免除某些民事义务或要求的税收制度。"
+
+#welfare
+law_disability_pension: "残疾人抚恤金"
+law_disability_pension_desc: "一项社会福利计划，为因残疾无法工作的个人提供经济支持，主要关注退伍军人和其他长期受损人员。"
+
+# Free speech group
+law_informal_regulation: "非正式规定"
+law_informal_regulation_desc: "虽然没有明确规定言论的法律，但在批评当权者时应慎重行事。"
+
+# Church and State group
+law_tolerance: "宽容"
+law_tolerance_desc: "存在一种隐性的国家宗教，导致异端和非信徒受到歧视和不利待遇。"
+
+# Internal Security
+law_religious_zealotry: "宗教狂热主义"
+law_religious_zealotry_desc: "一种独特的信仰占主导地位；国家授权的审判、暴乱和强制
+
+# Migration
+law_heavy_migration_controls: "严格的移民控制"
+law_heavy_migration_controls_desc: "在边界过境处实行严格的控制，采用先进的手段，如护照、配额和对非法移民的严厉惩罚。"
+law_light_migration_controls: "轻度的移民控制"
+law_light_migration_controls_desc: "在边境过境处需要基本的身份验证，这些地方在热门的过境点进行监视和执行。"
+law_freedom_of_movement: "自由移动"
+law_freedom_of_movement_desc: "移民可以轻松地并且无限制地穿越国界。"
+
+# Military Policy
+law_dominance: "主导"
+law_dominance_desc: "强调对其他国家和地区单方面权力和控制的军事立场。"
+law_interventionist: "干涉主义"
+law_interventionist_desc: "积极参与国际事务和冲突，以推动国家利益。"
+law_balanced: "平衡"
+law_balanced_desc: "一种测量的政策方法，平衡进攻和防守的军事目标。"
+law_deterrence: "威慑"
+law_deterrence_desc: "一种防御导向的军事立场，专注于强大的军事存在，以阻止潜在的对手攻击或挑衅。"
+law_defensive: "防守"
+law_defensive_desc: "一种全面专注于国家安全和防御的军事政策，尽量减少参与外部冲突。"
+
+# Political Representation
+law_no_representation: "无代表"
+law_no_representation_desc: "公民被剥夺选举代表或参与政治决策过程的权利。"
+law_temporary_assemblies: "临时议会"
+law_temporary_assemblies_desc: "临时的代表机构集会以处理特定的问题或危机，但通常在立法影响上有限。"
+
+# Navy Model
+law_coastal_levies: "沿海征召"
+law_coastal_levies_desc: "在需要的时候，通过征召沿海社区提供船只和水手，组建海军力量。"
+law_privateer_fleets: "私掠舰队"
+law_privateer_fleets_desc: "在战争时期，私人船只被委托去袭击和捕获敌人的船只。"
+law_standing_navy: "常备海军"
+law_standing_navy_desc: "维持一个专业的，全职的海军力量，用于和平时期和战时的操作。"
+law_auxiliary_fleets: "辅助舰队"
+law_auxiliary_fleets_desc: "在冲突时期，一系列的民用船只和人员（如商船）会辅助国家的海军力量。"
+law_naval_task_forces: "海军特遣部队"
+law_naval_task_forces_desc: "超越常备海军和辅助舰队的一步，海军力量被组织成为专门的部队，用于特定的任务和目标。"
+
+# Devolution of Power
+law_unitarism: "一元制"
+law_unitarism_desc: "政治权力在一个单一的，国家级的权力机构中被集中。"
+law_federalism: "联邦制"
+law_federalism_desc: "权力被中央政府和较小的，构成的政治单位间分配。"
+law_decentralization: "分权"
+law_decentralization_desc: "权力严重偏向地区或地方当局，其中一些可能几乎作为事实上的独立实体运作。"
+law_confederation: "联盟制"
+law_confederation_desc: "一个基于联盟的政治系统，将多个政治实体联合起来，它们在保持相当大的主权的同时在更广泛的问题上进行合作。"
+law_consociationalism: "联合主义"
+law_consociationalism_desc: "一种公社治理系统，通过在多样化的群体间分享权力和决策来促进调适。"
+law_anarchy: "无政府状态"
+law_anarchy_desc: "一个社会，以没有形式化的治理结构为特征，依赖于自愿的，自我组织的合作。"
+
+modifier_state_pop_support_law_freedom_of_movement_add: "[GetLawType('law_freedom_of_movement').GetName] [concept_pop] 支持"
+modifier_state_pop_support_law_freedom_of_movement_add_desc: "影响[Concept('concept_pop', '$concept_pops$')]支持[GetLawType('law_freedom_of_movement').GetName] [concept_law]的速率。"
+modifier_state_pop_support_law_freedom_of_movement_mult: "[GetLawType('law_freedom_of_movement').GetName] [concept_pop] 支持"
+modifier_state_pop_support_law_freedom_of_movement_mult_desc: "影响[Concept('concept_pop', '$concept_pops$')]支持[GetLawType('law_freedom_of_movement').GetName] [concept_law]的速率。"
+modifier_state_pop_support_law_paramilitary_force_add: "[GetLawType('law_paramilitary_force').GetName] [concept_pop] 支持"
+modifier_state_pop_support_law_paramilitary_force_add_desc: "影响[Concept('concept_pop', '$concept_pops$')]支持[GetLawType('law_paramilitary_force').GetName] [concept_law]的速率。"
+modifier_state_pop_support_law_paramilitary_force_mult: "[GetLawType('law_paramilitary_force').GetName] [concept_pop] 支持"
+modifier_state_pop_support_law_paramilitary_force_mult_desc: "影响[Concept('concept_pop', '$concept_pops$')]支持[GetLawType('law_paramilitary_force').GetName] [concept_law]的速率。"

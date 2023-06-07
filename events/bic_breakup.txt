@@ -23,6 +23,7 @@ bic_breakup.1 = {
 	trigger = {
 		this = c:BIC
 		exists = yes
+		has_technology_researched = the_nation_state
 		is_subject = no
 		is_at_war = no
 	}

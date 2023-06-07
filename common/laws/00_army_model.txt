@@ -98,10 +98,16 @@ law_national_militia = {
 	}
 	
 	possible_political_movements = {
-		law_professional_army
+		law_standing_army
 		law_mass_conscription
 	}
 	
+	modifier = {
+		country_institution_army_professionalism_max_investment_add = 1
+	}
+
+	institution = institution_army_professionalism
+
 	ai_will_do = {
 		exists = ruler
 		ruler = {
@@ -129,6 +135,13 @@ law_standing_army = {
 	possible_political_movements = {
 		law_mass_conscription
 	}
+
+	modifier = {
+		country_institution_army_professionalism_max_investment_add = 2
+	}
+
+	institution = institution_army_professionalism	
+
 }
 
 law_mass_conscription = {
@@ -150,4 +163,11 @@ law_mass_conscription = {
 	possible_political_movements = {
 		law_mass_conscription
 	}
+
+	modifier = {
+		country_institution_army_professionalism_max_investment_add = 3
+	}
+
+	institution = institution_army_professionalism
+
 }

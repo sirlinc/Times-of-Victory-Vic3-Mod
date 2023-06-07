@@ -34,7 +34,7 @@ building_government_administration = {
 
 	unlocking_technologies = {
 		principles_of_government
-	}+
+	}
 
 	production_method_groups = {
 		pmg_organisation

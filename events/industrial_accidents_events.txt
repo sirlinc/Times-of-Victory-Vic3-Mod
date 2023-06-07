@@ -47,10 +47,10 @@ industrial_accident_events.1 = {
 		}
 		any_scope_state = {
 			has_building = building_textile_mills
-			NOT = {
-				is_production_method_active = {
-					building_type = building_textile_mills
-					production_method = pm_traditional_looms
+			NOR = {
+				is_production_method_active = pm_treadle_looms
+				is_production_method_active = pm_flying_shuttles
+				is_production_method_active = m_spinning_jenny
 				}
 			}
 		}
@@ -89,10 +89,10 @@ industrial_accident_events.1 = {
 		random_scope_state = {
 			limit = {
 				has_building = building_textile_mills
-				NOT = {
-					is_production_method_active = {
-						building_type = building_textile_mills
-						production_method = pm_traditional_looms
+				NOR = {
+					is_production_method_active = pm_treadle_looms
+					is_production_method_active = pm_flying_shuttles
+					is_production_method_active = m_spinning_jenny
 					}
 				}
 			}
@@ -316,7 +316,7 @@ industrial_accident_events.4 = {
 			NOT = {
 				is_production_method_active = {
 					building_type = building_food_industry
-					production_method = pm_disabled_distillery
+					production_method = pm_no_liquor
 				}
 			}
 		}
@@ -331,7 +331,7 @@ industrial_accident_events.4 = {
 				NOT = {
 					is_production_method_active = {
 						building_type = building_food_industry
-						production_method = pm_disabled_distillery
+						production_method = pm_no_liquor
 					}
 				}
 			}

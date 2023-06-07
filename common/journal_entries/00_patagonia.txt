@@ -14,8 +14,10 @@
 
 	possible = {
 		OR = {
-			has_law = law_type:law_colonial_exploitation
-			has_law = law_type:law_colonial_resettlement
+			has_law = law_type:law_exploitation
+			has_law = law_type:law_resettlement
+			has_law = law_type:law_paternalism
+			has_law = law_type:law_assimilation
 		}
 	}
 

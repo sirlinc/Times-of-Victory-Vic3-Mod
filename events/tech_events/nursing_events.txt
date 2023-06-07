@@ -204,8 +204,9 @@ nursing_events.3 = { #Prefab hospital
 		trigger = {
 			OR = {
 				can_research = medical_degrees
-				can_research = quinine
-				can_research = malaria_prevention
+				can_research = pharmaceuticals
+				can_research = germ_theory
+				can_research = vaccination
 				can_research = antibiotics
 			}
 		}
@@ -217,15 +218,21 @@ nursing_events.3 = { #Prefab hospital
 		}
 		else_if = {
 			limit = {
-				can_research = quinine
+				can_research = pharmaceuticals
 			}
-			add_technology_progress = { progress = 3500 technology = quinine }
+			add_technology_progress = { progress = 3500 technology = pharmaceuticals }
 		}
 		else_if = {
 			limit = {
-				can_research = malaria_prevention
+				can_research = germ_theory
 			}
-			add_technology_progress = { progress = 6000 technology = malaria_prevention }
+			add_technology_progress = { progress = 6000 technology = germ_theory }
+		}
+		else_if = {
+			limit = {
+				can_research = vaccination
+			}
+			add_technology_progress = { progress = 6500 technology = vaccination }
 		}
 		else_if = {
 			limit = {

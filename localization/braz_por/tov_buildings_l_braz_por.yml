@@ -1,0 +1,61 @@
+﻿l_braz_por:
+
+# Temperate Farmland
+building_temperate_farmland: "Fazenda Temperada"
+modifier_building_temperate_farmland_throughput_mult: "Edifício $building_temperate_farmland$ [concept_throughput]"
+modifier_building_temperate_farmland_throughput_mult_desc: "Um bônus ou penalidade para entrada e saída de $building_temperate_farmland$"
+
+# Tropical Farmland
+building_tropical_farmland: "Fazenda Tropical"
+modifier_building_tropical_farmland_throughput_mult: "Edifício $building_tropical_farmland$ [concept_throughput]"
+modifier_building_tropical_farmland_throughput_mult_desc: "Um bônus ou penalidade para entrada e saída de $building_tropical_farmland$"
+
+# Wetlands Farmland
+building_wetlands_farmland: "Fazenda de Pântano"
+modifier_building_wetlands_farmland_throughput_mult: "Edifício $building_wetlands_farmland$ [concept_throughput]"
+modifier_building_wetlands_farmland_throughput_mult_desc: "Um bônus ou penalidade para entrada e saída de $building_wetlands_farmland$"
+
+# Arid Farmland
+building_arid_farmland: "Fazenda Árida"
+modifier_building_arid_farmland_throughput_mult: "Edifício $building_arid_farmland$ [concept_throughput]"
+modifier_building_arid_farmland_throughput_mult_desc: "Um bônus ou penalidade para entrada e saída de $building_arid_farmland$"
+
+# Prime Pasture
+building_prime_pasture: "Pasto"
+modifier_building_prime_pasture_throughput_mult: "Edifício $building_prime_pasture$ [concept_throughput]"
+modifier_building_prime_pasture_throughput_mult_desc: "Um bônus ou penalidade para entrada e saída de $building_prime_pasture$"
+
+# Spice Plantations
+building_spice_plantation: "Plantações de Especiarias"
+modifier_building_spice_plantation_throughput_mult: "Edifício $building_spice_plantations$ [concept_throughput]"
+modifier_building_spice_plantation_throughput_mult_desc: "Um bônus ou penalidade para entrada e saída de $building_spice_plantations$"
+
+# Engineering Firms
+building_engineering_firms: "Empresas de Engenharia"
+modifier_building_engineering_firms_throughput_mult: "Edifício $building_engineering_firms$ [concept_throughput]"
+modifier_building_engineering_firms_throughput_mult_desc: "Um bônus ou penalidade para entrada e saída de $building_engineering_firms$"
+
+# Oil Refineries
+building_oil_refineries: "Refinarias de Petróleo"
+modifier_building_oil_refineries_throughput_mult: "Edifício $building_oil_refineries$ [concept_throughput]"
+modifier_building_oil_refineries_throughput_mult_desc: "Um bônus ou penalidade para entrada e saída de $building_oil_refineries$"
+
+# Automotive Firms
+building_automotive_firms: "Empresas Automotivas"
+modifier_building_automotive_firms_throughput_mult: "Edifício $building_automotive_firms$ [concept_throughput]"
+modifier_building_automotive_firms_throughput_mult_desc: "Um bônus ou penalidade para entrada e saída de $building_automotive_firms$"
+
+# Kaolin Mines
+building_kaolin_mine: "Minas de Caulim"
+modifier_building_kaolin_mine_throughput_mult: "Edifício $building_kaolin_mine$ [concept_throughput]"
+modifier_building_kaolin_mine_throughput_mult_desc: "Um bônus ou penalidade para entrada e saída de $building_kaolin_mine$"
+
+# Ironworks
+building_ironworks: "Fábricas de Ferro"
+modifier_building_ironworks_throughput_mult: "Edifício $building_ironworks$ [concept_throughput]"
+modifier_building_ironworks_throughput_mult_desc: "Um bônus ou penalidade para entrada e saída de $building_ironworks$"
+
+# Alloy Smelters
+building_alloy_smelters: "Fundição de Ligas"
+modifier_building_alloy_smelters_throughput_mult: "Edifício $building_alloy_smelters$ [concept_throughput]"
+modifier_building_alloy_smelters_throughput_mult_desc: "Um bônus ou penalidade para entrada e saída de $building_alloy_smelters$"

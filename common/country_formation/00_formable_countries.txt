@@ -1,7 +1,7 @@
 ﻿GBR = {
 	use_culture_states = yes
 
-	required_states_fraction = 1.0	
+	required_states_fraction = 0.75	
 	
 	ai_will_do = { always = yes }
 }
@@ -53,17 +53,17 @@ FRA = {
 		STATE_NORMANDY 
 		STATE_LANGUEDOC
 		STATE_RHONE
-		STATE_LOIRE
+		STATE_FRENCH_LOW_COUNTRIES
 		STATE_PICARDY
 		STATE_ALSACE_LORRAINE
 		STATE_POITOU
-		STATE_ARMAGNAC
-		STATE_LIMOUSIN
+		STATE_GUYENNE
+		STATE_AUVERGNE_LIMOUSIN
 		STATE_BRITTANY
 		STATE_BURGUNDY
 		STATE_CHAMPAGNE
 		STATE_FRANCHE_COMTE
-		STATE_AUVERGNE
+		STATE_LORRAINE
 		STATE_AQUITAINE
 		STATE_ORLEANS
 	}
@@ -104,7 +104,7 @@ UBD = {
 	ai_will_do = { always = yes }
 
 	possible = {
-		has_technology_researched = pan-nationalism
+		has_technology_researched = pan_nationalism
 	}
 }
 
@@ -179,7 +179,7 @@ CHI = {
 ETH = {
 	use_culture_states = yes
 
-	required_states_fraction = 0.25
+	required_states_fraction = 0.50
 	
 	ai_will_do = { always = yes }
 }
@@ -211,7 +211,7 @@ IBE = {
 	ai_will_do = { always = yes }
 
 	possible = {
-		has_technology_researched = pan-nationalism
+		has_technology_researched = pan_nationalism
 	}
 }
 
@@ -255,7 +255,7 @@ KUK = {
 	ai_will_do = { always = yes }
 
 	possible = {
-		has_technology_researched = pan-nationalism
+		has_technology_researched = pan_nationalism
 		has_law = law_type:law_multicultural
 	}
 }
@@ -292,7 +292,7 @@ CAN = {
 	ai_will_do = { always = yes }
 
 	possible = {
-		has_technology_researched = nationalism
+		has_technology_researched = manifest_destiny
 	}
 }
 
@@ -304,14 +304,14 @@ AST = {
 	ai_will_do = { always = yes }
 
 	possible = {
-		has_technology_researched = nationalism
+		has_technology_researched = manifest_destiny
 	}
 }
 
 POL = {
 	use_culture_states = yes
 
-	required_states_fraction = 0.75	
+	required_states_fraction = 0.55
 
 	ai_will_do = { always = yes }
 }
@@ -323,7 +323,6 @@ ROM = {
 
 	ai_will_do = { always = yes }
 }
-
 
 ARA = {
 	states = {
@@ -355,7 +354,7 @@ ARA = {
 	ai_will_do = { always = yes }
 
 	possible = {
-		has_technology_researched = pan-nationalism
+		has_technology_researched = pan_nationalism
 	}
 }
 
@@ -367,13 +366,12 @@ GCO = {
 	ai_will_do = { always = yes }
 
 	possible = {
-		has_technology_researched = nationalism
+		has_technology_researched = manifest_destiny
 	}
 }
 
 
 ZIM = {
-
 	states = {
 		STATE_ZAMBEZI
 	}
@@ -391,7 +389,7 @@ BLH = {
 	ai_will_do = { always = yes }
 	
 	possible = {
-		has_technology_researched = pan-nationalism
+		has_technology_researched = pan_nationalism
 	}
 }
 
@@ -401,7 +399,7 @@ NGF = {
 	required_states_fraction = 0.75
 
 	possible = {
-		has_technology_researched = nationalism
+		has_technology_researched = manifest_destiny
 	}
 
 	ai_will_do = { always = yes }
@@ -461,6 +459,7 @@ TRH = {
 		STATE_URALSK
 		STATE_TIANSHAN
 		STATE_DZUNGARIA
+		STATE_JETISY
 	}
 
 	required_states_fraction = 0.7
@@ -468,7 +467,7 @@ TRH = {
 	ai_will_do = { always = yes }
 
 	possible = {
-		has_technology_researched = pan-nationalism
+		has_technology_researched = pan_nationalism
 	}
 }
 
@@ -495,7 +494,7 @@ IDN = {
 	ai_will_do = { always = yes }
 
 	possible = {
-		has_technology_researched = pan-nationalism
+		has_technology_researched = pan_nationalism
 
 	}
 }
@@ -532,7 +531,7 @@ BHT = {
 	ai_will_do = { always = yes }
 
 	possible = {
-		has_technology_researched = pan-nationalism
+		has_technology_researched = pan_nationalism
 
 	}
 }
@@ -543,6 +542,62 @@ YEM = {
 	}
 
 	required_states_fraction = 0.75	
+	
+	ai_will_do = { always = yes }
+}
+
+CAU = {
+	states = {
+		STATE_GREATER_CAUCASUS
+		STATE_ARMENIA
+		STATE_AZERBAIJAN
+		STATE_KARS
+	}
+
+	required_states_fraction = 0.75	
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = pan_nationalism
+	}
+}
+
+PNS = {
+	use_culture_states = yes
+
+	required_states_fraction = 0.7 # Basically as long as you've colonized
+
+	possible = {
+		has_technology_researched = pan_nationalism
+	}
+}
+
+KAZ = {
+	states = {
+		STATE_SEMIRECHE
+		STATE_AKMOLINSK
+		STATE_JETISY
+		STATE_URALSK
+	}
+
+	required_states_fraction = 0.75	
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = manifest_destiny
+	}
+}
+
+ALD = {
+	states = {
+		STATE_ALGIERS
+		STATE_ORAN
+		STATE_CONSTANTINE
+	}
+
+	required_states_fraction = 1
 	
 	ai_will_do = { always = yes }
 }

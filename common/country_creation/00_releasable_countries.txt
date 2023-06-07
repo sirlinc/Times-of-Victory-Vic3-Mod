@@ -1190,7 +1190,7 @@ KUR = {
 	ai_will_do = { always = no }
 
 	possible = {
-		has_technology_researched = nationalism
+		has_technology_researched = national_mythos
 	}
 }
 
@@ -1225,7 +1225,7 @@ PAL = {
 	ai_will_do = { always = no }
 
 	possible = {
-		has_technology_researched = nationalism
+		has_technology_researched = national_mythos
 	}
 }
 
@@ -1525,7 +1525,7 @@ YEM = {
 		STATE_YEMEN
 	}
 	possible = {
-		has_technology_researched = nationalism
+		has_technology_researched = national_mythos
 	}
 	ai_will_do = { always = no }
 }
@@ -2203,7 +2203,7 @@ ASS = {
 		STATE_DEIR_EZ_ZOR
 	}
 	possible = {
-		has_technology_researched = nationalism
+		has_technology_researched = national_mythos
 	}
 	ai_will_do = { always = no }
 }

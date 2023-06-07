@@ -380,7 +380,7 @@ agitator_legal_events.4 = {
 		trigger = {
 			any_scope_building = {
 				is_building_type = building_university
-				has_active_production_method = pm_philosophy_department
+				has_active_production_method = pm_social_sciences
 			}
 		}
 		highlighted_option = yes

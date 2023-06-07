@@ -205,7 +205,10 @@ law_collectivized_agriculture = {
 
 	modifier = {
 		country_bureaucrats_pol_str_mult = 0.25
+		country_institution_collectivization_max_investment_add = 2
 	}
+
+	institution = institution_collectivization
 
 	unlocking_laws = {
 		law_command_economy

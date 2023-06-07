@@ -33,11 +33,11 @@ plague.1 = {
 			OR = {
 				is_production_method_active = {
 					building_type = building_railway
-					production_method = pm_electric_trains
+					production_method = pm_electricity_trains
 				}
 				is_production_method_active = {
 					building_type = building_railway
-					production_method = pm_diesel_trains
+					production_method = pm_petrol_trains
 				}
 			}
 		}
@@ -56,11 +56,11 @@ plague.1 = {
 				OR = {
 					is_production_method_active = {
 						building_type = building_railway
-						production_method = pm_electric_trains
+						production_method = pm_electricity_trains
 					}
 					is_production_method_active = {
 						building_type = building_railway
-						production_method = pm_diesel_trains
+						production_method = pm_petrol_trains
 					}
 				}
 			}

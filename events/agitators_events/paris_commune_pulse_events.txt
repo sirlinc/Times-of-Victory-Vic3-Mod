@@ -508,7 +508,7 @@ paris_commune_pulse_events.3 = {
 					}
 				}
 			}
-			activate_law = law_type:law_professional_army
+			activate_law = law_type:law_standing_army
 		}
 		c:PRC = {
 			every_interest_group = {
@@ -2213,7 +2213,7 @@ paris_commune_pulse_events.12 = {
 		c:PRC = {
 			any_interest_group = {
 				law_stance = {
-					law = law_type:law_compulsory_primary_school
+					law = law_type:law_compulsory_education_to_twelve
 					value > neutral
 				}
 				is_marginal = no
@@ -2233,7 +2233,7 @@ paris_commune_pulse_events.12 = {
 			random_interest_group = {
 				limit = {
 					law_stance = {
-						law = law_type:law_compulsory_primary_school
+						law = law_type:law_compulsory_education_to_twelve
 						value > neutral
 					}	
 				}
@@ -2261,7 +2261,7 @@ paris_commune_pulse_events.12 = {
 			every_interest_group = {
 				limit = {
 					law_stance = {
-						law = law_type:law_compulsory_primary_school
+						law = law_type:law_compulsory_education_to_twelve
 						value > neutral
 					}
 					is_marginal = no
@@ -2361,7 +2361,7 @@ paris_commune_pulse_events.12 = {
 				limit = {
 					any_interest_group = {
 						law_stance = {
-							law = law_type:law_compulsory_primary_school
+							law = law_type:law_compulsory_education_to_twelve
 							value > neutral
 						}
 					}
@@ -2372,7 +2372,7 @@ paris_commune_pulse_events.12 = {
 				every_interest_group = {
 					limit = {
 						law_stance = {
-							law = law_type:law_compulsory_primary_school
+							law = law_type:law_compulsory_education_to_twelve
 							value > neutral
 						}
 						is_marginal = no
@@ -2386,10 +2386,10 @@ paris_commune_pulse_events.12 = {
 			if = {
 				limit = {
 					NOT = {
-						has_law = law_type:law_compulsory_primary_school
+						has_law = law_type:law_compulsory_education_to_twelve
 					}
 				}
-				activate_law = law_type:law_compulsory_primary_school
+				activate_law = law_type:law_compulsory_education_to_twelve
 			}
 		}
 	}

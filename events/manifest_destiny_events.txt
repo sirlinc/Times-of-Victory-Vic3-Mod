@@ -199,7 +199,7 @@ manifest_destiny.3 = {
 		trigger = {
 			scope:bison_state = {
 				any_scope_building = {
-					is_building_type = building_livestock_ranch
+					is_building_type = building_prime_pasture
 				}
 			}
 		}

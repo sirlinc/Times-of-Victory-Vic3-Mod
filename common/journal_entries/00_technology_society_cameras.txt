@@ -21,14 +21,14 @@
 		any_scope_building = {
 			is_building_type = building_arts_academy
 			level >= 5
-			has_active_production_method = pm_photographic_art
+			has_active_production_method = pm_daguerrotypes
 		}
 		any_scope_building = {
 			filter = {
 				is_building_type = building_arts_academy
 			}
 			percent > 0.75
-			has_active_production_method = pm_photographic_art
+			has_active_production_method = pm_daguerrotypes
 			occupancy > 0.75
 		}
 	}
@@ -67,14 +67,14 @@ je_film = {
 		any_scope_building = {
 			is_building_type = building_arts_academy
 			level >= 5
-			has_active_production_method = pm_film_art
+			has_active_production_method = pm_motion_pictures
 		}
 		any_scope_building = {
 			filter = {
 				is_building_type = building_arts_academy
 			}
 			percent > 0.75
-			has_active_production_method = pm_film_art
+			has_active_production_method = pm_motion_pictures
 			occupancy > 0.75
 		}
 	}

@@ -140,7 +140,7 @@ pm_manual_hauling = {
 	}
 }
 
-pm_minecarts = {
+pm_skid_trails = {
 	texture = "gfx/interface/icons/production_method_icons/log_carts.dds"
 	unlocking_technologies = {
 		compound_machines
@@ -228,10 +228,13 @@ pm_aristocratic_reserve = {
 		}
 		unscaled = {
 			building_aristocrats_shares_add = 5
-			building_aristocrats_standard_of_living_add = 1
 		}
 	}
-
+	state_modifiers = {
+		unscaled = {
+			state_aristocrats_standard_of_living_add = 1		
+		}
+	}
 }
 
 pm_common_land = {
@@ -538,7 +541,9 @@ pm_industrial_conglomerate_oil = {
 			building_capitalists_shares_add = 4
 			building_capitalists_shares_add = 1
 		}
-		state_modifiers = {
+	}
+	state_modifiers = {
+		unscaled = {
 			state_capitalists_investment_pool_efficiency_mult  = 0.03
 		}
 	}
@@ -722,6 +727,10 @@ pm_steam_trawlers = {
 			building_employment_engineers_add = 500
 		}
 	}
+}
+
+pm_unrefrigerated = {
+	texture = "gfx/interface/icons/production_method_icons/no_refrigeration.dds"
 }
 
 pm_refrigerated_storage_building_fishing_wharf = {

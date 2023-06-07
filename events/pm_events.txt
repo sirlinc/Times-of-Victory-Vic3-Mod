@@ -176,14 +176,14 @@ pm_events.3 = {
 
 	trigger = {
 		any_scope_state = {
-			OR = {
-				is_production_method_active = {
-					building_type = building_food_industry
+			building_type = building_food_industry
+			is_production_method_active = {
+				OR = {
+					production_method = pm_wooden_casks
 					production_method = pm_pot_stills
-				}
-				is_production_method_active = {
-					building_type = building_food_industry
-					production_method = pm_patent_stills
+					production_method = pm_column_stills
+					production_method = pm_chromium_vessels
+					}
 				}
 			}
 			NOR = {
@@ -203,15 +203,16 @@ pm_events.3 = {
 		random_scope_state = {
 			limit = {
 				OR = {
+					building_type = building_food_industry
 					is_production_method_active = {
-						building_type = building_food_industry
-						production_method = pm_pot_stills
+						OR = {
+							production_method = pm_wooden_casks
+							production_method = pm_pot_stills
+							production_method = pm_column_stills
+							production_method = pm_chromium_vessels
+							}
+						}
 					}
-					is_production_method_active = {
-						building_type = building_food_industry
-						production_method = pm_patent_stills
-					}
-				}
 				NOR = {
 					has_modifier = liquor_production_ban
 					has_modifier = liquor_production_restrictions
@@ -401,12 +402,12 @@ pm_events.5 = {
 		any_scope_state = {
 			OR = {
 				is_production_method_active = {
-					building_type = building_wheat_farm
-					production_method = pm_vineyards
+					building_type = building_temperate_farmland
+					production_method = pm_vineyards_tef
 				}
 				is_production_method_active = {
-					building_type = building_maize_farm
-					production_method = pm_vineyards_building_maize_farm
+					building_type = building_arid_farmland
+					production_method = pm_vineyards_arf
 				}
 			}
 		}
@@ -419,13 +420,12 @@ pm_events.5 = {
 			limit = {
 				OR = {
 					is_production_method_active = {
-						building_type = building_wheat_farm
-						production_method = pm_vineyards
-					}
-					is_production_method_active = {
-						building_type = building_maize_farm
-						production_method = pm_vineyards_building_maize_farm
-					}
+					building_type = building_temperate_farmland
+					production_method = pm_vineyards_tef
+				}
+				is_production_method_active = {
+					building_type = building_arid_farmland
+					production_method = pm_vineyards_arf
 				}
 			}
 			save_scope_as = vinyard_state

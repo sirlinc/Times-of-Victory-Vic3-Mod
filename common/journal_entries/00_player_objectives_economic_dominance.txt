@@ -170,16 +170,16 @@ je_specialized_inputs = {
 			any_scope_building = {
 				filter = {
 					OR = {
-						is_building_type = building_rye_farm
-						is_building_type = building_wheat_farm
-						is_building_type = building_maize_farm
-						is_building_type = building_millet_farm
+						is_building_type = building_temperate_farmland
+						is_building_type = building_tropical_farmland
+						is_building_type = building_wetlands_farmland
+						is_building_type = building_arid_farmland
 					}
 				}
 				percent >= 0.75
 				OR = {
-					has_active_production_method = pm_tractors
-					has_active_production_method = pm_compression_ignition_tractors
+					has_active_production_method = pm_steam_powered_tractors_farmland
+					has_active_production_method = pm_diesel_tractors_farmland
 				}
 				weekly_profit > 0
 				occupancy >= 0.5
@@ -196,8 +196,8 @@ je_specialized_inputs = {
 				}
 				percent >= 0.75
 				OR = {
-					has_active_production_method = pm_steam_donkey_building_coal_mine
-					has_active_production_method = pm_steam_donkey_mine
+					has_active_production_method = pm_deep_shaft_machinery_coal_mine
+					has_active_production_method = pm_deep_shaft_machinery_coal_mine
 				}
 				weekly_profit > 0
 				occupancy >= 0.5

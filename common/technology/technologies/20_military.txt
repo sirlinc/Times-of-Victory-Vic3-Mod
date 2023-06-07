@@ -5,20 +5,19 @@ standing_army = {
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
 	category = military
-	}
 	ai_weight = {
 		value = 1
+	}
 }
-
 posthouses = {
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
 	category = military
-	}
+
 	ai_weight = {
 		value = 1
+	}
 }
-
 navigation = {
 	# Unlocks Shipyards
 	# Unlocks Ports
@@ -34,7 +33,6 @@ navigation = {
 		value = 1
 	}
 }
-
 drydocks = {
 	# Increases Port max level by 3
 	era = era_1
@@ -52,7 +50,6 @@ drydocks = {
 		value = 1
 	}
 }
-
 mandatory_service = {
 	# Unlocks Army Model - National Militia
 	era = era_1
@@ -70,7 +67,6 @@ mandatory_service = {
 		value = 1
 	}
 }
-
 gunsmithing = {
 	# Unlocks Arms Industry building
 	# Global Unlock for Muskets PM in Barracks
@@ -85,7 +81,6 @@ gunsmithing = {
 		value = 1
 	}
 }
-
 artillery = {
 	# Unlocks Artillery Production PM in Arms Industries
 	# Unlocks Cannon Artillery PM in Barracks
@@ -100,7 +95,6 @@ artillery = {
 		value = 1
 	}
 }
-
 military_drill = {
 	# Does nothing yet; should enable/increase combat unit Experience gain
 	era = era_1
@@ -117,7 +111,6 @@ military_drill = {
 		value = 1
 	}
 }
-
 napoleonic_warfare = {
 	# Unlocks Mobile Artillery PM in Barracks
 	era = era_1
@@ -132,7 +125,6 @@ napoleonic_warfare = {
 		value = 1
 	}
 }
-
 admiralty = {
 	# Unlocks Naval Base building
 	era = era_1
@@ -146,6 +138,10 @@ admiralty = {
 	unlocking_technologies = {
 		navigation
 	}	
+	ai_weight = {
+		value = 1
+	}
+
 }
 
 army_reserves = {
@@ -164,7 +160,6 @@ army_reserves = {
 		value = 1
 	}
 }
-
 line_infantry = {
 	# Unlocks Line Infantry PM in Barracks
 	era = era_1
@@ -179,7 +174,6 @@ line_infantry = {
 		value = 1
 	}
 }
-
 paddle_steamer = {
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/paddle_steamer.dds"
@@ -196,7 +190,6 @@ paddle_steamer = {
 		value = 1
 	}
 }
-
 ### ERA 2
 
 field_works = {
@@ -219,7 +212,6 @@ field_works = {
 		value = 1
 	}
 }
-
 logistics = {
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/logistics_tech.dds"
@@ -237,7 +229,6 @@ logistics = {
 		value = 1
 	}
 }
-
 semaphore_towers = {
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/logistics_tech.dds"
@@ -250,7 +241,6 @@ semaphore_towers = {
 		value = 1
 	}
 }
-
 triage = {
 	# Unlocks Basic Medical Aid PM in Barracks
 	era = era_2
@@ -264,7 +254,6 @@ triage = {
 		value = 1
 	}
 }
-
 shell_gun = {
 	# Unlocks Explosive Shell Artillery Production PM in Arms Industries
 	era = era_2
@@ -278,7 +267,6 @@ shell_gun = {
 		value = 1
 	}
 }
-
 percussion_cap = {
 	# Unlocks Munition Plants building
 	# Global Unlock for Rifles PM in Barracks
@@ -293,7 +281,6 @@ percussion_cap = {
 		value = 1
 	}
 }
-
 rifling = {
 	# Unlocks Rifles PM in Arms Industry
 	era = era_2
@@ -307,7 +294,6 @@ rifling = {
 		value = 1
 	}
 }
-
 general_staff = {
 	# Unlocks Skirmish Infantry PM in Barracks / Conscription Centers
 	era = era_2
@@ -321,7 +307,6 @@ general_staff = {
 		value = 1
 	}
 }
-
 military_academies = {
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
@@ -335,7 +320,6 @@ military_academies = {
 		value = 1
 	}
 }
-
 screw_frigate = {
 	# Unlocks Complex Shipbuilding PM in Shipyards
 	era = era_2
@@ -353,7 +337,6 @@ screw_frigate = {
 		value = 1
 	}
 }
-
 power_of_the_purse = {
 	# Unlocks the Power of the Purse PM in Naval Bases
 	era = era_2
@@ -371,7 +354,6 @@ power_of_the_purse = {
 		value = 1
 	}
 }
-
 hydraulic_cranes = {
 	# Increases Port max level by 3
 	era = era_2
@@ -389,7 +371,6 @@ hydraulic_cranes = {
 		value = 1
 	}
 }
-
 ### ERA 3
 
 nitroglycerin = {
@@ -410,7 +391,6 @@ nitroglycerin = {
 		value = 1
 	}
 }
-
 modern_nursing = {
 	# Unlocks Field Hospitals PM in Barracks
 	era = era_3
@@ -424,7 +404,6 @@ modern_nursing = {
 		value = 1
 	}
 }
-
 enlistment_offices = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/enlistment_offices.dds"
@@ -441,7 +420,6 @@ enlistment_offices = {
 		value = 1
 	}
 }
-
 electric_telegraph = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/electrical_telegraph.dds"
@@ -459,7 +437,6 @@ electric_telegraph = {
 		value = 1
 	}
 }
-
 military_statistics = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/military_statistics.dds"
@@ -477,7 +454,6 @@ military_statistics = {
 		value = 1
 	}
 }
-
 repeaters = {
 	# Unlocks Repeaters PM in Arms Industry
 	# Global Unlock for Repeaters PM in Barracks
@@ -492,7 +468,6 @@ repeaters = {
 		value = 1
 	}
 }
-
 breech_loading_artillery = {
 	# Unlocks Breech Loading Artillery Production PM in Arms Industries
 	# Unlocks Breech Loading Artillery PM in Barracks
@@ -509,7 +484,6 @@ breech_loading_artillery = {
 		value = 1
 	}
 }
-
 handcranked_machine_gun = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/handcranked_machine_gun.dds"
@@ -528,7 +502,6 @@ handcranked_machine_gun = {
 		value = 1
 	}
 }
-
 self_propelled_torpedoes = {
 	# #todo#! Does nothing yet
 	era = era_3
@@ -543,7 +516,6 @@ self_propelled_torpedoes = {
 		value = 1
 	}
 }
-
 monitor_tech = {
 	# Unlocks Monitors PM in Naval Base
 	era = era_3
@@ -561,7 +533,6 @@ monitor_tech = {
 		value = 1
 	}
 }
-
 ironclad_tech = {
 	# Unlocks Metal Shipbuilding PM in Shipyards
 	# Unlocks Ironclads PM in Naval Base
@@ -577,7 +548,6 @@ ironclad_tech = {
 		value = 1
 	}
 }
-
 jeune_ecole = {
 	# Unlocks Jeune Ecole PM in Naval Base
 	era = era_3
@@ -595,7 +565,6 @@ jeune_ecole = {
 		value = 1
 	}
 }
-
 floating_harbor = {
 	# Unlocks Industrial Port PM in Ports
 	# Increases Port Level by 4
@@ -614,7 +583,6 @@ floating_harbor = {
 		value = 1
 	}
 }
-
 gantry_cranes = {
 	# Increases Port max level by 4
 	era = era_3
@@ -632,7 +600,6 @@ gantry_cranes = {
 		value = 1
 	}
 }
-
 ### ERA 4
 
 dynamite = {
@@ -652,7 +619,6 @@ dynamite = {
 		value = 1
 	}
 }
-
 trench_works = {
 	# Unlocks Officer Training PM in Barracks
 	# Unlocks Barbed Wire Fences in Livestock Ranches
@@ -669,7 +635,6 @@ trench_works = {
 		value = 1
 	}
 }
-
 war_propaganda = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/war_propaganda.dds"
@@ -687,7 +652,6 @@ war_propaganda = {
 		value = 1
 	}
 }
-
 wargaming = {
 	# #todo#! Does nothing yet
 	era = era_4
@@ -705,7 +669,6 @@ wargaming = {
 		value = 1
 	}
 }
-
 defense_in_depth = {
 	# Increases defense
 	# Unlock Delay Order?
@@ -726,7 +689,6 @@ defense_in_depth = {
 		value = 1
 	}
 }
-
 bolt_action_rifles = {
 	# Unlocks Bolt Action Rifles PM in Arms Industry
 	# Global Unlock for Bolt Action Rifles PM in Barracks
@@ -741,7 +703,6 @@ bolt_action_rifles = {
 		value = 1
 	}
 }
-
 automatic_machine_guns = {
 	# #todo#! Does nothing yet
 	era = era_4
@@ -756,7 +717,6 @@ automatic_machine_guns = {
 		value = 1
 	}
 }
-
 
 telephone = {
 	# Unlocks Electrics Industry building
@@ -775,7 +735,6 @@ telephone = {
 		value = 1
 	}
 }
-
 radio = {
 	# Unlocks Radios PM in Electrics Industry
 	era = era_5
@@ -793,7 +752,6 @@ radio = {
 		value = 1
 	}
 }
-
 submarine = {
 	# Unlocks Submarine PM on Naval Bases
 	era = era_4
@@ -811,7 +769,6 @@ submarine = {
 		value = 1
 	}
 }
-
 destroyer = {
 	# #todo#! Does nothing yet
 	era = era_4
@@ -826,7 +783,6 @@ destroyer = {
 		value = 1
 	}
 }
-
 dreadnought = {
 	# Unlocks Dreadnoughts PM in Naval Bases
 	era = era_4
@@ -846,9 +802,8 @@ dreadnought = {
 	}
 	ai_weight = {
 		value = 1
-	}
-}
-sea_lane_strategies = {
+		}
+}sea_la	n}e_strategies = {
 	# Unlocks Sea Lane Strategies PM in Naval Bases
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/sea_lane_strategies.dds"
@@ -865,7 +820,6 @@ sea_lane_strategies = {
 		value = 1
 	}
 }
-
 landing_craft = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/landing_craft.dds"
@@ -883,7 +837,6 @@ landing_craft = {
 		value = 1
 	}
 }
-
 concrete_dockyards = {
 	# Unlocks Modern Port PM in Ports
 	# Increases Max Port Level by 4
@@ -902,7 +855,6 @@ concrete_dockyards = {
 		value = 1
 	}
 }
-
 ### ERA 5
 
 nco_training = {
@@ -919,7 +871,6 @@ nco_training = {
 		value = 1
 	}
 }
-
 chemical_warfare = {
 	# Unlocks Chemical Artillery PM in Barracks
 	era = era_5
@@ -933,7 +884,6 @@ chemical_warfare = {
 		value = 1
 	}
 }
-
 stormtroopers = {
 	# #todo#! Does nothing yet
 	era = era_5
@@ -948,7 +898,6 @@ stormtroopers = {
 		value = 1
 	}
 }
-
 concrete_fortifications = {
 	# Increases defense
 	era = era_5
@@ -969,7 +918,6 @@ concrete_fortifications = {
 		value = 1
 	}
 }
-
 mobile_armor = {
 	# Unlocks Tanks PM in Vehicles Industries
 	# Unlocks Tanks, Planes and Tanks PM in Barracks
@@ -986,7 +934,6 @@ mobile_armor = {
 		value = 1
 	}
 }
-
 military_aviation = {
 	# Unlocks Vehicles Industries
 	# Unlocks Tanks, Planes and Tanks PM in Barracks
@@ -1006,7 +953,6 @@ military_aviation = {
 		value = 1
 	}
 }
-
 flamethrowers = {
 	# Increases kill rate (lowers opponent survival rate)
 	era = era_5
@@ -1024,7 +970,6 @@ flamethrowers = {
 		value = 1
 	}
 }
-
 carrier_tech = {
 	# Unlocks Carriers PM in Naval Bases
 	era = era_5
@@ -1038,7 +983,6 @@ carrier_tech = {
 		value = 1
 	}
 }
-
 battleship_tech = {
 	# Unlocks Battleships PM in Naval Bases
 	era = era_5
@@ -1052,7 +996,6 @@ battleship_tech = {
 		value = 1
 	}
 }
-
 battlefleet_tactics = {
 	# Unlocks Battlefleet Tactics PM in Naval Bases
 	era = era_5
@@ -1066,6 +1009,258 @@ battlefleet_tactics = {
 	unlocking_technologies = {	
 		battleship_tech
 		sea_lane_strategies
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+gunpowder_warfare = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/gunsmithing.dds"
+	category = military
+
+	ai_weight = {
+		value = 1
+		}
+}
+
+flintlock_muskets = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/gunsmithing.dds"
+	category = military
+	unlocking_technologies = {
+		gunpowder_warfare
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+muzzle_loading_cannons = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/artillery.dds"
+	category = military
+	unlocking_technologies = {
+		gunpowder_warfare
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+cartridge_ammunition = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/gunsmithing.dds"
+	category = military
+	unlocking_technologies = {
+		flintlock_muskets
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+mobile_field_artillery = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/artillery.dds"
+	category = military
+	unlocking_technologies = {
+		muzzle_loading_cannons
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+barrel_rifling = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/rifling.dds"
+	category = military
+	unlocking_technologies = {
+		cartridge_ammunition
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+minie_ball = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/gunsmithing.dds"
+	category = military
+	unlocking_technologies = {
+		barrel_rifling
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+high_explosives = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/dynamite.dds"
+	category = military
+	unlocking_technologies = {
+		mobile_field_artillery
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+percussion_caps = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/percussion_cap.dds"
+	category = military
+	unlocking_technologies = {
+		barrel_rifling
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+breech_loading_artillery = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/breech_loading_artillery.dds"
+	category = military
+	unlocking_technologies = {
+		high_explosives
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+metallic_cartridges = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/gunsmithing.dds"
+	category = military
+	unlocking_technologies = {
+		minie_ball
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+nitroglycerin = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/nitroglycerin.dds"
+	category = military
+	unlocking_technologies = {
+		high_explosives
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+breech_loading_rifles = {
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/repeaters.dds"
+	category = military
+	unlocking_technologies = {
+		percussion_caps
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+recoil_systems = {
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/artillery.dds"
+	category = military
+	unlocking_technologies = {
+		breech_loading_artillery
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+smokeless_powder = {
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/gunsmithing.dds"
+	category = military
+	unlocking_technologies = {
+		metallic_cartridges
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+dynamite = {
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/dynamite.dds"
+	category = military
+	unlocking_technologies = {
+		nitroglycerin
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+bolt_action_rifles = {
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/bolt_action_rifles.dds"
+	category = military
+	unlocking_technologies = {
+		breech_loading_rifles
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+quick_firing_artillery = {
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/artillery.dds"
+	category = military
+	unlocking_technologies = {
+		recoil_systems
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+spitzer_bullet = {
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/gunsmithing.dds"
+	category = military
+	unlocking_technologies = {
+		smokeless_powder
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+trinitrotoluene = {
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/dynamite.dds"
+	category = military
+	unlocking_technologies = {
+		dynamite
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+semi_automatic_firearms = {
+	era = era_10
+	texture = "gfx/interface/icons/invention_icons/machine_gun.dds"
+	category = military
+	unlocking_technologies = {
+		bolt_action_rifles
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+hexogen = {
+	era = era_10
+	texture = "gfx/interface/icons/invention_icons/dynamite.dds"
+	category = military
+	unlocking_technologies = {
+		trinitrotoluene
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+trench_mortars = {
+	era = era_10
+	texture = "gfx/interface/icons/invention_icons/artillery.dds"
+	category = military
+	unlocking_technologies = {
+		quick_firing_artillery
 	}
 	ai_weight = {
 		value = 1

@@ -1182,7 +1182,7 @@
 				building="building_fishing_wharf"
 				level=1
 				reserves=1
-			}
+			}			
 		}
 	}
 }

@@ -1,7 +1,7 @@
 ﻿l_english:
 
 #administrative_infrastructure
-
+lawgroup_administrative_infrastructure: "Administrative Infrastructure"
 law_tribal_councils: "Tribal Councils"
 law_tribal_councils_desc: "Tribal councils make laws and resolve disputes based on communal agreement and traditional customs."
 law_feudal_courts: "Feudal Courts"
@@ -177,3 +177,12 @@ law_consociationalism_desc: "A system of communal governance that fosters accomm
 
 law_anarchy: "Anarchy"
 law_anarchy_desc: "A society characterized by the absence of formal governance structures, relying on voluntary, self-organized cooperation."
+
+modifier_state_pop_support_law_freedom_of_movement_add: "[GetLawType('law_freedom_of_movement').GetName] [concept_pop] Support"
+modifier_state_pop_support_law_freedom_of_movement_add_desc: "Impacts the rate at which [Concept('concept_pop', '$concept_pops$')] support the[GetLawType('law_freedom_of_movement').GetName] [concept_law]."
+modifier_state_pop_support_law_freedom_of_movement_mult: "[GetLawType('law_freedom_of_movement').GetName] [concept_pop] Support"
+modifier_state_pop_support_law_freedom_of_movement_mult_desc: "Impacts the rate at which [Concept('concept_pop', '$concept_pops$')] support the[GetLawType('law_freedom_of_movement').GetName] [concept_law]."
+modifier_state_pop_support_law_paramilitary_force_add: "[GetLawType('law_paramilitary_force').GetName] [concept_pop] Support"
+modifier_state_pop_support_law_paramilitary_force_add_desc: "Impacts the rate at which [Concept('concept_pop', '$concept_pops$')] support the[GetLawType('law_paramilitary_force').GetName] [concept_law]."
+modifier_state_pop_support_law_paramilitary_force_mult: "[GetLawType('law_paramilitary_force').GetName] [concept_pop] Support"
+modifier_state_pop_support_law_paramilitary_force_mult_desc: "Impacts the rate at which [Concept('concept_pop', '$concept_pops$')] support the[GetLawType('law_paramilitary_force').GetName] [concept_law]."

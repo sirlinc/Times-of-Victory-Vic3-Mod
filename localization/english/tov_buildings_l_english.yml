@@ -26,20 +26,9 @@ modifier_building_prime_pasture_throughput_mult: "$building_prime_pasture$ build
 modifier_building_prime_pasture_throughput_mult_desc: "A bonus or penalty to both input and output of $building_prime_pasture$"
 
 # Spice Plantations
-building_prime_pasture: "Spice Plantations"
-modifier_building_prime_pasture_throughput_mult: "$building_spice_plantations$ building [concept_throughput]"
-modifier_building_prime_pasture_throughput_mult_desc: "A bonus or penalty to both input and output of $building_spice_plantations$"
-
-
-# Cultural Center
-building_cultural_center: "Cultural Center"
-modifier_building_cultural_center_throughput_mult: "$building_cultural_center$ building [concept_throughput]"
-modifier_building_cultural_center_throughput_mult_desc: "A bonus or penalty to both input and output of $building_cultural_center$"
-
-# Distilleries
-building_distilleries: "Distilleries"
-modifier_building_distilleries_throughput_mult: "$building_distilleries$ building [concept_throughput]"
-modifier_building_distilleries_throughput_mult_desc: "A bonus or penalty to both input and output of $building_distilleries$"
+building_spice_plantation: "Spice Plantations"
+modifier_building_spice_plantation_throughput_mult: "$building_spice_plantations$ building [concept_throughput]"
+modifier_building_spice_plantation_throughput_mult_desc: "A bonus or penalty to both input and output of $building_spice_plantations$"
 
 # Engineering Firms
 building_engineering_firms: "Engineering Firms"
@@ -55,16 +44,6 @@ modifier_building_oil_refineries_throughput_mult_desc: "A bonus or penalty to bo
 building_automotive_firms: "Automotive Firms"
 modifier_building_automotive_firms_throughput_mult: "$building_automotive_firms$ building [concept_throughput]"
 modifier_building_automotive_firms_throughput_mult_desc: "A bonus or penalty to both input and output of $building_automotive_firms$"
-
-# Armories
-building_armories: "Armories"
-modifier_building_armories_throughput_mult: "$building_armories$ building [concept_throughput]"
-modifier_building_armories_throughput_mult_desc: "A bonus or penalty to both input and output of $building_armories$"
-
-# Munitions Arsenal
-building_munitions_arsenal: "Munitions Arsenal"
-modifier_building_munitions_arsenal_throughput_mult: "$building_munitions_arsenal$ building [concept_throughput]"
-modifier_building_munitions_arsenal_throughput_mult_desc: "A bonus or penalty to both input and output of $building_munitions_arsenal$"
 
 # Kaolin Mines
 building_kaolin_mine: "Kaolin Mines"

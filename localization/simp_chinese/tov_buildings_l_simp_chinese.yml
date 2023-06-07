@@ -1,0 +1,60 @@
+﻿l_simp_chinese:
+# Temperate Farmland
+building_temperate_farmland: "温带农田"
+modifier_building_temperate_farmland_throughput_mult: "$building_temperate_farmland$ 建筑 [concept_throughput]"
+modifier_building_temperate_farmland_throughput_mult_desc: "$building_temperate_farmland$ 的输入和输出的奖励或惩罚"
+
+# Tropical Farmland
+building_tropical_farmland: "热带农田"
+modifier_building_tropical_farmland_throughput_mult: "$building_tropical_farmland$ 建筑 [concept_throughput]"
+modifier_building_tropical_farmland_throughput_mult_desc: "$building_tropical_farmland$ 的输入和输出的奖励或惩罚"
+
+# Wetlands Farmland
+building_wetlands_farmland: "湿地农田"
+modifier_building_wetlands_farmland_throughput_mult: "$building_wetlands_farmland$ 建筑 [concept_throughput]"
+modifier_building_wetlands_farmland_throughput_mult_desc: "$building_wetlands_farmland$ 的输入和输出的奖励或惩罚"
+
+# Arid Farmland
+building_arid_farmland: "干旱农田"
+modifier_building_arid_farmland_throughput_mult: "$building_arid_farmland$ 建筑 [concept_throughput]"
+modifier_building_arid_farmland_throughput_mult_desc: "$building_arid_farmland$ 的输入和输出的奖励或惩罚"
+
+# Prime Pasture
+building_prime_pasture: "优质牧场"
+modifier_building_prime_pasture_throughput_mult: "$building_prime_pasture$ 建筑 [concept_throughput]"
+modifier_building_prime_pasture_throughput_mult_desc: "$building_prime_pasture$ 的输入和输出的奖励或惩罚"
+
+# Spice Plantations
+building_spice_plantation: "香料种植园"
+modifier_building_spice_plantation_throughput_mult: "$building_spice_plantations$ 建筑 [concept_throughput]"
+modifier_building_spice_plantation_throughput_mult_desc: "$building_spice_plantations$ 的输入和输出的奖励或惩罚"
+
+# Engineering Firms
+building_engineering_firms: "工程公司"
+modifier_building_engineering_firms_throughput_mult: "$building_engineering_firms$ 建筑 [concept_throughput]"
+modifier_building_engineering_firms_throughput_mult_desc: "$building_engineering_firms$ 的输入和输出的奖励或惩罚"
+
+# Oil Refineries
+building_oil_refineries: "石油精炼厂"
+modifier_building_oil_refineries_throughput_mult: "$building_oil_refineries$ 建筑 [concept_throughput]"
+modifier_building_oil_refineries_throughput_mult_desc: "$building_oil_refineries$ 的输入和输出的奖励或惩罚"
+
+# Automotive Firms
+building_automotive_firms: "汽车公司"
+modifier_building_automotive_firms_throughput_mult: "$building_automotive_firms$ 建筑 [concept_throughput]"
+modifier_building_automotive_firms_throughput_mult_desc: "$building_automotive_firms$ 的输入和输出的奖励或惩罚"
+
+# Kaolin Mines
+building_kaolin_mine: "高岭土矿"
+modifier_building_kaolin_mine_throughput_mult: "$building_kaolin_mine$ 建筑 [concept_throughput]"
+modifier_building_kaolin_mine_throughput_mult_desc: "$building_kaolin_mine$ 的输入和输出的奖励或惩罚"
+
+# Ironworks
+building_ironworks: "铁工厂"
+modifier_building_ironworks_throughput_mult: "$building_ironworks$ 建筑 [concept_throughput]"
+modifier_building_ironworks_throughput_mult_desc: "$building_ironworks$ 的输入和输出的奖励或惩罚"
+
+# Alloy Smelters
+building_alloy_smelters: "合金冶炼厂"
+modifier_building_alloy_smelters_throughput_mult: "$building_alloy_smelters$ 建筑 [concept_throughput]"
+modifier_building_alloy_smelters_throughput_mult_desc: "$building_alloy_smelters$ 的输入和输出的奖励或惩罚"

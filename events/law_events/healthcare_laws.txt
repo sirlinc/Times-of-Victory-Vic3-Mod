@@ -33,14 +33,16 @@ healthcare_laws.1 = { #famers want healthcare due to accidents
 		any_scope_state = {
 			any_scope_building = {
 				OR = {
-					is_building_type = building_rye_farm
-					is_building_type = building_wheat_farm
-					is_building_type = building_rice_farm
-					is_building_type = building_maize_farm
-					is_building_type = building_millet_farm
+					is_building_type = building_temperate_farmland
+					is_building_type = building_tropical_farmland
+					is_building_type = building_wetlands_farmland
+					is_building_type = building_arid_farmland
 				}
-				NOT = {
-					has_active_production_method = pm_tools_disabled 
+				NOR = {
+					has_active_production_method = pm_tools_disabled_tef 
+					has_active_production_method = pm_tools_disabled_trf 
+                    has_active_production_method = pm_tools_disabled_arf 
+                    has_active_production_method = pm_tools_disabled_wef 
 				}
 			}
 		}
@@ -54,14 +56,16 @@ healthcare_laws.1 = { #famers want healthcare due to accidents
 			limit = {
 				any_scope_building = {
 					OR = {
-						is_building_type = building_rye_farm
-						is_building_type = building_wheat_farm
-						is_building_type = building_rice_farm
-						is_building_type = building_maize_farm
-						is_building_type = building_millet_farm
+						is_building_type = building_temperate_farmland
+						is_building_type = building_tropical_farmland
+						is_building_type = building_wetlands_farmland
+						is_building_type = building_arid_farmland
 					}
-					NOT = {
-						has_active_production_method = pm_tools_disabled 
+					NOR = {
+						has_active_production_method = pm_tools_disabled_tef 
+						has_active_production_method = pm_tools_disabled_trf 
+						has_active_production_method = pm_tools_disabled_arf 
+						has_active_production_method = pm_tools_disabled_wef 
 					}	
 				}
 			}	

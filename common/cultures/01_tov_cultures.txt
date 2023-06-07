@@ -163,22 +163,22 @@ khalkha={
 		Balingiin
 		Batbayar
 		Baterdene
-		Jampildorj
-		Nasantsogt
+		jampildorj
+		nasantsogt
 		Tserendorj
 		Chingis
 		Dambyan
-		Dashyam
+		dashyam
 		Damdin
 		Dogsomyn
 		Gonchigjalzangiin
 		Gonchigtseren
-		Gombodorj
+		gombodorj
 		Injinash
 		Khorloogiin
 		Kubilai
 		Otgonbayar
-		Gersenji
+		gersenji
 		Peljidiin
 		Sodnomyn
 	}
@@ -211,84 +211,6 @@ khalkha={
 	}
 	ethnicities = {
 		1 = central_asian
-	}
-	graphics = asian
-}
-
-hui={
-	color= rgb{ 0 163 108 }
-	religion = sunni
-	traits = { sinosphere han_chinese east_asian_heritage }
-	male_common_first_names={
-		Chen
-		Cheng
-		Deng
-		Dong
-		Gao
-		Hsia
-		Hu
-		Huang
-		Kong
-		Kwong
-		Li
-		Liang
-		Liao
-		Liu
-		Luo
-		Ma
-		Mao
-		Pan
-		Tan
-		Wang
-		Xie
-		Yang
-		Yu
-		Zhang
-		Zhu
-	}
-	female_common_first_names = {
-		Akew
-		Jin
-		Jinhong
-		Junying
-		Qingtang
-		Sanniang
-		Shanziang
-		Shih
-		Taiqing
-		Xiefen
-		Xiugu
-		Xuanjiao
-		Yu
-		Yunmei
-	}	
-	noble_last_names = {
-		Cui
-		Li
-		Nie
-		Zhang
-	}
-	common_last_names={
-		Dong
-		Fang
-		Hu
-		Jiang
-		Jin
-		Lu
-		Ma
-		Peng
-		Qiu
-		Shen
-		Sun
-		Tian
-		Ting
-		Wei
-		Wu
-		Ye
-		Zhao
-	}
-	ethnicities = {
-		1 = asian
 	}
 	graphics = asian
 }

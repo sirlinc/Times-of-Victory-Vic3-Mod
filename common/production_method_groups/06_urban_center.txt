@@ -112,9 +112,10 @@ pmg_infrastructure_power_plant = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	ai_selection = most_productive
 	production_methods = {
-		pm_dc_power_stations_power_plant
-		pm_high_voltage_ac_grids_power_plant
-		pm_regional_power_grids_power_plant
+		pm_no_power_grid_infrastructure
+		pm_neighborhood_power_grids
+		pm_city_power_grids
+		pm_regional_power_grids
 	}
 }
 

@@ -192,9 +192,7 @@ pmg_secondary_livestock_base_pasture = {
 	production_methods = {
 		pm_no_secondary_livestock
 		pm_horse_ranches
-		pm_livestock_barns
 		pm_collagen_glue_factories
-		pm_dairy_farms
 	}
 }
 

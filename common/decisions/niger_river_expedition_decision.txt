@@ -1,7 +1,7 @@
 ﻿niger_river_expedition = {
 	is_shown = {
 		NOT = {  has_variable = on_expedition }	
-		has_technology_researched = colonization
+		has_technology_researched = scientific_expeditions
 		NOT = { has_global_variable = niger_river_explored }
 		OR = {
 			is_ai = no

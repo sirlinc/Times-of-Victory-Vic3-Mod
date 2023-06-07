@@ -323,21 +323,21 @@ production_tech_events.300 = { #telephone
 		random_scope_state = {
 			limit = {
 				any_scope_building = {
-					is_building_type = building_electrics_industry
+					is_building_type = building_engineering_firms
 					weekly_profit > 0
 					occupancy > 0.75
 					level >= 5
-					has_active_production_method = pm_telephones
+					has_active_production_method = pm_telephone
 				}
 			}
 			save_scope_as = electrics_state
 			random_scope_building = {
 				limit = {
-					is_building_type = building_electrics_industry
+					is_building_type = building_engineering_firms
 					weekly_profit > 0
 					occupancy > 0.75
 					level >= 5
-					has_active_production_method = pm_telephones
+					has_active_production_method = pm_telephone
 				}
 				save_scope_as = electrics_building
 			}
@@ -611,7 +611,7 @@ production_tech_events.501 = {
 
 	trigger = {
 		any_scope_state = {
-			has_building = building_motor_industry
+			has_building = building_automotive_firms
 		}
 		any_scope_state = {
 			has_building = building_railway
@@ -621,12 +621,12 @@ production_tech_events.501 = {
 	immediate = {
 		random_scope_state = {
 			limit = {
-				has_building = building_motor_industry
+				has_building = building_automotive_firms
 			}
 			save_scope_as = engine_state
 			random_scope_building = {
 				limit = {
-					is_building_type = building_motor_industry
+					is_building_type = building_automotive_firms
 				}
 				save_scope_as = engine_building
 			}
@@ -660,7 +660,7 @@ production_tech_events.501 = {
 		name = production_tech_events.501.b
 		trigger = {
 			any_scope_state = {
-				has_building = building_motor_industry
+				has_building = building_automotive_firms
 			}
 		}
 		scope:engine_state = {
@@ -674,7 +674,7 @@ production_tech_events.501 = {
 	option = {
 		name = production_tech_events.501.c
 		trigger = {
-			NOT = { has_technology_researched = steels }
+			NOT = { has_technology_researched = steel_railways }
 			can_research = steel_railways
 		}
 		add_technology_progress = { progress = 4500 technology = steel_railways }
@@ -755,8 +755,9 @@ production_tech_events.601 = {
 						is_building_type = building_iron_mine
 						is_building_type = building_sulfur_mine
 						is_building_type = building_lead_mine
+						
 					}
-					has_active_production_method = pm_atmospheric_engine_pump_building_coal_mine
+					has_active_production_method = pm_newcomen_engine_base_mine
 				}
 			}
 			save_scope_as = atmospheric_engine_state
@@ -817,7 +818,7 @@ production_tech_events.700 = {
 		random_scope_state = {
 			limit = {
 				any_scope_building = {
-					is_building_type = building_motor_industry
+					is_building_type = building_automotive_firms
 					occupancy > 0.75
 					cash_reserves_ratio > 0.25
 					weekly_profit > 0

@@ -1488,7 +1488,7 @@ pm_rural_estates_pasture = {
 	}
 }
 
-pm_fortified_ranches_farmland = {
+pm_fortified_ranches_pasture = {
 	texture = "gfx/interface/icons/production_method_icons/military_homesteads.dds"
 
 	unlocking_technologies = {
@@ -1508,7 +1508,7 @@ pm_fortified_ranches_farmland = {
 	}
 }
 
-pm_corporate_entities_farmland = {
+pm_corporate_entities_pasture = {
 	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
 	
 	disallowing_laws = {
@@ -1532,7 +1532,7 @@ pm_corporate_entities_farmland = {
 	}
 }
 
-pm_state_ownership_farmland = {
+pm_state_ownership_pasture = {
 	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
 	
 	disallowing_laws = {
@@ -1556,7 +1556,7 @@ pm_state_ownership_farmland = {
 	}
 }
 
-pm_worker_cooperative_farmland = {
+pm_worker_cooperative_pasture = {
 	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds"
 
 	disallowing_laws = {

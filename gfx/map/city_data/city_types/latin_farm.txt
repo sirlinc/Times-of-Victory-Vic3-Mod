@@ -55,35 +55,9 @@
 	building_arid_farmland = {
 		"latin_province_farm_01_mesh"
 	}
-
 	building_prime_pasture = {
 		"latin_rural_ranch_01_mesh"
 	}
-
-	building_marginal_pasture = {
-		"latin_rural_ranch_01_mesh"
-	}	
-
-	
-	building_rye_farm = {
-		"latin_province_farm_01_mesh"
-	}
-	building_wheat_farm = {
-		"latin_province_farm_01_mesh"
-	}
-	building_rice_farm = {
-		"latin_province_farm_01_mesh"
-	}
-	building_maize_farm = {
-		"latin_province_farm_01_mesh"
-	}
-	building_millet_farm = {
-		"latin_province_farm_01_mesh"
-	}
-	building_livestock_ranch = {
-		"latin_rural_ranch_01_mesh"
-	}
-	
 	building_coffee_plantation = {
 		"latin_rural_plantation_01_mesh"
 	}
@@ -91,9 +65,6 @@
 		"latin_rural_plantation_01_mesh"
 	}	
 	building_cotton_plantation = {
-		"latin_rural_plantation_01_mesh"
-	}
-	building_dye_plantation = {
 		"latin_rural_plantation_01_mesh"
 	}
 	building_opium_plantation = {
@@ -109,9 +80,6 @@
 		"latin_rural_plantation_01_mesh"
 	}
 	building_spice_plantation = {
-		"latin_rural_plantation_01_mesh"
-	}
-	building_banana_plantation = {
 		"latin_rural_plantation_01_mesh"
 	}
 }

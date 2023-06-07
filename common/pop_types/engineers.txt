@@ -29,6 +29,14 @@
 		multiply = {
 			desc = "HAS_POLITICAL_AGITATION"	
 			value = 1.0	
+			if = {
+				limit = { 
+					owner = {
+						has_technology_researched = radicalism
+					}
+				}
+				value = 1.5
+			}	
 		}		
 	}
 	

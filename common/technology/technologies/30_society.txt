@@ -90,7 +90,6 @@ literacy = {
 	}
 	unlocking_technologies = {
 		histories_and_ontologies
-		code_of_law
 	}
 	ai_weight = {
 		value = 1
@@ -164,7 +163,7 @@ pluralism = {
 	texture = "gfx/interface/icons/invention_icons/pluralism.dds"
 	category = society
 	modifier = {
-		country_tech_spread_add = 10
+		country_agitator_slots_add = 1
 	}
 	unlocking_technologies = {
 		literacy
@@ -183,7 +182,6 @@ governance = {
 	}
 	unlocking_technologies = {
 		urbanization
-		absolutism
 	}
 	ai_weight = {
 		value = 1
@@ -278,7 +276,7 @@ fractional_reserve_banking = {
 		country_loan_interest_rate_add = -0.05
 	}
 	unlocking_technologies = {
-		mercantilism
+		joint_stock_company
 	}
 	ai_weight = {
 		value = 1
@@ -294,7 +292,7 @@ central_archives = {
 	}
 	unlocking_technologies = {
 		territoriality
-		repositories
+		governance
 	}
 	ai_weight = {
 		value = 1
@@ -372,7 +370,6 @@ the_balance_of_power = {
 	texture = "gfx/interface/icons/invention_icons/sea_lane_strategies.dds"
 	category = society
 	modifier = {
-		country_institution_foreign_affairs_max_investment_add = 1
 		country_diplomatic_play_maneuvers_add = 25
 	}
 	unlocking_technologies = {
@@ -476,6 +473,11 @@ unequal_treaties = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/unequal_treaties.dds"
 	category = society
+
+	modifier = {
+		country_institution_foreign_affairs_max_investment_add = 1
+	}
+
 	unlocking_technologies = {
 		the_balance_of_power
 	}
@@ -488,6 +490,7 @@ riot_acts = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/mandatory_service.dds"
 	category = society
+
 	modifier = {
 		country_institution_police_max_investment_add = 1
 	}
@@ -581,6 +584,10 @@ the_public_sphere = {
 		riot_acts
 		keyboard_instruments
 	}
+	modifier = {
+	country_agitator_slots_add = 1
+	}
+
 	ai_weight = {
 		value = 1
 	}
@@ -857,7 +864,6 @@ society_journals = {
 		country_weekly_innovation_max_add = 5
 	}
 	unlocking_technologies = {
-		natural_philosophy
 		scientific_expeditions
 	}
 	ai_weight = {
@@ -900,12 +906,15 @@ mass_communication = {
 	era = era_6
 	texture = "gfx/interface/icons/invention_icons/mass_communication.dds"
 	category = society
-	modifier = {
-		country_institution_state_propaganda_max_investment_add = 1
-	}
+
 	unlocking_technologies = {
 		national_mythos
 	}
+
+	modifier = {
+		country_agitator_slots_add = 1
+	}
+
 	ai_weight = {
 		value = 1
 	}
@@ -999,7 +1008,6 @@ law_enforcement = {
 	}
 	unlocking_technologies = {
 		mass_communication
-		democracy
 	}
 	ai_weight = {
 		value = 1
@@ -1226,6 +1234,7 @@ realism = {
 	}
 	unlocking_technologies = {
 		photography
+		dialectics
 	}
 	ai_weight = {
 		value = 1
@@ -1327,7 +1336,6 @@ behaviorism = {
 	}
 	unlocking_technologies = {
 		social_sciences
-		realism
 	}
 	ai_weight = {
 		value = 1
@@ -1383,7 +1391,6 @@ pan_nationalism = {
 	category = society
 	modifier = {
 		state_assimilation_mult = 0.1
-		country_institution_foreign_affairs_max_investment_add = 1
 	}
 	unlocking_technologies = {
 		critical_theory
@@ -1598,8 +1605,41 @@ ethics = {
 		country_institution_workplace_safety_max_investment_add = 1
 	}
 	unlocking_technologies = {
-		research_departments
+		empire_under_the_sun
+		forensic_science
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+
+mass_media = {
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/radio.dds"
+	category = society
+	modifier = {
+		country_institution_state_propaganda_max_investment_add = 2
+		country_agitator_slots_add = 1
+	}	
+	unlocking_technologies = {
 		literary_fiction
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+analytical_philosophy = {
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/analytical_philosophy.dds"
+	category = society
+	modifier = {
+		country_weekly_innovation_add = 5
+		country_weekly_innovation_max_add = 5
+	}
+	unlocking_technologies = {
+		research_departments
 	}
 	ai_weight = {
 		value = 1
@@ -1658,7 +1698,7 @@ mass_surveillance = {
 	}
 	unlocking_technologies = {
 		census_bureau
-		forensic_science
+		ethics
 	}
 	ai_weight = {
 		value = 1
@@ -1673,7 +1713,6 @@ family_planning = {
 		country_institution_social_security_max_investment_add = 1
 	}
 	unlocking_technologies = {
-		ethics
 		feminism
 	}
 	ai_weight = {
@@ -1689,23 +1728,7 @@ cinematography = {
 		country_institution_state_propaganda_max_investment_add = 1
 	}
 	unlocking_technologies = {
-		ethics
-	}
-	ai_weight = {
-		value = 1
-	}
-}
-
-analytical_philosophy = {
-	era = era_10
-	texture = "gfx/interface/icons/invention_icons/analytical_philosophy.dds"
-	category = society
-	modifier = {
-		country_weekly_innovation_add = 5
-		country_weekly_innovation_max_add = 5
-	}
-	unlocking_technologies = {
-		ethics
+		mass_media
 	}
 	ai_weight = {
 		value = 1
@@ -1767,6 +1790,7 @@ intelligence_agencies = {
 	}
 	unlocking_technologies = {
 		mass_surveillance
+		central_planning
 	}
 	ai_weight = {
 		value = 1
@@ -1801,22 +1825,6 @@ art_deco = {
 	}
 }
 
-mass_media = {
-	era = era_10
-	texture = "gfx/interface/icons/invention_icons/radio.dds"
-	category = society
-	modifier = {
-		country_institution_state_propaganda_max_investment_add = 2
-	}	
-	unlocking_technologies = {
-		analytical_philosophy
-		cinematography
-	}
-	ai_weight = {
-		value = 1
-	}
-}
-
 political_ecology = {
 	era = era_10
 	texture = "gfx/interface/icons/invention_icons/dialectics.dds"
@@ -1837,7 +1845,7 @@ big_science = {
 		country_institution_research_funding_max_investment_add = 2
 	}
 	unlocking_technologies = {
-		analytical_philosophy
+		political_ecology
 		antibiotics
 	}
 	ai_weight = {

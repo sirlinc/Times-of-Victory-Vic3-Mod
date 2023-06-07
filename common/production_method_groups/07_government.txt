@@ -20,7 +20,7 @@ pmg_organisation = {
 		pm_public_libraries
 		pm_public_works_departments
 		pm_index_cards
-		pm_vertical_filing_cabinets
+		pm_filing_cabinets
 	}
 }
 
@@ -38,7 +38,7 @@ pmg_communication = {
 }
 
 pmg_law_enforcement = {
-	texture = "gfx/interface/icons/government_icons/mixed_icon_base.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = military
 	production_methods = {
 		pm_unorganised_militia
@@ -50,7 +50,7 @@ pmg_law_enforcement = {
 }
 
 pmg_bureaucracy = {
-	texture = "gfx/interface/icons/government_icons/mixed_icon_ownership.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
 	ai_selection = military
 	production_methods = {
 		pm_hereditary_bureaucracy
@@ -62,7 +62,7 @@ pmg_bureaucracy = {
 
 
 pmg_education = {
-	texture = "gfx/interface/icons/government_icons/mixed_icon_base.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = civilian
 	production_methods = {
 		pm_liberal_arts
@@ -74,7 +74,7 @@ pmg_education = {
 }
 
 pmg_scientific_infrastructure = {
-	texture = "gfx/interface/icons/government_icons/mixed_icon_base.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = civilian
 	production_methods = {
 		pm_no_science_infrastructure
@@ -87,7 +87,7 @@ pmg_scientific_infrastructure = {
 }
 
 pmg_institutions = {
-	texture = "gfx/interface/icons/government_icons/mixed_icon_ownership.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
 	ai_selection = civilian
 	production_methods = {
 		pm_elitist_schools
@@ -99,7 +99,7 @@ pmg_institutions = {
 }
 
 pmg_academic_principles = {
-	texture = "gfx/interface/icons/government_icons/mixed_icon_ownership.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
 	ai_selection = civilian
 	production_methods = {
 		pm_indoctrination

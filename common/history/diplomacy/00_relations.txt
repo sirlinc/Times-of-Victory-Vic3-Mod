@@ -821,78 +821,76 @@ c:B76 = {
 c:B73 = {
 	set_relations = { country = c:B76 value = 60 }
 }
-
-DIPLOMACY = {
-    c:ENG = {
+c:ENG = {
         set_relations = { country = c:FRA value = -50 }
     }
 
-    c:SWE = {
+c:SWE = {
         set_relations = { country = c:PLC value = -50 }
         set_relations = { country = c:RUS value = -50 }
     }
-    c:PLC = {
+c:PLC = {
         set_relations = { country = c:SWE value = -50 }
     }
-    c:RUS = {
+c:RUS = {
         set_relations = { country = c:SWE value = -50 }
     }
-    c:DEN = {
+c:DEN = {
         set_relations = { country = c:SWE value = -50 }
     }
 
-    c:NET = {
+c:NET = {
         set_relations = { country = c:BEL value = -50 }
         set_relations = { country = c:SPA value = -50 }
     }
-    c:SPA = {
+c:SPA = {
         set_relations = { country = c:NET value = -50 }
     }
-    c:BEL = {
+c:BEL = {
         set_relations = { country = c:NET value = -50 }
     }
 
-    c:RUS = {
+c:RUS = {
         set_relations = { country = c:TUR value = -50 }
     }
-    c:TUR = {
+c:TUR = {
         set_relations = { country = c:RUS value = -50 }
     }
 
-    c:SIA = {
+c:SIA = {
         set_relations = { country = c:DAI value = -50 }
     }
-    c:DAI = {
+c:DAI = {
         set_relations = { country = c:SIA value = -50 }
     }
-    c:A03 = {
+c:A03 = {
         set_relations = { country = c:A04 value = -50 }
     }
-    c:A04 = {
+c:A04 = {
         set_relations = { country = c:A03 value = -50 }
     }
-    c:A08 = {
+c:A08 = {
         set_relations = { country = c:A09 value = -50 }
     }
-    c:A09 = {
+c:A09 = {
         set_relations = { country = c:A08 value = -50 }
     }
-    c:A13 = {
+c:A13 = {
         set_relations = { country = c:BUR value = -50 }
     }
-    c:BUR = {
+c:BUR = {
         set_relations = { country = c:A13 value = -50 }
     }
-    c:A06 = {
+c:A06 = {
         set_relations = { country = c:CHI value = -50 }
     }
-    c:CHI = {
+c:CHI = {
         set_relations = { country = c:A06 value = -50 }
     }
-    c:A28 = {
+c:A28 = {
         set_relations = { country = c:A29 value = -50 }
     }
-    c:A29 = {
+c:A29 = {
         set_relations = { country = c:A28 value = -50 }
     }
 }

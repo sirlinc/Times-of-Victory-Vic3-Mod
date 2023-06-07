@@ -19,6 +19,10 @@ sick_man.1 = {
 	icon = "gfx/interface/icons/event_icons/event_skull.dds"
 
 	trigger = {
+		this = c:TUR
+		exists = yes
+		year > 1800
+		country_rank != great_power
 	}
 
 	immediate = {

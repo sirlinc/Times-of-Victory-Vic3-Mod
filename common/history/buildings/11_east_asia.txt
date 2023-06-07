@@ -30,11 +30,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_opium_plantation"
-				level=6
-				reserves=1
-			}
-			create_building={
 				building="building_paper_mills"
 				level=8
 				reserves=1
@@ -60,11 +55,6 @@
 			}
 			create_building={
 				building="building_tea_plantation"
-				level=8
-				reserves=1
-			}
-			create_building={
-				building="building_opium_plantation"
 				level=8
 				reserves=1
 			}
@@ -98,16 +88,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_opium_plantation"
-				level=5
-				reserves=1
-			}
-			create_building={
-				building="building_dye_plantation"
-				level=8
-				reserves=1
-			}
-			create_building={
 				building="building_tea_plantation"
 				level=4
 				reserves=1
@@ -134,11 +114,6 @@
 			create_building={
 				building="building_wetlands_farmland"
 				level=8
-				reserves=1
-			}
-			create_building={
-				building="building_dye_plantation"
-				level=6
 				reserves=1
 			}
 			create_building={
@@ -196,11 +171,6 @@
 			create_building={
 				building="building_tea_plantation"
 				level=8
-				reserves=1
-			}
-			create_building={
-				building="building_dye_plantation"
-				level=10
 				reserves=1
 			}
 			create_building={
@@ -364,7 +334,7 @@
 		}
 	}
 	s:STATE_GANSU={
-		region_state:A06={
+		region_state:CHI={
 			create_building={
 				building="building_prime_pasture"
 				level=3
@@ -462,11 +432,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_dye_plantation"
-				level=6
-				reserves=1
-			}
-			create_building={
 				building="building_shipyards"
 				level=2
 				reserves=1
@@ -494,11 +459,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_dye_plantation"
-				level=2
-				reserves=1
-			}
-			create_building={
 				building="building_port"
 				level=1
 				reserves=1
@@ -523,8 +483,8 @@
 				reserves=1
 			}
 			create_building={
-				building="building_dye_plantation"
-				level=10
+				building="building_kaolin_mine"
+				level=6
 				reserves=1
 			}
 			create_building={
@@ -712,7 +672,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_tea_plantation"
+				building="building_kaolin_mine"
 				level=10
 				reserves=1
 			}
@@ -1123,11 +1083,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_dye_plantation"
-				level=2
-				reserves=1
-			}
-			create_building={
 				building="building_barracks"
 				level=20
 				reserves=1
@@ -1273,11 +1228,6 @@
 	}
 	s:STATE_SHAN_STATES={
 		region_state:BUR={
-			create_building={
-				building="building_opium_plantation"
-				level=1
-				reserves=1
-			}
 			create_building={
 				building="building_barracks"
 				level=5
@@ -1577,11 +1527,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_dye_plantation"
-				level=2
-				reserves=1
-			}
-			create_building={
 				building="building_tea_plantation"
 				level=4
 				reserves=1
@@ -1676,11 +1621,6 @@
 			create_building={
 				building="building_wetlands_farmland"
 				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_dye_plantation"
-				level=3
 				reserves=1
 			}
 			create_building={

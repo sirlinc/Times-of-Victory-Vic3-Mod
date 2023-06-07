@@ -33,7 +33,8 @@
 				size=14820
 			}
 			create_pop = {
-				culture = hui
+				culture = han
+				religion = sunni
 				size=24675
 			}
 			create_pop = {
@@ -103,7 +104,8 @@
 				size=39070
 			}
 			create_pop = {
-				culture = hui
+				culture = han
+				religion = sunni
 				size=19410
 			}
 		}
@@ -141,7 +143,8 @@
 				size=100858
 			}
 			create_pop = {
-				culture = hui
+				culture = han
+				religion = sunni
 				size=8594
 			}
 		}
@@ -225,7 +228,8 @@
 				size=7072920
 			}
 			create_pop = {
-				culture = hui
+				culture = han
+				religion = sunni
 				size=218491
 			}
 			create_pop = {
@@ -241,7 +245,8 @@
 				size=825864
 			}
 			create_pop = {
-				culture = hui
+				culture = han
+				religion = sunni
 				size=46065
 			}
 			create_pop = {
@@ -309,7 +314,8 @@
 				size=6446684
 			}
 			create_pop = {
-				culture = hui
+				culture = han
+				religion = sunni
 				size=103082
 			}
 			create_pop = {
@@ -333,13 +339,14 @@
 				size=717087
 			}
 			create_pop = {
-				culture = hui
+				culture = han
+				religion = sunni
 				size=262030
 			}
 		}
 	}
 	s:STATE_GANSU = {
-		region_state:A06 = {
+		region_state:CHI = {
 			create_pop = {
 				culture = han # nanfaren
 				size=2023399
@@ -353,7 +360,8 @@
 				size=945525
 			}
 			create_pop = {
-				culture = hui
+				culture = han
+				religion = sunni
 				size=211526
 			}
 			create_pop = {
@@ -377,7 +385,8 @@
 				size=688232
 			}
 			create_pop = {
-				culture = hui
+				culture = han
+				religion = sunni
 				size=94992
 			}
 		}
@@ -406,7 +415,8 @@
 				size=26651
 			}
 			create_pop = {
-				culture = hui
+				culture = han
+				religion = sunni
 				size = 8004
 			}
 		}
@@ -555,7 +565,8 @@
 				size = 5992
 			}
 			create_pop = {
-				culture = hui
+				culture = han
+				religion = sunni
 				size=279585
 			}
 			create_pop = {
@@ -576,7 +587,8 @@
 				size = 1613
 			}
 			create_pop = {
-				culture = hui
+				culture = han
+				religion = sunni
 				size=30407
 			}
 		}
@@ -600,7 +612,8 @@
 				size=65200
 			}
 			create_pop = {
-				culture = hui
+				culture = han
+				religion = sunni
 				size=64194
 			}
 		}
@@ -618,7 +631,8 @@
 				size=68689
 			}
 			create_pop = {
-				culture = hui
+				culture = han
+				religion = sunni
 				size=59877
 			}
 		}
@@ -638,7 +652,8 @@
 				size=531183
 			}
 			create_pop = {
-				culture = hui
+				culture = han
+				religion = sunni
 				size=192220
 			}
 		}
@@ -650,7 +665,8 @@
 				size=6311473
 			}
 			create_pop = {
-				culture = hui
+				culture = han
+				religion = sunni
 				size=214222
 			}
 		}
@@ -662,7 +678,8 @@
 				size=6570637
 			}
 			create_pop = {
-				culture = hui
+				culture = han
+				religion = sunni
 				size=85266
 			}
 			create_pop = {
@@ -686,7 +703,8 @@
 				size=64827
 			}
 			create_pop = {
-				culture = hui
+				culture = han
+				religion = sunni
 				size=81789
 			}
 		}

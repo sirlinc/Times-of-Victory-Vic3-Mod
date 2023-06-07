@@ -1,0 +1,151 @@
+﻿l_braz_por:
+
+#administrative_infrastructure
+lawgroup_administrative_infrastructure: "Infraestrutura Administrativa"
+law_tribal_councils: "Conselhos Tribais"
+law_tribal_councils_desc: "Conselhos tribais criam leis e resolvem disputas baseados no acordo comunal e costumes tradicionais."
+law_feudal_courts: "Tribunais Feudais"
+law_feudal_courts_desc: "Senhores de terras julgam disputas e aplicam leis dentro de seus domínios, com pouca supervisão ou assistência de seu suserano ou do estado."
+law_absolutism: "Absolutismo"
+law_absolutism_desc: "Numa forma absolutista de administração, um único executivo - geralmente um monarca soberano - possui poder irrestrito, sem limitações de outras entidades políticas."
+law_patronage_system: "Sistema de Patronagem"
+law_patronage_system_desc: "O Sistema de Patronagem recompensa apoiadores leais com cargos públicos e contratos para manter o controle político."
+law_public_servants: "Servidores Públicos"
+law_public_servants_desc: "Servidores públicos implementam neutralmente as leis, mantêm a ordem civil e fornecem serviços públicos essenciais."
+law_government_agencies: "Agências Governamentais"
+law_government_agencies_desc: "As Agências Governamentais são corpos especializados que implementam e aplicam leis e políticas, gerenciando funções públicas distintas."
+
+#army_model
+law_warrior_bands: "Bandos de Guerreiros"
+law_warrior_bands_desc: "Um sistema militar que depende de bandos pouco organizados de guerreiros tribais, ligados por lealdade e interesses comuns, muitas vezes carecendo de treinamento formal e hierarquia."
+law_mercenary_army: "Exército Mercenário"
+law_mercenary_army_desc: "Uma força militar principalmente composta de soldados contratados que são motivados por incentivos financeiros e lutarão por qualquer parte que os emprega."
+law_standing_army: "Exército Regular"
+law_standing_army_desc: "Um exército profissional, em tempo integral, mantido e financiado pela nação, treinado e equipado para operações em tempos de paz e guerra."
+
+#bureaucracy
+law_hereditary_office: "Cargo Hereditário"
+law_hereditary_office_desc: "Um sistema onde posições burocráticas são tratadas como títulos herdados, passados através de linhas familiares, frequentemente resultando em estruturas de poder enraizadas."
+law_purchased_office: "Cargo Comprado"
+law_purchased_office_desc: "Um sistema onde posições e títulos burocráticos podem ser adquiridos por indivíduos com meios financeiros, podendo levar à corrupção e ineficiência."
+law_appointed_office: "Cargo Nomeado"
+law_appointed_office_desc: "Um sistema onde posições burocráticas são preenchidas por nomeação, geralmente feita por oficiais ou governantes de maior classificação, com base na lealdade ou considerações políticas."
+aw_elected_office: "Cargo Eleito"
+law_elected_office_desc: "Um sistema democrático onde posições burocráticas são preenchidas através de eleições, dando aos cidadãos elegíveis a oportunidade de escolherem seus representantes."
+law_meritocratic_office: "Cargo Meritocrático"
+law_meritocratic_office_desc: "Um sistema que valoriza a competência e a expertise, onde posições burocráticas são concedidas com base na habilidade demonstrada e no histórico comprovado."
+
+#childrens_rights
+law_child_labor_expected: "Trabalho Infantil Esperado"
+law_child_labor_expected_desc: "Uma sociedade que vê o trabalho infantil como uma parte essencial de sua economia, muitas vezes levando à exploração de menores e à privação de educação."
+law_compulsory_education_to_twelve: "Educação Obrigatória até os Doze"
+law_compulsory_education_to_twelve_desc: "Um sistema que impõe educação obrigatória para todas as crianças até a idade de doze anos, visando fornecer conhecimentos e habilidades básicas."
+law_compulsory_education_to_sixteen: "Educação Obrigatória até os Dezesseis"
+law_compulsory_education_to_sixteen_desc: "Um sistema que impõe educação obrigatória para todas as crianças até a idade de dezesseis anos, promovendo uma população mais educada e habilidosa."
+
+#citizenship
+law_cultural_tolerance: "Tolerância Cultural"
+law_cultural_tolerance_desc: "Uma política que promove a aceitação de diversos grupos culturais dentro de uma sociedade, evitando a discriminação aberta e aspirando ao tratamento igual."
+
+#colonial_affairs
+law_commerce: "Comércio"
+law_commerce_desc: "Uma política colonial focada na construção e expansão de redes de comércio, promovendo relações econômicas entre a pátria e as polities indígenas."
+law_paternalism: "Paternalismo"
+law_paternalism_desc: "Uma política colonial que vê os povos colonizados como necessitados de orientação e supervisão da potência colonizadora, muitas vezes levando ao controle paternalista e à exploração."
+law_assimilation: "Assimilação"
+law_assimilation_desc: "Uma política colonial voltada à integração forçada dos povos colonizados à cultura e à sociedade da potência colonizadora, apagando suas identidades e costumes únicos."
+
+#education_system
+law_youth_leagues: "Ligas da Juventude"
+law_youth_leagues_desc: "Associações em larga escala voltadas para treinar e educar adolescentes e jovens adultos, muitas vezes impulsionadas por objetivos ideológicos, religiosos ou nacionalistas, promovendo lealdade e compromisso."
+
+#policing
+law_informal_policing: "Policiamento Informal"
+law_informal_policing_desc: "Uma abordagem informal de policiamento que se baseia em costumes locais e normas sociais, com julgamentos geralmente decididos por figuras comunitárias respeitadas ou anciãos."
+law_police_by_consent: "Polícia por Consentimento"
+law_police_by_consent_desc: "Um modelo de policiamento que enfatiza o apoio público, a cooperação e o uso mínimo de força, buscando construir confiança e manter a lei e a ordem através do envolvimento comunitário."
+law_regulated_police_force: "Força Policial Regulamentada"
+law_regulated_police_force_desc: "Um sistema de polícia armada com práticas, procedimentos e mecanismos de supervisão padronizados para garantir a responsabilidade, o profissionalismo e a aderência ao estado de direito."
+law_paramilitary_force: "Paramilitar"
+law_paramilitary_force_desc: "Uma abordagem de policiamento que emprega táticas, equipamentos e treinamento de estilo militar para manter a ordem e fazer cumprir a lei, muitas vezes levando a uma postura agressiva e confrontadora."
+
+#rights_of_women
+law_women_in_leadership: "Mulheres em Liderança"
+law_women_in_leadership_desc: "Uma sociedade que incentiva e apoia ativamente a participação de mulheres em funções de liderança em vários setores."
+
+#welfare
+law_disability_pension: "Pensão por Invalidez"
+law_disability_pension_desc: "Um programa de bem-estar social que oferece suporte financeiro a indivíduos incapazes de trabalhar devido a deficiência, concentrando-se principalmente em veteranos e outros com incapacidades de longo prazo."
+
+# Free speech group
+law_informal_regulation: "Regulação Informal"
+law_informal_regulation_desc: "Embora não haja leis explícitas governando a fala, a discrição é aconselhada ao criticar aqueles em posição de autoridade."
+
+# Church and State group
+law_tolerance: "Tolerância"
+law_tolerance_desc: "Existe uma religião de estado implícita, levando à discriminação e desvantagens para hereges e não-crentes."
+
+# Internal Security
+law_religious_zealotry: "Zelo Religioso"
+law_religious_zealotry_desc: "Uma única fé prevalece; inquisições sancionadas pelo estado, pogroms e conversões forçadas visam hereges e pagãos."
+
+# Migration
+law_heavy_migration_controls: "Controles Rígidos de Migração"
+law_heavy_migration_controls_desc: "Controles rigorosos em travessias de fronteiras empregam medidas avançadas como passaportes, cotas e severas penalidades para a imigração ilegal."
+law_light_migration_controls: "Controles Leves de Migração"
+law_light_migration_controls_desc: "Identificação básica é necessária nas travessias de fronteira, que são monitoradas e aplicadas em pontos de trânsito populares."
+law_freedom_of_movement: "Liberdade de Movimento"
+law_freedom_of_movement_desc: "Migrantes podem atravessar fronteiras com facilidade e sem restrição."
+
+# Military Policy
+law_dominance: "Dominância"
+law_dominance_desc: "Uma postura militar enfatizando a afirmação de poder e controle unilaterais sobre outras nações e regiões."
+law_interventionist: "Intervencionista"
+law_interventionist_desc: "Engajamento proativo em assuntos e conflitos internacionais visando promover os interesses nacionais."
+law_balanced: "Equilibrado"
+law_balanced_desc: "Uma abordagem política ponderada que equilibra tanto os objetivos militares ofensivos quanto defensivos."
+law_deterrence: "Dissuasão"
+law_deterrence_desc: "Uma postura militar orientada para a defesa, focada em uma presença militar formidável, de modo que potenciais adversários são desencorajados de ataque ou provocação."
+law_defensive: "Defensivo"
+law_defensive_desc: "Uma política militar totalmente voltada para a segurança e defesa nacional, minimizando o envolvimento em conflitos externos."
+
+# Political Representation
+law_no_representation: "Sem Representação"
+law_no_representation_desc: "Cidadãos são negados o direito de eleger representantes ou participar do processo de tomada de decisão política."
+law_temporary_assemblies: "Assembleias Temporárias"
+law_temporary_assemblies_desc: "Corpos representativos ad hoc se reúnem para tratar de questões específicas ou crises, mas tendem a ter impacto legislativo limitado."
+
+# Navy Model
+law_coastal_levies: "Levas Costeiras"
+law_coastal_levies_desc: "As forças navais são levantadas alistando comunidades costeiras para fornecer navios e marinheiros em tempos de necessidade."
+law_privateer_fleets: "Frotas Corsárias"
+law_privateer_fleets_desc: "Navios privados são comissionados para invadir e capturar navios inimigos em tempos de guerra."
+law_standing_navy: "Marinha Permanente"
+law_standing_navy_desc: "Uma força naval profissional e em tempo integral é mantida para operações em tempos de paz e guerra."
+law_auxiliary_fleets: "Frotas Auxiliares"
+law_auxiliary_fleets_desc: "Uma variedade de navios e pessoal civil - como uma marinha mercante - complementam as forças navais do país em tempos de conflito."
+law_naval_task_forces: "Forças-Tarefa Navais"
+law_naval_task_forces_desc: "Um passo além da marinha permanente e das frotas auxiliares, as forças navais são organizadas em unidades especializadas projetadas para missões e objetivos específicos."
+
+# Devolution of Power
+law_unitarism: "Unitarismo"
+law_unitarism_desc: "O poder político é centralizado em uma autoridade nacional singular."
+law_federalism: "Federalismo"
+law_federalism_desc: "O poder é distribuído entre um governo central e menores unidades políticas constituintes."
+law_decentralization: "Descentralização"
+law_decentralization_desc: "O poder é fortemente inclinado a favor das autoridades regionais ou locais, algumas das quais podem funcionar quase como entidades independentes de facto."
+law_confederation: "Confederação"
+law_confederation_desc: "Um sistema político baseado em alianças que une múltiplas polidades, que cooperam em questões mais amplas enquanto mantêm considerável soberania."
+law_consociationalism: "Consociacionalismo"
+law_consociationalism_desc: "Um sistema de governança comunal que promove acomodação compartilhando poder e tomada de decisões entre grupos diversos."
+law_anarchy: "Anarquia"
+law_anarchy_desc: "Uma sociedade caracterizada pela ausência de estruturas de governança formais, confiando na cooperação voluntária e auto-organizada."
+
+modifier_state_pop_support_law_freedom_of_movement_add: "[GetLawType('law_freedom_of_movement').GetName] Apoio [concept_pop]"
+modifier_state_pop_support_law_freedom_of_movement_add_desc: "Impacta a taxa em que [Concept('concept_pop', '$concept_pops$')] apoia o [GetLawType('law_freedom_of_movement').GetName] [concept_law]."
+modifier_state_pop_support_law_freedom_of_movement_mult: "[GetLawType('law_freedom_of_movement').GetName] Apoio [concept_pop]"
+modifier_state_pop_support_law_freedom_of_movement_mult_desc: "Impacta a taxa em que [Concept('concept_pop', '$concept_pops$')] apoia o [GetLawType('law_freedom_of_movement').GetName] [concept_law]."
+modifier_state_pop_support_law_paramilitary_force_add: "[GetLawType('law_paramilitary_force').GetName] Apoio [concept_pop]"
+modifier_state_pop_support_law_paramilitary_force_add_desc: "Impacta a taxa em que [Concept('concept_pop', '$concept_pops$')] apoia o [GetLawType('law_paramilitary_force').GetName] [concept_law]."
+modifier_state_pop_support_law_paramilitary_force_mult: "[GetLawType('law_paramilitary_force').GetName] Apoio [concept_pop]"
+modifier_state_pop_support_law_paramilitary_force_mult_desc: "Impacta a taxa em que [Concept('concept_pop', '$concept_pops$')] apoia o [GetLawType('law_paramilitary_force').GetName] [concept_law]."

@@ -704,7 +704,7 @@ expedition_events.60 = { #Film
 	
 	trigger = {
 		NOT = { has_variable = expedition_film }
-		has_technology_researched = film
+		has_technology_researched = cinematography
 	}
 	
     immediate = {

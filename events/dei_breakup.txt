@@ -20,7 +20,8 @@ dei_breakup.1 = {
 	duration = 3
 	
 	trigger = {
-		this = c:DEI
+		this = c:A23
+		has_technology_researched = the_nation_state
 		is_subject = no
 		is_at_war = no
 	}

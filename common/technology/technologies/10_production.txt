@@ -478,8 +478,7 @@ pedigrees = {
 		selective_breeding
 	}
 	modifier = {
-		building_throughput_horses_mult = 0.25
-		building_throughput_animal_products_mult = 0.25
+		building_throughput_horses_mult = 0.4
 	}
 	ai_weight = {
 		value = 1
@@ -1283,11 +1282,6 @@ electrified_railways = {
 	era = era_9
 	texture = "gfx/interface/icons/invention_icons/electric_railway.dds"
 	category = production		
-
-	modifier = {
-		country_institution_national_electrification_max_investment_add = 1
-	}
-
 
 	unlocking_technologies = {
 		electric_motors

@@ -30,7 +30,7 @@
 			any_scope_building = {
 				is_building_type = building_urban_center
 				level >= 40
-				has_active_production_method = pm_electric_streetlights				
+				has_active_production_method = pm_electric_steet_lamps				
 			}
 			devastation = 0
 			turmoil < 0.1
@@ -40,7 +40,7 @@
 			any_scope_building = {
 				is_building_type = building_arts_academy
 				level >= 3
-				has_active_production_method = pm_photographic_art
+				has_active_production_method = pm_deguerrotypes
 			}
 		}
 		
@@ -48,7 +48,7 @@
 			any_scope_building = {
 				is_building_type = building_university
 				level >= 10
-				has_active_production_method = pm_philosophy_department
+				has_active_production_method = pm_social_sciences
 			}
 		}
 	}
@@ -223,7 +223,7 @@
 									owner = {
 										has_journal_entry = je_belle_epoque
 										any_scope_building = {
-											has_active_production_method = pm_craftsman_sewing
+											has_active_production_method = pm_black_and_white_tie
 										}
 									}
 								}

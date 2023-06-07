@@ -1522,14 +1522,14 @@ historical_agitators.16 = { #Sorel
 	option = {
 		name = historical_agitators.16.c
 		trigger = {
-			can_research = philosophical_pragmatism
+			can_research = political_ecology
 		}
 		hidden_effect = {
 			scope:historic_agitator_scope = {
 				kill_character = yes
 			}
 		}
-		add_technology_progress = { progress = 5000 technology = philosophical_pragmatism }
+		add_technology_progress = { progress = 5000 technology = political_ecology }
 	}
 }
 

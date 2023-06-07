@@ -5,7 +5,7 @@
 			has_global_variable = oregon_trail_mapped
 			has_global_variable = great_salt_lake_mapped
 	    }	
-		has_technology_researched = colonization
+		has_technology_researched = scientific_expeditions
 		NOT = {  has_variable = on_expedition }
 		OR = {
 			is_ai = no

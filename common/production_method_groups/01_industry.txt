@@ -81,7 +81,7 @@ pmg_ironworks = {
 		pm_rolling_mill
 		pm_potting_and_stamping
 		pm_puddling_process
-		pm_electric_arc_furnace
+		pm_electric_arc_furnace_iron
 	}
 }
 
@@ -105,7 +105,7 @@ pmg_steelworks = {
 		pm_blister_steel
 		pm_bessemer_process
 		pm_open_hearth_furnace
-		pm_electric_arc_furnace
+		pm_electric_arc_furnace_steel
 	}
 }
 
@@ -185,17 +185,6 @@ pmg_opium_tinctures = {
 	production_methods = {
 		pm_no_tinctures
 		pm_laudanum
-	}
-}
-
-pmg_kitchen_appliances = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
-	production_methods = {
-		pm_basic_appliances
-		pm_oven_thermometers
-		pm_gas_stoves
-		pm_electric_mixers
-		pm_dishwashers
 	}
 }
 
@@ -328,8 +317,8 @@ pmg_synthetic_fibers = {
     texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
     production_methods = {
 		pm_no_synthetic_fibers
+		pm_art_silk
         pm_rayon
-        pm_elastics
     }
 }
 
@@ -370,7 +359,7 @@ pmg_ironclads = {
 		pm_no_ironclads
         pm_revolving_gun_turrets
         pm_streamlined_hulls
-        pm_sloped_armor
+        pm_sloped_armor_ironclads
     }
 }
 
@@ -423,7 +412,7 @@ pmg_tanks = {
 		pm_no_tanks
 		pm_landships
 		pm_turreted_tanks
-		pm_sloped_armor
+		pm_sloped_armor_tanks
 	}
 }
 
@@ -434,5 +423,90 @@ pmg_aeroplanes = {
 		pm_biplanes
 		pm_monoplanes
 		pm_all_metal_aircraft
+	}
+}
+
+#Arsenal
+
+pmg_arsenal_firearms = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_matchlock_muskets
+		pm_flintlock_muskets
+		pm_barrel_rifling
+		pm_percussion_caps
+		pm_breech_loading_rifles
+		pm_bolt_action_rifles
+		pm_semi_automatic_firearms
+	}
+}
+
+pmg_arsenal_artillery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_no_artillery
+		pm_muzzle_loading_cannons
+		pm_mobile_field_artillery
+		pm_breech_loading_artillery
+		pm_hydraulic_recoil_mechanism
+		pm_quick_firing_artillery
+	}
+}
+
+#Munitions Plants
+
+pmg_munitions_plant_ammunition = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_cartridge_ammunition
+		pm_minie_ball
+		pm_metallic_cartridges
+		pm_smokeless_powder
+		pm_spitzer_bullet
+	}
+}
+
+pmg_munitions_plant_explosives = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_no_explosives_tov
+		pm_nitroglycerin
+		pm_dynamite
+		pm_trinitrotoluene
+	}
+}
+
+#Shipyards
+
+pmg_base_building_shipyards = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_basic_shipbuilding
+		pm_complex_shipbuilding
+		pm_metal_shipbuilding
+		pm_arc_welding_shipbuilding
+	}
+}
+
+pmg_military_base = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_military.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_no_military_shipbuilding
+		pm_military_shipbuilding_wooden
+		pm_military_shipbuilding_wooden_2
+		pm_military_shipbuilding_steam
+		pm_military_shipbuilding_steam_2
 	}
 }

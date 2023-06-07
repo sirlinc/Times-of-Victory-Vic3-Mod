@@ -4,15 +4,15 @@
 	is_shown_when_inactive = {
 		is_player = yes
 		NOT = { has_variable = central_archives_je_done }
-		has_technology_researched = land_reform
+		has_technology_researched = governance
 		any_scope_building = {
 			is_building_type = building_government_administration
-			NOT = { has_active_production_method = pm_vertical_filing_cabinets }
+			NOT = { has_active_production_method = pm_central_archives }
 		}
 	}
 
 	possible = {
-		has_technology_researched = index_cards
+		has_technology_researched = central_archives
 		any_scope_building = {
 			is_building_type = building_government_administration
 		}
@@ -23,7 +23,7 @@
 			is_building_type = building_government_administration
 			level >= 10
 			occupancy > 0.9
-			has_active_production_method = pm_vertical_filing_cabinets
+			has_active_production_method = pm_central_archives
 		}
 		any_scope_building = {
 			filter = {
@@ -31,7 +31,7 @@
 			}
 			percent > 0.75
 			occupancy > 0.9
-			has_active_production_method = pm_vertical_filing_cabinets
+			has_active_production_method = pm_central_archives
 		}
 	}
 

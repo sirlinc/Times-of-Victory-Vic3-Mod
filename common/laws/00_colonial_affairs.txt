@@ -24,7 +24,7 @@ law_commerce = {
 	
 	modifier = {
 		country_trade_route_competitiveness_mult = 0.05
-		scountry_tension_decay_mult = 0.1
+		country_tension_decay_mult = 0.1
 	}
 	
 	institution = institution_colonial_affairs 

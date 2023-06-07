@@ -132,11 +132,10 @@ corn_laws.3 = {
 		any_scope_pop = {
 			is_pop_type = aristocrats
 			OR = {
-				pop_employment_building = building_rye_farm
-				pop_employment_building = building_wheat_farm
-				pop_employment_building = building_rice_farm
-				pop_employment_building = building_maize_farm
-				pop_employment_building = building_millet_farm
+				pop_employment_building = building_temperate_farmland
+				pop_employment_building = building_tropical_farmland
+				pop_employment_building = building_wetlands_farmland
+				pop_employment_building = building_arid_farmland
 			}
 			wealth > 20
 		}
@@ -147,11 +146,10 @@ corn_laws.3 = {
 			limit = {
 				is_pop_type = aristocrats
 				OR = {
-					pop_employment_building = building_rye_farm
-					pop_employment_building = building_wheat_farm
-					pop_employment_building = building_rice_farm
-					pop_employment_building = building_maize_farm
-					pop_employment_building = building_millet_farm
+					pop_employment_building = building_temperate_farmland
+					pop_employment_building = building_tropical_farmland
+					pop_employment_building = building_wetlands_farmland
+					pop_employment_building = building_arid_farmland
 				}
 				wealth > 20
 			}

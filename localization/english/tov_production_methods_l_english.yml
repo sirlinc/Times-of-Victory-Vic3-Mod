@@ -277,15 +277,6 @@ pm_prime_breeds_prp: "Prime Breeds"
 pm_rotational_grazing_prp: "Rotational Grazing"
 pm_batteries_prp: "Batteries"
 
-#Marginal Pasture
-
-pmg_marginal_pasture: "Prime Pasture"
-pm_free_range_map: "Free Range"
-pm_silage_map: "Silage"
-pm_hardy_breeds_map: "Hardy Breeds"
-pm_rotational_grazing_map: "Rotational Grazing"
-pm_batteries_map: "Batteries"
-
 #Base Mine
 
 pmg_processing_base_mine: "Processing"
@@ -532,7 +523,7 @@ pm_cigarette_rolling_machines_tobacco: "Cigarette Rolling Machines"
 
 #Silk Plantation
 pmg_innovations_silk_plantation: "Silk Innovations"
-pm_wild_sil_silk: "Wild Silk"
+pm_wild_silk: "Wild Silk"
 pm_silk_threading_looms_silk: "Silk Threading Looms"
 pm_rotary_mountage_silk: "Rotary Mountage"
 pm_mechanical_spooling_silk: "Mechanical Spooling"
@@ -564,10 +555,10 @@ pm_steam_turbines_power_plant: "Steam Turbines"
 pm_francis_turbines_power_plant: "Francis Turbines"
 
 pmg_infrastructure_power_plant: "Electrical Infrastructure"
-production_methods: "Production Methods"
-pm_dc_power_stations_power_plant: "DC Power Stations"
-pm_high_voltage_ac_grids_power_plant: "High-Voltage AC Grids"
-pm_regional_power_grids_power_plant: "Regional Power Grids"
+pm_no_power_grid_infrastructure: "No Power Grid Infrastructure"
+pm_neighborhood_power_grids: "Neighborhood Power Grids"
+pm_city_power_grids: "City Power Grids"
+pm_regional_power_grids: "Regional Power Grids"
 
 pmg_ownership_power_plant: "Ownership"
 pm_private_ownership_power_plant: "Private Ownership"
@@ -631,20 +622,29 @@ pm_borosilicate_glass: "Borosilicate Glass"
 
 #Smelteries
 
+pm_crucible_steel_parts: "Crucible Steel Parts"
+pm_chromium_steel_parts: "Chromium Steel Parts"
+pm_tungsten_carbide_parts: "Tungsten Carbide Parts"
+pm_confectionery: "Confectionery"
+pm_no_liquor: "No Liquor"
+pm_no_chemicals: "No Chemicals"
+pm_cotton_gins_cotton: "Cotton Gins Cotton"
+
 pmg_ironworks: "Ironworks"
 pm_bloomery: "Bloomery"
 pm_blast_furnace: "Blast Furnace"
 pm_rolling_mill: "Rolling Mill"
 pm_potting_and_stamping: "Potting and Stamping"
 pm_puddling_process: "Puddling Process"
-pm_electric_arc_furnace: "Electric Arc Furnace"
+pm_electric_arc_furnace_iron: "Electric Arc Furnace"
 
 pmg_steelworks: "Steelworks"
 pm_no_steel: "No Steel"
+pm_blister_steel: "Blister Steel"
 pm_crucible_steel: "Crucible Steel"
 pm_bessemer_process: "Bessemer Process"
 pm_open_hearth_furnace: "Open-Hearth Furnace"
-pm_electric_arc_furnace: "Electric Arc Furnace"
+pm_electric_arc_furnace_steel: "Electric Arc Furnace"
 
 pmg_alloys: "Alloys"
 pm_no_alloys: "No Alloys"
@@ -748,6 +748,8 @@ pm_case_hardened_tools: "Case Hardened Tools"
 pm_crucible_steel_tools: "Crucible Steel Tools"
 pm_chromium_steel_tools: "Chromium Steel Tools"
 pm_tungsten_carbide_tools: "Tungsten Carbide Tools"
+pm_powered_milling_machines: "Powered Milling Machines"
+pm_cam_driven_machines: "Cam-Driven Machines"
 
 pmg_machined_parts: "Machined Parts"
 pm_no_machined_parts: "No Machined Parts"
@@ -821,7 +823,7 @@ pmg_ironclads: "Ironclads"
 pm_no_ironclads: "No Ironclads"
 pm_revolving_gun_turrets: "Revolving Gun Turrets"
 pm_streamlined_hulls: "Streamlined Hulls"
-pm_sloped_armor: "Sloped Armor"
+pm_sloped_armor_ironclads: "Sloped Armor"
 
 #Oil Refineries
 
@@ -854,10 +856,46 @@ pmg_tanks: "Tanks"
 pm_no_tanks: "No Tanks"
 pm_landships: "Landships"
 pm_turreted_tanks: "Turreted Tanks"
-pm_sloped_armor: "Sloped Armor"
+pm_sloped_armor_tanks: "Sloped Armor"
 
 pmg_aeroplanes: "Aeroplanes"
 pm_no_aeroplanes: "No Aeroplanes"
 pm_biplanes: "Biplanes"
 pm_monoplanes: "Monoplanes"
 pm_all_metal_aircraft: "All-Metal Aircraft"
+
+#Railways
+
+pmg_railways_freight: "Freight Railways"
+pm_rolling_wagons: "Rolling Wagons"
+pm_flatcars: "Flatcars"
+pm_gondola_cars: "Gondola Cars"
+pm_rotary_cars: "Rotary Cars"
+pm_intermodal_freight_containers: "Intermodal Freight"
+
+pmg_railways_passenger: "Passenger Railways"
+pm_no_passenger_cars: "No Passenger Cars"
+pm_stagecoach_cars: "Stagecoach Cars"
+pm_passenger_cars: "Passenger Cars"
+pm_dining_cars: "Dining Cars"
+pm_passenger_streamliner: "Passenger Streamliners"
+
+pmg_railways_bonus: "Railways Bonus"
+pm_no_railway_bonus: "No Railway Bonus"
+pm_scenic_touring_trains: "Scenic Touring Trains"
+pm_military_railways: "Military Railways"
+pm_whistle_stop_tours: "Whistle Stop Tours"
+pm_colonial_railways: "Colonial Railways"
+
+pmg_railways_motive_power: "Motive Power"
+pm_horse_drawn_trains: "Horse-drawn"
+pm_coal_trains: "Coal"
+pm_electricity_trains: "Electricity"
+pm_petrol_trains: "Petrol"
+
+pmg_railways_ownership: "Railways Ownership"
+pm_railways_private_ownership: "Private Ownership"
+pm_railways_military_owned: "Military Owned"
+pm_railways_industrial_conglomerate: "Industrial Conglomerate"
+pm_railways_state_owned: "State Owned"
+pm_railways_worker_cooperative: "Worker Cooperative"

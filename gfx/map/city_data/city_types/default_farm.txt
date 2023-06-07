@@ -65,35 +65,6 @@
 	building_prime_pasture = {
 		"european_rural_ranch_01_mesh"
 	}
-
-	building_marginal_pasture = {
-		"european_rural_ranch_01_mesh"
-	}	
-
-	
-	building_rye_farm = {
-		"european_province_farm_01_mesh"
-		"european_province_farm_02_mesh"
-	}
-	building_wheat_farm = {
-		"european_province_farm_01_mesh"
-		"european_province_farm_02_mesh"
-	}
-	building_rice_farm = {
-		"european_province_farm_01_mesh"
-		"european_province_farm_02_mesh"
-	}
-	building_maize_farm = {
-		"european_province_farm_01_mesh"
-		"european_province_farm_02_mesh"
-	}
-	building_millet_farm = {
-		"european_province_farm_01_mesh"
-		"european_province_farm_02_mesh"
-	}
-	building_livestock_ranch = {
-		"european_rural_ranch_01_mesh"
-	}
 	
 	building_coffee_plantation = {
 		"european_rural_plantation_01_mesh"
@@ -107,9 +78,6 @@
 	building_spice_plantation = {
 		"european_rural_plantation_01_mesh"
 	}
-	building_dye_plantation = {
-		"european_rural_plantation_01_mesh"
-	}
 	building_opium_plantation = {
 		"european_rural_plantation_01_mesh"
 	}
@@ -120,9 +88,6 @@
 		"european_rural_plantation_01_mesh"
 	}
 	building_sugar_plantation = {
-		"european_rural_plantation_01_mesh"
-	}
-	building_banana_plantation = {
 		"european_rural_plantation_01_mesh"
 	}
 }

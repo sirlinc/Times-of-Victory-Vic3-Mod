@@ -771,6 +771,30 @@
 				size=16080
 			}
 		}
+		region_state:B36 = {
+			create_pop = {
+				culture = berber
+				size=14008
+			}
+			create_pop = {
+				culture = tuareg
+				size = 14996
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 8893
+			}
+			create_pop = {
+				culture = maghrebi
+				religion = shiite
+				size = 7000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = maghrebi
+				size = 6000
+			}
+		}
 	}
 	s:STATE_CONSTANTINE = {
 		region_state:B35 = {
@@ -808,15 +832,15 @@
 		region_state:B36 = {
 			create_pop = {
 				culture = berber
-				size=12008
+				size=16008
 			}
 			create_pop = {
 				culture = tuareg
-				size = 7996
+				size = 11996
 			}
 			create_pop = {
 				culture = maghrebi
-				size=19893
+				size=15893
 			}
 			create_pop = {
 				culture = maghrebi
@@ -830,29 +854,28 @@
 			}
 		}
 	}
-	s:STATE_TLEMCEN = {
+	s:STATE_ORAN = {
 		region_state:B35 = {
 			create_pop = {
 				culture = maghrebi
-				size=260147
+				size = 312178
+			}
+			create_pop = {
+				culture = berber
+				size = 50234
+			}
+			create_pop = {
+				culture = turkish
+				size = 5084
 			}
 			create_pop = {
 				culture = sephardic
-				size = 1600
-			}
-			create_pop = {
-				culture = berber
-				size=124200
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = berber
-				size=5106
+				size = 7910
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = bambara
-				size=14971
+				size = 18401
 			}
 		}
 	}

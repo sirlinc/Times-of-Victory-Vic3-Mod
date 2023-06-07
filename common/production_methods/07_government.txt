@@ -6,7 +6,7 @@ pm_repositories = {
     building_modifiers = {
         workforce_scaled = {
             building_input_paper_add = 5
-            building_output_bureaucracy_add = 20
+            country_bureaucracy_add = 20
         }
 
         level_scaled = {
@@ -28,7 +28,7 @@ pm_central_archives = {
     building_modifiers = {
         workforce_scaled = {
             building_input_paper_add = 10
-            building_output_bureaucracy_add = 35
+            country_bureaucracy_add = 35
         }
 
         level_scaled = {
@@ -50,7 +50,7 @@ pm_public_libraries = {
     building_modifiers = {
         workforce_scaled = {
             building_input_paper_add = 15
-            building_output_bureaucracy_add = 50
+            country_bureaucracy_add = 50
         }
 
         level_scaled = {
@@ -72,7 +72,7 @@ pm_public_works_departments = {
     building_modifiers = {
         workforce_scaled = {
             building_input_paper_add = 20
-            building_output_bureaucracy_add = 70
+            country_bureaucracy_add = 70
         }
 
         level_scaled = {
@@ -96,7 +96,7 @@ pm_index_cards = {
         workforce_scaled = {
             building_input_paper_add = 25
 			building_input_machined_parts_add = 3
-            building_output_bureaucracy_add = 100
+            country_bureaucracy_add = 100
         }
 
         level_scaled = {
@@ -120,7 +120,7 @@ pm_filing_cabinets = {
         workforce_scaled = {
             building_input_paper_add = 30
 			building_input_machined_parts_add = 5
-            building_output_bureaucracy_add = 130
+            country_bureaucracy_add = 130
         }
 
         level_scaled = {
@@ -177,7 +177,7 @@ pm_posthouses = {
 }
 
 pm_semaphore_towers = {
-    texture = "gfx/interface/icons/production_method_icons/semaphore_towers..dds"
+    texture = "gfx/interface/icons/production_method_icons/semaphore_towers.dds"
 
     unlocking_technologies = {
 		semaphore_towers
@@ -203,7 +203,7 @@ pm_electrical_telegraphs = {
     texture = "gfx/interface/icons/production_method_icons/telephones_tov.dds"
 
     unlocking_technologies = {
-		electric_telegraphs
+		electric_telegraph
 	}
 
     building_modifiers = {
@@ -298,7 +298,7 @@ pm_city_watch = {
     building_modifiers = {
         workforce_scaled = {
             building_input_horses_add = 3
-            building_output_tax_capacity_add = 5
+            state_tax_capacity_add = 5
         }
 
         level_scaled = {
@@ -321,7 +321,7 @@ pm_courts_of_law = {
         workforce_scaled = {
             building_input_horses_add = 5
 			building_input_luxury_clothes_add = 5
-            building_output_tax_capacity_add = 20
+            state_tax_capacity_add = 20
         }
 
         level_scaled = {
@@ -345,7 +345,7 @@ pm_police_departments = {
             building_input_horses_add = 5
 			building_input_luxury_clothes_add = 5
 			building_input_small_arms_add = 5
-            building_output_tax_capacity_add = 40
+            state_tax_capacity_add = 40
         }
 
         level_scaled = {
@@ -369,7 +369,7 @@ pm_detective_units = {
             building_input_automobiles_add = 5
 			building_input_luxury_clothes_add = 5
 			building_input_small_arms_add = 10
-            building_output_tax_capacity_add = 60
+            state_tax_capacity_add = 60
         }
 
         level_scaled = {
@@ -475,7 +475,7 @@ pm_liberal_arts = {
     building_modifiers = {
         workforce_scaled = {
             building_input_paper_add = 5
-            building_output_country_weekly_innovation_add = 1
+            country_weekly_innovation_add = 1
         }
 
         level_scaled = {
@@ -483,8 +483,9 @@ pm_liberal_arts = {
         }
     }
     state_modifiers = {
-        state_education_access_add = 0.01
-    }
+        workforce_scaled = {
+            state_education_access_add = 0.01
+        }
 }
 
 pm_humanities = {
@@ -497,7 +498,7 @@ pm_humanities = {
     building_modifiers = {
         workforce_scaled = {
             building_input_paper_add = 10
-            building_output_country_weekly_innovation_add = 2
+            country_weekly_innovation_add = 2
         }
 
         level_scaled = {
@@ -505,7 +506,9 @@ pm_humanities = {
         }
     }
     state_modifiers = {
-        state_education_access_add = 0.02
+        workforce_scaled = {
+            state_education_access_add = 0.02
+        }
     }
 }
 
@@ -519,7 +522,7 @@ pm_academic_philosophy = {
     building_modifiers = {
         workforce_scaled = {
             building_input_paper_add = 15
-            building_output_country_weekly_innovation_add = 3
+            country_weekly_innovation_add = 3
         }
 
         level_scaled = {
@@ -527,7 +530,9 @@ pm_academic_philosophy = {
         }
     }
     state_modifiers = {
-        state_education_access_add = 0.03
+        workforce_scaled = {
+            state_education_access_add = 0.03
+        }
     }
 }
 
@@ -541,7 +546,7 @@ pm_social_sciences = {
     building_modifiers = {
         workforce_scaled = {
             building_input_paper_add = 20
-            building_output_country_weekly_innovation_add = 4
+            country_weekly_innovation_add = 4
         }
 
         level_scaled = {
@@ -549,7 +554,9 @@ pm_social_sciences = {
         }
     }
     state_modifiers = {
-        state_education_access_add = 0.04
+        workforce_scaled = {
+            state_education_access_add = 0.04
+        }
     }
 }
 
@@ -563,7 +570,7 @@ pm_political_ecology = {
     building_modifiers = {
         workforce_scaled = {
             building_input_paper_add = 25
-            building_output_country_weekly_innovation_add = 5
+            country_weekly_innovation_add = 5
         }
 
         level_scaled = {
@@ -571,7 +578,9 @@ pm_political_ecology = {
         }
     }
     state_modifiers = {
-        state_education_access_add = 0.05
+        workforce_scaled = {
+            state_education_access_add = 0.05
+        }
     }
 }
 
@@ -612,7 +621,9 @@ pm_operating_theatres = {
         }
     }
     state_modifiers = {
-        state_pop_qualifications_mult = 0.05
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.05
+        }
     }
 }
 
@@ -634,7 +645,9 @@ pm_society_journals = {
         }
     }
     state_modifiers = {
-        state_pop_qualifications_mult = 0.1
+        workforce_scaled = {
+    
+        }
     }
 }
 
@@ -657,7 +670,9 @@ pm_chemical_laboratories = {
         }
     }
     state_modifiers = {
-        state_pop_qualifications_mult = 0.15
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.15
+        }
     }
 }
 
@@ -681,7 +696,9 @@ pm_research_departments = {
         }
     }
     state_modifiers = {
-        state_pop_qualifications_mult = 0.25
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.25
+        }
     }
 }
 
@@ -705,7 +722,9 @@ pm_applied_research_labs = {
         }
     }
     state_modifiers = {
-        state_pop_qualifications_mult = 0.35
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.35
+        }
     }
 }
 
@@ -729,7 +748,9 @@ pm_elitist_schools = {
         }
     }
     state_modifiers = {
+        unscaled = {
         state_political_strength_from_wealth_mult = 0.1
+        }
     }
 }
 
@@ -753,8 +774,10 @@ pm_private_institutions = {
         }
     }
     state_modifiers = {
+        unscaled = {
             state_education_access_wealth_add = 0.05
         }
+    }
 }
 
 pm_religious_schools = {
@@ -777,8 +800,10 @@ pm_religious_schools = {
         }
     }
     state_modifiers = {
+        unscaled = {
             state_education_access_add = 0.02
         }
+    }
 }
 
 pm_military_academies = {
@@ -799,8 +824,10 @@ pm_military_academies = {
         }
     }
      state_modifiers = {
+        unscaled = {
             unit_offense_add = 3
         }
+    }
 }
 
 pm_public_institutions = {
@@ -821,8 +848,10 @@ pm_public_institutions = {
         }
     }
     state_modifiers = {
-        state_conversion_mult = 0.03
-       }
+        unscaled= {
+             state_conversion_mult = 0.03
+        }
+    }
 }
 
 pm_indoctrination = {
@@ -843,10 +872,12 @@ pm_indoctrination = {
 
         }
     }
-        state_modifiers = {
+    state_modifiers = {
+        unscaled = {
             state_assimilation_mult = 0.05
 			state_loyalists_from_sol_change_mult = 0.1
-           }
+        }
+    }
 }
 
 pm_censorship = {
@@ -868,9 +899,11 @@ pm_censorship = {
         }
     }
     state_modifiers = {
-        state_assimilation_mult = 0.02
-        state_loyalists_from_sol_change_mult = 0.05
-       }
+        unscaled = {
+            state_assimilation_mult = 0.02
+            state_loyalists_from_sol_change_mult = 0.05
+        }
+    }
 }
 
 pm_freedom = {
@@ -892,8 +925,14 @@ pm_freedom = {
         }
     }
     state_modifiers = {
-            country_tech_spread_mult = 0.05
+        unscaled = {
 			state_radicals_from_sol_change_mult = 0.05
+        }
+    }
+    country_modifiers = {
+        unscaled = {
+            country_tech_spread_mult = 0.02
+        }
     }
 }
 
@@ -917,8 +956,14 @@ pm_radicalism = {
         }
     }
     state_modifiers = {
-        country_tech_spread_mult = 0.1
-        state_radicals_from_sol_change_mult = 0.1
+        unscaled = {
+			state_radicals_from_sol_change_mult = 0.1
+        }
+    }
+    country_modifiers = {
+        unscaled = {
+            country_tech_spread_mult = 0.05
+        }
     }
 }
 

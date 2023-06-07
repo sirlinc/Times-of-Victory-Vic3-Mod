@@ -10,7 +10,6 @@ decree_send_missionaries = {
 	texture = "gfx/interface/icons/decree/decree_send_missionaries.dds"
 	modifier = {
 		state_conversion_mult = 1.25
-		interest_group_ig_devout_pop_attraction_mult = 0.15	
 	}
 	valid = {
 		owner = { 

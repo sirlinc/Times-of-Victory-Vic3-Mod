@@ -709,7 +709,7 @@ JJ5 = { #Jicarilla Apache
 	cultures = { french }
 	capital = STATE_OHIO
 }
-N07 = { Nunapet
+N07 = { #Nunapet	
 	color = { 0 139 198 }
 	
 	country_type = decentralized
@@ -719,7 +719,7 @@ N07 = { Nunapet
 	cultures = { inuit }
 	capital = STATE_ALASKA
 }
-S11 = { Sugpiaq
+S11 = { #Sugpiaq
 	color = { 61 132 61 } #HERE DON'T CHANGE 
 	
 	country_type = decentralized
@@ -729,7 +729,7 @@ S11 = { Sugpiaq
 	cultures = { athabaskan }
 	capital = STATE_ALASKA
 }
-T03 = { Tanana
+T03 = { #Tanana
 	color = { 61 20 61 }
 	
 	country_type = decentralized
@@ -4105,7 +4105,7 @@ B09 = { #Banu Yam
 	
 	capital = STATE_OMAN
 	cultures = { bedouin }
-	religion = ibadi
+	religion = shiite
 }
 
 B10 = { #Bani Yas
@@ -5385,7 +5385,7 @@ C26 = { #baKgatla
 }
 
 C27 = { #baMapela
-	color = { 59, 221 183 }
+	color = { 59 221 183 }
 
 	country_type = decentralized
 	tier = principality
@@ -5743,7 +5743,7 @@ C59 = { #Ethiopia
 	tier = empire
 	
 	capital = s:STATE_GONDER
-	cultures = { amhara, tigray }
+	cultures = { amhara tigray }
 	religion = oriental_orthodox
 }
 
@@ -5928,7 +5928,7 @@ QKH = { #Qasim Khanate
 	tier = principality
 	
 	capital = STATE_TARTARIA
-	cultures = { tatar, finnish }
+	cultures = { tatar finnish }
 	religion = sunni
 }
 KAR = { #Karelia

@@ -735,24 +735,12 @@ communism.9 = {
 				standard_of_living > 15
 				workplace = {
 					OR = {
-					    has_active_production_method = pm_worker_cooperative_building_food_industry
-					    has_active_production_method = pm_worker_cooperative_building_textile_mills
-					    has_active_production_method = pm_worker_cooperative_building_furniture_manufacturies
-					    has_active_production_method = pm_worker_cooperative_building_glassworks
-					    has_active_production_method = pm_worker_cooperative_building_tooling_workshops
-					    has_active_production_method = pm_worker_cooperative_building_paper_mills
-					    has_active_production_method = pm_worker_cooperative_building_shipyards
-					    has_active_production_method = pm_worker_cooperative_building_arms_industry
-					    has_active_production_method = pm_worker_cooperative_farm
-					    has_active_production_method = pm_worker_cooperative_building_logging_camp
-					    has_active_production_method = pm_worker_cooperative_building_fishing_wharf
-					    has_active_production_method = pm_worker_cooperative_building_whaling_station
-					    has_active_production_method = pm_worker_cooperative_plantation
-					    has_active_production_method = pm_worker_cooperative_industry
-					    has_active_production_method = pm_worker_cooperative_building_coal_mine
-					    has_active_production_method = pm_worker_cooperative_building_iron_mine
-					    has_active_production_method = pm_worker_cooperative_building_lead_mine
-					    has_active_production_method = pm_worker_cooperative_building_sulfur_mine
+					    has_active_production_method = pm_worker_cooperative
+					    has_active_production_method = pm_worker_cooperative_farmland
+					    has_active_production_method = pm_national_patrimony_base_mine
+					    has_active_production_method = pm_collectivization
+					    has_active_production_method = pm_nationalized_oil
+					    has_active_production_method = pm_railways_worker_cooperative
                     }
 					cash_reserves_ratio > 0.25
 					weekly_profit > 5
@@ -774,24 +762,12 @@ communism.9 = {
 					standard_of_living > 15
 					workplace = {
 						OR = {
-                            has_active_production_method = pm_worker_cooperative_building_food_industry
-                            has_active_production_method = pm_worker_cooperative_building_textile_mills
-                            has_active_production_method = pm_worker_cooperative_building_furniture_manufacturies
-                            has_active_production_method = pm_worker_cooperative_building_glassworks
-                            has_active_production_method = pm_worker_cooperative_building_tooling_workshops
-                            has_active_production_method = pm_worker_cooperative_building_paper_mills
-                            has_active_production_method = pm_worker_cooperative_building_shipyards
-                            has_active_production_method = pm_worker_cooperative_building_arms_industry
-                            has_active_production_method = pm_worker_cooperative_farm
-                            has_active_production_method = pm_worker_cooperative_building_logging_camp
-                            has_active_production_method = pm_worker_cooperative_building_fishing_wharf
-                            has_active_production_method = pm_worker_cooperative_building_whaling_station
-                            has_active_production_method = pm_worker_cooperative_plantation
-                            has_active_production_method = pm_worker_cooperative_industry
-                            has_active_production_method = pm_worker_cooperative_building_coal_mine
-                            has_active_production_method = pm_worker_cooperative_building_iron_mine
-                            has_active_production_method = pm_worker_cooperative_building_lead_mine
-                            has_active_production_method = pm_worker_cooperative_building_sulfur_mine
+							has_active_production_method = pm_worker_cooperative
+							has_active_production_method = pm_worker_cooperative_farmland
+							has_active_production_method = pm_national_patrimony_base_mine
+							has_active_production_method = pm_collectivization
+							has_active_production_method = pm_nationalized_oil
+							has_active_production_method = pm_railways_worker_cooperative
                         }
 						cash_reserves_ratio > 0.25
 						weekly_profit > 5
@@ -807,24 +783,12 @@ communism.9 = {
 					standard_of_living > 15
 					workplace = {
 						OR = {
-                            has_active_production_method = pm_worker_cooperative_building_food_industry
-                            has_active_production_method = pm_worker_cooperative_building_textile_mills
-                            has_active_production_method = pm_worker_cooperative_building_furniture_manufacturies
-                            has_active_production_method = pm_worker_cooperative_building_glassworks
-                            has_active_production_method = pm_worker_cooperative_building_tooling_workshops
-                            has_active_production_method = pm_worker_cooperative_building_paper_mills
-                            has_active_production_method = pm_worker_cooperative_building_shipyards
-                            has_active_production_method = pm_worker_cooperative_building_arms_industry
-                            has_active_production_method = pm_worker_cooperative_farm
-                            has_active_production_method = pm_worker_cooperative_building_logging_camp
-                            has_active_production_method = pm_worker_cooperative_building_fishing_wharf
-                            has_active_production_method = pm_worker_cooperative_building_whaling_station
-                            has_active_production_method = pm_worker_cooperative_plantation
-                            has_active_production_method = pm_worker_cooperative_industry
-                            has_active_production_method = pm_worker_cooperative_building_coal_mine
-                            has_active_production_method = pm_worker_cooperative_building_iron_mine
-                            has_active_production_method = pm_worker_cooperative_building_lead_mine
-                            has_active_production_method = pm_worker_cooperative_building_sulfur_mine
+							has_active_production_method = pm_worker_cooperative
+							has_active_production_method = pm_worker_cooperative_farmland
+							has_active_production_method = pm_national_patrimony_base_mine
+							has_active_production_method = pm_collectivization
+							has_active_production_method = pm_nationalized_oil
+							has_active_production_method = pm_railways_worker_cooperative
                         }
 						cash_reserves_ratio > 0.25
 						weekly_profit > 5

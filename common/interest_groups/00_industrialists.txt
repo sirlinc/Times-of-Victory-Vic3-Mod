@@ -1,6 +1,8 @@
 ﻿ig_industrialists = {
 	color = hsv{ 0.06 0.60 0.89 }
 	texture = "gfx/interface/icons/ig_icons/industrialists.dds"
+	layer = "revolution_dynamic_industrialists"
+	index = 2
 	
 	ideologies = {
 		ideology_plutocratic
@@ -105,8 +107,101 @@
 	}
 	
 	monarch_weight = {
+		value = 1
+		# Monarch is not likely to adopt a marginal IG
+		if = {
+			limit = {
+				is_marginal = yes
+			}
+			multiply = {
+				value = 0.1
+			}
+		}
+		# Monarch is more likely to adopt a Powerful IG
+		if = {
+			limit = {
+				is_powerful = yes
+			}
+			multiply = {
+				value = 2
+			}
+		}
+		# More likely with Wealth Voting or Oligarchy
+		if = {
+			limit = {
+				owner = {
+					OR = {
+						has_law = law_type:law_oligarchy
+						has_law = law_type:law_wealth_voting
+					}
+				}
+			}
+			multiply = {
+				value = 2
+			}
+		}
+		# Slightly more likely with LF
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_laissez_faire
+				}
+			}
+			multiply = {
+				value = 1.25
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_purchased_office
+				}
+			}
+			multiply = {
+				value = 1.25
+			}
+		}
+
+		# Less likely before researching Mutual Funds
+		if = {
+			limit = {
+				owner = {
+					NOT = { has_technology_researched = classical_liberalism }
+				}
+			}
+			multiply = {
 		value = 0.5
 	}	
+		}
+		# Impossible without Currency Standards
+		if = {
+			limit = {
+				owner = {
+					NOT = { has_technology_researched = the_factory_system }
+				}
+			}
+			multiply = {
+				value = 0
+			}
+		}
+	}
+
+	agitator_weight = {
+		# Agitators more likely to come from populist IG's rather than elitist
+		value = 0.25
+		# Agitators will never be part of a marginalized IG
+		if = {
+			limit = {
+				owner.ig:ig_industrialists = {
+					is_marginal = yes
+				}
+			}
+			multiply = {
+				value = 0
+			}
+		}
+	}
 	
 	commander_weight = {
 		value = 0.5
@@ -126,12 +221,40 @@
 		if = {
 			limit = {
 				owner = {
+					has_law = law_type:law_womens_suffrage
+				}
+
+			}
+			add = {
+				value = 0.025
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_in_leadership
+				}
+
+			}
+			add = {
+				value = 0.04
+			}
+		}	
+	}
+
+	female_agitator_chance = {
+		value = 0.025
+		
+		if = {
+			limit = {
+				owner = {
 					has_law = law_type:law_women_own_property
 				}
 				
 			}
 			add = {
-				value = 0.1
+				value = 0.025
 			}
 		}
 
@@ -143,7 +266,7 @@
 				
 			}
 			add = {
-				value = 0.1
+				value = 0.025
 			}
 		}
 
@@ -155,9 +278,21 @@
 				
 			}
 			add = {
-				value = 0.1
+				value = 0.025
 			}
 		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_in_leadership
+				}
+
+			}
+			add = {
+				value = 0.03
+			}
+		}	
 	}
 	
 	# The chance that a commander belonging to this IG takes over leadership when it changes

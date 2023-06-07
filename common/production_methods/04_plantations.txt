@@ -1025,7 +1025,7 @@ pm_sorting_and_grading_machines_spice = {
 #pmg_innovations_silk_plantation
 
 
-pm_wild_silk_silk = {
+pm_wild_silk = {
 	texture = "gfx/interface/icons/production_method_icons/no_infrastructure.dds"
 
 	building_modifiers = {

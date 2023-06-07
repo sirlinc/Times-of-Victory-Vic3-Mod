@@ -106,10 +106,10 @@ paris_commune.1 = {
 				if = {
 					limit = {
 						NOT = {
-							has_law = law_type:law_compulsory_primary_school
+							has_law = law_type:law_compulsory_education_to_twelve
 						}
 					}
-					activate_law = law_type:law_compulsory_primary_school
+					activate_law = law_type:law_compulsory_education_to_twelve
 				}
 				if = {
 					limit = {

@@ -3,7 +3,7 @@
   "id" : "",
   "version" : "0.2",
   "supported_game_version" : "1.3",
-  "short_description" : "From the smoke of the Thirty Years' War to the brink of World War II, command the destiny of your nation across the tapestry of history.",
+  "short_description" : "From the smoke of the Thirty Years' War to the precipice of the Great War, command the destiny of your nation across the tapestry of history. Mod by Leorx, Vann, and the ToV Team.",
   "tags" : [],
   "relationships" : [],
   "game_custom_data" : {
@@ -18,6 +18,9 @@
 		"common/history/population",
 		"common/history/trade_routes",
 		"common/history/religions",
+		"map_data/state_regions",
+		"gfx/map/city_data/city_types",
+		"common\modifier_types\00_building_modifier_types.txt",
 		"events"
 	]
   }

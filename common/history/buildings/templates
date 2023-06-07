@@ -33,9 +33,4 @@
 				activate_production_methods={ "pm_free_range_prp" "pm_cured_meats" "pm_no_secondary_pasture" }
 			}
 
-            create_building={
-				building="building_marginal_pasture"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_free_range_map" "pm_cured_meats" "pm_no_secondary_pasture" }
-			}
+			

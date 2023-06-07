@@ -117,7 +117,7 @@ pmg_innovations_spice_plantation = {
 pmg_innovations_silk_plantation = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_wild_silk_silk
+		pm_wild_silk
 		pm_silk_threading_looms_silk
 		pm_rotary_mountage_silk
 		pm_mechanical_spooling_silk

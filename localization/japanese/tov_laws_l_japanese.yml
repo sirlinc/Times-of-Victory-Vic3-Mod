@@ -1,0 +1,158 @@
+﻿l_japanese:
+
+#administrative_infrastructure
+lawgroup_administrative_infrastructure: "行政インフラストラクチャ"
+law_tribal_councils: "部族会議"
+law_tribal_councils_desc: "部族会議は、共同体の合意と伝統的な慣習に基づいて法律を制定し、紛争を解決します。"
+law_feudal_courts: "封建裁判所"
+law_feudal_courts_desc: "領地を持つ領主が自分の領地内で紛争を裁定し、法律を施行します。君主や国家からの監視や助けはほとんどありません。"
+law_absolutism: "絶対主義"
+law_absolutism_desc: "絶対主義の行政形態では、通常は主権者である君主が制約のない権力を持ちます。"
+law_patronage_system: "後援システム"
+law_patronage_system_desc: "後援システムは、公的な役職や契約で忠実な支持者を報い、政治的な支配を維持します。"
+law_public_servants: "公務員"
+law_public_servants_desc: "公務員は、法律を公平に実施し、公共の秩序を維持し、必要な公共サービスを提供します。"
+law_government_agencies: "政府機関"
+law_government_agencies_desc: "政府機関は、法律と政策を実施・施行し、公共機能を管理する専門的な組織です。"
+
+#army_model
+law_warrior_bands: "戦士の集団"
+law_warrior_bands_desc: "忠誠と共通の利益により結ばれた部族の戦士の緩やかな組織に依存する軍事システム。正式な訓練と階級制度はしばしば欠如しています。"
+law_mercenary_army: "傭兵軍"
+law_mercenary_army_desc: "金銭的な報酬に動機付けられ、雇用者であれば誰でも戦うことを主に構成する軍隊。"
+law_standing_army: "常備軍"
+law_standing_army_desc: "平時も戦時も訓練され、装備されたプロの全職の軍隊を国が維持し、資金提供します。"
+
+#bureaucracy
+law_hereditary_office: "世襲の役職"
+law_hereditary_office_desc: "官僚的な地位が世襲の称号として扱われ、家族の系譜を通じて引き継がれるシステム。しばしば既得権益が形成されます。"
+law_purchased_office: "購入役職"
+law_purchased_office_desc: "経済的手段を持つ個人が官僚的地位や称号を獲得できるシステム。これは、腐敗と非効率を引き起こす可能性があります。"
+law_appointed_office: "任命された役職"
+law_appointed_office_desc: "官僚的な地位が高位の公務員や君主による任命により埋められるシステム。これは、忠誠心や政治的配慮に基づいています。"
+law_elected_office: "選挙役職"
+law_elected_office_desc: "民主的なシステムで、選挙により官僚的な地位が埋められ、有権者が代表者を選ぶ機会を与えます。"
+law_meritocratic_office: "実力主義の役職"
+law_meritocratic_office_desc: "能力と実績に基づいて官僚的な地位が与えられるシステム。"
+
+#childrens_rights
+law_child_labor_expected: "子どもの労働期待"
+law_child_labor_expected_desc: "子どもの労働を経済の重要な一部と見なす社会で、これにより未成年者の搾取や教育の剥奪がしばしば引き起こされます。"
+law_compulsory_education_to_twelve: "12歳までの義務教育"
+law_compulsory_education_to_twelve_desc: "すべての子どもに対する12歳までの義務教育を強制するシステムで、基本的な知識とスキルを提供することを目指しています。"
+law_compulsory_education_to_sixteen: "16歳までの義務教育"
+law_compulsory_education_to_sixteen_desc: "すべての子どもに対する16歳までの義務教育を強制するシステムで、より教育を受け、スキルを持つ人口を促進します。"
+
+#citizenship
+law_cultural_tolerance: "文化の寛容性"
+law_cultural_tolerance_desc: "社会内の多様な文化グループを受け入れることを促進し、公然と差別することを避け、平等な待遇を目指す政策。"
+
+#colonial_affairs
+law_commerce: "商業"
+law_commerce_desc: "商業ネットワークの構築と拡大に焦点を当てた植民地政策で、母国と先住民族の間の経済関係を促進します。"
+law_paternalism: "家父長制"
+law_paternalism_desc: "植民地化された人々を指導と監督が必要な存在と見なす植民地政策で、しばしば家父長的な管理と搾取をもたらします。"
+law_assimilation: "同化"
+law_assimilation_desc: "植民地化された人々を植民地化する力の文化と社会に強制的に統合することを目指す植民地政策で、その独特なアイデンティティと慣習を消去します。"
+#economic_system
+law_corporatism: "コーポラティズム"
+law_corporatism_desc: "社会を工業と専門集団に組織し、共有の経済的および社会的目標を達成することを促進する経済システム。"
+
+#education_system
+law_youth_leagues: "ユースリーグ"
+law_youth_leagues_desc: "青少年や若者を訓練し教育することを目指す大規模な団体で、しばしばイデオロギー、宗教、または民族主義的な目標に動かされ、忠誠心とコミットメントを育成します。"
+
+#policing
+law_informal_policing: "非公式の警察"
+law_informal_policing_desc: "地元の慣習と社会規範に依存する非公式な警察のアプローチで、判決は通常、尊敬されるコミュニティの人物や長老によって決定されます。"
+law_police_by_consent: "合意による警察"
+law_police_by_consent_desc: "公的な支持、協力、最小限の武力の使用を強調する警察モデルで、コミュニティ参加を通じて信頼を築き、法と秩序を維持しようとします。"
+law_regulated_police_force: "規制された警察部隊"
+law_regulated_police_force_desc: "標準化された実践、手順、監督メカニズムを備えた武装警察システムで、説明責任、専門性、法の支配への遵守を確保します。"
+law_paramilitary_force: "準軍事"
+law_paramilitary_force_desc: "秩序を維持し、法を施行するために軍事的な戦術、装備、訓練を使用する警察のアプローチで、しばしば攻撃的で対立的な立場をもたらします。"
+
+#rights_of_women
+law_women_in_leadership: "リーダーシップにおける女性"
+law_women_in_leadership_desc: "様々なセクターで女性のリーダーシップ参加を積極的に奨励し、支援する社会。"
+
+#taxation
+law_exemption_taxation: "免税"
+law_exemption_taxation_desc: "特定の納税義務や要件から免除されるために、個人が特定の負担金（異教徒税や免除手数料など）を支払うことができる税制度。"
+
+#welfare
+law_disability_pension: "障害者年金"
+law_disability_pension_desc: "障害により労働ができない個人を対象とした社会福祉プログラムで、主に退役軍人や長期にわたる障害を持つ人々を支援します。"
+
+# Free speech group
+law_informal_regulation: "非公式な規制"
+law_informal_regulation_desc: "明確な法律がスピーチを規制していないが、権力者を批判する際には慎重さが求められます。"
+
+# Church and State group
+law_tolerance: "寛容"
+law_tolerance_desc: "暗黙のうちに国教が存在し、異端者や非信者に対して差別や不利益が生じます。"
+
+# Internal Security
+law_religious_zealotry: "宗教的狂信"
+law_religious_zealotry_desc: "特定の信仰が主流であり、国家の承認を受けた異端審問、ポグロム、強制改宗が異教徒や異端者を標的にします。"
+
+# Migration
+law_heavy_migration_controls: "厳重な移民管理"
+law_heavy_migration_controls_desc: "パスポート、クォータ制度、そして不法移民に対する厳罰など、国境通過において厳格な管理が施されます。"
+law_light_migration_controls: "軽微な移民管理"
+law_light_migration_controls_desc: "国境通過時には基本的な身分確認が必要で、人気のある輸送ルートでの監視と取り締まりが行われます。"
+law_freedom_of_movement: "移動の自由"
+law_freedom_of_movement_desc: "移民は制限なく容易に国境を越えることができます。"
+
+# Military Policy
+law_dominance: "優位"
+law_dominance_desc: "他の国家や地域に対して一方的な力とコントロールを主張する軍事姿勢。"
+law_interventionist: "介入主義"
+law_interventionist_desc: "国益を推進するために国際問題や紛争に積極的に関与します。"
+law_balanced: "バランス型"
+law_balanced_desc: "攻撃的で防衛的な軍事目標の両方をバランス良く考える政策アプローチ。"
+law_deterrence: "抑止力"
+law_deterrence_desc: "敵の攻撃や挑発を抑止するために、強大な軍事存在に焦点を当てた防衛指向の軍事姿勢。"
+law_defensive: "防衛型"
+law_defensive_desc: "国家の安全保障と防衛に完全に集中した軍事政策、外部の紛争への関与は最小限にします。"
+
+# Political Representation
+law_no_representation: "代表なし"
+law_no_representation_desc: "市民は代表を選出する権利や政治的意思決定プロセスへの参加が否定されます。"
+law_temporary_assemblies: "臨時議会"
+law_temporary_assemblies_desc: "特定の問題や危機に対応するために設けられた代表組織が集まりますが、その立法的影響力は限定的です。"
+
+# Navy Model
+law_coastal_levies: "沿岸徴収"
+law_coastal_levies_desc: "必要なときに船と船員を提供する沿岸のコミュニティを登録して海軍力を上げます。"
+law_privateer_fleets: "私掠船隊"
+law_privateer_fleets_desc: "戦争の際に敵の船を襲撃し捕獲するために民間の船が委託されます。"
+law_standing_navy: "常備海軍"
+law_standing_navy_desc: "平時および戦時の作戦のために、専門の全職海軍力が維持されています。"
+law_auxiliary_fleets: "補助艦隊"
+law_auxiliary_fleets_desc: "商船団などのさまざまな民間の船と人員が、戦闘時に国の海軍力を補完します。"
+law_naval_task_forces: "海軍タスクフォース"
+law_naval_task_forces_desc: "常備海軍と補助艦隊を超えて、海軍力は特定の任務と目標のために設計された特別な部隊に編成されます。"
+
+# Devolution of Power
+law_unitarism: "一元主義"
+law_unitarism_desc: "政治的な力は一つの国家権力の中に集中しています。"
+law_federalism: "連邦主義"
+law_federalism_desc: "力は中央政府と小さな構成政治単位との間で分散されます。"
+law_decentralization: "分権化"
+law_decentralization_desc: "力は地域や地方の権力に大きく傾斜しており、その中には事実上独立したエンティティとして機能するものもあります。"
+law_confederation: "連邦"
+law_confederation_desc: "幅広い問題で協力しながら、かなりの主権を保持している複数の政体を結びつける同盟ベースの政治システム。"
+law_consociationalism: "協調主義"
+law_consociationalism_desc: "様々なグループ間で権力と意思決定を共有することで調和を促進する共同統治システム。"
+law_anarchy: "無政府主義"
+law_anarchy_desc: "自発的な自己組織化された協力に依存している形式的な統治構造の欠如を特徴とする社会。"
+
+modifier_state_pop_support_law_freedom_of_movement_add: "[GetLawType('law_freedom_of_movement').GetName] [concept_pop] サポート"
+modifier_state_pop_support_law_freedom_of_movement_add_desc: "[Concept('concept_pop', '$concept_pops$')]が[GetLawType('law_freedom_of_movement').GetName] [concept_law]をサポートする割合に影響を与えます。"
+modifier_state_pop_support_law_freedom_of_movement_mult: "[GetLawType('law_freedom_of_movement').GetName] [concept_pop] サポート"
+modifier_state_pop_support_law_freedom_of_movement_mult_desc: "[Concept('concept_pop', '$concept_pops$')]が[GetLawType('law_freedom_of_movement').GetName] [concept_law]をサポートする割合に影響を与えます。"
+modifier_state_pop_support_law_paramilitary_force_add: "[GetLawType('law_paramilitary_force').GetName] [concept_pop] サポート"
+modifier_state_pop_support_law_paramilitary_force_add_desc: "[Concept('concept_pop', '$concept_pops$')]が[GetLawType('law_paramilitary_force').GetName] [concept_law]をサポートする割合に影響を与えます。"
+modifier_state_pop_support_law_paramilitary_force_mult: "[GetLawType('law_paramilitary_force').GetName] [concept_pop] サポート"
+modifier_state_pop_support_law_paramilitary_force_mult_desc: "[Concept('concept_pop', '$concept_pops$')]が[GetLawType('law_paramilitary_force').GetName] [concept_law]をサポートする割合に影響を与えます。"

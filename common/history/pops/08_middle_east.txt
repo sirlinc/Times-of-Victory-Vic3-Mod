@@ -70,7 +70,7 @@
 		region_state:B07 = {
 			create_pop = {
 				culture = bedouin
-				religion = ibadi
+				religion = shiite
 				size=17297
 			}
 			create_pop = {
@@ -161,7 +161,7 @@
 			}
 			create_pop = {
 				culture = bedouin
-				religion = ibadi
+				religion = shiite
 				size = 2000
 			}
 			create_pop = {
@@ -178,7 +178,7 @@
 		region_state:B07 = {
 			create_pop = {
 				culture = bedouin
-				religion = ibadi
+				religion = shiite
 				size = 4100
 			}
 			create_pop = {

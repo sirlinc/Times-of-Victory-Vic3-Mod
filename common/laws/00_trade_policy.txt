@@ -38,6 +38,12 @@ law_mercantilism = {
 			has_law = law_type:law_free_trade
 		}	
 	}
+
+	modifier = {
+		country_institution_foreign_affairs_max_investment_add = 1
+	}
+
+	institution = institution_foreign_affairs
 }
 
 law_protectionism = {
@@ -67,6 +73,13 @@ law_protectionism = {
 	possible_political_movements = {
 		law_free_trade
 	}	
+
+	modifier = {
+		country_institution_foreign_affairs_max_investment_add = 1
+	}
+
+	institution = institution_foreign_affairs
+
 }
 
 law_free_trade = {
@@ -99,7 +112,10 @@ law_free_trade = {
 		country_trade_route_competitiveness_mult = 0.5
 		country_trade_route_quantity_mult = 0.5
 		country_trade_route_cost_mult = -0.5
+		country_institution_foreign_affairs_max_investment_add = 1
 	}
+
+	institution = institution_foreign_affairs
 	
 	possible_political_movements = {
 		law_protectionism

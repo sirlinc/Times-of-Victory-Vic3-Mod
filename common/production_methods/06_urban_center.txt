@@ -1,7 +1,7 @@
 ﻿#pmg_fuel_power_plant
 
 pm_coal_power_plant = {
-	texture = "gfx/interface/icons/production_method_icons/power_plant.dds"
+	texture = "gfx/interface/icons/production_method_icons/coal_fired_plant.dds"
 	pollution_generation = 30
 	
 	building_modifiers = { 
@@ -16,7 +16,7 @@ pm_coal_power_plant = {
 }
 
 pm_fuel_oil_power_plant = {
-	texture = "gfx/interface/icons/production_method_icons/power_plant.dds"
+	texture = "gfx/interface/icons/production_method_icons/oil_fired_plant.dds"
 	pollution_generation = 60
 	
 	unlocking_technologies = {
@@ -25,7 +25,7 @@ pm_fuel_oil_power_plant = {
 	
 	building_modifiers = { 
 		workforce_scaled = {
-			building_input_fuel_oil_add = 40
+			building_input_fuel_oil_add = 30
 			building_output_electricity_add = 60
 		}
 
@@ -35,7 +35,7 @@ pm_fuel_oil_power_plant = {
 }
 
 pm_pumped_storage_power_plant = {
-	texture = "gfx/interface/icons/production_method_icons/power_plant.dds"
+	texture = "gfx/interface/icons/production_method_icons/hydroelectric_plant.dds"
 	pollution_generation = 65
 	
 	unlocking_technologies = {
@@ -117,6 +117,92 @@ pm_francis_turbines_power_plant = {
 			building_employment_engineers_add = 1400
 		}
 	}
+}
+
+#pmg_infrastructure_power_plant
+
+pm_no_power_grid_infrastructure = {
+	texture = "gfx/interface/icons/production_method_icons/power_grid.dds"
+	pollution_generation = 5
+
+    unlocking_technologies = {
+		street_lighting
+	}	  
+
+	building_modifiers = { 
+		workforce_scaled = {
+			building_input_machined_parts_add = 5
+			building_input_rubber_add = 10
+		}
+	}
+    state_modifiers = {
+        workforce_scaled = {
+            state_infrastructure_add = 10
+        }
+    }
+}
+
+pm_neighborhood_power_grid = {
+	texture = "gfx/interface/icons/production_method_icons/power_grid.dds"
+	pollution_generation = 5
+
+    unlocking_technologies = {
+		street_lighting
+	}	  
+
+	building_modifiers = { 
+		workforce_scaled = {
+			building_input_machined_parts_add = 5
+			building_input_rubber_add = 10
+		}
+	}
+    state_modifiers = {
+        workforce_scaled = {
+            state_infrastructure_add = 10
+        }
+    }
+}
+
+pm_city_power_grids = {
+	texture = "gfx/interface/icons/production_method_icons/power_grid.dds"
+	pollution_generation = 15
+	
+	unlocking_technologies = {
+		central_planning
+	}				
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			building_input_machined_parts_add = 5
+			building_input_rubber_add = 15
+		}
+	}
+    state_modifiers = {
+        workforce_scaled = {
+            state_infrastructure_add = 20
+        }
+    }
+}
+
+pm_regional_power_grids = {
+	texture = "gfx/interface/icons/production_method_icons/power_grid.dds"
+	pollution_generation = 30
+	
+	unlocking_technologies = {
+		centralized_utilities
+	}
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			building_input_machined_parts_add = 10
+			building_input_rubber_add = 30
+		}
+	}
+    state_modifiers = {
+        workforce_scaled = {
+            state_infrastructure_add = 40
+        }
+    }
 }
 	
 
@@ -481,11 +567,13 @@ pm_traditional_patrons = {
 			building_employment_clergymen_add = 850
         }
         unscaled = {
-            building_input_building_aristocrats_shares_add_add = 4
+            building_input_building_aristocrats_shares_add = 4
         }
-        country_modifiers = {
+    country_modifiers = {
+        unscaled = {        
             interest_group_devout_pol_str_mult = 0.01
 			interest_group_landowners_pol_str_mult = 0.02
+            }
         }
     }
 }
@@ -503,14 +591,16 @@ pm_religious_institutions = {
             building_employment_clergymen_add = 1000
         }
         unscaled = {
-            building_input_building_clergymen_shares_add_add = 4
+            building_input_building_clergymen_shares_add = 4
         }
     }
     state_modifiers = {
         state_conversion_mult = 0.02
     }
     country_modifiers = {
-        interest_group_devout_pol_str_mult = 0.02
+        unscaled = { 
+            interest_group_devout_pol_str_mult = 0.02
+        }
     }
 }
 
@@ -532,11 +622,13 @@ pm_captains_of_industry = {
 			building_employment_clerks_add = 750
         }
         unscaled = {
-            building_input_building_capitalists_shares_add_add = 4
+            building_input_building_capitalists_shares_add = 4
         }
     }
-        country_modifiers = {
+    country_modifiers = {
+        unscaled = { 
             interest_group_industrialists_pol_str_mult = 0.02
+        }
     }
 }
 
@@ -558,12 +650,14 @@ pm_state_mouthpiece = {
 			building_employment_soldiers_add = 750
         }
         unscaled = {
-            building_input_building_officers_shares_add_add = 4
+            building_input_building_officers_shares_add = 4
 
         }
     }
     country_modifiers = {
-        interest_group_in_government_attraction_mult = 0.01
+        unscaled = { 
+            interest_group_in_government_attraction_mult = 0.01
+        }
     }
 }
 
@@ -582,12 +676,14 @@ pm_military_media_interface = {
             building_employment_clerks_add = 1000
         }
         unscaled = {
-            building_input_building_clerks_shares_add_add = 2
-			building_input_building_government_shares_add_add = 1            
+            building_input_building_clerks_shares_add = 2
+			building_input_building_government_shares_add = 1            
         }
     }
-        country_modifiers = {
+    country_modifiers = {
+        unscaled = { 
             interest_group_armed_forces_pol_str_mult = 0.02
+        }
     }
 }
 
@@ -609,13 +705,15 @@ pm_workers_unions = {
 			building_employment_clerks_add = 500
         }
         unscaled = {
-            building_input_building_bureaucrats_shares_add_add = 3
-			building_input_building_government_shares_add_add = 1
+            building_input_building_bureaucrats_shares_add = 3
+			building_input_building_government_shares_add = 1
         }
     }
     country_modifiers = {
-        interest_group_trade_unions_pol_str_mult = 0.02
-        interest_group_rural_folk_pol_str_mult = 0.01
+        unscaled = { 
+            interest_group_trade_unions_pol_str_mult = 0.02
+            interest_group_rural_folk_pol_str_mult = 0.01
+        }
     }
 }
 
@@ -637,13 +735,15 @@ pm_independent_art_movements = {
 			building_employment_academics_add = 850
         }
         unscaled = {
-            building_input_building_capitalists_shares_add_add = 2
-			building_input_building_academics_shares_add_add = 2
+            building_input_building_capitalists_shares_add = 2
+			building_input_building_academics_shares_add = 2
         }
     }
     country_modifiers = {
-        interest_group_intelligentsia_pol_str_mult = 0.02
-        interest_group_petty_bourgeoisie_pol_str_mult = 0.01
+        unscaled = { 
+            interest_group_intelligentsia_pol_str_mult = 0.02
+            interest_group_petty_bourgeoisie_pol_str_mult = 0.01
+        }
     }
 }
 

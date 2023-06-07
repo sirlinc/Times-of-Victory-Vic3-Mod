@@ -276,7 +276,7 @@ ideology_republican_leader = {
 					has_law = law_type:law_presidential_republic
 					has_law = law_type:law_parliamentary_republic
 				}
-				has_law = law_type:law_elected_bureaucrats
+				has_law = law_type:law_elected_office
 			}
 		}
 		# Monarchs cannot be republicans
@@ -597,7 +597,10 @@ ideology_reformer = {
 			has_role = agitator
 			owner = {
 				has_law = law_type:law_cultural_exclusion
-				has_law = law_type:law_compulsory_primary_school
+				OR = {
+				has_law = law_type:law_compulsory_education_to_twelve
+				has_law = law_type:law_compulsory_education_to_sixteen
+				}
 			}
 		}
 		# Any Interest Group
@@ -1160,7 +1163,7 @@ ideology_jingoist_leader = {
 			limit = {
 				owner = {
 					any_rival_country = {
-						any_neighbouring_state = {
+						any_neighbouring_sta	te = {
 							owner = root.owner
 						}
 					}
@@ -3056,7 +3059,8 @@ ideology_humanitarian = {
 	lawgroup_childrens_rights = {
 		law_child_labor_allowed = strongly_disapprove
 		law_restricted_child_labor = disapprove
-		law_compulsory_primary_school = approve
+		law_compulsory_education_to_twelve = approve
+		law_compulsory_education_to_sixteen = strongly_approve
 	}
 
 	possible = {
@@ -3071,7 +3075,10 @@ ideology_humanitarian = {
 				has_law = law_type:law_guaranteed_liberties
 				has_law = law_type:law_protected_speech
 				has_law = law_type:law_womens_suffrage
-				has_law = law_type:law_compulsory_primary_school
+				OR = {
+					has_law = law_type:law_compulsory_education_to_twelve
+					has_law = law_type:law_compulsory_education_to_sixteen
+					}
 			}
 		}
 		scope:interest_group = {
@@ -3138,7 +3145,10 @@ ideology_humanitarian = {
 		if = {
 			limit = {
 				owner = {
-					has_law = law_type:law_compulsory_primary_school
+					OR = {
+						has_law = law_type:law_compulsory_education_to_twelve
+						has_law = law_type:law_compulsory_education_to_sixteen
+						}
 				}
 			}
 			add = -25
@@ -3193,7 +3203,10 @@ ideology_humanitarian = {
 				owner = {
 					OR = {
 						has_law = law_type:law_restricted_child_labor
-						has_law = law_type:law_compulsory_primary_school
+						OR = {
+							has_law = law_type:law_compulsory_education_to_twelve
+							has_law = law_type:law_compulsory_education_to_sixteen
+							}
 					}
 				}
 			}
@@ -3250,9 +3263,9 @@ ideology_jacksonian_democrat = {
 	}
 
 	lawgroup_bureaucracy = {
-		law_elected_bureaucrats = approve
-		law_appointed_bureaucrats = neutral
-		law_hereditary_bureaucrats = disapprove
+		law_elected_office = approve
+		law_appointed_office = neutral
+		law_hereditary_office = disapprove
 	}
 
 	lawgroup_slavery = {
@@ -3332,9 +3345,9 @@ ideology_positivist = {
 	}
 
 	lawgroup_bureaucracy = {
-		law_appointed_bureaucrats = strongly_approve
-		law_elected_bureaucrats = disapprove
-		law_hereditary_bureaucrats = strongly_disapprove
+		law_appointed_office = strongly_approve
+		law_elected_office = disapprove
+		law_hereditary_office = strongly_disapprove
 	}
 	
 	possible = {
@@ -3342,7 +3355,7 @@ ideology_positivist = {
 		NAND = {
 			has_role = agitator
 			owner = {
-				has_law = law_type:law_appointed_bureaucrats
+				has_law = law_type:law_appointed_office
 				has_law = law_type:law_technocracy
 				has_law = law_type:law_state_atheism
 				has_law = law_type:law_presidential_republic

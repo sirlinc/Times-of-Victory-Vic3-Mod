@@ -49,6 +49,7 @@ law_child_labor_allowed = {
 	
 	possible_political_movements = {
 		law_restricted_child_labor
+		law_child_labor_expected
 	}
 	
 	ai_will_do = {
@@ -81,7 +82,8 @@ law_restricted_child_labor = {
 	}
 	
 	possible_political_movements = {
-		law_compulsory_primary_school
+		law_child_labor_allowed
+		law_compulsory_education_to_twelve
 	}
 	
 	ai_will_do = {
@@ -111,6 +113,11 @@ law_compulsory_education_to_twelve = {
 	modifier = {
 		country_institution_schools_max_investment_add = 2
 	}
+
+	possible_political_movements = {
+		law_child_labor_allowed
+		law_compulsory_education_to_sixteen
+	}
 }
 
 law_compulsory_education_to_sixteen = {
@@ -129,6 +136,10 @@ law_compulsory_education_to_sixteen = {
 		state_farmers_mortality_mult = -0.02
 		state_peasants_mortality_mult = -0.02
 		country_institution_schools_max_investment_add = 3
+	}
+
+	possible_political_movements = {
+		law_child_labor_allowed
 	}
 }
 

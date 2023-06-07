@@ -5,13 +5,15 @@ building_railway = {
 	texture = "gfx/interface/icons/building_icons/building_railway.dds"
 	
 	unlocking_technologies = {
-		railways
+		rolling_stock
 	}
 
 	production_method_groups = {
-		pmg_base_building_railway
-		pmg_passenger_trains
-		pmg_ownership_capital_building_railway
+		pmg_railways_freight
+		pmg_railways_passenger
+		pmg_railways_bonus
+		pmg_railways_motive_power
+		pmg_railways_ownership
 	}
 
 	required_construction = construction_cost_high

@@ -9,7 +9,7 @@ pm_manual_sorting_base_mine = {
 			building_employment_laborers_add = 4500
 		}
 		unscaled = {
-			building_throughput = -0.1
+			building_throughput_mult = -0.1
 		}
 	}	
 }
@@ -50,7 +50,7 @@ pm_stamp_mills_base_mine = {
 			building_employment_laborers_add = 3900
 		}
 		unscaled = {
-			building_throughput = 0.05
+			building_throughput_mult = 0.05
 		}
 	}
 }
@@ -74,7 +74,7 @@ pm_newcomen_engine_base_mine = {
 			building_employment_laborers_add = 3400
 		}
 		unscaled = {
-			building_throughput = 0.1
+			building_throughput_mult = 0.1
 		}
 	}
 }
@@ -98,7 +98,7 @@ pm_ore_vanning_base_mine = {
 			building_employment_laborers_add = 2900
 		}
 		unscaled = {
-			building_throughput = 0.15
+			building_throughput_mult = 0.15
 		}
 	}
 }
@@ -122,7 +122,7 @@ pm_flameless_lights_base_mine = {
 			building_employment_laborers_add = 2400
 		}
 		unscaled = {
-			building_throughput = 0.2
+			building_throughput_mult = 0.2
 			building_laborers_mortality_mult = -0.05
 		}
 	}
@@ -147,7 +147,7 @@ pm_electrostatic_separator_base_mine = {
 			building_employment_laborers_add = 1900
 		}
 		unscaled = {
-			building_throughput = 0.25
+			building_throughput_mult = 0.25
 			building_laborers_mortality_mult = -0.05
 		}
 	}
@@ -195,7 +195,7 @@ pm_guild_privileges_base_mine = {
 		unscaled = {
 			building_aristocrats_shares_add = 3
 			building_shopkeepers_shares_add = 2
-			building_working_conditions = 0.1
+			building_working_conditions_mult = 0.1
 		}
 	}
 }
@@ -1743,12 +1743,12 @@ pm_shuttle_kilns_kaolin_mine = {
 		
 	building_modifiers = {
 		workforce_scaled = {				
-				building_input_tools_add = 2
+				building_input_tools_add = 5
 				building_input_coal_add = 5
 
 			}
 		unscaled = {
-			building_throughput = 0.1
+			building_throughput_mult = 0.1
 		}
 	}
 }
@@ -1763,18 +1763,18 @@ pm_gas_fired_kilns_kaolin_mine = {
 		
 	building_modifiers = {
 		workforce_scaled = {				
-				building_input_steel_add = 3
-				building_input_coal_add = 5
+				building_input_tools_add = 5
+				building_input_coal_add = 10
 
 			}
 		unscaled = {
-			building_throughput = 0.2
+			building_throughput_mult = 0.2
 		}
 	}
 }
 
 pm_hoffmann_kilns_kaolin_mine = {
-	texture = "gfx/interface/icons/production_method_icons/kaolin_kilns.dds"
+	texture = "gfx/interface/icons/production_method_icons/coal_kiln.dds"
 	pollution_generation = 12
 
 	unlocking_technologies = {
@@ -1783,12 +1783,12 @@ pm_hoffmann_kilns_kaolin_mine = {
 
 	building_modifiers = {
 		workforce_scaled = {				
-				building_input_steel_add = 8
-				building_input_fuel_oil_add = 5
+				building_input_tools_add = 10
+				building_input_fuel_oil_add = 10
 
 			}
 		unscaled = {
-			building_throughput = 0.3
+			building_throughput_mult = 0.3
 		}
 	}
 }

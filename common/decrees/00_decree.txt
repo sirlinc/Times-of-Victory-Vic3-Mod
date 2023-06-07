@@ -13,7 +13,7 @@ decree_road_maintenance = {
 		state_construction_mult = 0.10
 	}
 	unlocking_technologies = { 
-		centralization
+		civil_service
 	}
 	cost = 100
 
@@ -130,7 +130,7 @@ decree_violent_suppression = {
 decree_emergency_relief = {
 	texture = "gfx/interface/icons/decree/decree_emergency_relief.dds"
 	unlocking_technologies = {
-		centralization
+		humanism
 	}
 	modifier = {
 		state_welfare_payments_add = 0.5
@@ -218,7 +218,7 @@ decree_promote_social_mobility = {
 decree_promote_national_values = {
 	texture = "gfx/interface/icons/decree/decree_promote_national_values.dds"
 	unlocking_technologies = {
-		centralization
+		national_mythos
 	}
 	valid = {
 		OR = {
@@ -294,7 +294,7 @@ decree_promote_national_values = {
 decree_encourage_manufacturing_industry = {
 	texture = "gfx/interface/icons/decree/decree_encourage_manufacturing_industry.dds"
 	unlocking_technologies = {
-		manufacturies
+		economic_specialization
 	}	
 	valid = {
 		NOR = { 
@@ -350,7 +350,7 @@ decree_encourage_manufacturing_industry = {
 decree_encourage_agricultural_industry = {
 	texture = "gfx/interface/icons/decree/decree_encourage_agricultural_industry.dds"
 	unlocking_technologies = {
-		enclosure
+		economic_specialization
 	}	
 	valid = {
 		NOR = { 
@@ -422,7 +422,7 @@ decree_encourage_agricultural_industry = {
 decree_encourage_resource_industry = {
 	texture = "gfx/interface/icons/decree/decree_encourage_resource_industry.dds"
 	unlocking_technologies = {
-		shaft_mining
+		economic_specialization
 	}	
 	valid = {
 		NOR = { 
