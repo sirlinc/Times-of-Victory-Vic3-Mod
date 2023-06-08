@@ -144,7 +144,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_arms_industry"
+				building="building_arsenal"
 				level=1
 				reserves=1
 			}
@@ -1057,7 +1057,7 @@
 	s:STATE_FRENCH_LOW_COUNTRIES={
 		region_state:FRA={
 			create_building={
-				building="building_arms_industry"
+				building="building_arsenal"
 				level=1
 				reserves=1
 			}
@@ -1132,7 +1132,7 @@
 	s:STATE_ALSACE_LORRAINE={
 		region_state:FRA={
 			create_building={
-				building="building_arms_industry"
+				building="building_arsenal"
 				level=1
 				reserves=1
 			}
@@ -1317,7 +1317,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_arms_industry"
+				building="building_arsenal"
 				level=2
 				reserves=1
 			}
@@ -1574,7 +1574,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_arms_industry"
+				building="building_arsenal"
 				level=3
 				reserves=1
 			}
@@ -1767,7 +1767,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_arms_industry"
+				building="building_arsenal"
 				level=1
 				reserves=1
 			}
@@ -1862,7 +1862,7 @@
 	s:STATE_BOHEMIA={
 		region_state:AUS={
 			create_building={
-				building="building_arms_industry"
+				building="building_arsenal"
 				level=2
 				reserves=1
 			}							
@@ -2357,7 +2357,7 @@
 	s:STATE_NORTH_RHINE={
 		region_state:TRV={
 			create_building={
-				building="building_arms_industry"
+				building="building_arsenal"
 				level=1
 				reserves=1
 			}
@@ -2475,7 +2475,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_arms_industry"
+				building="building_arsenal"
 				level=2
 				reserves=1
 			}			

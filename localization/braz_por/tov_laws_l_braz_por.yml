@@ -50,6 +50,10 @@ law_cultural_tolerance_desc: "Uma política que promove a aceitação de diverso
 #colonial_affairs
 law_commerce: "Comércio"
 law_commerce_desc: "Uma política colonial focada na construção e expansão de redes de comércio, promovendo relações econômicas entre a pátria e as polities indígenas."
+law_exploitation: "Exploração"
+law_exploitation_desc: "Uma política colonial focada na extração de recursos e riquezas da região colonizada, muitas vezes à custa da população indígena."
+law_resettlement: "Reassentamento"
+law_resettlement_desc: "Uma política colonial focada na realocação e assentamento de pessoas do país colonizador para a região colonizada."
 law_paternalism: "Paternalismo"
 law_paternalism_desc: "Uma política colonial que vê os povos colonizados como necessitados de orientação e supervisão da potência colonizadora, muitas vezes levando ao controle paternalista e à exploração."
 law_assimilation: "Assimilação"

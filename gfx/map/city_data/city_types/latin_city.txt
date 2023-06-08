@@ -54,8 +54,8 @@
 	building_tooling_workshops = {"latin_tools_manufactory_01_mesh"}
 	building_paper_mills = {"latin_manufactory_02_mesh"}
 	building_chemical_plants = {"latin_colonial_manufactory_01_mesh"}
-	building_arms_industry = {"latin_colonial_manufactory_03_mesh"}
-	building_munition_plants = {"latin_colonial_manufactory_03_mesh"}
+	building_arsenal = {"latin_colonial_manufactory_03_mesh"}
+	building_munitions_plants = {"latin_colonial_manufactory_03_mesh"}
 	building_synthetics_plants = {"latin_glassworks_manufactory_01_mesh"}
 	building_power_plant = {"latin_manufactory_01_mesh"}
 

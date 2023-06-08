@@ -332,9 +332,9 @@ law_industry_banned = {
 				}
 				if = {
 					limit = {
-						has_building = building_munition_plants
+						has_building = building_munitions_plants
 					}
-					remove_building = building_munition_plants
+					remove_building = building_munitions_plants
 				}
 			}
 		}

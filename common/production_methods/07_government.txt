@@ -86,7 +86,7 @@ pm_public_works_departments = {
 }
 
 pm_index_cards = {
-    texture = "gfx/interface/icons/production_method_icons/vertical_filing_cabinets.dds"
+    texture = "gfx/interface/icons/production_method_icons/index_cards.dds"
 
     unlocking_technologies = {
 		index_cards
@@ -110,7 +110,7 @@ pm_index_cards = {
 }
 
 pm_filing_cabinets = {
-    texture = "gfx/interface/icons/production_method_icons/index_cards.dds"
+    texture = "gfx/interface/icons/production_method_icons/vertical_filing_cabinets.dds"
 
     unlocking_technologies = {
 		filing_cabinets
@@ -426,7 +426,7 @@ pm_military_bureaucracy = {
     texture = "gfx/interface/icons/production_method_icons/military_bureaucracy.dds"
 
     unlocking_technologies = {
-		military_aviation
+		military_academies
 	}
 
     building_modifiers = {
@@ -447,7 +447,7 @@ pm_professional_bureaucracy = {
     texture = "gfx/interface/icons/production_method_icons/ownership_academics.dds"
 
     unlocking_technologies = {
-		central_planning
+		urban_planning
 	}
 
     building_modifiers = {
@@ -470,8 +470,6 @@ pm_professional_bureaucracy = {
 pm_liberal_arts = {
     texture = "gfx/interface/icons/production_method_icons/realist_art.dds"
 
-    
-
     building_modifiers = {
         workforce_scaled = {
             building_input_paper_add = 5
@@ -486,6 +484,7 @@ pm_liberal_arts = {
         workforce_scaled = {
             state_education_access_add = 0.01
         }
+    }
 }
 
 pm_humanities = {

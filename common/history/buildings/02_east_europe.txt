@@ -298,7 +298,7 @@
 	s:STATE_TVER={
 		region_state:RUS={
 			create_building={
-				building="building_arms_industry"
+				building="building_arsenal"
 				level=3
 				reserves=1
 			}
@@ -695,7 +695,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_arms_industry"
+				building="building_arsenal"
 				level=2
 				reserves=1
 			}

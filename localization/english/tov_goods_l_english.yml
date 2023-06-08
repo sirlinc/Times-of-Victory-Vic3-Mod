@@ -107,6 +107,9 @@ modifier_building_throughput_spices_mult: "$spices$ [concept_throughput]"
 modifier_building_throughput_spices_mult_desc: "A bonus or penalty to both input and output of $spices$"
 modifier_building_throughput_telecomms_mult: "$telecomms$ [concept_throughput]"
 modifier_building_throughput_telecomms_mult_desc: "A bonus or penalty to both input and output of $telecomms$"
+modifier_building_throughput_fine_art_mult: "$fine_art$ [concept_throughput]"
+modifier_building_throughput_fine_art_mult_desc: "A bonus or penalty to both input and output of $fine_art$"
+
 
 
 

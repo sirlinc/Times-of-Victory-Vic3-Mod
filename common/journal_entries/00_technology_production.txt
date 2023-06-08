@@ -254,7 +254,7 @@ je_dynamite = {
 		has_technology_researched = dynamite
 		any_scope_building = {
 			OR = {
-				is_building_type = building_munition_plants
+				is_building_type = building_munitions_plants
 				is_building_type = building_iron_mine
 				is_building_type = building_coal_mine
 				is_building_type = building_lead_mine
@@ -272,7 +272,7 @@ je_dynamite = {
 			any_scope_building = {
 				custom_tooltip = je_shortform_building_munition_plants_tooltip
 				filter = {
-					is_building_type = building_munition_plants
+					is_building_type = building_munitions_plants
 				}
 				percent > 0.75
 				cash_reserves_ratio >= 0.25

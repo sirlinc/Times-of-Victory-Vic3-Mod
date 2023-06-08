@@ -125,7 +125,7 @@ war_crimes.2 = {
 	immediate = {
 		random_scope_building = {
 			limit = {
-				is_building_type = building_munition_plants
+				is_building_type = building_munitions_plants
 				cash_reserves_ratio > 0.25
 				weekly_profit > 0
 				occupancy >= 0.5

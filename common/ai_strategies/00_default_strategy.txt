@@ -1373,17 +1373,10 @@ ai_strategy_default = {
 				has_technology_researched = the_factory_system
 			}
 		}
-		silk = { 
+		luxury_fabric = { 
 			stance = wants_high_supply 
 			trigger = {
 				has_building = building_textile_mills
-				total_population >= 1000000
-			}
-		}
-		hardwood = { 
-			stance = wants_high_supply 
-			trigger = {
-				has_building = building_furniture_manufacturies
 				total_population >= 1000000
 			}
 		}		

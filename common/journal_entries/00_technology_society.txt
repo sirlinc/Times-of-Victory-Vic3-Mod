@@ -75,7 +75,6 @@ je_mutual_funds = {
 			hidden_trigger = {
 				OR = {
 				    has_active_production_method = pm_publicly_traded_building_shipyards
-				    has_active_production_method = pm_publicly_traded_building_arms_industry
 				    has_active_production_method = pm_publicly_traded_building_fishing_wharf
 				    has_active_production_method = pm_publicly_traded_building_whaling_station
 				    has_active_production_method = pm_railways_industrial_conglomerate

@@ -18,7 +18,7 @@ building_port = {
 
 	terrain_manipulator = urban_port
 	
-	can_build = {
+	possible = {
 		error_check = {
 			severity = fail
 			is_coastal = yes
@@ -33,7 +33,7 @@ building_government_administration = {
 	levels_per_mesh = 10
 
 	unlocking_technologies = {
-		principles_of_government
+		governance
 	}
 
 	production_method_groups = {
@@ -57,7 +57,7 @@ building_university = {
 	levels_per_mesh = 5
 
 	unlocking_technologies = {
-		higher_learning
+		pluralism
 	}
 
 	production_method_groups = {
@@ -97,7 +97,7 @@ building_skyscraper = {
 
 	required_construction = construction_cost_monument
 
-	can_build = {
+	possible = {
 		error_check = {
 			severity = fail
 			custom_tooltip = {

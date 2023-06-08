@@ -459,7 +459,7 @@ economy_laws.6 = {
 			OR = {
 				has_industry_building = yes
 				has_building = building_shipyards
-				has_building = building_arms_industry
+				has_building = building_arsenal
 				has_heavy_industry_building = yes
 			}
 		}
@@ -470,7 +470,7 @@ economy_laws.6 = {
 				OR = {
 					has_industry_building = yes
 					has_building = building_shipyards
-					has_building = building_arms_industry
+					has_building = building_arsenal
 					has_heavy_industry_building = yes
 				}
 			}

@@ -234,7 +234,7 @@ building_oil_refineries = {
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
-		steel_frame_buildings
+		rotary_valve_engine
 	}
 
 	production_method_groups = {
@@ -267,33 +267,6 @@ building_automotive_firms = {
 	}
 	
 	required_construction = construction_cost_very_high
-}
-
-#Vanilla
-
-building_shipyards = {
-	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/shipyards.dds"
-	city_type = port
-	
-	unlocking_technologies = {
-		navigation
-	}
-
-	production_method_groups = {
-		pmg_base_building_shipyards
-		pmg_military_base
-		pmg_pre_industrial_organization
-	}
-
-	required_construction = construction_cost_high
-	
-	can_build = {
-		error_check = {
-			severity = fail
-			is_coastal = yes
-		}
-	}
 }
 
 building_arsenal = {
@@ -332,4 +305,31 @@ building_munitions_plants = {
 	}
 	
 	required_construction = construction_cost_very_high
+}
+
+#Vanilla
+
+building_shipyards = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/shipyards.dds"
+	city_type = port
+	
+	unlocking_technologies = {
+		navigation
+	}
+
+	production_method_groups = {
+		pmg_base_building_shipyards
+		pmg_military_base
+		pmg_pre_industrial_organization
+	}
+
+	required_construction = construction_cost_high
+	
+	possible = {
+		error_check = {
+			severity = fail
+			is_coastal = yes
+		}
+	}
 }

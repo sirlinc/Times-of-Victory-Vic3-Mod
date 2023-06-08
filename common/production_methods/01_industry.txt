@@ -3380,7 +3380,7 @@ pm_nitroglycerin = {
 }
 
 pm_dynamite = {
-    texture = "gfx/interface/icons/production_method_icons/cartridge_crafting.dds"
+    texture = "gfx/interface/icons/production_method_icons/dynamite.dds"
 
     unlocking_technologies = {
 		dynamite
@@ -3403,7 +3403,7 @@ pm_dynamite = {
 }
 
 pm_trinitrotoluene = {
-    texture = "gfx/interface/icons/production_method_icons/cartridge_crafting.dds"
+    texture = "gfx/interface/icons/production_method_icons/dynamite.dds"
 
     unlocking_technologies = {
 		trinitrotoluene

@@ -53,13 +53,13 @@ je_munitions_factories = {
 	possible = {
 		has_technology_researched = percussion_cap
 		any_scope_building = {
-			is_building_type = building_munition_plants
+			is_building_type = building_munitions_plants
 		}
 	}
 
 	complete = {
 		any_scope_building = {
-			is_building_type = building_munition_plants
+			is_building_type = building_munitions_plants
 			cash_reserves_ratio > 0.25
 			weekly_profit > 0
 			occupancy >= 0.5

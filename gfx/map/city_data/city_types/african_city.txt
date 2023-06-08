@@ -55,8 +55,8 @@
 	building_tooling_workshops = {"african_tools_manufactory_01_mesh"}
 	building_paper_mills = {"african_manufactory_02_mesh"}
 	building_chemical_plants = {"african_colonial_manufactory_01_mesh"}
-	building_arms_industry = {"african_colonial_manufactory_03_mesh"}
-	building_munition_plants = {"african_colonial_manufactory_03_mesh"}
+	building_arsenal = {"african_colonial_manufactory_03_mesh"}
+	building_munitions_plants = {"african_colonial_manufactory_03_mesh"}
 	building_synthetics_plants = {"african_glassworks_manufactory_01_mesh"}
 	building_power_plant = {"african_manufactory_01_mesh"}
 

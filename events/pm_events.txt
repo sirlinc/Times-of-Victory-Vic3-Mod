@@ -314,7 +314,7 @@ pm_events.4 = {
 			leader = { has_ideology = ideology:ideology_pacifist }
 		}
 		any_scope_state = {
-			has_building = building_arms_industry
+			has_building = building_arsenal
 		}
 	}
 
@@ -323,7 +323,7 @@ pm_events.4 = {
 	immediate = {
 		random_scope_state = {
 			limit = {
-				has_building = building_arms_industry
+				has_building = building_arsenal
 			}
 			save_scope_as = arms_making_state
 		}

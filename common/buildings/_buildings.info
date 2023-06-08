@@ -14,7 +14,7 @@ building_key = {
 		# list of technology keys
 	}
 
-	can_build = {										# optional custom trigger (state scope) for building requirements
+	possible = {										# optional custom trigger (state scope) for building requirements
 		# trigger definition
 	}
 

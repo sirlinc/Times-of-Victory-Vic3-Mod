@@ -84,8 +84,8 @@
 	building_furniture_manufacturies= {"french_city_factory_furniture_01_mesh"}
 	building_glassworks = {"french_city_factory_glass_01_mesh"}
 	building_tooling_workshops = {"french_city_factory_tools_01_mesh"}
-	building_arms_industry = {"french_city_factory_arms_01_mesh"}
-	building_munition_plants = {"french_city_factory_munition_01_mesh"}
+	building_arsenal = {"french_city_factory_arms_01_mesh"}
+	building_munitions_plants = {"french_city_factory_munition_01_mesh"}
 	building_chemical_plants = {"french_city_factory_chemical_01_mesh"}
 	building_synthetics_plants = {"french_city_factory_chemical_01_mesh"}
 	building_power_plant = {"french_city_factory_powerplant_01_mesh"}

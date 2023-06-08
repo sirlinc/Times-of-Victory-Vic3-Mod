@@ -1,10 +1,6 @@
 ﻿rivalry = {
 	requires_approval = no
 	should_notify_third_parties = yes
-
-	unlocking_technologies = {
-		the_balance_of_power
-	}
 	
 	potential = {
 		NOT = { is_country_type = decentralized }

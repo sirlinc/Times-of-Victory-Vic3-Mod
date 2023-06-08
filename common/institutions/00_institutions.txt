@@ -106,7 +106,7 @@ institution_foreign_affairs = {
 }
 
 institution_state_propaganda = {
-	icon = "gfx/interface/icons/institution_icons/propaganda.dds"
+	icon = "gfx/interface/icons/institution_icons/state_propaganda.dds"
 	background_texture = "gfx/interface/illustrations/institutions/institution_icon_bg.dds"
 	modifier = {
 		state_loyalists_from_sol_change_mult = 0.1

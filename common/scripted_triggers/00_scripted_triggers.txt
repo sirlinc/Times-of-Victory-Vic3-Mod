@@ -499,7 +499,7 @@ has_heavy_industry_building = {
 		has_building = building_automotive_firms
 		has_building = building_engineering_firms
 		has_building = building_oil_refineries
-		has_building = building_munition_plants
+		has_building = building_munitions_plants
 		has_building = building_power_plant
 	}
 }
@@ -512,7 +512,7 @@ is_heavy_industry_building = {
 		is_building_type = building_automotive_firms
 		is_building_type = building_engineering_firmsry
 		is_building_type = building_oil_refineries
-		is_building_type = building_munition_plants
+		is_building_type = building_munitions_plants
 		is_building_type = building_power_plant
 	}
 }
@@ -875,7 +875,7 @@ is_production_building = {
 		is_building_type = building_engineering_firms
 		is_building_type = building_automotive_firms	
 		is_building_type = building_shipyards
-		is_building_type = building_arms_industry
+		is_building_type = building_arsenal
 		is_building_type = building_power_plant
 		is_building_type = building_fishing_wharf
 	}

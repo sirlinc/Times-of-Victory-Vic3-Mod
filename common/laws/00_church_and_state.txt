@@ -193,7 +193,7 @@ law_state_atheism = {
 	progressiveness = 0
 
 	unlocking_technologies = {
-		empiricism
+		dialectics
 	}
 
 	disallowing_laws = {

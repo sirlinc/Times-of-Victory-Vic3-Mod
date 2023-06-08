@@ -104,7 +104,7 @@ modifier_building_throughput_spices_mult_desc: "$spices$ の入力と出力の�
 modifier_building_throughput_telecomms_mult: "$telecomms$ [concept_throughput]"
 modifier_building_throughput_telecomms_mult_desc: "$telecomms$ の入力と出力の両方にボーナスまたはペナルティ"
 modifier_building_throughput_fine_art_mult: "$fine_art$ [concept_throughput]"
-modifier_building_throughput_fine_art_mult_desc: "$fine_art$の入出力に対するボーナスまたはペナルティ"
+modifier_building_throughput_fine_art_mult_desc: "$fine_art$の入力と出力の両方にボーナスまたはペナルティ"
 
 
 trade_route_import_lens_option_horses_tooltip: "$horses$の輸入貿易路を確立する"

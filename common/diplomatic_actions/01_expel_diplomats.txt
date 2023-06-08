@@ -4,7 +4,7 @@
 	show_effect_in_tooltip = yes
 
 	unlocking_technologies = {
-		diplomatic_service
+		the_balance_of_power
 	}
 
 	potential = {

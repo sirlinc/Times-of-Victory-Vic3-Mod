@@ -119,7 +119,7 @@ law_technocracy = {
 	}
 
 	unlocking_technologies = {
-		central_archives 
+		political_ecology 
 	}
 	
 	possible_political_movements = {

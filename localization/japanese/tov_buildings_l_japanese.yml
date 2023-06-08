@@ -58,3 +58,13 @@ modifier_building_ironworks_throughput_mult_desc: "$building_ironworks$ の入�
 building_alloy_smelters: "合金製錬所"
 modifier_building_alloy_smelters_throughput_mult: "$building_alloy_smelters$ 建物 [concept_throughput]"
 modifier_building_alloy_smelters_throughput_mult_desc: "$building_alloy_smelters$ の入力と出力に対するボーナスまたはペナルティ"
+
+# Arsenal
+building_arsenal: "兵器庫"
+modifier_building_arsenal_throughput_mult: "$building_arsenal$ 建物 [concept_throughput]"
+modifier_building_arsenal_throughput_mult_desc: "$building_arsenal$の入力および出力の両方にボーナスまたはペナルティ"
+
+# Munitions Plants
+building_munitions_plants: "弾薬工場"
+modifier_building_munitions_plants_throughput_mult: "$building_munitions_plants$ 建物 [concept_throughput]"
+modifier_building_munitions_plants_throughput_mult_desc: "$building_munitions_plants$の入力および出力の両方にボーナスまたはペナルティ"

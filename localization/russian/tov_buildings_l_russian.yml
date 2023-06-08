@@ -59,3 +59,13 @@ modifier_building_ironworks_throughput_mult_desc: "Бонус или штраф 
 building_alloy_smelters: "Плавильни Легированных Металлов"
 modifier_building_alloy_smelters_throughput_mult: "Здание $building_alloy_smelters$ [concept_throughput]"
 modifier_building_alloy_smelters_throughput_mult_desc: "Бонус или штраф к входу и выходу $building_alloy_smelters$"
+
+# Arsenal
+building_arsenal: "Арсенал"
+modifier_building_arsenal_throughput_mult: "$building_arsenal$ здание [concept_throughput]"
+modifier_building_arsenal_throughput_mult_desc: "Бонус или штраф к объему ввода и вывода $building_arsenal$"
+
+# Munitions Plants
+building_munitions_plants: "Заводы боеприпасов"
+modifier_building_munitions_plants_throughput_mult: "$building_munitions_plants$ здание [concept_throughput]"
+modifier_building_munitions_plants_throughput_mult_desc: "Бонус или штраф к объему ввода и вывода $building_munitions_plants$"

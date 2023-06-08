@@ -92,6 +92,12 @@ pm_censorship: "审查制度"
 pm_freedom: "自由"
 pm_radicalism: "激进主义"
 
+pm_hereditary_bureaucracy: "世袭官僚制"
+pm_religious_bureaucracy: "宗教官僚制"
+pm_military_bureaucracy: "军事官僚制"
+pm_professional_bureaucracy: "专业官僚制"
+
+
 #University
 
 pmg_education: "教育"

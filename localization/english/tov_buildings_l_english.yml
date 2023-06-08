@@ -59,3 +59,20 @@ modifier_building_ironworks_throughput_mult_desc: "A bonus or penalty to both in
 building_alloy_smelters: "Alloy Smelters"
 modifier_building_alloy_smelters_throughput_mult: "$building_alloy_smelters$ building [concept_throughput]"
 modifier_building_alloy_smelters_throughput_mult_desc: "A bonus or penalty to both input and output of $building_alloy_smelters$"
+
+# Alloy Smelters
+building_alloy_smelters: "Alloy Smelters"
+modifier_building_alloy_smelters_throughput_mult: "$building_alloy_smelters$ building [concept_throughput]"
+modifier_building_alloy_smelters_throughput_mult_desc: "A bonus or penalty to both input and output of $building_alloy_smelters$"
+
+# Arsenal
+building_arsenal: "Arsenal"
+modifier_building_arsenal_throughput_mult: "$building_arsenal$ building [concept_throughput]"
+modifier_building_arsenal_throughput_mult_desc: "A bonus or penalty to both input and output of $building_arsenal$"
+
+# Munitions Plants
+building_munitions_plants: "Munitions Factories"
+modifier_building_munitions_plants_throughput_mult: "$building_munitions_plants$ building [concept_throughput]"
+modifier_building_munitions_plants_throughput_mult_desc: "A bonus or penalty to both input and output of $building_munitions_plants$"
+
+

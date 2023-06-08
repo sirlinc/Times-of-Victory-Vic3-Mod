@@ -66,7 +66,7 @@ building_fishing_wharf = {
 		pmg_ownership_capital_building_fishing_wharf
 	}
 	
-	can_build = {
+	possible = {
 		error_check = {
 			severity = fail
 			is_sea_adjacent = yes
@@ -90,7 +90,7 @@ building_whaling_station = {
 		pmg_ownership_capital_building_whaling_station
 	}
 	
-	can_build = {
+	possible = {
 		error_check = {
 			severity = fail
 			is_sea_adjacent = yes

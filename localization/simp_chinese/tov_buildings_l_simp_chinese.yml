@@ -58,3 +58,13 @@ modifier_building_ironworks_throughput_mult_desc: "$building_ironworks$ 的输�
 building_alloy_smelters: "合金冶炼厂"
 modifier_building_alloy_smelters_throughput_mult: "$building_alloy_smelters$ 建筑 [concept_throughput]"
 modifier_building_alloy_smelters_throughput_mult_desc: "$building_alloy_smelters$ 的输入和输出的奖励或惩罚"
+
+# Arsenal
+building_arsenal: "军械库"
+modifier_building_arsenal_throughput_mult: "$building_arsenal$ 建筑 [concept_throughput]"
+modifier_building_arsenal_throughput_mult_desc: "$building_arsenal$的输入和输出都有奖励或惩罚"
+
+# Munitions Plants
+building_munitions_plants: "军火工厂"
+modifier_building_munitions_plants_throughput_mult: "$building_munitions_plants$ 建筑 [concept_throughput]"
+modifier_building_munitions_plants_throughput_mult_desc: "$building_munitions_plants$的输入和输出都有奖励或惩罚"

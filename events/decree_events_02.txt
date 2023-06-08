@@ -37,7 +37,7 @@ type = country_event
 					is_building_type = building_engineering_firms
 					is_building_type = building_shipyards
 					is_building_type = building_automotive_firms
-					is_building_type = building_arms_industry
+					is_building_type = building_arsenal
 					is_building_type = building_munition_plants
 					is_building_type = building_power_plant
 				}
@@ -78,7 +78,7 @@ type = country_event
 						is_building_type = building_engineering_firms
 						is_building_type = building_shipyards
 						is_building_type = building_automotive_firms
-						is_building_type = building_arms_industry
+						is_building_type = building_arsenal
 						is_building_type = building_munition_plants
 						is_building_type = building_power_plant
 					}
@@ -154,7 +154,7 @@ type = country_event
 					is_building_type = building_engineering_firms
 					is_building_type = building_shipyards
 					is_building_type = building_automotive_firms
-					is_building_type = building_arms_industry
+					is_building_type = building_arsenal
 					is_building_type = building_munition_plants
 					is_building_type = building_power_plant
 				}
@@ -197,7 +197,7 @@ type = country_event
 						is_building_type = building_engineering_firms
 						is_building_type = building_shipyards
 						is_building_type = building_automotive_firms
-						is_building_type = building_arms_industry
+						is_building_type = building_arsenal
 						is_building_type = building_munition_plants
 						is_building_type = building_power_plant
 					}

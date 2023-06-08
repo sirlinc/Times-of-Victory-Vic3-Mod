@@ -92,6 +92,12 @@ pm_censorship: "Цензура"
 pm_freedom: "Свобода"
 pm_radicalism: "Радикализм"
 
+pm_hereditary_bureaucracy: "Наследственная бюрократия"
+pm_religious_bureaucracy: "Религиозная бюрократия"
+pm_military_bureaucracy: "Военная бюрократия"
+pm_professional_bureaucracy: "Профессиональная бюрократия"
+
+
 #University
 
 pmg_education: "Образование"

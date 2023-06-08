@@ -50,6 +50,10 @@ law_cultural_tolerance_desc: "社会内の多様な文化グループを受け�
 #colonial_affairs
 law_commerce: "商業"
 law_commerce_desc: "商業ネットワークの構築と拡大に焦点を当てた植民地政策で、母国と先住民族の間の経済関係を促進します。"
+law_exploitation: "搾取"
+law_exploitation_desc: "植民地化された地域からの資源や富を抽出することに焦点を当てた植民地政策。これはしばしば先住民の犠牲になる。"
+law_resettlement: "移住"
+law_resettlement_desc: "植民地化する国から植民地化された地域への人々の移動と定住に焦点を当てた植民地政策。"
 law_paternalism: "家父長制"
 law_paternalism_desc: "植民地化された人々を指導と監督が必要な存在と見なす植民地政策で、しばしば家父長的な管理と搾取をもたらします。"
 law_assimilation: "同化"

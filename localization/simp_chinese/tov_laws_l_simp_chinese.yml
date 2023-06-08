@@ -50,6 +50,10 @@ law_cultural_tolerance_desc: "一种促进社会内多元文化群体接受的�
 #colonial_affairs
 law_commerce: "商业"
 law_commerce_desc: "一种以建立和扩展贸易网络，促进本土和土著政权之间的经济关系为重点的殖民政策。"
+law_exploitation: "剥削"
+law_exploitation_desc: "一种以开采殖民地资源和财富为重点的殖民政策，通常以牺牲当地土著人口为代价。"
+law_resettlement: "重新安置"
+law_resettlement_desc: "一种殖民政策，侧重于将殖民国家的人口迁移到殖民地并在那里定居。"
 law_paternalism: "家长制"
 law_paternalism_desc: "一种视被殖民的人民需要来自殖民权力的指导和监督的殖民政策，往往导致家长式的控制和剥削。"
 law_assimilation: "同化"

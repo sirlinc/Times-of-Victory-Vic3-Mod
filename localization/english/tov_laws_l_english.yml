@@ -59,6 +59,13 @@ law_cultural_tolerance_desc: "A policy that fosters acceptance of diverse cultur
 law_commerce: "Commerce"
 law_commerce_desc: "A colonial policy focused on building and expanding trade networks, fostering economic relationships between the homeland and indigenous polities."
 
+law_exploitation: "Exploitation"
+law_exploitation_desc: "A colonial policy focused on extracting resources and wealth from the colonized region, often at the expense of the indigenous population."
+
+law_resettlement: "Resettlement"
+law_resettlement_desc: "A colonial policy focused on the relocation and settlement of people from the colonizing country to the colonized region."
+
+
 law_paternalism: "Paternalism"
 law_paternalism_desc: "A colonial policy that views colonized peoples as needing guidance and supervision from the colonizing power, often leading to paternalistic control and exploitation."
 

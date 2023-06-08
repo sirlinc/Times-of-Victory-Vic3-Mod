@@ -3,7 +3,7 @@
 
 	complete = {
 		any_scope_state = {
-			has_active_building = building_arms_industry
+			has_active_building = building_arsenal
 		}
 	}
 

@@ -31,7 +31,7 @@ building_arts_academy = {
 	levels_per_mesh = 5
 
 	unlocking_technologies = {
-		pluralism
+		print_culture
 	}
 
 	production_method_groups = {

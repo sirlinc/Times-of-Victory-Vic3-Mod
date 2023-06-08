@@ -59,7 +59,7 @@ building_opium_plantation = {
 		pmg_labor_equity_base_plantation
 	}
 	
-	can_build = {
+	possible = {
 		error_check = {
 			severity = fail
 			owner = { NOT = { is_banning_goods = g:opium } }

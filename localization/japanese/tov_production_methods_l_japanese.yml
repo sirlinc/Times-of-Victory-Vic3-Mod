@@ -92,6 +92,12 @@ pm_censorship: "検閲"
 pm_freedom: "自由"
 pm_radicalism: "過激主義"
 
+pm_hereditary_bureaucracy: "世襲官僚制"
+pm_religious_bureaucracy: "宗教官僚制"
+pm_military_bureaucracy: "軍事官僚制"
+pm_professional_bureaucracy: "専門的官僚制"
+
+
 #University
 
 pmg_education: "教育"

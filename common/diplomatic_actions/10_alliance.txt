@@ -1,10 +1,6 @@
 ﻿alliance = {
 	requires_approval = yes
 	can_use_obligations = yes
-
-	unlocking_technologies = {
-		the_balance_of_power
-	}
 	
 	potential = {
 		NOT = { is_country_type = decentralized }

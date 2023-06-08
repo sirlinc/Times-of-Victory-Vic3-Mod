@@ -17,7 +17,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_arms_industry"
+				building="building_arsenal"
 				level=7
 				reserves=1
 			}
