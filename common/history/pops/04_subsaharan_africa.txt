@@ -2781,7 +2781,7 @@
 	s:STATE_CONGO = {
 		region_state:B89 = {
 			create_pop = {
-				culture = congo_pygmy
+				culture = equatorial_bantu
 				size=15582
 			}
 			create_pop = {
@@ -2799,7 +2799,7 @@
 				size=14652
 			}
 			create_pop = {
-				culture = congo_pygmy
+				culture = equatorial_bantu
 				size = 8200
 			}
 			create_pop = {
@@ -2993,7 +2993,7 @@
 				size = 6200
 			}
 			create_pop = {
-				culture = congo_pygmy
+				culture = equatorial_bantu
 				size=26700
 			}
 		}
@@ -3003,7 +3003,7 @@
 				size=86778
 			}
 			create_pop = {
-				culture = congo_pygmy
+				culture = equatorial_bantu
 				size = 2500
 			}
 			create_pop = {
@@ -3012,7 +3012,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = congo_pygmy
+				culture = equatorial_bantu
 				size=5101
 			}
 			create_pop = {
@@ -3042,7 +3042,7 @@
 				size=33450
 			}
 			create_pop = {
-				culture = congo_pygmy
+				culture = equatorial_bantu
 				size = 9500
 			}
 			create_pop = {

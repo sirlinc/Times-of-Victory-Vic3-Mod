@@ -1,54 +1,397 @@
-﻿southeastern_woodlands={
-	color= rgb{ 127 87 39 }
+﻿caddo={
+	color= hsv{ 0.16 0.65 0.85 }
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
-		Hehaka
-		Inkpaduta
-		Istahba
-		Mahpiya
-		Monkaushka
-		Sinte
-		Tamaha
-		Thahca
-		Thasunke
-		Thathanka
-		Thaoyate_Duta
-		Wanbdisapa
-		Wanata
+		Piachiti
+		Inkinishit’iti
+		Wetsita
+		Shikapu’t’iti
+		Sha’ta
+		Kitsaiish
+		Tahbakumshia
+		Washish
+		NichaGaiyu
+		Nvhi’
+		K’akitsaiyet
+		Ba’tshush
+		Hina’kahdi
+		Banusha’a
+		Gandigudid
+		Dj'ankaiyudid
+		Maika
+		Binsin
+		Nibaihi
+		Sho-e-tat
+		Nishkû'ntu
+		Dehahuit
 	}
 	female_common_first_names = {
-		Azayamankawin
-		Topahhdewin
-		Wakanmaniwin
-		Wakantakawin
-		Wakhan_Inazin_Win
-	}	
+		Owanah
+		Kaw-u-tz
+		Sien-Coit
+		Hakaayu'Niish
+		Hahtinu'Saku
+		Hak'aykuh-Nattih
+		Wkibawsa-u-kh
+		Nayawsa-u-kh
+	}
 	noble_last_names = {
-		Hakadah
-		Ohiya_S-a
-		Tamaha
-		Wakinyanduta
-		Wowinape
+		Hainai
+		Anadarko
+		Nabedache
+		Nacogdoches
+		Natchitoches
+		Yatasi
+		Adai
+		Eyeish
+		Nakanawan
+		Imaha
+		Kwapa
+		Yowani
+		Doustionis
+		Nacaniche
+		Nanatsoho
+		Nasoni 
+		Shiyatsi
 	}
 	common_last_names={
-		Duta
-		Gleska
-		Huste
-		Iyotake
-		Kohkophapi
-		Kramarae
-		Luta
-		Pecan_Wakpa
-		Sapa
-		Thankja
-		Witko
+		Hainai
+		Anadarko
+		Nabedache
+		Nacogdoches
+		Natchitoches
+		Yatasi
+		Adai
+		Eyeish
+		Nakanawan
+		Imaha
+		Kwapa
+		Yowani
+		Doustionis
+		Nacaniche
+		Nanatsoho
+		Nasoni
+		Shiyatsi 
 	}
 	ethnicities = {
 		1 = native_american
 	}
 	graphics = generic
 }
+
+uto_aztecan={
+	color= hsv{ 0.94 0.63 0.58 }
+	religion = animist
+	traits = { indigenous_american_heritage north_american_group }
+	male_common_first_names={
+		Mo'o-wai
+		Isatai
+		Puhihwikwasu
+		Tehcap
+		Pahayoko
+		Washakie
+		Piaru-ekaruhkapu
+		Mukwooru
+		Tsökahovi
+		Wirasuap
+		Pikee_Queenah
+		Isa-viah
+		Cameahwait
+		Poito
+		Ticannaf
+		Tru-ki-zo
+		Paseego
+		Chochoco
+		Numaga
+		Tondzaosha
+		Tendoy
+	}
+	female_common_first_names = {
+		Porivo
+		Tacutine
+		Tuboitonie
+		Tocmetone
+		Cagáàgawia
+		Hurima
+		Chosro
+		Nanawu
+		He-dow
+		Tetewan
+		Nasisa
+	}
+	noble_last_names = {
+		Penateka
+		Tanima
+		Tenawa
+		Kotsoteka
+		Kwahadi
+		Wahkoh
+		Motso
+		Pibianigwai
+		Ketahtoh 
+		Tussawehee
+		Tuziyammo
+		Winnemucca
+		Wuttunee
+		Kamu Ticutta
+		Wadatika
+		Hunipui
+		Koop_Ticutta
+		Way_Dukadu
+	}
+	common_last_names={
+		Penateka
+		Tanima
+		Tenawa
+		Kotsoteka
+		Kwahadi
+		Wahkoh
+		Motso
+		Pibianigwai
+		Ketahtoh 
+		Tussawehee
+		Tuziyammo
+		Winnemucca
+		Wuttunee
+		Kamu Ticutta
+		Wadatika
+		Hunipui
+		Koop_Ticutta
+		Way_Dukadu
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+yuman={
+	color= { 155 181 100 }
+	religion = animist
+	traits = { indigenous_american_heritage north_american_group }
+	male_common_first_names={
+		Wapotehe
+		Tel_Che'e
+		Cha-Thle-Pah
+		Ashcavotil
+		Oshkolte
+		Nanni-chaddi
+		Skitlavisyah
+		Piyahgonte
+		Notokel
+		Yara_Tav
+		Sekwalakawala
+		Motha
+		Hochachiwaca
+		Cairook
+		Avi_Havasuts
+		Takodawa
+		Ochecama
+		Makwa
+		Hoseckrua
+	}
+	female_common_first_names = {
+		Aespaneo
+		Topeka
+		Spantsa
+		Sica-tuva
+		Who-wah
+		Pakit
+		Ka-hava-soo-ah
+	}
+	noble_last_names = {
+		Kosa'aay
+		Pa-tai
+		Pawai
+		Sinyweche
+		Tecate
+		Nyip'ewai
+		Matt_Xtaat
+		Milh_Ixox
+		Hapatul
+		Hakwa
+		Sitcarknyewa
+		Jhlumúk
+		Cukwapa
+		Ja-kwak-wak
+		Epegam
+	}
+	common_last_names={
+		Kosa'aay
+		Pa-tai
+		Pawai
+		Sinyweche
+		Tecate
+		Nyip'ewai
+		Matt_Xtaat
+		Milh_Ixox
+		Hapatul
+		Hakwa
+		Sitcarknyewa
+		Jhlumúk
+		Cukwapa
+		Ja-kwak-wak
+		Epegam
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+penutian={
+	color= { 93 50 201 }
+	religion = animist
+	traits = { indigenous_american_heritage north_american_group }
+	male_common_first_names={
+		Xigmacse
+		Charquin
+		Cucunuchi
+		Canocee
+		Yoscolo
+		Kitsepawit
+		Konoyo
+		Aravio
+		Semu
+		Kintpuash
+		Schonchin
+		Sulapy
+		Charka
+		Chikchikam
+		Sem-Yeto
+		Sina
+		Lupatkue-latko
+	}
+	female_common_first_names = {
+		Karana
+		Chankutpan
+		Winema
+		Nannookdoowah
+		Lofanitani
+		Kal-si-wa
+		Luwana
+		Gepigul
+	}
+	noble_last_names = {
+		Yelamu
+		Pruristac
+		Yaguiahuit
+		Nanawani 
+		Yucaipa
+		Homhoabit
+		Akxawiet
+		Temeku
+		Jurumpa
+		Lakisamni
+		Tachi
+		Wowa
+		Síako
+		Quitiquit
+		Chukchansi
+		Chochenyo
+		Tuchayune
+		Gashowu
+		Rumsen
+		Yuhaviatam
+		Shilimaqshtush
+		Aleitac
+	}
+	common_last_names={
+		Yelamu
+		Pruristac
+		Yaguiahuit
+		Nanawani 
+		Yucaipa
+		Homhoabit
+		Akxawiet
+		Temeku
+		Jurumpa
+		Lakisamni
+		Tachi
+		Wowa
+		Síako
+		Quitiquit
+		Chukchansi
+		Chochenyo
+		Tuchayune
+		Gashowu
+		Rumsen
+		Yuhaviatam
+		Shilimaqshtush
+		Aleitac
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+tanoan={
+	color= { 48 156 186 }
+	religion = animist
+	traits = { indigenous_american_heritage north_american_group }
+	male_common_first_names={
+		Dohasan
+		Ahpeahtone
+		Que-Tah-Tsay
+		Padoga
+		Qued_Koi
+		Ah-pe-a-ton
+		Teh-toot-sah
+		To-ho-sa
+		Ankímä
+		Dánpä
+		Zepko-ete
+		A'dáte
+		Gui-kati
+		Adoeette
+		Satanta
+		Appiatan
+		Set-ängyä
+		Settainte
+	}
+	female_common_first_names = {
+		Sain-Tah-Oodie
+		Paukeigope
+		Bougetah
+		Aukoy
+		Ahtoneharjo
+		Chipeta
+		P'oe_Tsáwä
+	}
+	noble_last_names = {
+		To-kinah-yup
+		Sálqáhyói
+		Gwa-kelega
+		Kaigwa
+		Kogui
+		Kâtá
+		Kinep
+		Káugyabidau
+		Semat
+		Soy-hay-talpupé
+		Pojoaque
+	}
+	common_last_names={
+		To-kinah-yup
+		Sálqáhyói
+		Gwa-kelega
+		Kaigwa
+		Kogui
+		Kâtá
+		Kinep
+		Káugyabidau
+		Semat
+		Soy-hay-talpupé
+		Pojoaque
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
 oirat={
 	color= rgb{ 255 199 44 }
 	religion = gelugpa
@@ -936,54 +1279,4 @@ maori={
 		1 = polynesian
 	}
 	graphics = generic
-}
-
-congo_pygmy={
-	color= { 93 136 60 }
-	religion = animist
-	traits = { central_african_culture_group african_heritage }
-	male_common_first_names={
-		Cakasekene
-		Cikombe
-		Cimbindu
-		Kangapu
-		Kaumba
-		Mbala
-		Mbumb
-		Mudib
-		Mulay
-		Mushidi
-		Mutand
-		Muteba
-		Nawej
-		Waranankong
-	}
-	female_common_first_names = {
-		Bulanda
-		Mabela
-		Tshiambuaya
-	}	
-	noble_last_names = {
-		Futa
-		Ilunga
-		Mbili
-	}
-	common_last_names={
-		Ditend
-		Isot
-		Kalong
-		Kamong
-		Kasang
-		Kat
-		Mukaz
-		Muteba
-		Nambing
-		Namwan
-		Naweej
-		Yaava
-	}
-	ethnicities = {
-		1 = african
-	}
-	graphics = african
 }

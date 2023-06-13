@@ -1,1924 +1,6 @@
-﻿##### NORTH AMERICA #####
-DAA = { #Dane-zaa
-	color = { 33 8 91 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-UTU = { #Natsilingmiutut
-	color = { 188 57 132 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-TL5 = { #Tlingit
-	color = { 35 175 181 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-HDA = { #Haida
-	color = { 252 35 69 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-IN2 = { #Inuinnaqtun
-	color = { 193 193 87 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-T2E = { #Tsek'ene
-	color = { 131 61 27 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-S2L = { #Siglitun 
-	color = { 13 33 59 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-TT2 = { #Tutchone
-	color = { 255 218 65 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-TGS = { #Tagish
-	color = { 210 114 138 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-KT2 = { #Kutchin
-	color = { 66 17 88 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-L2E = { #Lheidli
-	color = { 94 92 0 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-KD2 = { #Dan k'i
-	color = { 237 228 206 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-KD1 = { #Dan k'e
-	color = { 255 176 186 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-BVR = { #Beaver
-	color = { 65 1 17 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-SY1 = { #Stoney
-	color = { 147 41 36 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-TTN = { #Tahltan
-	color = { 25 155 187 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-KSK = { #Kaska
-	color = { 219 252 238 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-AIK = { #Aivilik
-	color = { 223 225 187 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-ST3 = { #Statimcets
-	color = { 242 119 90 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-SK5 = { #Sekani
-	color = { 185 89 65 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-2NP = { #Nlaka'Pamuctsin
-	color = { 51 62 52 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-2KW = { #Kwak'wala
-	color = { 186 255 166 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-DKH = { #Dakelh
-	color = { 222 111 111 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-SHU = { #Shuswap
-	color = { 112 63 165 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-NAK = { #Nakoda
-	color = { 155 25 55 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-PE2 = { #Plains Cree
-	color = { 253 168 24}
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { inuit }
-	capital = STATE_NUNAVUT
-}
-IGL = { #Iglulingmuit
-	color = { 194 251 89 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { inuit }
-	capital = STATE_NUNAVUT
-}
-KOT = { #Kootenai
-	color = { 24 53 75 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-CRW = { #Crow
-	color = { 52 75 87 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-OJC = { #Oji-Cree
-	color = { 186 176 255 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-NY4 = { #North Slavey
-	color = { 156 132 200 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-THO = { #Tlicho
-	color = { 200 100 100 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-MTS = { #Métis
-	color = { 100 200 200 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-SY4 = { #South Slavey
-	color = { 198 128 95 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-KVL = { #Kivallirmiut
-	color = { 149 218 103 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-WY2 = { #Chipewyan
-	color = { 198 82 0 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-SRS = { #Sarsi
-	color = { 128 214 84 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-UUM = { #Schitsu'umsh
-	color = { 62 67 129 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-KA2 = { #Kainai
-	color = { 31 56 45 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-SEE = { #Sarcee 
-	color = { 0 66 81 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-C4L = { #Cahuilla 
-	color = { 0 170 81 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-LLK = { #Tillamook 
-	color = { 186 176 255 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-C1K = { #Chinook
-	color = { 168 116 121 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-AH6 = { #Achomawi
-	color = { 255 142 96 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-UMA = { #Umatilla
-	color = { 104 142 82 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-WSH = { #Washo
-	color = { 128 190 140 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-CYS = { #Cayuse
-	color = { 120 90 89 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-MLL = { #Molalla
-	color = { 143 134 44 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-KLY = { #Kalapuya
-	color = { 119 0 47 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-KKW = { #Konkow
-	color = { 255 0 182 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-COO = { #Coos
-	color = { 144 24 255 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-MJV = { #Mojave
-	color = { 48 68 131 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-SRR = { #Serrano
-	color = { 87 67 78 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-MWK = { #Miwok
-	color = { 66 145 42 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-NPE = { #Northern Paiute
-	color = { 125 44 25 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-YK1 = { #Yakama
-	color = { 124 25 56 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-KII = { #Kawaiisu
-	color = { 252 84 141 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-GUT = { #Goshute
-	color = { 131 98 31 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-WS3 = { #Eastern Shoshone
-	color = { 176 141 186 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-WS9 = { #Northern Shoshone
-	color = { 152 255 156 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_OHIO
-}
-WS8 = { #Western Shoshone
-	color = { 74 177 223 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { paiute }
-	capital = STATE_NEVADA
-}
-K4W = { #Kaw
-	color = { 52 42 154 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-YNK = { #Yankton
-	color = { 141 224 125 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-WC2 = { #Wichita
-	color = { 81 44 12 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-CNN = { #Cheyenne
-	color = { 196 151 39 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-TSS = { #Tsitsistas
-	color = { 89 155 47 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-KN9 = { #Kansa
-	color = { 255 92 33 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-JWE = { #Jiwere
-	color = { 128 117 255 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-KW0 = { #Kiowa
-	color = { 87 198 130 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-TL7 = { #Tula
-	color = { 198 75 133 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-JJ5 = { #Jicarilla Apache
-	color = { 198 142 123 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-N07 = { #Nunapet	
-	color = { 0 139 198 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { inuit }
-	capital = STATE_ALASKA
-}
-S11 = { #Sugpiaq
-	color = { 61 132 61 } #HERE DON'T CHANGE 
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { athabaskan }
-	capital = STATE_ALASKA
-}
-T03 = { #Tanana
-	color = { 61 20 61 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { athabaskan }
-	capital = STATE_ALASKA
-}
-UN2 = { #Unangam Tanangin
-	color = { 76 71 107 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { athabaskan }
-	capital = STATE_ALASKA
-}
-I02 = { #IiyaaGdaad
-	color = { 214 229 0 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { athabaskan }
-	capital = STATE_ALASKA
-}
-1N1 = { #Iñupiat Nunaat
-	color = { 217 217 240 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { inuit }
-	capital = STATE_ALASKA
-}
-L04 = { #Lingít
-	color = { 255 201 57 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { athabaskan }
-	capital = STATE_ALASKA
-}
-G03 = { #Gwichʼin
-	color = { 190 131 81 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { athabaskan }
-	capital = STATE_ALASKA
-}
-HH2 = { #Han Hwech'in
-	color = { 156 95 44 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { athabaskan }
-	capital = STATE_ALASKA
-}
-DX1 = { #Deg Xitʼan
-	color = { 211 202 164 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { athabaskan }
-	capital = STATE_ALASKA
-}
-D11 = { #Dina'ena
-	color = { 214 188 90 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { athabaskan }
-	capital = STATE_ALASKA
-}
-D12 = { #Doogh Hit’an
-	color = { 187 218 218 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { athabaskan }
-	capital = STATE_ALASKA
-}
-D03 = { #Denaʼina Ełnena"
-	color = { 219 196 216 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { athabaskan }
-	capital = STATE_ALASKA
-}
-D0Q = { #Denaakk'e
-	color = { 194 235 194 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { athabaskan }
-	capital = STATE_ALASKA
-}
-ATN = { #Atna Nenn
-	color = { 196 114 255 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { athabaskan }
-	capital = STATE_ALASKA
-}
-AKI = { #Anishinabewaki 
-	color = { 70 132 101 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-EKG = { #Esto'k Gna
-	color = { 97 132 37 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-MGO = { #Mascogo
-	color = { 135 76 54 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-HHK = { #Hohokam
-	color = { 105 112 135 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-MSS = { #Missouri
-	color = { 107 0 16 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-TWI = { #Tawakani
-	color = { 99 0 181 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-K22 = { #Kichai
-	color = { 255 159 204 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-CDD = { #Caddo
-	color = { 112 224 114 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-AHO = { #Arapaho
-	color = { 179 206 69 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-K5K = { #Karankawa
-	color = { 204 28 72 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { southeastern_woodlands }
-	capital = STATE_TEXAS
-}
-CKW = { #Chickasaw
-	color = { 204 156 0 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { southeastern_woodlands }
-	capital = STATE_MISSISSIPPI
-}
-M1C = { #Michigamea
-	color = { 62 54 21 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { oodham }
-	capital = STATE_BAJA_CALIFORNIA
-}
-K1A = { #Kaskaskia
-	color = { 121 29 67 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { oodham }
-	capital = STATE_BAJA_CALIFORNIA
-}
-MIM = { #Miami
-	color = { 12 54 29 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { oodham }
-	capital = STATE_BAJA_CALIFORNIA
-}
-TOA = { #Tamaroa
-	color = { 29 151 29 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { oodham }
-	capital = STATE_BAJA_CALIFORNIA
-}
-MKK = { #Meskwaki
-	color = { 74 78 64 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { oodham }
-	capital = STATE_BAJA_CALIFORNIA
-}
-NVK = { #Nunavik
-	color = { 135 54 29 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { oodham }
-	capital = STATE_BAJA_CALIFORNIA
-}
-NUN = { #Nunatsiavut
-	color = { 86 224 114 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { oodham }
-	capital = STATE_BAJA_CALIFORNIA
-}
-DNE = { #Dine
-	color = { 111 185 84 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { oodham }
-	capital = STATE_BAJA_CALIFORNIA
-}
-HPI = { #Hopi
-	color = { 145 161 91 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { oodham }
-	capital = STATE_BAJA_CALIFORNIA
-}
-MNG = { #Montagnais
-	color = { 167 194 49 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { oodham }
-	capital = STATE_BAJA_CALIFORNIA
-}
-CPA = { #Cocopa
-	color = { 83 39 0 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { oodham }
-	capital = STATE_BAJA_CALIFORNIA
-}
-LSH = { #Lushootseed
-	color = { 178 178 255 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { salish }
-	capital = STATE_WASHINGTON
-}
-MND = { #Mandan
-	color = { 178 174 66 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { salish }
-	capital = STATE_BRITISH_COLUMBIA
-}
-SLS = { #Salish
-	color = { 189 234 39 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { salish }
-	capital = STATE_BRITISH_COLUMBIA
-}
-ODW = { #Odawa
-	color = { 217 192 2 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { dakota }
-	capital = STATE_NORTH_DAKOTA
-}
-ABI = { #Assinibione
-	color = { 168 234 136 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { dakota }
-	capital = STATE_NORTH_DAKOTA
-}
-KLA = { #Kalaallit
-	color = { 170 145 178 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { inuit }
-	capital = STATE_GREENLAND
-}
-MKO = { #Maskekon
-	color = { 15 39 221 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { oodham }
-	capital = STATE_BAJA_CALIFORNIA
-}
-CHX = { #Cochimí
-	color = { 196 48 166 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { oodham }
-	capital = STATE_BAJA_CALIFORNIA
-}
-YQI = { #Yaqui
-	color = { 87 84 55 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { oodham }
-	capital = STATE_SONORA
-}
-CKA = { #Cahokia
-	color = { 157 199 174 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { oodham }
-	capital = STATE_BAJA_CALIFORNIA
-}
-PIC = { #Pericú
-	color = { 188 66 35 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { oodham }
-	capital = STATE_BAJA_CALIFORNIA
-}
-ATT = { #Attawandaron
-	color = { 32 102 34 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { dakota }
-	capital = STATE_NORTH_DAKOTA
-}
-PTN = { #Petun
-	color = { 211 109 71 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { dakota }
-	capital = STATE_NORTH_DAKOTA
-}
-HID = { #Hidatsa
-	color = { 171 119 7 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { dakota }
-	capital = STATE_NORTH_DAKOTA
-}
-WOLASTOQ = {
-	color = { 211 110 112 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-PENOBSCOT = {
-	color = { 254 0 0 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-ABENAKI = {
-	color = { 248 243 53 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-PENNACOOK = {
-	color = { 164 211 116 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-NIPMUC = {
-	color = { 37 82 141 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-HUNKPAPA = {
-	color = { 30 45 110 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-OMAHA = {
-	color = { 114 20 34 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-BRULE = {
-	color = { 42 96 173 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-OGLALA = {
-	color = { 28 84 45 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-IOWA = {
-	color = { 164 125 144 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-OJIBWA = {
-	color = { 160 52 113 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-SIOUX = {
-	color = { 82 124 141 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { siouan }
-	capital = STATE_SOUTH_DAKOTA
-}
-WAHPETON = { #Wahpeton
-	color = { 28 84 45 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-SANTEE = { #Santee
-	color = { 173 160 74 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-PEORIA = { #Peoria
-	color = { 149 142 242 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-MSW = { #Massawomeck
-	color = { 242 150 143 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-PEQ = { #Pequot
-	color = { 202 196 176 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-T13 = { #Tamaulipecan
-	color = { 76 145 65 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-T12 = { #Coahuiltecan
-	color = { 32 33 79 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-T11 = { #Jumano
-	color = { 247 64 33 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-MK5 = { #Mi'kmaq (?)
-	color = { 109 63 91 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-SK2 = { #Sauk
-	color = { 94 33 41 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-QU9 = { #Quapaw
-	color = { 142 64 42 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-TU5 = { #Tunica
-	color = { 49 102 80 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-NTZ = { #Natchez
-	color = { 143 139 102 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-CH4 = { #Chalot
-	color = { 120 124 96 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-APA = { #Apalachee
-	color = { 219 95 67 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-UCH = { #Uchean
-	color = { 52 91 21 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-CHR = { #Cheraw
-	color = { 99 51 77 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-WTE = { #Wateree
-	color = { 61 154 211 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-SPO = { #Saponi
-	color = { 102 135 165 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-UNA = { #Unami
-	color = { 145 87 110 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-PWH = { #Powhatan
-	color = { 231 177 27 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-SEC = { #Secotan
-	color = { 168 63 26 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-PSC = { #Piscataway
-	color = { 137 77 188 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-PAO = { #Pamlico
-	color = { 45 167 13 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-ROA = { #Roanoke
-	color = { 41 222 249 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-CUR = { #Coree
-	color = { 76 12 4 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-TUT = { #Tutelo
-	color = { 252 101 98 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-HAH = { #Haush
-	color = { 128 28 155 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_PATAGONIA
-}
-CSO = { #Cusabo
-	color = { 250 226 187 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_SOUTH_CAROLINA
-}
-YSE = { #Yamansee
-	color = { 26 85 240 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_SOUTH_CAROLINA
-}
-CTW = { #Catawba 
-	color = { 255 120 15 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_SOUTH_CAROLINA
-}
-YCH = { #Yuchi
-	color = { 1 179 61 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-CWH = { #Chactaw
-	color = { 253 160 216 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { southeastern_woodlands }
-	capital = STATE_MISSISSIPPI
-}
-CKM = { #Chickamauga
-	color = { 86 76 20 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-CRK = { #Creek
-	color = { 34 245 2403 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { southeastern_woodlands }
-	capital = STATE_ALABAMA
-}
-HIT = { #Hitchiti
-	color = { 28 59 128 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-ALM = { #Alabama
-	color = { 254 8 33 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { southeastern_woodlands }
-	capital = STATE_ALABAMA
-}
-MNE = { #Menominee 
-	color = { 81 201 179 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-LNA = { #Lenape
-	color = { 45 66 0 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-SUQ = { #Susquehannock 
-	color = { 160 146 78 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-PTW = { #Potawatomi
-	color = { 72 127 97 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-HCK = { #Ho-Chunk
-	color = { 226 49 91 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-ALQ = { #Algonquins
-	color = { 174 29 147 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-YKT = { #Yokuts
-	color = { 228 159 255 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-CN2 = { #Wintu
-	color = { 85 62 96 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-CN1 = { #Pomo
-	color = { 59 99 41 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-CNS = { #Costanoan
-	color = { 58 170 255 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { southeastern_woodlands }
-	capital = STATE_FLORIDA
-}
-CLU = { #calusa
-	color = { 255 124 116 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { southeastern_woodlands }
-	capital = STATE_FLORIDA
-}
-TQ2 = { #Tacobaga
-	color = { 187 120 183 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { southeastern_woodlands }
-	capital = STATE_FLORIDA
-}
-TEQ = { #tequesta
-	color = { 255 253 124 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { southeastern_woodlands }
-	capital = STATE_FLORIDA
-}
-CHM = { #Chitimacha
-
-	color = { 255 96 61 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { southeastern_woodlands }
-	capital = STATE_LOUISIANA
-}
-EIR = { #Erie
-
-	color = { 255 96 61 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-OFO = { #Ofo
-
-	color = { 212 255 96 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_OHIO
-}
-OSA = { #Osage
-
-	color = { 160 96 234 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_KENTUCKY
-}
-BK3 = { #Beothuk
-
-	color = { 160 96 234 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_QUEBEC
-}
-NFR = { #New France
-
-	color = { 160 96 234 }
-	
-	country_type = recognized
-	
-	tier = principality
-	
-	cultures = { french }
-	capital = STATE_QUEBEC
-}
-MAY = { #Mayas
-
-	color = { 160 52 44 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { dutch }
-	capital = STATE_PERNAMBUCO
-}
-##############################
-##### SOUTH AMERICA ##########
-##############################
+﻿###################
+###SOUTH AMERICA###
+###################
 SPH = { #Sponheim
 
 	color = { 22  94  5 }
@@ -2083,17 +165,6 @@ CH2 = { #Chechehet
 	
 	cultures = { patagonian }
 	capital = STATE_RIO_NEGRO
-}
-WHI = { #Wichí
-
-	color = { 255  71  86 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { guarani }
-	capital = STATE_CHACO
 }
 PUH = { #Puelche
 
@@ -2909,6 +980,189 @@ MIL = {
 	capital = STATE_LOMBARDY
 }
 
+#EUROPE
+ARN = { #Crown of Aragon
+	color = { 140 84 79 }
+	
+	country_type = recognized
+	tier = kingdom
+	
+	capital = STATE_ARAGON
+	cultures = { spanish }
+	religion = catholic
+}
+PAS = { #Passau
+	color = { 188 216 221 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_BAVARIA
+	cultures = { south_german }
+	religion = catholic
+}
+BGE = { #Brzeg
+	color = { 138 25 75 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_SILESIA
+	cultures = { polish }
+	religion = catholic
+}
+WLO = { #Wolow
+	color = { 72 67 209 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_SILESIA
+	cultures = { polish }
+	religion = catholic
+}
+LEG = { #Legnica
+	color = { 163 58 209 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_SILESIA
+	cultures = { north_german polish }
+	religion = catholic
+}
+NAP = { #Naples
+	color = { 210 200 224 }
+	
+	country_type = recognized
+	tier = kingdom
+	
+	capital = STATE_CAMPAIA
+	cultures = { south_italian }
+	religion = catholic
+}
+SCI = { #Sicily
+	color = { 245 210 171 }
+	
+	country_type = recognized
+	tier = kingdom
+	
+	capital = STATE_CAMPAIA
+	cultures = { south_italian }
+	religion = catholic
+}
+RGS = { #Ragusa
+	color = { 237 144 149 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_DALMATIA
+	cultures = { bosniak slovene }
+	religion = catholic
+}
+FNM = { #Finmark
+	color = { 200 170 60 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_CAMPAIA
+	cultures = { sami norwegian }
+	religion = protestant
+}
+AKE = { #Akershus
+	color = { 72 121 220 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_EASTERN_NORWAY
+	cultures = { norwegian }
+	religion = protestant
+}
+TRL = { #Three Leagues
+	color = { 255 214 45 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_EAST_SWITZERLAND
+	cultures = { alemannic } #PLACEHOLDER
+	religion = catholic
+}
+STI = { #Rep. of the Seven Tithings
+	color = { 233 64 61 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_WEST_SWITZERLAND
+	cultures = { alemannic francoprovencal } #PLACEHOLDER
+	religion = catholic
+}
+BAE = { #Basel
+	color = { 107 89 101 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_WEST_SWITZERLAND
+	cultures = { alemannic francoprovencal } #PLACEHOLDER
+	religion = catholic
+}
+QKH = { #Qasim Khanate
+	color = { 83 127 118 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	capital = STATE_TARTARIA
+	cultures = { tatar finnish }
+	religion = sunni
+}
+KAR = { #Karelia
+	color = { 153 148 90 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_ORLEANS
+	cultures = { finnish }
+	religion = protestant
+}
+FR2 = { #The Parlementary Fronde (First Fronde)
+	color = { 17 27 104 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_ILE_DE_FRANCE
+	cultures = { french }
+	religion = catholic
+}
+JU1 = { #Julich
+	color = { 154 237 161 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_NORTH_RHINE
+	cultures = { north_german }
+	religion = catholic
+}
+LMA = { #La Mark
+	color = { 84 216 62 }
+	
+	country_type = recognized
+	tier = principality
+	
+	capital = STATE_DALMATIA
+	cultures = { north_german }
+	religion = protestant
+}
+
+
 ##asia and africa - vann##
 
 A01 = { #Khoshut Khanate
@@ -3569,6 +1823,10 @@ A59 = { #Brahui
 	religion = sunni
 }
 
+#################
+###Australasia###
+#################
+
 A60 = { #Tainui
 	color = { 147 63 62 }
 	
@@ -3943,6 +2201,10 @@ A93 = { #Hawaiʻi
 	religion = animist
 }
 
+##################
+###Central Asia###
+##################
+
 A94 = { #Kazakh Khanate
 	color = { 110 166 100 }
 	
@@ -4075,6 +2337,9 @@ B06 = { #Mönpa
 	religion = animist
 }
 
+############
+###Arabia###
+############
 B07 = { #Yarubid Imamate
 	color = { 71 129 61 }
 
@@ -4206,6 +2471,10 @@ B18 = { #Asir
 	cultures = { bedouin }
 	religion = sunni
 }
+
+############
+###Africa###
+############
 
 B19 = { #Siwa
 	color = { 134 37 190 }
@@ -4680,17 +2949,6 @@ B61 = { #Mane
 	religion = animist
 }
 
-B62 = { #Baté
-	color = { 189 134 130 }
-
-	country_type = unrecognized
-	tier = kingdom
-	
-	capital = s:STATE_GUINEA
-	cultures = { mande }
-	religion = sunni
-}
-
 B63 = { #Bono
 	color = { 136 179 104 }
 
@@ -4984,7 +3242,7 @@ B89 = { #Mbenga
 	tier = principality
 	
 	capital = s:STATE_CONGO
-	cultures = { congo_pygmy }
+	cultures = { equatorial_bantu }
 	religion = animist
 }
 
@@ -5006,7 +3264,7 @@ B91 = { #Mongo_Twa
 	tier = principality
 	
 	capital = s:STATE_EQUATEUR
-	cultures = { congo_pygmy }
+	cultures = { equatorial_bantu }
 	religion = animist
 }
 
@@ -5790,184 +4048,1566 @@ C63 = { #Ennarea
 	cultures = { amhara }
 	religion = oriental_orthodox
 }
-#EUROPE
-ARN = { #Crown of Aragon
-	color = { 140 84 79 }
+##############
+###Americas###
+##############
+NFR = { #New France
+
+	color = { 160 96 234 }
 	
 	country_type = recognized
-	tier = kingdom
 	
-	capital = STATE_ARAGON
-	cultures = { spanish }
-	religion = catholic
-}
-PAS = { #Passau
-	color = { 188 216 221 }
-	
-	country_type = recognized
 	tier = principality
 	
-	capital = STATE_BAVARIA
-	cultures = { south_german }
-	religion = catholic
+	cultures = { french }
+	capital = STATE_QUEBEC
 }
-BGE = { #Brzeg
-	color = { 138 25 75 }
+MAY = { #Mayas
+
+	color = { 160 52 44 }
 	
-	country_type = recognized
+	country_type = decentralized
+	
 	tier = principality
 	
-	capital = STATE_SILESIA
-	cultures = { polish }
-	religion = catholic
+	cultures = { dutch }
+	capital = STATE_PERNAMBUCO
 }
-WLO = { #Wolow
-	color = { 72 67 209 }
-	
-	country_type = recognized
+
+C64 = { #Beothuk
+	color = { 171 100 56 }
+
+	country_type = decentralized
 	tier = principality
 	
-	capital = STATE_SILESIA
-	cultures = { polish }
-	religion = catholic
+	capital = s:STATE_NEWFOUNDLAND
+	cultures = { algonquian }
+	religion = animist
 }
-LEG = { #Legnica
-	color = { 163 58 209 }
+
+C65 = { #Nitassinan
+	color = { 40 105 56 }
 	
-	country_type = recognized
+	country_type = decentralized
 	tier = principality
 	
-	capital = STATE_SILESIA
-	cultures = { north_german polish }
-	religion = catholic
+	cultures = { algonquian }
+	capital = STATE_NEWFOUNDLAND
+	religion = animist
 }
-NAP = { #Naples
-	color = { 210 200 224 }
-	
-	country_type = recognized
-	tier = kingdom
-	
-	capital = STATE_CAMPAIA
-	cultures = { south_italian }
-	religion = catholic
-}
-SCI = { #Sicily
-	color = { 245 210 171 }
-	
-	country_type = recognized
-	tier = kingdom
-	
-	capital = STATE_CAMPAIA
-	cultures = { south_italian }
-	religion = catholic
-}
-RGS = { #Ragusa
-	color = { 237 144 149 }
-	
-	country_type = recognized
-	tier = principality
-	
-	capital = STATE_DALMATIA
-	cultures = { bosniak slovene }
-	religion = catholic
-}
-FNM = { #Finmark
-	color = { 200 170 60 }
-	
-	country_type = recognized
-	tier = principality
-	
-	capital = STATE_CAMPAIA
-	cultures = { sami norwegian }
-	religion = protestant
-}
-AKE = { #Akershus
-	color = { 72 121 220 }
-	
-	country_type = recognized
-	tier = principality
-	
-	capital = STATE_EASTERN_NORWAY
-	cultures = { norwegian }
-	religion = protestant
-}
-TRL = { #Three Leagues
-	color = { 255 214 45 }
-	
-	country_type = recognized
-	tier = principality
-	
-	capital = STATE_EAST_SWITZERLAND
-	cultures = { alemannic } #PLACEHOLDER
-	religion = catholic
-}
-STI = { #Rep. of the Seven Tithings
-	color = { 233 64 61 }
-	
-	country_type = recognized
-	tier = principality
-	
-	capital = STATE_WEST_SWITZERLAND
-	cultures = { alemannic francoprovencal } #PLACEHOLDER
-	religion = catholic
-}
-BAE = { #Basel
-	color = { 107 89 101 }
-	
-	country_type = recognized
-	tier = principality
-	
-	capital = STATE_WEST_SWITZERLAND
-	cultures = { alemannic francoprovencal } #PLACEHOLDER
-	religion = catholic
-}
-QKH = { #Qasim Khanate
-	color = { 83 127 118 }
+
+C66 = { #Mi'kmaq
+	color = { 95 100 107 }
 	
 	country_type = unrecognized
 	tier = principality
 	
-	capital = STATE_TARTARIA
-	cultures = { tatar finnish }
-	religion = sunni
+	cultures = { algonquian }
+	capital = STATE_NEW_BRUNSWICK
+	religion = animist
 }
-KAR = { #Karelia
-	color = { 153 148 90 }
+
+C67 = { #Nunatsiavut
+	color = { 86 224 114 }
 	
-	country_type = recognized
+	country_type = decentralized
 	tier = principality
 	
-	capital = STATE_ORLEANS
-	cultures = { finnish }
-	religion = protestant
+	cultures = { inuit }
+	capital = STATE_NEWFOUNDLAND
+	religion = animist
 }
-FR2 = { #The Parlementary Fronde (First Fronde)
-	color = { 17 27 104 }
+
+C68 = { #Atikamekw
+	color = { 167 194 49 }
 	
-	country_type = recognized
+	country_type = decentralized
 	tier = principality
 	
-	capital = STATE_ILE_DE_FRANCE
-	cultures = { french }
-	religion = catholic
+	cultures = { algonquian }
+	capital = STATE_QUEBEC
+	religion = animist
 }
-JU1 = { #Julich
-	color = { 154 237 161 }
+
+C69 = { #Eeyou Istchee
+	color = { 160 97 212 }
 	
-	country_type = recognized
+	country_type = decentralized
 	tier = principality
 	
-	capital = STATE_NORTH_RHINE
-	cultures = { north_german }
-	religion = catholic
+	cultures = { algonquian }
+	capital = STATE_QUEBEC
+	religion = animist
 }
-LMA = { #La Mark
-	color = { 84 216 62 }
+
+C70 = { #Nunavik
+	color = { 135 54 29 }
 	
-	country_type = recognized
+	country_type = decentralized	
 	tier = principality
 	
-	capital = STATE_DALMATIA
-	cultures = { north_german }
-	religion = protestant
+	cultures = { inuit }
+	capital = STATE_QUEBEC
+	religion = animist
+}
+
+C71 = { #Abenaki
+	color = { 112 38 67 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_MAINE
+	religion = animist
+}
+
+C72 = { #Maliseet
+	color = { 186 94 48 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_NEW_BRUNSWICK
+	religion = animist
+}
+
+C73 = { #Penobscot
+	color = { 55 153 9 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_MAINE
+	religion = animist
+}
+
+C74 = { #Nipmuck
+	color = { 120 200 222 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_NEW_HAMPSHIRE
+	religion = animist
+}
+
+C75 = { #Quinnipiac
+	color = { 189 23 235 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_MASSACHUSETTS
+	religion = animist
+}
+
+C76 = { #Wampanoag
+	color = { 25 74 23 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_MASSACHUSETTS
+	religion = animist
+}
+
+C77 = { #Narragansett
+	color = { 142 128 171 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_MASSACHUSETTS
+	religion = animist
+}
+
+C78 = { #Haudenosaunee
+	color = { 81 54 138 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { iroquoian }
+	capital = STATE_NEW_YORK
+	religion = animist
+}
+
+C79 = { #Susquehannock
+	color = { 138 95 47 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { iroquoian }
+	capital = STATE_NEW_YORK
+	religion = animist
+}
+
+C80 = { #Erie
+	color = { 99 169 207 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { iroquoian }
+	capital = STATE_PENNSYLVANIA
+	religion = animist
+}
+
+C81 = { #Lenape
+	color = { 209 209 209 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_PENNSYLVANIA
+	religion = animist
+}
+
+C82 = { #Shawnee
+	color = { 227 193 57 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_WEST_VIRGINIA
+	religion = animist
+}
+
+C83 = { #Powhatan
+	color = { 89 201 169 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_VIRGINIA
+	religion = animist
+}
+
+C84 = { #Cherokee
+	color = { 93 158 43 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { iroquoian }
+	capital = STATE_TENNESSEE
+	religion = animist
+}
+
+C85 = { #Tuskarora
+	color = { 227 128 66 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { iroquoian }
+	capital = STATE_NORTH_CAROLINA
+	religion = animist
+}
+
+C86 = { #Catawba
+	color = { 50 230 113 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_SOUTH_CAROLINA
+	religion = animist
+}
+
+C87 = { #Muskogee Confederacy
+	color = { 21 53 150 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { muskogean }
+	capital = STATE_GEORGIA
+	religion = animist
+}
+
+C88 = { #Timucua
+	color = { 230 104 50 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { muskogean }
+	capital = STATE_FLORIDA
+	religion = animist
+}
+
+C89 = { #Apalachee
+	color = { 93 214 227 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { muskogean }
+	capital = STATE_FLORIDA
+	religion = animist
+}
+
+C90 = { #Chickasaw
+	color = { 204 156 0 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { muskogean }
+	capital = STATE_TENNESSEE
+	religion = animist
+}
+
+C91 = { #Choctaw
+	color = { 253 160 216 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { muskogean }
+	capital = STATE_MISSISSIPPI
+	religion = animist
+}
+
+C92 = { #Wendat
+	color = { 235 136 38 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { iroquoian }
+	capital = STATE_ONTARIO
+	religion = animist
+}
+
+C93 = { #Attawandaron
+	color = { 143 143 143 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { iroquoian }
+	capital = STATE_ONTARIO
+	religion = animist
+}
+
+C94 = { #Three Fires Confederacy
+	color = { 212 55 34 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_ONTARIO
+	religion = animist
+}
+
+C95 = { #Nipissing
+	color = { 92 158 92 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_ONTARIO
+	religion = animist
+}
+
+C96 = { #Maskegon
+color = { 15 39 221 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_ONTARIO
+	religion = animist
+}
+
+C97 = { #Oji-Cree
+color = { 186 176 255 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_ONTARIO
+	religion = animist
+}
+
+C98 = { #Nakota
+	color = { 168 234 136 }
+	
+	country_type = decentralized	
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_MANITOBA
+}
+C99 = { #Santee
+	color = { 160 52 113 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_MINNESOTA
+}
+D01 = { #Wahpeton
+	color = { 18 94 41 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_MINNESOTA
+}
+
+D02 = { #Yankton
+	color = { 230 28 32 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_SOUTH_DAKOTA
+}
+
+D03 = { #Yanktonai
+	color = { 136 242 164 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_NORTH_DAKOTA
+}
+
+D04 = { #Baxoje
+	color = { 128 115 84 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_IOWA
+}
+
+D05 = { #Mamaceqtaw
+	color = { 255 237 102 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_WISCONSIN
+}
+
+D06 = { #Ho-Chunk
+	color = { 44 81 191 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_WISCONSIN
+}
+
+D07 = { #Asakiwaki
+	color = { 252 239 45 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_MICHIGAN
+}
+
+D08 = { #Meskwaki
+	color = { 99 0 0 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_MICHIGAN
+}
+D09 = { #Myaamiaki
+	color = { 22 64 39 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_OHIO
+}
+
+D10 = { #Illiniwek
+	color = { 181 78 138 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_ILLINOIS
+}
+
+D11 = { #Chiwere
+	color = { 49 158 78 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_ILLINOIS
+}
+
+D12 = { #Niúachi
+	color = { 161 46 0 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_MISSOURI
+}
+
+D13 = { #Wazhazhe
+	color = { 0 48 161 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_MISSOURI
+}
+
+D14 = { #Quapaw
+	color = { 95 217 245 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_ARKANSAS
+}
+
+D15 = { #Chitimacha
+	color = { 255 96 61 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { caddo }
+	capital = STATE_LOUISIANA
+}
+
+D16 = { #Hasinai
+	color = { 112 224 114 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { caddo }
+	capital = STATE_TEXAS
+}
+
+D17 = { #Natchitoches
+	color = { 112 196 55 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { caddo }
+	capital = STATE_TEXAS
+}
+
+D18 = { #Kadohadacho
+	color = { 176 44 18 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { caddo }
+	capital = STATE_MISSIPPI
+}
+
+D19 = { #Natchez
+	color = { 143 139 102 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { muskogean }
+	capital = STATE_LOUISIANA
+}
+
+D20 = { #Adai
+	color = { 163 75 222 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { caddo }
+	capital = STATE_TEXAS
+}
+
+D21 = { #Karankawa
+	color = { 204 28 72 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { caddo }
+	capital = STATE_TEXAS
+}
+
+D22 = { #Ishak
+	color = { 97 132 37 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { caddo }
+	capital = STATE_TEXAS
+}
+
+D23 = { #Tonkawa
+	color = { 117 117 117 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { caddo }
+	capital = STATE_TEXAS
+}
+
+D24 = { #Kitikiti'sh
+	color = { 81 44 12 }
+	
+	country_type = decentralized	
+	tier = principality
+	
+	cultures = { caddo }
+	capital = STATE_KANSAS
+}
+
+D26 = { #Coahuiltecan
+	color = { 32 33 79 }
+	
+	country_type = decentralized	
+	tier = principality
+	
+	cultures = { uto_aztecan }
+	capital = STATE_TEXAS
+}
+
+D27 = { #Tamaulipecan
+	color = { 247 64 33 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { uto_aztecan }
+	capital = STATE_TEXAS
+}
+
+D28 = { #Nermernuh
+	color = { 173 0 0 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { uto_aztecan }
+	capital = STATE_TEXAS
+}
+
+D29 = { #Apache
+	color = { 0 69 173 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { athabaskan }
+	capital = STATE_TEXAS
+}
+
+D30 = { #Ka'igwu
+	color = { 87 198 130 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { tanoan }
+	capital = STATE_TEXAS
+}
+
+D31 = { #Kaw
+	color = { 53 125 15 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_KANSAS
+}
+
+D32 = { #Na i sha
+	color = { 84 39 196 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { athabaskan }
+	capital = STATE_KANSAS
+}
+
+D33 = { #Chatiks si Chatiks
+	color = { 224 202 31 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { athabaskan }
+	capital = STATE_KANSAS
+}
+
+D34 = { #Omaha
+	color = { 138 113 113 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_NEBRASKA
+}
+
+D35 = { #Oglala
+	color = { 92 112 191 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_SOUTH_DAKOTA
+}
+
+D36 = { #Brule
+	color = { 11 122 19 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_SOUTH_DAKOTA
+}
+
+D37 = { #Lakota
+	color = { 102 27 27 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_SOUTH_DAKOTA
+}
+
+D38 = { #Tsiihistano
+	color = { 191 38 82 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_WYOMING
+}
+
+D39 = { #Hunkpapa
+	color = { 78 28 148 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_SOUTH_DAKOTA
+}
+
+D40 = { #Hidatsa
+	color = { 91 150 36 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_SOUTH_DAKOTA
+}
+
+D41 = { #Mandan
+	color = { 178 174 66 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_NORTH_DAKOTA
+}
+
+D42 = { #Denésoliné
+	color = { 178 174 66 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { athabaskan }
+	capital = STATE_MANITOBA
+}
+
+D43 = { #Aivilingmiut
+	color = { 137 186 217 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { inuit }
+	capital = STATE_NUNAVUT
+}
+
+D44 = { #Netsilingmiut
+	color = { 188 57 132 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { inuit }
+	capital = STATE_NUNAVUT
+}
+
+D45 = { #Iglulingmuit
+	color = { 194 251 89 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { inuit }
+	capital = STATE_NUNAVUT
+}
+
+D46 = { #Tlicho
+	color = { 200 100 100 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { athabaskan }
+	capital = STATE_NORTHWEST_TERRITORIES
+}
+
+D47 = { #Inuinnaqtun
+	color = { 193 193 87 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { inuit }
+	capital = STATE_NORTHWEST_TERRITORIES
+}
+
+D48 = { #Siglitun
+	color = { 48 115 51 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { inuit }
+	capital = STATE_NORTHWEST_TERRITORIES
+}
+
+D49 = { #Kivallirmiut
+	color = { 149 218 103 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { inuit }
+	capital = STATE_NUNAVUT
+}
+
+D50 = { #Nêhiyawak
+	color = { 253 168 24 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_SASKATCHEWAN
+}
+
+D51 = { #Tsuut'ina
+	color = { 128 214 84 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { athabaskan }
+	capital = STATE_ALBERTA
+}
+
+D52 = { #Aaniiih
+	color = { 31 56 45 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_SASKATCHEWAN
+}
+
+D53 = { #Absaroka
+	color = { 150 90 72 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_MONTANA
+}
+
+D54 = { #Kootenai
+	color = { 101 163 59 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_MONTANA
+}
+
+D55 = { #Niitsitapi
+	color = { 29 53 173 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_ALBERTA
+}
+
+D56 = { #Nakoda
+	color = { 155 25 55 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { siouan }
+	capital = STATE_ALBERTA
+}
+
+D57 = { #Tsa'tinne
+	color = { 44 52 107 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { athabaskan }
+	capital = STATE_ALBERTA
+}
+
+D58 = { #Dehcho
+	color = { 147 25 168 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { athabaskan }
+	capital = STATE_ALBERTA
+}
+
+D59 = { #Schitsu'umsh
+	color = { 62 67 129 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { salish }
+	capital = STATE_IDAHO
+}
+
+D60 = { #Nimíipuu
+	color = { 255 120 235 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { salish }
+	capital = STATE_IDAHO
+}
+
+D61 = { #Northern Shoshone
+	color = { 152 255 156 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { uto_aztecan }
+	capital = STATE_IDAHO
+}
+
+D62 = { #Eastern Shoshone
+	color = { 176 141 186 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { uto_aztecan }
+	capital = STATE_WYOMING
+}
+
+D63 = { #Western Shoshone
+	color = { 74 177 223 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { uto_aztecan }
+	capital = STATE_NEVADA
+}
+
+D64 = { #Numu
+	color = { 158 85 21 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { uto_aztecan }
+	capital = STATE_NEVADA
+}
+
+D65 = { #Arapaho
+	color = { 94 224 92 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_COLORADO
+}
+
+D66 = { #Haisndayin
+	color = { 198 142 123 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { athabaskan }
+	capital = STATE_COLORADO
+}
+
+D67 = { #Akimel O'odham
+	color = { 36 145 109 }
+		
+	country_type = decentralized
+	tier = principality
+
+	cultures = { uto_aztecan }
+	capital = STATE_ARIZONA
+}
+
+D68 = { #Tohono O'odham
+	color = { 105 112 135 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { uto_aztecan }
+	capital = STATE_ARIZONA
+}
+
+D69 = { #Diné
+	color = { 255 139 51 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { athabaskan }
+	capital = STATE_ARIZONA
+}
+
+D70 = { #Shiwinna
+	color = { 55 97 189 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { uto_aztecan }
+	capital = STATE_NEW_MEXICO
+}
+
+D71 = { #Áak'u
+	color = { 100 145 36 }
+
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { uto_aztecan }
+	capital = STATE_NEW_MEXICO
+}
+
+D72 = { #P'ohwhogeh Ówingeh 
+	color = { 196 196 196 }
+
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { uto_aztecan }
+	capital = STATE_NEW_MEXICO
+}
+
+D73 = { #Taotho 
+	color = { 179 57 120 }
+
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { uto_aztecan }
+	capital = STATE_NEW_MEXICO
+}
+
+D74 = { #Gutsipiuti
+	color = { 60 150 72 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { uto_aztecan }
+	capital = STATE_UTAH
+}
+
+D75 = { #Ute
+	color = { 143 40 40 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { uto_aztecan }
+	capital = STATE_UTAH
+}
+
+D76 = { #Mojave
+	color = { 48 68 131 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { yuman }
+	capital = STATE_CALIFORNIA
+}
+
+D77 = { #Cocopah
+	color = { 83 39 0 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { yuman }
+	capital = STATE_BAJA_CALIFORNIA
+}
+
+D78 = { #Cochimí
+	color = { 181, 100 155 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { yuman }
+	capital = STATE_BAJA_CALIFORNIA
+}
+
+D79 = { #Yaqui
+	color = { 87 84 55 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { uto_aztecan }
+	capital = STATE_SONORA
+}
+
+D80 = { #Ivilyuqaletem
+	color = { 0 170 81 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { uto_aztecan }
+	capital = STATE_CALIFORNIA
+}
+
+D81 = { #Chumash
+	color = { 138 138 138 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { penutian }
+	capital = STATE_CALIFORNIA
+}
+
+D82 = { #Ohlone
+	color = { 58 170 255 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { penutian }
+	capital = STATE_CALIFORNIA
+}
+
+D83 = { #Taaqtam
+	color = { 97 18 10 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { uto_aztecan }
+	capital = STATE_CALIFORNIA
+}
+
+D84 = { #Nüwa
+	color = { 252 84 141 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { uto_aztecan }
+	capital = STATE_CALIFORNIA
+}
+
+D85 = { #Miwok
+	color = { 117 250 122 }
+		
+	country_type = unrecognized
+	tier = principality
+
+	cultures = { penutian }
+	capital = STATE_CALIFORNIA
+}
+
+D86 = { #Maidu
+	color = { 128 190 140 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { penutian }
+	capital = STATE_CALIFORNIA
+}
+
+D87 = { #Konkow
+	color = { 255 0 182 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { penutian }
+	capital = STATE_CALIFORNIA
+}
+
+D88 = { #Pomo
+	color = { 59 99 41 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { penutian }
+	capital = STATE_CALIFORNIA
+}
+
+D89 = { #Wintun
+	color = { 85 62 96 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { penutian }
+	capital = STATE_CALIFORNIA
+}
+
+D90 = { #Salish
+	color = { 189 234 39 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { salish }
+	capital = STATE_WASHINGTON
+}
+
+D91 = { #Yokuts
+	color = { 247 122 32 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { penutian }
+	capital = STATE_CALIFORNIA
+}
+
+D92 = { #Achomawi
+	color = { 214 91 30 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { penutian }
+	capital = STATE_CALIFORNIA
+}
+
+D93 = { #Modoc
+	color = { 17 39 184 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { penutian }
+	capital = STATE_OREGON
+}
+
+D94 = { #Molala
+	color = { 143 134 44 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { penutian }
+	capital = STATE_OREGON
+}
+D95 = { #Kalapuya
+	color = { 119 0 47 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { penutian }
+	capital = STATE_OREGON
+}
+D96 = { #Coos
+	color = { 144 24 255 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { penutian }
+	capital = STATE_OREGON
+}
+
+D97 = { #Tillamook 
+	color = { 186 176 255 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { penutian }
+	capital = STATE_OREGON
+}
+
+D98 = { #Liksiyu 
+	color = { 120 90 89 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { penutian }
+	capital = STATE_OREGON
+}
+
+D99 = { #Chinook
+	color = { 200 200 200 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { penutian }
+	capital = STATE_WASHINGTON
+}
+
+E01 = { #Yakama
+	color = { 124 25 56 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { penutian }
+	capital = STATE_WASHINGTON
+}
+E02 = { #Lushootseed
+	color = { 178 178 255 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { salish }
+	capital = STATE_WASHINGTON
+}
+
+E03 = { #Halkomelem
+	color = { 6 56 117 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { salish }
+	capital = STATE_BRITISH_COLUMBIA
+}
+
+E04 = { #Secwepemcúĺecw
+	color = { 181 7 7 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { salish }
+	capital = STATE_BRITISH_COLUMBIA
+}
+
+E05 = { #Nlaka'pamux
+	color = { 56 112 107 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { salish }
+	capital = STATE_BRITISH_COLUMBIA
+}
+
+E06 = { #St'at'imc
+	color = { 242 119 90 }
+	
+	country_type = decentralized
+	tier = principality
+	
+	cultures = { salish }
+	capital = STATE_BRITISH_COLUMBIA
+}
+
+E07 = { #Kwakwaka'wakw
+	color = { 186 255 166 }
+	
+	country_type = decentralized
+	tier = principality
+
+	cultures = { salish }
+	capital = STATE_BRITISH_COLUMBIA
+}
+
+E08 = { #Kaska
+	color = { 56 130 44 }
+	
+	country_type = decentralized
+	tier = principality
+
+	cultures = { athabaskan }
+	capital = STATE_YUKON_TERRITORY
+}
+
+E09 = { #Sekani
+	color = { 163 112 224 }
+	
+	country_type = decentralized
+	tier = principality
+
+	cultures = { athabaskan }
+	capital = STATE_YUKON_TERRITORY
+}
+
+E10 = { #Haida
+	color = { 252 35 69 }
+	
+	country_type = decentralized
+	tier = principality
+
+	cultures = { salish }
+	capital = STATE_BRITISH_COLUMBIA
+}
+
+E11 = { #Lingít
+	color = { 35 175 181 }
+	
+	country_type = decentralized
+	tier = principality
+
+	cultures = { athabaskan }
+	capital = STATE_ALASKA
+}
+
+E12 = { #Iñupiat 
+	color = { 176 209 159 }
+	
+	country_type = decentralized
+	tier = principality
+
+	cultures = { inuit }
+	capital = STATE_ALASKA
+}
+
+E13 = { #Tanana
+	color = { 61 20 61 }
+	
+	country_type = decentralized
+	tier = principality
+
+	cultures = { athabaskan }
+	capital = STATE_ALASKA
+}
+
+E14 = { #Sugpiat
+	color = { 61 132 61 }
+	
+	country_type = decentralized
+	tier = principality
+
+	cultures = { inuit }
+	capital = STATE_ALASKA
+}
+
+E15 = { #Yup'ik
+	color = { 0 139 198 }
+	
+	country_type = decentralized
+	tier = principality
+
+	cultures = { inuit }
+	capital = STATE_ALASKA
+}
+
+E16 = { #Unangam Tanangin
+	color = { 76 71 107 }
+	
+	country_type = decentralized
+	tier = principality
+
+	cultures = { inuit }
+	capital = STATE_ALASKA
+}
+
+E17 = { #Dena'ina
+	color = { 204 71 45 }
+	
+	country_type = decentralized
+	tier = principality
+
+	cultures = { athabaskan }
+	capital = STATE_ALASKA
 }

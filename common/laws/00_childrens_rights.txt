@@ -10,11 +10,12 @@ law_child_labor_expected = {
 	progressiveness = -100
 
 	modifier = {
-		state_laborers_mortality_mult = 0.75
-		state_machinists_mortality_mult = 0.75
-		state_farmers_mortality_mult = 0.075
-		state_peasants_mortality_mult = 0.075
-		
+		state_laborers_mortality_mult = 0.05
+		state_machinists_mortality_mult = 0.05
+		state_farmers_mortality_mult = 0.05
+		state_peasants_mortality_mult = 0.05
+		state_education_access_add = -0.02
+		state_education_access_wealth_add = 0.01 
 		state_dependent_wage_mult = 0.40
 	}
 	
