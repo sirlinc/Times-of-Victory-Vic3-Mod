@@ -519,7 +519,7 @@
 		region_state:CHE = {
 			create_pop = {
 				culture = cherokee
-				size=12,500
+				size=12500
 			}
 			create_pop = {
 				pop_type = slaves
