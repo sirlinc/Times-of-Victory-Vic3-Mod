@@ -4050,7 +4050,7 @@ C65 = { #Nitassinan
 	religion = animist
 }
 
-C66 = { #Mi'kmaq
+C66 = { #Miꞌkmaꞌki
 	color = { 95 100 107 }
 	
 	country_type = unrecognized

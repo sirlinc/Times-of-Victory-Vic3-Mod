@@ -1652,7 +1652,7 @@
 				size=13993
 			}
 		}
-		region_state:C66 = { #Mi'kmaq
+		region_state:C66 = { #Miꞌkmaꞌki
 			create_pop = {
 				culture = algonquian
 				size=8131
@@ -1696,7 +1696,7 @@
 				size=7973
 			}
 		}
-		region_state:C66 = { #Mi'kmaq
+		region_state:C66 = { #Miꞌkmaꞌki
 			create_pop = {
 				culture = algonquian
 				size=6666
@@ -2213,7 +2213,7 @@
 		}
 	}
 	s:STATE_NEW_BRUNSWICK = {
-		region_state:C66 = { #Mi'kmaq
+		region_state:C66 = { #Miꞌkmaꞌki
 			create_pop = {
 				culture = algonquian
 				size=10243

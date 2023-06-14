@@ -314,7 +314,7 @@
 		}
 	}
 	s:STATE_NEW_BRUNSWICK={
-		region_state:C66={ #Mi'kmaq
+		region_state:C66={ #Miꞌkmaꞌki
 		}
 	}
 	s:STATE_QUEBEC={
