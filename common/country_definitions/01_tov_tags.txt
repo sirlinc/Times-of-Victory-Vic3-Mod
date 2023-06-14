@@ -1,19 +1,7 @@
 ﻿###################
 ###SOUTH AMERICA###
 ###################
-SPH = { #Sponheim
-
-	color = { 22  94  5 }
-	
-	country_type = recognized
-	
-	tier = principality
-	
-	cultures = { north_german }
-	capital = STATE_RHINELAND
-}
 NI2 = { #Nivaclé
-
 	color = { 128  0  47 }
 	
 	country_type = decentralized
@@ -24,7 +12,6 @@ NI2 = { #Nivaclé
 	capital = STATE_GUAYANA
 }
 PI2 = { #Pilagá 
-
 	color = { 142  255  127 }
 	
 	country_type = decentralized
@@ -35,7 +22,6 @@ PI2 = { #Pilagá
 	capital = STATE_GUAYANA
 }
 TR0 = { #Tiriyó
-
 	color = { 65  86  44 }
 	
 	country_type = decentralized
@@ -46,7 +32,6 @@ TR0 = { #Tiriyó
 	capital = STATE_GUAYANA
 }
 MX3 = { #Maxacalis
-
 	color = { 198  83  187 }
 	
 	country_type = decentralized
@@ -57,7 +42,6 @@ MX3 = { #Maxacalis
 	capital = STATE_PATAGONIA
 }
 TL4 = { #Taluhet
-
 	color = { 144  64  80 }
 	
 	country_type = decentralized
@@ -68,7 +52,6 @@ TL4 = { #Taluhet
 	capital = STATE_PATAGONIA
 }
 KWR = { #Kawesqar
-
 	color = { 239  143  72 }
 	
 	country_type = decentralized
@@ -79,7 +62,6 @@ KWR = { #Kawesqar
 	capital = STATE_PATAGONIA
 }
 YGH = { #Yaghan
-
 	color = { 193  128  106 }
 	
 	country_type = decentralized
@@ -90,7 +72,6 @@ YGH = { #Yaghan
 	capital = STATE_PATAGONIA
 }
 ONA = { #Ona
-
 	color = { 224  163  255 }
 	
 	country_type = decentralized
@@ -101,7 +82,6 @@ ONA = { #Ona
 	capital = STATE_PATAGONIA
 }
 CHO = { #Chono
-
 	color = { 255  178  150 }
 	
 	country_type = decentralized
@@ -112,7 +92,6 @@ CHO = { #Chono
 	capital = STATE_PATAGONIA
 }
 HP1 = { #Huarpe
-
 	color = { 0  68  170 }
 	
 	country_type = decentralized
@@ -123,7 +102,6 @@ HP1 = { #Huarpe
 	capital = STATE_PATAGONIA
 }
 TBA = { #Toba
-
 	color = { 224 255 53 }
 	
 	country_type = decentralized
@@ -134,7 +112,6 @@ TBA = { #Toba
 	capital = STATE_PATAGONIA
 }
 TEU = { #Teushen
-
 	color = { 109  140  0 }
 	
 	country_type = decentralized
@@ -145,7 +122,6 @@ TEU = { #Teushen
 	capital = STATE_PATAGONIA
 }
 DIU = { #Diuihet
-
 	color = { 255  205  147 }
 	
 	country_type = decentralized
@@ -156,7 +132,6 @@ DIU = { #Diuihet
 	capital = STATE_BUENOS_AIRES
 }
 CH2 = { #Chechehet
-
 	color = { 188  255  122 }
 	
 	country_type = decentralized
@@ -167,7 +142,6 @@ CH2 = { #Chechehet
 	capital = STATE_RIO_NEGRO
 }
 PUH = { #Puelche
-
 	color = { 102  105  255 }
 	
 	country_type = decentralized
@@ -178,7 +152,6 @@ PUH = { #Puelche
 	capital = STATE_PATAGONIA
 }
 M2N = { #Maranhão
-
 	color = { 175  170  0 }
 	
 	country_type = recognized
@@ -189,7 +162,6 @@ M2N = { #Maranhão
 	capital = STATE_MARANHAO
 }
 NEB = { #Dutch Brazil
-
 	color = { 168 112 63 }
 	
 	country_type = recognized
@@ -200,7 +172,6 @@ NEB = { #Dutch Brazil
 	capital = STATE_PERNAMBUCO
 }
 VL1 = { #Vilelas
-
 	color = { 0  136  147 }
 	
 	country_type = decentralized
@@ -211,7 +182,6 @@ VL1 = { #Vilelas
 	capital = STATE_AMAZONAS
 }
 TH1 = { #Tenharim
-
 	color = { 0  136  147 }
 	
 	country_type = decentralized
@@ -222,7 +192,6 @@ TH1 = { #Tenharim
 	capital = STATE_AMAZONAS
 }
 AR1 = { #Aripiuanã
-
 	color = { 255  51  85 }
 	
 	country_type = decentralized
@@ -233,7 +202,6 @@ AR1 = { #Aripiuanã
 	capital = STATE_AMAZONAS
 }
 SRI = { #Suruí
-
 	color = { 91  72  91 }
 	
 	country_type = decentralized
@@ -244,7 +212,6 @@ SRI = { #Suruí
 	capital = STATE_AMAZONAS
 }
 DN1 = { #Deni
-
 	color = { 135  113  0 }
 	
 	country_type = decentralized
@@ -255,7 +222,6 @@ DN1 = { #Deni
 	capital = STATE_AMAZONAS
 }
 JA2 = { #Jauapery
-
 	color = { 49  97  0 }
 	
 	country_type = decentralized
@@ -266,7 +232,6 @@ JA2 = { #Jauapery
 	capital = STATE_AMAZONAS
 }
 NMK = { #Nambikwara
-
 	color = { 252  109  0 }
 	
 	country_type = decentralized
@@ -277,7 +242,6 @@ NMK = { #Nambikwara
 	capital = STATE_MATO_GROSSO
 }
 TK2 = { #Tukano
-
 	color = { 129 249 0 }
 	
 	country_type = decentralized
@@ -288,7 +252,6 @@ TK2 = { #Tukano
 	capital = STATE_AMAZONAS
 }
 MUR = { #Mura
-
 	color = { 0 93 37 }
 	
 	country_type = decentralized
@@ -299,7 +262,6 @@ MUR = { #Mura
 	capital = STATE_AMAZONAS
 }
 XI5 = { #Xingu
-
 	color = { 66  91  50 }
 	
 	country_type = decentralized
@@ -310,7 +272,6 @@ XI5 = { #Xingu
 	capital = STATE_MATO_GROSSO
 }
 WPS = { #Wapishana  
-
 	color = { 28  21  127 }
 	
 	country_type = decentralized
@@ -321,7 +282,6 @@ WPS = { #Wapishana
 	capital = STATE_AMAZONAS
 }
 KOA = { #Kokama  
-
 	color = { 128  62  28 }
 	
 	country_type = decentralized
@@ -332,7 +292,6 @@ KOA = { #Kokama
 	capital = STATE_AMAZONAS
 }
 YAA = { #Yagua 
-
 	color = { 255  93  28 }
 	
 	country_type = decentralized
@@ -343,7 +302,6 @@ YAA = { #Yagua
 	capital = STATE_AMAZONAS
 }
 KW1 = { #Kawahiva 
-
 	color = { 255  31  39 }
 	
 	country_type = decentralized
@@ -354,7 +312,6 @@ KW1 = { #Kawahiva
 	capital = STATE_LA_PAZ
 }
 CM2 = { #Kulina 
-
 	color = { 239  201  178 }
 	
 	country_type = decentralized
@@ -365,7 +322,6 @@ CM2 = { #Kulina
 	capital = STATE_LIMA
 }
 GU2 = { #Guaicurus 
-
 	color = { 156  173  237 }
 	
 	country_type = decentralized
@@ -376,7 +332,6 @@ GU2 = { #Guaicurus
 	capital = STATE_MATO_GROSSO
 }
 G1A = { #Guaianás 
-
 	color = { 0  0  93 }
 	
 	country_type = decentralized
@@ -387,7 +342,6 @@ G1A = { #Guaianás
 	capital = STATE_PARANA
 }
 YN1 = { #yanomami 
-
 	color = { 120  58  48 }
 	
 	country_type = decentralized
@@ -398,7 +352,6 @@ YN1 = { #yanomami
 	capital = STATE_BOLIVAR
 }
 PMO = { #Pemom 
-
 	color = { 183  122  69 }
 	
 	country_type = decentralized
@@ -409,7 +362,6 @@ PMO = { #Pemom
 	capital = STATE_BOLIVAR
 }
 ARW = { #Arawak 
-
 	color = { 140  132  255 }
 	
 	country_type = decentralized
@@ -420,7 +372,6 @@ ARW = { #Arawak
 	capital = STATE_GUAYANA
 }
 GTO = { #Guató 
-
 	color = { 255  255  132 }
 	
 	country_type = decentralized
@@ -431,7 +382,6 @@ GTO = { #Guató
 	capital = STATE_MATO_GROSSO
 }
 UKG = { #Ukarãngmã 
-
 	color = { 175  77  58 }
 	
 	country_type = decentralized
@@ -442,7 +392,6 @@ UKG = { #Ukarãngmã
 	capital = STATE_PARA
 }
 AP2 = { #Apinajés
-
 	color = { 96  78  58 }
 	
 	country_type = decentralized
@@ -452,7 +401,7 @@ AP2 = { #Apinajés
 	cultures = { tupinamba }
 	capital = STATE_GOIAS
 }
-CH5 = { #chiquitano 
+CH5 = { #Chiquitano 
 	color = { 224  71  206 }
 	
 	country_type = decentralized
@@ -492,7 +441,7 @@ KR1 = { #Karibes
 	cultures = { amazonian }
 	capital = STATE_GUAYANA
 }
-KAY = { #Kayapo (Entre Nara e A'we)
+KAY = { #Kayapo
 	color = { 153  149  148 }
 	
 	country_type = decentralized
@@ -511,16 +460,6 @@ AW2 = { #A'we
 	
 	cultures = { guarani }
 	capital = STATE_MATO_GROSSO
-}
-CTR = { #Catalan Republic
-	color = { 198  82  41 }
-	
-	country_type = unrecognized
-	
-	tier = principality
-	
-	cultures = { catalan }
-	capital = STATE_CATALONIA
 }
 QP1 = { #Quilombola dos Palmares
 	color = { 247  159  121 }
@@ -672,6 +611,33 @@ CHA = { #Charrua
 	cultures = { guarani }
 	capital = STATE_RIO_GRANDE_DO_SUL
 }
+
+############
+###EUROPE###
+############
+
+CTR = { #Catalan Republic
+	color = { 198  82  41 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { catalan }
+	capital = STATE_CATALONIA
+}
+
+SPH = { #Sponheim
+	color = { 22  94  5 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_RHINELAND
+}
+
 DPU = { #Duchy of Prussia
 	color = { 0  49  89 }
 	
@@ -762,7 +728,7 @@ AG1 = { #Augsburg
 	cultures = { south_german }
 	capital = STATE_BAVARIA
 }
-ULM = { #The Most Epic Nation
+ULM = { #Ulm
 	color = { 56  56  56 }
 	
 	country_type = recognized
@@ -792,7 +758,7 @@ BEG = { #Berg
 	cultures = { south_german }
 	capital = STATE_NORTH_RHINE
 }
-PLT = { #PALATINE
+PLT = { #Palatinate
 	color = { 45  51  86 }
 	
 	country_type = recognized
@@ -812,7 +778,7 @@ MNZ = { #Mainz
 	cultures = { south_german }
 	capital = STATE_HESSE
 }
-TRV = {
+TRV = { #Trier
 	color = { 137  33  62 }
 	
 	country_type = recognized
@@ -822,7 +788,7 @@ TRV = {
 	cultures = { south_german }
 	capital = STATE_NORTH_RHINE
 }
-MDG = {
+MDG = { #Magdeburg
 	color = { 82 105 177 }
 	
 	country_type = recognized
@@ -832,7 +798,7 @@ MDG = {
 	cultures = { south_german }
 	capital = STATE_ANHALT
 }
-CLG = {
+CLG = { #Cologne
 	color = { 83 63 137 }
 	
 	country_type = recognized
@@ -842,7 +808,7 @@ CLG = {
 	cultures = { south_german }
 	capital = STATE_NORTH_RHINE
 }
-MUN = {
+MUN = { #Münster
 	color = { 211  166  93 }
 	
 	country_type = recognized
@@ -852,7 +818,7 @@ MUN = {
 	cultures = { south_german }
 	capital = STATE_WESTPHALIA
 }
-CLB = {
+CLB = { #Calenberg
 	color = { 255  201  94 }
 	
 	country_type = recognized
@@ -862,7 +828,7 @@ CLB = {
 	cultures = { south_german }
 	capital = STATE_HANNOVER
 }
-WRB = {
+WRB = { #Wurzburg
 	color = { 142  94  59 }
 	
 	country_type = recognized
@@ -872,7 +838,7 @@ WRB = {
 	cultures = { south_german }
 	capital = STATE_FRANCONIA
 }
-EFR = {
+EFR = { #East Frisia
 	color = { 113  158  183 }
 	
 	country_type = recognized
@@ -882,7 +848,7 @@ EFR = {
 	cultures = { south_german }
 	capital = STATE_TYROL
 }
-NUR = {
+NUR = { #Nuremberg
 	color = { 130  48  54 }
 	
 	country_type = recognized
@@ -892,7 +858,7 @@ NUR = {
 	cultures = { south_german }
 	capital = STATE_FRANCONIA
 }
-SLZ = {
+SLZ = { #Salzburg
 	color = { 211  166  93 }
 	
 	country_type = recognized
@@ -903,7 +869,7 @@ SLZ = {
 	capital = STATE_TYROL
 }
 
-LIE = {
+LIE = { #Liége
 	color = { 255  102  122 }
 	
 	country_type = recognized
@@ -914,7 +880,7 @@ LIE = {
 	capital = STATE_WALLONIA
 }
 
-ZAP = {
+ZAP = { #Zaporozhian Cossacks
 	color = { 175  152  73 }
 	
 	country_type = unrecognized
@@ -925,7 +891,7 @@ ZAP = {
 	capital = STATE_LUHANSK
 }
 
-GEN = {
+GEN = { #Genoa
 	color = { 204  193  77 }
 	
 	country_type = recognized
@@ -936,7 +902,7 @@ GEN = {
 	capital = STATE_PIEDMONT
 }
 
-LOR = {
+LOR = { #Lorraine
 	color = { 97  91  142 }
 	
 	country_type = recognized
@@ -947,7 +913,7 @@ LOR = {
 	capital = STATE_FRANCHE_COMTE
 }
 
-BRM = {
+BRM = { #Brandenburg
 	color = { 104  76  79 }
 	
 	country_type = recognized
@@ -958,7 +924,7 @@ BRM = {
 	capital = STATE_BRANDENBURG
 }
 
-SAV = {
+SAV = { #Savoy
 	color = { 235 196 231 }
 	
 	country_type = recognized
@@ -969,7 +935,7 @@ SAV = {
 	cultures = { francoprovencal }
 }
 
-MIL = {
+MIL = { # Milan
 	color = { 204  144  47 }
 	
 	country_type = recognized
@@ -3735,7 +3701,6 @@ C35 = { #Maungwe
 
 	country_type = unrecognized
 	tier = principality
-
 	capital = s:STATE_ZAMBEZI
 	cultures = { shona }
 	religion = animist
@@ -3746,7 +3711,6 @@ C36 = { #Manyika
 
 	country_type = unrecognized
 	tier = principality
-
 	capital = s:STATE_ZAMBEZIA
 	cultures = { shona }
 	religion = animist
@@ -3757,7 +3721,6 @@ C37 = { #Mutapa
 
 	country_type = unrecognized
 	tier = kingdom
-
 	capital = s:STATE_ZAMBEZIA
 	cultures = { shona }
 	religion = animist
@@ -3801,7 +3764,6 @@ C41 = { #Menabé
 
 	country_type = unrecognized
 	tier = kingdom
-
 	capital = s:STATE_SOUTH_MADAGASCAR
 	cultures = { malagasy }
 	religion = animist
@@ -3812,7 +3774,6 @@ C42 = { #Zafimanely
 
 	country_type = unrecognized
 	tier = kingdom
-
 	capital = s:STATE_SOUTH_MADAGASCAR
 	cultures = { malagasy }
 	religion = animist
@@ -3823,7 +3784,6 @@ C43 = { #Antesaka
 
 	country_type = unrecognized
 	tier = kingdom
-
 	capital = s:STATE_SOUTH_MADAGASCAR
 	cultures = { malagasy }
 	religion = animist
@@ -3834,7 +3794,6 @@ C44 = { #Mahafaly
 
 	country_type = unrecognized
 	tier = kingdom
-
 	capital = s:STATE_SOUTH_MADAGASCAR
 	cultures = { malagasy }
 	religion = animist
@@ -3845,7 +3804,6 @@ C45 = { #Boina
 
 	country_type = unrecognized
 	tier = kingdom
-
 	capital = s:STATE_NORTH_MADAGASCAR
 	cultures = { malagasy }
 	religion = animist
@@ -3856,7 +3814,6 @@ C46 = { #Betsimisaraka
 
 	country_type = unrecognized
 	tier = kingdom
-
 	capital = s:STATE_NORTH_MADAGASCAR
 	cultures = { malagasy }
 	religion = animist
@@ -3867,7 +3824,6 @@ C47 = { #Imerina
 
 	country_type = unrecognized
 	tier = kingdom
-
 	capital = s:STATE_NORTH_MADAGASCAR
 	cultures = { malagasy }
 	religion = animist
@@ -4052,7 +4008,6 @@ C63 = { #Ennarea
 ###Americas###
 ##############
 NFR = { #New France
-
 	color = { 160 96 234 }
 	
 	country_type = recognized
@@ -4063,7 +4018,6 @@ NFR = { #New France
 	capital = STATE_QUEBEC
 }
 MAY = { #Mayas
-
 	color = { 160 52 44 }
 	
 	country_type = decentralized
@@ -5120,7 +5074,6 @@ D67 = { #Akimel O'odham
 		
 	country_type = decentralized
 	tier = principality
-
 	cultures = { uto_aztecan }
 	capital = STATE_ARIZONA
 }
@@ -5300,7 +5253,6 @@ D85 = { #Miwok
 		
 	country_type = unrecognized
 	tier = principality
-
 	cultures = { penutian }
 	capital = STATE_CALIFORNIA
 }
@@ -5507,7 +5459,6 @@ E07 = { #Kwakwaka'wakw
 	
 	country_type = decentralized
 	tier = principality
-
 	cultures = { salish }
 	capital = STATE_BRITISH_COLUMBIA
 }
@@ -5517,7 +5468,6 @@ E08 = { #Kaska
 	
 	country_type = decentralized
 	tier = principality
-
 	cultures = { athabaskan }
 	capital = STATE_YUKON_TERRITORY
 }
@@ -5527,7 +5477,6 @@ E09 = { #Sekani
 	
 	country_type = decentralized
 	tier = principality
-
 	cultures = { athabaskan }
 	capital = STATE_YUKON_TERRITORY
 }
@@ -5537,8 +5486,7 @@ E10 = { #Haida
 	
 	country_type = decentralized
 	tier = principality
-
-	cultures = { salish }
+	cultures = { athabaskan }
 	capital = STATE_BRITISH_COLUMBIA
 }
 
@@ -5547,7 +5495,6 @@ E11 = { #Lingít
 	
 	country_type = decentralized
 	tier = principality
-
 	cultures = { athabaskan }
 	capital = STATE_ALASKA
 }
@@ -5557,7 +5504,6 @@ E12 = { #Iñupiat
 	
 	country_type = decentralized
 	tier = principality
-
 	cultures = { inuit }
 	capital = STATE_ALASKA
 }
@@ -5567,7 +5513,6 @@ E13 = { #Tanana
 	
 	country_type = decentralized
 	tier = principality
-
 	cultures = { athabaskan }
 	capital = STATE_ALASKA
 }
@@ -5577,7 +5522,6 @@ E14 = { #Sugpiat
 	
 	country_type = decentralized
 	tier = principality
-
 	cultures = { inuit }
 	capital = STATE_ALASKA
 }
@@ -5587,7 +5531,6 @@ E15 = { #Yup'ik
 	
 	country_type = decentralized
 	tier = principality
-
 	cultures = { inuit }
 	capital = STATE_ALASKA
 }
@@ -5597,7 +5540,6 @@ E16 = { #Unangam Tanangin
 	
 	country_type = decentralized
 	tier = principality
-
 	cultures = { inuit }
 	capital = STATE_ALASKA
 }
@@ -5607,7 +5549,6 @@ E17 = { #Dena'ina
 	
 	country_type = decentralized
 	tier = principality
-
 	cultures = { athabaskan }
 	capital = STATE_ALASKA
 }

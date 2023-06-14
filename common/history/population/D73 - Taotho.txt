@@ -1,0 +1,6 @@
+﻿POPULATION = {
+    c:D73 = {
+        effect_starting_pop_wealth_eurasia = yes
+        effect_starting_pop_literacy_illiterate = yes
+    }
+}

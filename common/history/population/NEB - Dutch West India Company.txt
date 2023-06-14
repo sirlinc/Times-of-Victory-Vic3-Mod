@@ -1,0 +1,6 @@
+﻿POPULATION = {
+    c:NEB = {
+        effect_starting_pop_wealth_eurasia = yes
+        effect_starting_pop_literacy_euro = yes
+    }
+}

@@ -1,10 +1,10 @@
 ﻿COUNTRIES = {
 	c:PER = {
-		effect_starting_technology_tier_2_tech = yes
+		effect_starting_technology_tier_3_tech = yes
 		effect_starting_politics_traditional = yes
-				ig:ig_devout = {
-			add_ruling_interest_group = yes
-			set_interest_group_name = ig_shia_madrasahs
-		}
+		                ig:ig_devout = {
+    add_ruling_interest_group = yes
+    set_interest_group_name = ig_shia_madrasahs
+}
 	}
 }

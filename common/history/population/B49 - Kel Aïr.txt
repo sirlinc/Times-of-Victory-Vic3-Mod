@@ -1,6 +1,0 @@
-POPULATION = {
-	c:B49 = {
-		effect_starting_pop_wealth_subsistence = yes
-		effect_starting_pop_literacy_baseline = yes
-	}
-}

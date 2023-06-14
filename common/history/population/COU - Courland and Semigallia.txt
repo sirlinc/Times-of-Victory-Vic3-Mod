@@ -1,6 +1,6 @@
 ﻿POPULATION = {
     c:COU = {
-        effect_starting_pop_wealth_silkroad = yes
+        effect_starting_pop_wealth_eurasia = yes
         effect_starting_pop_literacy_euro = yes
     }
 }

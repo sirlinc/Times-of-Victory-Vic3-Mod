@@ -2,8 +2,5 @@
 	c:EFR = {
 		effect_starting_technology_tier_3_tech = yes
 		effect_starting_politics_traditional = yes
-		                ig:ig_devout = {
-                        set_interest_group_name = ig_catholic_church
-                }
 	}
 }

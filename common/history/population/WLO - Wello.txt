@@ -1,6 +1,0 @@
-﻿POPULATION = {
-    c:WLO = {
-        effect_starting_pop_wealth_eurasia = yes
-        effect_starting_pop_literacy_baseline = yes
-    }
-}

@@ -1,6 +1,0 @@
-POPULATION = {
-	c:B51 = {
-		effect_starting_pop_wealth_africa = yes
-		effect_starting_pop_literacy_baseline = yes
-	}
-}

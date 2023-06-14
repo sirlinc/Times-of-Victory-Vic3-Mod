@@ -1,15 +1,21 @@
 ﻿BUILDINGS={
 	s:STATE_DISTRICT_OF_COLUMBIA={
+		region_state:ENG={ #England
+		}
 	}
 	s:STATE_LOUISIANA={
+		region_state:C91={ #Choctaw
+		}
 	}
 	s:STATE_NEW_YORK={
-		region_state:NET={
+		region_state:NET={ #Netherlands
 			create_building={
 				building="building_logging_camp"
 				level=1
 				reserves=1
 			}
+		}
+		region_state:C78={ #Haudenosaunee
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -21,7 +27,7 @@
 				reserves=1
 			}
 		}
-		region_state:IRO={
+		region_state:IRO={ #Haudenosaunee
 			create_building={
 				building="building_logging_camp"
 				level=1
@@ -45,7 +51,7 @@
 		}
 	}
 	s:STATE_VIRGINIA={
-		region_state:ENG={
+		region_state:ENG={ #England
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -56,60 +62,99 @@
 				level=2
 				reserves=1
 			}
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-			}
+		}
+		region_state:C83={ #Powhatan
 		}
 	}
 	s:STATE_ALASKA={
+		region_state:E10={
+		}
 	}
 	s:STATE_WASHINGTON={
+		region_state:D59={ #Schitsu'umsh
+		}
 	}
 	s:STATE_OREGON={
+		region_state:D64={ #Numu
+		}
 	}
 	s:STATE_IDAHO={
+		region_state:D54={ #Kootenai
+		}
 	}
 	s:STATE_COLORADO={
+		region_state:D30={ #Ka'igwu
+		}
 	}
 	s:STATE_WYOMING={
+		region_state:D37={ #Lakota
+		}
 	}
 	s:STATE_MONTANA={
+		region_state:D37={ #Lakota
+		}
 	}
 	s:STATE_NORTH_DAKOTA={
+		region_state:C98={ #Nakota
+		}
 	}
 	s:STATE_SOUTH_DAKOTA={
+		region_state:D02={ #Yankton
+		}
 	}
 	s:STATE_NEBRASKA={
+		region_state:D31={ #Kaw
+		}
 	}
 	s:STATE_KANSAS={
+		region_state:D13={ #Wazhazhe
+		}
 	}
 	s:STATE_OKLAHOMA={
+		region_state:D13={ #Wazhazhe
+		}
 	}
 	s:STATE_ARKANSAS={
+		region_state:D14={ #Quapaw
+		}
 	}
 	s:STATE_MISSOURI={
+		region_state:D11={ #Chiwere
+		}
 	}
 	s:STATE_IOWA={
+		region_state:D02={ #Yankton
+		}
 	}
 	s:STATE_MINNESOTA={
+		region_state:C98={ #Nakota
+		}
 	}
 	s:STATE_WISCONSIN={
+		region_state:D05={ #Mamaceqtaw
+		}
 	}
 	s:STATE_INDIANA={
+		region_state:C94={ #Three Fires Confederacy
+		}
 	}
 	s:STATE_MICHIGAN={
+		region_state:C94={ #Three Fires Confederacy
+		}
 	}
 	s:STATE_OHIO={
+		region_state:C80={ #Erie
+		}
 	}
 	s:STATE_KENTUCKY={
-		region_state:CHE={
+		region_state:CHE={ #Cherokee
 			create_building={
 				building="building_temperate_farmland"
 				level=1
 				reserves=1
 			}
+		}
+		region_state:C84={ #Cherokee
 			create_building={
 				building="building_prime_pasture"
 				level=2
@@ -123,12 +168,14 @@
 		}
 	}
 	s:STATE_TENNESSEE={
-		region_state:CHE={
+		region_state:CHE={ #Cherokee
 			create_building={
 				building="building_temperate_farmland"
 				level=1
 				reserves=1
 			}
+		}
+		region_state:C84={ #Cherokee
 			create_building={
 				building="building_prime_pasture"
 				level=2
@@ -142,34 +189,52 @@
 		}
 	}
 	s:STATE_MISSISSIPPI={
+		region_state:C90={ #Chickasaw
+		}
 	}
 	s:STATE_ALABAMA={
+		region_state:C84={ #Cherokee
+		}
 	}
 	s:STATE_FLORIDA={
-		region_state:MEX={
+		region_state:MEX={ #Mexico
 			create_building={
 				building="building_fishing_wharf"
 				level=1
 				reserves=1
 			}
 		}
+		region_state:C88={ #Timucua
+		}
 	}
 	s:STATE_GEORGIA={
+		region_state:C84={ #Cherokee
+		}
 	}
 	s:STATE_WEST_VIRGINIA={
+		region_state:C82={ #Shawnee
+		}
 	}
 	s:STATE_MARYLAND={
+		region_state:C79={ #Susquehannock
+		}
 	}
 	s:STATE_DELAWARE={
+		region_state:SWE={ #Sweden
+		}
 	}
 	s:STATE_PENNSYLVANIA={
+		region_state:C78={ #Haudenosaunee
+		}
 	}
 	s:STATE_NEW_JERSEY={
-		region_state:SWE={
+		region_state:SWE={ #Sweden
 			create_building={
 				building="building_fishing_wharf"
 				level=1
 				reserves=1
+		region_state:C81={ #Lenape
+		}
 			}
 			create_building={
 				building="building_temperate_farmland"
@@ -179,9 +244,11 @@
 		}
 	}
 	s:STATE_ILLINOIS={
+		region_state:C94={ #Three Fires Confederacy
+		}
 	}
 	s:STATE_RHODE_ISLAND={
-		region_state:ENG={
+		region_state:ENG={ #England
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -190,9 +257,11 @@
 		}
 	}
 	s:STATE_CONNECTICUT={
+		region_state:C75={ #Quinnipiac
+		}
 	}
 	s:STATE_MASSACHUSETTS={
-		region_state:ENG={
+		region_state:ENG={ #England
 			create_building={
 				building="building_temperate_farmland"
 				level=1
@@ -201,16 +270,22 @@
 		}
 	}
 	s:STATE_NEW_HAMPSHIRE={
+		region_state:C71={ #Abenaki
+		}
 	}
 	s:STATE_VERMONT={
+		region_state:C71={ #Abenaki
+		}
 	}
 	s:STATE_MAINE={
-		region_state:ENG={
+		region_state:ENG={ #England
 			create_building={
 				building="building_logging_camp"
 				level=1
 				reserves=1
 			}
+		}
+		region_state:C71={ #Abenaki
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -219,19 +294,31 @@
 		}
 	}
 	s:STATE_NORTH_CAROLINA={
+		region_state:C84={ #Cherokee
+		}
 	}
 	s:STATE_UTAH={
+		region_state:D69={ #Diné
+		}
 	}
 	s:STATE_SOUTH_CAROLINA={
+		region_state:C86={ #Catawba
+		}
 	}
 	s:STATE_HAWAIIAN_ISLANDS={
+		region_state:A93={ #Hawaiʻi
+		}
 	}
 	s:STATE_ONTARIO={
+		region_state:C92={ #Wendat
+		}
 	}
 	s:STATE_NEW_BRUNSWICK={
+		region_state:C66={ #Mi'kmaq
+		}
 	}
 	s:STATE_QUEBEC={
-		region_state:NFR={
+		region_state:NFR={ #New France
 			create_building={
 				building="building_logging_camp"
 				level=1
@@ -255,64 +342,92 @@
 		}
 	}
 	s:STATE_NEWFOUNDLAND={
-		region_state:ENG={
+		region_state:ENG={ #England
 			create_building={
 				building="building_fishing_wharf"
 				level=1
 				reserves=1
 			}
 		}
-		region_state:FRA={
+		region_state:C64={ #Beothuk
+		}
+		region_state:FRA={ #France
 		}
 	}
 	s:STATE_ALBERTA={
+		region_state:D46={ #Tlicho
+		}
 	}
 	s:STATE_BRITISH_COLUMBIA={
+		region_state:D54={ #Kootenai
+		}
 	}
 	s:STATE_SASKATCHEWAN={
+		region_state:C98={ #Nakota
+		}
 	}
 	s:STATE_MANITOBA={
+		region_state:C96={ #Maskegon
+		}
 	}
 	s:STATE_YUKON_TERRITORY={
+		region_state:D48={ #Siglitun
+		}
 	}
 	s:STATE_NORTHWEST_TERRITORIES={
+		region_state:D43={ #Aivilingmiut
+		}
 	}
 	s:STATE_NUNAVUT={
+		region_state:D44={ #Netsilingmiut
+		}
 	}
 	s:STATE_BERMUDA={
+		region_state:ENG={ #England
+		}
 	}
 	s:STATE_TEXAS={
+		region_state:D16={ #Hasinai
+		}
 	}
 	s:STATE_NEVADA={
-		region_state:MEX={
+		region_state:MEX={ #Mexico
+		}
+		region_state:D86={
 		}
 	}
 	s:STATE_ARIZONA={
-		region_state:MEX={
+		region_state:MEX={ #Mexico
 		}
-		region_state:NVJ={
+		region_state:D76={ #Mojave
+		}
+		region_state:NVJ={ #Navajo
 		}
 	}
 	s:STATE_NEW_MEXICO={
-		region_state:MEX={
+		region_state:MEX={ #Mexico
 		}
-		region_state:NVJ={
+		region_state:NVJ={ #Navajo
 		}
-		region_state:COM={
+		region_state:COM={ #Comanche
 		}
-		region_state:APC={
+		region_state:APC={ #Apache
 		}
 	}
 	s:STATE_CALIFORNIA={
-		region_state:MEX={
+		region_state:MEX={ #Mexico
+		}
+		region_state:D63={ #Western Shoshone
 		}
 	}
 	s:STATE_SONORA={
-		region_state:MEX={
+		region_state:MEX={ #Mexico
+		}
+		region_state:D68={
 		}
 	}
 	s:STATE_CHIHUAHUA={
-		region_state:MEX={
+		region_state:MEX={ #Mexico
 			create_building={
 				building="building_prime_pasture"
 				level=1
@@ -321,7 +436,7 @@
 		}
 	}
 	s:STATE_RIO_GRANDE={
-		region_state:MEX={
+		region_state:MEX={ #Mexico
 			create_building={
 				building="building_temperate_farmland"
 				level=1
@@ -340,7 +455,7 @@
 		}
 	}
 	s:STATE_DURANGO={
-		region_state:MEX={
+		region_state:MEX={ #Mexico
 			create_building={
 				building="bg_marginal_pasture"
 				level=1
@@ -349,7 +464,7 @@
 		}
 	}
 	s:STATE_SINALOA={
-		region_state:MEX={
+		region_state:MEX={ #Mexico
 			create_building={
 				building="bg_temperate_farmland"
 				level=1
@@ -358,7 +473,7 @@
 		}
 	}
 	s:STATE_YUCATAN={
-		region_state:MEX={
+		region_state:MEX={ #Mexico
 			create_building={
 				building="building_sugar_plantation"
 				level=1
@@ -375,7 +490,7 @@
 		}
 	}
 	s:STATE_MEXICO={
-		region_state:MEX={
+		region_state:MEX={ #Mexico
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -414,7 +529,7 @@
 		}
 	}
 	s:STATE_VERACRUZ = {
-		region_state:MEX={
+		region_state:MEX={ #Mexico
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -448,7 +563,7 @@
 		}
 	}
 	s:STATE_GUERRERO={
-		region_state:MEX={
+		region_state:MEX={ #Mexico
 			create_building={
 				building="bg_tropical_farmland"
 				level=1
@@ -472,7 +587,7 @@
 		}
 	}
 	s:STATE_OAXACA={
-		region_state:MEX={
+		region_state:MEX={ #Mexico
 			create_building={
 				building="bg_tropical_farmland"
 				level=1
@@ -491,7 +606,7 @@
 		}
 	}
 	s:STATE_JALISCO={
-		region_state:MEX={
+		region_state:MEX={ #Mexico
 			create_building={
 				building="building_logging_camp"
 				level=2
@@ -505,7 +620,7 @@
 		}
 	}
 	s:STATE_ZACATECAS={
-		region_state:MEX={
+		region_state:MEX={ #Mexico
 			create_building={
 				building="building_temperate_farmland"
 				level=1
@@ -524,7 +639,7 @@
 		}
 	}
 	s:STATE_BAJIO={
-		region_state:MEX={
+		region_state:MEX={ #Mexico
 			create_building={
 				building="building_gold_mine"
 				level=3
@@ -543,7 +658,11 @@
 		}
 	}
 	s:STATE_CHIAPAS={
-}
+		region_state:MEX={ #Mexico
+		}
+	}
 	s:STATE_BAJA_CALIFORNIA={
-}
+		region_state:D77={ #Cocopah
+		}
+	}
 }

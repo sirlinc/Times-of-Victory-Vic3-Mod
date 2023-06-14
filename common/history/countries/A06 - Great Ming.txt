@@ -8,6 +8,10 @@
 			remove_ideology = ideology_moralist
 			add_ideology = ideology_confucian
 		}
+				ig:ig_intelligentsia = { 
+			set_interest_group_name = ig_literati
+			remove_ideology = ideology_anti_clerical
+		}
 				ig:ig_landowners = { 
 			set_interest_group_name = ig_scholar_officials
 			remove_ideology = ideology_paternalistic
