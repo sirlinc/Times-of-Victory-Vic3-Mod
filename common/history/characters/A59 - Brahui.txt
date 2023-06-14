@@ -1,9 +1,9 @@
 ﻿CHARACTERS = {
 	c:A59 = {
 		create_character = {
-			first_name = "gali_yalkarriwuy"
-			last_name = "gurruwiwi"
-			age = 40
+			first_name = "mir_ahmad"
+			last_name = "khan"
+			age = 18
 			ruler = yes
 		}
 	}

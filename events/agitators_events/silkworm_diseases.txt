@@ -452,7 +452,7 @@ silkworm_diseases.5 = {
 			name = modifier_art_silk_research
 			months = short_modifier_time
 		}
-		add_technology_progress = { progress = 4000 technology = art_silk }
+		add_technology_progress = { progress = 4000 technology = blended_fabrics }
 	}
 	option = {
 		name = silkworm_diseases.5.b

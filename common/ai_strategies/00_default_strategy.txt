@@ -13,7 +13,7 @@ ai_strategy_default = {
 	# The AI will avoid getting this much infamy unless it's a wargoal it really wants
 	# Using a different value in a strategy will override this value
 	undesirable_infamy_level = {
-		value = 50
+		value = 75
 	}
 	
 	# The AI will never deliberately add wargoals that will bring its infamy this high
@@ -61,7 +61,7 @@ ai_strategy_default = {
 	# Added to base boldness in diplomatic plays	
 	# Using this value in other strategies will function additively
 	diplomatic_play_boldness = {
-		value = 50 
+		value = 75 
 
 		if = { #Taiping should never surrender against China.
 			limit = {
@@ -72,7 +72,7 @@ ai_strategy_default = {
 			add = 1000
 		}
 
-		if = { #Caucasian states should never surrender against Russia
+		if = { #Caucasian states and nomads (Except Kalmyks) should never surrender against Russia
 			limit = {
 				OR = {
 					AND = {		
@@ -80,8 +80,36 @@ ai_strategy_default = {
 						THIS = c:CIR	
 					}
 					AND = {		
-						exists = c:CHC
-						THIS = c:CHC	
+						exists = c:CRI
+						THIS = c:CRI	
+					}
+					AND = {		
+						exists = c:ZAP
+						THIS = c:ZAP
+					}
+					AND = {		
+						exists = c:KAZ
+						THIS = c:KAZ
+					}
+					AND = {		
+						exists = c:A01
+						THIS = c:A01
+					}
+					AND = {		
+						exists = c:A02
+						THIS = c:A02
+					}
+					AND = {		
+						exists = c:A03
+						THIS = c:A03
+					}
+					AND = {		
+						exists = c:A04
+						THIS = c:A04
+					}
+					AND = {		
+						exists = c:A94
+						THIS = c:A94
 					}
 				}
 				c:RUS = {
@@ -90,23 +118,11 @@ ai_strategy_default = {
 			}
 			add = 1000
 		}
-
-		if = { #Likewise for Kazakhstan.
-			limit = {
-				exists = c:KAZ
-				THIS = c:KAZ
-				is_diplomatic_play_initiator = yes
-			}
-			add = 1000
-		}
 		
 		if = { #Likewise for Mughals.
 			limit = {
-				exists = c:MUG
-				THIS = c:MUG
-				c:BIC = {
+				exists = c:A43
 					is_diplomatic_play_initiator = yes
-				}
 			}
 			add = 1000
 		}
@@ -581,8 +597,28 @@ ai_strategy_default = {
 		}
 		if = { 
 			limit = {
-				exists = c:CHC
-				THIS = c:CHC
+				exists = c:CRI
+				THIS = c:CRI
+				scope:target_country = {
+					this = c:RUS
+				}
+			}
+			add = 5
+		}
+		if = { 
+			limit = {
+				exists = c:ZAP
+				THIS = c:ZAP
+				scope:target_country = {
+					this = c:RUS
+				}
+			}
+			add = 5
+		}
+		if = { 
+			limit = {
+				exists = c:A94
+				THIS = c:A94
 				scope:target_country = {
 					this = c:RUS
 				}
@@ -3868,21 +3904,9 @@ ai_strategy_default = {
 					has_technology_researched = national_mythos
 					OR = {
 						AND = {	
-							exists = c:KZH
+							exists = c:A94
 							scope:target_country = {
-								this = c:KZH
-							}
-						}
-						AND = {	
-							exists = c:UZH
-							scope:target_country = {
-								this = c:UZH
-							}
-						}
-						AND = {	
-							exists = c:OZH
-							scope:target_country = {
-								this = c:OZH
+								this = c:A94
 							}
 						}					
 						AND = {	
@@ -4483,16 +4507,8 @@ ai_strategy_default = {
 					has_technology_researched = national_mythos
 					OR = {
 						AND = {	
-							exists = c:KZH
-							scope:target_country = c:KZH
-						}
-						AND = {	
-							exists = c:UZH
-							scope:target_country = c:UZH
-						}
-						AND = {	
-							exists = c:OZH
-							scope:target_country = c:OZH
+							exists = c:A94
+							scope:target_country = c:A94
 						}
 					}
 				}
@@ -4663,17 +4679,9 @@ ai_strategy_default = {
 			value = 100
 
 			if = {
-				limit = { # The EIC/Raj should never seek independence as it will lead to its demise via bic_breakup.1.
-					exists = c:BIC
-					this = c:BIC
-				}
-				multiply = 0.0
-			}
-
-			if = {
 				limit = { # Likewise for the Dutch East Indies.
-					exists = c:DEI
-					this = c:DEI
+					exists = c:A23
+					this = c:A23
 				}
 				multiply = 0.0
 			}

@@ -1,4 +1,10 @@
 ﻿CHARACTERS = {
 	c:BLG = {
+		create_character = {
+			first_name = "wira"
+			last_name = "keranda"
+			age = 25
+			ruler = yes
+		}
 	}
 }

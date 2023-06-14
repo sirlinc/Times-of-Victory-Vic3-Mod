@@ -803,7 +803,8 @@ dreadnought = {
 	ai_weight = {
 		value = 1
 		}
-}sea_la	n}e_strategies = {
+	}
+sea_lane_strategies = {
 	# Unlocks Sea Lane Strategies PM in Naval Bases
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/sea_lane_strategies.dds"
@@ -1090,7 +1091,7 @@ minie_ball = {
 		value = 1
 	}
 }
-high_explosives = {
+explosive_compounds = {
 	era = era_6
 	texture = "gfx/interface/icons/invention_icons/dynamite.dds"
 	category = military
@@ -1117,7 +1118,7 @@ breech_loading_artillery = {
 	texture = "gfx/interface/icons/invention_icons/breech_loading_artillery.dds"
 	category = military
 	unlocking_technologies = {
-		high_explosives
+		explosive_compounds
 	}
 	ai_weight = {
 		value = 1
@@ -1139,7 +1140,7 @@ nitroglycerin = {
 	texture = "gfx/interface/icons/invention_icons/nitroglycerin.dds"
 	category = military
 	unlocking_technologies = {
-		high_explosives
+		explosive_compounds
 	}
 	ai_weight = {
 		value = 1

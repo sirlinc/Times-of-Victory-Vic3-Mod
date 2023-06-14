@@ -1,4 +1,10 @@
 ﻿CHARACTERS = {
 	c:A62 = {
+		create_character = {
+			first_name = "gali_yalkarriwuy"
+			last_name = "gurruwiwi"
+			age = 40
+			ruler = yes
+		}
 	}
 }

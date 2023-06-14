@@ -176,7 +176,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_arid_plantation"
+				building="building_arid_farmland"
 				level=2
 				reserves=1
 			}

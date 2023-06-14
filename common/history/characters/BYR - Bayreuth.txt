@@ -1,4 +1,10 @@
 ﻿CHARACTERS = {
 	c:BYR = {
+		create_character = {
+			first_name = "christian"
+			last_name = "hohenzollern"
+			age = 65
+			ruler = yes
+		}
 	}
 }

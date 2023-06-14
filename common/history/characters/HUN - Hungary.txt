@@ -1,7 +1,7 @@
 ﻿CHARACTERS = {
 	c:HUN = {
 		create_character = {
-			first_name = "ferdinand_IV"
+			first_name = "ferdinand_iv"
 			last_name = "habsburg"
 			age = 8
 			ruler = yes

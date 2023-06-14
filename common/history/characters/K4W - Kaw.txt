@@ -1,4 +1,0 @@
-﻿CHARACTERS = {
-	c:K4W = {
-	}
-}

@@ -1,7 +1,7 @@
 ﻿CHARACTERS = {
 	c:C02 = {
 		create_character = {
-			first_name = "njinga"
+			first_name = "nzinga_ana_de_sousa"
 			last_name = "mbande"
 			age = 62
 			ruler = yes

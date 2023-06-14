@@ -1,4 +1,4 @@
-﻿﻿#Government Administration
+﻿#Government Administration
 
 pm_repositories = {
     texture = "gfx/interface/icons/production_method_icons/paperback_novels.dds"

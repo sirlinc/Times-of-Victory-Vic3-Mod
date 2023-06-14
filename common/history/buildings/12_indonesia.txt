@@ -104,11 +104,6 @@
 		}
 		region_state:A34={
 			create_building={
-				building="building_dye_plantation"
-				level=1
-				reserves=1
-			}
-			create_building={
 				building="building_wetlands_farmland"
 				level=1
 				reserves=1
@@ -173,11 +168,6 @@
 		region_state:BNJ={
 			create_building={
 				building="building_tropical_farmland"
-				level=2
-				reserves=1
-			}
-			create_building={
-				building="building_dye_plantation"
 				level=2
 				reserves=1
 			}
@@ -264,11 +254,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_dye_plantation"
-				level=2
-				reserves=1
-			}
-			create_building={
 				building="building_sugar_plantation"
 				level=1
 				reserves=1
@@ -317,11 +302,6 @@
 			create_building={
 				building="building_tea_plantation"
 				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_dye_plantation"
-				level=2
 				reserves=1
 			}
 			create_building={
@@ -476,11 +456,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_dye_plantation"
-				level=2
-				reserves=1
-			}
-			create_building={
 				building="building_port"
 				level=1
 				reserves=1
@@ -506,11 +481,6 @@
 		region_state:A29={
 			create_building={
 				building="building_tea_plantation"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_dye_plantation"
 				level=1
 				reserves=1
 			}

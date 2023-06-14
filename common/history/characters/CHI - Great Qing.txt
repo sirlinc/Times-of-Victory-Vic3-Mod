@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	CHI = {
+	c:CHI = {
 		create_character = {
 			first_name = "shunzhi"
 			last_name = "of_the_aisin-gioro"

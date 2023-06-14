@@ -1,4 +1,10 @@
 ﻿CHARACTERS = {
 	c:HAR = {
+		create_character = {
+			first_name = "ali_bin_dawud"
+			last_name = "bin_qasim"
+			age = 50
+			ruler = yes
+		}
 	}
 }

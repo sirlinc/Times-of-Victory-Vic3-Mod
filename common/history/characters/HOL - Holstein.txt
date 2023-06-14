@@ -3,7 +3,7 @@
 		create_character = {
 			first_name = "frederick_iii"
 			last_name = "holstein_gottorp"
-			age = 
+			age = 55
 			ruler = yes
 		}
 	}

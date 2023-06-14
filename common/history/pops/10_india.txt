@@ -1508,7 +1508,7 @@
 			}
 			create_pop = {
 				culture = marathi
-				eligion = shiite
+				religion = shiite
 				size=2399855
 			}
 			create_pop = {

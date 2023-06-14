@@ -1,7 +1,7 @@
 ﻿CHARACTERS = {
 	c:FRA = {
 		create_character = {
-			first_name = "louis_XIV"
+			first_name = "louis_xiv"
 			last_name = "bourbon"
 			age = 10
 			ruler = yes

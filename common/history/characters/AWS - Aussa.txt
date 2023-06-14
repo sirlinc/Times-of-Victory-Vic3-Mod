@@ -1,4 +1,10 @@
 ﻿CHARACTERS = {
 	c:AWS = {
+		create_character = {
+			first_name = "malaq_adan"
+			last_name = "saqid"
+			age = 61
+			ruler = yes
+		}
 	}
 }

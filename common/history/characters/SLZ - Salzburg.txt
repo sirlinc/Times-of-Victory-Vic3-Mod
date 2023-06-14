@@ -1,4 +1,10 @@
 ﻿CHARACTERS = {
 	c:SLZ = {
+		create_character = {
+			first_name = "paris"
+			last_name = "von_lodron"
+			age = 62
+			ruler = yes
+		}
 	}
 }

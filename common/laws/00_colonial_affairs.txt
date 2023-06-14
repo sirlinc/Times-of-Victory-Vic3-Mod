@@ -58,7 +58,7 @@ law_exploitation = {
 	
 	ai_will_do = {
 		OR = {
-			has_law = law_type:law_colonial_resettlement
+			has_law = law_type:law_resettlement
 			navy_size >= 50
 		}
 	}
@@ -112,7 +112,7 @@ law_paternalism = {
 	
 	ai_will_do = {
 		OR = {
-			has_law = law_type:law_colonial_resettlement
+			has_law = law_type:law_resettlement
 			navy_size >= 50
 		}
 	}
@@ -140,7 +140,7 @@ law_assimilation = {
 	
 	ai_will_do = {
 		OR = {
-			has_law = law_type:law_colonial_resettlement
+			has_law = law_type:law_resettlement
 			navy_size >= 50
 		}
 	}

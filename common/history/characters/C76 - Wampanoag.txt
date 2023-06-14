@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:C76 = {
+		create_character = {
+			first_name = "massasoit"
+			last_name = "of_wampanoag"
+			age = 64
+			ruler = yes
+		}
+	}
+}

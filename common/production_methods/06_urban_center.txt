@@ -142,7 +142,7 @@ pm_no_power_grid_infrastructure = {
     }
 }
 
-pm_neighborhood_power_grid = {
+pm_neighborhood_power_grids = {
 	texture = "gfx/interface/icons/production_method_icons/power_grid.dds"
 	pollution_generation = 5
 

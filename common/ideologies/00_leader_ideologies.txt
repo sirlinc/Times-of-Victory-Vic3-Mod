@@ -1163,7 +1163,7 @@ ideology_jingoist_leader = {
 			limit = {
 				owner = {
 					any_rival_country = {
-						any_neighbouring_sta	te = {
+						any_neighbouring_state = {
 							owner = root.owner
 						}
 					}

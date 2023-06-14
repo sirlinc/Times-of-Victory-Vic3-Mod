@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:C71 = {
+		create_character = {
+			first_name = "abbigadasset"
+			last_name = "of_abenaki"
+			age = 50
+			ruler = yes
+		}
+	}
+}

@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:HEK = {
+		create_character = {
+			first_name = "wilhelm_vi"
+			last_name = "von_hessen_kassel"
+			age = 33
+			ruler = yes
+		}
+	}
+}

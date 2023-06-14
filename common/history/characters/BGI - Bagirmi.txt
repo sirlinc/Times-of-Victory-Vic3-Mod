@@ -1,4 +1,10 @@
 ﻿CHARACTERS = {
 	c:BGI = {
+		create_character = {
+			first_name = "ngawang_namgyal"
+			last_name = "rinpoche"
+			age = 51
+			ruler = yes
+		}
 	}
 }

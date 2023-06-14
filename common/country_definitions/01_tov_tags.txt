@@ -5179,7 +5179,7 @@ D77 = { #Cocopah
 }
 
 D78 = { #Cochimí
-	color = { 181, 100 155 }
+	color = { 181 100 155 }
 	
 	country_type = decentralized
 	tier = principality

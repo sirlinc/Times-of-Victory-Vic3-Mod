@@ -2821,7 +2821,7 @@ pm_arc_welding_shipbuilding = {
 	pollution_generation = 20
 	
 	unlocking_technologies = {
-		arc_welding
+		engineering_science
 	}
 	
 	building_modifiers = {
@@ -3360,7 +3360,7 @@ pm_nitroglycerin = {
     texture = "gfx/interface/icons/production_method_icons/cartridge_crafting.dds"
 
     unlocking_technologies = {
-		explosive_compounds
+		nitroglycerin
 	}
 
     building_modifiers = {

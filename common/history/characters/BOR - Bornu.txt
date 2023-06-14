@@ -1,4 +1,10 @@
 ﻿CHARACTERS = {
 	c:BOR = {
+		create_character = {
+			first_name = "ali_iii"
+			last_name = "sayfawa"
+			age = 22
+			ruler = yes
+		}
 	}
 }

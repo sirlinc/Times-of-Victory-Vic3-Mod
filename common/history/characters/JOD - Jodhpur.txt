@@ -1,4 +1,10 @@
 ﻿CHARACTERS = {
 	c:JOD = {
+		create_character = {
+			first_name = "jaswant"
+			last_name = "singh"
+			age = 32
+			ruler = yes
+		}
 	}
 }

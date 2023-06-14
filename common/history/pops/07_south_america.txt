@@ -954,7 +954,7 @@ POPS = {
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size=8972
+				size=50
 			}
 		}
 	}

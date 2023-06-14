@@ -1,9 +1,9 @@
 ﻿CHARACTERS = {
 	c:BHU = {
 		create_character = {
-			first_name = "ngawang_namgyal"
-			last_name = "rinpoche"
-			age = 51
+			first_name = "karan"
+			last_name = "singh"
+			age = 26
 			ruler = yes
 		}
 	}

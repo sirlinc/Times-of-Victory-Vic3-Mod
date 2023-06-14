@@ -2,7 +2,7 @@
 	c:MNZ = {
 		create_character = {
 			first_name = "johann_philipp"
-			last_name = "von_schonborn"
+			last_name = "von_schönborn"
 			age = 43
 			ruler = yes
 		}

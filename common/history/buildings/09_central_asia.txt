@@ -356,7 +356,7 @@
 		}
 		region_state:PER={
 			create_building={
-				building="building__arid_farmland"
+				building="building_arid_farmland"
 				level=1
 				reserves=1
 			}

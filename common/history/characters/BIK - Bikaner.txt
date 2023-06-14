@@ -1,10 +1,4 @@
 ﻿CHARACTERS = {
 	c:BIK = {
-		create_character = {
-			first_name = "karan"
-			last_name = "singh"
-			age = 26
-			ruler = yes
-		}
 	}
 }

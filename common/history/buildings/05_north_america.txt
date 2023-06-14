@@ -457,7 +457,7 @@
 	s:STATE_DURANGO={
 		region_state:MEX={ #Mexico
 			create_building={
-				building="bg_marginal_pasture"
+				building="bg_prime_pasture"
 				level=1
 				reserves=1
 			}

@@ -1,4 +1,10 @@
 ﻿CHARACTERS = {
 	c:JAI = {
+		create_character = {
+			first_name = "jai_singh_i"
+			last_name = "of_jaipur"
+			age = 37
+			ruler = yes
+		}
 	}
 }

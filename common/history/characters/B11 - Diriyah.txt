@@ -1,4 +1,10 @@
 ﻿CHARACTERS = {
 	c:B11 = {
+		create_character = {
+			first_name = "saud"
+			last_name = "al_muqrin"
+			age = 28
+			ruler = yes
+		}
 	}
 }
