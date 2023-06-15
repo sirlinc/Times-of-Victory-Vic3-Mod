@@ -11,6 +11,7 @@
 	production_method_groups = {
 		pmg_glassworks
 		pmg_kilns
+		pmg_motive_power
 		pmg_pre_industrial_organization
 	}
 	
@@ -30,7 +31,7 @@ building_ironworks = {
 	production_method_groups = {
 		pmg_ironworks
 		pmg_slag_byproducts
-		pmg_alloys
+		pmg_motive_power
 		pmg_pre_industrial_organization
 	}
 	
@@ -50,6 +51,7 @@ building_alloy_smelters = {
 	production_method_groups = {
 		pmg_steelworks
 		pmg_alloys
+		pmg_motive_power
 		pmg_pre_industrial_organization
 	}
 	
@@ -91,9 +93,8 @@ building_food_industry = {
 
 	production_method_groups = {
 		pmg_baking
-		pmg_liquor_distillation
-		pmg_opium_tinctures
-		pmg_canning
+		pmg_canning		
+		pmg_kitchen_appliances
 		pmg_industrial_organization
 	}
 
@@ -162,7 +163,7 @@ building_paper_mills = {
 	required_construction = construction_cost_high
 }
 
-building_chemical_plants = {
+building_dyeworks = {
 	building_group = bg_heavy_industry
 	texture = "gfx/interface/icons/building_icons/dyeworks.dds"
 	
@@ -175,8 +176,29 @@ building_chemical_plants = {
 
 	production_method_groups = {
 		pmg_dyeworks
-		pmg_chemicals
 		pmg_fertilizer
+		pmg_motive_power
+		pmg_pre_industrial_organization
+	}
+
+	required_construction = construction_cost_high
+}
+
+building_distilleries = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/distilleries.dds"
+	
+	unlocking_technologies = {
+		fluxes
+	}
+	
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_liquor_distillation
+		pmg_chemicals
+		pmg_opium_tinctures		
 		pmg_motive_power
 		pmg_pre_industrial_organization
 	}
@@ -282,6 +304,7 @@ building_arsenal = {
 	production_method_groups = {
 		pmg_arsenal_firearms
 		pmg_arsenal_artillery
+		pmg_motive_power
 		pmg_pre_industrial_organization
 	}
 	
@@ -301,6 +324,7 @@ building_munitions_plants = {
 	production_method_groups = {
 		pmg_munitions_plant_ammunition
 		pmg_munitions_plant_explosives
+		pmg_motive_power
 		pmg_pre_industrial_organization
 	}
 	

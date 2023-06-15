@@ -115,10 +115,6 @@
 			type = dominion
 		}
 		create_diplomatic_pact = {
-			country = c:UCA
-			type = dominion
-		}
-		create_diplomatic_pact = {
 			country = c:VNZ
 			type = dominion
 		}

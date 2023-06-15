@@ -795,7 +795,12 @@ building_paper_mills_throughput_mult = {
 	percent = yes
 }
 
-building_chemical_plants_throughput_mult = {
+building_distilleries_throughput_mult = {
+	good = yes
+	percent = yes
+}
+
+building_dyeworks_throughput_mult = {
 	good = yes
 	percent = yes
 }

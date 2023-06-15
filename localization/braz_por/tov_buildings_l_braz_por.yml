@@ -55,6 +55,17 @@ building_ironworks: "Fábricas de Ferro"
 modifier_building_ironworks_throughput_mult: "Edifício $building_ironworks$ [concept_throughput]"
 modifier_building_ironworks_throughput_mult_desc: "Um bônus ou penalidade para entrada e saída de $building_ironworks$"
 
+# Distilleries
+building_distilleries: "Destilarias"
+modifier_building_distilleries_throughput_mult: "Edifício $building_distilleries$ [concept_throughput]"
+modifier_building_distilleries_throughput_mult_desc: "Um bônus ou penalidade para entrada e saída de $building_distilleries$"
+
+# Dyeworks
+building_dyeworks: "Tingimento"
+modifier_building_dyeworks_throughput_mult: "Edifício $building_dyeworks$ [concept_throughput]"
+modifier_building_dyeworks_throughput_mult_desc: "Um bônus ou penalidade para entrada e saída de $building_dyeworks$"
+
+
 # Alloy Smelters
 building_alloy_smelters: "Fundição de Ligas"
 modifier_building_alloy_smelters_throughput_mult: "Edifício $building_alloy_smelters$ [concept_throughput]"

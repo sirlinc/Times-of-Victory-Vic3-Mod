@@ -290,9 +290,15 @@ law_industry_banned = {
 			every_scope_state = {
 				if = {
 					limit = {
-						has_building = building_chemical_plants
+						has_building = building_distilleries
 					}
-					remove_building = building_chemical_plants
+					remove_building = building_distilleries
+				}
+				if = {
+					limit = {
+						has_building = building_dyeworks
+					}
+					remove_building = building_dyeworks
 				}
 				if = {
 					limit = {

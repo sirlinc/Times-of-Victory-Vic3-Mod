@@ -176,7 +176,8 @@ ai_strategy_resource_expansion = {
 	
 	subsidies = {
 		building_tooling_workshops = wants_to_have
-		building_chemical_plants = wants_to_have
+		building_distilleries = wants_to_have
+		building_dyeworks = wants_to_have
 		building_kaolin_mine = wants_to_have
 	}
 	
@@ -274,7 +275,8 @@ ai_strategy_industrial_expansion = {
 		building_alloy_smelters = wants_to_have
 		building_lead_mine = wants_to_have
 		building_sulfur_mine = wants_to_have
-		building_chemical_plants = wants_to_have
+		building_distilleries = wants_to_have
+		building_dyeworks = wants_to_have
 	}
 	
 	goods_stances = {

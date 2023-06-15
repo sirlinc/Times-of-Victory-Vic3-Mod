@@ -2,31 +2,33 @@
 #pmg_industrial_motive_power
 
 pm_manual_labour = {
-	texture = "gfx/interface/icons/production_method_icons/no_infrastructure.dds"
+	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
 
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			building_employment_laborers_add = 4500
 		}
 		unscaled = {
 			building_throughput_mult = -0.1
-		}
+		} 
 	}
 }
 
 pm_draft_animals = {
-	texture = "gfx/interface/icons/production_method_icons/canals.dds"
+	texture = "gfx/interface/icons/production_method_icons/horses_train.dds"
 
 	building_modifiers = {
 		workforce_scaled = {												
 			building_input_horses_add = 5	
+		}
+        level_scaled = {
 			building_employment_laborers_add = 4500
 		}
 	}
 }
 
 pm_rotating_mills = {
-	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+	texture = "gfx/interface/icons/production_method_icons/mechanized_looms.dds"
 
 	unlocking_technologies = {
 		rotating_mills
@@ -35,17 +37,20 @@ pm_rotating_mills = {
 		workforce_scaled = {												
 			building_input_wood_add = 10	
 			building_input_horses_add = 5
+		}
+        level_scaled = {
 			building_employment_laborers_add = 4000
 			building_employment_machinists_add = 200
 		}
 		unscaled = {
 			building_throughput_mult = 0.05
-		}		
+		}	
+    	
 	}
 }
 
 pm_steam_engines = {
-	texture = "gfx/interface/icons/production_method_icons/rail_linkages.dds"
+	texture = "gfx/interface/icons/production_method_icons/steam_donkey.dds"
 
 	pollution_generation = 8
 
@@ -56,9 +61,11 @@ pm_steam_engines = {
 		workforce_scaled = {								
 			building_input_iron_add = 10 
 			building_input_coal_add = 10
+            }
+            level_scaled = {
 			building_employment_laborers_add = 3500
 			building_employment_machinists_add = 400
-		}
+		    }
 		unscaled = {
 			building_throughput_mult = 0.1
 		}		
@@ -66,7 +73,7 @@ pm_steam_engines = {
 }
 
 pm_rotary_valve_engine = {
-	texture = "gfx/interface/icons/production_method_icons/cold_storage.dds"
+	texture = "gfx/interface/icons/production_method_icons/rotary_valve_engine.dds"
 
 	pollution_generation = 8
 
@@ -77,6 +84,8 @@ pm_rotary_valve_engine = {
 		workforce_scaled = {								
 			building_input_steel_add = 5 
 			building_input_coal_add = 15
+        }
+        level_scaled = {           
 			building_employment_laborers_add = 3000
 			building_employment_machinists_add = 600
 			building_employment_engineers_add = 100
@@ -88,7 +97,7 @@ pm_rotary_valve_engine = {
 }
 
 pm_petrol_engines = {
-	texture = "gfx/interface/icons/production_method_icons/electrified_fencing.dds"
+	texture = "gfx/interface/icons/production_method_icons/compression_ignition_tractors.dds"
 
 	pollution_generation = 8
 
@@ -99,6 +108,8 @@ pm_petrol_engines = {
 		workforce_scaled = {							
 			building_input_engines_add = 5 
 			building_input_fuel_oil_add = 10
+        }
+        level_scaled = {
 			building_employment_laborers_add = 2250
 			building_employment_machinists_add = 900
 			building_employment_engineers_add = 200
@@ -110,7 +121,7 @@ pm_petrol_engines = {
 }
 
 pm_electronic_process_control = {
-	texture = "gfx/interface/icons/production_method_icons/electrified_fencing.dds"
+	texture = "gfx/interface/icons/production_method_icons/automatic_power_looms.dds"
 
 	pollution_generation = 8
 
@@ -122,6 +133,8 @@ pm_electronic_process_control = {
 			building_input_engines_add = 5 
 			building_input_fuel_oil_add = 10
 			building_input_electricity_add = 15
+        }
+        level_scaled = {
 			building_employment_laborers_add = 1500
 			building_employment_machinists_add = 1200
 			building_employment_engineers_add = 300
@@ -450,6 +463,8 @@ pm_borosilicate_glass = {
     }
 }
 
+#pmg_ironworks
+
 pm_bloomery = {
     texture = "gfx/interface/icons/production_method_icons/bloomery.dds"
 
@@ -545,6 +560,8 @@ pm_electric_arc_furnace_iron = {
     }
 }
 
+#pmg_slag_byproducts
+
 pm_resmelting = {
     texture = "gfx/interface/icons/production_method_icons/resmelting.dds"
 
@@ -617,6 +634,8 @@ pm_slag_glass = {
         }
     }
 }
+
+#pmg_steelworks
 
 pm_crucible_steel = {
     texture = "gfx/interface/icons/production_method_icons/blister_steel_process.dds"
@@ -697,6 +716,8 @@ pm_electric_arc_furnace_steel = {
         }
     }
 }
+
+#pmg_alloys
 
 pm_no_alloys = {
     texture = "gfx/interface/icons/production_method_icons/no_steel.dds"
@@ -944,6 +965,8 @@ pm_molded_parts = {
     }
 }
 
+#pmg_baking
+
 pm_comfits = {
     texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
 
@@ -1023,6 +1046,8 @@ pm_solid_chocolate = {
     }
 }
 
+#pmg_liquor_distillaton
+
 pm_no_liquor = {
     texture = "gfx/interface/icons/production_method_icons/no_liquor.dds"
 
@@ -1036,7 +1061,7 @@ pm_no_liquor = {
     }
 }
 
-pm_distillery_barrels = {
+pm_wooden_casks = {
     texture = "gfx/interface/icons/production_method_icons/wooden_casks.dds"
 
     unlocking_technologies = {
@@ -1103,6 +1128,8 @@ pm_chromium_vessels = {
         }
     }
 }
+
+#pmg_canning
 
 pm_no_canning = {
     texture = "gfx/interface/icons/production_method_icons/no_canning.dds"
@@ -1226,10 +1253,7 @@ basic_appliances = {
         }
 
         level_scaled = {
-            
-        }
-        unscaled = {
-            building_employment_laborers_add = 4500
+            building_employment_laborers_add = 4500           
         }
     }
 }
@@ -1247,13 +1271,9 @@ oven_thermometers = {
 			building_input_Coal_add = 5
             building_output_building_throughput_mult_add = 0
         }
-
         level_scaled = {
-            
-        }
-        unscaled = {
             building_employment_laborers_add = 4000
-			building_employment_machinists_add = 200
+			building_employment_machinists_add = 200           
         }
     }
 }
@@ -1273,11 +1293,8 @@ gas_stoves = {
         }
 
         level_scaled = {
-            
-        }
-        unscaled = {
             building_employment_laborers_add = 3500
-			building_employment_machinists_add = 400
+			building_employment_machinists_add = 400           
         }
     }
 }
@@ -1297,11 +1314,8 @@ electric_mixers = {
         }
 
         level_scaled = {
-            
-        }
-        unscaled = {
             building_employment_laborers_add = 3000
-			building_employment_machinists_add = 600
+			building_employment_machinists_add = 600           
         }
     }
 }
@@ -1321,11 +1335,8 @@ dishwashers = {
         }
 
         level_scaled = {
-            
-        }
-        unscaled = {
             building_employment_laborers_add = 2250
-			building_employment_machinists_add = 900
+			building_employment_machinists_add = 900            
         }
     }
 }
@@ -1506,7 +1517,8 @@ pm_handcarved_furniture = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_wood_add = 20
+            building_input_wood_add = 10
+            building_input_tools_add = 5
             building_output_furniture_add = 25
         }
     }
@@ -1522,7 +1534,7 @@ pm_woodturning_lathes = {
     building_modifiers = {
         workforce_scaled = {
             building_input_wood_add = 30
-			building_input_tools_add = 5
+			building_input_tools_add = 10
             building_output_furniture_add = 45
         }
     }
@@ -1537,8 +1549,8 @@ pm_veneering_machines = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_wood_add = 55
-			building_input_tools_add = 10
+            building_input_wood_add = 30
+			building_input_tools_add = 20
             building_output_furniture_add = 70
         }
     }
@@ -1553,8 +1565,8 @@ pm_plywood = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_wood_add = 70
-			building_input_tools_add = 15
+            building_input_wood_add = 45
+			building_input_tools_add = 25
 			building_input_chemicals_add = 30
             building_output_furniture_add = 100
         }
@@ -1570,7 +1582,7 @@ pm_precision_joinery = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_wood_add = 90
+            building_input_wood_add = 60
 			building_input_machined_parts_add = 15
 			building_input_chemicals_add = 30
             building_output_furniture_add = 120
@@ -1813,8 +1825,8 @@ pm_aniline_dyes = {
     building_modifiers = {
         workforce_scaled = {
             building_input_tools_add = 10
+            building_input_chemicals_add = 30
             building_output_dye_add = 65
-			building_output_chemicals_add = -40
         }
     }
 }
@@ -1828,9 +1840,9 @@ pm_azo_dyes = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_machined_parts_add = 10
+            building_input_tools_add = 30
+            building_input_chemicals_add = 40
             building_output_dye_add = 90
-			building_output_chemicals_add = -40
         }
     }
 }
@@ -1933,8 +1945,8 @@ pm_gypsum_fertilizer = {
     building_modifiers = {
         workforce_scaled = {
             building_input_sulfur_add = 15
+            building_input_chemicals_add = 25
             building_output_fertilizer_add = 50
-			building_output_chemicals_add = -25
         }
     }
 }
@@ -1949,8 +1961,8 @@ pm_ammonia_fertilizer = {
     building_modifiers = {
         workforce_scaled = {
             building_input_sulfur_add = 25
+            building_input_chemicals_add = 45
             building_output_fertilizer_add = 90
-			building_output_chemicals_add = -25
         }
     }
 }
@@ -1965,8 +1977,8 @@ pm_birkeland_eyde_process = {
     building_modifiers = {
         workforce_scaled = {
             building_input_machined_parts_add = 15
+            building_input_chemicals_add = 80
             building_output_fertilizer_add = 140
-			building_output_chemicals_add = -25
         }
     }
 }
@@ -1980,9 +1992,9 @@ pm_haber_bosch_process = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_machined_parts_add = 25
+            building_input_machined_parts_add = 30
+            building_input_chemicals_add = 120            
             building_output_fertilizer_add = 200
-			building_output_chemicals_add = -25
         }
     }
 }

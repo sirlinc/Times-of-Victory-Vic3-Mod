@@ -53,7 +53,8 @@
 	building_glassworks = {"arabic_glassworks_manufactory_01_mesh"}
 	building_tooling_workshops = {"arabic_tools_manufactory_01_mesh"}
 	building_paper_mills = {"arabic_manufactory_02_mesh"}
-	building_chemical_plants = {"arabic_colonial_manufactory_01_mesh"}
+	building_dyeworks = {"arabic_colonial_manufactory_01_mesh"}
+	building_distilleries = {"arabic_colonial_manufactory_01_mesh"}
 	building_arsenal = {"arabic_colonial_manufactory_03_mesh"}
 	building_munitions_plants = {"arabic_colonial_manufactory_03_mesh"}
 	building_synthetics_plants = {"arabic_glassworks_manufactory_01_mesh"}

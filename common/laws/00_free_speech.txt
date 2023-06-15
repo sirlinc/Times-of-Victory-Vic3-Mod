@@ -36,10 +36,7 @@ law_outlawed_dissent = {
 		country_promotion_ig_attraction_mult = 0.5
 		country_suppression_ig_attraction_mult = -0.5
 		country_tech_spread_mult = -0.15
-		country_institution_state_propaganda_max_investment_add = 1
 	}
-
-	institution = institution_state_propaganda
 
 	possible_political_movements = {
 		law_censorship

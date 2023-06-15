@@ -17,6 +17,8 @@ effect_starting_technology_tier_1_tech = {
 	add_technology_researched = print_culture
 	add_technology_researched = pluralism
 	add_technology_researched = empiricism
+	add_technology_researched = urbanization
+	add_technology_researched = governance
 }
 
 # Advanced European and Asian powers - England, Scotland, Southern Italy, Ottomans, Portugal, Persia, Hindustan, Great Ming
@@ -35,6 +37,8 @@ effect_starting_technology_tier_2_tech = {
 	
 	# Cultural
 	add_technology_researched = joint_stock_company
+	add_technology_researched = urbanization
+	add_technology_researched = governance
 }
 
 # Average Eurasian nation
@@ -49,6 +53,7 @@ effect_starting_technology_tier_3_tech = {
 
 	# Military	
 	add_technology_researched = gunpowder_warfare
+	add_technology_researched = urbanization
 
 	# Cultural
 }
@@ -59,6 +64,8 @@ effect_starting_technology_tier_4_tech = {
 	add_era_researched = era_1
 
 	# Economic
+	add_technology_researched = compound_machines
+	add_technology_researched = rotating_mills
 
 	# Military
 

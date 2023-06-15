@@ -22,13 +22,13 @@ effect_starting_pop_wealth_advanced = {
 					limit = {
 						is_pop_type = laborers
 					}
-					add = -2
+					add = -1
 				}
 				if = {
 					limit = {
 						is_pop_type = peasants
 					}
-					add = -3
+					add = -1
 				}				
 			}
 			update_loyalties = no
@@ -59,13 +59,13 @@ effect_starting_pop_wealth_imperial = {
 					limit = {
 						is_pop_type = laborers
 					}
-					add = -2
+					add = -1
 				}
 				if = {
 					limit = {
 						is_pop_type = peasants
 					}
-					add = -3
+					add = -1
 				}		
 			}
 			update_loyalties = no
@@ -97,13 +97,13 @@ effect_starting_pop_wealth_silkroad = {
 					limit = {
 						is_pop_type = laborers
 					}
-					add = -2
+					add = -1
 				}
 				if = {
 					limit = {
 						is_pop_type = peasants
 					}
-					add = -3
+					add = -1
 				}		
 			}
 			update_loyalties = no
@@ -134,13 +134,13 @@ effect_starting_pop_wealth_eurasia = {
 					limit = {
 						is_pop_type = laborers
 					}
-					add = -2
+					add = -1
 				}
 				if = {
 					limit = {
 						is_pop_type = peasants
 					}
-					add = -3
+					add = -1
 				}		
 			}
 			update_loyalties = no
@@ -171,13 +171,13 @@ effect_starting_pop_wealth_africa = {
 					limit = {
 						is_pop_type = laborers
 					}
-					add = -2
+					add = -1
 				}
 				if = {
 					limit = {
 						is_pop_type = peasants
 					}
-					add = -3
+					add = -1
 				}		
 			}
 			update_loyalties = no
@@ -215,7 +215,7 @@ effect_starting_pop_wealth_colonial = {
 					limit = {
 						is_pop_type = peasants
 					}
-					add = -2
+					add = -1
 				}		
 			}
 			update_loyalties = no
@@ -240,19 +240,19 @@ effect_starting_pop_wealth_subsistence = {
 					limit = {
 						strata = middle
 					}
-					add = 0
+					add = -1
 				}		
 				if = {
 					limit = {
 						is_pop_type = laborers
 					}
-					add = -2
+					add = -1
 				}
 				if = {
 					limit = {
 						is_pop_type = peasants
 					}
-					add = -3
+					add = -1
 				}		
 			}
 			update_loyalties = no

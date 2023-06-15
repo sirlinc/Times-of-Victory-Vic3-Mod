@@ -225,7 +225,7 @@ ai_strategy_default = {
 			value = 10		
 		}
 		institution_workplace_safety = {	
-			value = 10		
+			value = 8		
 		}		
 		institution_schools = {	
 			value = 10	
@@ -258,10 +258,10 @@ ai_strategy_default = {
 			value = 10		
 		}	
 		institution_foreign_affairs = {	
-			value = 10		
+			value = 8		
 		}	
 		institution_state_propaganda = {	
-			value = 10		
+			value = 5		
 		}	
 		institution_research_funding = {	
 			value = 10		

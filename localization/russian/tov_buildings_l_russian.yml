@@ -55,6 +55,16 @@ building_ironworks: "Железоделательные Заводы"
 modifier_building_ironworks_throughput_mult: "Здание $building_ironworks$ [concept_throughput]"
 modifier_building_ironworks_throughput_mult_desc: "Бонус или штраф к входу и выходу $building_ironworks$"
 
+# Distilleries
+building_distilleries: "Дистиллерии"
+modifier_building_distilleries_throughput_mult: "Здание $building_distilleries$ [concept_throughput]"
+modifier_building_distilleries_throughput_mult_desc: "Бонус или штраф к входу и выходу $building_distilleries$"
+
+# Dyeworks
+building_dyeworks: "Красильни"
+modifier_building_dyeworks_throughput_mult: "Здание $building_dyeworks$ [concept_throughput]"
+modifier_building_dyeworks_throughput_mult_desc: "Бонус или штраф к входу и выходу $building_dyeworks$"
+
 # Alloy Smelters
 building_alloy_smelters: "Плавильни Легированных Металлов"
 modifier_building_alloy_smelters_throughput_mult: "Здание $building_alloy_smelters$ [concept_throughput]"

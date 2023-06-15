@@ -37,8 +37,8 @@
 				reserves=1
 			}
 			create_building={
-				building="building_fishing_wharf"
-				level=2
+				building="building_ironworks"
+				level=3
 				reserves=1
 			}
 			create_building={
@@ -53,12 +53,12 @@
 			}
 			create_building={
 				building="building_naval_base"
-				level=5
+				level=3
 				reserves=1
 			}
 			create_building={
 				building="building_logging_camp"
-				level=8
+				level=5
 				reserves=1
 			}
 		}
@@ -246,7 +246,7 @@
 			}				
 			create_building={
 				building="building_shipyards"
-				level=3
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -295,7 +295,7 @@
 			}
 			create_building={
 				building="building_shipyards"
-				level=2
+				level=1
 				reserves=1
 			}			
 			create_building={
@@ -511,18 +511,18 @@
 				reserves=1
 			}			
 			create_building={
-				building="building_textile_mills"
-				level=1
+				building="building_ironworks"
+				level=2
 				reserves=1
 			}
 			create_building={
 				building="building_shipyards"
-				level=5
+				level=1
 				reserves=1
 			}
 			create_building={
 				building="building_naval_base"
-				level=5
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -556,12 +556,12 @@
 		region_state:ENG={	
 			create_building={
 				building="building_temperate_farmland"
-				level=2
+				level=4
 				reserves=1
 			}
 			create_building={
 				building="building_prime_pasture"
-				level=3
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -579,10 +579,10 @@
 				reserves=1
 			}
 			create_building={
-				building="building_prime_pasture"
+				building="building_iron_mine"
 				level=1
 				reserves=1
-			}
+			}	
 			create_building={
 				building="building_logging_camp"
 				level=3
@@ -591,17 +591,7 @@
 		}
 	}
 	s:STATE_YORKSHIRE={
-		region_state:ENG={
-			create_building={
-				building="building_tooling_workshops"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_iron_mine"
-				level=1
-				reserves=1
-			}			
+		region_state:ENG={		
 			create_building={
 				building="building_temperate_farmland"
 				level=2
@@ -650,11 +640,6 @@
 	s:STATE_EAST_ANGLIA={
 		region_state:ENG={
 			create_building={
-				building="building_glassworks"
-				level=2
-				reserves=1
-			}
-			create_building={
 				building="building_temperate_farmland"
 				level=2
 				reserves=1
@@ -675,7 +660,7 @@
 			}
 			create_building={
 				building="building_shipyards"
-				level=4
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -857,6 +842,11 @@
 				reserves=1
 			}
 			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+			}
+			create_building={
 				building="building_barracks"
 				level=5
 				reserves=1
@@ -875,8 +865,8 @@
 				reserves=1
 			}
 			create_building={
-				building="building_paper_mills"
-				level=3
+				building="building_government_administration"
+				level=2
 				reserves=1
 			}			
 			create_building={
@@ -1028,8 +1018,8 @@
 				reserves=1
 			}
 			create_building={
-				building="building_paper_mills"
-				level=3
+				building="building_ironworks"
+				level=2
 				reserves=1
 			}
 			create_building={
@@ -1308,7 +1298,7 @@
 			}
 			create_building={
 				building="building_shipyards"
-				level=4
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -1570,7 +1560,7 @@
 			}
 			create_building={
 				building="building_shipyards"
-				level=3
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -1834,16 +1824,16 @@
 			}
 			create_building={
 				building="building_furniture_manufacturies"
-				level=5
+				level=2
 				reserves=1
 			}
 			create_building={
 				building="building_paper_mills"
-				level=5
+				level=2
 				reserves=1
 			}
 			create_building={
-				building="building_temperate_farmland"
+				building="building_ironworks"
 				level=1
 				reserves=1
 			}
@@ -2287,7 +2277,7 @@
 	s:STATE_RHINELAND={
 		region_state:PLT={
 			create_building={
-				building="building_tooling_workshops"
+				building="building_ironworks"
 				level=1
 				reserves=1
 			}

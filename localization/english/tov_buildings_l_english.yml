@@ -55,10 +55,15 @@ building_ironworks: "Ironworks"
 modifier_building_ironworks_throughput_mult: "$building_ironworks$ building [concept_throughput]"
 modifier_building_ironworks_throughput_mult_desc: "A bonus or penalty to both input and output of $building_ironworks$"
 
-# Alloy Smelters
-building_alloy_smelters: "Alloy Smelters"
-modifier_building_alloy_smelters_throughput_mult: "$building_alloy_smelters$ building [concept_throughput]"
-modifier_building_alloy_smelters_throughput_mult_desc: "A bonus or penalty to both input and output of $building_alloy_smelters$"
+# Distilleries
+building_distilleries: "Distilleries"
+modifier_building_distilleries_throughput_mult: "$building_distilleries$ building [concept_throughput]"
+modifier_building_distilleries_throughput_mult_desc: "A bonus or penalty to both input and output of $building_distilleries$"
+
+# Dyeworks
+building_dyeworks: "Dyeworks"
+modifier_building_dyeworks_throughput_mult: "$building_dyeworks$ building [concept_throughput]"
+modifier_building_dyeworks_throughput_mult_desc: "A bonus or penalty to both input and output of $building_dyeworks$"
 
 # Alloy Smelters
 building_alloy_smelters: "Alloy Smelters"

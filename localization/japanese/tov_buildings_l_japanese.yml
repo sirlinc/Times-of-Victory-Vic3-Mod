@@ -54,6 +54,16 @@ building_ironworks: "製鉄所"
 modifier_building_ironworks_throughput_mult: "$building_ironworks$ 建物 [concept_throughput]"
 modifier_building_ironworks_throughput_mult_desc: "$building_ironworks$ の入力と出力に対するボーナスまたはペナルティ"
 
+# Distilleries
+building_distilleries: "蒸留所"
+modifier_building_distilleries_throughput_mult: "$building_distilleries$ ビルディング [concept_throughput]"
+modifier_building_distilleries_throughput_mult_desc: "$building_distilleries$ の入力および出力に対するボーナスまたはペナルティ"
+
+# Dyeworks
+building_dyeworks: "染色工場"
+modifier_building_dyeworks_throughput_mult: "$building_dyeworks$ ビルディング [concept_throughput]"
+modifier_building_dyeworks_throughput_mult_desc: "$building_dyeworks$ の入力および出力に対するボーナスまたはペナルティ"
+
 # Alloy Smelters
 building_alloy_smelters: "合金製錬所"
 modifier_building_alloy_smelters_throughput_mult: "$building_alloy_smelters$ 建物 [concept_throughput]"

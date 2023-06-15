@@ -197,19 +197,36 @@ has_industrialized_pm = {
 		}
 		# Chemical Plants
 		is_production_method_active = {
-			building_type = building_chemical_plants
+			building_type = building_dyeworks
 			production_method = pm_steam_engines
 		}
 		is_production_method_active = {
-			building_type = building_chemical_plants
+			building_type = building_dyeworks
 			production_method = pm_rotary_valve_engine
 		}
 		is_production_method_active = {
-			building_type = building_chemical_plants
+			building_type = building_dyeworks
 			production_method = pm_petrol_engines
 		}
 		is_production_method_active = {
-			building_type = building_chemical_plants
+			building_type = building_dyeworks
+			production_method = pm_electronic_process_control
+		}
+		# Chemical Plants
+		is_production_method_active = {
+			building_type = building_distilleries
+			production_method = pm_steam_engines
+		}
+		is_production_method_active = {
+			building_type = building_distilleries
+			production_method = pm_rotary_valve_engine
+		}
+		is_production_method_active = {
+			building_type = building_distilleries
+			production_method = pm_petrol_engines
+		}
+		is_production_method_active = {
+			building_type = building_distilleries
 			production_method = pm_electronic_process_control
 		}
 		# Synthetics Plant
@@ -256,16 +273,30 @@ using_watertube_boiler = {
 			}
 		}
 		AND = {
-			has_building = building_chemical_plants
+			has_building = building_distilleries
 			is_production_method_active = { 
-				building_type = building_chemical_plants
+				building_type = building_distilleries
+				production_method = pm_steam_engines
+			}
+		}
+		AND = {
+			has_building = building_dyeworks
+			is_production_method_active = { 
+				building_type = building_dyeworks
 				production_method = pm_steam_engines
 			}
 		}
 		AND = {
 			has_building = building_synthetics_plants
 			is_production_method_active = { 
-				building_type = building_chemical_plants
+				building_type = building_dyeworks
+				production_method = pm_steam_engines
+			}
+		}
+		AND = {
+			has_building = building_synthetics_plants
+			is_production_method_active = { 
+				building_type = building_distilleries
 				production_method = pm_steam_engines
 			}
 		}
@@ -469,31 +500,36 @@ has_military_building = {
 
 has_industry_building = {
 	OR = {
+		has_building = building_dyeworks
+		has_building = building_distilleries
 		has_building = building_food_industry
 		has_building = building_textile_mills
 		has_building = building_furniture_manufacturies
 		has_building = building_glassworks
 		has_building = building_tooling_workshops
 		has_building = building_paper_mills
-		has_building = building_ironworks	
+		has_building = building_ironworks
+		has_building = building_arsenal
 	}
 }
 
 is_industry_building = {
 	OR = {
+		is_building_type = building_dyeworks
+		is_building_type = building_distilleries
 		is_building_type = building_food_industry
 		is_building_type = building_textile_mills
 		is_building_type = building_furniture_manufacturies
 		is_building_type = building_glassworks
 		is_building_type = building_tooling_workshops
 		is_building_type = building_paper_mills
-		is_building_type = building_ironworks	
+		is_building_type = building_ironworks
+		is_building_type = building_arsenal
 	}
 }
 
 has_heavy_industry_building = {
 	OR = {
-		has_building = building_chemical_plants
 		has_building = building_synthetics_plants
 		has_building = building_alloy_smelters
 		has_building = building_automotive_firms
@@ -506,7 +542,8 @@ has_heavy_industry_building = {
 
 is_heavy_industry_building = {
 	OR = {
-		is_building_type = building_chemical_plants
+		is_building_type = building_dyeworks
+		is_building_type = building_distilleries
 		is_building_type = building_synthetics_plants
 		is_building_type = building_alloy_smelters
 		is_building_type = building_automotive_firms
@@ -869,7 +906,8 @@ is_production_building = {
 		is_building_type = building_ironworks
 		is_building_type = building_tooling_workshops
 		is_building_type = building_paper_mills
-		is_building_type = building_chemical_plants
+		is_building_type = building_dyeworks
+		is_building_type = building_distilleries
 		is_building_type = building_synthetics_plants
 		is_building_type = building_alloy_smelters
 		is_building_type = building_engineering_firms

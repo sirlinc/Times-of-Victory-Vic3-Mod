@@ -39,11 +39,6 @@ law_mercantilism = {
 		}	
 	}
 
-	modifier = {
-		country_institution_foreign_affairs_max_investment_add = 1
-	}
-
-	institution = institution_foreign_affairs
 }
 
 law_protectionism = {

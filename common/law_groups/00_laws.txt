@@ -60,8 +60,8 @@ lawgroup_army_model = {
 lawgroup_administrative_infrastructure = {
 	law_group_category = power_structure	
 	
-	progressive_movement_chance = 3
-	regressive_movement_chance = 0.3
+	progressive_movement_chance = 5
+	regressive_movement_chance = 0.15
 }
 
 lawgroup_internal_security = {

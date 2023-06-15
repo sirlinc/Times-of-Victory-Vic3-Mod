@@ -133,7 +133,7 @@ building_sugar_plantation = {
 	required_construction = construction_cost_low
 
 	unlocking_technologies = {
-		agricultural_refining
+		plantations
 	}
 	
 	city_type = farm

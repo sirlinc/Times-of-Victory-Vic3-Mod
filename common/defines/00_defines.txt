@@ -19,7 +19,7 @@ NAI = {
 	
 	STRATEGY_RANDOM_FACTOR = 20.0 # The higher this is, the more random AI strategy selection will be
 	
-	TICKS_FOR_FULL_SPENDING_UPDATE = 50 # The higher this is, the less often AIs will update their spending priorities 
+	TICKS_FOR_FULL_SPENDING_UPDATE = 100 # The higher this is, the less often AIs will update their spending priorities 
 	
 	GOVERNMENT_MONEY_SPENDING_ENABLED = yes  	 # If this is set to no, the AI for government money spending will be disabled
 	GOVERNMENT_AUTHORITY_SPENDING_ENABLED = yes  # If this is set to no, the AI for authority spending will be disabled
@@ -53,7 +53,7 @@ NAI = {
 
 	DECLARE_BANKRUPTCY_MIN_DAYS_IN_DEFAULT = 30 # After this many days in default, the AI will declare bankruptcy
 
-	BASE_AGGRESSION = 0.5 # Base chance that AI will consider starting a diplo play each time the goal is checked (1 = 1%)
+	BASE_AGGRESSION = 0.7 # Base chance that AI will consider starting a diplo play each time the goal is checked (1 = 1%)
 	UNIFICATION_AGGRESSION_MULT_HIGHER_TIER = 20 # AI aggression is multiplied by this for calculating whether they should try to start a unification/leadership play, if the country would end up forming a nation of a higher tier
 	UNIFICATION_AGGRESSION_MULT_SAME_TIER = 0.1 # AI aggression is multiplied by this for calculating whether they should try to start a unification/leadership play, if the country would end up forming a nation of the same tier
 
@@ -877,7 +877,7 @@ NPolitics = {
 	
 	RECENT_PARTY_DAYS = 14				# Party is considered recently formed if activated within RECENT_PARTY_DAYS days range
 	
-	DEFAULT_LAW_ACTIVATION_DATE = "1836.1.1"	
+	DEFAULT_LAW_ACTIVATION_DATE = "1648.10.24"	
 	
 	MAX_NUM_POLITICAL_MOVEMENTS_WITHOUT_IG_SUPPORT = 1
 	MAX_NUM_POLITICAL_MOVEMENTS = 3
@@ -1303,7 +1303,7 @@ NDiplomacy = {
 	TENSION_THRESHOLD_TENSE = 50
 	TENSION_THRESHOLD_VOLATILE = 75
 	TENSION_DECAY_RATE = 5 # Per year
-	TENSION_INCREASE_MIN = 2.5 # Tension increases by a min of this when a province is colonized
+	TENSION_INCREASE_MIN = 5 # Tension increases by a min of this when a province is colonized
 	TENSION_INCREASE_MAX = 20.00 # Tension increases by a max of this when a province is colonized
 	TENSION_NUM_PROVINCE_SCALING_BASE = 10 # Below this amount of provinces a decentralized country gets additional tension when their provinces are colonized
 	TENSION_NUM_PROVINCE_SCALING_RATE = 2.0 # Max multiplier increase in tension per province taken from having only a few provinces
@@ -1443,10 +1443,10 @@ NDiplomacy = {
 	MIN_WAR_SUPPORT = -100
 	
 	COUNTRY_TIER_CITY_STATE_PRESTIGE = 0
-	COUNTRY_TIER_PRINCIPALITY_PRESTIGE = 5
-	COUNTRY_TIER_GRAND_PRINCIPALITY_PRESTIGE = 10
-	COUNTRY_TIER_KINGDOM_PRESTIGE = 15
-	COUNTRY_TIER_EMPIRE_PRESTIGE = 25
+	COUNTRY_TIER_PRINCIPALITY_PRESTIGE = 0
+	COUNTRY_TIER_GRAND_PRINCIPALITY_PRESTIGE = 5
+	COUNTRY_TIER_KINGDOM_PRESTIGE = 10
+	COUNTRY_TIER_EMPIRE_PRESTIGE = 15
 	COUNTRY_TIER_HEGEMONY_PRESTIGE = 50
 	
 	PRESTIGE_FROM_COUNTRY_GDP_DIVISOR = 1000000
@@ -1555,7 +1555,7 @@ NPops = {
 	MIGRATION_UNEMPLOYMENT_MULT = 10.0							# Amount of migration from SoL is increased by this when a pop is unemployed
 	MIGRATION_MIN_STATE_POPS = 20000							# A state with less pops than this will not get emigration
 	MIGRATION_MIN_POP_AMOUNT = 1								# No less than this amount of a pop can migrate each week (if any migration at all should happen)
-	MIGRATION_MAX_POP_AMOUNT = 10000							# No more than this amount of a pop can migrate each week
+	MIGRATION_MAX_POP_AMOUNT = 4000							# No more than this amount of a pop can migrate each week
 	MIGRATION_MAX_PER_STATE_BASE = 500							# No more than this amount of people can move from or to a state in a single week (base)	
 	MIGRATION_MAX_PER_STATE_INFRASTRUCTURE = 2					# No more than this amount of people can move from or to a state in a single week (scales with infrastructure)
 	MIGRATION_MAX_EMIGRATION_AS_POPULATION_FRACTION = 0.0005	# Max emigration per week is clamped to this fraction of a state's population
@@ -1587,7 +1587,7 @@ NPops = {
 	MAX_BASE_COLONIAL_GROWTH = 0.1						# Country base colonial growth from population cannot be higher than this
 	MAX_COLONIAL_GROWTH = 0.02							# Colonies can grow by this much at most per day 
 	
-	INDIVIDUALS_PER_POP_INFRASTRUCTURE = 100000			# Multiply state_infrastructure_from_population_add by this to determine infra from population
+	INDIVIDUALS_PER_POP_INFRASTRUCTURE = 40000			# Multiply state_infrastructure_from_population_add by this to determine infra from population
 
 	QUALIFICATIONS_UPDATE_FACTOR = 0.0003				# Calculated potential values are multiplied by this value and the workforce size of the pop before being added to the existing potentials
 	QUALIFICATIONS_NUM_MONTHS_AT_START = 60				# How many months of qualifications should be seeded to pops at start of game?
@@ -1602,8 +1602,8 @@ NPops = {
 } 
 
 ### Pop Growth Constants
-@min_birthrate = 0.0015
-@max_birthrate = 0.0070
+@min_birthrate = 0.002
+@max_birthrate = 0.0080
 @min_mortality = 0.0010
 @max_mortality = 0.0070
 @pop_growth_sol_equilibrium = 5							# Equilibrium is where (with no birthrate/death-rate mods) growth is stagnant
@@ -1730,9 +1730,9 @@ NCharacters = {
 
 NBattle = {
 	CASUALTY_MAJORITY_CULTURE_WEIGHT = 1.5			# Majority culture pops will be weighted to take 1.5x more casualties
-	CASUALTY_ROLL_MIN = 50							# min ...
-	CASUALTY_ROLL_MAX = 200							# max amount of casualties a unit can take each roll when applying casualties to units
-	SURVIVAL_RATE = 0.66
+	CASUALTY_ROLL_MIN = 25							# min ...
+	CASUALTY_ROLL_MAX = 100							# max amount of casualties a unit can take each roll when applying casualties to units
+	SURVIVAL_RATE = 0.7
 	DEPENDENTS_ROLL_MIN_PERCENT = 0.1				# min ...
 	DEPENDENTS_ROLL_MAX_PERCENT = 0.3				# max percentage of Pops Size it can take as Dependents each roll
 	MIN_DEPENDENTS_PER_ROLL = 25					# Minimum amount of dependents to added to a random pop

@@ -54,6 +54,16 @@ building_ironworks: "铁工厂"
 modifier_building_ironworks_throughput_mult: "$building_ironworks$ 建筑 [concept_throughput]"
 modifier_building_ironworks_throughput_mult_desc: "$building_ironworks$ 的输入和输出的奖励或惩罚"
 
+# Distilleries
+building_distilleries: "酒厂"
+modifier_building_distilleries_throughput_mult: "$building_distilleries$ 建筑 [concept_throughput]"
+modifier_building_distilleries_throughput_mult_desc: "$building_distilleries$ 的输入和输出的加成或减益"
+
+# Dyeworks
+building_dyeworks: "染料作坊"
+modifier_building_dyeworks_throughput_mult: "$building_dyeworks$ 建筑 [concept_throughput]"
+modifier_building_dyeworks_throughput_mult_desc: "$building_dyeworks$ 的输入和输出的加成或减益"
+
 # Alloy Smelters
 building_alloy_smelters: "合金冶炼厂"
 modifier_building_alloy_smelters_throughput_mult: "$building_alloy_smelters$ 建筑 [concept_throughput]"

@@ -23,10 +23,10 @@
 			months = 60
 		}
 	}	
-	c:NET = {
+	c:A23 = {
 		create_truce = {
-			country = c:BEL
-			months = 7
+			country = c:PHI
+			months = 12
 		}
 	}	
 }

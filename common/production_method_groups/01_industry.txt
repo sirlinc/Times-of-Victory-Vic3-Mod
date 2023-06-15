@@ -1,7 +1,7 @@
 ﻿#Base Industry
 
 pmg_motive_power = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
 		pm_manual_labour
 		pm_draft_animals
@@ -14,7 +14,7 @@ pmg_motive_power = {
 }
 
 pmg_industrial_motive_power = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
 		pm_steam_engines
 		pm_rotary_valve_engine
@@ -24,7 +24,7 @@ pmg_industrial_motive_power = {
 }
 
 pmg_pre_industrial_organization = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
 	production_methods = {
 		pm_decentralized_industry
 		pm_aristocratic_control
@@ -38,7 +38,7 @@ pmg_pre_industrial_organization = {
 }
 
 pmg_industrial_organization = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
 	production_methods = {
 		pm_state_owned_enterprise
 		pm_small_and_medium_enterprises
@@ -158,17 +158,6 @@ pmg_baking = {
 	}
 }
 
-pmg_liquor_distillation = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_no_liquor
-		pm_wooden_casks
-		pm_pot_stills
-		pm_column_stills
-		pm_chromium_vessels
-	}
-}
-
 pmg_canning = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
@@ -177,6 +166,17 @@ pmg_canning = {
 		pm_metal_cans
 		pm_vacuum_sealed_cans
 		pm_freeze_dried_food
+	}
+}
+
+pmg_liquor_distillation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_liquor
+		pm_wooden_casks
+		pm_pot_stills
+		pm_column_stills
+		pm_chromium_vessels
 	}
 }
 
