@@ -51,7 +51,7 @@ effect_starting_pop_literacy_euro = {
 	every_scope_pop = {
 		set_pop_literacy = {
 			literacy_rate = {
-				value = 0.05
+				value = 0.04
 				# Professions requiring reading at 20%
 				if = {
 					limit = {
@@ -97,7 +97,7 @@ effect_starting_pop_literacy_baseline = {
 	every_scope_pop = {
 		set_pop_literacy = {
 			literacy_rate = {
-				value = 0.05
+				value = 0.02
 				# Professions requiring reading at 10%
 				if = {
 					limit = {
@@ -161,7 +161,7 @@ effect_starting_pop_literacy_illiterate = {
 					limit = {
 						strata = rich
 					}
-					add = 0.02
+					add = 0.01
 				}
 				# Professions where reading is important at 2%
 				if = {
