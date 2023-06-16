@@ -541,8 +541,8 @@ ideology_oriental_orthodox_patriarch = {
 		law_child_labor_expected = disapprove
 		law_child_labor_allowed = neutral
 		law_restricted_child_labor = neutral
-		compulsory_education_to_twelve = approve
-		compulsory_education_to_sixteen = approve
+		law_compulsory_education_to_twelve = approve
+		law_compulsory_education_to_sixteen = approve
 	}
 }
 

@@ -102,7 +102,7 @@
 				size=5205
 			}
 			create_pop = {
-				culture = english
+				culture = british
 				size = 4888
 			}
 		}
@@ -1824,7 +1824,7 @@
 	s:STATE_NEW_MEXICO = {
 		region_state:MEX = { #Mexico
 			create_pop = {
-				culture = mexican
+				culture = spanish
 				size=13649
 			}
 			create_pop = {
@@ -2019,35 +2019,41 @@
 		region_state:MEX = { #Mexico
 			create_pop = {
 				culture = yuman
-				size=10285
+				size=19285
 			}
 		}
+		region_state:MEX = { #Mexico
+		create_pop = {
+			culture = spanish
+			size=4285
+		}
+	}
 	}
 	s:STATE_CHIHUAHUA = {
 		region_state:MEX = { #Mexico
 			create_pop = {
-				culture = mexican
-				size=32699
+				culture = spanish
+				size=22699
 			}
 			create_pop = {
 				culture = uto_aztecan
-				size = 8000
+				size = 38000
 			}
 			create_pop = {
 				culture = athabaskan
-				size = 6846
+				size = 26846
 			}
 		}
 	}
 	s:STATE_RIO_GRANDE = {
 		region_state:MEX = { #Mexico
 			create_pop = {
-				culture = mexican
-				size=42079
+				culture = spanish
+				size=12079
 			}
 			create_pop = {
 				culture = uto_aztecan
-				size=6350
+				size=46350
 			}
 			create_pop = {
 				culture = uto_aztecan
@@ -2059,52 +2065,52 @@
 	s:STATE_DURANGO = {
 		region_state:MEX = { #Mexico
 		create_pop = {
-			culture = mexican
-			size=18751
+			culture = spanish
+			size=5751
 		}
 		create_pop = {
 			culture = uto_aztecan
-			size=7440
+			size=27440
 		}
 		}
 	}
 	s:STATE_SINALOA = {
 			region_state:MEX = { #Mexico
 			create_pop = {
-				culture = mexican
-				size=26400
+				culture = spanish
+				size=9400
 			}
 			create_pop = {
 				culture = uto_aztecan
-				size=23820
+				size=39820
 			}
 		}
 	}
 	s:STATE_BAJIO = {
 		region_state:MEX = { #Mexico
 			create_pop = {
-				culture = mexican
-				size=111998
+				culture = spanish
+				size=21998
 			}
 			create_pop = {
 				culture = nahua
-				size=101670
+				size=141670
 			}
 			create_pop = {
 				culture = tarascan
-				size=26632
+				size=66632
 			}
 		}
 	}
 	s:STATE_YUCATAN = {
 		region_state:MEX = { #Mexico
 			create_pop = {
-				culture = mexican
-				size=60567
+				culture = spanish
+				size=20567
 			}
 			create_pop = {
 				culture = mayan
-				size=80835
+				size=100835
 			}
 		}
 		region_state:MAY = { #Maya
@@ -2117,28 +2123,32 @@
 		s:STATE_MEXICO = {
 			region_state:MEX = { #Mexico
 				create_pop = {
-					culture = mexican
-					size=236907
+					culture = spanish
+					size=76907
 				}
 				create_pop = {
 					culture = mixtec
 					religion = catholic
-					size=10678
+					size=60678
 				}
 				create_pop = {
 					culture = nahua
-					size=278482
+					size=218482
 				}
 				create_pop = {
 					culture = zapotec
-					size=76481
+					size=96481
 				}
 			}
 		}
 	s:STATE_VERACRUZ = {
 		region_state:MEX = { #Mexico
 			create_pop = {
-				culture = mexican
+				culture = spanish
+				size=22842
+			}
+			create_pop = {
+				culture = nahua
 				size=62842
 			}
 		}
@@ -2146,7 +2156,7 @@
 	s:STATE_GUERRERO = {
 		region_state:MEX = { #Mexico
 			create_pop = {
-				culture = mexican
+				culture = spanish
 				size=30480
 			}
 			create_pop = {
@@ -2166,12 +2176,12 @@
 	s:STATE_OAXACA = {
 		region_state:MEX = { #Mexico
 		create_pop = {
-			culture = mexican
-			size=24787
+			culture = spanish
+			size=5787
 		}
 		create_pop = {
 			culture = zapotec
-			size=10937
+			size=20937
 		}
 		create_pop = {
 			culture = tarascan
@@ -2179,31 +2189,31 @@
 		}
 		create_pop = {
 			culture = nahua
-			size=22189
+			size=32189
 		}
 		}
 	}
 	s:STATE_JALISCO = {
 		region_state:MEX = { #Mexico
 		create_pop = {
-			culture = mexican
-			size=375539
+			culture = spanish
+			size=45539
 		}
 		create_pop = {
 			culture = uto_aztecan
 			religion = catholic
-			size=37460
+			size=127460
 		}
 		create_pop = {
 			culture = uto_aztecan
-			size=4763
+			size=184763
 		}
 		}
 	}
 	s:STATE_ZACATECAS = {
 		region_state:MEX = { #Mexico
 			create_pop = {
-				culture = mexican
+				culture = spanish
 				size=24924
 			}
 			create_pop = {
@@ -2293,12 +2303,12 @@
 	s:STATE_CHIAPAS = {
 		region_state:MEX = { #Mexico
 			create_pop = {
-				culture = mexican
-				size=15818
+				culture = spanish
+				size=5818
 			}
 			create_pop = {
 				culture = mayan
-				size=21043
+				size=31043
 			}
 		}
 		region_state:MAY = { #Maya

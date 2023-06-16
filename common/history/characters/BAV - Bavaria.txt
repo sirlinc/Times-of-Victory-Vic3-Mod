@@ -1,7 +1,7 @@
 ﻿CHARACTERS = {
 	c:BAV = {
 		create_character = {
-			first_name = "maximilian_I"
+			first_name = "maximilian_i"
 			last_name = "wittelsbach"
 			age = 56
 			ruler = yes

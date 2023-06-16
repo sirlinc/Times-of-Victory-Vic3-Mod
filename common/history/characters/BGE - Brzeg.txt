@@ -1,7 +1,7 @@
 ﻿CHARACTERS = {
 	c:BGE = {
 		create_character = {
-			first_name = "george_III"
+			first_name = "george_iii"
 			last_name = "piast"
 			age = 37
 			ruler = yes

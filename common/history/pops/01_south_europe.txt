@@ -3,7 +3,7 @@
 		region_state:VEN = {
 			create_pop = {
 				culture = north_italian
-				size=611439
+				size = 343175
 			}
 			create_pop = {
 				culture = north_italian
@@ -38,7 +38,7 @@
 		region_state:SAV = {
 			create_pop = {
 				culture = north_italian
-				size=146363
+				size = 92291
 			}
 			create_pop = {
 				culture = french
@@ -91,7 +91,7 @@
 		region_state:SPA = {
 			create_pop = {
 				culture = south_italian
-				size=141800
+				size = 82624
 			}
 		}
 	}
@@ -107,7 +107,7 @@
 		region_state:PAP = {
 			create_pop = {
 				culture = south_italian
-				size=210418
+				size = 128772
 			}
 		}
 	}
@@ -127,7 +127,7 @@
 		region_state:NAP = {
 			create_pop = {
 				culture = south_italian
-				size=971733
+				size = 541682
 			}
 		}
 	}
@@ -135,7 +135,7 @@
 		region_state:NAP = {
 			create_pop = {
 				culture = south_italian
-				size=217831
+				size = 140356
 			}
 		}
 	}
@@ -143,7 +143,7 @@
 		region_state:NAP = {
 			create_pop = {
 				culture = south_italian
-				size=363078
+				size = 212160
 			}
 		}
 	}
@@ -151,7 +151,7 @@
 		region_state:NAP = {
 			create_pop = {
 				culture = south_italian
-				size=274799
+				size = 175434
 			}
 		}
 	}
@@ -159,7 +159,7 @@
 		region_state:SAV = {
 			create_pop = {
 				culture = french
-				size=103337
+				size = 60673
 			}
 			create_pop = {
 				culture = north_italian
@@ -171,7 +171,7 @@
 		region_state:PAR = {
 			create_pop = {
 				culture = north_italian
-				size=213459
+				size = 113990
 			}
 		}
 		region_state:LUC = {
@@ -183,7 +183,7 @@
 		region_state:MOD = {
 			create_pop = {
 				culture = north_italian
-				size=301533
+				size = 167130
 			}
 		}
 	}
@@ -191,7 +191,7 @@
 		region_state:TUS = {
 			create_pop = {
 				culture = north_italian
-				size=272702
+				size = 166440
 			}
 			create_pop = {
 				culture = north_italian
@@ -215,7 +215,7 @@
 		region_state:PAP = {
 			create_pop = {
 				culture = north_italian
-				size=495518
+				size = 267591
 			}
 		}
 	}
@@ -223,7 +223,7 @@
 		region_state:PAP = {
 			create_pop = {
 				culture = south_italian
-				size=647384
+				size = 404549
 			}
 			create_pop = {
 				culture = south_italian
@@ -236,7 +236,7 @@
 		region_state:VEN = {
 			create_pop = {
 				culture = north_italian
-				size=460326
+				size = 232798
 			}
 			create_pop = {
 				culture = north_italian
@@ -249,7 +249,7 @@
 		region_state:SCI = {
 			create_pop = {
 				culture = south_italian
-				size=619207
+				size = 330474
 			}
 		}
 	}
@@ -257,7 +257,7 @@
 		region_state:SPA = {
 			create_pop = {
 				culture = spanish
-				size=424912
+				size = 233706
 			}
 		}
 	}
@@ -266,7 +266,7 @@
 		region_state:SPA = {
 			create_pop = {
 				culture = galician
-				size=264345
+				size = 149377
 			}
 			create_pop = {
 				culture = spanish
@@ -279,19 +279,19 @@
 		region_state:SPA = {
 			create_pop = {
 				culture = spanish
-				size=178262
+				size = 113307
 			}
 			create_pop = {
 				culture = basque
 				size=18412
 			}
-		}	
+		}
 	}
 	s:STATE_CASTILE = {
 		region_state:SPA = {
 			create_pop = {
 				culture = spanish
-				size=495630
+				size = 251955
 			}
 			create_pop = {
 				culture = basque
@@ -303,7 +303,7 @@
 		region_state:SPA = {
 			create_pop = {
 				culture = spanish
-				size=221200
+				size = 139679
 			}
 			create_pop = {
 				culture = catalan
@@ -311,7 +311,7 @@
 			}
 			create_pop = {
 				culture = basque
-				size=258718
+				size = 157705
 			}
 		}
 	}
@@ -319,7 +319,7 @@
 		region_state:ARN = {
 			create_pop = {
 				culture = spanish
-				size=157010
+				size = 84547
 			}
 			create_pop = {
 				culture = basque
@@ -335,11 +335,11 @@
 		region_state:CTR = {
 			create_pop = {
 				culture = catalan
-				size=378838
+				size = 200456
 			}
 			create_pop = {
 				culture = spanish
-				size=169687
+				size = 89158
 			}
 		}
 	}
@@ -359,7 +359,7 @@
 		region_state:SPA = {
 			create_pop = {
 				culture = spanish
-				size=442411
+				size = 269369
 			}
 		}
 	}
@@ -367,7 +367,7 @@
 		region_state:SPA = {
 			create_pop = {
 				culture = spanish
-				size=399005
+				size = 247332
 			}
 		}
 	}
@@ -375,7 +375,7 @@
 		region_state:SPA = {
 			create_pop = {
 				culture = spanish
-				size=233297
+				size = 136763
 			}
 		}
 	}
@@ -383,21 +383,21 @@
 		region_state:SPA = {
 			create_pop = {
 				culture = spanish
-				size=210900
+				size = 113935
 			}
 			create_pop = {
 				culture = catalan
-				size=132482
+				size = 82049
 			}
 		}
 		region_state:ARN = {
 			create_pop = {
 				culture = spanish
-				size=199974
+				size = 127655
 			}
 			create_pop = {
 				culture = catalan
-				size=156059
+				size = 87824
 			}
 		}
 	}
@@ -405,7 +405,7 @@
 		region_state:POR = {
 			create_pop = {
 				culture = portuguese
-				size=574909
+				size = 289558
 			}
 		}
 	}
@@ -413,7 +413,7 @@
 		region_state:POR = {
 			create_pop = {
 				culture = portuguese
-				size=339110
+				size = 197533
 			}
 		}
 	}
@@ -421,7 +421,7 @@
 		region_state:POR = {
 			create_pop = {
 				culture = portuguese
-				size=184460
+				size = 94457
 			}
 		}
 	}
@@ -455,7 +455,7 @@
 		region_state:SPA = {
 			create_pop = {
 				culture = spanish
-				size=108286
+				size = 54318
 			}
 		}
 	}
@@ -476,11 +476,11 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
-				size=482088
+				size = 275816
 			}
 			create_pop = {
 				culture = greek
-				size=160396
+				size = 83074
 			}
 			create_pop = {
 				culture = north_italian
@@ -538,7 +538,7 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = albanian
-				size=613107
+				size = 315218
 			}
 			create_pop = {
 				culture = greek
@@ -560,7 +560,7 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = bosniak
-				size=133432
+				size = 78754
 			}
 			create_pop = {
 				culture = sephardic
@@ -568,11 +568,11 @@
 			}
 			create_pop = {
 				culture = serb
-				size=225067
+				size = 137037
 			}
 			create_pop = {
 				culture = croat
-				size=110555
+				size = 60176
 			}
 		}
 	}
@@ -580,11 +580,11 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
-				size=168229
+				size = 99722
 			}
 			create_pop = {
 				culture = bulgarian
-				size=294868
+				size = 190584
 			}
 			create_pop = {
 				culture = greek
@@ -605,11 +605,11 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
-				size=121170
+				size = 76445
 			}
 			create_pop = {
 				culture = bulgarian
-				size=312244
+				size = 187676
 			}
 			create_pop = {
 				culture = sephardic
@@ -621,7 +621,7 @@
 		region_state:AUS = {
 			create_pop = {
 				culture = slovene
-				size=281372
+				size = 172585
 			}
 			create_pop = {
 				culture = south_german
@@ -669,7 +669,7 @@
 		region_state:HUN = {
 			create_pop = {
 				culture = croat
-				size=169793
+				size = 85011
 			}
 			create_pop = {
 				culture = czech
@@ -694,7 +694,7 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = croat
-				size=137200
+				size = 77505
 			}
 			create_pop = {
 				culture = serb
@@ -771,14 +771,14 @@
 			create_pop = {
 				culture = albanian
 				size=11545
-			}			
+			}
 		}
 	}
 	s:STATE_NORTHERN_SERBIA = {
 		region_state:TUR = {
 			create_pop = {
 				culture = serb
-				size=268256
+				size = 170083
 			}
 		}
 	}
@@ -794,7 +794,7 @@
 			}
 			create_pop = {
 				culture = serb
-				size=249814
+				size = 160218
 			}
 			create_pop = {
 				culture = greek
@@ -802,7 +802,7 @@
 			}
 			create_pop = {
 				culture = albanian
-				size=118166
+				size = 76673
 			}
 			create_pop = {
 				culture = bulgarian
@@ -851,7 +851,7 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = greek
-				size=264853
+				size = 137776
 			}
 		}
 	}
@@ -867,7 +867,7 @@
 			}
 			create_pop = {
 				culture = greek
-				size=506834
+				size = 326688
 			}
 			create_pop = {
 				culture = sephardic
@@ -892,7 +892,7 @@
 			}
 			create_pop = {
 				culture = bulgarian
-				size=195399
+				size = 108821
 			}
 			create_pop = {
 				culture = greek
@@ -912,7 +912,7 @@
 			}
 			create_pop = {
 				culture = greek
-				size=139043
+				size = 83597
 			}
 			create_pop = {
 				culture = bulgarian
@@ -938,11 +938,11 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
-				size=151832
+				size = 92273
 			}
 			create_pop = {
 				culture = greek
-				size=235569
+				size = 133963
 			}
 			create_pop = {
 				culture = bulgarian
@@ -981,7 +981,7 @@
 		region_state:TUR = {
 			create_pop = {
 				culture = greek
-				size=102173
+				size = 58742
 			}
 		}
 	}

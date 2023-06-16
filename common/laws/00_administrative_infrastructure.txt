@@ -6,11 +6,10 @@
 	progressiveness = -100
 
 	modifier = {
-		state_bureaucracy_population_base_cost_factor_mult = -0.75
-		country_consumption_tax_cost_mult = 0.4
+		state_bureaucracy_population_base_cost_factor_mult = -0.5
+		building_subsistence_output_mult = 0.15
 		country_law_enactment_time_mult = 0.4
-		state_tax_capacity_mult = -0.4
-		country_influence_mult = -0.4
+		country_influence_mult = -0.6
 		country_authority_mult = -0.4
 	}
 
@@ -40,10 +39,9 @@ law_feudal_courts = {
 
 	modifier = {
 		state_bureaucracy_population_base_cost_factor_mult = -0.5
-		country_consumption_tax_cost_mult = 0.2
+		building_subsistence_output_mult = 0.1
 		country_law_enactment_time_mult = 0.2
-		state_tax_capacity_mult = -0.2
-		country_influence_mult = -0.2
+		country_influence_mult = -0.4
 		country_authority_mult = -0.2
 	}
 
@@ -81,7 +79,7 @@ law_absolutism = {
 	modifier = {
 		state_bureaucracy_population_base_cost_factor_mult = -0.25
 		country_consumption_tax_cost_mult = 0.2
-		state_tax_capacity_mult = -0.2
+		building_subsistence_output_mult = 0.1
 		country_influence_mult = -0.2
 	}
 	

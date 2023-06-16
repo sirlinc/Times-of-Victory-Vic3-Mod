@@ -5,19 +5,14 @@
 				building="building_government_administration"
 				level=2
 				reserves=1
-			}
-			create_building={
-				building="building_construction_sector"
-				level=1
-				reserves=1
-			}			
+			}	
 			create_building={
 				building="building_university"
 				level=1
 				reserves=1
 			}
 			create_building={
-				building="building_paper_mills"
+				building="building_distilleries"
 				level=3
 				reserves=1
 			}			
@@ -33,7 +28,7 @@
 			}
 			create_building={
 				building="building_temperate_farmland"
-				level=2
+				level=4
 				reserves=1
 			}
 			create_building={
@@ -402,7 +397,7 @@
 		}
 	}
 	s:STATE_GREENLAND={
-		region_state:KLA={
+		region_state:D45={ #Iglulingmuit
 		}
 	}
 	s:STATE_SOUTHERN_FINLAND={
@@ -1356,13 +1351,13 @@
 				reserves=1
 			}
 			create_building={
-				building="building_iron_mine"
-				level=2
+				building="building_distilleries"
+				level=3
 				reserves=1
-			}
+			}	
 			create_building={
 				building="building_temperate_farmland"
-				level=1
+				level=3
 				reserves=1
 			}
 			create_building={
@@ -1833,6 +1828,11 @@
 				reserves=1
 			}
 			create_building={
+				building="building_distilleries"
+				level=3
+				reserves=1
+			}	
+			create_building={
 				building="building_ironworks"
 				level=1
 				reserves=1
@@ -2235,18 +2235,6 @@
 		}		
 	}
 	s:STATE_ANHALT={
-		region_state:MAG={
-			create_building={
-				building="building_temperate_farmland"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_barracks"
-				level=8
-				reserves=1
-			}
-		}
 		region_state:SAX={
 			create_building={
 				building="building_logging_camp"

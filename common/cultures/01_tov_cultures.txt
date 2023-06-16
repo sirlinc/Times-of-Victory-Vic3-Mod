@@ -3,76 +3,76 @@
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
-		Piachiti
-		Inkinishit’iti
-		Wetsita
-		Shikapu’t’iti
-		Sha’ta
-		Kitsaiish
-		Tahbakumshia
-		Washish
-		NichaGaiyu
-		Nvhi’
-		K’akitsaiyet
-		Ba’tshush
-		Hina’kahdi
-		Banusha’a
-		Gandigudid
-		Dj'ankaiyudid
-		Maika
-		Binsin
-		Nibaihi
-		Sho-e-tat
-		Nishkû'ntu
-		Dehahuit
+		piachiti
+		inkinishit’iti
+		wetsita
+		shikapu’t’iti
+		sha’ta
+		kitsaiish
+		tahbakumshia
+		washish
+		nichagaiyu
+		nvhi’
+		k’akitsaiyet
+		ba’tshush
+		hina’kahdi
+		banusha’a
+		gandigudid
+		dj'ankaiyudid
+		maika
+		binsin
+		nibaihi
+		sho-e-tat
+		nishkû'ntu
+		dehahuit
 	}
 	female_common_first_names = {
-		Owanah
-		Kaw-u-tz
-		Sien-Coit
-		Hakaayu'Niish
-		Hahtinu'Saku
-		Hak'aykuh-Nattih
-		Wkibawsa-u-kh
-		Nayawsa-u-kh
+		owanah
+		kaw-u-tz
+		sien-coit
+		hakaayu'niish
+		hahtinu'saku
+		hak'aykuh-nattih
+		wkibawsa-u-kh
+		nayawsa-u-kh
 	}
 	noble_last_names = {
-		Hainai
-		Anadarko
-		Nabedache
-		Nacogdoches
-		Natchitoches
-		Yatasi
-		Adai
-		Eyeish
-		Nakanawan
-		Imaha
-		Kwapa
-		Yowani
-		Doustionis
-		Nacaniche
-		Nanatsoho
-		Nasoni 
-		Shiyatsi
+		hainai
+		anadarko
+		nabedache
+		nacogdoches
+		natchitoches
+		yatasi
+		adai
+		eyeish
+		nakanawan
+		imaha
+		kwapa
+		yowani
+		doustionis
+		nacaniche
+		nanatsoho
+		nasoni 
+		shiyatsi
 	}
 	common_last_names={
-		Hainai
-		Anadarko
-		Nabedache
-		Nacogdoches
-		Natchitoches
-		Yatasi
-		Adai
-		Eyeish
-		Nakanawan
-		Imaha
-		Kwapa
-		Yowani
-		Doustionis
-		Nacaniche
-		Nanatsoho
-		Nasoni
-		Shiyatsi 
+		hainai
+		anadarko
+		nabedache
+		nacogdoches
+		natchitoches
+		yatasi
+		adai
+		eyeish
+		nakanawan
+		imaha
+		kwapa
+		yowani
+		doustionis
+		nacaniche
+		nanatsoho
+		nasoni
+		shiyatsi 
 	}
 	ethnicities = {
 		1 = native_american
@@ -85,80 +85,80 @@ uto_aztecan={
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
-		Mo'o-wai
-		Isatai
-		Puhihwikwasu
-		Tehcap
-		Pahayoko
-		Washakie
-		Piaru-ekaruhkapu
-		Mukwooru
-		Tsökahovi
-		Wirasuap
-		Pikee_Queenah
-		Isa-viah
-		Cameahwait
-		Poito
-		Ticannaf
-		Tru-ki-zo
-		Paseego
-		Chochoco
-		Numaga
-		Tondzaosha
-		Tendoy
+		mo'o-wai
+		isatai
+		puhihwikwasu
+		tehcap
+		pahayoko
+		washakie
+		piaru-ekaruhkapu
+		mukwooru
+		tsökahovi
+		wirasuap
+		pikee_queenah
+		isa-viah
+		cameahwait
+		poito
+		ticannaf
+		tru-ki-zo
+		paseego
+		chochoco
+		numaga
+		tondzaosha
+		tendoy
 	}
 	female_common_first_names = {
-		Porivo
-		Tacutine
-		Tuboitonie
-		Tocmetone
-		Cagáàgawia
-		Hurima
-		Chosro
-		Nanawu
-		He-dow
-		Tetewan
-		Nasisa
+		porivo
+		tacutine
+		tuboitonie
+		tocmetone
+		cagáàgawia
+		hurima
+		chosro
+		nanawu
+		he-dow
+		tetewan
+		nasisa
 	}
 	noble_last_names = {
-		Penateka
-		Tanima
-		Tenawa
-		Kotsoteka
-		Kwahadi
-		Wahkoh
-		Motso
-		Pibianigwai
-		Ketahtoh 
-		Tussawehee
-		Tuziyammo
-		Winnemucca
-		Wuttunee
-		Kamu Ticutta
-		Wadatika
-		Hunipui
-		Koop_Ticutta
-		Way_Dukadu
+		penateka
+		tanima
+		tenawa
+		kotsoteka
+		kwahadi
+		wahkoh
+		motso
+		pibianigwai
+		ketahtoh 
+		tussawehee
+		tuziyammo
+		winnemucca
+		wuttunee
+		kamu ticutta
+		wadatika
+		hunipui
+		koop_ticutta
+		way_dukadu
 	}
 	common_last_names={
-		Penateka
-		Tanima
-		Tenawa
-		Kotsoteka
-		Kwahadi
-		Wahkoh
-		Motso
-		Pibianigwai
-		Ketahtoh 
-		Tussawehee
-		Tuziyammo
-		Winnemucca
-		Wuttunee
-		Kamu Ticutta
-		Wadatika
-		Hunipui
-		Koop_Ticutta
-		Way_Dukadu
+		penateka
+		tanima
+		tenawa
+		kotsoteka
+		kwahadi
+		wahkoh
+		motso
+		pibianigwai
+		ketahtoh 
+		tussawehee
+		tuziyammo
+		winnemucca
+		wuttunee
+		kamu ticutta
+		wadatika
+		hunipui
+		koop_ticutta
+		way_dukadu
 	}
 	ethnicities = {
 		1 = native_american
@@ -171,68 +171,68 @@ yuman={
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
-		Wapotehe
-		Tel_Che'e
-		Cha-Thle-Pah
-		Ashcavotil
-		Oshkolte
-		Nanni-chaddi
-		Skitlavisyah
-		Piyahgonte
-		Notokel
-		Yara_Tav
-		Sekwalakawala
-		Motha
-		Hochachiwaca
-		Cairook
-		Avi_Havasuts
-		Takodawa
-		Ochecama
-		Makwa
-		Hoseckrua
+		wapotehe
+		tel_che'e
+		cha-thle-pah
+		ashcavotil
+		oshkolte
+		nanni-chaddi
+		skitlavisyah
+		piyahgonte
+		notokel
+		yara_tav
+		sekwalakawala
+		motha
+		hochachiwaca
+		cairook
+		avi_havasuts
+		takodawa
+		ochecama
+		makwa
+		hoseckrua
 	}
 	female_common_first_names = {
-		Aespaneo
-		Topeka
-		Spantsa
-		Sica-tuva
-		Who-wah
-		Pakit
-		Ka-hava-soo-ah
+		aespaneo
+		topeka
+		spantsa
+		sica-tuva
+		who-wah
+		pakit
+		ka-hava-soo-ah
 	}
 	noble_last_names = {
-		Kosa'aay
-		Pa-tai
-		Pawai
-		Sinyweche
-		Tecate
-		Nyip'ewai
-		Matt_Xtaat
-		Milh_Ixox
-		Hapatul
-		Hakwa
-		Sitcarknyewa
-		Jhlumúk
-		Cukwapa
-		Ja-kwak-wak
-		Epegam
+		kosa'aay
+		pa-tai
+		pawai
+		sinyweche
+		tecate
+		nyip'ewai
+		matt_xtaat
+		milh_ixox
+		hapatul
+		hakwa
+		sitcarknyewa
+		jhlumúk
+		cukwapa
+		ja-kwak-wak
+		epegam
 	}
 	common_last_names={
-		Kosa'aay
-		Pa-tai
-		Pawai
-		Sinyweche
-		Tecate
-		Nyip'ewai
-		Matt_Xtaat
-		Milh_Ixox
-		Hapatul
-		Hakwa
-		Sitcarknyewa
-		Jhlumúk
-		Cukwapa
-		Ja-kwak-wak
-		Epegam
+		kosa'aay
+		pa-tai
+		pawai
+		sinyweche
+		tecate
+		nyip'ewai
+		matt_xtaat
+		milh_ixox
+		hapatul
+		hakwa
+		sitcarknyewa
+		jhlumúk
+		cukwapa
+		ja-kwak-wak
+		epegam
 	}
 	ethnicities = {
 		1 = native_american
@@ -245,81 +245,81 @@ penutian={
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
-		Xigmacse
-		Charquin
-		Cucunuchi
-		Canocee
-		Yoscolo
-		Kitsepawit
-		Konoyo
-		Aravio
-		Semu
-		Kintpuash
-		Schonchin
-		Sulapy
-		Charka
-		Chikchikam
-		Sem-Yeto
-		Sina
-		Lupatkue-latko
+		xigmacse
+		charquin
+		cucunuchi
+		canocee
+		yoscolo
+		kitsepawit
+		konoyo
+		aravio
+		semu
+		kintpuash
+		schonchin
+		sulapy
+		charka
+		chikchikam
+		sem-yeto
+		sina
+		lupatkue-latko
 	}
 	female_common_first_names = {
-		Karana
-		Chankutpan
-		Winema
-		Nannookdoowah
-		Lofanitani
-		Kal-si-wa
-		Luwana
-		Gepigul
+		karana
+		chankutpan
+		winema
+		nannookdoowah
+		lofanitani
+		kal-si-wa
+		luwana
+		gepigul
 	}
 	noble_last_names = {
-		Yelamu
-		Pruristac
-		Yaguiahuit
-		Nanawani 
-		Yucaipa
-		Homhoabit
-		Akxawiet
-		Temeku
-		Jurumpa
-		Lakisamni
-		Tachi
-		Wowa
-		Síako
-		Quitiquit
-		Chukchansi
-		Chochenyo
-		Tuchayune
-		Gashowu
-		Rumsen
-		Yuhaviatam
-		Shilimaqshtush
-		Aleitac
+		yelamu
+		pruristac
+		yaguiahuit
+		nanawani 
+		yucaipa
+		homhoabit
+		akxawiet
+		temeku
+		jurumpa
+		lakisamni
+		tachi
+		wowa
+		síako
+		quitiquit
+		chukchansi
+		chochenyo
+		tuchayune
+		gashowu
+		rumsen
+		yuhaviatam
+		shilimaqshtush
+		aleitac
 	}
 	common_last_names={
-		Yelamu
-		Pruristac
-		Yaguiahuit
-		Nanawani 
-		Yucaipa
-		Homhoabit
-		Akxawiet
-		Temeku
-		Jurumpa
-		Lakisamni
-		Tachi
-		Wowa
-		Síako
-		Quitiquit
-		Chukchansi
-		Chochenyo
-		Tuchayune
-		Gashowu
-		Rumsen
-		Yuhaviatam
-		Shilimaqshtush
-		Aleitac
+		yelamu
+		pruristac
+		yaguiahuit
+		nanawani 
+		yucaipa
+		homhoabit
+		akxawiet
+		temeku
+		jurumpa
+		lakisamni
+		tachi
+		wowa
+		síako
+		quitiquit
+		chukchansi
+		chochenyo
+		tuchayune
+		gashowu
+		rumsen
+		yuhaviatam
+		shilimaqshtush
+		aleitac
 	}
 	ethnicities = {
 		1 = native_american
@@ -332,59 +332,59 @@ tanoan={
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
-		Dohasan
-		Ahpeahtone
-		Que-Tah-Tsay
-		Padoga
-		Qued_Koi
-		Ah-pe-a-ton
-		Teh-toot-sah
-		To-ho-sa
-		Ankímä
-		Dánpä
-		Zepko-ete
-		A'dáte
-		Gui-kati
-		Adoeette
-		Satanta
-		Appiatan
-		Set-ängyä
-		Settainte
+		dohasan
+		ahpeahtone
+		que-tah-tsay
+		padoga
+		qued_koi
+		ah-pe-a-ton
+		teh-toot-sah
+		to-ho-sa
+		ankímä
+		dánpä
+		zepko-ete
+		a'dáte
+		gui-kati
+		adoeette
+		satanta
+		appiatan
+		set-ängyä
+		settainte
 	}
 	female_common_first_names = {
-		Sain-Tah-Oodie
-		Paukeigope
-		Bougetah
-		Aukoy
-		Ahtoneharjo
-		Chipeta
-		P'oe_Tsáwä
+		sain-tah-oodie
+		paukeigope
+		bougetah
+		aukoy
+		ahtoneharjo
+		chipeta
+		p'oe_tsáwä
 	}
 	noble_last_names = {
-		To-kinah-yup
-		Sálqáhyói
-		Gwa-kelega
-		Kaigwa
-		Kogui
-		Kâtá
-		Kinep
-		Káugyabidau
-		Semat
-		Soy-hay-talpupé
-		Pojoaque
+		to-kinah-yup
+		sálqáhyói
+		gwa-kelega
+		kaigwa
+		kogui
+		kâtá
+		kinep
+		káugyabidau
+		semat
+		soy-hay-talpupé
+		pojoaque
 	}
 	common_last_names={
-		To-kinah-yup
-		Sálqáhyói
-		Gwa-kelega
-		Kaigwa
-		Kogui
-		Kâtá
-		Kinep
-		Káugyabidau
-		Semat
-		Soy-hay-talpupé
-		Pojoaque
+		to-kinah-yup
+		sálqáhyói
+		gwa-kelega
+		kaigwa
+		kogui
+		kâtá
+		kinep
+		káugyabidau
+		semat
+		soy-hay-talpupé
+		pojoaque
 	}
 	ethnicities = {
 		1 = native_american
@@ -397,48 +397,48 @@ oirat={
 	religion = gelugpa
 	traits = { central_asian_heritage mongolic }
 	male_common_first_names={
-		Badamdorj
-		Balingiin
-		Batbayar
-		Baterdene
-		Chingis
-		Dambyan
-		Damdin
-		Dogsomyn
-		Gonchigtseren
-		Injinash
-		Khorloogiin
-		Kubilai
-		Otgonbayar
-		Peljidiin
-		Sodnomyn
+		badamdorj
+		balingiin
+		batbayar
+		baterdene
+		chingis
+		dambyan
+		damdin
+		dogsomyn
+		gonchigtseren
+		injinash
+		khorloogiin
+		kubilai
+		otgonbayar
+		peljidiin
+		sodnomyn
 	}
 	female_common_first_names = {
-		Bayartsetseg
-		Dondogdulam
-		Ider
-		Khajidsuren
-		Oyuungerel
-		Sonomyn
-		Tuyaa
+		bayartsetseg
+		dondogdulam
+		ider
+		khajidsuren
+		oyuungerel
+		sonomyn
+		tuyaa
 	}	
 	noble_last_names = {
-		Gonchigjalzangiin
-		Togs-Ochiryn
+		gonchigjalzangiin
+		togs-ochiryn
 	}
 	common_last_names={
-		Amar
-		Bodoo
-		Chagdarjav
-		Choibalsan
-		Damdinbazar
-		Genden
-		Jamyan
-		Murdorj 
-		Sukhbaatar
-		Tomorbaatar
-		Tserendorj
-		Vanchinbalyn
+		amar
+		bodoo
+		chagdarjav
+		choibalsan
+		damdinbazar
+		genden
+		jamyan
+		murdorj 
+		sukhbaatar
+		tomorbaatar
+		tserendorj
+		vanchinbalyn
 	}
 	ethnicities = {
 		1 = central_asian
@@ -451,45 +451,45 @@ altishahri={
 	religion = sunni
 	traits = { iranian_turanian_culture_group central_asian_heritage }
 	male_common_first_names={
-		Afaq
-		Ahmed
-		Arshad
-		Bahayeddin
-		Bakhytzhan
-		Burhan
-		Daud
-		Ehmetjan
-		Hakim
-		Husayin
-		Kemal
-		Maqsud
-		Muhammad
-		Musa
-		Rashidin
-		Satuq
-		Timur
-		Yaqub
+		afaq
+		ahmed
+		arshad
+		bahayeddin
+		bakhytzhan
+		burhan
+		daud
+		ehmetjan
+		hakim
+		husayin
+		kemal
+		maqsud
+		muhammad
+		musa
+		rashidin
+		satuq
+		timur
+		yaqub
 	}
 	female_common_first_names = {
-		Dilraba
-		Gulimina
-		Gulnazar
-		Madina
+		dilraba
+		gulimina
+		gulnazar
+		madina
 	}	
 	noble_last_names = {
-		Beg
-		Khan
-		Muhiti
-		Shah
+		beg
+		khan
+		muhiti
+		shah
 	}
 	common_last_names={
-		Abdulbaqi
-		Damolla
-		Khoja
-		Masanchi
-		Niyaz
-		Qasim
-		Tore
+		abdulbaqi
+		damolla
+		khoja
+		masanchi
+		niyaz
+		qasim
+		tore
 	}
 	ethnicities = {
 		1 = central_asian
@@ -502,55 +502,55 @@ khalkha={
 	religion = gelugpa
 	traits = { north_asian_heritage mongolic }
 	male_common_first_names={
-		Badamdorj
-		Balingiin
-		Batbayar
-		Baterdene
+		badamdorj
+		balingiin
+		batbayar
+		baterdene
 		jampildorj
 		nasantsogt
-		Tserendorj
-		Chingis
-		Dambyan
+		tserendorj
+		chingis
+		dambyan
 		dashyam
-		Damdin
-		Dogsomyn
-		Gonchigjalzangiin
-		Gonchigtseren
+		damdin
+		dogsomyn
+		gonchigjalzangiin
+		gonchigtseren
 		gombodorj
-		Injinash
-		Khorloogiin
-		Kubilai
-		Otgonbayar
+		injinash
+		khorloogiin
+		kubilai
+		otgonbayar
 		gersenji
-		Peljidiin
-		Sodnomyn
+		peljidiin
+		sodnomyn
 	}
 	female_common_first_names = {
-		Bayartsetseg
-		Dondogdulam
-		Ider
-		Khajidsuren
-		Oyuungerel
-		Sonomyn
-		Tuyaa
+		bayartsetseg
+		dondogdulam
+		ider
+		khajidsuren
+		oyuungerel
+		sonomyn
+		tuyaa
 	}	
 	noble_last_names = {
-		Gonchigjalzangiin
-		Borjigin
+		gonchigjalzangiin
+		borjigin
 	}
 	common_last_names={
-		Amar
-		Bodoo
-		Chagdarjav
-		Choibalsan
-		Damdinbazar
-		Genden
-		Jamyan
-		Murdorj 
-		Sukhbaatar
-		Tomorbaatar
-		Tserendorj
-		Vanchinbalyn
+		amar
+		bodoo
+		chagdarjav
+		choibalsan
+		damdinbazar
+		genden
+		jamyan
+		murdorj 
+		sukhbaatar
+		tomorbaatar
+		tserendorj
+		vanchinbalyn
 	}
 	ethnicities = {
 		1 = central_asian
@@ -563,37 +563,37 @@ cham={
 	religion = hindu
 	traits = { southeast_asian_heritage }
 	male_common_first_names={
-		Ang
-		Norodom
-		Pok
-		Satha
-		Sisowath
-		Thommo
+		ang
+		norodom
+		pok
+		satha
+		sisowath
+		thommo
 	}
 	female_common_first_names = {
-		Aut
-		Bunlei
-		Di
-		Mey
-		Ros
-		Vanthy
-		Vara
+		aut
+		bunlei
+		di
+		mey
+		ros
+		vanthy
+		vara
 	}	
 	noble_last_names = {
-		Ang
-		Varman
+		ang
+		varman
 	}
 	common_last_names={
-		Chan
-		Em
-		Eng
-		Mey
-		Non
-		Reachea
-		Sieng
-		Sinn
-		Snguon
-		Tong
+		chan
+		em
+		eng
+		mey
+		non
+		reachea
+		sieng
+		sinn
+		snguon
+		tong
 	}
 	ethnicities = {
 		1 = south_east_asian
@@ -606,47 +606,47 @@ formosan={
 	religion = animist
 	traits = { indigenous_oceanic_heritage polynesian_group }
 	male_common_first_names={
-		Epenisa
-		Eroni
-		Kanendjo
-		Kaoua
-		Lubati
-		Raivalita
-		Ralulu
-		Rasolo
-		Samuel
-		Seru
-		Taltai
-		Tamavunisa
-		Ti-Abel
-		Ti-Quatchium
-		Ti-Toorou
-		Yavala
+		epenisa
+		eroni
+		kanendjo
+		kaoua
+		lubati
+		raivalita
+		ralulu
+		rasolo
+		samuel
+		seru
+		taltai
+		tamavunisa
+		ti-abel
+		ti-quatchium
+		ti-toorou
+		yavala
 	}
 	female_common_first_names = {
-		Alanieta
-		Manjula
-		Noelene
-		Salote
-		Sarojini
-		Tauta
+		alanieta
+		manjula
+		noelene
+		salote
+		sarojini
+		tauta
 	}	
 	noble_last_names = {
-		Dovi
-		Sukuna
-		Uluviti
+		dovi
+		sukuna
+		uluviti
 	}
 	common_last_names={
-		Banuve
-		Cakobau
-		Cokanauto
-		Hortense
-		Lakeba
-		Loganimoce
-		Qaraniqio
-		Tupou
-		Tyuienon
-		Vendegou
+		banuve
+		cakobau
+		cokanauto
+		hortense
+		lakeba
+		loganimoce
+		qaraniqio
+		tupou
+		tyuienon
+		vendegou
 	}
 	ethnicities = {
 		1 = polynesian
@@ -659,55 +659,55 @@ tagalog={
 	religion = catholic
 	traits = { southeast_asian_heritage }
 	male_common_first_names={
-		Andres
-		Antonio
-		Apolinario
-		Arcadio
-		Artemio
-		Deodato
-		Emilio
-		Hermano
-		Jacinto
-		Jose
-		Ladislao
-		Leon_3
-		Manuel
-		Marcelo
-		Mariano
-		Santiago
-		Simeon_2
-		Teodoro
-		Valentine
+		andres
+		antonio
+		apolinario
+		arcadio
+		artemio
+		deodato
+		emilio
+		hermano
+		jacinto
+		jose
+		ladislao
+		leon_3
+		manuel
+		marcelo
+		mariano
+		santiago
+		simeon_2
+		teodoro
+		valentine
 	}
 	female_common_first_names = {
-		Brijida
-		Carmen
-		Catalina
-		Leona
-		Librada
-		Teodora
-		Trinidad
+		brijida
+		carmen
+		catalina
+		leona
+		librada
+		teodora
+		trinidad
 	}	
 	noble_last_names = {
-		Aguainaldo
-		Bonifacio
-		Burgos
-		Mangubat
+		aguainaldo
+		bonifacio
+		burgos
+		mangubat
 	}
 	common_last_names={
-		Arellano
-		Basa
-		del_Pilar
-		Diwa
-		Diaz_2
-		Dizon
-		Jacinto
-		Mabini
-		Mangali
-		Nakpil
-		Nocon
-		Plata
-		Rizal
+		arellano
+		basa
+		del_pilar
+		diwa
+		diaz_2
+		dizon
+		jacinto
+		mabini
+		mangali
+		nakpil
+		nocon
+		plata
+		rizal
 	}
 	ethnicities = {
 		1 = south_east_asian
@@ -720,55 +720,55 @@ bisaya={
 	religion = animist
 	traits = { southeast_asian_heritage }
 	male_common_first_names={
-		Andres
-		Antonio
-		Apolinario
-		Arcadio
-		Artemio
-		Deodato
-		Emilio
-		Hermano
-		Jacinto
-		Jose
-		Ladislao
-		Leon_3
-		Manuel
-		Marcelo
-		Mariano
-		Santiago
-		Simeon_2
-		Teodoro
-		Valentine
+		andres
+		antonio
+		apolinario
+		arcadio
+		artemio
+		deodato
+		emilio
+		hermano
+		jacinto
+		jose
+		ladislao
+		leon_3
+		manuel
+		marcelo
+		mariano
+		santiago
+		simeon_2
+		teodoro
+		valentine
 	}
 	female_common_first_names = {
-		Brijida
-		Carmen
-		Catalina
-		Leona
-		Librada
-		Teodora
-		Trinidad
+		brijida
+		carmen
+		catalina
+		leona
+		librada
+		teodora
+		trinidad
 	}	
 	noble_last_names = {
-		Aguainaldo
-		Bonifacio
-		Burgos
-		Mangubat
+		aguainaldo
+		bonifacio
+		burgos
+		mangubat
 	}
 	common_last_names={
-		Arellano
-		Basa
-		del_Pilar
-		Diwa
-		Diaz_2
-		Dizon
-		Jacinto
-		Mabini
-		Mangali
-		Nakpil
-		Nocon
-		Plata
-		Rizal
+		arellano
+		basa
+		del_pilar
+		diwa
+		diaz_2
+		dizon
+		jacinto
+		mabini
+		mangali
+		nakpil
+		nocon
+		plata
+		rizal
 	}
 	ethnicities = {
 		1 = south_east_asian
@@ -781,198 +781,198 @@ larantuqueiro={
 	religion = catholic
 	traits = { southeast_asian_heritage lusophone }
 	male_common_first_names={
-		Abel
-		Adriano
-		Afonso
-		Alberto
-		Alexandre
-		Alfredo
-		Andre
-		Antonio_2
-		Aquilino
-		Artur
-		Augusto
-		Bartolomeu
-		Bernardo
-		Bruno
-		Caetano
-		Carlos
-		Christovao
-		Claudio_2
-		Candido
-		Damiao
-		Daniel
-		David
-		Dinis
-		Diogo
-		Duarte
-		Ernesto
-		Estevao
-		Eugenio
-		Fernando
-		Filipe
-		Francisco
-		Francisco_Xavier
-		Gastao
-		Hermenegildo
-		Ignacio_2
-		Jeronimo
-		Joaquim
-		Jorge
-		Jose
-		Joao
-		Julio_2
-		Leopoldo
-		Luis_2
-		Manuel
-		Miguel
-		Mario_2
-		Nicolau
-		Nuno
-		Orlando
-		Pascoal
-		Paulo
-		Pedro
-		Rafael_2
-		Raul
-		Roberto
-		Rodrigo
-		Rui
-		Santiago
-		Sebastiao
-		Teodoro
-		Teofilo
-		Tiago
-		Tome
-		Urbano
-		Vasco
-		Vicente
-		Vitorino
-		Vitorio
-		Alvaro
-		Oscar_2
+		abel
+		adriano
+		afonso
+		alberto
+		alexandre
+		alfredo
+		andre
+		antonio_2
+		aquilino
+		artur
+		augusto
+		bartolomeu
+		bernardo
+		bruno
+		caetano
+		carlos
+		christovao
+		claudio_2
+		candido
+		damiao
+		daniel
+		david
+		dinis
+		diogo
+		duarte
+		ernesto
+		estevao
+		eugenio
+		fernando
+		filipe
+		francisco
+		francisco_xavier
+		gastao
+		hermenegildo
+		ignacio_2
+		jeronimo
+		joaquim
+		jorge
+		jose
+		joao
+		julio_2
+		leopoldo
+		luis_2
+		manuel
+		miguel
+		mario_2
+		nicolau
+		nuno
+		orlando
+		pascoal
+		paulo
+		pedro
+		rafael_2
+		raul
+		roberto
+		rodrigo
+		rui
+		santiago
+		sebastiao
+		teodoro
+		teofilo
+		tiago
+		tome
+		urbano
+		vasco
+		vicente
+		vitorino
+		vitorio
+		alvaro
+		oscar_2
 	}
 	female_common_first_names = {
-		Adelgundes
-		Ana
-		Antonia_2
-		Avelina
-		Benedita
-		Bernardina
-		Carlota
-		Eulalia_2
-		Francisca
-		Gabriela
-		Isabel
-		Joana
-		Joaquina
-		Josefa
-		Leopoldina
-		Lourcenca
-		Maria
-		Micaela
-		Rafaela
-		Rita
-		Rosa
-		Sofia
-		Teresa
+		adelgundes
+		ana
+		antonia_2
+		avelina
+		benedita
+		bernardina
+		carlota
+		eulalia_2
+		francisca
+		gabriela
+		isabel
+		joana
+		joaquina
+		josefa
+		leopoldina
+		lourcenca
+		maria
+		micaela
+		rafaela
+		rita
+		rosa
+		sofia
+		teresa
 	}	
 	noble_last_names = {
-		Correia_de_Sa
-		da_Costa
-		da_Cunha
-		da_Franca
-		da_Silva_Pereira
-		de_Albuquerque
-		de_Almada
-		de_Braganca
-		de_Braganca-Coburgo
-		de_Carvalho
-		de_Caula
-		de_Oliveira
-		de_Pinho
-		de_Queiros
-		de_Sousa
-		de_Sousa_Coutinho
-		de_Vasconcelos
-		dos_Anjos
-		Rangel
-		Rebelo
-		Vilela
+		correia_de_sa
+		da_costa
+		da_cunha
+		da_franca
+		da_silva_pereira
+		de_albuquerque
+		de_almada
+		de_braganca
+		de_braganca-coburgo
+		de_carvalho
+		de_caula
+		de_oliveira
+		de_pinho
+		de_queiros
+		de_sousa
+		de_sousa_coutinho
+		de_vasconcelos
+		dos_anjos
+		rangel
+		rebelo
+		vilela
 	}
 	common_last_names={
-		Amaral
-		Barreto
-		Bleck
-		Braga
-		Cabral
-		Capelo
-		Carmona
-		Coelho
-		Correia
-		Coutinho
-		Dias
-		Fernandes
-		Ferreira
-		Figueira
-		Freire_de_Andrade
-		Gago
-		Gil
-		Gomes
-		Herculano
-		Ivens
-		Keil
-		Lopes
-		Machado
-		Magalhaes
-		Mendes
-		Moniz
-		Mouzinho
-		Nogueira
-		Nunes
-		Ortigao
-		Pereira
-		Pinheiro
-		Pinto
-		Pires
-		Pomar
-		Pulido
-		Queiroz
-		Quintanilha
-		Ribeiro
-		Rodrigues
-		Salazar
-		Sampaio
-		Silveira
-		Sergio_2
-		Tavares
-		Teixeira
-		Vidigal
-		Vieira
-		da_Silva
-		de_Almeida
-		de_Arriaga
-		de_Castro
-		de_Gusmao
-		de_Lacerda
-		de_Mesquita
-		de_Moura
-		de_Noronha
-		de_Paiva
-		dos_Reis
-		dos_Santos
+		amaral
+		barreto
+		bleck
+		braga
+		cabral
+		capelo
+		carmona
+		coelho
+		correia
+		coutinho
+		dias
+		fernandes
+		ferreira
+		figueira
+		freire_de_andrade
+		gago
+		gil
+		gomes
+		herculano
+		ivens
+		keil
+		lopes
+		machado
+		magalhaes
+		mendes
+		moniz
+		mouzinho
+		nogueira
+		nunes
+		ortigao
+		pereira
+		pinheiro
+		pinto
+		pires
+		pomar
+		pulido
+		queiroz
+		quintanilha
+		ribeiro
+		rodrigues
+		salazar
+		sampaio
+		silveira
+		sergio_2
+		tavares
+		teixeira
+		vidigal
+		vieira
+		da_silva
+		de_almeida
+		de_arriaga
+		de_castro
+		de_gusmao
+		de_lacerda
+		de_mesquita
+		de_moura
+		de_noronha
+		de_paiva
+		dos_reis
+		dos_santos
 	}
 	male_regal_first_names={
-		Carlos
-		Fernando
-		Joao Jose
-		Luis_2
-		Manuel Miguel
-		Pedro
+		carlos
+		fernando
+		joao jose
+		luis_2
+		manuel miguel
+		pedro
 	}
 	female_regal_first_names={
-		Adelgundes
-		Maria Maria_Ana Maria_Teresa
+		adelgundes
+		maria maria_ana maria_teresa
 	}
 	graphics = asian
 	ethnicities = {
@@ -985,55 +985,55 @@ mughal={
 	religion = sunni
 	traits = { iranian_turanian_culture_group central_asian_heritage }
 	male_common_first_names={
-		Abd_al-Ahad
-		Abd_al-Karim
-		Abu_al-Ghazi
-		Abulfayz
-		Alimqul
-		Allah_Quli
-		Aqim
-		Haydar
-		Husayn
-		Iltazar
-		Isfandiyar
-		Jahangir
-		Khudayar
-		Madali
-		Mahmud
-		Muhammad
-		Murad
-		Nasir_al-Din
-		Nasrallah
-		Nurali
-		Pulad
-		Qilich
-		Qutlugh
-		Rahim
-		Shir
-		Umar
-		Yadigar
-		Yaqub
+		abd_al-ahad
+		abd_al-karim
+		abu_al-ghazi
+		abulfayz
+		alimqul
+		allah_quli
+		aqim
+		haydar
+		husayn
+		iltazar
+		isfandiyar
+		jahangir
+		khudayar
+		madali
+		mahmud
+		muhammad
+		murad
+		nasir_al-din
+		nasrallah
+		nurali
+		pulad
+		qilich
+		qutlugh
+		rahim
+		shir
+		umar
+		yadigar
+		yaqub
 	}
 	female_common_first_names = {
-		Halima
-		Irina
-		Mohlaroyim
-		Nargiz
-		Nazokat
-		Nilufar
-		Tursunoy
-		Yulduz
-		Zilola
+		halima
+		irina
+		mohlaroyim
+		nargiz
+		nazokat
+		nilufar
+		tursunoy
+		yulduz
+		zilola
 	}	
 	noble_last_names = {
-		Kokand
-		Bahadur
-		Khan
+		kokand
+		bahadur
+		khan
 	}
 	common_last_names={
-		Bahadur
-		Bukhari
-		Gulkhani
+		bahadur
+		bukhari
+		gulkhani
 	}
 	ethnicities = {
 		1 = central_asian
@@ -1046,57 +1046,57 @@ koori={
 	religion = the_dreaming
 	traits = { indigenous_oceanic_heritage aboriginal_australian }
 	male_common_first_names={
-		Bennelong
-		Billibellary
-		Calyute
-		Derrimut
-		Ellemarra
-		Jandamarra
-		Loongkoonan
-		Mokare
-		Morndi
-		Midgegooroo
-		Nemarluk
-		Pemulwy
-		Tollamareena
-		Tjyllyungoo
-		Umbarra
-		Wylie
-		Yagan
-		Yellagonga
+		bennelong
+		billibellary
+		calyute
+		derrimut
+		ellemarra
+		jandamarra
+		loongkoonan
+		mokare
+		morndi
+		midgegooroo
+		nemarluk
+		pemulwy
+		tollamareena
+		tjyllyungoo
+		umbarra
+		wylie
+		yagan
+		yellagonga
 	}
 	female_common_first_names = {
-		Mindup
-		Naata
-		Yamup
+		mindup
+		naata
+		yamup
 	}	
 	noble_last_names = {
-		Agwamin
-		Ayabakan
-		Badjiri
-		Bigambul
-		Bunuba
-		Dhiraila
-		Giabal Gulngay
-		Injinoo
-		Jarowair
-		Kooma
-		Kutjal
-		Quandamooka
-		Rakaya
-		Tepiti
-		Totj
+		agwamin
+		ayabakan
+		badjiri
+		bigambul
+		bunuba
+		dhiraila
+		giabal gulngay
+		injinoo
+		jarowair
+		kooma
+		kutjal
+		quandamooka
+		rakaya
+		tepiti
+		totj
 	}
 	common_last_names={
-		Bunurong
-		Lanne
-		Mullagh
-		Noongar
-		Nannup
-		Nungurray
-		Windich
-		Wonga
-		Wangkatha
+		bunurong
+		lanne
+		mullagh
+		noongar
+		nannup
+		nungurray
+		windich
+		wonga
+		wangkatha
 	}
 	ethnicities = {
 		1 = polynesian
@@ -1109,57 +1109,57 @@ murri={
 	religion = the_dreaming
 	traits = { indigenous_oceanic_heritage aboriginal_australian }
 	male_common_first_names={
-		Bennelong
-		Billibellary
-		Calyute
-		Derrimut
-		Ellemarra
-		Jandamarra
-		Loongkoonan
-		Mokare
-		Morndi
-		Midgegooroo
-		Nemarluk
-		Pemulwy
-		Tollamareena
-		Tjyllyungoo
-		Umbarra
-		Wylie
-		Yagan
-		Yellagonga
+		bennelong
+		billibellary
+		calyute
+		derrimut
+		ellemarra
+		jandamarra
+		loongkoonan
+		mokare
+		morndi
+		midgegooroo
+		nemarluk
+		pemulwy
+		tollamareena
+		tjyllyungoo
+		umbarra
+		wylie
+		yagan
+		yellagonga
 	}
 	female_common_first_names = {
-		Mindup
-		Naata
-		Yamup
+		mindup
+		naata
+		yamup
 	}	
 	noble_last_names = {
-		Agwamin
-		Ayabakan
-		Badjiri
-		Bigambul
-		Bunuba
-		Dhiraila
-		Giabal Gulngay
-		Injinoo
-		Jarowair
-		Kooma
-		Kutjal
-		Quandamooka
-		Rakaya
-		Tepiti
-		Totj
+		agwamin
+		ayabakan
+		badjiri
+		bigambul
+		bunuba
+		dhiraila
+		giabal gulngay
+		injinoo
+		jarowair
+		kooma
+		kutjal
+		quandamooka
+		rakaya
+		tepiti
+		totj
 	}
 	common_last_names={
-		Bunurong
-		Lanne
-		Mullagh
-		Noongar
-		Nannup
-		Nungurray
-		Windich
-		Wonga
-		Wangkatha
+		bunurong
+		lanne
+		mullagh
+		noongar
+		nannup
+		nungurray
+		windich
+		wonga
+		wangkatha
 	}
 	ethnicities = {
 		1 = polynesian
@@ -1172,57 +1172,57 @@ nyungar={
 	religion = the_dreaming
 	traits = { indigenous_oceanic_heritage aboriginal_australian }
 	male_common_first_names={
-		Bennelong
-		Billibellary
-		Calyute
-		Derrimut
-		Ellemarra
-		Jandamarra
-		Loongkoonan
-		Mokare
-		Morndi
-		Midgegooroo
-		Nemarluk
-		Pemulwy
-		Tollamareena
-		Tjyllyungoo
-		Umbarra
-		Wylie
-		Yagan
-		Yellagonga
+		bennelong
+		billibellary
+		calyute
+		derrimut
+		ellemarra
+		jandamarra
+		loongkoonan
+		mokare
+		morndi
+		midgegooroo
+		nemarluk
+		pemulwy
+		tollamareena
+		tjyllyungoo
+		umbarra
+		wylie
+		yagan
+		yellagonga
 	}
 	female_common_first_names = {
-		Mindup
-		Naata
-		Yamup
+		mindup
+		naata
+		yamup
 	}	
 	noble_last_names = {
-		Agwamin
-		Ayabakan
-		Badjiri
-		Bigambul
-		Bunuba
-		Dhiraila
-		Giabal Gulngay
-		Injinoo
-		Jarowair
-		Kooma
-		Kutjal
-		Quandamooka
-		Rakaya
-		Tepiti
-		Totj
+		agwamin
+		ayabakan
+		badjiri
+		bigambul
+		bunuba
+		dhiraila
+		giabal gulngay
+		injinoo
+		jarowair
+		kooma
+		kutjal
+		quandamooka
+		rakaya
+		tepiti
+		totj
 	}
 	common_last_names={
-		Bunurong
-		Lanne
-		Mullagh
-		Noongar
-		Nannup
-		Nungurray
-		Windich
-		Wonga
-		Wangkatha
+		bunurong
+		lanne
+		mullagh
+		noongar
+		nannup
+		nungurray
+		windich
+		wonga
+		wangkatha
 	}
 	ethnicities = {
 		1 = polynesian
@@ -1235,45 +1235,45 @@ maori={
 	religion = tikanga
 	traits = { polynesian_group indigenous_oceanic_heritage }
 	male_common_first_names={
-		Auha
-		Koroki
-		Mahuta
-		Matutaera
-		Potatau
-		Rangi-Kahu
-		Tawhiao
-		Te_Ata-i
-		Te_Rata
-		Tukaroto
-		Pokaia
+		auha
+		koroki
+		mahuta
+		matutaera
+		potatau
+		rangi-kahu
+		tawhiao
+		te_ata-i
+		te_rata
+		tukaroto
+		pokaia
 	}
 	female_common_first_names = {
-		Hariata
-		Kahupeka
-		Parengaope
-		Ruawehea
-		Tarore
-		Tiahuia
-		Te_Tahuna
-		Ta_Puea
-		Te_Marama
-		Te_Kona
-		Tuhikura
-		Whakaawi
+		hariata
+		kahupeka
+		parengaope
+		ruawehea
+		tarore
+		tiahuia
+		te_tahuna
+		ta_puea
+		te_marama
+		te_kona
+		tuhikura
+		whakaawi
 	}	
 	noble_last_names = {
-		Herangi
-		Heke
-		Hongi
-		Te_Wherowhero
-		Whaanga
+		herangi
+		heke
+		hongi
+		te_wherowhero
+		whaanga
 	}
 	common_last_names={
-		Ataarangikaahu
-		Kenena
-		Ngapora
-		Raouparah
-		Wherowhero
+		ataarangikaahu
+		kenena
+		ngapora
+		raouparah
+		wherowhero
 	}
 	ethnicities = {
 		1 = polynesian

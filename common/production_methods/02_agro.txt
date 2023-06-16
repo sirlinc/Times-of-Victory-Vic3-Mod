@@ -1396,6 +1396,24 @@ pm_dyed_hides = {
 	}
 }
 
+pm_collagen_glue_factories = {
+	texture = "gfx/interface/icons/production_method_icons/patent_stills.dds"
+
+	pollution_generation = 4
+
+	unlocking_technologies = {
+		chemistry
+	}	
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_grain_add = 15
+			building_input_tools_add = 4
+			building_output_chemicals_add = 15
+		}
+	}
+}
+
 pm_chrome_tanning = {
 	texture = "gfx/interface/icons/production_method_icons/vaccum_brine_electrolysis.dds"
 
@@ -1413,38 +1431,68 @@ pm_chrome_tanning = {
 	}
 }
 
-#pmg_secondary_livestock_base_pasture
+#pmg_horses_base_pasture
 
-pm_no_secondary_livestock = {
+pm_no_horses = {
 	texture = "gfx/interface/icons/production_method_icons/no_secondary_livestock.dds"
 }
 
-pm_horse_ranches = {
+pm_draft_breeds = {
 	texture = "gfx/interface/icons/production_method_icons/horses.dds"
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_grain_add = 15
-			building_input_wood_add = 15
+			building_input_grain_add = 10
+			building_output_horses_add = 5
+		}
+	}
+}
+
+unlocking_technologies = {
+	joint_stock_company
+}
+
+pm_baroque_breeds = {
+	texture = "gfx/interface/icons/production_method_icons/horses.dds"
+
+	unlocking_technologies = {
+		intercropping
+	}	
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_grain_add = 20
 			building_output_horses_add = 10
 		}
 	}
 }
 
-pm_collagen_glue_factories = {
-	texture = "gfx/interface/icons/production_method_icons/patent_stills.dds"
+pm_warmblooded_breeds = {
+	texture = "gfx/interface/icons/production_method_icons/horses.dds"
+	
+	unlocking_technologies = {
+		selective_breeding
+	}
 
-	pollution_generation = 4
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_grain_add = 40
+			building_output_horses_add = 20
+		}
+	}
+}
+
+pm_stock_horse_breeds = {
+	texture = "gfx/interface/icons/production_method_icons/horses.dds"
 
 	unlocking_technologies = {
-		chemistry
+		breed_registries
 	}	
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_grain_add = 15
-			building_input_tools_add = 4
-			building_output_chemicals_add = 15
+			building_input_grain_add = 60
+			building_output_horses_add = 30
 		}
 	}
 }

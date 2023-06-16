@@ -11,7 +11,10 @@
 			country = c:QKH
 			type = vassal
 		}
-		
+		create_diplomatic_pact = {
+			country = c:A41
+			type = protectorate
+		}		
 	}
 	c:ENG = {
 	}
@@ -212,7 +215,7 @@ c:BUR = {
 	c:TUR = {
 		create_diplomatic_pact = {
 			country = c:B37
-			type = vassal
+			type = puppet
 		}
 	}
 	c:TUR = {

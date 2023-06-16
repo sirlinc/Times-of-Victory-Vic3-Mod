@@ -2,7 +2,7 @@
 	c:JMB = {
 		create_character = {
 			first_name = "agung"
-			last_name = "abdul jalil"
+			last_name = "abdul_jalil"
 			age = 45
 			ruler = yes
 		}

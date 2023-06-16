@@ -55,9 +55,9 @@
 						is_pop_type = farmers
 						is_pop_type = laborers
 						is_pop_type = engineers
-						is_pop_type = machnists
+						is_pop_type = machinists
 						is_pop_type = peasants
-						is_pop_type = servicemen
+						is_pop_type = soldiers
 						is_pop_type = slaves
 					}
 				}

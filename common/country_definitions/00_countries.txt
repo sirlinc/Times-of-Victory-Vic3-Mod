@@ -1927,7 +1927,7 @@ PHI = {
 	
 	tier = kingdom
 	
-	cultures = { filipino spanish }
+	cultures = { spanish }
 	capital = STATE_LUZON
 }
 
@@ -2089,7 +2089,7 @@ MEX = {
 
 	tier = kingdom
 	
-	cultures = { mexican }
+	cultures = { spanish }
 	capital = STATE_MEXICO
 	is_named_from_capital = yes
 }
@@ -2319,7 +2319,7 @@ PEU = {
 	
 	tier = kingdom
 	
-	cultures = { south_andean }
+	cultures = { spanish }
 	capital = STATE_LIMA
 }
 
@@ -2353,7 +2353,7 @@ VNZ = {
 	
 	tier = kingdom
 	
-	cultures = { north_andean }
+	cultures = { spanish }
 	capital = STATE_MIRANDA
 }
 

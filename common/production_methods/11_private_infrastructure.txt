@@ -453,16 +453,14 @@ pm_railways_private_ownership = {
 	}   
 
     building_modifiers = {
-        workforce_scaled = {
-            building_input_building_engineers_shares_add = 3
-            
-        }
 
         level_scaled = {
-            
+            building_employment_capitalists_add = 100
+			building_employment_engineers_add = 100            
         }
         unscaled = {
-            
+            building_engineers_shares_add = 1
+            building_capitalists_shares_add = 3  
         }
     }
 }
@@ -473,19 +471,14 @@ pm_railways_military_owned = {
     
 
     building_modifiers = {
-        workforce_scaled = {
-            building_input_building_officers_shares_add = 3
-			building_input_building_engineers_shares_add = 1
-            
-        }
-
         level_scaled = {
             building_employment_officers_add = 100
 			building_employment_soldiers_add = 500
 			building_employment_laborers_add = -500
         }
         unscaled = {
-            
+            building_officers_shares_add = 3
+			building_engineers_shares_add = 1  
         }
     }
 }
@@ -498,19 +491,14 @@ pm_railways_industrial_conglomerate = {
 	}
 
     building_modifiers = {
-        workforce_scaled = {
-            building_input_building_capitalists_shares_add = 3
-			building_input_building_bureaucrats_shares_add = 1
-            
-        }
-
         level_scaled = {
             building_employment_capitalists_add = 200
 			building_employment_bureaucrats_add = 200
 			building_employment_clerks_add = -500
         }
         unscaled = {
-            
+            building_capitalists_shares_add = 3
+			building_bureaucrats_shares_add = 1
         }
     }
 }
@@ -529,16 +517,9 @@ pm_railways_state_owned = {
 	}
 
     building_modifiers = {
-        workforce_scaled = {
-            building_input_building_government_shares_add = 1
-            
-        }
-
-        level_scaled = {
-            
         }
         unscaled = {
-            
+            building_government_shares_add = 1            
         }
     }
 }

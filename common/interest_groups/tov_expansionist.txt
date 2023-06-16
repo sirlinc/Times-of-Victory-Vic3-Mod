@@ -127,9 +127,10 @@
 			if = {
 				limit = {
 					OR = {
-						pop_employment_building = building_war_machine_industry
-						pop_employment_building = building_arms_industry
-						pop_employment_building = building_munition_plants
+						pop_employment_building = building_engineering_firms
+						pop_employment_building = building_automotive_firms
+						pop_employment_building = building_arsenal
+						pop_employment_building = building_munitions_plants
 						AND = {
 							pop_employment_building = building_shipyards
 							workplace = {
@@ -153,9 +154,10 @@
 				limit ={	
 					is_pop_type = capitalists 
 					OR = { 
-						pop_employment_building = building_arms_industry
-						pop_employment_building = building_munition_plants
-						pop_employment_building = building_war_machine_industry
+						pop_employment_building = building_arsenal
+						pop_employment_building = building_munitions_plants
+						pop_employment_building = building_engineering_firms
+						pop_employment_building = building_automotive_firms
 						AND = {
 							pop_employment_building = building_shipyards
 							workplace = {
@@ -232,6 +234,18 @@
 	
 	female_politician_chance = {
 		value = 0.0
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_in_leadership
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
 
 		if = {
 			limit = {

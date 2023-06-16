@@ -181,3 +181,11 @@ lawgroup_slavery = {
 		}
 	}	
 }
+
+lawgroup_land_reform = {
+	law_group_category = economy
+	enactment_approval_mult = 1.5 # people REALLY care about land reform
+	
+	progressive_movement_chance = 3
+	regressive_movement_chance = 1
+}

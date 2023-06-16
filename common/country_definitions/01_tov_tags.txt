@@ -1554,7 +1554,7 @@ A38 = { #Chukchi
 	tier = principality
 	
 	capital = STATE_CHUKOTKA
-	cultures = { yakut }
+	cultures = { inuit }
 	religion = animist
 }
 

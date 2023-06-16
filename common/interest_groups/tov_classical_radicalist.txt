@@ -36,10 +36,10 @@
 					OR = { 
 						is_pop_type = clerks
 						is_pop_type = farmers
-						is_pop_type = labourers
+						is_pop_type = laborers
 						is_pop_type = machinists
 						is_pop_type = peasants
-						is_pop_type = servicemen
+						is_pop_type = soldiers
 						is_pop_type = slaves
 					}
 				}
@@ -64,10 +64,10 @@
 		}	
 		
 		add = {
-			desc = "POP_LABOURERS"
+			desc = "POP_LABORERS"
 			if = {
 				limit = { 
-					is_pop_type = labourers 
+					is_pop_type = laborers 
 					owner = {
 						radical_fraction = {
 							value >= 0.2
@@ -96,11 +96,11 @@
 		}	
 		
 		add = {
-			desc = "SERVICEMEN"
+			desc = "SOLDIERS"
 			if = {
 				limit = { 
 					OR = {
-						is_pop_type = servicemen
+						is_pop_type = soldiers
 						is_pop_type = soldiers
 					}
 					owner = {
@@ -124,7 +124,7 @@
 						OR = {
 							radical_fraction = {
 								value >= 0.2
-								pop_type = servicemen
+								pop_type = soldiers
 							}
 							radical_fraction = {
 								value >= 0.2

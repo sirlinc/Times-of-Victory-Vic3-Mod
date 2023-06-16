@@ -464,7 +464,7 @@ pmg_munitions_plant_ammunition = {
 	ai_selection = most_productive
 
 	production_methods = {
-		pm_cartridge_ammunition
+		pm_paper_cartridges
 		pm_minie_ball
 		pm_metallic_cartridges
 		pm_smokeless_powder

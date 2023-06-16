@@ -1,7 +1,7 @@
 ﻿CHARACTERS = {
 	c:DEN = {
 		create_character = {
-			first_name = "frederick_III"
+			first_name = "frederick_iii"
 			last_name = "oldenburg"
 			age = 29
 			ruler = yes

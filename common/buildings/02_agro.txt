@@ -113,7 +113,7 @@ building_prime_pasture = {
 
 	production_method_groups = {
 		pmg_prime_pasture
-		pmg_secondary_livestock_base_pasture
+		pmg_horses_base_pasture
 		pmg_tanneries_base_pasture
 		pmg_processing_base_pasture
 		pmg_land_tenure_base_pasture

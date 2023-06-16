@@ -1,4 +1,4 @@
-ideology_paternalistic = {
+﻿ideology_paternalistic = {
 	icon = "gfx/interface/icons/ideology_icons/paternalistic.dds"
 	
 	lawgroup_governance_principles = {
@@ -77,8 +77,8 @@ ideology_laissez_faire = {
 		law_child_labor_expected = strongly_approve
 		law_child_labor_allowed = approve
 		law_restricted_child_labor = disapprove
-		compulsory_education_to_twelve = disapprove
-		compulsory_education_to_sixteen = disapprove
+		law_compulsory_education_to_twelve = disapprove
+		law_compulsory_education_to_sixteen = disapprove
 	}
 	
 	lawgroup_labor_rights = {
@@ -555,8 +555,8 @@ ideology_egalitarian = {
 		law_child_labor_expected = strongly_disapprove
 		law_child_labor_allowed = disapprove
 		law_restricted_child_labor = approve
-		compulsory_education_to_twelve = strongly_approve
-		compulsory_education_to_sixteen = strongly_approve
+		law_compulsory_education_to_twelve = strongly_approve
+		law_compulsory_education_to_sixteen = strongly_approve
 	}
 	
 	lawgroup_labor_rights = {		

@@ -1,9 +1,9 @@
 ﻿CHARACTERS = {
 	c:NFR = {
 		create_character = {
-			first_name = "Louis_d_ailleboust "
+			first_name = "louis_d_ailleboust"
 			last_name = "de_coulonge"
-			age = 
+			age = 36
 			ruler = yes
 		}
 	}

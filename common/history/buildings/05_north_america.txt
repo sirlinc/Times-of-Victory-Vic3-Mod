@@ -233,8 +233,9 @@
 				building="building_fishing_wharf"
 				level=1
 				reserves=1
-		region_state:C81={ #Lenape
+			}
 		}
+		region_state:C81={ #Lenape
 			}
 			create_building={
 				building="building_temperate_farmland"
@@ -457,7 +458,7 @@
 	s:STATE_DURANGO={
 		region_state:MEX={ #Mexico
 			create_building={
-				building="bg_prime_pasture"
+				building="building_prime_pasture"
 				level=1
 				reserves=1
 			}
@@ -466,7 +467,7 @@
 	s:STATE_SINALOA={
 		region_state:MEX={ #Mexico
 			create_building={
-				building="bg_temperate_farmland"
+				building="building_temperate_farmland"
 				level=1
 				reserves=1
 			}
@@ -565,7 +566,7 @@
 	s:STATE_GUERRERO={
 		region_state:MEX={ #Mexico
 			create_building={
-				building="bg_tropical_farmland"
+				building="building_tropical_farmland"
 				level=1
 				reserves=1
 			}
@@ -589,7 +590,7 @@
 	s:STATE_OAXACA={
 		region_state:MEX={ #Mexico
 			create_building={
-				building="bg_tropical_farmland"
+				building="building_tropical_farmland"
 				level=1
 				reserves=1
 			}
@@ -613,7 +614,7 @@
 				reserves=1
 			}
 			create_building={
-				building="bg_tropical_farmland"
+				building="building_tropical_farmland"
 				level=1
 				reserves=1
 			}

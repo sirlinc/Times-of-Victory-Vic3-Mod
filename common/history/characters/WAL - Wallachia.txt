@@ -1,7 +1,7 @@
 ﻿CHARACTERS = {
 	c:WAL = {
 		create_character = {
-			first_name = "matei "
+			first_name = "matei"
 			last_name = "basarab"
 			age = 60
 			ruler = yes

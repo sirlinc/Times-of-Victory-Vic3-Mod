@@ -1,4 +1,4 @@
-ideology_moderate = {
+﻿ideology_moderate = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_no_ideology.dds"
 	
 	show_in_list = no
@@ -583,8 +583,8 @@ ideology_reformer = {
 		law_child_labor_expected = strongly_disapprove
 		law_child_labor_allowed = disapprove
 		law_restricted_child_labor = approve
-		compulsory_education_to_twelve = strongly_approve
-		compulsory_education_to_sixteen = strongly_approve
+		law_compulsory_education_to_twelve = strongly_approve
+		law_compulsory_education_to_sixteen = strongly_approve
 	}
 	
 	possible = {
@@ -2426,8 +2426,8 @@ ideology_market_liberal = {
 		law_child_labor_expected = strongly_approve
 		law_child_labor_allowed = approve
 		law_restricted_child_labor = disapprove
-		compulsory_education_to_twelve = strongly_disapprove
-		compulsory_education_to_sixteen = strongly_disapprove
+		law_compulsory_education_to_twelve = strongly_disapprove
+		law_compulsory_education_to_sixteen = strongly_disapprove
 	}	
 	
 	lawgroup_trade_policy = {

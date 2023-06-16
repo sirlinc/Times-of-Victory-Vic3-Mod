@@ -1,7 +1,7 @@
 ﻿CHARACTERS = {
 	c:POL = {
 		create_character = {
-			first_name = "john_II_casimir"
+			first_name = "john_ii_casimir"
 			last_name = "vasa"
 			age = 33
 			ruler = yes

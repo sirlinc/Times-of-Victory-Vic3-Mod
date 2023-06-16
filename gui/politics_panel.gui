@@ -94,7 +94,7 @@ types politics_panel_types
 					visible = "[Not( InformationPanel.IsTabSelected('laws') )]"
 				}
 				blockoverride "third_button_selected" {
-					text = "LAWS_BOLD"
+					text = "LAWS"
 				}
 				blockoverride "third_button_name" {
 					name = "tutorial_highlight_laws_tab"
@@ -116,7 +116,7 @@ types politics_panel_types
 					visible = "[Not( InformationPanel.IsTabSelected('institutions') )]"
 				}
 				blockoverride "fourth_button_selected" {
-					text = "INSTITUTIONS_BOLD"
+					text = "INSTITUTIONS"
 				}
 				blockoverride "fourth_button_name" {
 					name = "tutorial_highlight_institutions_tab"
@@ -138,7 +138,7 @@ types politics_panel_types
 					visible = "[Not( InformationPanel.IsTabSelected('families') )]"
 				}
 				blockoverride "fifth_button_selected" {
-					text = "FAMILIES_BOLD"
+					text = "FAMILIES"
 				}
 				blockoverride "fifth_button_name" {
 					name = "tutorial_highlight_families_tab"

@@ -1,7 +1,7 @@
 ﻿CHARACTERS = {
 	c:TRS = {
 		create_character = {
-			first_name = "george_II"
+			first_name = "george_ii"
 			last_name = "rakoczi"
 			age = 34
 			ruler = yes

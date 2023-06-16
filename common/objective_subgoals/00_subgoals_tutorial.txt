@@ -201,7 +201,7 @@ sg_change_production_method = {
 			}
 			
 			scope:tutorial_state_target = {
-				b:building_rye_farm = { save_scope_as = tutorial_building_target }
+				b:building_temperate_farmland = { save_scope_as = tutorial_building_target }
 			}					
 		}	
 		else_if = {
@@ -215,7 +215,7 @@ sg_change_production_method = {
 			}
 			
 			scope:tutorial_state_target = {
-				b:building_wheat_farm = { save_scope_as = tutorial_building_target }
+				b:building_tropical_farmland = { save_scope_as = tutorial_building_target }
 			}				
 		}
 		else_if = {
@@ -229,7 +229,7 @@ sg_change_production_method = {
 			}
 			
 			scope:tutorial_state_target = {
-				b:building_maize_farm = { save_scope_as = tutorial_building_target }
+				b:building_wetlands_farmland = { save_scope_as = tutorial_building_target }
 			}			
 		}	
 		else_if = {
@@ -243,7 +243,7 @@ sg_change_production_method = {
 			}
 			
 			scope:tutorial_state_target = {
-				b:building_rice_farm = { save_scope_as = tutorial_building_target }
+				b:building_arid_farmland = { save_scope_as = tutorial_building_target }
 			}					
 		}
 		else_if = {
@@ -258,7 +258,7 @@ sg_change_production_method = {
 			}
 			
 			scope:tutorial_state_target = {
-				b:building_livestock_ranch = { save_scope_as = tutorial_building_target }
+				b:building_prime_pasture = { save_scope_as = tutorial_building_target }
 			}					
 		}	
 		else_if = {
@@ -294,7 +294,7 @@ sg_change_production_method = {
 					}					
 				}
 				
-				b:building_rye_farm = { save_scope_as = tutorial_building_target }
+				b:building_temperate_farmland = { save_scope_as = tutorial_building_target }
 			}					
 		}	
 		else_if = {
@@ -315,7 +315,7 @@ sg_change_production_method = {
 					}						
 				}
 				
-				b:building_wheat_farm = { save_scope_as = tutorial_building_target }
+				b:building_tropical_farmland = { save_scope_as = tutorial_building_target }
 			}				
 		}
 		else_if = {
@@ -336,7 +336,7 @@ sg_change_production_method = {
 					}					
 				}
 				
-				b:building_maize_farm = { save_scope_as = tutorial_building_target }
+				b:building_wetlands_farmland = { save_scope_as = tutorial_building_target }
 			}			
 		}	
 		else_if = {
@@ -357,7 +357,7 @@ sg_change_production_method = {
 					}						
 				}
 				
-				b:building_rice_farm = { save_scope_as = tutorial_building_target }
+				b:building_arid_farmland = { save_scope_as = tutorial_building_target }
 			}									
 		}			
 		else_if = {
@@ -380,7 +380,7 @@ sg_change_production_method = {
 					market = { mg:tools = { market_goods_delta >= 10 } }						
 				}
 				
-				b:building_livestock_ranch = { save_scope_as = tutorial_building_target }
+				b:building_prime_pasture = { save_scope_as = tutorial_building_target }
 			}					
 		}	
 		else_if = {

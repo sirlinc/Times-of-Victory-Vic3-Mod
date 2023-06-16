@@ -839,7 +839,7 @@ pm_case_hardened_tools = {
     }
 }
 
-pm_turret_lathes = {
+pm_turret_lathe = {
     texture = "gfx/interface/icons/production_method_icons/pig_iron_tools.dds"
 
     unlocking_technologies = {
@@ -948,7 +948,7 @@ pm_tungsten_carbide_parts = {
     }
 }
 
-pm_molded_parts = {
+pm_molded_polymers = {
     texture = "gfx/interface/icons/production_method_icons/ctc_machines.dds"
 
     unlocking_technologies = {
@@ -1050,9 +1050,7 @@ pm_solid_chocolate = {
 
 pm_no_liquor = {
     texture = "gfx/interface/icons/production_method_icons/no_liquor.dds"
-
-    
-
+ 
     building_modifiers = {
         workforce_scaled = {
             
@@ -1123,7 +1121,7 @@ pm_chromium_vessels = {
         workforce_scaled = {
             building_input_grain_add = 40
 			building_input_sugar_add = 40
-			building_input_machined_parts_add = 5
+			building_input_alloys_add = 20
             building_output_liquor_add = 100
         }
     }
@@ -1249,7 +1247,7 @@ basic_appliances = {
     building_modifiers = {
         workforce_scaled = {
             
-            building_output_building_throughput_mult_add = -0.1
+            building_throughput_mult_add = -0.1
         }
 
         level_scaled = {
@@ -1268,8 +1266,8 @@ oven_thermometers = {
     building_modifiers = {
         workforce_scaled = {
             building_input_tools_add = 2
-			building_input_Coal_add = 5
-            building_output_building_throughput_mult_add = 0
+			building_input_coal_add = 5
+            building_throughput_mult_add = 0
         }
         level_scaled = {
             building_employment_laborers_add = 4000
@@ -1288,8 +1286,8 @@ gas_stoves = {
     building_modifiers = {
         workforce_scaled = {
             building_input_tools_add = 5
-			building_input_Coal_add = 10
-            building_output_building_throughput_mult_add = 0.1
+			building_input_coal_add = 10
+            building_throughput_mult_add = 0.1
         }
 
         level_scaled = {
@@ -1310,7 +1308,7 @@ electric_mixers = {
         workforce_scaled = {
             building_input_tools_add = 10
 			building_input_electricity_add = 10
-            building_output_building_throughput_mult_add = 0.2
+            building_throughput_mult_add = 0.2
         }
 
         level_scaled = {
@@ -1331,7 +1329,7 @@ dishwashers = {
         workforce_scaled = {
             building_input_machined_parts_add = 5
 			building_input_electricity_add = 20
-            building_output_building_throughput_mult_add = 0.3
+            building_throughput_mult_add = 0.3
         }
 
         level_scaled = {
@@ -1660,7 +1658,7 @@ pm_handmade_paper = {
     building_modifiers = {
         workforce_scaled = {
             
-            building_output_paper_add = 10
+            building_output_paper_add = 5
         }
     }
 }
@@ -1674,8 +1672,8 @@ pm_pulping_mills = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_tools_add = 8
-            building_output_paper_add = 30
+            building_input_tools_add = 5
+            building_output_paper_add = 15
         }
     }
 }

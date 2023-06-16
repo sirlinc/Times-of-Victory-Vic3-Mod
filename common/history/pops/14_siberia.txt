@@ -3,15 +3,19 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 333571
+				size = 63571
 			}
 			create_pop = {
 				culture = tatar
-				size = 5996
+				size = 15996
+			}
+			create_pop = {
+				culture = khalkha
+				size = 67415
 			}
 			create_pop = {
 				culture = ugrian
-				size = 6649
+				size = 76649
 			}
 		}
 	}
@@ -19,19 +23,19 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 67005
+				size = 27005
 			}
 			create_pop = {
 				culture = siberian
-				size = 5008
+				size = 20008
 			}
 			create_pop = {
 				culture = tatar
-				size = 20346
+				size = 25346
 			}
 			create_pop = {
 				culture = khalkha
-				size = 7415
+				size = 17415
 			}
 		}
 		region_state:A03 = {
@@ -41,7 +45,7 @@
 			}
 			create_pop = {
 				culture = khalkha
-				size = 10215
+				size = 20215
 			}
 		}
 	}
@@ -49,19 +53,19 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 113524
+				size = 63524
 			}
 			create_pop = {
 				culture = tatar
-				size = 2000
+				size = 7000
 			}
 			create_pop = {
 				culture = ugrian
-				size = 7380
+				size = 37380
 			}
 			create_pop = {
 				culture = siberian
-				size = 3980
+				size = 23980
 			}
 		}
 	}
@@ -110,11 +114,11 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 10746
+				size = 3746
 			}
 			create_pop = {
 				culture = ugrian
-				size = 9950
+				size = 16950
 			}
 		}
 	}
