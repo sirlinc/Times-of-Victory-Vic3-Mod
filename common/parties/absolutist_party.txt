@@ -1,0 +1,272 @@
+﻿absolutist_party = {
+	color = { 50 60 198 }
+	name = {
+		first_valid = {
+			triggered_desc = {
+				desc = party_absolutist
+				trigger = {
+					always = yes
+				}
+			}
+		}
+	}
+
+	icon = {
+		default = "/gfx/interface/icons/political_parties/absolutist.dds"
+	}
+	unlocking_technologies = {
+		absolutism
+	}
+	available_for_interest_group = {
+		OR = {
+	     	NOT = {
+	         	owner = {
+	         		has_variable = only_valid_party
+	         	}
+	        }
+	        owner.var:only_valid_party = {
+	        	is_party_type = absolutist_party
+	        }
+	    }
+	}
+	
+	# Root - IG considering joining
+	# scope:number - the number of IGs that would join this party before the root IG
+	join_weight = {
+		value = {
+			value = -5
+			desc = "base_value"
+		}
+		if = { # absolutists love absolutism
+			limit = {
+				is_interest_group_type = ig_paternalistic
+			}
+			add = {
+				value = 10
+				desc = "from_absolutism"
+			}
+		}
+		if = { # strong absolutists love absolutism even more
+			limit = {
+				is_powerful = yes
+				is_interest_group_type = ig_paternalistic
+			}
+			add = {
+				value = 10
+				desc = "from_absolutism_powerful"
+			}
+		}
+		if = { # ideologies derived from the old feudal nobility, when weak, will appeal to the crown in exchange for protection, titles and privileges.
+			limit = {
+				is_powerful = no
+				OR = {
+					is_interest_group_type = ig_elitist
+					is_interest_group_type = ig_plutocratic
+				}
+				owner = {
+					any_interest_group = {
+						is_powerful = yes
+						is_interest_group_type = ig_paternalistic
+					}
+				}
+			}
+			add = {
+				value = 5
+				desc = "from_weak_feudal_nobility_absolutism"
+			}
+		}
+		if = { # socialists and radicals won't join conservative parties
+			limit = {
+				leader = { 
+					OR = {
+						has_ideology = ideology:ideology_vanguardist
+						has_ideology = ideology:ideology_anarchist
+						has_ideology = ideology:ideology_social_democrat
+					}
+				}
+			}
+			add = {
+				value = -20
+				desc = "from_leftist"
+			}
+		}
+		if = { # various progressives dislike absolutism
+			limit = {
+				OR = {
+					is_interest_group_type = ig_rationalist
+					is_interest_group_type = ig_egalitarianism
+					has_ideology = ideology:ideology_feminist
+					has_ideology = ideology:ideology_abolitionist
+					has_ideology = ideology:ideology_pacifist
+				}
+			}
+			add = {
+				value = -10
+				desc = "from_progressive_absolutism"
+			}
+		}
+		if = { # free trade advocates don't love protectionism
+			limit = {
+				has_ideology = ideology:ideology_market_liberal
+			}
+			add = {
+				value = -2
+				desc = "from_market_liberal"
+			}
+		}
+		if = { # patriots are inclined towards absolutism
+			limit = {
+				has_ideology = ideology:ideology_patriotic
+			}
+			add = {
+				value = 4
+				desc = "from_patriot"
+			}
+		}
+		if = { # isolationists will ally with anti-migration faction
+			limit = {
+				has_ideology = ideology:ideology_isolationist
+				owner = {
+					has_law = law_type:law_no_migration_controls
+				}
+			}
+			add = {
+				value = 5
+				desc = "from_isolationist"
+			}
+		}
+		if = { # absolutists like police
+			limit = {
+				OR = {
+					has_ideology = ideology:ideology_paternalistic
+					has_ideology = ideology:ideology_patriotic
+				}
+				owner = {
+					has_technology_researched = law_enforcement
+					has_law = law_type:law_no_police
+				}
+			}
+			add = {
+				value = 3
+				desc = "from_no_police"
+			}
+		}
+		if = { # opposition to peasant levies
+			limit = {
+				OR = {
+					has_ideology = ideology:ideology_jingoist
+					has_ideology = ideology:ideology_particularist
+					has_ideology = ideology:ideology_sikh_moralist
+				}
+				owner = {
+					has_law = law_type:law_peasant_levies
+				}
+			}
+			add = {
+				value = 3
+				desc = "from_peasant_levies"
+			}
+		}
+		if = { # loyalist-meritocratic alliance for tax reform
+			limit = {
+				OR = {
+					has_ideology = ideology:ideology_meritocratic
+					AND = {
+						has_ideology = ideology:ideology_loyalist
+						owner = {
+							NOT = { has_law = law_type:law_graduated_taxation }
+						}
+					}
+				}
+				owner = {
+					NOR = {
+						has_law = law_type:law_proportional_taxation
+						has_law = law_type:law_per_capita_based_taxation
+					}
+				}
+			}
+			add = {
+				value = 3
+				desc = "from_no_proportional_or_per_capita_tax"
+			}
+		}
+		if = {
+			limit = {
+				owner = {
+	         		has_variable = only_valid_party
+	         	}
+	         	 owner.var:only_valid_party = {
+		        	is_party_type = absolutist_party
+		        }
+			}
+			add = {
+				value = 3
+				desc = "from_only_legal_party"
+			}
+		}
+		if = {
+			limit = {
+				scope:number = 1
+				is_powerful = no
+				is_marginal = no
+			}
+			multiply = {
+				value = 2
+				desc = "from_influential_supporting_member"
+			}
+		}
+		else_if = {
+			limit = {
+				scope:number = 2
+			}
+			multiply = {
+				value = 0.5
+				desc = "from_two_prior_members"
+			}
+		}
+		else_if = {
+			limit = {
+				scope:number = 3
+			}
+			multiply = {
+				value = 0.25
+				desc = "from_three_prior_members"
+			}
+		}
+		else_if = {
+			limit = {
+				scope:number > 3
+			}
+			multiply = {
+				value = 0.1
+				desc = "from_more_than_three_prior_members"
+			}
+		}
+		if = { # authoritarians inclined towards absolutism
+			limit = {
+				leader = {
+					has_ideology = ideology:ideology_authoritarian
+				}
+			}
+			add = {
+				value = 3
+				desc = "from_authoritarian"
+			}
+		}
+		if = {
+			limit = {
+				owner = {
+	         		has_variable = only_valid_party
+	         	}
+	         	NOT = {
+			        owner.var:only_valid_party = {
+			        	is_party_type = absolutist_party
+			        }
+			    }
+			}
+			multiply = {
+				value = 0
+			}
+		}
+	}
+}

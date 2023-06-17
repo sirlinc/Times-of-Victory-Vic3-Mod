@@ -200,7 +200,11 @@ social_democrat_party = {
 		default = "/gfx/interface/icons/political_parties/social_democrats.dds"
 	}
 	unlocking_technologies = {
+<<<<<<< Updated upstream
 		socialism
+=======
+		labor_movement
+>>>>>>> Stashed changes
 	}
 	# THIS IS RUN ONLY ONCE AT GAME START
 	valid_for_country = {
@@ -208,7 +212,11 @@ social_democrat_party = {
 	}
 	available_for_interest_group = {
 		owner = {
+<<<<<<< Updated upstream
 			country_has_voting_franchise = yes
+=======
+			#country_has_voting_franchise = yes
+>>>>>>> Stashed changes
 			OR = {
 				any_interest_group = {
 					is_marginal = no

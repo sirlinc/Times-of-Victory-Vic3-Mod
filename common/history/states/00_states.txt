@@ -7131,9 +7131,14 @@ STATES = {
 	s:STATE_CRETE = {
 		create_state = {
 			country = c:B37 #Eyalet of Egypt
-			owned_provinces = { x0B9BBE x6010A0 }
+			owned_provinces = { x6010A0 }
 		}
-
+		
+		create_state = {
+			country = c:VEN
+			owned_provinces = { x0B9BBE }
+		}	
+		
 		add_homeland = turkish
 		add_homeland = greek
 	}

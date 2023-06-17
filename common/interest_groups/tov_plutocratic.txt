@@ -1,0 +1,291 @@
+﻿ig_plutocratic = {
+	color = rgb { 23 122 120 }
+	texture = "gfx/interface/icons/ig_icons/plutocratic.dds"
+	
+	ideologies = { ideology_plutocratic	}
+
+	enable = { always = yes }
+	
+	traits = {}	
+	
+	on_enable = {}
+	on_disable = {}	
+	on_character_ig_membership = {}
+	
+	pop_potential = {
+		OR = {
+			is_pop_type = aristocrats
+			is_pop_type = capitalists
+		}
+	}
+
+	pop_weight = {
+	
+		value = 0
+	
+		add = {
+			desc = "UPPER_STRATA"
+			if = {
+				limit = { 
+					OR = {
+						is_pop_type = aristocrats
+						is_pop_type = capitalists
+						strata = upper
+					}
+				}
+				value = 185
+			}
+		}	
+		
+		#SOL 
+		add = {
+			desc = "SOL_20_25"
+			if = {
+				limit = {
+					NOT = { strata = upper }
+					standard_of_living >= 20
+					standard_of_living < 25
+				}
+				value = 5
+			}
+		}
+		
+		add = {
+			desc = "SOL_25_30"
+			if = {
+				limit = {
+					NOT = { strata = upper }
+					standard_of_living >= 25
+					standard_of_living < 30
+				}
+				value = 10
+			}
+		}
+		add = {
+			desc = "SOL_30_35"
+			if = {
+				limit = {
+					NOT = { strata = upper }
+					standard_of_living >= 30
+					standard_of_living < 35
+				}
+				value = 20
+			}
+		}
+		
+		add = {
+			desc = "SOL_35_40"
+			if = {
+				limit = {
+					NOT = { strata = upper }
+					standard_of_living >= 35
+					standard_of_living < 40
+				}
+				value = 35
+			}
+		}
+		add = {
+			desc = "SOL_40_45"
+			if = {
+				limit = {
+					NOT = { strata = upper }
+					standard_of_living >= 40
+					standard_of_living < 45
+				}
+				value = 50
+			}
+		}
+		
+		#SOL Upper Strata
+		multiply = {
+			desc = "SOL_LESS_15"
+			if = {
+				limit = {
+					strata = upper 
+					standard_of_living < 15
+				}
+				value = 0.5
+			}
+		}
+		multiply = {
+			desc = "SOL_15_20"
+			if = {
+				limit = {
+					strata = upper 
+					standard_of_living >= 15
+					standard_of_living < 20
+				}
+				value = 0.75
+			}
+		}
+		multiply = {
+			desc = "SOL_20_25"
+			if = {
+				limit = {
+					strata = upper 
+					standard_of_living >= 20
+					standard_of_living < 25
+				}
+				value = 1.0
+			}
+		}
+		
+		multiply = {
+			desc = "SOL_25_30"
+			if = {
+				limit = {
+					strata = upper
+					standard_of_living >= 25
+					standard_of_living < 30
+				}
+				value = 1.1
+			}
+		}
+		multiply = {
+			desc = "SOL_30_35"
+			if = {
+				limit = {
+					strata = upper
+					standard_of_living >= 30
+					standard_of_living < 35
+				}
+				value = 1.25
+			}
+		}
+		
+		multiply = {
+			desc = "SOL_35_40"
+			if = {
+				limit = {
+					strata = upper
+					standard_of_living >= 35
+					standard_of_living < 40
+				}
+				value = 1.5
+			}
+		}
+		multiply = {
+			desc = "SOL_40_45"
+			if = {
+				limit = {
+					strata = upper
+					standard_of_living >= 40
+					standard_of_living < 45
+				}
+				value = 1.75
+			}
+		}
+		
+		multiply = {
+			desc = "LEADER_POPULARITY"
+			scope:interest_group = {
+				leader = {
+					value = popularity
+					multiply = 0.0025
+					add = 1
+					max = 1.25
+					min = 0.75
+				}
+			}
+		}		
+
+		multiply = {
+			desc = "decentralized_power"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						is_country_type = decentralized
+					}
+				}
+				value = 0.0
+			}		
+		}
+		if = {
+			limit = {
+				scope:interest_group = {
+					is_in_government = yes
+				}
+			}
+			multiply = {
+				desc = "IN_GOVERNMENT_ATTRACTION"
+				value = 1
+				add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
+				min = 0
+			}
+		}
+	}
+
+	monarch_weight = {
+		value = 0.25
+	}	
+	
+	commander_weight = {
+		value = 1.0
+	}	
+	
+	noble_chance = {
+		value = 0.1
+	}
+	
+	female_commander_chance = {	
+		value = 0.0
+	}
+	
+	female_politician_chance = {
+		value = 0.0
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_own_property
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_in_the_workplace
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_womens_suffrage
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+	}
+	
+	# The chance that a commander belonging to this IG takes over leadership when it changes
+	# scope:character is the most popular commander in the IG
+	commander_leader_chance = {
+		value = 0.25
+		if = {
+			limit = {
+				exists = scope:character
+			}
+			multiply = {
+				value = 1
+				add = scope:character.popularity
+				min = 0
+			}
+		}
+	}
+}

@@ -891,7 +891,7 @@
 				reserves=1
 			}
 		}
-		region_state:FR2={
+		region_state:FRA={
 			create_building={
 				building="building_textile_mills"
 				level=1

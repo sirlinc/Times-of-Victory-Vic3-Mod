@@ -4,6 +4,7 @@ military_party = {
 	color = { 132 100 53 }
 	name = {
 		first_valid = {
+<<<<<<< Updated upstream
 
 			triggered_desc = {
 				desc = party_true_peoples_party
@@ -79,6 +80,8 @@ military_party = {
 					}
 				}
 			}
+=======
+>>>>>>> Stashed changes
 			triggered_desc = {
 				desc = party_military
 				trigger = {
@@ -96,9 +99,16 @@ military_party = {
 	}
 	available_for_interest_group = {
 		owner = {
+<<<<<<< Updated upstream
 			country_has_voting_franchise = yes
 			ig:ig_armed_forces = {
 				is_marginal = no
+=======
+			#country_has_voting_franchise = yes
+			OR = {
+				ig:ig_nationalist = { is_marginal = no }
+				ig:ig_expansionist = { is_marginal = no }
+>>>>>>> Stashed changes
 			}
 		}
 		OR = {
@@ -122,7 +132,14 @@ military_party = {
 		}
 		if = { # nobody will join if the armed forces don't join
 			limit = {
+<<<<<<< Updated upstream
 				NOT = { is_interest_group_type = ig_armed_forces }
+=======
+				NOR = {
+					is_interest_group_type = ig_nationalist
+					is_interest_group_type = ig_expansionist
+				}
+>>>>>>> Stashed changes
 				OR = {
 					NOT = { exists = owner.py:military_party }
 					AND = {
@@ -142,7 +159,14 @@ military_party = {
 		}
 		if = { # a party for powerful soldiers
 			limit = {
+<<<<<<< Updated upstream
 				is_interest_group_type = ig_armed_forces
+=======
+				OR = {
+					is_interest_group_type = ig_nationalist
+					is_interest_group_type = ig_expansionist
+				}
+>>>>>>> Stashed changes
 				is_powerful = yes
 			}
 			add = {
@@ -152,7 +176,11 @@ military_party = {
 		}
 		if = { # jingoists like the military party
 			limit = {
+<<<<<<< Updated upstream
 				leader = { has_ideology = ideology:ideology_jingoist_leader }
+=======
+				is_interest_group_type = ig_expansionist
+>>>>>>> Stashed changes
 			}
 			add = {
 				value = 10
@@ -162,8 +190,13 @@ military_party = {
 		if = { # conservatives like police
 			limit = {
 				OR = {
+<<<<<<< Updated upstream
 					has_paternalist_ideology = yes
 					has_ideology = ideology:ideology_patriotic
+=======
+					is_interest_group_type = ig_paternalistic
+					is_interest_group_type = ig_nationalist
+>>>>>>> Stashed changes
 				}
 				owner = {
 					has_technology_researched = law_enforcement
@@ -178,6 +211,7 @@ military_party = {
 		if = { # opposition to peasant levies
 			limit = {
 				OR = {
+<<<<<<< Updated upstream
 					has_ideology = ideology:ideology_jingoist
 					has_ideology = ideology:ideology_particularist
 					has_ideology = ideology:ideology_sikh_moralist
@@ -189,6 +223,11 @@ military_party = {
 							has_ideology = ideology:ideology_jingoist_leader
 						}
 					}
+=======
+					is_interest_group_type = ig_expansionist
+					is_interest_group_type = ig_particularist
+					is_interest_group_type = ig_anarchist
+>>>>>>> Stashed changes
 				}
 				owner = {
 					has_law = law_type:law_peasant_levies
@@ -203,9 +242,12 @@ military_party = {
 			limit = {
 				OR = {
 					has_ideology = ideology:ideology_proletarian
+<<<<<<< Updated upstream
 					leader = {
 						has_ideology = ideology:ideology_social_democrat
 					}
+=======
+>>>>>>> Stashed changes
 					has_ideology = ideology:ideology_loyalist
 				}
 				owner = {
@@ -246,7 +288,14 @@ military_party = {
 		}
 		if = {
 			limit = {
+<<<<<<< Updated upstream
 				is_interest_group_type = ig_armed_forces
+=======
+				OR = {
+					is_interest_group_type = ig_nationalist
+					is_interest_group_type = ig_expansionist
+				}
+>>>>>>> Stashed changes
 				is_powerful = yes
 			}
 			multiply = {
@@ -311,7 +360,11 @@ military_party = {
 			limit = {
 				OR = {
 					has_ideology = ideology:ideology_patriotic
+<<<<<<< Updated upstream
 					leader = { has_ideology = ideology:ideology_authoritarian }
+=======
+					has_ideology = ideology:ideology_paternalistic
+>>>>>>> Stashed changes
 				}
 				owner = {
 					NOR = {
@@ -337,7 +390,10 @@ military_party = {
 				OR = {
 					has_ideology = ideology:ideology_patriarchal
 					has_ideology = ideology:ideology_patriotic
+<<<<<<< Updated upstream
 					leader = { has_ideology = ideology:ideology_authoritarian }
+=======
+>>>>>>> Stashed changes
 				}
 			}
 			add = {
@@ -356,6 +412,7 @@ military_party = {
 				desc = from_authoritarian
 			}
 		}
+<<<<<<< Updated upstream
 		if = { # anti-orleanist
 			limit = {
 				leader = {
@@ -419,6 +476,8 @@ military_party = {
 				desc = "from_french_monarchist_rival"
 			}
 		}
+=======
+>>>>>>> Stashed changes
 		if = {
 			limit = {
 				owner = {

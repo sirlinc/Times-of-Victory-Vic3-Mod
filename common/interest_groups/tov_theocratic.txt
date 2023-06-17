@@ -1,6 +1,6 @@
 ﻿ig_theocratic = {
-	color = hsv{ 0.65 0.54 0.52 }
-	texture = "gfx/interface/icons/ig_icons/ideology.dds"
+	color = rgb { 104 83 43 }
+	texture = "gfx/interface/icons/ig_icons/theocracy.dds"
 	
 	ideologies = { ideology_theocrat }
 

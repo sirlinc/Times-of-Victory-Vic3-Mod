@@ -5,6 +5,7 @@ religious_party = {
 	color = { 100 100 100 }
 	name = {
 		first_valid = {
+<<<<<<< Updated upstream
 
 			triggered_desc = {
 				desc = party_catholic_peoples_party
@@ -99,6 +100,8 @@ religious_party = {
 					}
 				}
 			}
+=======
+>>>>>>> Stashed changes
 			triggered_desc = {
 				desc = party_moderate_venstre
 				trigger = {
@@ -176,7 +179,11 @@ religious_party = {
 	}
 	available_for_interest_group = {
 		owner = {
+<<<<<<< Updated upstream
 			country_has_voting_franchise = yes
+=======
+			#country_has_voting_franchise = yes
+>>>>>>> Stashed changes
 		}
 		OR = {
 	     	NOT = {
@@ -201,7 +208,15 @@ religious_party = {
 			limit = {
 				owner = {
 					any_interest_group = {
+<<<<<<< Updated upstream
 						is_interest_group_type = ig_landowners
+=======
+						OR = {
+							is_interest_group_type = paternalistic
+							is_interest_group_type = elitist
+							is_interest_group_type = agrarian
+						}
+>>>>>>> Stashed changes
 						is_marginal = no
 					}
 				}
@@ -213,10 +228,15 @@ religious_party = {
 		}
 		if = {
 			limit = {
+<<<<<<< Updated upstream
 				is_interest_group_type = ig_devout
 				owner = {
 					has_law = law_type:law_theocracy
 				}
+=======
+				is_interest_group_type = ig_theocratic
+				is_powerful = yes
+>>>>>>> Stashed changes
 			}
 			add = {
 				value = 5
@@ -225,13 +245,21 @@ religious_party = {
 		}
 		if = { # nobody will join if the devout don't join
 			limit = {
+<<<<<<< Updated upstream
 				NOT = { is_interest_group_type = ig_devout }
+=======
+				NOT = { is_interest_group_type = ig_moralist }
+>>>>>>> Stashed changes
 				OR = {
 					NOT = { exists = owner.py:religious_party }
 					AND = {
 						exists = owner.py:religious_party
 						owner = {
+<<<<<<< Updated upstream
 							ig:ig_devout = {
+=======
+							ig:ig_moralist = {
+>>>>>>> Stashed changes
 								NOT = { is_member_of_party = owner.py:religious_party }
 							}
 						}
@@ -245,7 +273,14 @@ religious_party = {
 		}
 		if = { # a party for powerful religious people
 			limit = {
+<<<<<<< Updated upstream
 				is_interest_group_type = ig_devout
+=======
+				OR = {
+					is_interest_group_type = ig_moralist
+					is_interest_group_type = ig_theocratic
+				}
+>>>>>>> Stashed changes
 				is_powerful = yes
 			}
 			add = {
@@ -253,6 +288,7 @@ religious_party = {
 				desc = "from_powerful_devout"
 			}
 		}
+<<<<<<< Updated upstream
 		if = { # religiously inclined people might join if devout are powerful
 			limit = {
 				is_powerful = no
@@ -273,13 +309,32 @@ religious_party = {
 				desc = "from_powerful_devout_other"
 			}
 		}
+=======
+		# WIP if = { # religiously inclined people might join if devout are powerful
+		# WIP 	limit = {
+		# WIP 		is_powerful = no
+		# WIP 		owner = {
+		# WIP 			ig:ig_devout = {
+		# WIP 				is_powerful = yes
+		# WIP 			}
+		# WIP 		}
+		# WIP 	}
+		# WIP 	add = {
+		# WIP 		value = 10
+		# WIP 		desc = "from_powerful_devout_other"
+		# WIP 	}
+		# WIP }
+>>>>>>> Stashed changes
 		if = { # antireligious characters and IG's will never join
 			limit = {
 				OR = {
 					has_ideology = ideology:ideology_anti_clerical
+<<<<<<< Updated upstream
 					leader = {
 						has_ideology = ideology:ideology_atheist
 					}
+=======
+>>>>>>> Stashed changes
 				}
 			}
 			add = {	
@@ -289,7 +344,11 @@ religious_party = {
 		}
 		if = { # patriarchs more likely to join conservatives with women's suffrage
 			limit = {
+<<<<<<< Updated upstream
 				has_ideology = ideology:ideology_patriarchal
+=======
+				has_ideology = ideology_patriarchal
+>>>>>>> Stashed changes
 				owner = {
 					has_law = law_type:law_womens_suffrage
 				}
@@ -315,7 +374,14 @@ religious_party = {
 		}
 		if = {
 			limit = {
+<<<<<<< Updated upstream
 				is_interest_group_type = ig_devout
+=======
+				OR = {
+					is_interest_group_type = ig_moralist
+					is_interest_group_type = ig_theocratic
+				}
+>>>>>>> Stashed changes
 				is_powerful = yes
 			}
 			multiply = {
@@ -361,6 +427,7 @@ religious_party = {
 				desc = "from_more_than_three_prior_members"
 			}
 		}
+<<<<<<< Updated upstream
 		if = { # anti-orleanist
 			limit = {
 				leader = {
@@ -424,6 +491,8 @@ religious_party = {
 				desc = "from_french_monarchist_rival"
 			}
 		}
+=======
+>>>>>>> Stashed changes
 		if = {
 			limit = {
 				owner = {

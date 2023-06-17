@@ -5,6 +5,7 @@ anarchist_party = {
 	name = {
 		first_valid = {
 			triggered_desc = {
+<<<<<<< Updated upstream
 				desc = party_cnt
 				trigger = {
 					exists = c:SPA
@@ -50,6 +51,8 @@ anarchist_party = {
 				}
 			}
 			triggered_desc = {
+=======
+>>>>>>> Stashed changes
 				desc = party_anarchist
 				trigger = {
 					always = yes
@@ -61,7 +64,11 @@ anarchist_party = {
 		default = "/gfx/interface/icons/political_parties/anarchist.dds"
 	}
 	unlocking_technologies = {
+<<<<<<< Updated upstream
 		meritocracy
+=======
+		anarchism
+>>>>>>> Stashed changes
 	}
 	# THIS IS RUN ONLY ONCE AT GAME START
 	valid_for_country = {
@@ -69,6 +76,7 @@ anarchist_party = {
 	}
 	available_for_interest_group = {
 		owner = {
+<<<<<<< Updated upstream
 			country_has_voting_franchise = yes
 			any_interest_group = {
 				is_marginal = no
@@ -80,6 +88,14 @@ anarchist_party = {
 		leader = {
 			has_ideology = ideology:ideology_anarchist
 		}
+=======
+			#country_has_voting_franchise = yes
+			any_interest_group = {
+				is_marginal = no
+				has_ideology = ideology:ideology_anarchist
+			}
+		}
+>>>>>>> Stashed changes
 		OR = {
 	     	NOT = {
 	         	owner = {
@@ -101,7 +117,11 @@ anarchist_party = {
 		}
 		if = { # anarchists like anarchism
 			limit = {
+<<<<<<< Updated upstream
 				leader = { has_ideology = ideology:ideology_anarchist }
+=======
+				is_interest_group_type = ig_anarchist
+>>>>>>> Stashed changes
 			}
 			add = {
 				value = 6
@@ -111,13 +131,18 @@ anarchist_party = {
 		if = { # strong anarchists like anarchism
 			limit = {
 				is_powerful = yes
+<<<<<<< Updated upstream
 				leader = { has_ideology = ideology:ideology_anarchist }
+=======
+				is_interest_group_type = ig_anarchist
+>>>>>>> Stashed changes
 			}
 			add = {
 				value = 10
 				desc = "powerful_anarachists"
 			}
 		}
+<<<<<<< Updated upstream
 		if = { # anarchists don't like the revolution being hijacked
 			limit = {
 				leader = {
@@ -167,6 +192,34 @@ anarchist_party = {
 						has_ideology = ideology:ideology_anarchist
 					}
 				}
+=======
+		# WIP if = { # anarchists will make their own party if there is no communist party to join
+		# WIP 	limit = {
+		# WIP 		is_interest_group_type = ig_anarchist
+		# WIP 		#owner = {
+		# WIP 		#	NOT = {
+		# WIP 		#		any_interest_group = {
+		# WIP 		#			is_marginal = no
+		# WIP 		#			is_interest_group_type = ig_
+		# WIP 		#			leader = {
+		# WIP 		#				OR = {
+		# WIP 		#					has_ideology = ideology:ideology_communist
+		# WIP 		#					has_ideology = ideology:ideology_vanguardist
+		# WIP 		#				}
+		# WIP 		#			}
+		# WIP 		#		}
+		# WIP 		#	}
+		# WIP 		#}
+		# WIP 	}
+		# WIP 	add = {
+		# WIP 		value = 5
+		# WIP 		desc = "from_no_communists"
+		# WIP 	}
+		# WIP }
+		if = { # radical anti-censorship
+			limit = {
+				is_interest_group_type = ig_anarchist
+>>>>>>> Stashed changes
 				owner = {
 					OR = {
 						has_law = law_type:law_outlawed_dissent
@@ -181,6 +234,7 @@ anarchist_party = {
 		}
 		if = { # anti-censorship
 			limit = {
+<<<<<<< Updated upstream
 				OR = {
 					has_ideology = ideology:ideology_liberal
 					has_ideology = ideology:ideology_egalitarian
@@ -188,6 +242,9 @@ anarchist_party = {
 						has_ideology = ideology:ideology_humanitarian
 					}
 				}
+=======
+				is_interest_group_type = ig_egalitarian
+>>>>>>> Stashed changes
 				owner = {
 					has_law = law_type:law_outlawed_dissent
 				}
@@ -200,8 +257,13 @@ anarchist_party = {
 		if = { # against land-based taxation
 			limit = {
 				OR = {
+<<<<<<< Updated upstream
 					has_ideology = ideology:ideology_meritocratic
 					has_ideology = ideology:ideology_agrarian
+=======
+					is_interest_group_type = ig_meritocratic
+					is_interest_group_type = ig_agrarian
+>>>>>>> Stashed changes
 					leader = {
 						has_ideology = ideology:ideology_social_democrat
 					}
@@ -217,12 +279,16 @@ anarchist_party = {
 		}
 		if = { # anticlerical
 			limit = {
+<<<<<<< Updated upstream
 				OR = {
 					has_ideology = ideology:ideology_anti_clerical
 					leader = {
 						has_ideology = ideology:ideology_atheist
 					}
 				}
+=======
+				is_interest_group_type = ig_rationalist
+>>>>>>> Stashed changes
 				owner = {
 					has_law = law_type:law_state_religion
 				}
@@ -232,6 +298,7 @@ anarchist_party = {
 				desc = "from_anticlerical"
 			}
 		}
+<<<<<<< Updated upstream
 		if = { # opposition to peasant levies
 			limit = {
 				OR = {
@@ -254,6 +321,8 @@ anarchist_party = {
 				desc = "from_peasant_levies"
 			}
 		}
+=======
+>>>>>>> Stashed changes
 		if = { # general anti-slavery
 			limit = {
 				owner = {
@@ -264,9 +333,13 @@ anarchist_party = {
 				}
 				OR = {
 					has_ideology = ideology:ideology_anti_slavery
+<<<<<<< Updated upstream
 					leader = {
 						has_ideology = ideology:ideology_abolitionist
 					}
+=======
+					is_interest_group_type = ig_abolitionist
+>>>>>>> Stashed changes
 				}
 			}
 			add = {
@@ -284,11 +357,14 @@ anarchist_party = {
 					has_ideology = ideology:ideology_anti_slavery
 					has_ideology = ideology:ideology_laissez_faire
 					has_ideology = ideology:ideology_particularist
+<<<<<<< Updated upstream
 					leader = {
 						has_ideology = ideology:ideology_abolitionist
 						has_ideology = ideology:ideology_social_democrat
 						has_ideology = ideology:ideology_communist
 					}
+=======
+>>>>>>> Stashed changes
 				}
 			}
 			add = {

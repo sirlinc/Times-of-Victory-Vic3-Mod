@@ -138,13 +138,6 @@ types politics_panel_types
 			margin_right = 15
 			margin_left = 10
 
-			ig_button = {
-				block "ig_icon_size" {
-					size = { 56 56 }
-				}
-				blockoverride "in_government_icon" {}
-			}
-
 			hbox = {
 				layoutpolicy_horizontal = expanding
 				layoutpolicy_vertical = expanding

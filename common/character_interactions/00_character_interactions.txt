@@ -399,6 +399,76 @@ abdicate_monarch = {
 	}
 }
 
+#increase_reputation = {
+#	icon = "gfx/interface/icons/reputation.dds"
+#	clicksound = "event:/SFX/UI/Military/command_grant"
+#
+#	potential = {
+#		is_in_exile_pool = no
+#	}
+#
+#	possible = {
+#		popularity <= 95
+#	}
+#
+#	effect = {
+#		show_as_tooltip = {
+#			kill_character = yes
+#		}
+#		owner = {
+#			trigger_event = { id = wedding.3 popup = yes}
+#		}
+#	}
+#
+#	cooldown = { months = 360 }
+#	show_confirmation_box = yes
+#
+#	ai_chance = {
+#		value = -50
+#		if = {
+#			limit = {	
+#				interest_group = {
+#					ig_approval <= angry
+#				}
+#			}
+#			add = 25
+#		}	
+#		if = {
+#			limit = {
+#				interest_group = {
+#					is_marginal = yes
+#				}				
+#			}
+#			add = 25
+#		}
+#		if = {
+#			limit = {
+#				popularity <= -50			
+#			}
+#			add = 25
+#		}
+#		if = {
+#			limit = {
+#				popularity <= -75			
+#			}
+#			add = 25
+#		}
+#		if = {
+#			limit = {
+#				age >= 75			
+#			}
+#			add = 50
+#		}
+#		if = {
+#			limit = {
+#				has_trait = psychological_affliction			
+#			}
+#			add = 25
+#		}
+#	}
+#}
+
+
 exile_character = {
 	clicksound = "event:/SFX/DLC/1.3_ip1/UI/exile_character"
 

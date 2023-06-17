@@ -285,7 +285,11 @@
 	}
 	available_for_interest_group = {
 		owner = {
+<<<<<<< Updated upstream
 			country_has_voting_franchise = yes
+=======
+			#country_has_voting_franchise = yes
+>>>>>>> Stashed changes
 			any_interest_group = {
 				leader = {
 					OR = {

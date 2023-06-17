@@ -6,6 +6,7 @@ liberal_party = {
 	name = {
 		first_valid = {
 			triggered_desc = {
+<<<<<<< Updated upstream
 				desc = party_civilista_party
 				trigger = {
 					exists = c:PEU
@@ -20,6 +21,8 @@ liberal_party = {
 				}
 			}
 			triggered_desc = {
+=======
+>>>>>>> Stashed changes
 				desc = party_whigs
 				trigger = {
 					exists = c:GBR
@@ -36,6 +39,7 @@ liberal_party = {
 				}
 			}
 			triggered_desc = {
+<<<<<<< Updated upstream
 				desc = party_liberal_democrats
 				trigger = {
 					exists = c:SWI
@@ -226,6 +230,8 @@ liberal_party = {
 				}
 			}
 			triggered_desc = {
+=======
+>>>>>>> Stashed changes
 				desc = party_liberal
 				trigger = {
 					always = yes
@@ -237,7 +243,11 @@ liberal_party = {
 		default = "/gfx/interface/icons/political_parties/liberal.dds"
 	}
 	unlocking_technologies = {
+<<<<<<< Updated upstream
 		empiricism
+=======
+		classical_liberalism
+>>>>>>> Stashed changes
 	}
 	# THIS IS RUN ONLY ONCE AT GAME START
 	valid_for_country = {
@@ -245,9 +255,22 @@ liberal_party = {
 	}
 	available_for_interest_group = {
 		owner = {
+<<<<<<< Updated upstream
 			country_has_voting_franchise = yes
 			ig:ig_intelligentsia = {
 				is_marginal = no
+=======
+			#country_has_voting_franchise = yes
+			OR = { 
+				ig:ig_abolitionist = { is_marginal = no }
+				ig:ig_egalitarian = { is_marginal = no }
+				ig:ig_republican = { is_marginal = no }
+				ig:ig_rationalist = { is_marginal = no }
+				ig:ig_individualist = { is_marginal = no }
+				ig:ig_market_liberal = { is_marginal = no }
+				ig:ig_market_liberal = { is_marginal = no }
+				ig:ig_pacifist = { is_marginal = no }
+>>>>>>> Stashed changes
 			}
 		}
 		OR = {
@@ -260,6 +283,7 @@ liberal_party = {
 	        	is_party_type = liberal_party
 	        }
 	    }
+<<<<<<< Updated upstream
 		leader = { # far right and far left won't join liberal parties
 			NOR = {
 				has_ideology = ideology:ideology_fascist
@@ -269,6 +293,8 @@ liberal_party = {
 				has_ideology = ideology:ideology_anarchist
 			}
 		}
+=======
+>>>>>>> Stashed changes
 	}
 	
 	# Root - IG considering joining
@@ -280,6 +306,7 @@ liberal_party = {
 		}
 		if = { # liberals love liberalism
 			limit = {
+<<<<<<< Updated upstream
 				leader = {
 					OR = {
 						has_ideology = ideology:ideology_republican_leader
@@ -303,6 +330,21 @@ liberal_party = {
 			}
 			add = {
 				value = 5
+=======
+				OR = {
+					is_interest_group_type = ig_abolitionist
+					is_interest_group_type = ig_egalitarian
+					is_interest_group_type = ig_republican
+					is_interest_group_type = ig_rationalist
+					is_interest_group_type = ig_individualist
+					is_interest_group_type = ig_market_liberal
+					is_interest_group_type = ig_market_liberal
+					is_interest_group_type = ig_pacifist
+				}
+			}
+			add = {
+				value = 7
+>>>>>>> Stashed changes
 				desc = "from_liberalism"
 			}
 		}
@@ -310,9 +352,19 @@ liberal_party = {
 			limit = {
 				leader = {
 					OR = {
+<<<<<<< Updated upstream
 						has_ideology = ideology:ideology_feminist
 						has_ideology = ideology:ideology_abolitionist
 						has_ideology = ideology:ideology_pacifist
+=======
+						is_interest_group_type = ig_abolitionist
+						is_interest_group_type = ig_egalitarian
+						is_interest_group_type = ig_classical_radicalist
+						is_interest_group_type = ig_rationalist
+						is_interest_group_type = ig_pacifist
+						has_ideology = ideology:ideology_feminist
+						has_ideology = ideology:ideology_abolitionist
+>>>>>>> Stashed changes
 						has_ideology = ideology:ideology_social_democrat
 						has_ideology = ideology:ideology_atheist
 						has_ideology = ideology:ideology_humanitarian
@@ -326,6 +378,7 @@ liberal_party = {
 		}
 		if = { # various conservatives dislike liberalism
 			limit = {
+<<<<<<< Updated upstream
 				leader = {
 					OR = {
 						has_ideology = ideology:ideology_traditionalist
@@ -337,6 +390,16 @@ liberal_party = {
 						has_ideology = ideology:ideology_bonapartist
 						has_ideology = ideology:ideology_legitimist
 					}
+=======
+				OR = {
+					is_interest_group_type = ig_paternalistic
+					is_interest_group_type = ig_moralist
+					is_interest_group_type = ig_protectionist
+					is_interest_group_type = ig_patriarchal
+					is_interest_group_type = ig_slaver
+					is_interest_group_type = ig_theocratic
+					is_interest_group_type = ig_elitist
+>>>>>>> Stashed changes
 				}
 			}
 			add = {
@@ -361,14 +424,27 @@ liberal_party = {
 		}
 		if = { # armed forces will join if a more powerful member has jingoist leader
 			limit = {
+<<<<<<< Updated upstream
 				is_interest_group_type = ig_armed_forces
+=======
+				OR = { 
+					is_interest_group_type = ig_nationalist
+					is_interest_group_type = ig_jingoist
+				}
+>>>>>>> Stashed changes
 				exists = owner.py:liberal_party
 				owner = {
 					any_interest_group = {
 						is_member_of_party = owner.py:liberal_party
 						is_powerful = yes
+<<<<<<< Updated upstream
 						leader = {
 							has_ideology = ideology:ideology_jingoist_leader
+=======
+						OR = { 
+							is_interest_group_type = ig_nationalist
+							is_interest_group_type = ig_jingoist
+>>>>>>> Stashed changes
 						}
 					}
 				}
@@ -399,9 +475,13 @@ liberal_party = {
 		if = { # lack of women's rights
 			limit = {
 				OR = {
+<<<<<<< Updated upstream
 					leader = {
 						has_ideology = ideology:ideology_feminist
 					}
+=======
+					is_interest_group_type = ig_feminist
+>>>>>>> Stashed changes
 					has_ideology = ideology:ideology_liberal
 					has_ideology = ideology:ideology_egalitarian
 				}
@@ -424,6 +504,10 @@ liberal_party = {
 						}
 					}
 					has_ideology = ideology:ideology_liberal
+<<<<<<< Updated upstream
+=======
+					#has_ideology = ideology:ideology_egalitarian
+>>>>>>> Stashed changes
 				}
 				owner = {
 					OR = {
@@ -495,6 +579,10 @@ liberal_party = {
 			limit = {
 				OR = {
 					has_ideology = ideology:ideology_republican
+<<<<<<< Updated upstream
+=======
+					is_interest_group_type = ig_classical_radicalist
+>>>>>>> Stashed changes
 					has_ideology = ideology:ideology_populist
 					leader = {
 						OR = {
@@ -523,9 +611,13 @@ liberal_party = {
 				}
 				OR = {
 					has_ideology = ideology:ideology_particularist
+<<<<<<< Updated upstream
 					leader = {
 						has_ideology = ideology:ideology_abolitionist
 					}
+=======
+					is_interest_group_type = ig_abolitionist
+>>>>>>> Stashed changes
 				}
 			}
 			add = {
@@ -541,12 +633,16 @@ liberal_party = {
 						has_law = law_type:law_slave_trade
 					}
 				}
+<<<<<<< Updated upstream
 				OR = {
 					has_ideology = ideology:ideology_anti_slavery
 					leader = {
 						has_ideology = ideology:ideology_abolitionist
 					}
 				}
+=======
+				is_interest_group_type = ig_abolitionist
+>>>>>>> Stashed changes
 			}
 			add = {
 				value = 5
@@ -562,6 +658,10 @@ liberal_party = {
 					has_ideology = ideology:ideology_egalitarian
 					has_ideology = ideology:ideology_anti_slavery
 					has_ideology = ideology:ideology_laissez_faire
+<<<<<<< Updated upstream
+=======
+					is_interest_group_type = ig_classical_radicalist
+>>>>>>> Stashed changes
 					has_ideology = ideology:ideology_particularist
 					leader = {
 						has_ideology = ideology:ideology_abolitionist
@@ -576,6 +676,7 @@ liberal_party = {
 			}
 		}
 		
+<<<<<<< Updated upstream
 		# Special weights for ACW
 		if = {
 			limit = {
@@ -605,6 +706,37 @@ liberal_party = {
 				}					
 			}				
 		}	
+=======
+		## Special weights for ACW
+		#if = {
+		#	limit = {
+		#		owner = { 
+		#			OR = {
+		#				has_journal_entry = je_acw_countdown 
+		#				AND = { # JE not active yet at initialization
+		#					exists = c:USA
+		#					this = c:USA
+		#					year < 1837						
+		#				}
+		#			}				
+		#		}
+		#	}
+		#	if = {
+		#		limit = { leader = { has_ideology = ideology:ideology_slaver } }
+		#		add = {
+		#			value = -100
+		#			desc = "from_slaver_leader"
+		#		}					
+		#	}	
+		#	else_if = {
+		#		limit = { leader = { has_ideology = ideology:ideology_abolitionist } }
+		#		add = {
+		#			value = 100
+		#			desc = "from_abolitionist_leader"
+		#		}					
+		#	}				
+		#}	
+>>>>>>> Stashed changes
 		if = {
 			limit = {
 				owner = {
@@ -622,7 +754,20 @@ liberal_party = {
 		
 		if = {
 			limit = {
+<<<<<<< Updated upstream
 				is_interest_group_type = ig_intelligentsia
+=======
+				OR = {
+					is_interest_group_type = ig_abolitionist
+					is_interest_group_type = ig_egalitarian
+					is_interest_group_type = ig_republican
+					is_interest_group_type = ig_rationalist
+					is_interest_group_type = ig_individualist
+					is_interest_group_type = ig_market_liberal
+					is_interest_group_type = ig_market_liberal
+					is_interest_group_type = ig_pacifist
+				}
+>>>>>>> Stashed changes
 				is_powerful = yes
 			}
 			multiply = {
@@ -668,6 +813,7 @@ liberal_party = {
 				desc = "from_more_than_three_prior_members"
 			}
 		}
+<<<<<<< Updated upstream
 		if = { # anti-orleanist
 			limit = {
 				leader = {
@@ -731,6 +877,8 @@ liberal_party = {
 				desc = "from_french_monarchist_rival"
 			}
 		}
+=======
+>>>>>>> Stashed changes
 		if = {
 			limit = {
 				owner = {

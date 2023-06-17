@@ -525,7 +525,7 @@
 				size=6109
 			}
 		}
-		region_state:FR2 = {
+		region_state:FRA = {
 			create_pop = {
 				culture = occitan
 				size = 243160

@@ -1,6 +1,6 @@
 ﻿ig_anarchist = {
-	color = hsv{ 0.65 0.54 0.52 }
-	texture = "gfx/interface/icons/ig_icons/ideology.dds"
+	color = rgb { 3 3 3 }
+	texture = "gfx/interface/icons/ig_icons/anarchy.dds"
 	
 	ideologies = { ideology_anarchist }
 

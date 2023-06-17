@@ -1,0 +1,302 @@
+﻿ig_nationalist = { #patriotic
+	color = rgb { 18 15 91 }
+	texture = "gfx/interface/icons/ig_icons/nationalist.dds"
+	
+	ideologies = { ideology_patriotic }
+
+	enable = {
+		trigger_if = {
+			#limit = { 
+			#	has_variable = discovered_rationalism
+			#}
+			has_technology_researched = national_mythos 
+		}
+	}
+	
+	traits = {}	
+	
+	on_enable = {}
+	on_disable = {}	
+	on_character_ig_membership = {}
+	
+	pop_potential = {
+		pop_has_primary_culture = yes
+		pop_is_discriminated = no
+		religion_accepted = yes
+	}
+
+	pop_weight = {
+		value = 0
+	
+		add = {
+			desc = "PRIMARY_CULTURE"
+			if = {
+				limit = { pop_has_primary_culture = yes }
+				value = 75
+			}
+		}	
+		
+		add = {
+			desc = "IS_NOT_DISCRIMINATED"
+			if = {
+				limit = { pop_is_discriminated = no }
+				value = 25
+			}
+		}	
+		
+		add = {
+			desc = "RELIGION_IS_ACCEPTED"
+			if = {
+				limit = { religion_accepted = yes }
+				value = 50
+			}
+		}
+		
+		add = {
+			desc = "IG_EMPLOYED_MIC"
+			if = {
+				limit = {
+					OR = {
+						pop_employment_building = building_war_machine_industry
+						pop_employment_building = building_arms_industry
+						pop_employment_building = building_munition_plants
+						AND = {
+							pop_employment_building = building_shipyards
+							workplace = {
+								OR = {
+									has_active_production_method = pm_military_shipbuilding_wooden
+									has_active_production_method = pm_military_shipbuilding_wooden_2
+									has_active_production_method = pm_military_shipbuilding_steam
+									has_active_production_method = pm_military_shipbuilding_steam_2
+								}
+							}
+						}
+					}
+				}
+				value = 50
+			}
+		}
+		
+		#Recenltly Won War
+		multiply = {
+			desc = "INFAMY_25" 
+			if = {
+				limit = {
+					owner = { 
+						infamy < 25
+						has_variable = recenly_won_war
+					}
+				}
+				value = 1.1
+			}
+		}
+		multiply = {
+			desc = "INFAMY_25_50" 
+			if = {
+				limit = {
+					owner = { 
+						infamy >= 25
+						infamy < 50
+						has_variable = recenly_won_war
+					}
+				}
+				value = 1.25
+			}
+		}
+		
+		multiply = {
+			desc = "INFAMY_50_75" 
+			if = {
+				limit = {
+					owner = { 
+						infamy >= 25
+						infamy < 50
+						has_variable = recenly_won_war
+					}
+				}
+				value = 1.35
+			}
+		}
+		
+		multiply = {
+			desc = "INFAMY_75_100" 
+			if = {
+				limit = {
+					owner = { 
+						infamy >= 25
+						infamy < 50
+						has_variable = recenly_won_war
+					}
+				}
+				value = 1.5
+			}
+		}
+		
+		#Recenltly Lost War
+		multiply = {
+			desc = "LOST_25" 
+			if = {
+				limit = {
+					owner = { 
+						infamy < 25
+						has_variable = recenly_lost_war
+					}
+				}
+				value = 0.9
+			}
+		}
+		multiply = {
+			desc = "LOST_25_50" 
+			if = {
+				limit = {
+					owner = { 
+						infamy >= 25
+						infamy < 50
+						has_variable = recenly_lost_war
+					}
+				}
+				value = 0.77
+			}
+		}
+		
+		multiply = {
+			desc = "LOST_50_75" 
+			if = {
+				limit = {
+					owner = { 
+						infamy >= 25
+						infamy < 50
+						has_variable = recenly_lost_war
+					}
+				}
+				value = 0.67
+			}
+		}
+		
+		multiply = {
+			desc = "LOST_75_100" 
+			if = {
+				limit = {
+					owner = { 
+						infamy >= 25
+						infamy < 50
+						has_variable = recenly_lost_war
+					}
+				}
+				value = 0.5
+			}
+		}
+		
+		multiply = {
+			desc = "LEADER_POPULARITY"
+			scope:interest_group = {
+				leader = {
+					value = popularity
+					multiply = 0.0025
+					add = 1
+					max = 1.25
+					min = 0.75
+				}
+			}
+		}		
+
+		multiply = {
+			desc = "decentralized_power"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						is_country_type = decentralized
+					}
+				}
+				value = 0.0
+			}		
+		}
+		if = {
+			limit = {
+				scope:interest_group = {
+					is_in_government = yes
+				}
+			}
+			multiply = {
+				desc = "IN_GOVERNMENT_ATTRACTION"
+				value = 1
+				add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
+				min = 0
+			}
+		}
+	}
+
+	monarch_weight = {
+		value = 0.25
+	}	
+	
+	commander_weight = {
+		value = 1.0
+	}	
+	
+	noble_chance = {
+		value = 0.1
+	}
+	
+	female_commander_chance = {	
+		value = 0.0
+	}
+	
+	female_politician_chance = {
+		value = 0.0
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_own_property
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_in_the_workplace
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_womens_suffrage
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+	}
+	
+	# The chance that a commander belonging to this IG takes over leadership when it changes
+	# scope:character is the most popular commander in the IG
+	commander_leader_chance = {
+		value = 0.25
+		if = {
+			limit = {
+				exists = scope:character
+			}
+			multiply = {
+				value = 1
+				add = scope:character.popularity
+				min = 0
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+﻿DIPLOMATIC_PLAYS = {
+	c:POR = {
+		create_diplomatic_play = {
+			name = portuguese_restoration_war
+			
+			target_country = c:SPA
+			
+			war = yes
+			
+			type = dp_independence
+			
+			add_war_goal = {
+				holder = c:SPA
+				type = make_puppet
+				target_country = c:POR
+			}
+		}			
+	}
+}

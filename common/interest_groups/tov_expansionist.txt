@@ -1,96 +1,30 @@
 ﻿ig_expansionist = {
-	color = hsv{ 0.65 0.54 0.52 }
-	texture = "gfx/interface/icons/ig_icons/ideology.dds"
+	color = rgb{ 104 31 0 }
+	texture = "gfx/interface/icons/ig_icons/militar.dds"
 	
 	ideologies = {
 		ideology_jingoist
 	}
 
-	enable = {
-		always = yes
-	}
+	enable = { always = yes }
 	
-	traits = { }	
+	traits = {}	
 	
 	on_enable = {}
 	on_disable = {}	
 	on_character_ig_membership = {}
 	
 	pop_potential = {
+		pop_is_discriminated = no
 		OR = {
 			is_pop_type = soldiers
 			is_pop_type = officers
 			is_pop_type = aristocrats
-			pop_is_discriminated = no
 		}	
 	}
 
 	pop_weight = {
 		value = 0
-		
-		add = {
-			desc = "IG_HAS_RIVAL"
-			if = {
-				limit = {
-					owner = {
-						any_rival_country = {
-							count = 0
-						}
-					}
-				}
-				value = 0
-			}
-			else_if = {
-				limit = {
-					owner = {
-						any_rival_country = {
-							count = 1
-						}
-					}
-				}
-				value = 5
-			}
-			else_if ={
-				limit = {
-					owner = {
-						any_rival_country = {
-							count = 2
-						}
-					}
-				}
-				value = 10
-			}
-			else_if ={
-				limit = {
-					owner = {
-						any_rival_country = {
-							count = 3
-						}
-					}
-				}
-				value = 15
-			}
-			else_if ={
-				limit = {
-					owner = {
-						any_rival_country = {
-							count >= 4
-						}
-					}
-				}
-				value = 20
-			}
-		}
-		
-		add = {
-			desc = "POP_NOT_DISCRIMINATED"
-			if = {
-				limit = { 
-					pop_is_discriminated = no
-				}
-				value = 25
-			}
-		}		
 		
 		add = {
 			desc = "POP_SOLDIERS"
@@ -172,6 +106,104 @@
 					}
 				}
 				value = 125
+			}
+		}
+		
+		add = {
+			desc = "POP_NOT_DISCRIMINATED"
+			if = {
+				limit = { 
+					pop_is_discriminated = no
+				}
+				value = 25
+			}
+		}	
+		
+		#add = {
+		#	desc = "IG_HAS_RIVAL"
+		#	if = {
+		#		limit = {
+		#			owner = { any_rival_country = { count = 0 } }
+		#		}
+		#		value = 0
+		#	}
+		#	else_if = {
+		#		limit = {
+		#			owner = { any_rival_country = { count = 1 } }
+		#		}
+		#		value = 5
+		#	}
+		#	else_if ={
+		#		limit = {
+		#			owner = { any_rival_country = { count = 2 } }
+		#		}
+		#		value = 10
+		#	}
+		#	else_if ={
+		#		limit = {
+		#			owner = { any_rival_country = { count = 3 } }
+		#		}
+		#		value = 15
+		#	}
+		#	else_if = {
+		#		limit = {
+		#			owner = { any_rival_country = { count >= 4 } }
+		#		}
+		#		value = 20
+		#	}
+		#}
+		
+		multiply = {
+			desc = "INFAMY_25" 
+			if = {
+				limit = {
+					owner = { 
+						infamy < 25
+						#has_variable = recenly_won_war
+					}
+				}
+				value = 1.0
+			}
+		}
+		multiply = {
+			desc = "INFAMY_25_50" 
+			if = {
+				limit = {
+					owner = { 
+						infamy >= 25
+						infamy < 50
+						has_variable = recenly_won_war
+					}
+				}
+				value = 0.75
+			}
+		}
+		
+		multiply = {
+			desc = "INFAMY_50_75" 
+			if = {
+				limit = {
+					owner = { 
+						infamy >= 25
+						infamy < 50
+						has_variable = recenly_won_war
+					}
+				}
+				value = 0.5
+			}
+		}
+		
+		multiply = {
+			desc = "INFAMY_75_100" 
+			if = {
+				limit = {
+					owner = { 
+						infamy >= 25
+						infamy < 50
+						has_variable = recenly_won_war
+					}
+				}
+				value = 0.25
 			}
 		}
 

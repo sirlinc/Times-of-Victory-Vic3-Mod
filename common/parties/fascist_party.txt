@@ -235,11 +235,19 @@
 		default = "/gfx/interface/icons/political_parties/fascists.dds"
 	}
 	unlocking_technologies = {
+<<<<<<< Updated upstream
 		empire_under_the_sun
 	}
 	available_for_interest_group = {
 		owner = {
 			country_has_voting_franchise = yes
+=======
+		political_agitation
+	}
+	available_for_interest_group = {
+		owner = {
+			#country_has_voting_franchise = yes
+>>>>>>> Stashed changes
 		}
 		OR = {
 	     	NOT = {

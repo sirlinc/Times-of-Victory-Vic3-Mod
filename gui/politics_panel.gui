@@ -2,6 +2,24 @@ types politics_panel_types
 {
 	type politics_panel = fullscreen_block_window {
 		name = "politics_panel"
+
+		blockoverride "back_button_fullscreen" {
+			back_button_large = {
+				visible = "[Not(GetVariableSystem.Exists('politics_overview_exile_pool'))]"
+				position = { 11 15 }
+				parentanchor = top|left
+				onclick = "[InformationPanelBar.OpenPreviousPanel]"
+				input_action = "back"
+			}
+
+			back_button_large = {
+				visible = "[GetVariableSystem.Exists('politics_overview_exile_pool')]"
+				position = { 11 15 }
+				parentanchor = top|left
+				onclick = "[GetVariableSystem.Clear('politics_overview_exile_pool')]"
+				input_action = "back"
+			}
+		}
 		
 		blockoverride "animation_state_block" {
 			state = {
@@ -99,7 +117,7 @@ types politics_panel_types
 				blockoverride "third_button_name" {
 					name = "tutorial_highlight_laws_tab"
 				}
-				
+
 				blockoverride "fourth_button" {
 					text = "INSTITUTIONS"
 				}
@@ -172,18 +190,7 @@ types politics_panel_types
 					}
 				}
 			}
-			
-			fullscreen_scrollarea = {
-				visible = "[InformationPanel.IsTabSelected('parliament')]"
-				using = default_fade_in_out
-				blockoverride "scrollarea_content" {
-					politics_panel_parliament_content = {
-						layoutpolicy_horizontal = expanding
-						layoutpolicy_vertical = expanding
-					}
-				}
-			}
-			
+
 			fullscreen_scrollarea = {
 				visible = "[InformationPanel.IsTabSelected('institutions')]"
 				using = default_fade_in_out

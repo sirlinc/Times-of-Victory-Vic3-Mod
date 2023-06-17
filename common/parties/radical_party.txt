@@ -6,6 +6,7 @@ radical_party = {
 	name = {
 		first_valid = {
 			triggered_desc = {
+<<<<<<< Updated upstream
 				desc = party_radical_civic_union
 				trigger = {
 					exists = c:ARG
@@ -123,12 +124,16 @@ radical_party = {
 			}
 			triggered_desc = {
 				desc = party_republican_union
+=======
+				desc = jacobin_party
+>>>>>>> Stashed changes
 				trigger = {
 					exists = c:FRA
 					THIS = c:FRA
 				}
 			}
 			triggered_desc = {
+<<<<<<< Updated upstream
 				desc = party_the_far_left
 				trigger = {
 					OR = {
@@ -231,6 +236,8 @@ radical_party = {
 				}
 			}
 			triggered_desc = {
+=======
+>>>>>>> Stashed changes
 				desc = party_radicals
 				trigger = {
 					always = yes
@@ -242,7 +249,11 @@ radical_party = {
 		default = "/gfx/interface/icons/political_parties/radical.dds"
 	}
 	unlocking_technologies = {
+<<<<<<< Updated upstream
 		egalitarianism
+=======
+		the_marketplace_of_ideas
+>>>>>>> Stashed changes
 	}
 	# THIS IS RUN ONLY ONCE AT GAME START
 	valid_for_country = {
@@ -250,11 +261,26 @@ radical_party = {
 	}
 	available_for_interest_group = {
 		owner = {
+<<<<<<< Updated upstream
 			country_has_voting_franchise = yes
 			any_interest_group = {
 				is_marginal = no
 				leader = {
 					has_ideology = ideology:ideology_radical
+=======
+			any_interest_group = {
+				is_marginal = no
+				OR = {
+					is_interest_group_type = ig_abolitionist
+					is_interest_group_type = ig_egalitarian
+					is_interest_group_type = ig_classical_radicalist
+					is_interest_group_type = ig_republican
+					is_interest_group_type = ig_rationalist
+					is_interest_group_type = ig_individualist
+					is_interest_group_type = ig_pacifist
+					is_interest_group_type = ig_proletarian
+					is_interest_group_type = ig_anarchist
+>>>>>>> Stashed changes
 				}
 			}
 		}
@@ -269,6 +295,7 @@ radical_party = {
 	        }
 	    }
 		NOR = {
+<<<<<<< Updated upstream
 			is_interest_group_type = ig_landowners
 			is_interest_group_type = ig_devout
 		}
@@ -284,6 +311,12 @@ radical_party = {
 				has_ideology = ideology:ideology_theocrat
 				has_ideology = ideology:ideology_slaver
 			}
+=======
+			is_interest_group_type = ig_slaver
+			is_interest_group_type = ig_patriarchal
+			is_interest_group_type = ig_elitist
+			is_interest_group_type = ig_paternalistic
+>>>>>>> Stashed changes
 		}
 	}
 	
@@ -294,10 +327,25 @@ radical_party = {
 			value = -5
 			desc = "base_value"
 		}
+<<<<<<< Updated upstream
 		if = { # radicals love radicalism
 			limit = {
 				leader = {
 					has_ideology = ideology:ideology_radical
+=======
+		if = { # progressives will form a strong party
+			limit = {
+				OR = {
+					is_interest_group_type = ig_abolitionist
+					is_interest_group_type = ig_egalitarian
+					is_interest_group_type = ig_classical_radicalist
+					is_interest_group_type = ig_republican
+					is_interest_group_type = ig_rationalist
+					is_interest_group_type = ig_individualist
+					is_interest_group_type = ig_pacifist
+					is_interest_group_type = ig_feminist
+					is_interest_group_type = ig_proletarian
+>>>>>>> Stashed changes
 				}
 			}
 			add = {
@@ -319,8 +367,21 @@ radical_party = {
 		}
 		if = { # radicals will fall in line behind stronger liberals
 			limit = {
+<<<<<<< Updated upstream
 				leader = {
 					has_ideology = ideology:ideology_radical
+=======
+				OR = {
+					is_interest_group_type = ig_abolitionist
+					is_interest_group_type = ig_egalitarian
+					is_interest_group_type = ig_classical_radicalist
+					is_interest_group_type = ig_republican
+					is_interest_group_type = ig_rationalist
+					is_interest_group_type = ig_individualist
+					is_interest_group_type = ig_feminist
+					is_interest_group_type = ig_pacifist
+					is_interest_group_type = ig_proletarian
+>>>>>>> Stashed changes
 				}
 				is_powerful = no
 				owner = {
@@ -342,8 +403,21 @@ radical_party = {
 				owner = {
 					any_interest_group = {
 						is_powerful = yes
+<<<<<<< Updated upstream
 						leader = {
 							has_ideology = ideology:ideology_radical
+=======
+						OR = {
+							is_interest_group_type = ig_abolitionist
+							is_interest_group_type = ig_egalitarian
+							is_interest_group_type = ig_classical_radicalist
+							is_interest_group_type = ig_republican
+							is_interest_group_type = ig_rationalist
+							is_interest_group_type = ig_feminist
+							is_interest_group_type = ig_individualist
+							is_interest_group_type = ig_pacifist
+							is_interest_group_type = ig_proletarian
+>>>>>>> Stashed changes
 						}
 					}
 				}
@@ -356,19 +430,37 @@ radical_party = {
 		if = { # weak leftists will fall in line behind radicals pre-revolution
 			limit = {
 				is_powerful = no
+<<<<<<< Updated upstream
 				leader = {
 					OR = {
 						has_ideology = ideology:ideology_communist
 						has_ideology = ideology:ideology_vanguardist
 						has_ideology = ideology:ideology_anarchist
 					}
+=======
+				OR = {
+					is_interest_group_type = ig_proletarian
+					is_interest_group_type = ig_anarchist
+>>>>>>> Stashed changes
 				}
 				owner = {
 					NOT = { has_law = law_type:law_council_republic }
 					any_interest_group = {
 						is_powerful = yes
+<<<<<<< Updated upstream
 						leader = {
 							has_ideology = ideology:ideology_radical
+=======
+						OR = {
+							is_interest_group_type = ig_abolitionist
+							is_interest_group_type = ig_egalitarian
+							is_interest_group_type = ig_feminist
+							is_interest_group_type = ig_classical_radicalist
+							is_interest_group_type = ig_republican
+							is_interest_group_type = ig_rationalist
+							is_interest_group_type = ig_individualist
+							is_interest_group_type = ig_pacifist
+>>>>>>> Stashed changes
 						}
 					}
 				}
@@ -380,6 +472,7 @@ radical_party = {
 		}
 		if = { # various progressives are inclined towards radicalism
 			limit = {
+<<<<<<< Updated upstream
 				leader = {
 					OR = {
 						has_ideology = ideology:ideology_feminist
@@ -391,6 +484,15 @@ radical_party = {
 						has_ideology = ideology:ideology_atheist
 						has_ideology = ideology:ideology_humanitarian
 					}
+=======
+				OR = {
+					is_interest_group_type = ig_feminist
+					is_interest_group_type = ig_abolitionist
+					is_interest_group_type = ig_pacifist
+					is_interest_group_type = ig_classical_radicalist
+					is_interest_group_type = ig_republican
+					is_interest_group_type = ig_rationalist
+>>>>>>> Stashed changes
 				}
 			}
 			add = {
@@ -400,6 +502,7 @@ radical_party = {
 		}
 		if = { # republican
 			limit = {
+<<<<<<< Updated upstream
 				OR = {
 					has_ideology = ideology:ideology_republican
 					has_ideology = ideology:ideology_populist
@@ -411,6 +514,9 @@ radical_party = {
 						}
 					}
 				}
+=======
+				is_interest_group_type = ig_republican
+>>>>>>> Stashed changes
 				owner = {
 					OR = {
 						has_law = law_type:law_monarchy
@@ -438,6 +544,7 @@ radical_party = {
 				desc = "from_particularism_cares_about_laws"
 			}
 		}
+<<<<<<< Updated upstream
 		if = { # moderates are scared of radical politics
 			limit = {
 				leader = {
@@ -449,12 +556,15 @@ radical_party = {
 				desc = "from_moderate"
 			}
 		}
+=======
+>>>>>>> Stashed changes
 		if = { # from lack of democracy
 			limit = {
 				owner = {
 					NOT = { has_law = law_type:law_universal_suffrage }
 				}
 				OR = {
+<<<<<<< Updated upstream
 					has_ideology = ideology:ideology_republican
 					has_ideology = ideology:ideology_populist
 					leader = {
@@ -464,6 +574,10 @@ radical_party = {
 							has_ideology = ideology:ideology_humanitarian
 						}
 					}
+=======
+					is_interest_group_type = ig_republican
+					is_interest_group_type = ig_classical_radicalist
+>>>>>>> Stashed changes
 				}
 			}
 			add = {
@@ -473,12 +587,22 @@ radical_party = {
 		}
 		if = { # radical anti-censorship
 			limit = {
+<<<<<<< Updated upstream
 				leader = {
 					OR = {
 						has_ideology = ideology:ideology_radical
 						has_ideology = ideology:ideology_anarchist
 						has_ideology = ideology:ideology_humanitarian
 					}
+=======
+				OR = {
+					is_interest_group_type = ig_abolitionist
+					is_interest_group_type = ig_egalitarian
+					is_interest_group_type = ig_classical_radicalist
+					is_interest_group_type = ig_republican
+					is_interest_group_type = ig_proletarian
+					is_interest_group_type = ig_anarchist
+>>>>>>> Stashed changes
 				}
 				owner = {
 					OR = {
@@ -495,11 +619,18 @@ radical_party = {
 		if = { # anti-censorship
 			limit = {
 				OR = {
+<<<<<<< Updated upstream
 					has_ideology = ideology:ideology_liberal
 					has_ideology = ideology:ideology_egalitarian
 					leader = {
 						has_ideology = ideology:ideology_humanitarian
 					}
+=======
+					is_interest_group_type = ig_abolitionist
+					is_interest_group_type = ig_egalitarian
+					is_interest_group_type = ig_classical_radicalist
+					is_interest_group_type = ig_republican
+>>>>>>> Stashed changes
 				}
 				owner = {
 					has_law = law_type:law_outlawed_dissent
@@ -512,6 +643,7 @@ radical_party = {
 		}
 		if = { # opposition to secret police or national guard
 			limit = {
+<<<<<<< Updated upstream
 				OR = {
 					has_ideology = ideology:ideology_liberal
 					leader = {
@@ -521,6 +653,9 @@ radical_party = {
 						}
 					}
 				}
+=======
+				has_ideology = ideology:ideology_liberal
+>>>>>>> Stashed changes
 				owner = {
 					OR = {
 						has_law = law_type:law_national_guard
@@ -541,12 +676,16 @@ radical_party = {
 						has_law = law_type:law_slave_trade
 					}
 				}
+<<<<<<< Updated upstream
 				OR = {
 					has_ideology = ideology:ideology_anti_slavery
 					leader = {
 						has_ideology = ideology:ideology_abolitionist
 					}
 				}
+=======
+				is_interest_group_type = ig_abolitionist
+>>>>>>> Stashed changes
 			}
 			add = {
 				value = 3
@@ -559,6 +698,7 @@ radical_party = {
 					has_law = law_type:law_serfdom
 				}
 				OR = {
+<<<<<<< Updated upstream
 					has_ideology = ideology:ideology_egalitarian
 					has_ideology = ideology:ideology_anti_slavery
 					has_ideology = ideology:ideology_laissez_faire
@@ -568,6 +708,12 @@ radical_party = {
 						has_ideology = ideology:ideology_social_democrat
 						has_ideology = ideology:ideology_communist
 					}
+=======
+					is_interest_group_type = ig_egalitarian
+					is_interest_group_type = ig_abolitionist
+					is_interest_group_type = ig_market_liberal
+					is_interest_group_type = ig_particularist
+>>>>>>> Stashed changes
 				}
 			}
 			add = {

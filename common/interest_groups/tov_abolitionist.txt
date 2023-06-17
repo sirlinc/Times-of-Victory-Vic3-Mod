@@ -1,0 +1,169 @@
+﻿ig_abolitionist = {
+	color = rgb { 190 247 255 }
+	texture = "gfx/interface/icons/ig_icons/abolitionism.dds"
+	
+	ideologies = {
+		ideology_anti_slavery
+	}
+
+	enable = {
+		trigger_if = {
+			#limit = { 
+			#	has_variable = discovered_rationalism
+			#}
+			has_technology_researched = classical_liberalism 
+		}
+	}
+	
+	traits = {}	
+	
+	on_enable = {}
+	on_disable = {}	
+	on_character_ig_membership = {}
+	
+	pop_potential = {
+		NOR = {
+			is_pop_type = aristocrats
+			is_pop_type = capitalists
+		}
+	}
+
+	pop_weight = {
+		value = 0
+	
+		add = {
+			desc = "BASE_POP"
+			if = {
+				limit = { 
+					NOR = {
+						is_pop_type = aristocrats
+						is_pop_type = capitalists
+						is_pop_type = farmers
+					}
+					OR = {
+						pop_employment_building_group = bg_agriculture
+						pop_employment_building_group = bg_mining
+						pop_employment_building_group = bg_ranching
+						pop_employment_building_group = bg_plantations
+					}
+				}
+				value = 200
+			}
+		}	
+		
+		multiply = {
+			desc = "POP_DISCRIMINATED"
+			if = {
+				limit = { 
+					pop_is_discriminated = yes
+				}
+				value = 1.5
+			}
+		}		
+		
+		multiply = {
+			desc = "NON_SLAVE_STATE"
+			if = {
+				limit = {
+					state = { 
+						is_slave_state = no
+					}
+				}
+				value = 1.75
+			}
+		}
+	
+		multiply = {
+			desc = "SLAVE_STATE"
+			if = {
+				limit = {
+					state = { 
+						is_slave_state = yes
+					}
+					OR = {
+						pop_employment_building_group = bg_agriculture
+						pop_employment_building_group = bg_ranching
+						pop_employment_building_group = bg_plantations				
+					}
+				}
+				value = 0.75
+			}
+		}
+
+		multiply = {
+			desc = "LEADER_POPULARITY"
+			scope:interest_group = {
+				leader = {
+					value = popularity
+					multiply = 0.0025
+					add = 1
+					max = 1.25
+					min = 0.75
+				}
+			}
+		}		
+
+		multiply = {
+			desc = "decentralized_power"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						is_country_type = decentralized
+					}
+				}
+				value = 0.0
+			}		
+		}
+		if = {
+			limit = {
+				scope:interest_group = {
+					is_in_government = yes
+				}
+			}
+			multiply = {
+				desc = "IN_GOVERNMENT_ATTRACTION"
+				value = 1
+				add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
+				min = 0
+			}
+		}
+	}
+
+	monarch_weight = {
+		value = 0.25
+	}	
+	
+	commander_weight = {
+		value = 1.0
+	}	
+	
+	noble_chance = {
+		value = 0.1
+	}
+	
+	female_commander_chance = {	
+		value = 0.0
+	}
+	
+	female_politician_chance = {
+		value = 0.0
+	}
+	
+	# The chance that a commander belonging to this IG takes over leadership when it changes
+	# scope:character is the most popular commander in the IG
+	commander_leader_chance = {
+		value = 0.25
+		if = {
+			limit = {
+				exists = scope:character
+			}
+			multiply = {
+				value = 1
+				add = scope:character.popularity
+				min = 0
+			}
+		}
+	}
+}

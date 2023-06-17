@@ -31,16 +31,6 @@
 			
 			type = dp_revolution
 			
-			add_war_goal = {
-				holder = c:FR2
-				type = annex_country
-				target_country = c:FRA
-			}
-			add_war_goal = {
-				holder = c:FRA
-				type = annex_country
-				target_country = c:FR2
-			}
 		}			
 	}
 }

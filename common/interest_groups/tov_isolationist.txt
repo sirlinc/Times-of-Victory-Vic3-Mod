@@ -1,0 +1,275 @@
+﻿ig_isolationist = {
+	color = rgb { 155 87 130 }
+	texture = "gfx/interface/icons/ig_icons/isolationism.dds" #
+	
+	ideologies = { ideology_isolationist }
+
+	enable = {
+		always = yes
+	}
+	
+	traits = {}	
+	
+	on_enable = {}
+	on_disable = {}	
+	on_character_ig_membership = {}
+	
+	pop_potential = {
+		pop_has_primary_culture = yes
+		NOR = {
+			is_pop_type = aristocrats
+			is_pop_type = capitalists
+		}
+		OR = {
+			pop_employment_building_group = bg_agriculture
+			pop_employment_building_group = bg_ranching
+			pop_employment_building_group = bg_plantations
+			pop_employment_building_group = bg_mining
+			pop_employment_building_group = bg_logging
+			pop_employment_building_group = bg_rubber
+			pop_employment_building_group = bg_whaling
+			pop_employment_building_group = bg_fishing
+			pop_employment_building_group = bg_oil_extraction	
+		}
+	}
+
+	pop_weight = {
+		value = 0
+	
+		add = {
+			desc = "RURAL_WORKERS"
+			if = {
+				limit = { 
+					NOR = {
+						is_pop_type = aristocrats
+						is_pop_type = clergymen
+					}
+					OR = {
+						is_pop_type = peasants
+						pop_employment_building_group = bg_agriculture
+						pop_employment_building_group = bg_ranching
+						pop_employment_building_group = bg_plantations
+						pop_employment_building_group = bg_logging
+						pop_employment_building_group = bg_rubber
+						pop_employment_building_group = bg_whaling
+						pop_employment_building_group = bg_fishing			
+					}
+				}
+				value = 75
+			}
+		}	
+		
+		add = {
+			desc = "RURAL_CLERGYMEN"
+			if = {
+				limit = { 
+					is_pop_type = clergymen
+					OR = {
+						pop_employment_building_group = bg_agriculture
+						pop_employment_building_group = bg_ranching
+						pop_employment_building_group = bg_plantations
+						pop_employment_building_group = bg_logging
+						pop_employment_building_group = bg_rubber
+						pop_employment_building_group = bg_whaling
+						pop_employment_building_group = bg_fishing			
+					}
+				}
+				value = 25
+			}
+		}
+		
+		add = {
+			desc = "RESOURCE_POP"
+			if = {
+				limit = { 
+					NOR = {
+						is_pop_type = aristocrats
+						is_pop_type = clergymen
+					}
+					OR = {
+						pop_employment_building_group = bg_mining
+						pop_employment_building_group = bg_oil_extraction				
+					}
+				}
+				value = 25
+			}
+		}
+		
+		#Cultural Threat
+		multiply = {
+			desc = "POP_NOT_CULTURE_ACCEPTED"
+			if = {
+				limit = { 
+					NOR = { 
+						culture_accepted = yes
+						pop_has_primary_culture = yes
+					}
+				}
+				value = 0.25
+			}
+		}		
+		
+		#Religious Threat
+		multiply = {
+			desc = "POP_NOT_STATE_RELIGION"
+			if = {
+				limit = { 
+					NOR = { 
+						has_state_religion = yes
+						religion_accepted = yes
+					}
+				}
+				value = 0.25
+			}
+		}		
+	
+		#Foreign Threat
+		multiply = {
+			desc = "COUNTRY_UNRECOGNIZED"
+			if = {
+				limit = { 
+					owner = { is_country_type = unrecognized }
+				}
+				value = 1.5
+			}
+		}	
+		
+		multiply = {
+			desc = "COUNTRY_MAJOR_POWER"
+			if = {
+				limit = { 
+					owner = { 
+						is_country_type = recognized
+						country_rank = rank_value:major_power
+					}
+				}
+				value = 0.75
+			}
+		}	
+		
+		multiply = {
+			desc = "COUNTRY_GREAT_POWER"
+			if = {
+				limit = { 
+					owner = { 
+						is_country_type = recognized
+						country_rank = rank_value:great_power
+					}
+				}
+				value = 0.5
+			}
+		}	
+		
+		multiply = {
+			desc = "LEADER_POPULARITY"
+			scope:interest_group = {
+				leader = {
+					value = popularity
+					multiply = 0.0025
+					add = 1
+					max = 1.25
+					min = 0.75
+				}
+			}
+		}		
+
+		multiply = {
+			desc = "decentralized_power"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						is_country_type = decentralized
+					}
+				}
+				value = 0.0
+			}		
+		}
+		if = {
+			limit = {
+				scope:interest_group = {
+					is_in_government = yes
+				}
+			}
+			multiply = {
+				desc = "IN_GOVERNMENT_ATTRACTION"
+				value = 1
+				add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
+				min = 0
+			}
+		}
+	}
+
+	monarch_weight = {
+		value = 0.25
+	}	
+	
+	commander_weight = {
+		value = 1.0
+	}	
+	
+	noble_chance = {
+		value = 0.1
+	}
+	
+	female_commander_chance = {	
+		value = 0.0
+	}
+	
+	female_politician_chance = {
+		value = 0.0
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_own_property
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_women_in_the_workplace
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_womens_suffrage
+				}
+				
+			}
+			add = {
+				value = 0.1
+			}
+		}
+	}
+	
+	# The chance that a commander belonging to this IG takes over leadership when it changes
+	# scope:character is the most popular commander in the IG
+	commander_leader_chance = {
+		value = 0.25
+		if = {
+			limit = {
+				exists = scope:character
+			}
+			multiply = {
+				value = 1
+				add = scope:character.popularity
+				min = 0
+			}
+		}
+	}
+}
