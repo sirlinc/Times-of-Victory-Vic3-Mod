@@ -498,7 +498,7 @@ expedition_events.41 = { #Crew ailed with Malaria
     duration = 3
 	
 	trigger = {
-		NOT = { has_technology_researched = malaria_prevention }
+		NOT = { has_technology_researched = vaccination }
 		NOT = { has_variable = crew_gets_malaria }
 		NOT = { has_variable = crew_gets_dysentery }
 	}

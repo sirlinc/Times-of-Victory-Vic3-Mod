@@ -134,7 +134,7 @@
 	option = {
 		name = 1848.2.a
 		default_option = yes
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			remove_ideology = ideology_paternalistic
 			remove_ideology = ideology_scholar_paternalistic
 			remove_ideology = ideology_junker_paternalistic
@@ -159,7 +159,7 @@
 	option = {
 		name = 1848.2.b
 		# don't do that, just make landowners lose power
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			add_modifier = {
 				name = monarchist_nostalgia
 				months = normal_modifier_time

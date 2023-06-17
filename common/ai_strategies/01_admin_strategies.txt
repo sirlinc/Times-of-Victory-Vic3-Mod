@@ -70,8 +70,24 @@
 
 		if = {
 			limit = { 
-				exists = ig:ig_landowners
-				ig:ig_landowners = { is_powerful = yes } 
+				exists = ig:ig_agrarian
+				ig:ig_agrarian = { is_powerful = yes } 
+			}
+			multiply = 1.5
+		}
+
+		if = {
+			limit = { 
+				exists = ig:ig_elitist
+				ig:ig_elitist = { is_powerful = yes } 
+			}
+			multiply = 1.5
+		}
+
+		if = {
+			limit = { 
+				exists = ig:ig_paternalistic
+				ig:ig_paternalistic = { is_powerful = yes } 
 			}
 			multiply = 1.5
 		}
@@ -154,11 +170,43 @@ ai_strategy_plantation_economy = {
 
 		if = {
 			limit = { 
-				exists = ig:ig_landowners
-				ig:ig_landowners = { is_powerful = yes } 
+				exists = ig:ig_plutocratic
+				ig:ig_plutocratic = { is_powerful = yes } 
 			}
 			multiply = 1.5
-		}		
+		}	
+
+		if = {
+			limit = { 
+				exists = ig:ig_nationalist
+				ig:ig_nationalist = { is_powerful = yes } 
+			}
+			multiply = 1.5
+		}	
+
+		if = {
+			limit = { 
+				exists = ig:ig_agrarian
+				ig:ig_agrarian = { is_powerful = yes } 
+			}
+			multiply = 1.5
+		}
+
+		if = {
+			limit = { 
+				exists = ig:ig_elitist
+				ig:ig_elitist = { is_powerful = yes } 
+			}
+			multiply = 1.5
+		}
+
+		if = {
+			limit = { 
+				exists = ig:ig_market_liberal
+				ig:ig_market_liberal = { is_powerful = yes } 
+			}
+			multiply = 1.5
+		}	
 	}
 }
 
@@ -229,8 +277,8 @@ ai_strategy_resource_expansion = {
 
 		if = {
 			limit = { 
-				exists = ig:ig_industrialists
-				ig:ig_industrialists = { is_powerful = yes } 
+				exists = ig:ig_market_liberal
+				ig:ig_market_liberal = { is_powerful = yes } 
 			}
 			multiply = 1.5
 		}
@@ -336,8 +384,8 @@ ai_strategy_industrial_expansion = {
 		
 		if = {
 			limit = { 
-				exists = ig:ig_industrialists
-				ig:ig_industrialists = { is_powerful = yes } 
+				exists = ig:ig_market_liberal
+				ig:ig_market_liberal = { is_powerful = yes } 
 			}
 			multiply = 2.0
 		}	
@@ -437,8 +485,8 @@ ai_strategy_placate_population = {
 		
 		if = {
 			limit = { 
-				exists = ig:ig_rural_folk
-				ig:ig_rural_folk = { is_powerful = yes } 
+				exists = ig:ig_agrarian
+				ig:ig_agrarian = { is_powerful = yes } 
 			}
 			multiply = 1.5
 		}

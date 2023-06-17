@@ -6,7 +6,6 @@ free_trade_party = {
 	name = {
 		first_valid = {
 			triggered_desc = {
-<<<<<<< Updated upstream
 				desc = party_democratic_alliance
 				trigger = {
 					exists = c:FRA
@@ -72,8 +71,6 @@ free_trade_party = {
 				}
 			}
 			triggered_desc = {
-=======
->>>>>>> Stashed changes
 				desc = party_free_trade
 				trigger = {
 					always = yes
@@ -85,11 +82,7 @@ free_trade_party = {
 		default = "/gfx/interface/icons/political_parties/free_trade.dds"
 	}
 	unlocking_technologies = {
-<<<<<<< Updated upstream
 		democracy
-=======
-		stock_exchange
->>>>>>> Stashed changes
 	}
 	# THIS IS RUN ONLY ONCE AT GAME START
 	valid_for_country = {
@@ -97,23 +90,14 @@ free_trade_party = {
 	}
 	available_for_interest_group = {
 		owner = {
-<<<<<<< Updated upstream
 			country_has_voting_franchise = yes
 			any_interest_group = {
 				is_marginal = no
 				OR = {
-					is_interest_group_type = ig_industrialists
+					is_interest_group_type = ig_plutocratic
 					leader = {
 						has_ideology = ideology:ideology_market_liberal
 					}
-=======
-			#country_has_voting_franchise = yes
-			any_interest_group = {
-				is_marginal = no
-				OR = {
-					is_interest_group_type = ig_market_liberal
-					is_interest_group_type = ig_individualist
->>>>>>> Stashed changes
 				}
 			}
 		}
@@ -137,7 +121,6 @@ free_trade_party = {
 			desc = "base_value"
 		}
 		if = { # capitalists like capitalism
-<<<<<<< Updated upstream
 			limit = {
 				OR = {
 					leader = {
@@ -146,9 +129,6 @@ free_trade_party = {
 					has_ideology = ideology:ideology_laissez_faire
 				}
 			}
-=======
-			limit = { is_interest_group_type = ig_market_liberal }
->>>>>>> Stashed changes
 			add = {
 				value = 5
 				desc = "from_capitalism"
@@ -158,50 +138,32 @@ free_trade_party = {
 		if = {
 			limit = {
 				is_powerful = yes
-<<<<<<< Updated upstream
 				OR = {
 					leader = {
 						has_ideology = ideology:ideology_market_liberal
 					}
 					has_ideology = ideology:ideology_laissez_faire
 				}
-=======
-				is_interest_group_type = ig_market_liberal
->>>>>>> Stashed changes
 			}
 			add = {
 				value = 10
 				desc = "from_powerful_capitalists"
 			}
 		}
-<<<<<<< Updated upstream
 		# weaker market liberals fall behind powerful industrialists
-=======
-		# weaker #market# liberals fall behind powerful industrialists
->>>>>>> Stashed changes
 		if = {
 			limit = {
 				is_powerful = no
 				owner = {
-<<<<<<< Updated upstream
-					ig:ig_industrialists = {
+					ig:ig_plutocratic = {
 						is_powerful = yes
 					}
-				}
 				leader = {
 					has_ideology = ideology:ideology_market_liberal
 				}
-=======
 					ig:ig_market_liberal = {
 						is_powerful = yes
 					}
-				}
-				is_interest_group_type = ig_individualist
->>>>>>> Stashed changes
-			}
-			add = {
-				value = 5
-				desc = "from_powerful_capitalists_other"
 			}
 		}
 		if = { # landowners and industrialists hate labor rights
@@ -245,16 +207,12 @@ free_trade_party = {
 				owner = {
 					NOT = { has_law = law_type:law_child_labor_allowed }
 				}
-<<<<<<< Updated upstream
 				OR = {
 					leader = {
 						has_ideology = ideology:ideology_market_liberal
 					}
 					has_ideology = ideology:ideology_laissez_faire
 				}
-=======
-				is_interest_group_type = ig_market_liberal
->>>>>>> Stashed changes
 			}
 			add = {
 				value = 3
@@ -266,16 +224,12 @@ free_trade_party = {
 				owner = {
 					NOT = { has_law = law_type:law_free_trade }
 				}
-<<<<<<< Updated upstream
 				OR = {
 					leader = {
 						has_ideology = ideology:ideology_market_liberal
 					}
 					has_ideology = ideology:ideology_laissez_faire
 				}
-=======
-				is_interest_group_type = ig_market_liberal
->>>>>>> Stashed changes
 			}
 			add = {
 				value = 3
@@ -314,22 +268,12 @@ free_trade_party = {
 				owner = {
 					has_law = law_type:law_universal_suffrage
 				}
-<<<<<<< Updated upstream
 				OR = {
 					has_ideology = ideology:ideology_paternalistic
 					leader = {
 						has_ideology = ideology:ideology_fascist
 					}
 				}
-=======
-				has_ideology = ideology:ideology_paternalistic
-				#OR = {
-				#	has_ideology = ideology:ideology_paternalistic
-				#	#leader = {
-				#	#	has_ideology = ideology:ideology_fascist
-				#	#}
-				#}
->>>>>>> Stashed changes
 			}
 			add = {
 				value = 3
@@ -339,11 +283,7 @@ free_trade_party = {
 		if = { # capitalist-meritocratic taxation alliance
 			limit = {
 				owner = {
-<<<<<<< Updated upstream
 					has_technology_researched = classical_liberalism
-=======
-					has_technology_researched = currency_standards
->>>>>>> Stashed changes
 					NOT = { has_law = law_type:law_per_capita_based_taxation }
 					NOT = { has_law = law_type:law_consumption_based_taxation }
 				}
@@ -412,11 +352,7 @@ free_trade_party = {
 		if = { # pro-private schools
 			limit = {
 				owner = {
-<<<<<<< Updated upstream
 					has_technology_researched = pedagogy
-=======
-					has_technology_researched = academia
->>>>>>> Stashed changes
 					OR = {
 						has_law = law_type:law_no_schools
 						has_law = law_type:law_religious_schools
@@ -434,14 +370,7 @@ free_trade_party = {
 		}
 		if = {
 			limit = {
-<<<<<<< Updated upstream
-				is_interest_group_type = ig_industrialists
-=======
-				OR = {
-					is_interest_group_type = ig_individualist
-					is_interest_group_type = ig_market_liberal
-				}
->>>>>>> Stashed changes
+				is_interest_group_type = ig_plutocratic
 				is_powerful = yes
 			}
 			multiply = {
@@ -489,24 +418,18 @@ free_trade_party = {
 		}
 		if = { # protectionism bad
 			limit = {
-<<<<<<< Updated upstream
 				leader = {
 					has_ideology = ideology:ideology_protectionist
 				}
-=======
-				is_interest_group_type = ig_protectionist
->>>>>>> Stashed changes
 			}
 			add = {
 				value = -10
 				desc = from_protectionist_leader
 			}
 		}
-<<<<<<< Updated upstream
 		if = { # anti-orleanist
 			limit = {
 				leader = {
-					has_ideology = ideology:ideology_bonapartist
 					has_ideology = ideology:ideology_legitimist
 				}
 				owner = {
@@ -566,12 +489,8 @@ free_trade_party = {
 				desc = "from_french_monarchist_rival"
 			}
 		}
-=======
->>>>>>> Stashed changes
 		if = {
 			limit = {
-				owner = {
-	         		has_variable = only_valid_party
 	         	}
 	         	NOT = {
 			        owner.var:only_valid_party = {

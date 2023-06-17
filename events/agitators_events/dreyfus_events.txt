@@ -55,7 +55,7 @@ dreyfus.1 = {
 				}
 			}
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			is_marginal = no
 		}
 		NOT = {
@@ -99,7 +99,7 @@ dreyfus.1 = {
 			save_scope_as = dreyfus_rival_country_scope
 			set_variable = dreyfus_rival_country_var
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			save_scope_as = dreyfus_armed_forces_scope
 		}
 		set_variable = dreyfus_convicted
@@ -116,7 +116,7 @@ dreyfus.1 = {
 		custom_tooltip = {
 			text = dreyfus.1.tt_1
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = army_honor_defended
 				months = normal_modifier_time
@@ -150,7 +150,7 @@ dreyfus.1 = {
 		custom_tooltip = {
 			text = dreyfus.1.tt_2
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = army_honor_defended
 				months = normal_modifier_time
@@ -172,7 +172,7 @@ dreyfus.1 = {
 		name = dreyfus.1.c
 		highlighted_option = yes
 		trigger = {
-			ig:ig_armed_forces = {
+			ig:ig_expansionist = {
 				is_in_government = no
 			}
 			institution_investment_level = {
@@ -183,7 +183,7 @@ dreyfus.1 = {
 		custom_tooltip = {
 			text = dreyfus.1.tt_3
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = dreyfus_subject_of_inquiry
 				months = normal_modifier_time
@@ -238,7 +238,7 @@ dreyfus.2 = {
 			}
 			save_scope_as = alfred_dreyfus_scope
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			save_scope_as = dreyfus_armed_forces_scope
 		}
 		create_character = {
@@ -263,11 +263,11 @@ dreyfus.2 = {
 		trigger_event = { id = dreyfus.3 days = 7 popup = yes }
 		if = {
 			limit = {
-				ig:ig_armed_forces = {
+				ig:ig_expansionist = {
 					has_modifier = army_honor_defended
 				}
 			}
-			ig:ig_armed_forces = {
+			ig:ig_expansionist = {
 				remove_modifier = army_honor_defended
 			}
 		}
@@ -277,15 +277,15 @@ dreyfus.2 = {
 		trigger_event = { id = dreyfus.3 days = 7 popup = yes }
 		if = {
 			limit = {
-				ig:ig_armed_forces = {
+				ig:ig_expansionist = {
 					has_modifier = dreyfus_autonomous_army
 				}
 			}
-			ig:ig_armed_forces = {
+			ig:ig_expansionist = {
 				remove_modifier = dreyfus_autonomous_army
 			}
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = dreyfus_wavering_army
 				months = normal_modifier_time
@@ -325,7 +325,7 @@ dreyfus.3 = {
 			}
 			save_scope_as = alfred_dreyfus_scope
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			leader = {
 				save_scope_as = dreyfus_armed_forces_leader_scope
 			}
@@ -444,7 +444,7 @@ dreyfus.4 = {
 	}
 
 	immediate = {
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			save_scope_as = dreyfus_armed_forces_scope
 		}
 		random_character_in_void = {
@@ -489,13 +489,13 @@ dreyfus.4 = {
 			limit = {
 				any_interest_group = {
 					ig_is_anti_dreyfusard = yes
-					NOT = { is_interest_group_type = ig_armed_forces }
+					NOT = { is_interest_group_type = ig_expansionist }
 				}
 			}
 			random_interest_group = {
 				limit = {
 					ig_is_anti_dreyfusard = yes
-					NOT = { is_interest_group_type = ig_armed_forces }
+					NOT = { is_interest_group_type = ig_expansionist }
 				}
 				save_scope_as = zola_asphyxiation_ig_anti
 			}
@@ -592,7 +592,7 @@ dreyfus.5 = {
 	}
 
 	immediate = {
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			leader = {
 				save_scope_as = dreyfus_armed_forces_leader_scope
 			}
@@ -653,7 +653,7 @@ dreyfus.5 = {
 				months = normal_modifier_time
 			}
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = dreyfus_pleased_with_court_desicion
 				months = normal_modifier_time
@@ -662,7 +662,7 @@ dreyfus.5 = {
 	}
 	option = {
 		name = dreyfus.5.b
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = dreyfus_imperfect_compromise
 				months = normal_modifier_time
@@ -688,7 +688,7 @@ dreyfus.5 = {
 				add = 1
 			}
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = dreyfus_outraged_by_court_desicion
 				months = normal_modifier_time
@@ -727,9 +727,9 @@ dreyfus.6 = {
 		NOT = { has_variable = dreyfusard_board_game_var }
 		any_interest_group = {
 			OR = {
-				is_interest_group_type = ig_petty_bourgeoisie
-				is_interest_group_type = ig_intelligentsia
-				is_interest_group_type = ig_industrialists
+				is_interest_group_type = ig_market_liberal
+				is_interest_group_type = ig_rationalist
+				is_interest_group_type = ig_plutocratic
 			}
 			is_marginal = no
 			is_in_government = no
@@ -752,7 +752,7 @@ dreyfus.6 = {
 			save_scope_as = alfred_dreyfus_scope
 		}
 		set_variable = dreyfusard_board_game_var
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			leader = {
 				save_scope_as = dreyfus_armed_forces_leader_scope
 			}
@@ -761,9 +761,9 @@ dreyfus.6 = {
 		random_interest_group = {
 			limit = {
 				OR = {
-					is_interest_group_type = ig_petty_bourgeoisie
-					is_interest_group_type = ig_intelligentsia
-					is_interest_group_type = ig_industrialists
+					is_interest_group_type = ig_market_liberal
+					is_interest_group_type = ig_rationalist
+					is_interest_group_type = ig_plutocratic
 				}
 				is_marginal = no
 				is_in_government = no
@@ -783,7 +783,7 @@ dreyfus.6 = {
 				add = 1
 			}
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = dreyfus_not_fun_and_games
 				months = normal_modifier_time
@@ -881,15 +881,15 @@ dreyfus.7 = {
 			limit = {
 				NOT = { 
 					scope:anti_dreyfusard_riot_ig = { 
-						is_interest_group_type = ig_devout 
+						is_interest_group_type = ig_theocratic 
 					} 
 				}
-				ig:ig_devout = {
+				ig:ig_theocratic = {
 					ig_is_anti_dreyfusard = yes
 				}
 			}
-			ig:ig_devout = {
-				save_scope_as = anti_dreyfusard_riot_ig_devout
+			ig:ig_theocratic = {
+				save_scope_as = anti_dreyfusard_riot_ig_theocratic
 			}
 		}
 		random_scope_state = {
@@ -924,9 +924,9 @@ dreyfus.7 = {
 		}
 		if = {
 			limit = {
-				exists = scope:anti_dreyfusard_riot_ig_devout
+				exists = scope:anti_dreyfusard_riot_ig_theocratic
 			}
-			scope:anti_dreyfusard_riot_ig_devout = {
+			scope:anti_dreyfusard_riot_ig_theocratic = {
 				add_modifier = {
 					name = dreyfus_vox_dei
 					months = short_modifier_time
@@ -955,9 +955,9 @@ dreyfus.7 = {
 		}
 		if = {
 			limit = {
-				exists = scope:anti_dreyfusard_riot_ig_devout
+				exists = scope:anti_dreyfusard_riot_ig_theocratic
 			}
-			scope:anti_dreyfusard_riot_ig_devout = {
+			scope:anti_dreyfusard_riot_ig_theocratic = {
 				add_modifier = {
 					name = dreyfus_street_brawls
 					months = short_modifier_time
@@ -1000,9 +1000,9 @@ dreyfus.7 = {
 		}
 		if = {
 			limit = {
-				exists = scope:anti_dreyfusard_riot_ig_devout
+				exists = scope:anti_dreyfusard_riot_ig_theocratic
 			}
-			scope:anti_dreyfusard_riot_ig_devout = {
+			scope:anti_dreyfusard_riot_ig_theocratic = {
 				add_modifier = {
 					name = dreyfus_street_brawls
 					months = short_modifier_time
@@ -1108,7 +1108,7 @@ dreyfus.8 = {
 			}
 			save_scope_as = ferdinand_esterhazy_scope
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			save_scope_as = dreyfus_armed_forces_scope
 		}
 		if = {
@@ -1178,13 +1178,13 @@ dreyfus.8 = {
 				set_variable = dreyfusard_victory
 			}
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = dreyfus_army_sanization
 				months = long_modifier_time
 			}
 		}
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = dreyfus_pen_triumphant
 				months = long_modifier_time
@@ -1225,20 +1225,20 @@ dreyfus.8 = {
 		trigger = {
 			has_variable = dreyfus_trial_exoneration
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = dreyfus_army_sanization
 				months = long_modifier_time
 			}
 		}
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = dreyfus_france_of_voltaire
 				months = long_modifier_time
 				multiplier = 1.5
 			}
 		}
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			add_modifier = {
 				name = dreyfus_france_of_voltaire
 				months = long_modifier_time
@@ -1246,11 +1246,11 @@ dreyfus.8 = {
 		}
 		if = {
 			limit = {
-				ig:ig_petty_bourgeoisie = {
+				ig:ig_market_liberal = {
 					ig_is_dreyfusard = yes
 				}
 			}
-			ig:ig_petty_bourgeoisie = {
+			ig:ig_market_liberal = {
 				add_modifier = {
 					name = dreyfus_france_of_voltaire
 					months = long_modifier_time
@@ -1259,11 +1259,11 @@ dreyfus.8 = {
 		}
 		if = {
 			limit = {
-				ig:ig_rural_folk = {
+				ig:ig_agrarian = {
 					ig_is_dreyfusard = yes
 				}
 			}
-			ig:ig_rural_folk = {
+			ig:ig_agrarian = {
 				add_modifier = {
 					name = dreyfus_france_of_voltaire
 					months = long_modifier_time
@@ -1272,11 +1272,11 @@ dreyfus.8 = {
 		}
 		if = {
 			limit = {
-				ig:ig_industrialists = {
+				ig:ig_plutocratic = {
 					ig_is_dreyfusard = yes
 				}
 			}
-			ig:ig_industrialists = {
+			ig:ig_plutocratic = {
 				add_modifier = {
 					name = dreyfus_france_of_voltaire
 					months = long_modifier_time
@@ -1362,7 +1362,7 @@ dreyfus.8 = {
 				set_variable = anti_dreyfusard_victory
 			}
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = dreyfus_army_triumphant
 				months = long_modifier_time
@@ -1378,7 +1378,7 @@ dreyfus.8 = {
 		trigger = {
 			has_variable = dreyfus_trial_reincarceration
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = dreyfus_france_of_st_louis
 				months = long_modifier_time
@@ -1389,7 +1389,7 @@ dreyfus.8 = {
 			limit = {
 				any_interest_group = {
 					ig_is_anti_dreyfusard = yes
-					NOT = {	is_interest_group_type = ig_armed_forces }
+					NOT = {	is_interest_group_type = ig_expansionist }
 				}
 			}
 			every_interest_group = {

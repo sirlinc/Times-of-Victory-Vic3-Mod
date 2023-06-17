@@ -41,7 +41,7 @@ modifier_prestigious_endorsement = {
 
 modifier_weakening_monarchist_hold = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	interest_group_ig_landowners_pop_attraction_mult = -0.05
+	interest_group_ig_elitist_pop_attraction_mult = -0.05
 	country_law_enactment_success_add = 0.15
 }
 
@@ -91,7 +91,7 @@ modifier_supported_by_monarchy = {
 modifier_removing_republican_generals = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
 	country_law_enactment_success_add = -0.10
-	interest_group_ig_armed_forces_approval_add = -2	
+	interest_group_ig_expansionist_approval_add = -2	
 }
 
 modifier_prominent_general_support = {
@@ -113,13 +113,13 @@ modifier_mass_rally_averted = {
 modifier_condemnation_of_landlordism_negative = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
 	country_law_enactment_success_add = -0.10
-	interest_group_ig_landowners_pop_attraction_mult = -0.05
+	interest_group_ig_elitist_pop_attraction_mult = -0.05
 }
 
 modifier_condemnation_of_landlordism = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	country_law_enactment_success_add = 0.15
-	interest_group_ig_landowners_pop_attraction_mult = -0.15
+	interest_group_ig_elitist_pop_attraction_mult = -0.15
 }
 
 modifier_democrats_condemned_us = {
@@ -235,7 +235,7 @@ modifier_condemned_for_violent_rhetoric = {
 modifier_engaged_rural_population = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
 	country_farmers_pol_str_mult = 0.10
-	interest_group_ig_rural_folk_approval_add = 2
+	interest_group_ig_agrarian_approval_add = 2
 }
 
 modifier_public_pacifism = {
@@ -585,7 +585,7 @@ modifier_leaning_in_to_trade_unions = {
 
 modifier_support_for_open_borders = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	interest_group_ig_trade_unions_approval_add = -2
+	interest_group_ig_egalitarian_approval_add = -2
 	state_pop_support_law_freedom_of_movement_mult = 0.10
 }
 
@@ -604,25 +604,25 @@ modifier_paris_commune_not_dying_economy = {
 
 modifier_paris_commune_politics = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
-	interest_group_ig_trade_unions_pol_str_mult = 0.25
-	interest_group_ig_trade_unions_approval_add = 5
-	interest_group_ig_intelligentsia_pol_str_mult = 0.25
-	interest_group_ig_intelligentsia_approval_add = 5
-	interest_group_ig_armed_forces_pol_str_mult = 0.25
-	interest_group_ig_armed_forces_approval_add = 5
-	interest_group_ig_landowners_pol_str_mult = -0.50
-	interest_group_ig_devout_pol_str_mult = -0.50
-	interest_group_ig_industrialists_pol_str_mult = -0.50
+	interest_group_ig_egalitarian_pol_str_mult = 0.25
+	interest_group_ig_egalitarian_approval_add = 5
+	interest_group_ig_rationalist_pol_str_mult = 0.25
+	interest_group_ig_rationalist_approval_add = 5
+	interest_group_ig_expansionist_pol_str_mult = 0.25
+	interest_group_ig_expansionist_approval_add = 5
+	interest_group_ig_elitist_pol_str_mult = -0.50
+	interest_group_ig_theocratic_pol_str_mult = -0.50
+	interest_group_ig_plutocratic_pol_str_mult = -0.50
 	country_legitimacy_base_add = 25
 	state_radicals_from_sol_change_mult = -0.25
 }
 
 modifier_repression_of_commune = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
-	interest_group_ig_trade_unions_pol_str_mult = -0.40
-	interest_group_ig_trade_unions_approval_add = -5
-	interest_group_ig_intelligentsia_pol_str_mult = -0.40
-	interest_group_ig_intelligentsia_approval_add = -5
+	interest_group_ig_egalitarian_pol_str_mult = -0.40
+	interest_group_ig_egalitarian_approval_add = -5
+	interest_group_ig_rationalist_pol_str_mult = -0.40
+	interest_group_ig_rationalist_approval_add = -5
 	country_laborers_pol_str_mult = -0.10
 }
 
@@ -826,7 +826,7 @@ modifier_seizure_of_church_gold_minting = {
 modifier_seizure_of_church_gold_army = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
 	country_law_enactment_success_add = 0.05
-	interest_group_ig_armed_forces_approval_add = 3	
+	interest_group_ig_expansionist_approval_add = 3	
 }
 
 modifier_seizure_of_church_gold_charity = {
@@ -872,45 +872,45 @@ modifier_great_retreat_on_faith = {
 
 modifier_atheist_progressivism = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	interest_group_ig_devout_approval_add = -2
-	interest_group_ig_intelligentsia_approval_add = 2
+	interest_group_ig_theocratic_approval_add = -2
+	interest_group_ig_rationalist_approval_add = 2
 	country_law_enactment_success_add = 0.10
 }
 
 modifier_atheist_progressivism_further = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	interest_group_ig_devout_approval_add = -5
-	interest_group_ig_intelligentsia_approval_add = 5
+	interest_group_ig_theocratic_approval_add = -5
+	interest_group_ig_rationalist_approval_add = 5
 	country_law_enactment_success_add = 0.15
 }
 
 modifier_collective_antagonism_a = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
 	country_law_enactment_success_add = -0.15
-	interest_group_ig_trade_unions_pol_str_mult = 0.05
-	interest_group_ig_industrialists_pol_str_mult = 0.05
-	interest_group_ig_rural_folk_pol_str_mult = -0.10
+	interest_group_ig_egalitarian_pol_str_mult = 0.05
+	interest_group_ig_plutocratic_pol_str_mult = 0.05
+	interest_group_ig_agrarian_pol_str_mult = -0.10
 }
 
 modifier_collective_antagonism_b1 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
 	country_law_enactment_success_add = -0.05
-	interest_group_ig_trade_unions_approval_add = 2
-	interest_group_ig_trade_unions_pol_str_mult = 0.05
+	interest_group_ig_egalitarian_approval_add = 2
+	interest_group_ig_egalitarian_pol_str_mult = 0.05
 }
 
 modifier_collective_antagonism_b2 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
 	country_law_enactment_success_add = -0.05
-	interest_group_ig_industrialists_approval_add = 2
-	interest_group_ig_industrialists_pol_str_mult = 0.05
+	interest_group_ig_plutocratic_approval_add = 2
+	interest_group_ig_plutocratic_pol_str_mult = 0.05
 }
 
 modifier_collective_antagonism_b3 = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
 	country_law_enactment_success_add = -0.10
-	interest_group_ig_trade_unions_approval_add = -2
-	interest_group_ig_industrialists_approval_add = -2
+	interest_group_ig_egalitarian_approval_add = -2
+	interest_group_ig_plutocratic_approval_add = -2
 }
 
 modifier_collective_antagonism_c = {
@@ -926,18 +926,18 @@ modifier_collective_antagonism_funds  = {
 modifier_simple_town_massacre = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
 	country_law_enactment_success_add = 0.10
-	interest_group_ig_intelligentsia_approval_add = -5
+	interest_group_ig_rationalist_approval_add = -5
 }
 
 modifier_simple_town_pro_intelligentsia = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
-	interest_group_ig_intelligentsia_approval_add = 2
+	interest_group_ig_rationalist_approval_add = 2
 	country_law_enactment_success_add = -0.15
 }
 
 modifier_pining_for_pines_rural_ig = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
-	interest_group_ig_rural_folk_pop_attraction_mult = 0.10
+	interest_group_ig_agrarian_pop_attraction_mult = 0.10
 	country_law_enactment_success_add = 0.10
 }
 
@@ -1060,39 +1060,39 @@ modifier_rural_idyll_threatened_enaction = {
 modifier_legal_extraterrioriality_concerns_blocked = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
 	country_law_enactment_success_add = -0.05
-	interest_group_ig_landowners_approval_add = 2
+	interest_group_ig_elitist_approval_add = 2
 }
 
 modifier_legal_extraterrioriality_concerns = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
 	country_law_enactment_success_add = -0.05
-	interest_group_ig_industrialists_approval_add = 2
+	interest_group_ig_plutocratic_approval_add = 2
 }
 
 modifier_overbearing_caution = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
 	country_law_enactment_success_add = 0.15
-	interest_group_ig_industrialists_approval_add = -2
-	interest_group_ig_landowners_approval_add = -2
+	interest_group_ig_plutocratic_approval_add = -2
+	interest_group_ig_elitist_approval_add = -2
 }
 
 modifier_total_top_down_management = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
 	country_law_enactment_success_add = 0.15
-	interest_group_ig_industrialists_approval_add = 2
+	interest_group_ig_plutocratic_approval_add = 2
 }
 
 modifier_ttdm_demanded_workers_protections = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
 	country_law_enactment_success_add = 0.10
-	interest_group_ig_industrialists_approval_add = -2
-	interest_group_ig_trade_unions_approval_add = 2
+	interest_group_ig_plutocratic_approval_add = -2
+	interest_group_ig_egalitarian_approval_add = 2
 }
 
 modifier_ttdm_command_economy_support = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
 	country_law_enactment_success_add = 0.10
-	interest_group_ig_industrialists_approval_add = -3
+	interest_group_ig_plutocratic_approval_add = -3
 }
 
 modifier_ttdm_command_economy = {
@@ -1114,26 +1114,26 @@ modifier_land_dispute_tangled_rurals = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	country_law_enactment_success_add = -0.05
 	country_law_enactment_time_mult = 0.1
-	interest_group_ig_rural_folk_approval_add = -2
+	interest_group_ig_agrarian_approval_add = -2
 }
 
 modifier_land_dispute_tangled_landowners = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	country_law_enactment_success_add = -0.05
 	country_law_enactment_time_mult = 0.1
-	interest_group_ig_landowners_approval_add = -2
+	interest_group_ig_elitist_approval_add = -2
 }
 
 modifier_peasantry_rebranded = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	country_law_enactment_success_add = -0.05
-	interest_group_ig_landowners_approval_add = -3
+	interest_group_ig_elitist_approval_add = -3
 }
 
 modifier_peasantry_rebranded_landlords = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	country_law_enactment_success_add = -0.05
-	interest_group_ig_rural_folk_approval_add = -3
+	interest_group_ig_agrarian_approval_add = -3
 }
 
 modifier_peasantry_rebranded_concessions = {

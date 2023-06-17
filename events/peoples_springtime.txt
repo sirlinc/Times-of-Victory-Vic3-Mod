@@ -113,11 +113,11 @@ peoples_springtime.2 = {
 			limit = {
 				is_marginal = no
 				OR = {
-					is_interest_group_type = ig_rural_folk
-					is_interest_group_type = ig_intelligentsia
-					is_interest_group_type = ig_trade_unions
-					is_interest_group_type = ig_petty_bourgeoisie
-					is_interest_group_type = ig_industrialists
+					is_interest_group_type = ig_agrarian
+					is_interest_group_type = ig_rationalist
+					is_interest_group_type = ig_egalitarian
+					is_interest_group_type = ig_market_liberal
+					is_interest_group_type = ig_plutocratic
 				}
 				leader = {
 					NOR = { 
@@ -182,11 +182,11 @@ peoples_springtime.3 = {
 
 		any_interest_group = {
 			OR = {
-				is_interest_group_type = ig_rural_folk
-				is_interest_group_type = ig_intelligentsia
-				is_interest_group_type = ig_trade_unions
-				is_interest_group_type = ig_petty_bourgeoisie
-				is_interest_group_type = ig_industrialists
+				is_interest_group_type = ig_agrarian
+				is_interest_group_type = ig_rationalist
+				is_interest_group_type = ig_egalitarian
+				is_interest_group_type = ig_market_liberal
+				is_interest_group_type = ig_plutocratic
 			}
 			leader = {
 				NOT = { has_ideology = ideology:ideology_radical }
@@ -199,11 +199,11 @@ peoples_springtime.3 = {
 		random_interest_group = {
 			limit = {
 				OR = {
-					is_interest_group_type = ig_rural_folk
-					is_interest_group_type = ig_intelligentsia
-					is_interest_group_type = ig_trade_unions
-					is_interest_group_type = ig_petty_bourgeoisie
-					is_interest_group_type = ig_industrialists
+					is_interest_group_type = ig_agrarian
+					is_interest_group_type = ig_rationalist
+					is_interest_group_type = ig_egalitarian
+					is_interest_group_type = ig_market_liberal
+					is_interest_group_type = ig_plutocratic
 				}
 				leader = {
 					NOT = { has_ideology = ideology:ideology_radical }
@@ -282,11 +282,11 @@ peoples_springtime.4 = {
 				any_interest_group = {
 					is_powerful = yes
 					OR = {
-						is_interest_group_type = ig_rural_folk
-						is_interest_group_type = ig_intelligentsia
-						is_interest_group_type = ig_trade_unions
-						is_interest_group_type = ig_petty_bourgeoisie
-						is_interest_group_type = ig_industrialists
+						is_interest_group_type = ig_agrarian
+						is_interest_group_type = ig_rationalist
+						is_interest_group_type = ig_egalitarian
+						is_interest_group_type = ig_market_liberal
+						is_interest_group_type = ig_plutocratic
 					}
 					leader = {
 						NOR = { 
@@ -317,11 +317,11 @@ peoples_springtime.4 = {
 					any_interest_group = {
 						is_powerful = yes
 						OR = {
-							is_interest_group_type = ig_rural_folk
-							is_interest_group_type = ig_intelligentsia
-							is_interest_group_type = ig_trade_unions
-							is_interest_group_type = ig_petty_bourgeoisie
-							is_interest_group_type = ig_industrialists
+							is_interest_group_type = ig_agrarian
+							is_interest_group_type = ig_rationalist
+							is_interest_group_type = ig_egalitarian
+							is_interest_group_type = ig_market_liberal
+							is_interest_group_type = ig_plutocratic
 						}
 						leader = {
 							NOR = { 

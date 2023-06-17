@@ -7,7 +7,7 @@ aus_admiral_tegetthoff = {
 	female = no
 	ideology = ideology_reformer
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1827.12.23
 	traits = {
 		expert_naval_commander
@@ -43,7 +43,7 @@ aus_admiral_archduke_friedrich = {
 	female = no
 	ideology = ideology_reformer
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1821.5.14
 	traits = {
 		basic_naval_commander
@@ -83,7 +83,7 @@ aus_general_von_windisch_gratz = {
 	female = no
 	ideology = ideology_traditionalist
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	birth_date = 1787.5.11
 	traits = {
 		cautious
@@ -117,7 +117,7 @@ aus_general_von_hotzendorf = {
 	female = no
 	ideology = ideology_traditionalist
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	birth_date = 1852.11.11
 	traits = {
 		basic_offensive_planner
@@ -153,7 +153,7 @@ aus_general_boroevic = {
 	female = no
 	ideology = ideology_royalist
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1856.12.13
 	traits = {
 		expert_defensive_strategist
@@ -195,7 +195,7 @@ aus_general_von_benedek = {
 	female = no
 	ideology = ideology_traditionalist
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1804.7.14
 	traits = {
 		basic_offensive_planner
@@ -231,7 +231,7 @@ aus_general_von_habsburg_lothringen = {
 	female = no
 	ideology = ideology_traditionalist
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	birth_date = 1817.8.3
 	traits = {
 		cautious
@@ -257,7 +257,7 @@ bav_general_von_wittelsbach = {
 	female = no
 	ideology = ideology_royalist
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	birth_date = 1795.7.7
 	traits = {
 	}
@@ -281,7 +281,7 @@ bav_general_von_der_tann = {
 	female = no
 	ideology = ideology_royalist
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	birth_date = 1815.6.18
 	traits = {
 		experienced_offensive_planner
@@ -318,7 +318,7 @@ bel_general_prisse = {
 	religion = catholic
 	ideology = ideology_reformer
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1788.6.24
 	traits = {
 		surveyor
@@ -345,7 +345,7 @@ den_general_rye = {
 	religion = protestant
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1791.11.16
 	traits = {
 		brave
@@ -372,7 +372,7 @@ den_admiral_suenson = {
 	religion = protestant
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1805.4.13
 	traits = {
 		experienced_convoy_raider
@@ -400,7 +400,7 @@ fin_general_mannerheim = {
 	religion = protestant
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1867.6.4
 	traits = {
 		direct
@@ -428,7 +428,7 @@ fra_admiral_courbet = {
 	religion = catholic
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1788.6.24
 	traits = {
 		expert_naval_commander
@@ -455,7 +455,7 @@ fra_admiral_lespes = {
 	religion = catholic
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1828.4.13
 	traits = {
 		basic_naval_commander
@@ -482,7 +482,7 @@ fra_admiral_boue_de_lapeyrere = {
 	religion = catholic
 	ideology = ideology_reformer
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1852.1.18
 	traits = {
 		experienced_naval_commander
@@ -509,7 +509,7 @@ fra_admiral_jaureguiberry = {
 	religion = catholic
 	ideology = ideology_reformer
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1815.1.18
 	traits = {
 		experienced_naval_commander
@@ -537,7 +537,7 @@ fra_general_foch = {
 	religion = catholic
 	ideology = ideology_reformer
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1851.8.2
 	traits = {
 		persistent
@@ -564,7 +564,7 @@ fra_general_macmahon = {
 	religion = catholic
 	ideology = ideology_legitimist
 	commander_rank = default
-	interest_group = ig_devout
+	interest_group = ig_theocratic
 	birth_date = 1808.6.13
 	traits = {
 		popular_commander
@@ -591,7 +591,7 @@ fra_general_bazaine = {
 	religion = catholic
 	ideology = ideology_bonapartist
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1808.6.13
 	traits = {
 		brave
@@ -618,7 +618,7 @@ fra_general_de_saint_arnaud = {
 	religion = catholic
 	ideology = ideology_bonapartist
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1798.8.20
 	traits = {
 		basic_offensive_planner
@@ -645,7 +645,7 @@ fra_general_changarnier = {
 	religion = catholic
 	ideology = ideology_legitimist
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1793.4.26
 	traits = {
 		experienced_offensive_planner
@@ -672,7 +672,7 @@ fra_general_dorleans = {
 	religion = catholic
 	ideology = ideology_orleanist
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1822.1.16
 	traits = {
 		experienced_colonial_administrator
@@ -700,7 +700,7 @@ gbr_admiral_beatty = {
 	religion = protestant
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1871.1.17
 	traits = {
 		experienced_naval_commander
@@ -727,7 +727,7 @@ gbr_admiral_fisher = {
 	religion = protestant
 	ideology = ideology_reformer
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1841.1.25
 	traits = {
 		experienced_naval_commander
@@ -754,7 +754,7 @@ gbr_admiral_mountbatten = { # Louis Alexander Mountbatten
 	religion = protestant
 	ideology = ideology_royalist
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	birth_date = 1854.1.25
 	traits = {
 		experienced_naval_commander
@@ -781,7 +781,7 @@ gbr_admiral_milne = {
 	religion = protestant
 	ideology = ideology_abolitionist # famous for hunting down slavers on the high seas
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1806.11.10
 	traits = {
 		experienced_naval_commander
@@ -808,7 +808,7 @@ gbr_admiral_seymour = {
 	religion = protestant
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1840.4.30
 	traits = {
 		brave
@@ -833,7 +833,7 @@ gbr_general_smith = {
 	religion = protestant
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1787.6.28
 	traits = {
 		experienced_colonial_administrator
@@ -858,7 +858,7 @@ gbr_general_kitchener = {
 	religion = protestant
 	ideology = ideology_jingoist_leader
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1850.6.24
 	traits = {
 		surveyor
@@ -884,7 +884,7 @@ gbr_general_gordon = {
 	religion = protestant
 	ideology = ideology_abolitionist # actively fought against slave traders in the Sudan
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1833.1.28
 	traits = {
 		explorer
@@ -911,7 +911,7 @@ gbr_general_french = {
 	religion = protestant
 	ideology = ideology_market_liberal
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1852.9.28
 	traits = {
 		resupply_commander
@@ -938,7 +938,7 @@ gbr_general_baden_powell = {
 	religion = protestant
 	ideology = ideology_reformer
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1857.2.22
 	traits = {
 		surveyor
@@ -965,7 +965,7 @@ gbr_general_prince_george = {
 	religion = protestant
 	ideology = ideology_traditionalist
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1819.4.26
 	traits = {
 		arrogant
@@ -994,7 +994,7 @@ gre_general_kolokotronis = {
 	religion = orthodox
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1805.6.28 # approximate birth date
 	traits = {
 		brave
@@ -1019,7 +1019,7 @@ gre_general_kallergis = {
 	religion = orthodox
 	ideology = ideology_traditionalist
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1805.6.28 # approximate birth date
 	traits = {
 	}
@@ -1043,7 +1043,7 @@ mon_general_petrovic_njegos = {
 	female = no
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1820.8.19
 	traits = {
 		romantic
@@ -1070,7 +1070,7 @@ net_admiral_rijk = {
 	female = no
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1787.1.1
 	traits = {
 		experienced_naval_commander
@@ -1095,7 +1095,7 @@ net_general_cochius = {
 	female = no
 	ideology = ideology_jingoist_leader
 	commander_rank = default
-	interest_group = ig_devout
+	interest_group = ig_theocratic
 	birth_date = 1787.12.3
 	traits = {
 		forest_commander
@@ -1120,7 +1120,7 @@ net_general_de_kock = {
 	female = no
 	ideology = ideology_royalist
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1779.5.25
 	traits = {
 		forest_commander
@@ -1145,7 +1145,7 @@ net_general_michiels = {
 	female = no
 	ideology = ideology_jingoist_leader
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1797.5.30
 	traits = {
 	}
@@ -1168,7 +1168,7 @@ net_general_list = {
 	female = no
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1784.2.5
 	traits = {
 		basic_artillery_commander
@@ -1193,7 +1193,7 @@ por_general_de_mesquita = {
 	female = no
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1818.7.9
 	traits = {
 		brave
@@ -1220,7 +1220,7 @@ pru_admiral_von_tirpitz = {
 	female = no
 	ideology = ideology_ethno_nationalist
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1849.3.19
 	traits = {
 		ambitious
@@ -1256,7 +1256,7 @@ pru_admiral_von_spee = {
 	female = no
 	ideology = ideology_royalist
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1861.6.22
 	traits = {
 		experienced_convoy_raider
@@ -1291,7 +1291,7 @@ pru_admiral_von_hohenzollern = {
 	female = no
 	ideology = ideology_royalist
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	birth_date = 1811.10.29
 	traits = {
 		basic_naval_commander
@@ -1322,7 +1322,7 @@ pru_general_zu_dohna_schlobitten = {
 	female = no
 	ideology = ideology_royalist
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	birth_date = 1784.4.4
 	traits = {
 		tactful
@@ -1346,7 +1346,7 @@ pru_general_von_moltke = { # Moltke the Younger
 	female = no
 	ideology = ideology_royalist
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1848.5.25
 	traits = {
 		experienced_offensive_planner
@@ -1382,7 +1382,7 @@ pru_general_von_roon = {
 	female = no
 	ideology = ideology_royalist
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	birth_date = 1803.4.3
 	traits = {
 		meticulous
@@ -1418,7 +1418,7 @@ pru_general_prince_friedrich_karl = {
 	female = no
 	ideology = ideology_royalist
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	birth_date = 1828.3.20
 	traits = {
 		experienced_offensive_planner
@@ -1456,7 +1456,7 @@ pru_general_von_goeben = {
 	female = no
 	ideology = ideology_royalist
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1816.12.10
 	traits = {
 		experienced_offensive_planner
@@ -1491,7 +1491,7 @@ pru_general_von_hindenburg = {
 	female = no
 	ideology = ideology_royalist
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	birth_date = 1847.8.2
 	traits = {
 		experienced_offensive_planner
@@ -1527,7 +1527,7 @@ pru_general_ludendorff = {
 	female = no
 	ideology = ideology_ethno_nationalist
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1865.4.9
 	traits = {
 		expert_offensive_planner
@@ -1564,7 +1564,7 @@ rus_admiral_makarov = {
 	female = no
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1849.1.8
 	traits = {
 		explorer
@@ -1590,7 +1590,7 @@ rus_admiral_nakhimov = {
 	female = no
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1802.7.5
 	traits = {
 		brave
@@ -1616,7 +1616,7 @@ rus_general_chicherin = {
 	female = no
 	ideology = ideology_royalist
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1778.2.21
 	traits = {
 		plains_commander
@@ -1640,7 +1640,7 @@ rus_general_von_tottleben = {
 	female = no
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	birth_date = 1818.5.20
 	traits = {
 		expert_defensive_strategist
@@ -1667,7 +1667,7 @@ rus_general_von_rennenkampf = {
 	female = no
 	ideology = ideology_royalist
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	birth_date = 1854.4.17
 	traits = {
 		basic_offensive_planner
@@ -1694,7 +1694,7 @@ rus_general_grand_duke_nicholas = {
 	female = no
 	ideology = ideology_royalist
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	birth_date = 1856.11.6
 	traits = {
 		popular_commander
@@ -1721,7 +1721,7 @@ rus_general_brusilov = {
 	female = no
 	ideology = ideology_moderate # argued for the abdication of Tsar Nicholas II
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1853.8.31
 	traits = {
 		expert_offensive_planner
@@ -1748,7 +1748,7 @@ rus_general_wrangel = {
 	female = no
 	ideology = ideology_royalist
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	birth_date = 1878.8.27
 	traits = {
 		experienced_offensive_planner
@@ -1774,7 +1774,7 @@ rus_general_skobelev = {
 	female = no
 	ideology = ideology_ethno_nationalist
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1843.9.29
 	traits = {
 		expert_offensive_planner
@@ -1801,7 +1801,7 @@ sar_admiral_pellion_di_persano = {
 	female = no
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1806.3.11
 	traits = {
 		basic_naval_commander
@@ -1837,7 +1837,7 @@ sar_general_de_sonnaz = {
 	female = no
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1787.1.3
 	traits = {
 		reckless
@@ -1871,7 +1871,7 @@ sar_general_la_marmora = {
 	female = no
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1804.11.18
 	traits = {
 		basic_offensive_planner
@@ -1907,7 +1907,7 @@ sar_general_bava = {
 	female = no
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1790.8.9
 	traits = {
 		surveyor
@@ -1942,7 +1942,7 @@ sar_general_cadorna = {
 	female = no
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1850.9.4
 	traits = {
 		reckless
@@ -1978,7 +1978,7 @@ sar_general_chiodo = {
 	female = no
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1791.4.16
 	traits = {
 		trench_rat
@@ -2013,7 +2013,7 @@ sax_general_von_hausen = {
 	female = no
 	ideology = ideology_royalist
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	birth_date = 1846.12.17
 	traits = {
 		pillager
@@ -2050,7 +2050,7 @@ sic_general_diaz = {
 	female = no
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1861.12.5
 	traits = {
 		experienced_offensive_planner

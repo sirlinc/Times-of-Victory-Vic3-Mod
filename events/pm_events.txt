@@ -191,7 +191,7 @@ pm_events.3 = {
 				has_modifier = liquor_production_restrictions
 			}
 		}
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			NOR = {
 				has_modifier = permitted_limited_liquor_production
 				has_modifier = permitted_unrestricted_liquor_production
@@ -250,7 +250,7 @@ pm_events.3 = {
 				months = normal_modifier_time
 			}
 		}
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			add_modifier = {
 				name = permitted_limited_liquor_production
 				months = normal_modifier_time
@@ -270,7 +270,7 @@ pm_events.3 = {
 
 	option = {
 		name = pm_events.3.c
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			add_modifier = {
 				name = permitted_unrestricted_liquor_production
 				months = normal_modifier_time

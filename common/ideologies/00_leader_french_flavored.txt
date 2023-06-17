@@ -66,10 +66,10 @@
 		}
 		scope:interest_group = { 
 			OR = {
-				is_interest_group_type = ig_industrialists
-				is_interest_group_type = ig_petty_bourgeoisie
-				is_interest_group_type = ig_intelligentsia
-				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_plutocratic
+				is_interest_group_type = ig_market_liberal
+				is_interest_group_type = ig_rationalist
+				is_interest_group_type = ig_expansionist
 			}
 		}
 		scope:interest_group = {
@@ -112,9 +112,9 @@
 			limit = {
 				scope:interest_group = {
 					OR = {
-						is_interest_group_type = ig_petty_bourgeoisie
-						is_interest_group_type = ig_intelligentsia
-						is_interest_group_type = ig_industrialists
+						is_interest_group_type = ig_market_liberal
+						is_interest_group_type = ig_rationalist
+						is_interest_group_type = ig_plutocratic
 					}
 				}
 				owner = {
@@ -235,10 +235,10 @@ ideology_legitimist = {
 		}
 		scope:interest_group = { 
 			OR = {
-				is_interest_group_type = ig_devout
-				is_interest_group_type = ig_rural_folk
-				is_interest_group_type = ig_petty_bourgeoisie
-				is_interest_group_type = ig_landowners
+				is_interest_group_type = ig_theocratic
+				is_interest_group_type = ig_agrarian
+				is_interest_group_type = ig_market_liberal
+				is_interest_group_type = ig_elitist
 			}
 		}
 		scope:interest_group = {
@@ -280,8 +280,8 @@ ideology_legitimist = {
 		if = {
 			limit = {
 				scope:interest_group = {
-					is_interest_group_type = ig_landowners
-					is_interest_group_type = ig_devout
+					is_interest_group_type = ig_elitist
+					is_interest_group_type = ig_theocratic
 				}
 			}
 			add = 50
@@ -373,10 +373,10 @@ ideology_bonapartist = {
 		}
 		scope:interest_group = { 
 			OR = {
-				is_interest_group_type = ig_rural_folk
-				is_interest_group_type = ig_petty_bourgeoisie
-				is_interest_group_type = ig_industrialists
-				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_agrarian
+				is_interest_group_type = ig_market_liberal
+				is_interest_group_type = ig_plutocratic
+				is_interest_group_type = ig_expansionist
 			}
 		}
 		scope:interest_group = {
@@ -418,8 +418,8 @@ ideology_bonapartist = {
 		if = {
 			limit = {
 				scope:interest_group = {
-					is_interest_group_type = ig_petty_bourgeoisie
-					is_interest_group_type = ig_armed_forces
+					is_interest_group_type = ig_market_liberal
+					is_interest_group_type = ig_expansionist
 				}
 			}
 			add = 50

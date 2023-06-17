@@ -2098,7 +2098,7 @@ CSA = { # Confederate States of America
 				}
 			}
 			scope:actor = { 
-				has_ruling_interest_group = ig_armed_forces
+				has_ruling_interest_group = ig_expansionist
 			}
 		}
 	}
@@ -2116,7 +2116,7 @@ CSA = { # Confederate States of America
 				}
 			}
 			scope:actor = { 
-				has_ruling_interest_group = ig_armed_forces
+				has_ruling_interest_group = ig_expansionist
 				has_ruling_interest_group_count = 1
 			}
 		}
@@ -2133,7 +2133,7 @@ CSA = { # Confederate States of America
 				}
 			}
 			scope:actor = { 
-				has_ruling_interest_group = ig_armed_forces
+				has_ruling_interest_group = ig_expansionist
 			}
 			OR = {
 				coa_def_military_junta_flag_trigger = yes
@@ -2205,7 +2205,7 @@ CSA = { # Confederate States of America
 				has_journal_entry = je_acw_war
 			}
 			scope:actor = { 
-				has_ruling_interest_group = ig_armed_forces
+				has_ruling_interest_group = ig_expansionist
 			}
 		}
 	}
@@ -2222,7 +2222,7 @@ CSA = { # Confederate States of America
 				has_journal_entry = je_acw_war
 			}
 			scope:actor = { 
-				has_ruling_interest_group = ig_armed_forces
+				has_ruling_interest_group = ig_expansionist
 				has_ruling_interest_group_count = 1
 			}
 		}
@@ -2238,7 +2238,7 @@ CSA = { # Confederate States of America
 				has_journal_entry = je_acw_war
 			}
 			scope:actor = { 
-				has_ruling_interest_group = ig_armed_forces
+				has_ruling_interest_group = ig_expansionist
 			}
 			OR = {
 				coa_def_military_junta_flag_trigger = yes

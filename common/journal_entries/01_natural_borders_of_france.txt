@@ -13,7 +13,7 @@
 			is_powerful = yes
 			is_in_government = yes
 			OR = {
-				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_expansionist
 				leader = {
 					OR = {
 						has_ideology = ideology:ideology_jingoist_leader

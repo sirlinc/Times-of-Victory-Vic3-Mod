@@ -1226,12 +1226,6 @@
 				size=5997
 			}
 		}
-		region_state:ONA = {
-			create_pop = {
-				culture = patagonian
-				size=4845
-			}
-		}
 		region_state:YGH = {
 			create_pop = {
 				culture = patagonian

@@ -28,7 +28,7 @@
 				}
 			}
 		}
-		has_law = law_type:law_colonial_exploitation
+		has_law = law_type:law_exploitation
 	}
 
 	immediate = {
@@ -90,7 +90,7 @@
 			if = {
 				limit = { #check if the possible conditions are still true
 					has_law = law_type:law_monarchy
-					has_law = law_type:law_colonial_exploitation
+					has_law = law_type:law_exploitation
 					exists = c:AFS
 					c:AFS = {
 						is_subject_of = ROOT
@@ -152,7 +152,7 @@
 				}
 			}
 		}
-		NOT = { has_law = law_type:law_colonial_exploitation }
+		NOT = { has_law = law_type:law_exploitation }
 	}
 
 	weight = 200

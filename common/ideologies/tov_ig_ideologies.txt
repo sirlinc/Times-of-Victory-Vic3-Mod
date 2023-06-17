@@ -100,7 +100,7 @@ ideology_anarchist = {
 
 	lawgroup_army_model = {
 		law_national_militia = strongly_approve
-		law_professional_army = neutral
+		law_standing_army = neutral
 		law_mass_conscription = disapprove
 		law_peasant_levies = strongly_disapprove
 	}
@@ -115,8 +115,8 @@ ideology_anarchist = {
 	lawgroup_policing = {
 		law_no_police = approve
 		law_local_police = disapprove
-		law_dedicated_police = disapprove
-		law_militarized_police = strongly_disapprove
+		law_regulated_police_force = disapprove
+		law_paramilitary_force = strongly_disapprove
 	}
 
 	lawgroup_governance_principles = {
@@ -237,15 +237,15 @@ ideology_paternalistic = {
 	}
 	
 	lawgroup_bureaucracy = {
-		law_hereditary_bureaucrats = approve
+		law_hereditary_office = approve
 		law_appointed_bureaucrats = neutral
-		law_elected_bureaucrats = disapprove
+		law_elected_office = disapprove
 	}
 
 	lawgroup_policing = {
 		law_local_police = approve
-		law_dedicated_police = neutral
-		law_militarized_police = neutral
+		law_regulated_police_force = neutral
+		law_paramilitary_force = neutral
 		law_no_police = disapprove
 	}
 	
@@ -289,7 +289,7 @@ ideology_laissez_faire = {
 	lawgroup_childrens_rights = {
 		law_child_labor_allowed = approve
 		law_restricted_child_labor = neutral
-		law_compulsory_primary_school = disapprove
+		law_compulsory_education_to_twelve = disapprove
 	}
 	
 	lawgroup_labor_rights = {
@@ -332,8 +332,8 @@ ideology_individualist = {
 	}
 	
 	lawgroup_migration = {
-		law_no_migration_controls = approve
-		law_migration_controls = disapprove
+		law_freedom_of_movement = approve
+		law_heavy_migration_controls = disapprove
 		law_closed_borders = strongly_disapprove
 	}
 }
@@ -343,7 +343,7 @@ ideology_stratocratic = {
 	
 	lawgroup_army_model = {
 		law_peasant_levies = approve
-		law_professional_army = neutral
+		law_standing_army = neutral
 		law_national_militia = neutral
 		law_mass_conscription = disapprove
 	}
@@ -430,22 +430,21 @@ ideology_particularist = {
 	icon = "gfx/interface/icons/ideology_icons/value.dds" #/particularist.dds"
 	
 	lawgroup_policing = {
-		law_militarized_police = strongly_disapprove
+		law_paramilitary_force = strongly_disapprove
 		law_local_police = disapprove
-		law_dedicated_police = neutral
+		law_regulated_police_force = neutral
 		law_no_police = approve
 	}		
 
 	lawgroup_army_model = {
 		law_national_militia = strongly_approve
-		law_professional_army = neutral
+		law_standing_army = neutral
 		law_mass_conscription = disapprove
 		law_peasant_levies = disapprove
 	}
 	
 	lawgroup_labor_rights = {
 		law_serfdom = disapprove
-		law_serfdom_banned = neutral
 		law_regulatory_bodies = neutral
 		law_worker_protections = neutral
 	}
@@ -464,13 +463,13 @@ ideology_isolationist = {
 	lawgroup_colonization = {
 		law_no_colonial_affairs = approve
 		law_colonial_resettlement = disapprove
-		law_colonial_exploitation = disapprove
+		law_exploitation = disapprove
 	}
 	
 	lawgroup_migration = {
 		law_closed_borders = strongly_approve
-		law_migration_controls = approve
-		law_no_migration_controls = disapprove
+		law_heavy_migration_controls = approve
+		law_freedom_of_movement = disapprove
 	}
 }
 
@@ -513,7 +512,7 @@ ideology_meritocratic = {
 	}	
 	
 	lawgroup_army_model = {
-		law_professional_army = approve
+		law_standing_army = approve
 		law_mass_conscription = neutral
 		law_national_militia = disapprove
 		law_peasant_levies = disapprove
@@ -532,8 +531,8 @@ ideology_patriotic = {
 	icon = "gfx/interface/icons/ideology_icons/value.dds" #/patriotic.dds"
 
 	lawgroup_policing = {
-		law_militarized_police = strongly_approve
-		law_dedicated_police = approve
+		law_paramilitary_force = strongly_approve
+		law_regulated_police_force = approve
 		law_local_police = neutral
 		law_no_police = disapprove
 	}	
@@ -569,7 +568,7 @@ ideology_jingoist = {
 	icon = "gfx/interface/icons/ideology_icons/value.dds" #/jingoist.dds"
 	
 	lawgroup_army_model = {
-		law_professional_army = strongly_approve
+		law_standing_army = strongly_approve
 		law_mass_conscription = approve
 		law_national_militia = disapprove
 		law_peasant_levies = disapprove
@@ -577,7 +576,7 @@ ideology_jingoist = {
 	
 	lawgroup_colonization = {
 		law_colonial_resettlement = approve
-		law_colonial_exploitation = approve
+		law_exploitation = approve
 		law_no_colonial_affairs = neutral
 	}
 }
@@ -601,8 +600,8 @@ ideology_anti_clerical = { #Rationalist
 
 	lawgroup_bureaucracy = {
 		law_appointed_bureaucrats = approve
-		law_elected_bureaucrats = neutral	
-		law_hereditary_bureaucrats = disapprove
+		law_elected_office = neutral	
+		law_hereditary_office = disapprove
 	}
 }
 
@@ -683,9 +682,9 @@ ideology_egalitarian = {
 	
 	lawgroup_policing = {
 		law_no_police = neutral
-		law_dedicated_police = neutral
+		law_regulated_police_force = neutral
 		law_local_police = disapprove
-		law_militarized_police = strongly_disapprove
+		law_paramilitary_force = strongly_disapprove
 	}
 	
 	lawgroup_internal_security = {
@@ -711,7 +710,7 @@ ideology_egalitarian = {
 	}
 
 	lawgroup_childrens_rights = {
-		law_compulsory_primary_school = strongly_approve
+		law_compulsory_education_to_twelve = strongly_approve
 		law_restricted_child_labor = approve	
 		law_child_labor_allowed = disapprove
 	}
@@ -752,16 +751,16 @@ ideology_populist = {
 	}
 	
 	lawgroup_migration = {
-		law_migration_controls = approve		
+		law_heavy_migration_controls = approve		
 		law_closed_borders = neutral
-		law_no_migration_controls = neutral
+		law_freedom_of_movement = neutral
 	}
 	
 	lawgroup_army_model = {
 		law_national_militia = strongly_approve
 		law_mass_conscription = approve
 		law_peasant_levies = neutral
-		law_professional_army = disapprove
+		law_standing_army = disapprove
 	}
 }
 
@@ -786,8 +785,8 @@ ideology_reactionary = {
 
 	lawgroup_migration = {
 		law_closed_borders = approve
-		law_migration_controls = strongly_approve
-		law_no_migration_controls = disapprove
+		law_heavy_migration_controls = strongly_approve
+		law_freedom_of_movement = disapprove
 	}
 }
 
@@ -805,9 +804,9 @@ ideology_plutocratic = {
 	}
 	
 	lawgroup_bureaucracy = {
-		law_hereditary_bureaucrats = approve
+		law_hereditary_office = approve
 		law_appointed_bureaucrats = disapprove
-		law_elected_bureaucrats = neutral
+		law_elected_office = neutral
 	}
 
 	lawgroup_governance_principles = {
@@ -827,7 +826,7 @@ ideology_plutocratic = {
 	}	
 	
 	lawgroup_colonization = {
-		law_colonial_exploitation = approve
+		law_exploitation = approve
 		law_no_colonial_affairs = neutral
 		law_colonial_resettlement = neutral
 	}

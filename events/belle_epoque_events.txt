@@ -46,7 +46,7 @@ belle_epoque_events.1 = { #Eiffel Tower
 		}
 		create_character = {
 			ig_leader = yes
-			interest_group = ig_industrialists
+			interest_group = ig_plutocratic
 			female = no
 			first_name = Alexandre_Gustave
 			last_name = Eiffel
@@ -63,13 +63,13 @@ belle_epoque_events.1 = { #Eiffel Tower
 	option = { #it's lowkey ugly
 		name = belle_epoque_events.1.b 
 		default_option = yes
-		ig:ig_intelligentsia = { 
+		ig:ig_rationalist = { 
 			add_modifier = {
 				name = eiffel_tower_intelligentsia_modifier #they agree
 				months = normal_modifier_time
 			}
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			add_modifier = {
 				name = eiffel_tower_slander_modifier #it's perfect!
 				months = normal_modifier_time
@@ -77,7 +77,7 @@ belle_epoque_events.1 = { #Eiffel Tower
 		}
 		create_character = {
 			ig_leader = no
-			interest_group = ig_industrialists
+			interest_group = ig_plutocratic
 			female = no
 			first_name = Alexandre_Gustave
 			last_name = Eiffel
@@ -105,7 +105,7 @@ belle_epoque_events.1 = { #Eiffel Tower
 		}
 		create_character = {
 			ig_leader = yes #so they lose pol strenght
-			interest_group = ig_industrialists
+			interest_group = ig_plutocratic
 			female = no
 			first_name = Alexandre_Gustave
 			last_name = Eiffel
@@ -860,11 +860,11 @@ belle_epoque_events.9 = {
 		name = belle_epoque_events.9.b
 		if = {
 			limit = {
-				ig:ig_industrialists = {
+				ig:ig_plutocratic = {
 					is_marginal = no
 				}
 			}
-			ig:ig_industrialists = {
+			ig:ig_plutocratic = {
 				add_modifier = {
 					name = modifier_noise_complaints
 					months = normal_modifier_time
@@ -1512,16 +1512,16 @@ belle_epoque_events.15 = {
 	option = {
 		name = belle_epoque_events.15.b
 		trigger = {
-			ig:ig_trade_unions = {
+			ig:ig_egalitarian = {
 				is_marginal = no
 			}
 		}
 		random_interest_group = {
 			limit = {
 				OR = {
-					is_interest_group_type = ig_petty_bourgeoisie
-					is_interest_group_type = ig_industrialists
-					is_interest_group_type = ig_intelligentsia
+					is_interest_group_type = ig_market_liberal
+					is_interest_group_type = ig_plutocratic
+					is_interest_group_type = ig_rationalist
 				}
 				is_marginal = no
 			}
@@ -1533,7 +1533,7 @@ belle_epoque_events.15 = {
 				months = normal_modifier_time
 			}
 		}
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			add_modifier = {
 				name = modifier_recognised_fashion_industry
 				months = normal_modifier_time
@@ -1742,14 +1742,14 @@ belle_epoque_events.18 = {
 
 	trigger = {
  		country_has_primary_culture = cu:french
- 		ig:ig_intelligentsia = {
+ 		ig:ig_rationalist = {
  			is_marginal = no
  		}
 	}
 
 	immediate = {
 		set_variable = symbolist_chain_1
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			save_scope_as = decadent_ig
 		}
 	}
@@ -1956,7 +1956,7 @@ belle_epoque_events.20 = {
 				save_scope_as = spain_scope
 			}
 		}
-		ig:ig_petty_bourgeoisie = {
+		ig:ig_market_liberal = {
 			save_scope_as = pb_scope
 		}
 	}

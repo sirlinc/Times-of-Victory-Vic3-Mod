@@ -247,7 +247,7 @@ german_unification.3 = {
 
 	trigger = {
 		NOT = { has_global_variable = bismarck_variable }
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			is_powerful = yes
 			is_in_government = yes
 		}
@@ -264,7 +264,7 @@ german_unification.3 = {
 			last_name = von_Bismarck
 			historical = yes
 			ig_leader = yes
-			interest_group = ig_landowners
+			interest_group = ig_elitist
 			female = no
 			birth_date = 1815.4.1
 			dna = dna_otto_von_bismarck
@@ -274,7 +274,7 @@ german_unification.3 = {
 				cautious
 			}
 		}
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			save_scope_as = junkers
 			leader = {
 				save_scope_as = bismarck_scope
@@ -291,7 +291,7 @@ german_unification.3 = {
 				last_name = von_Bismarck
 				historical = yes
 				ig_leader = yes
-				interest_group = ig_landowners
+				interest_group = ig_elitist
 				female = no
 				birth_date = 1815.4.1
 				ideology = ideology_royalist
@@ -320,7 +320,7 @@ german_unification.3 = {
 				last_name = von_Bismarck
 				historical = yes
 				ig_leader = yes
-				interest_group = ig_landowners
+				interest_group = ig_elitist
 				female = no
 				birth_date = 1815.4.1
 				ideology = ideology_royalist

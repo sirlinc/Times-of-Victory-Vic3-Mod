@@ -21,8 +21,8 @@ government_conflicts.1 = {
 	duration = 3
 
 	trigger = {
-		has_ruling_interest_group = ig_landowners
-		has_ruling_interest_group = ig_intelligentsia
+		has_ruling_interest_group = ig_elitist
+		has_ruling_interest_group = ig_rationalist
 		NOR = {
 			has_modifier = government_conflict
 			any_interest_group = {
@@ -37,17 +37,17 @@ government_conflicts.1 = {
 			name = ongoing_government_conflicts
 			months = 3
 		}
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			save_scope_as = landowners_ig
 		}
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			save_scope_as = intelligentsia_ig
 		}
 	}
 
 	option = {
 		name = government_conflicts.1.a
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = disfavored_in_government
 				months = normal_modifier_time
@@ -57,7 +57,7 @@ government_conflicts.1 = {
 
 	option = {
 		name = government_conflicts.1.b
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			add_modifier = {
 				name = disfavored_in_government
 				months = normal_modifier_time
@@ -95,8 +95,8 @@ government_conflicts.2 = {
 	duration = 3
 
 	trigger = {
-		has_ruling_interest_group = ig_landowners
-		has_ruling_interest_group = ig_trade_unions
+		has_ruling_interest_group = ig_elitist
+		has_ruling_interest_group = ig_egalitarian
 		NOR = {
 			has_modifier = government_conflict
 			any_interest_group = {
@@ -111,17 +111,17 @@ government_conflicts.2 = {
 			name = ongoing_government_conflicts
 			months  = normal_modifier_time
 		}
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			save_scope_as = landowners_ig
 		}
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			save_scope_as = trade_unions_ig
 		}
 	}
 
 	option = {
 		name = government_conflicts.2.a
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			add_modifier = {
 				name = disfavored_in_government
 				months = normal_modifier_time
@@ -131,7 +131,7 @@ government_conflicts.2 = {
 
 	option = {
 		name = government_conflicts.2.b
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			add_modifier = {
 				name = disfavored_in_government
 				months = normal_modifier_time
@@ -170,8 +170,8 @@ government_conflicts.3 = {
 	duration = 3
 
 	trigger = {
-		has_ruling_interest_group = ig_devout
-		has_ruling_interest_group = ig_industrialists
+		has_ruling_interest_group = ig_theocratic
+		has_ruling_interest_group = ig_plutocratic
 		NOR = {
 			has_modifier = government_conflict
 			any_interest_group = {
@@ -186,17 +186,17 @@ government_conflicts.3 = {
 			name = ongoing_government_conflicts
 			months  = normal_modifier_time
 		}
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			save_scope_as = devout_ig
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			save_scope_as = industrialists_ig
 		}
 	}
 
 	option = {
 		name = government_conflicts.3.a
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			add_modifier = {
 				name = disfavored_in_government
 				months = normal_modifier_time
@@ -206,7 +206,7 @@ government_conflicts.3 = {
 
 	option = {
 		name = government_conflicts.3.b
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			add_modifier = {
 				name = disfavored_in_government
 				months = normal_modifier_time
@@ -244,8 +244,8 @@ government_conflicts.4 = {
 	duration = 3
 
 	trigger = {
-		has_ruling_interest_group = ig_devout
-		has_ruling_interest_group = ig_intelligentsia
+		has_ruling_interest_group = ig_theocratic
+		has_ruling_interest_group = ig_rationalist
 		NOR = {
 			has_modifier = government_conflict
 			any_interest_group = {
@@ -260,17 +260,17 @@ government_conflicts.4 = {
 			name = ongoing_government_conflicts
 			months  = normal_modifier_time
 		}
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			save_scope_as = devout_ig
 		}
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			save_scope_as = intelligentsia_ig
 		}
 	}
 
 	option = {
 		name = government_conflicts.4.a
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			add_modifier = {
 				name = disfavored_in_government
 				months = normal_modifier_time
@@ -280,7 +280,7 @@ government_conflicts.4 = {
 
 	option = {
 		name = government_conflicts.4.b
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = disfavored_in_government
 				months = normal_modifier_time
@@ -318,8 +318,8 @@ government_conflicts.5 = {
 	duration = 3
 
 	trigger = {
-		has_ruling_interest_group = ig_devout
-		has_ruling_interest_group = ig_trade_unions
+		has_ruling_interest_group = ig_theocratic
+		has_ruling_interest_group = ig_egalitarian
 		NOR = {
 			has_modifier = government_conflict
 			any_interest_group = {
@@ -334,17 +334,17 @@ government_conflicts.5 = {
 			name = ongoing_government_conflicts
 			months  = normal_modifier_time
 		}
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			save_scope_as = devout_ig
 		}
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			save_scope_as = trade_unions_ig
 		}
 	}
 
 	option = {
 		name = government_conflicts.5.a
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			add_modifier = {
 				name = disfavored_in_government
 				months = normal_modifier_time
@@ -354,7 +354,7 @@ government_conflicts.5 = {
 
 	option = {
 		name = government_conflicts.5.b
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			add_modifier = {
 				name = disfavored_in_government
 				months = normal_modifier_time
@@ -392,8 +392,8 @@ government_conflicts.6 = {
 	duration = 3
 
 	trigger = {
-		has_ruling_interest_group = ig_petty_bourgeoisie
-		has_ruling_interest_group = ig_intelligentsia
+		has_ruling_interest_group = ig_market_liberal
+		has_ruling_interest_group = ig_rationalist
 		NOR = {
 			has_modifier = government_conflict
 			any_interest_group = {
@@ -408,17 +408,17 @@ government_conflicts.6 = {
 			name = ongoing_government_conflicts
 			months  = normal_modifier_time
 		}
-		ig:ig_petty_bourgeoisie = {
+		ig:ig_market_liberal = {
 			save_scope_as = petty_bourgeoisie_ig
 		}
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			save_scope_as = intelligentsia_ig
 		}
 	}
 
 	option = {
 		name = government_conflicts.6.a
-		ig:ig_petty_bourgeoisie = {
+		ig:ig_market_liberal = {
 			add_modifier = {
 				name = disfavored_in_government
 				months = normal_modifier_time
@@ -428,7 +428,7 @@ government_conflicts.6 = {
 
 	option = {
 		name = government_conflicts.6.b
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = disfavored_in_government
 				months = normal_modifier_time
@@ -466,8 +466,8 @@ government_conflicts.7 = {
 	duration = 3
 
 	trigger = {
-		has_ruling_interest_group = ig_petty_bourgeoisie
-		has_ruling_interest_group = ig_trade_unions
+		has_ruling_interest_group = ig_market_liberal
+		has_ruling_interest_group = ig_egalitarian
 		NOR = {
 			has_modifier = government_conflict
 			any_interest_group = {
@@ -482,17 +482,17 @@ government_conflicts.7 = {
 			name = ongoing_government_conflicts
 			months  = normal_modifier_time
 		}
-		ig:ig_petty_bourgeoisie = {
+		ig:ig_market_liberal = {
 			save_scope_as = petty_bourgeoisie_ig
 		}
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			save_scope_as = trade_unions_ig
 		}
 	}
 
 	option = {
 		name = government_conflicts.7.a
-		ig:ig_petty_bourgeoisie = {
+		ig:ig_market_liberal = {
 			add_modifier = {
 				name = disfavored_in_government
 				months = normal_modifier_time
@@ -502,7 +502,7 @@ government_conflicts.7 = {
 
 	option = {
 		name = government_conflicts.7.b
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			add_modifier = {
 				name = disfavored_in_government
 				months = normal_modifier_time
@@ -540,8 +540,8 @@ government_conflicts.8 = {
 	duration = 3
 
 	trigger = {
-		has_ruling_interest_group = ig_rural_folk
-		has_ruling_interest_group = ig_industrialists
+		has_ruling_interest_group = ig_agrarian
+		has_ruling_interest_group = ig_plutocratic
 		NOR = {
 			has_modifier = government_conflict
 			any_interest_group = {
@@ -556,17 +556,17 @@ government_conflicts.8 = {
 			name = ongoing_government_conflicts
 			months  = normal_modifier_time
 		}
-		ig:ig_rural_folk = {
+		ig:ig_agrarian = {
 			save_scope_as = rural_folk_ig
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			save_scope_as = industrialists_ig
 		}
 	}
 
 	option = {
 		name = government_conflicts.8.a
-		ig:ig_rural_folk = {
+		ig:ig_agrarian = {
 			add_modifier = {
 				name = disfavored_in_government
 				months = normal_modifier_time
@@ -576,7 +576,7 @@ government_conflicts.8 = {
 
 	option = {
 		name = government_conflicts.8.b
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			add_modifier = {
 				name = disfavored_in_government
 				months = normal_modifier_time
@@ -614,8 +614,8 @@ government_conflicts.9 = {
 	duration = 3
 
 	trigger = {
-		has_ruling_interest_group = ig_trade_unions
-		has_ruling_interest_group = ig_armed_forces
+		has_ruling_interest_group = ig_egalitarian
+		has_ruling_interest_group = ig_expansionist
 		NOR = {
 			has_modifier = government_conflict
 			any_interest_group = {
@@ -630,17 +630,17 @@ government_conflicts.9 = {
 			name = ongoing_government_conflicts
 			months  = normal_modifier_time
 		}
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			save_scope_as = trade_unions_ig
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			save_scope_as = armed_forces_ig
 		}
 	}
 
 	option = {
 		name = government_conflicts.9.a
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			add_modifier = {
 				name = disfavored_in_government
 				months = normal_modifier_time
@@ -650,7 +650,7 @@ government_conflicts.9 = {
 
 	option = {
 		name = government_conflicts.9.b
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = disfavored_in_government
 				months = normal_modifier_time
@@ -688,8 +688,8 @@ government_conflicts.10 = {
 	duration = 3
 
 	trigger = {
-		has_ruling_interest_group = ig_intelligentsia
-		has_ruling_interest_group = ig_armed_forces
+		has_ruling_interest_group = ig_rationalist
+		has_ruling_interest_group = ig_expansionist
 		NOR = {
 			has_modifier = government_conflict
 			any_interest_group = {
@@ -704,17 +704,17 @@ government_conflicts.10 = {
 			name = ongoing_government_conflicts
 			months  = normal_modifier_time
 		}
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			save_scope_as = intelligentsia_ig
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			save_scope_as = armed_forces_ig
 		}
 	}
 
 	option = {
 		name = government_conflicts.10.a
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = disfavored_in_government
 				months = normal_modifier_time
@@ -724,7 +724,7 @@ government_conflicts.10 = {
 
 	option = {
 		name = government_conflicts.10.b
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = disfavored_in_government
 				months = normal_modifier_time
@@ -762,8 +762,8 @@ government_conflicts.11 = {
 	duration = 3
 
 	trigger = {
-		has_ruling_interest_group = ig_trade_unions
-		has_ruling_interest_group = ig_industrialists
+		has_ruling_interest_group = ig_egalitarian
+		has_ruling_interest_group = ig_plutocratic
 		NOR = {
 			has_modifier = government_conflict
 			any_interest_group = {
@@ -778,17 +778,17 @@ government_conflicts.11 = {
 			name = ongoing_government_conflicts
 			months  = normal_modifier_time
 		}
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			save_scope_as = trade_unions_ig
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			save_scope_as = industrialists_ig
 		}
 	}
 
 	option = {
 		name = government_conflicts.11.a
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			add_modifier = {
 				name = disfavored_in_government
 				months = normal_modifier_time
@@ -798,7 +798,7 @@ government_conflicts.11 = {
 
 	option = {
 		name = government_conflicts.11.b
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			add_modifier = {
 				name = disfavored_in_government
 				months = normal_modifier_time

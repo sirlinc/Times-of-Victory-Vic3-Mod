@@ -53,13 +53,13 @@ titanic.1 = { #you build the titanic
 					}
 				}
 			}
-			ig:ig_industrialists = {
+			ig:ig_plutocratic = {
 				OR = {
 					is_in_government = yes
 					is_powerful = yes
 				}
 			}
-			ig:ig_petty_bourgeoisie = {
+			ig:ig_market_liberal = {
 				OR = {
 					is_in_government = yes
 					is_powerful = yes
@@ -139,7 +139,7 @@ titanic.1 = { #you build the titanic
 		}
 		else_if = {
 			limit = {
-				ig:ig_industrialists = {
+				ig:ig_plutocratic = {
 					OR = {
 						is_in_government = yes
 						is_powerful = yes
@@ -147,7 +147,7 @@ titanic.1 = { #you build the titanic
 					NOT = { has_variable = titanic_ig_var }
 				}
 			}
-			ig:ig_industrialists = {
+			ig:ig_plutocratic = {
 				save_scope_as = titanic_ig
 				set_variable = titanic_ig_var
 				leader = {
@@ -157,11 +157,11 @@ titanic.1 = { #you build the titanic
 		}
 		else_if = {
 			limit = {
-				ig:ig_petty_bourgeoisie = {
+				ig:ig_market_liberal = {
 					NOT = { has_variable = titanic_ig_var }
 				}
 			}
-			ig:ig_petty_bourgeoisie = {
+			ig:ig_market_liberal = {
 				save_scope_as = titanic_ig
 				set_variable = titanic_ig_var
 				leader = {
@@ -241,9 +241,9 @@ titanic.1 = { #you build the titanic
 		#rival company approves
 		if = {
 			limit = {
-				NOT = {	ig:ig_industrialists = scope:titanic_ig }
+				NOT = {	ig:ig_plutocratic = scope:titanic_ig }
 			}
-			ig:ig_industrialists = {
+			ig:ig_plutocratic = {
 				add_modifier = {
 					name = rival_titanic_modifier
 					months = normal_modifier_time
@@ -252,9 +252,9 @@ titanic.1 = { #you build the titanic
 		}
 		else_if = {
 			limit = {
-				NOT = {	ig:ig_petty_bourgeoisie = scope:titanic_ig }
+				NOT = {	ig:ig_market_liberal = scope:titanic_ig }
 			}
-			ig:ig_petty_bourgeoisie = {
+			ig:ig_market_liberal = {
 				add_modifier = {
 					name = rival_titanic_modifier
 					months = normal_modifier_time

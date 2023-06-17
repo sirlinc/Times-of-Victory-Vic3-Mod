@@ -285,11 +285,7 @@
 	}
 	available_for_interest_group = {
 		owner = {
-<<<<<<< Updated upstream
 			country_has_voting_franchise = yes
-=======
-			#country_has_voting_franchise = yes
->>>>>>> Stashed changes
 			any_interest_group = {
 				leader = {
 					OR = {
@@ -301,8 +297,8 @@
 			}
 		}
 		NOR = {
-			is_interest_group_type = ig_industrialists
-			is_interest_group_type = ig_landowners
+			is_interest_group_type = ig_plutocratic
+			is_interest_group_type = ig_elitist
 		}
 		leader = { # fascists, conservatives, and capitalists hate communism
 			NOR = {
@@ -422,7 +418,7 @@
 		}
 		if = { # trade unions often enjoy communism
 			limit = {
-				is_interest_group_type = ig_trade_unions
+				is_interest_group_type = ig_egalitarian
 			}
 			add = {
 				value = 2

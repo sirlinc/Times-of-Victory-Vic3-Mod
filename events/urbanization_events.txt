@@ -24,7 +24,7 @@ urbanization_events.1 = {
 	}
 
 	immediate = {
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			save_scope_as = industrialist_ig
 		}
 	}
@@ -168,7 +168,7 @@ urbanization_events.4 = {
 
 	trigger = {
 		NOT = { has_variable = industrialists_favouring_var }
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			is_marginal = no
 			OR = {
 				is_in_government = yes
@@ -182,13 +182,13 @@ urbanization_events.4 = {
 			name = industrialists_favouring_var
 			months = normal_modifier_time
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			save_scope_as = industrialist_ig
 		}
 		random_interest_group = {	
 			limit = {
 				is_marginal = no
-				NOT = { is_interest_group_type = ig_industrialists }
+				NOT = { is_interest_group_type = ig_plutocratic }
 			}
 			save_scope_as = opposing_ig
 		}
@@ -202,7 +202,7 @@ urbanization_events.4 = {
 				months = normal_modifier_time
 			}
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			add_modifier = {
 				name = modifier_ig_happy_urbanization_bad
 				months = normal_modifier_time
@@ -305,7 +305,7 @@ urbanization_events.6 = {
 			is_incorporated = yes
 			has_subsistence_building = yes
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			OR = {
 				is_powerful = yes
 				is_in_government = yes
@@ -324,7 +324,7 @@ urbanization_events.6 = {
 			}
 			save_scope_as = subsistence_state
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			save_scope_as = industrialist_ig
 		}
 	}
@@ -346,7 +346,7 @@ urbanization_events.6 = {
 
 	option = {
 		name = urbanization_events.6.b
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			add_modifier = {
 				name = subsistence_farms_ignored
 				months = normal_modifier_time

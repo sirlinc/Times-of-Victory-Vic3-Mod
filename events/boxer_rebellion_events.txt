@@ -266,7 +266,7 @@ boxer_rebellion_events.3 = {
 				culture = cu:han
 				ruler = yes
 				birth_date = 1806.3.21
-				interest_group = ig_devout
+				interest_group = ig_theocratic
 				traits = {
 				}
 			}
@@ -277,7 +277,7 @@ boxer_rebellion_events.3 = {
 				culture = cu:han
 				heir = yes
 				birth_date = 1848.9.25
-				interest_group = ig_devout
+				interest_group = ig_theocratic
 				traits = {
 				}
 			}
@@ -304,7 +304,7 @@ boxer_rebellion_events.3 = {
 				culture = cu:han
 				heir = yes
 				birth_date = 1872.11.29
-				interest_group = ig_devout
+				interest_group = ig_theocratic
 				traits = {
 				}
 			}
@@ -321,7 +321,7 @@ boxer_rebellion_events.3 = {
 				culture = cu:han
 				ruler = yes
 				birth_date = 1872.11.29
-				interest_group = ig_devout
+				interest_group = ig_theocratic
 				traits = {
 				}
 			}
@@ -332,7 +332,7 @@ boxer_rebellion_events.3 = {
 				culture = cu:han
 				heir = yes
 				birth_date = 1920.8.17
-				interest_group = ig_devout
+				interest_group = ig_theocratic
 				traits = {
 				}
 			}
@@ -349,7 +349,7 @@ boxer_rebellion_events.3 = {
 				culture = cu:han
 				ruler = yes
 				birth_date = 1920.8.17
-				interest_group = ig_devout
+				interest_group = ig_theocratic
 				traits = {
 				}
 			}

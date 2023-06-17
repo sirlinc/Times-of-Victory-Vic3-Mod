@@ -7,7 +7,7 @@ chi_sun_character_template = { # Sun Yat-sen
     female = no
     religion = protestant # Converted to Christianity in the 80s.
     ideology = ideology_republican_leader
-    interest_group = ig_intelligentsia
+    interest_group = ig_rationalist
     birth_date = 1866.11.12
     traits = {
         ambitious
@@ -22,9 +22,9 @@ chi_sun_character_template = { # Sun Yat-sen
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_intelligentsia
-                is_interest_group_type = ig_trade_unions
-                is_interest_group_type = ig_petty_bourgeoisie
+                is_interest_group_type = ig_rationalist
+                is_interest_group_type = ig_egalitarian
+                is_interest_group_type = ig_market_liberal
             }
         }
         earliest_usage_date = 1888.1.1
@@ -39,7 +39,7 @@ chi_gong_character_template = {
     culture = cu:manchu
     female = no
     ideology = ideology_royalist
-    interest_group = ig_landowners
+    interest_group = ig_elitist
     birth_date = 1833.1.11
     traits = {
         experienced_diplomat
@@ -53,7 +53,7 @@ chi_gong_character_template = {
         }
         interest_group_trigger = {
             is_marginal = no
-            is_interest_group_type = ig_landowners
+            is_interest_group_type = ig_elitist
         }
         earliest_usage_date = 1853.1.1
         latest_usage_date = 1898.1.1

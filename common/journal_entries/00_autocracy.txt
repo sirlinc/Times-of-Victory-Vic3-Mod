@@ -12,10 +12,10 @@
 
 	possible = {
 		OR = {
-			ig:ig_landowners = {
+			ig:ig_elitist = {
 				is_powerful = yes
 			}
-			ig:ig_devout = {
+			ig:ig_theocratic = {
 				is_powerful = yes
 			}
 		}

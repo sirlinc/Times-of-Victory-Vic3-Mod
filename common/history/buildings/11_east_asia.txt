@@ -21,7 +21,7 @@
 		region_state:A06={
 			create_building={
 				building="building_government_administration"
-				level=10
+				level=1
 				reserves=1
 			}			
 			create_building={
@@ -45,7 +45,7 @@
 		region_state:A06={
 			create_building={
 				building="building_government_administration"
-				level=3
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -69,7 +69,7 @@
 		region_state:A06={
 			create_building={
 				building="building_government_administration"
-				level=4
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -103,7 +103,7 @@
 		region_state:A06={
 			create_building={
 				building="building_government_administration"
-				level=5
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -160,7 +160,7 @@
 		region_state:A06={
 			create_building={
 				building="building_government_administration"
-				level=7
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -189,7 +189,7 @@
 		region_state:CHI={
 			create_building={
 				building="building_government_administration"
-				level=20
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -246,7 +246,7 @@
 		region_state:CHI={
 			create_building={
 				building="building_government_administration"
-				level=3
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -294,7 +294,7 @@
 		region_state:CHI={
 			create_building={
 				building="building_government_administration"
-				level=3
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -318,7 +318,7 @@
 		region_state:CHI={
 			create_building={
 				building="building_government_administration"
-				level=2
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -351,7 +351,7 @@
 		region_state:CHI={
 			create_building={
 				building="building_government_administration"
-				level=2
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -384,7 +384,7 @@
 		region_state:CHI={
 			create_building={
 				building="building_government_administration"
-				level=7
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -413,7 +413,7 @@
 		region_state:A06={
 			create_building={
 				building="building_government_administration"
-				level=8
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -469,7 +469,7 @@
 		region_state:A06={
 			create_building={
 				building="building_government_administration"
-				level=7
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -484,7 +484,7 @@
 			}
 			create_building={
 				building="building_kaolin_mine"
-				level=6
+				level=9
 				reserves=1
 			}
 			create_building={
@@ -503,7 +503,7 @@
 		region_state:CHI={
 			create_building={
 				building="building_government_administration"
-				level=7
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -537,7 +537,7 @@
 		region_state:CHI={
 			create_building={
 				building="building_government_administration"
-				level=10
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -566,7 +566,7 @@
 		region_state:CHI={
 			create_building={
 				building="building_government_administration"
-				level=15
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -595,7 +595,7 @@
 		region_state:CHI={
 			create_building={
 				building="building_government_administration"
-				level=15
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -614,7 +614,7 @@
 		region_state:CHI={
 			create_building={
 				building="building_government_administration"
-				level=12
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -653,7 +653,7 @@
 		region_state:CHI={
 			create_building={
 				building="building_government_administration"
-				level=8
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -673,7 +673,7 @@
 			}
 			create_building={
 				building="building_kaolin_mine"
-				level=10
+				level=20
 				reserves=1
 			}
 			create_building={
@@ -683,11 +683,6 @@
 			}
 		}
 		region_state:A06={
-			create_building={
-				building="building_government_administration"
-				level=3
-				reserves=1
-			}
 			create_building={
 				building="building_glassworks"
 				level=2
@@ -719,7 +714,7 @@
 		region_state:CHI={
 			create_building={
 				building="building_government_administration"
-				level=10
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -753,7 +748,7 @@
 		region_state:CHI={
 			create_building={
 				building="building_government_administration"
-				level=10
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -777,7 +772,7 @@
 		region_state:CHI={
 			create_building={
 				building="building_government_administration"
-				level=8
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -806,7 +801,7 @@
 		region_state:CHI={
 			create_building={
 				building="building_government_administration"
-				level=3
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -845,7 +840,7 @@
 		region_state:CHI={
 			create_building={
 				building="building_government_administration"
-				level=5
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -882,7 +877,7 @@
 		region_state:CHI={
 			create_building={
 				building="building_government_administration"
-				level=7
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -926,7 +921,7 @@
 		region_state:CHI={
 			create_building={
 				building="building_government_administration"
-				level=15
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -968,6 +963,7 @@
 				level=10
 				reserves=1
 			}
+		}
 	}
 	s:STATE_URGA={
 		region_state:A04={
@@ -981,6 +977,7 @@
 				level=10
 				reserves=1
 			}
+		}
 	}
 	s:STATE_CAMBODIA={
 		region_state:A13={
@@ -1449,7 +1446,7 @@
 		region_state:JAP={
 			create_building={
 				building="building_government_administration"
-				level=7
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -1498,7 +1495,7 @@
 		region_state:JAP={
 			create_building={
 				building="building_government_administration"
-				level=4
+				level=1
 				reserves=1
 			}
 			create_building={

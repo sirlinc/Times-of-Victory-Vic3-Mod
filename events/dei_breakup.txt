@@ -101,7 +101,7 @@ dei_breakup.1 = {
 			remove_primary_culture = cu:dutch
 			add_primary_culture = cu:javan
 			set_state_religion = rel:sunni
-			ig:ig_devout = { 
+			ig:ig_theocratic = { 
    				 set_interest_group_name = ig_sunni_madrasahs
 			}
 			every_scope_character = {

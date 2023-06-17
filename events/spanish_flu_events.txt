@@ -628,7 +628,7 @@ plague.8 = {
 			}
 			save_scope_as = plague_poverty_state
 		}
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			save_scope_as = landowner_ig
 		}
 	}

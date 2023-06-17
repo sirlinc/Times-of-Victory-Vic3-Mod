@@ -38,10 +38,10 @@ dreadnought_hoax.1 = {
 				}
 			}
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			is_marginal = no
 		}
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			is_marginal = no
 		}
 	}
@@ -89,7 +89,7 @@ dreadnought_hoax.1 = {
 			}
 			save_scope_as = hoax_pop
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			save_scope_as = navy_ig
 		}
 	}
@@ -97,13 +97,13 @@ dreadnought_hoax.1 = {
 	option = {
 		name = dreadnought_hoax.1.a
 		default_option = yes
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = battleship_hoax
 				months = normal_modifier_time
 			}
 		}
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = battleship_hoax
 				months = normal_modifier_time
@@ -114,13 +114,13 @@ dreadnought_hoax.1 = {
 
 	option = {
 		name = dreadnought_hoax.1.b
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = battleship_hoax
 				months = normal_modifier_time
 			}
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = battleship_hoax
 				months = normal_modifier_time

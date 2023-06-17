@@ -57,22 +57,10 @@
 			if = {
 				limit = { 
 					is_pop_type = clergymen
-					NOT = { has_technology_researched = feminism }
 				}
 				value = 120
 			}
-		}	
-		
-		add = {
-			desc = "POP_CLERGYMEN_FEMINISM"
-			if = {
-				limit = { 
-					is_pop_type = clergymen
-					has_technology_researched = feminism
-				}
-				value = 60
-			}
-		}	
+		}		
 		
 		add = {
 			desc = "POP_OFFICERS"

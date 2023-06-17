@@ -10,11 +10,7 @@
  capitalists:0 "@capitalists! $capitalists_no_icon$"
  capitalists_only_icon:0 "@capitalists!"
  capitalists_no_icon:0 "Capitalists"
-<<<<<<< Updated upstream
- capitalists_desc: "Captains of industry, new money for a new era. As owners of mines and manufacturies, they contribute some of their profits to the [concept_investment_pool]. Their political interests are represented as the Haute Bourgeoisie Interest Group."
-=======
  capitalists_desc:0 "Captains of industry, new money for a new era. As owners of mines and manufacturies, they contribute some of their profits to the [concept_investment_pool]."
->>>>>>> Stashed changes
  clergymen:0 "@clergymen! $clergymen_no_icon$"
  clergymen_only_icon:0 "@clergymen!"
  clergymen_no_icon:0 "Clergymen"
@@ -22,19 +18,11 @@
  clerks:0 "@clerks! $clerks_no_icon$"
  clerks_only_icon:0 "@clerks!"
  clerks_no_icon:0 "Clerks"
-<<<<<<< Updated upstream
- clerks_desc: "Lower-ranking office workers performing administrative tasks in government, infrastructure and shops. Commonly part of the Petite Bourgeoisie, although some join United Workers."
- engineers:0 "@engineers! $engineers_no_icon$"
- engineers_only_icon:0 "@engineers!"
- engineers_no_icon:0 "Engineers"
- engineers_desc: "Inventors and designers of technical solutions, working with advanced machinery in sectors like manufacturing, mining and construction. Some support the Manufacture Owners/Manufacture Owners/Industrialists Interest Group, while others join United Workers Interest Group."
-=======
  clerks_desc:0 "Lower-ranking office workers performing administrative tasks in government, infrastructure and shops."
  engineers:0 "@engineers! $engineers_no_icon$"
  engineers_only_icon:0 "@engineers!"
  engineers_no_icon:0 "Engineers"
  engineers_desc:0 "Inventors and designers of technical solutions, working with advanced machinery in sectors like manufacturing, mining and construction."
->>>>>>> Stashed changes
  farmers:0 "@farmers! $farmers_no_icon$"
  farmers_only_icon:0 "@farmers!"
  farmers_no_icon:0 "Farmers"
@@ -46,11 +34,7 @@
  laborers:0 "@laborers! $laborers_no_icon$"
  laborers_only_icon:0 "@laborers!"
  laborers_no_icon:0 "Laborers"
-<<<<<<< Updated upstream
- laborers_desc: "Day laborers, farmhands and others with little to no employment security, performing whatever work is available throughout society. They are usually not engaged in politics, but may get involved through Peasants and Workers Interest Group."
-=======
  laborers_desc:0 "Day laborers, farmhands and others with little to no employment security, performing whatever work is available throughout society."
->>>>>>> Stashed changes
  officers:0 "@officers! $officers_no_icon$"
  officers_only_icon:0 "@officers!"
  officers_no_icon:0 "Officers"
@@ -74,11 +58,7 @@
  machinists:0 "@machinists! $machinists_no_icon$"
  machinists_only_icon:0 "@machinists!"
  machinists_no_icon:0 "Machinists"
-<<<<<<< Updated upstream
- machinists_desc: "Manual workers with stable employment operating machinery in manufacturies, mines, mechanized farms and other sectors. Politically, they tend to be a driving force in the United Workers."
-=======
  machinists_desc:0 "Manual workers with stable employment operating machinery in manufacturies, mines, mechanized farms and other sectors."
->>>>>>> Stashed changes
   
  ACADEMICS_QUALIFICATIONS_DESC:0 "Only pops with adequate [concept_literacy] can become #v $academics$#!. Potential increases with greater [concept_literacy] and [concept_wealth]. Pops whose [concept_culture] faces [concept_discrimination] take a much longer time. #v $clerks$#! and #v $aristocrats$#! have a particularly easy time becoming #v $academics$#!."
  ARISTOCRATS_QUALIFICATIONS_DESC:0 "Only pops with adequate [concept_wealth] can become #v $aristocrats$#!. Potential increases with greater [concept_wealth] and to a lesser degree [concept_literacy]. Pops whose [concept_culture] faces [concept_discrimination] take a much longer time. #v $officers$#! and #v $bureaucrats$#! have a particularly easy time becoming #v $aristocrats$#!."

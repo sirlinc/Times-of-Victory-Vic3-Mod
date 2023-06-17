@@ -363,11 +363,11 @@ garibaldi_events.1 = {
 			limit = {
 				any_interest_group = {
 					OR = {
-						is_interest_group_type = ig_rural_folk
-						is_interest_group_type = ig_trade_unions
-						is_interest_group_type = ig_intelligentsia
-						is_interest_group_type = ig_petty_bourgeoisie
-						is_interest_group_type = ig_armed_forces
+						is_interest_group_type = ig_agrarian
+						is_interest_group_type = ig_egalitarian
+						is_interest_group_type = ig_rationalist
+						is_interest_group_type = ig_market_liberal
+						is_interest_group_type = ig_expansionist
 					}
 					is_marginal = no
 					leader = {
@@ -383,11 +383,11 @@ garibaldi_events.1 = {
 			every_interest_group = {
 				limit = {
 					OR = {
-						is_interest_group_type = ig_rural_folk
-						is_interest_group_type = ig_trade_unions
-						is_interest_group_type = ig_intelligentsia
-						is_interest_group_type = ig_petty_bourgeoisie
-						is_interest_group_type = ig_armed_forces
+						is_interest_group_type = ig_agrarian
+						is_interest_group_type = ig_egalitarian
+						is_interest_group_type = ig_rationalist
+						is_interest_group_type = ig_market_liberal
+						is_interest_group_type = ig_expansionist
 					}
 					is_marginal = no
 					leader = {
@@ -1069,7 +1069,7 @@ garibaldi_events.4 = {
 				has_war_with = root
 			}
 		}
-		ig:ig_rural_folk = {
+		ig:ig_agrarian = {
 			is_marginal	= no
 		}
 	}
@@ -1109,7 +1109,7 @@ garibaldi_events.4 = {
 	option = {
 		name = garibaldi_events.4.a
 		default_option = yes
-		ig:ig_rural_folk = {
+		ig:ig_agrarian = {
 			add_modifier = {
 				name = emboldened_peasantry_modifier
 				months = normal_modifier_time

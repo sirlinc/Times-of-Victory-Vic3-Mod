@@ -627,7 +627,7 @@ expedition_events.240 = { #Expedition Photographs
     duration = 3
 	
 	trigger = {
-		has_technology_researched = camera
+		has_technology_researched = cinematography
 		NOT = { has_variable = wildlife_photography }
 	}
 

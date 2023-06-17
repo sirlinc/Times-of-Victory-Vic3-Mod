@@ -373,7 +373,7 @@ amazon.4 = {
 				is_player = no
 			}
 			save_scope_as = hunter_country
-			ig:ig_landowners = {
+			ig:ig_elitist = {
 				leader = {
 					save_scope_as = hunter_character
 				}

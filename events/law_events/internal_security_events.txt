@@ -23,7 +23,7 @@ internal_security_events.1 = {
 	
 	trigger = {
 		is_enacting_law = law_type:law_secret_police
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			is_marginal = no
 		}
 		NOT = {
@@ -44,7 +44,7 @@ internal_security_events.1 = {
 		currently_enacting_law = {
 			save_scope_as = current_law_scope
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			save_scope_as = internal_security_ig
 		}
 		random_interest_group = {
@@ -115,7 +115,7 @@ internal_security_events.2 = {
 	
 	trigger = {
 		is_enacting_law = law_type:law_secret_police
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			is_marginal = no
 		}
 		any_country = {	
@@ -133,7 +133,7 @@ internal_security_events.2 = {
 		currently_enacting_law = {
 			save_scope_as = current_law_scope
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			save_scope_as = internal_security_ig
 		}
 		random_country = {
@@ -202,7 +202,7 @@ internal_security_events.3 = {
 
 	trigger = {
 		is_enacting_law = law_type:law_secret_police
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			is_marginal = no
 		}
 		NOT = {
@@ -220,7 +220,7 @@ internal_security_events.3 = {
 		currently_enacting_law = {
 			save_scope_as = current_law_scope
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			save_scope_as = internal_security_ig
 		}
 		random_interest_group = {
@@ -341,8 +341,8 @@ internal_security_events.4 = {
 				value >= 1
 			}
 			has_law = law_type:law_secret_police
-			has_law = law_type:law_dedicated_police
-			has_law = law_type:law_militarized_police
+			has_law = law_type:law_regulated_police_force
+			has_law = law_type:law_paramilitary_force
 		}
 		any_political_movement = {
 			political_movement_support > 10
@@ -390,7 +390,7 @@ internal_security_events.4 = {
 				pop_type = soldiers
 			}
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = blamed_police_modifier
 				months = normal_modifier_time
@@ -475,8 +475,8 @@ internal_security_events.6 = {
 				value >= 1
 			}
 			has_law = law_type:law_secret_police
-			has_law = law_type:law_dedicated_police
-			has_law = law_type:law_militarized_police
+			has_law = law_type:law_regulated_police_force
+			has_law = law_type:law_paramilitary_force
 		}
 	}
 

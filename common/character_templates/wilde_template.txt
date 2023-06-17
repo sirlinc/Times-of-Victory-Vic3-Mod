@@ -5,7 +5,7 @@
 	culture = cu:british
 	female = no
 	dna = dna_oscar_wilde
-	interest_group = ig_intelligentsia
+	interest_group = ig_rationalist
 	birth_date = 1854.10.16
 	religion = catholic
 	traits = {
@@ -20,7 +20,7 @@ dynamic_wilde_character_template = {
 	culture = primary_culture
 	female = no
 	dna = dna_oscar_wilde
-	interest_group = ig_intelligentsia
+	interest_group = ig_rationalist
 	birth_date = 1854.10.16
 	religion = random
 	traits = {

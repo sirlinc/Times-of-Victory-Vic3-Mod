@@ -177,7 +177,7 @@ heavenly.2 = {
 					birth_date = 1814.1.1
 					culture = cu:hakka
 					religion = rel:protestant
-					interest_group = ig_devout
+					interest_group = ig_theocratic
 					ideology = ideology_theocrat
 					is_agitator = yes
 					traits = {
@@ -198,7 +198,7 @@ heavenly.2 = {
 				create_character = {
 					culture = cu:han
 					religion = rel:protestant
-					interest_group = ig_devout
+					interest_group = ig_theocratic
 					ideology = ideology_theocrat
 					is_agitator = yes
 					on_created = {
@@ -380,7 +380,7 @@ heavenly.4 = {
 			origin = this
 			state = scope:heavenly_kingdom_spawn
 			on_created = {
-				ig:ig_devout = {
+				ig:ig_theocratic = {
 					set_interest_group_name = ig_taiping_god_worshippers
 					remove_ideology = ideology_moralist
 					add_ideology = ideology_heavenly_kingdom_theocratic
@@ -393,10 +393,10 @@ heavenly.4 = {
 				if = {
 					limit = {
 						NOT = {
-							has_ruling_interest_group = ig_devout
+							has_ruling_interest_group = ig_theocratic
 						}
 					}
-					ig:ig_devout = {
+					ig:ig_theocratic = {
 						leader = {
 							set_ideology = ideology:ideology_theocrat
 						}
@@ -406,10 +406,10 @@ heavenly.4 = {
 				every_interest_group = {
 					limit = {
 						OR = {
-							is_interest_group_type = ig_intelligentsia
-							is_interest_group_type = ig_armed_forces
-							is_interest_group_type = ig_rural_folk
-							is_interest_group_type = ig_devout
+							is_interest_group_type = ig_rationalist
+							is_interest_group_type = ig_expansionist
+							is_interest_group_type = ig_agrarian
+							is_interest_group_type = ig_theocratic
 						}
 					}
 					add_modifier = {
@@ -764,7 +764,7 @@ heavenly.6 = {
 		}
 		if = {
 			limit = {
-				ig:ig_intelligentsia = {
+				ig:ig_rationalist = {
 					leader = {
 						OR = {
 							has_ideology = ideology:ideology_reformer
@@ -773,7 +773,7 @@ heavenly.6 = {
 					}
 				}
 			}
-			ig:ig_intelligentsia = {
+			ig:ig_rationalist = {
 				leader = {
 					save_scope_as = hong_rengan_scope
 				}
@@ -796,7 +796,7 @@ heavenly.6 = {
 		name = heavenly.6.b
 		trigger = {
 			NOT = {
-				ig:ig_intelligentsia = {
+				ig:ig_rationalist = {
 					leader = {
 						OR = {
 							has_ideology = ideology:ideology_reformer
@@ -806,7 +806,7 @@ heavenly.6 = {
 				}
 			}
 		}
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = modifier_accepted_new_treatise
 				months = normal_modifier_time
@@ -820,7 +820,7 @@ heavenly.6 = {
 	option = {
 		name = heavenly.6.b1
 		trigger = {
-			ig:ig_intelligentsia = {
+			ig:ig_rationalist = {
 				leader = {
 					OR = {
 						has_ideology = ideology:ideology_reformer
@@ -829,7 +829,7 @@ heavenly.6 = {
 				}
 			}
 		}
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = modifier_accepted_new_treatise
 				months = normal_modifier_time
@@ -845,7 +845,7 @@ heavenly.6 = {
 		trigger = {
 			exists = c:CHI
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			leader = {
 				set_ideology = ideology:ideology_jingoist
 			}

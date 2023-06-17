@@ -4,7 +4,7 @@
 	historical = yes
 	culture = cu:north_italian
 	religion = catholic # He hated the pope, but still identified as a Christian
-	interest_group = ig_trade_unions
+	interest_group = ig_egalitarian
 	is_agitator = yes 
 	female = no
 	birth_date = 1807.7.4

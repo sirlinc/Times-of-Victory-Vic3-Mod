@@ -5,14 +5,8 @@
 	ideologies = { ideology_feminist }
 
 	enable = {
-		trigger_if = {
-			#limit = { 
-			#	has_variable = discovered_rationalism
-			#}
-			has_technology_researched = feminism 
-		}
+			always = yes
 	}
-	
 	traits = {}	
 	
 	on_enable = {}
@@ -132,6 +126,32 @@
 				add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
 				min = 0
 			}
+		}
+		multiply = {
+			desc = "NO_FEMINISM"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						NOT = { has_technology_researched = feminism }
+					}
+				}
+				value = 0.2
+			}		
+		}
+		multiply = {
+			desc = "NO_EGALITARIANISM"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						NOT = { has_technology_researched = egalitarianism }
+					}
+				}
+				value = 0
+			}		
 		}
 	}
 

@@ -195,12 +195,12 @@ communist_elections.2 = {
 		in_election_campaign = yes
 		NOT = { has_variable = council_elections_var }
 		has_law = law_type:law_council_republic
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			has_party = yes
 		}
 		any_active_party = {
 			NOT = {
-				any_member = { is_interest_group_type = ig_trade_unions }
+				any_member = { is_interest_group_type = ig_egalitarian }
 			}
 		}
 	}
@@ -210,7 +210,7 @@ communist_elections.2 = {
 			name = council_elections_var
 			months = short_modifier_time
 		}
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			save_scope_as = unions_ig
 			party = {
 				save_scope_as = unions_party
@@ -610,14 +610,14 @@ communist_elections.4 = {
 				}
 			}
 			OR = {
-				ig:ig_armed_forces = {
+				ig:ig_expansionist = {
 					is_powerful = yes
 				}
 				institution_investment_level = {
 					institution = institution_police
 					value >= 3
 				}
-				has_law = law_type:law_militarized_police
+				has_law = law_type:law_paramilitary_force
 			}
 		}
 		scope:fascist_party_scope = {
@@ -632,9 +632,9 @@ communist_elections.4 = {
 		}
 		if = {
 			limit = {
-				ig:ig_armed_forces = {
+				ig:ig_expansionist = {
 					law_stance = {
-						law = law_type:law_militarized_police
+						law = law_type:law_paramilitary_force
 						value > neutral
 					}
 				}
@@ -646,9 +646,9 @@ communist_elections.4 = {
 		}
 		else_if = {
 			limit = {
-				ig:ig_armed_forces = {
+				ig:ig_expansionist = {
 					law_stance = {
-						law = law_type:law_militarized_police
+						law = law_type:law_paramilitary_force
 						value < neutral
 					}
 				}

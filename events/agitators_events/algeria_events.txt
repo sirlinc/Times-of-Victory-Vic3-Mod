@@ -52,7 +52,7 @@ algeria_events.1 = {
 		ai_chance = {
 			base = 0
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = vanquished_barbary
 				months = normal_modifier_time
@@ -435,7 +435,7 @@ algeria_events.3 = {
 	}
 
 	immediate = {
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			leader = {
 				save_scope_as = algerian_fiasco_ig_leader
 			}
@@ -450,7 +450,7 @@ algeria_events.3 = {
 			name = the_algerian_fiasco
 			months = long_modifier_time
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = widespread_condemnation_modifier
 				months = normal_modifier_time
@@ -520,13 +520,13 @@ algeria_events.4 = {
 	option = {
 		name = algeria_events.4.a
 		default_option = yes
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = the_algerian_dream
 				months = normal_modifier_time
 			}
 		}
-		ig:ig_petty_bourgeoisie = {
+		ig:ig_market_liberal = {
 			add_modifier = {
 				name = the_algerian_dream
 				months = normal_modifier_time
@@ -548,13 +548,13 @@ algeria_events.4 = {
 	}
 	option = {
 		name = algeria_events.4.b
-		ig:ig_petty_bourgeoisie = {
+		ig:ig_market_liberal = {
 			add_modifier = {
 				name = the_algerian_dream
 				months = normal_modifier_time
 			}
 		}
-		ig:ig_rural_folk = {
+		ig:ig_agrarian = {
 			add_modifier = {
 				name = the_algerian_dream
 				months = normal_modifier_time
@@ -576,13 +576,13 @@ algeria_events.4 = {
 	}
 	option = {
 		name = algeria_events.4.c
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			add_modifier = {
 				name = the_algerian_dream
 				months = normal_modifier_time
 			}
 		}
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			add_modifier = {
 				name = the_algerian_dream
 				months = normal_modifier_time
@@ -1141,7 +1141,7 @@ algeria_events.9 = {
 				months = very_long_modifier_time
 			}
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			# ig approval and some polstr
 			add_modifier = {
 				name = french_foreign_legion_ig

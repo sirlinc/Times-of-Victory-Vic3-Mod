@@ -84,7 +84,7 @@ law_resettlement = {
 	
 	ai_will_do = {
 		OR = {
-			has_law = law_type:law_colonial_exploitation
+			has_law = law_type:law_exploitation
 			navy_size >= 50
 		}
 	}

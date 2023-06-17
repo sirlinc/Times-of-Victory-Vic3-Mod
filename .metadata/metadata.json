@@ -20,6 +20,8 @@
 		"common/history/trade_routes",
 		"common/history/states",
 		"common/religions",
+		"common/ideologies",
+		"common/interest_groups",
 		"common/country_definitions",
 		"common/strategic_regions",
 		"common/modifier_types/01_building_modifier_types.txt",

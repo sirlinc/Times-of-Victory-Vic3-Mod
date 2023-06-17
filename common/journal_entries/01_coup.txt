@@ -147,7 +147,7 @@
 		if = {
 			limit = {
 				scope:coup_ig = {
-					is_interest_group_type = ig_armed_forces
+					is_interest_group_type = ig_expansionist
 				}
 			}
 			set_variable = achievement_military_junta_var

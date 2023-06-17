@@ -7,7 +7,7 @@ afg_general_mohammed = {
 	female = no
 	religion = sunni
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	birth_date = 1800.1.1 # Uncertain birth date
 	traits = {
 	}
@@ -31,7 +31,7 @@ chi_admiral_ding_ruchang = {
 	female = no
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1836.11.18
 	traits = {
 		basic_naval_commander
@@ -57,7 +57,7 @@ chi_admiral_sa_chenbing = {
 	female = no
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1859.4.30
 	traits = {
 		basic_naval_commander
@@ -83,7 +83,7 @@ chi_general_yuan_shikai = {
 	female = no
 	ideology = ideology_reformer
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1859.9.16
 	traits = {
 		ambitious
@@ -109,7 +109,7 @@ chi_general_zeng_guofan = {
 	female = no
 	ideology = ideology_traditionalist
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1811.11.26
 	traits = {
 		plains_commander
@@ -135,7 +135,7 @@ chi_general_sengge_rinchen = {
 	female = no
 	ideology = ideology_royalist
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	birth_date = 1811.2.26
 	traits = {
 		stalwart_defender
@@ -166,7 +166,7 @@ jap_admiral_togo = {
 	female = no
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1848.1.27
 	traits = {
 		expert_naval_commander
@@ -192,7 +192,7 @@ jap_general_saigo = {
 	female = no
 	ideology = ideology_jingoist_leader
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	birth_date = 1828.1.23
 	traits = {
 		basic_offensive_planner
@@ -218,7 +218,7 @@ jap_general_gentaro = {
 	female = no
 	ideology = ideology_royalist
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	birth_date = 1852.3.16
 	traits = {
 		experienced_offensive_planner
@@ -244,7 +244,7 @@ jap_general_oyama = {
 	female = no
 	ideology = ideology_royalist
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	birth_date = 1842.11.12
 	traits = {
 		experienced_offensive_planner
@@ -271,7 +271,7 @@ pan_general_singh = {
 	female = no
 	religion = sikh
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	birth_date = 1807.12.4
 	traits = {
 		reckless
@@ -296,7 +296,7 @@ tur_general_pasha = {
 	female = no
 	religion = sunni
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	birth_date = 1804.2.4 # Only birth year certain
 	traits = {
 		persistent
@@ -322,7 +322,7 @@ tur_admiral_hobart = { # Augustus Charles Hobart-Hampden
 	religion = protestant
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1822.4.1
 	traits = {
 		experienced_convoy_raider
@@ -348,7 +348,7 @@ tur_general_mehmed_ali = { # Ludwig Karl Friedrich Detroit
 	religion = sunni
 	ideology = ideology_traditionalist
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1827.11.18
 	traits = {
 		defense_in_depth_specialist
@@ -374,7 +374,7 @@ tur_general_osman_nuri = {
 	religion = sunni
 	ideology = ideology_moderate
 	commander_rank = default
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	birth_date = 1832.2.18
 	traits = {
 		stalwart_defender

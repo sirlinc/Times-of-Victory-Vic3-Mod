@@ -29,7 +29,7 @@ oscar_wilde_events.1 = {
 	
 	trigger = {
 		country_is_in_europe = yes
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			is_marginal = no
 		}
 		game_date >= 1880
@@ -84,13 +84,13 @@ oscar_wilde_events.1 = {
 		default_option = yes
 		name = oscar_wilde_events.1.a
 		custom_tooltip = oscar_wilde_tt
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = happy_arts_protected
 				months = normal_modifier_time
 			}
 		}
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			add_modifier = {
 				name = unhappy_defended_homosexuality
 				months = normal_modifier_time
@@ -100,7 +100,7 @@ oscar_wilde_events.1 = {
 
 	option = { 
 		name = oscar_wilde_events.1.b
-		ig:ig_petty_bourgeoisie = {
+		ig:ig_market_liberal = {
 			add_modifier = {
 				name = imprisoning_gentlemen
 				months = normal_modifier_time

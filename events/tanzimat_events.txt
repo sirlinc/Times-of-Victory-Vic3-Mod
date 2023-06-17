@@ -37,7 +37,7 @@ tanzimat_events.1 = {
 		currently_enacting_law = {
 			save_scope_as = current_law_scope
 		}
-		ig:ig_landowners = { 
+		ig:ig_elitist = { 
 			save_scope_as = governors 
 		}
 		set_variable = tanzimat_taxfarm
@@ -55,7 +55,7 @@ tanzimat_events.1 = {
 	}
 	option = { # Leave the system in place
 		name = tanzimat_events.1.b
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			add_modifier = {
 				name = retained_taxation_rights
 				months = long_modifier_time
@@ -71,7 +71,7 @@ tanzimat_events.1 = {
 			name = iltizam_abolished
 			months = very_long_modifier_time
 		}
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			add_modifier = {
 				name = rescinded_taxation_rights
 				months = long_modifier_time
@@ -111,7 +111,7 @@ tanzimat_events.2 = {
 		}
 	}
 	immediate = {
-		ig:ig_landowners = { 
+		ig:ig_elitist = { 
 			save_scope_as = governors
 		}
 		set_variable = tanzimat_landcode
@@ -132,13 +132,13 @@ tanzimat_events.2 = {
 	}
 	option = { # traditional land ownership
 		name = tanzimat_events.2.b
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			add_modifier = {
 				name = traditional_land_system_retained
 				months = normal_modifier_time
 			}
 		}
-		ig:ig_rural_folk = {
+		ig:ig_agrarian = {
 			add_modifier = {
 				name = traditional_land_system_retained
 				months = normal_modifier_time
@@ -1026,7 +1026,7 @@ tanzimat_events.9 = {
 				value = medium_radicals
 			}
 		}
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			add_modifier = {
 				name = expanding_holdings
 				months = normal_modifier_time

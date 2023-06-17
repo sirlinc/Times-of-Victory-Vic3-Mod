@@ -29,7 +29,7 @@
 			has_law = law_type:law_serfdom 
 			has_law = law_type:law_land_based_taxation
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			is_marginal = no
 		}
 	}

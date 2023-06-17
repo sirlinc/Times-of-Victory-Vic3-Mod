@@ -113,11 +113,11 @@ cholera.1 = {
 		trigger = {
 			exists = c:GBR
 			THIS = c:GBR
-			ig:ig_intelligentsia = {
+			ig:ig_rationalist = {
 				is_marginal = no
 			}
 		}
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = john_snow_knows_nothing
 				months = short_modifier_time

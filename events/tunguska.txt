@@ -48,7 +48,7 @@ tunguska.1 = {
 		name = tunguska.1.b
 		highlighted_option = yes
 		trigger = {
-			ig:ig_intelligentsia = {
+			ig:ig_rationalist = {
 				is_in_government = yes
 			}
 		}
@@ -64,11 +64,11 @@ tunguska.1 = {
 		name = tunguska.1.c
 		highlighted_option = yes
 		trigger = {
-			ig:ig_devout = {
+			ig:ig_theocratic = {
 				is_in_government = yes
 			}
 		}
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			add_modifier = {
 				name = tunguska_omen
 				months = short_modifier_time
@@ -82,7 +82,7 @@ tunguska.1 = {
 		name = tunguska.1.d
 		highlighted_option = yes
 		trigger = {
-			ig:ig_industrialists = {
+			ig:ig_plutocratic = {
 				is_in_government = yes
 			}
 		}

@@ -85,11 +85,11 @@ liberalism.1 = {
 		random_interest_group = {
 			limit = {
 				OR = {
-					is_interest_group_type = ig_rural_folk
-					is_interest_group_type = ig_intelligentsia
-					is_interest_group_type = ig_trade_unions
-					is_interest_group_type = ig_petty_bourgeoisie
-					is_interest_group_type = ig_industrialists
+					is_interest_group_type = ig_agrarian
+					is_interest_group_type = ig_rationalist
+					is_interest_group_type = ig_egalitarian
+					is_interest_group_type = ig_market_liberal
+					is_interest_group_type = ig_plutocratic
 				}
 				leader = {
 					NOT = { has_ideology = ideology:ideology_radical }
@@ -252,7 +252,7 @@ liberalism.3 = {
 				}
 				has_law = law_type:law_slavery_banned
 				has_law = law_type:law_multicultural
-				has_law = law_type:law_no_migration_controls
+				has_law = law_type:law_freedom_of_movement
 				average_sol >= 12
 			}
 			trigger_event = { id = liberalism.4 }
@@ -278,7 +278,7 @@ liberalism.3 = {
 				}
 				has_law = law_type:law_slavery_banned
 				has_law = law_type:law_multicultural
-				has_law = law_type:law_no_migration_controls
+				has_law = law_type:law_freedom_of_movement
 				average_sol >= 12
 			}
 			trigger_event = { id = liberalism.4 }

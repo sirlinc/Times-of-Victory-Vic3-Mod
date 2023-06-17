@@ -892,7 +892,7 @@ building_rubber_plantation_throughput_mult = {
 
 building_output_liquor_mult = {
 	good = yes
-	percent = yesfruit
+	percent = yes
 }
 
 #building_output_wine_mult = {

@@ -116,13 +116,13 @@ oil_rush.3 = {
 			years = 4
 		}
 		owner = {
-			ig:ig_industrialists = {
+			ig:ig_plutocratic = {
 				add_modifier = {
 					name = permitted_oil_dangerous_work
 					months = short_modifier_time
 				}
 			}
-			ig:ig_trade_unions = {
+			ig:ig_egalitarian = {
 				add_modifier = {
 					name = permitted_oil_dangerous_work
 					multiplier = -1
@@ -139,13 +139,13 @@ oil_rush.3 = {
 			years = 4
 		}
 		owner = {
-			ig:ig_trade_unions = {
+			ig:ig_egalitarian = {
 				add_modifier = {
 					name = prevented_oil_dangerous_work
 					months = short_modifier_time
 				}
 			}
-			ig:ig_industrialists = {
+			ig:ig_plutocratic = {
 				add_modifier = {
 					name = prevented_oil_dangerous_work
 					multiplier = -1
@@ -193,7 +193,7 @@ oil_rush.4 = {
 				name = funding_oil_pipeline
 				multiplier = money_amount_multiplier_small
 			}
-			ig:ig_industrialists = {
+			ig:ig_plutocratic = {
 				add_modifier = {
 					name = pipeline_funded
 					months = short_modifier_time
@@ -206,7 +206,7 @@ oil_rush.4 = {
 		name = oil_rush.4.b
 		default_option = yes
 		owner = {
-			ig:ig_industrialists = {
+			ig:ig_plutocratic = {
 				add_modifier = {
 					name = no_pipeline_funding
 					months = short_modifier_time
@@ -283,7 +283,7 @@ oil_rush.5 = {
 			}
 		}
 		custom_tooltip = oil_rush.5.tt
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			add_modifier = {
 				name = jailed_oil_barons
 				months = short_modifier_time
@@ -300,7 +300,7 @@ oil_rush.5 = {
 			}
 		}
 		custom_tooltip = oil_rush.5.tt
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			add_modifier = {
 				name = let_off_oil_barons
 				months = short_modifier_time
@@ -311,7 +311,7 @@ oil_rush.5 = {
 	# Jail the oilmen
 	option = {
 		name = oil_rush.5.c
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			add_modifier = {
 				name = jailed_oil_barons
 				months = short_modifier_time
@@ -327,7 +327,7 @@ oil_rush.5 = {
 	option = {
 		name = oil_rush.5.e
 		default_option = yes
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			add_modifier = {
 				name = let_off_oil_barons
 				months = short_modifier_time

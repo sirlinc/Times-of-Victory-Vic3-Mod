@@ -65,7 +65,7 @@ africa_colonial_events.40 = {
 			name = government_admits_failure
 			months = normal_modifier_time
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = government_insults_military_honor
 				months = normal_modifier_time
@@ -73,7 +73,7 @@ africa_colonial_events.40 = {
 		}
 		every_interest_group = {
 			limit = {
-				NOT = { is_interest_group_type = ig_armed_forces }
+				NOT = { is_interest_group_type = ig_expansionist }
 				OR = {
 					has_ideology = ideology:ideology_jingoist
 					leader = {
@@ -96,7 +96,7 @@ africa_colonial_events.40 = {
 		}
 		create_character = {
 			is_general = yes
-			interest_group = ig_armed_forces
+			interest_group = ig_expansionist
 			ig_leader = no
 			noble = no
 			traits = {
@@ -111,7 +111,7 @@ africa_colonial_events.40 = {
 		}
 		if = {
 			limit = {
-				ig:ig_armed_forces = {
+				ig:ig_expansionist = {
 					is_in_government = yes
 				}
 			}

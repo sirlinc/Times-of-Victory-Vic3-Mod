@@ -1221,6 +1221,18 @@ pm_raffia_palm_groves_arf = {
 	}
 }
 
+pm_vineyards_arf = {
+	texture = "gfx/interface/icons/production_method_icons/vineyards.dds"
+
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_output_grain_add = -10
+			building_output_liquor_add = 5
+		}
+	}
+}
+
 pm_fig_tree_orchards_arf = {
 	texture = "gfx/interface/icons/production_method_icons/orchards.dds"
 

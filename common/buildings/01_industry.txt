@@ -164,7 +164,7 @@ building_paper_mills = {
 }
 
 building_dyeworks = {
-	building_group = bg_heavy_industry
+	building_group = bg_light_industry
 	texture = "gfx/interface/icons/building_icons/dyeworks.dds"
 	
 	unlocking_technologies = {
@@ -185,7 +185,7 @@ building_dyeworks = {
 }
 
 building_distilleries = {
-	building_group = bg_heavy_industry
+	building_group = bg_light_industry
 	texture = "gfx/interface/icons/building_icons/distilleries.dds"
 	
 	unlocking_technologies = {

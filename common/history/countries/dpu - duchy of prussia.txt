@@ -2,11 +2,5 @@
 	c:DPU = {
 		effect_starting_technology_tier_3_tech = yes
 		effect_starting_politics_traditional = yes
-				ig:ig_landowners = { 
-			add_ruling_interest_group = yes
-			set_interest_group_name = ig_junkers
-			remove_ideology = ideology_paternalistic
-			add_ideology = ideology_junker_paternalistic
-		}
 	}
 }

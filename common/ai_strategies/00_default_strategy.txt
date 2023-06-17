@@ -430,29 +430,6 @@ ai_strategy_default = {
 			add = 1
 		}		
 	
-		# Opium wars participants should both be confident
-		if = {
-			limit = {
-				has_journal_entry = je_opium_wars
-				scope:target_country = {
-					has_variable = opium_wars_target
-					is_banning_goods = g:opium
-				}
-			}
-			add = 1
-		}
-		
-		if = {
-			limit = {
-				has_variable = opium_wars_target
-				is_banning_goods = g:opium
-				scope:target_country = {
-					has_journal_entry = je_opium_wars
-				}
-			}
-			add = 1
-		}		
-	
 		# Ottomans should be extremely confident against owners of Syria and Egypt when they have the relevant JE's
 		if = {
 			limit = {
@@ -664,17 +641,6 @@ ai_strategy_default = {
 			add = 25
 		}		
 		
-		# Opium wars aggressor should be very, very aggressive against target if they're banning opium
-		if = {
-			limit = {
-				has_journal_entry = je_opium_wars
-				scope:target_country = {
-					has_variable = opium_wars_target
-					is_banning_goods = g:opium
-				}
-			}
-			add = 100
-		}
 		
 		# Schleswig-Holstein question
 		if = {
@@ -1709,12 +1675,6 @@ ai_strategy_default = {
 		region_south_china = {
 			if = {
 				limit = {
-					has_journal_entry = je_opium_wars	
-				}
-				add = 1000
-			}	
-			if = {
-				limit = {
 					country_is_in_europe = yes
 					country_rank >= rank_value:great_power
 					any_country = {
@@ -2481,15 +2441,6 @@ ai_strategy_default = {
 				add = 200
 			}
 			
-			if = {
-				limit = {
-					has_journal_entry = je_opium_wars
-					scope:target_country = {
-						has_variable = opium_wars_target
-					}
-				}
-				add = 200
-			}
 			
 			if = {
 				limit = {
@@ -3410,16 +3361,6 @@ ai_strategy_default = {
 				}
 				multiply = 0.0
 			}
-
-			if = {
-				limit = {
-					has_journal_entry = je_opium_wars
-					scope:target_country = {
-						has_variable = opium_wars_target
-					}
-				}
-				multiply = 0
-			}
 			
 			if = { #Do Not Take Chinese States In Full, unless another power has already done so
 				limit = {
@@ -3678,40 +3619,6 @@ ai_strategy_default = {
 						multiply = 1.25
 					}					
 				}										
-			}
-						
-			if = {
-				limit = {
-					has_journal_entry = je_opium_wars
-					scope:target_country = {
-						has_variable = opium_wars_target
-					}
-				}
-				add = 25
-			}
-			if = {
-				limit = {
-					has_journal_entry = je_opium_wars
-					scope:target_country = {
-						has_variable = opium_wars_target
-					}
-					scope:target_state = {
-						state_region = s:STATE_SHAOZHOU
-					}					
-				}
-				add = 1000
-			}
-			if = {
-				limit = {
-					has_journal_entry = je_opium_wars
-					scope:target_country = {
-						has_variable = opium_wars_target
-					}
-					scope:target_state = {
-						state_region = s:STATE_FORMOSA
-					}					
-				}
-				add = -100
 			}
 
 			if = { #Carving up China
@@ -4258,26 +4165,7 @@ ai_strategy_default = {
 					multiply = 1.5
 				}
 			}
-			
-			if = {
-				limit = {
-					has_journal_entry = je_opium_wars
-					scope:target_country = {
-						has_variable = opium_wars_target
-					}
-				}
-				add = 50
-			}	
-
-			if = {
-				limit = {
-					has_journal_entry = je_opium_obsession
-					scope:target_country = {
-						has_variable = opium_wars_aggressor
-					}
-				}
-				add = 50
-			}
+		
 
 			min = 0
 			max = 100			
@@ -4346,17 +4234,7 @@ ai_strategy_default = {
 				}
 				add = 50
 			}			
-		
-			if = {
-				limit = {
-					has_journal_entry = je_opium_wars
-					scope:target_country = {
-						has_variable = opium_wars_target
-					}
-				}
-				add = 75
-			}
-
+	
 			if = {
 				limit = {
 					AND = {

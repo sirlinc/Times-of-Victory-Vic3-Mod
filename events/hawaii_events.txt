@@ -80,7 +80,7 @@ hawaii_events.2 = { #JE success
 			base = 50
 			modifier = {
 				trigger = {
-					ig:ig_industrialists = {
+					ig:ig_plutocratic = {
 						ig_approval < -5
 					}
 				}
@@ -88,14 +88,14 @@ hawaii_events.2 = { #JE success
 			}
 			modifier = {
 				trigger = {
-					ig:ig_industrialists = {
+					ig:ig_plutocratic = {
 						is_powerful = yes
 					}
 				}
 				add = -25
 			}
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			add_modifier = {
 				name = deporting_disloyal_igs
 				months = normal_modifier_time

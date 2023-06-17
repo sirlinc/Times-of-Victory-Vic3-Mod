@@ -1422,7 +1422,7 @@ human_rights = {
 
 literary_fiction = {
 	era = era_8
-	texture = "gfx/interface/icons/invention_icons/mass_propaganda.dds"
+	texture = "gfx/interface/icons/invention_icons/mass_media.dds"
 	category = society
 	unlocking_technologies = {
 		organized_sports

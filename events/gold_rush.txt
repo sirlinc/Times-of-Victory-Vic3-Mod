@@ -131,13 +131,13 @@ goldrush.3 = { #foreign influx provokes outcry
 			has_modifier = state_gold_rush
 		}
 		OR = {
-			ig:ig_landowners = {
+			ig:ig_elitist = {
 				is_powerful = yes
 			}
-			ig:ig_armed_forces = {
+			ig:ig_expansionist = {
 				is_powerful = yes
 			}
-			ig:ig_devout = {
+			ig:ig_theocratic = {
 				is_powerful = yes 
 			}
 		}
@@ -152,26 +152,26 @@ goldrush.3 = { #foreign influx provokes outcry
 		}
 		if = {
 			limit = {
-				ig:ig_landowners = {
+				ig:ig_elitist = {
 					is_powerful = yes
 				}
 			}
-			ig:ig_landowners = {
+			ig:ig_elitist = {
 				save_scope_as = petty_ig
 			}
 		}
 		else_if = {
 			limit = {
-				ig:ig_devout = {
+				ig:ig_theocratic = {
 					is_powerful = yes 
 				}
 			}
-			ig:ig_devout = {
+			ig:ig_theocratic = {
 				save_scope_as = petty_ig
 			}
 		}
 		else = {
-			ig:ig_armed_forces = {
+			ig:ig_expansionist = {
 				save_scope_as = petty_ig
 			}
 		}
@@ -180,7 +180,7 @@ goldrush.3 = { #foreign influx provokes outcry
 	option = { #we need them
 		name = goldrush.3.a
 		default_option = yes
-		ig:ig_petty_bourgeoisie = {
+		ig:ig_market_liberal = {
 			add_modifier = {
 				name = pb_angry_at_foreign_miners
 				months = normal_modifier_time
@@ -225,10 +225,10 @@ goldrush.4 = { #miners get organized
 			}
 		}
 		NOR = {
-			ig:ig_trade_unions = {
+			ig:ig_egalitarian = {
 				has_modifier = tu_mining_syndicates_formed
 			}
-			ig:ig_industrialists = {
+			ig:ig_plutocratic = {
 				has_modifier = in_mining_conglomerates_formed
 			}
 		}
@@ -244,10 +244,10 @@ goldrush.4 = { #miners get organized
 			}
 			save_scope_as = gr4_gold_state
 		}
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			save_scope_as = trade_unions_ig
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			save_scope_as = industrialists_ig
 		}
 	}
@@ -255,13 +255,13 @@ goldrush.4 = { #miners get organized
 	option = { #trade unions
 		name = goldrush.4.a
 		default_option = yes
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			add_modifier = {
 				name = tu_mining_syndicates_formed
 				months = normal_modifier_time
 			}
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			add_modifier = {
 				name = in_disrupted_paradigms
 				months = normal_modifier_time
@@ -271,13 +271,13 @@ goldrush.4 = { #miners get organized
 
 	option = { #industralists
 		name = goldrush.4.b
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			add_modifier = {
 				name = in_mining_conglomerates_formed
 				months = normal_modifier_time
 			}
 		}
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			add_modifier = {
 				name = tu_miners_exploited
 				months = normal_modifier_time

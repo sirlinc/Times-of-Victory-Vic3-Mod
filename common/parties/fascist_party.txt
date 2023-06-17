@@ -235,19 +235,11 @@
 		default = "/gfx/interface/icons/political_parties/fascists.dds"
 	}
 	unlocking_technologies = {
-<<<<<<< Updated upstream
 		empire_under_the_sun
 	}
 	available_for_interest_group = {
 		owner = {
 			country_has_voting_franchise = yes
-=======
-		political_agitation
-	}
-	available_for_interest_group = {
-		owner = {
-			#country_has_voting_franchise = yes
->>>>>>> Stashed changes
 		}
 		OR = {
 	     	NOT = {
@@ -307,11 +299,11 @@
 			limit = {
 				is_powerful = no
 				OR = {
-					is_interest_group_type = ig_landowners
-					is_interest_group_type = ig_devout
-					is_interest_group_type = ig_petty_bourgeoisie
-					is_interest_group_type = ig_industrialists
-					is_interest_group_type = ig_armed_forces
+					is_interest_group_type = ig_elitist
+					is_interest_group_type = ig_theocratic
+					is_interest_group_type = ig_market_liberal
+					is_interest_group_type = ig_plutocratic
+					is_interest_group_type = ig_expansionist
 				}
 				owner = {
 					any_interest_group = {
@@ -365,7 +357,7 @@
 		}
 		if = { # trade unions usually dislike fascism
 			limit = {
-				is_interest_group_type = ig_trade_unions
+				is_interest_group_type = ig_egalitarian
 			}
 			add = {
 				value = -2
@@ -407,7 +399,7 @@
 			limit = {
 				has_ideology = ideology:ideology_isolationist
 				owner = {
-					has_law = law_type:law_no_migration_controls
+					has_law = law_type:law_freedom_of_movement
 				}
 			}
 			add = {

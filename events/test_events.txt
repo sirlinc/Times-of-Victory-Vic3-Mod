@@ -208,26 +208,26 @@
 #	duration = 3
 #
 #	trigger = {
-#		has_ruling_interest_group = ig_rural_folk
+#		has_ruling_interest_group = ig_agrarian
 #	}
 #
 #	option = {
 #		name = "Get angry"
-#		ig:ig_rural_folk = {
+#		ig:ig_agrarian = {
 #			add_modifier = {
 #				name = angry_plebs
 #				months = normal_modifier_time
 #			}
 #		}
 #
-#		ig:ig_petty_bourgeoisie = {
+#		ig:ig_market_liberal = {
 #			add_modifier = {
 #				name = angry_plebs
 #				months = normal_modifier_time
 #			}
 #		}
 #
-#		ig:ig_trade_unions = {
+#		ig:ig_egalitarian = {
 #			add_modifier = {
 #				name = angry_plebs
 #				months = normal_modifier_time
@@ -298,7 +298,7 @@
 #
 #		if = {
 #			limit = {
-#				ig:ig_petty_bourgeoisie = {
+#				ig:ig_market_liberal = {
 #					has_ideology = ideology_jingoist
 #				}
 #			}
@@ -422,12 +422,12 @@
 #	duration = 3
 #
 #	trigger = {
-#		has_ruling_interest_group = ig_armed_forces
+#		has_ruling_interest_group = ig_expansionist
 #	}
 #
 #	option = {
 #		name = "Get angry"
-#		ig:ig_armed_forces = {
+#		ig:ig_expansionist = {
 #			add_modifier = {
 #				name = angry_plebs
 #				months = normal_modifier_time
@@ -547,7 +547,7 @@
 #		highlighted_option = yes
 #
 #		trigger = {
-#			has_ruling_interest_group = ig_industrialists
+#			has_ruling_interest_group = ig_plutocratic
 #		}
 #
 #		show_as_unavailable = { always = yes }
@@ -991,7 +991,7 @@
 #		highlighted_option = yes
 #		show_as_unavailable = { always = yes }
 #
-#		ig:ig_landowners = {
+#		ig:ig_elitist = {
 #			set_ig_bolstering = yes
 #		}
 #	}
@@ -1001,7 +1001,7 @@
 #		highlighted_option = yes
 #		show_as_unavailable = { always = yes }
 #
-#		ig:ig_landowners = {
+#		ig:ig_elitist = {
 #			set_ig_bolstering = no
 #		}
 #	}
@@ -1012,7 +1012,7 @@
 #		highlighted_option = yes
 #		show_as_unavailable = { always = yes }
 #
-#		ig:ig_landowners = {
+#		ig:ig_elitist = {
 #			set_ig_suppression = yes
 #		}
 #	}
@@ -1022,7 +1022,7 @@
 #		highlighted_option = yes
 #		show_as_unavailable = { always = yes }
 #
-#		ig:ig_landowners = {
+#		ig:ig_elitist = {
 #			set_ig_suppression = no
 #		}
 #	}
@@ -1826,7 +1826,7 @@
 #		highlighted_option = yes
 #		show_as_unavailable = { always = yes }
 #		trigger = {
-#			ig:ig_landowners = {
+#			ig:ig_elitist = {
 #				is_being_suppressed = yes
 #			}
 #		}
@@ -1837,7 +1837,7 @@
 #		highlighted_option = yes
 #		show_as_unavailable = { always = yes }
 #		trigger = {
-#			ig:ig_devout = {
+#			ig:ig_theocratic = {
 #				is_being_suppressed = no
 #			}
 #		}
@@ -1859,7 +1859,7 @@
 #		highlighted_option = yes
 #		show_as_unavailable = { always = yes }
 #		trigger = {
-#			ig:ig_landowners = {
+#			ig:ig_elitist = {
 #				is_being_bolstered = yes
 #			}
 #		}
@@ -1870,7 +1870,7 @@
 #		highlighted_option = yes
 #		show_as_unavailable = { always = yes }
 #		trigger = {
-#			ig:ig_devout = {
+#			ig:ig_theocratic = {
 #				is_being_bolstered = no
 #			}
 #		}
@@ -1898,7 +1898,7 @@
 #		highlighted_option = yes
 #		show_as_unavailable = { always = yes }
 #		trigger = {
-#			ig:ig_devout = {
+#			ig:ig_theocratic = {
 #				is_same_interest_group_type = scope:random_ig
 #			}
 #		}
@@ -1909,7 +1909,7 @@
 #		highlighted_option = yes
 #		show_as_unavailable = { always = yes }
 #		trigger = {
-#			ig:ig_landowners = {
+#			ig:ig_elitist = {
 #				is_same_interest_group_type = scope:random_ig
 #			}
 #		}
@@ -2143,7 +2143,7 @@
 #			last_name = "Vogel_von_Falkenstein" # "von_Alten" "Vogel_von_Falkenstein"
 #			ruler = yes
 #			age = 42
-#			interest_group = ig:ig_rural_folk
+#			interest_group = ig:ig_agrarian
 #			ideology = ideology_traditionalist
 #            culture = cu:brazilian 
 #            religion = rel:theravada
@@ -2385,28 +2385,28 @@
 #	
 # 	option = {
 #		name = "Rural Folk gains momentum"
-#		ig:ig_rural_folk = {
+#		ig:ig_agrarian = {
 #			add_momentum = 0.2
 #		}
 #	}
 #
 # 	option = {
 #		name = "Rural Folk loses momentum"
-#		ig:ig_rural_folk = {
+#		ig:ig_agrarian = {
 #			add_momentum = -0.1
 #		}
 #	}
 #	
 # 	option = {
 #		name = "Petty Bourgeoisie gains momentum"
-#		ig:ig_petty_bourgeoisie = {
+#		ig:ig_market_liberal = {
 #			add_momentum = 0.4
 #		}
 #	}
 #
 # 	option = {
 #		name = "Petty Bourgeoisie loses momentum"
-#		ig:ig_petty_bourgeoisie = {
+#		ig:ig_market_liberal = {
 #			add_momentum = -0.25
 #		}
 #	}
@@ -3847,7 +3847,7 @@
 #
 #		add_radicals = {
 #			value = 0.1
-#			interest_group = ig:ig_trade_unions
+#			interest_group = ig:ig_egalitarian
 #		}
 #	}
 #
@@ -3865,7 +3865,7 @@
 #
 #		add_radicals = {
 #			value = 0.1
-#			interest_group = ig:ig_trade_unions
+#			interest_group = ig:ig_egalitarian
 #			pop_type = laborers
 #		}
 #	}
@@ -3884,7 +3884,7 @@
 #
 #		add_radicals = {
 #			value = 0.1
-#			interest_group = ig:ig_trade_unions
+#			interest_group = ig:ig_egalitarian
 #			strata = poor
 #		}
 #	}
@@ -3913,7 +3913,7 @@
 #
 #		add_radicals = {
 #			value = 0.1
-#			interest_group = ig:ig_trade_unions
+#			interest_group = ig:ig_egalitarian
 #			culture = cu:french
 #		}
 #	}
@@ -3932,7 +3932,7 @@
 #
 #		add_radicals = {
 #			value = 0.1
-#			interest_group = ig:ig_trade_unions
+#			interest_group = ig:ig_egalitarian
 #			religion = rel:catholic
 #		}
 #	}
@@ -3952,7 +3952,7 @@
 #
 #		add_radicals = {
 #			value = 0.1
-#			interest_group = ig:ig_trade_unions
+#			interest_group = ig:ig_egalitarian
 #			culture = cu:french
 #			religion = rel:catholic
 #		}
@@ -3974,7 +3974,7 @@
 #
 #		add_radicals = {
 #			value = 0.1
-#			interest_group = ig:ig_trade_unions
+#			interest_group = ig:ig_egalitarian
 #			pop_type = laborers
 #			culture = cu:french
 #			religion = rel:catholic
@@ -4006,7 +4006,7 @@
 #		capital = {
 #			add_radicals_in_state = {
 #				value = 0.1
-#				interest_group = owner.ig:ig_trade_unions
+#				interest_group = owner.ig:ig_egalitarian
 #			}
 #		}
 #	}
@@ -4028,7 +4028,7 @@
 #		capital = {
 #			add_radicals_in_state = {
 #				value = 0.1
-#				interest_group = owner.ig:ig_trade_unions
+#				interest_group = owner.ig:ig_egalitarian
 #				pop_type = laborers
 #			}
 #		}
@@ -4051,7 +4051,7 @@
 #		capital = {
 #			add_radicals_in_state = {
 #				value = 0.1
-#				interest_group = owner.ig:ig_trade_unions
+#				interest_group = owner.ig:ig_egalitarian
 #				strata = poor
 #			}
 #		}
@@ -4086,7 +4086,7 @@
 #		capital = {
 #			add_radicals_in_state = {
 #				value = 0.1
-#				interest_group = owner.ig:ig_trade_unions
+#				interest_group = owner.ig:ig_egalitarian
 #				culture = cu:french
 #			}
 #		}
@@ -4109,7 +4109,7 @@
 #		capital = {
 #			add_radicals_in_state = {
 #				value = 0.1
-#				interest_group = owner.ig:ig_trade_unions
+#				interest_group = owner.ig:ig_egalitarian
 #				religion = rel:catholic
 #			}
 #		}
@@ -4133,7 +4133,7 @@
 #		capital = {
 #			add_radicals_in_state = {
 #				value = 0.1
-#				interest_group = owner.ig:ig_trade_unions
+#				interest_group = owner.ig:ig_egalitarian
 #				culture = cu:french
 #				religion = rel:catholic
 #			}
@@ -4159,7 +4159,7 @@
 #		capital = {
 #			add_radicals_in_state = {
 #				value = 0.1
-#				interest_group = owner.ig:ig_trade_unions
+#				interest_group = owner.ig:ig_egalitarian
 #				pop_type = laborers
 #				culture = cu:french
 #				religion = rel:catholic

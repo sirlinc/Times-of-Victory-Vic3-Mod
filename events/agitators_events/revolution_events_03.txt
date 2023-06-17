@@ -28,7 +28,7 @@ revolution_pulse2_events.1 = {
 			is_insurrectionary = yes
 			is_marginal = no
 			OR = {
-				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_expansionist
 				leader = { has_role = general }
 			}
 		}
@@ -53,7 +53,7 @@ revolution_pulse2_events.1 = {
 				is_insurrectionary = yes
 				is_marginal = no
 				OR = {
-					is_interest_group_type = ig_armed_forces
+					is_interest_group_type = ig_expansionist
 					leader = { has_role = general }
 				}
 			}
@@ -348,8 +348,8 @@ revolution_pulse2_events.3 = {
 					any_interest_group = {
 						is_in_government = yes
 						OR = {
-							is_interest_group_type = ig_trade_unions
-							is_interest_group_type = ig_intelligentsia
+							is_interest_group_type = ig_egalitarian
+							is_interest_group_type = ig_rationalist
 						}
 					}
 				}
@@ -386,8 +386,8 @@ revolution_pulse2_events.3 = {
 						any_interest_group = {
 							is_in_government = yes
 							OR = {
-								is_interest_group_type = ig_trade_unions
-								is_interest_group_type = ig_intelligentsia
+								is_interest_group_type = ig_egalitarian
+								is_interest_group_type = ig_rationalist
 							}
 						}
 					}
@@ -540,7 +540,7 @@ revolution_pulse2_events.4 = {
 				occupancy >= 0.5
 			}
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			is_marginal = no
 		}
 	}
@@ -589,7 +589,7 @@ revolution_pulse2_events.4 = {
 				value = medium_radicals
 			}
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			add_modifier = {
 				name = sided_with_capitalists_over_scrips
 				months = normal_modifier_time
@@ -621,7 +621,7 @@ revolution_pulse2_events.4 = {
 			pop_type = capitalists
 			value = small_radicals
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			add_modifier = {
 				name = sided_with_workers_over_scrips
 				months = normal_modifier_time
@@ -794,8 +794,8 @@ revolution_pulse2_events.7 = {
 		revolution_progress_low = yes
 		any_interest_group = {
 			OR = { 
-				is_interest_group_type = ig_rural_folk
-				is_interest_group_type = ig_trade_unions
+				is_interest_group_type = ig_agrarian
+				is_interest_group_type = ig_egalitarian
 			}
 			is_insurrectionary = yes
 		}
@@ -838,8 +838,8 @@ revolution_pulse2_events.7 = {
 			limit = {
 				is_insurrectionary = yes
 				OR = { 
-					is_interest_group_type = ig_rural_folk
-					is_interest_group_type = ig_trade_unions
+					is_interest_group_type = ig_agrarian
+					is_interest_group_type = ig_egalitarian
 				}
 			}
 			save_scope_as = hatmakerfeud_ig

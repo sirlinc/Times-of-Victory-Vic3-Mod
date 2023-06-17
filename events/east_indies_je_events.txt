@@ -42,7 +42,7 @@ east_indies.1 = {
 	}
 	option = {
 		name = east_indies.1.b
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			add_modifier = {
 				name = east_india_company_men
 				months = long_modifier_time

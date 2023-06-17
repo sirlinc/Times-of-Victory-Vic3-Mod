@@ -6,7 +6,6 @@ conservative_party = {
 	name = {
 		first_valid = {
 			triggered_desc = {
-<<<<<<< Updated upstream
 				desc = party_christian_social_party
 				trigger = {
 					exists = c:AUS
@@ -189,13 +188,6 @@ conservative_party = {
 				desc = party_liberal_conservative_party
 				trigger = {
 					country_has_primary_culture = cu:anglo_canadian
-=======
-				desc = party_girondins
-				trigger = {
-					exists = c:FRA
-					THIS = c:FRA
-					has_variable = french_revolution
->>>>>>> Stashed changes
 				}
 			}
 			triggered_desc = {
@@ -215,32 +207,13 @@ conservative_party = {
 	}
 	available_for_interest_group = {
 		owner = {
-<<<<<<< Updated upstream
 			country_has_voting_franchise = yes
-			ig:ig_landowners = {
+			ig:ig_elitist = {
 				is_marginal = no
 			}
 		}
 		# unions can never be conservative
-		NOT = { is_interest_group_type = ig_trade_unions }
-=======
-			#country_has_voting_franchise = yes
-			OR = { 
-				ig:ig_paternalistic = { is_marginal = no }
-				ig:ig_moralist = { is_marginal = no }
-				ig:ig_protectionist = { is_marginal = no }
-				ig:ig_slaver = { is_marginal = no }
-				ig:ig_agrarian = { is_marginal = no }
-				ig:ig_plutocratic = { is_marginal = no }
-				ig:ig_isolationist = { is_powerful = yes }
-				ig:ig_theocratic = { is_powerful = yes }
-				ig:ig_elitist = { is_marginal = no }
-				ig:ig_patriarchal = { is_marginal = no }
-			}
-		}
-		# unions can never be conservative
-		NOT = { is_interest_group_type = ig_classical_radicalist }
->>>>>>> Stashed changes
+		NOT = { is_interest_group_type = ig_egalitarian }
 		OR = {
 	     	NOT = {
 	         	owner = {
@@ -262,7 +235,6 @@ conservative_party = {
 		}
 		if = { # socialists and radicals won't join conservative parties
 			limit = {
-<<<<<<< Updated upstream
 				leader = { 
 					OR = {
 						has_ideology = ideology:ideology_communist
@@ -272,11 +244,6 @@ conservative_party = {
 						has_ideology = ideology:ideology_radical
 						has_ideology = ideology:ideology_atheist
 					}
-=======
-				OR = {
-					is_interest_group_type = ig_classical_radicalist
-					is_interest_group_type = ig_proletarian
->>>>>>> Stashed changes
 				}
 			}
 			add = {
@@ -286,7 +253,6 @@ conservative_party = {
 		}
 		if = { # conservatives love conservativism
 			limit = {
-<<<<<<< Updated upstream
 				leader = {
 					OR = {
 						has_ideology = ideology:ideology_traditionalist
@@ -320,85 +286,35 @@ conservative_party = {
 		}
 		if = { # armed forces will join if a more powerful member has jingoist leader
 			limit = {
-				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_expansionist
 				exists = owner.py:conservative_party
-=======
-				OR = {
-					is_interest_group_type = ig_paternalistic
-					is_interest_group_type = ig_moralist
-					is_interest_group_type = ig_protectionist
-					is_interest_group_type = ig_slaver
-					is_interest_group_type = ig_agrarian
-					is_interest_group_type = ig_plutocratic
-					is_interest_group_type = ig_isolationist
-					is_interest_group_type = ig_theocratic
-					is_interest_group_type = ig_patriarchal
-					is_interest_group_type = ig_elitist
-				}
-			}
-			add = {
-				value = 7
-				desc = "from_conservative_ideology"
-			}
-		}
-		if = { # armed forces will join if a more powerful member has jingoist or nationalist
-			limit = {
-				OR = { 
-					is_interest_group_type = ig_nationalist
-					is_interest_group_type = ig_jingoist
-				}
-				exists = owner.py:conservative_party
-				NOT = { is_member_of_party = owner.py:conservative_party }
->>>>>>> Stashed changes
 				owner = {
 					any_interest_group = {
 						is_member_of_party = owner.py:conservative_party
 						is_powerful = yes
-<<<<<<< Updated upstream
 						leader = {
 							has_ideology = ideology:ideology_jingoist_leader
-=======
-						OR = { 
-							is_interest_group_type = ig_nationalist
-							is_interest_group_type = ig_jingoist
->>>>>>> Stashed changes
 						}
 					}
 				}
 			}
 			add = {
 				value = 5
-<<<<<<< Updated upstream
 				desc = "from_jingoist_party_leader"
-=======
-				desc = "from_jingoist_party"
->>>>>>> Stashed changes
 			}
 		}
 		if = { # landowners will join if they are even moderately powerful
 			limit = {
 				ig_clout >= 0.15
-<<<<<<< Updated upstream
-				is_interest_group_type = ig_landowners
+				is_interest_group_type = ig_elitist
 			}
 			add = {
 				value = 5
 				desc = "from_powerful_conservative_ig"
-=======
-				OR = {
-					is_interest_group_type = ig_agrarian
-					is_interest_group_type = ig_elitist
-				}
-			}
-			add = {
-				value = 5
-				desc = "from_powerful_conservative_ideology"
->>>>>>> Stashed changes
 			}
 		}
 		if = { # various progressives dislike conservativism
 			limit = {
-<<<<<<< Updated upstream
 				leader = {
 					OR = {
 						has_ideology = ideology:ideology_feminist
@@ -406,12 +322,6 @@ conservative_party = {
 						has_ideology = ideology:ideology_reformer
 						has_ideology = ideology:ideology_humanitarian
 					}
-=======
-				OR = {
-					has_ideology = ideology:ideology_feminist
-					has_ideology = ideology:ideology_pacifist
-					is_interest_group_type = ig_egalitarian
->>>>>>> Stashed changes
 				}
 			}
 			add = {
@@ -419,7 +329,6 @@ conservative_party = {
 				desc = "from_progressive_con"
 			}
 		}
-<<<<<<< Updated upstream
 		# Abolitionists won't join conservative party
 		if = {
 			limit = {
@@ -428,20 +337,6 @@ conservative_party = {
 				}
 				owner = {
 					NOT = { has_law = law_type:law_slavery_banned }
-=======
-		# Abolitionists won't join conservative party in some conditions
-		if = {
-			limit = {
-				is_interest_group_type = ig_abolitionist
-				OR = {
-					owner = {
-						NOT = { has_law = law_type:law_slavery_banned }
-					}
-					any_interest_group = {
-						is_member_of_party = owner.py:conservative_party
-						is_interest_group_type = ig_slaver
-					}
->>>>>>> Stashed changes
 				}
 			}
 			add = {
@@ -505,10 +400,6 @@ conservative_party = {
 				OR = {
 					has_ideology = ideology:ideology_individualist
 					has_ideology = ideology:ideology_pious
-<<<<<<< Updated upstream
-=======
-					has_ideology = ideology:ideology_moralist
->>>>>>> Stashed changes
 				}
 				owner = {
 					has_law = law_type:law_public_schools
@@ -688,7 +579,6 @@ conservative_party = {
 				desc = "from_no_police"
 			}
 		}
-<<<<<<< Updated upstream
 	
 		# Special weights for ACW
 		if = {
@@ -722,24 +612,7 @@ conservative_party = {
 
 		if = {
 			limit = {
-				is_interest_group_type = ig_landowners
-=======
-
-		if = {
-			limit = {
-				OR = {
-					is_interest_group_type = ig_paternalistic
-					is_interest_group_type = ig_moralist
-					is_interest_group_type = ig_protectionist
-					is_interest_group_type = ig_slaver
-					is_interest_group_type = ig_agrarian
-					is_interest_group_type = ig_plutocratic
-					is_interest_group_type = ig_isolationist
-					is_interest_group_type = ig_theocratic
-					is_interest_group_type = ig_patriarchal
-					is_interest_group_type = ig_elitist
-				}
->>>>>>> Stashed changes
+				is_interest_group_type = ig_elitist
 				is_powerful = yes
 			}
 			multiply = {
@@ -799,7 +672,6 @@ conservative_party = {
 				desc = "from_more_than_three_prior_members"
 			}
 		}
-<<<<<<< Updated upstream
 		if = { # anti-orleanist
 			limit = {
 				leader = {
@@ -863,8 +735,6 @@ conservative_party = {
 				desc = "from_french_monarchist_rival"
 			}
 		}
-=======
->>>>>>> Stashed changes
 		if = {
 			limit = {
 				owner = {
@@ -880,7 +750,6 @@ conservative_party = {
 				value = 0
 			}
 		}
-<<<<<<< Updated upstream
 		if = {
 			limit = {
 				leader = {
@@ -891,7 +760,5 @@ conservative_party = {
 				value = 1000
 			}
 		}
-=======
->>>>>>> Stashed changes
 	}
 }

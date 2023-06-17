@@ -11,10 +11,10 @@
 	possible = {
 		root.average_sol < 7
 		OR = {
-			ig:ig_petty_bourgeoisie = {
+			ig:ig_market_liberal = {
 				is_powerful = yes
 			}
-			ig:ig_industrialists = {
+			ig:ig_plutocratic = {
 				is_powerful = yes
 			}
 		}

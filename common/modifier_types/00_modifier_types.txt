@@ -8,49 +8,49 @@
 ### IG STRENGTH ###
 ###################
 
-interest_group_ig_armed_forces_pol_str_mult = {
+interest_group_ig_expansionist_pol_str_mult = {
 	neutral = yes
 	percent = yes
 	num_decimals = 0
 }
 
-interest_group_ig_devout_pol_str_mult = {
+interest_group_ig_theocratic_pol_str_mult = {
 	neutral = yes
 	percent = yes
 	num_decimals = 0
 }
 
-interest_group_ig_industrialists_pol_str_mult = {
+interest_group_ig_plutocratic_pol_str_mult = {
 	neutral = yes
 	percent = yes
 	num_decimals = 0
 }
 
-interest_group_ig_intelligentsia_pol_str_mult = {
+interest_group_ig_rationalist_pol_str_mult = {
 	neutral = yes
 	percent = yes
 	num_decimals = 0
 }
 
-interest_group_ig_landowners_pol_str_mult = {
+interest_group_ig_elitist_pol_str_mult = {
 	neutral = yes
 	percent = yes
 	num_decimals = 0
 }
 
-interest_group_ig_petty_bourgeoisie_pol_str_mult = {
+interest_group_ig_market_liberal_pol_str_mult = {
 	neutral = yes
 	percent = yes
 	num_decimals = 0
 }
 
-interest_group_ig_rural_folk_pol_str_mult = {
+interest_group_ig_agrarian_pol_str_mult = {
 	neutral = yes
 	percent = yes
 	num_decimals = 0
 }
 
-interest_group_ig_trade_unions_pol_str_mult = {
+interest_group_ig_egalitarian_pol_str_mult = {
 	neutral = yes
 	percent = yes
 	num_decimals = 0
@@ -347,90 +347,90 @@ interest_group_pol_str_factor = {
 	num_decimals = 0
 }
 
-interest_group_ig_armed_forces_approval_add = {
+interest_group_ig_expansionist_approval_add = {
 	good = yes
 	percent = no
 	num_decimals = 0
 }
 
-interest_group_ig_devout_approval_add = {
+interest_group_ig_theocratic_approval_add = {
 	good = yes
 	percent = no
 }
 
-interest_group_ig_industrialists_approval_add = {
+interest_group_ig_plutocratic_approval_add = {
 	good = yes
 	percent = no
 }
 
-interest_group_ig_intelligentsia_approval_add = {
+interest_group_ig_rationalist_approval_add = {
 	good = yes
 	percent = no
 }
 
-interest_group_ig_landowners_approval_add = {
+interest_group_ig_elitist_approval_add = {
 	good = yes
 	percent = no
 }
 
-interest_group_ig_petty_bourgeoisie_approval_add = {
+interest_group_ig_market_liberal_approval_add = {
 	good = yes
 	percent = no
 }
 
-interest_group_ig_rural_folk_approval_add = {
+interest_group_ig_agrarian_approval_add = {
 	good = yes
 	percent = no
 }
 
-interest_group_ig_trade_unions_approval_add = {
+interest_group_ig_egalitarian_approval_add = {
 	good = yes
 	percent = no
 }
 
-interest_group_ig_armed_forces_pop_attraction_mult = {
+interest_group_ig_expansionist_pop_attraction_mult = {
 	neutral = yes
 	percent = yes
 	num_decimals = 0
 }
 
-interest_group_ig_devout_pop_attraction_mult = {
+interest_group_ig_theocratic_pop_attraction_mult = {
 	neutral = yes
 	percent = yes
 	num_decimals = 0
 }
 
-interest_group_ig_industrialists_pop_attraction_mult = {
+interest_group_ig_plutocratic_pop_attraction_mult = {
 	neutral = yes
 	percent = yes
 	num_decimals = 0
 }
 
-interest_group_ig_intelligentsia_pop_attraction_mult = {
+interest_group_ig_rationalist_pop_attraction_mult = {
 	neutral = yes
 	percent = yes
 	num_decimals = 0
 }
 
-interest_group_ig_landowners_pop_attraction_mult = {
+interest_group_ig_elitist_pop_attraction_mult = {
 	neutral = yes
 	percent = yes
 	num_decimals = 0
 }
 
-interest_group_ig_petty_bourgeoisie_pop_attraction_mult = {
+interest_group_ig_market_liberal_pop_attraction_mult = {
 	neutral = yes
 	percent = yes
 	num_decimals = 0
 }
 
-interest_group_ig_rural_folk_pop_attraction_mult = {
+interest_group_ig_agrarian_pop_attraction_mult = {
 	neutral = yes
 	percent = yes
 	num_decimals = 0
 }
 
-interest_group_ig_trade_unions_pop_attraction_mult = {
+interest_group_ig_egalitarian_pop_attraction_mult = {
 	neutral = yes
 	percent = yes
 	num_decimals = 0

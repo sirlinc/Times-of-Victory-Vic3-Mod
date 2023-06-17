@@ -3,6 +3,11 @@ GLOBAL = {
 	
 	every_country = {
 		limit = { NOT = { has_law = law_type:law_slavery_banned } }
-		ig:ig_landowners = { add_ideology = ideology_pro_slavery }
+		ig:ig_elitist = { add_ideology = ideology_pro_slavery }
+		ig:ig_expansionist = { add_ideology = ideology_pro_slavery }
+		ig:ig_paternalistic = { add_ideology = ideology_pro_slavery }
+		ig:ig_patriarchal = { add_ideology = ideology_pro_slavery }
+		ig:ig_plutocratic = { add_ideology = ideology_pro_slavery }
+		ig:ig_republican = { add_ideology = ideology_pro_slavery }
 	}
 }

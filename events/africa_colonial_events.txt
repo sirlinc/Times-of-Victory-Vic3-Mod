@@ -170,7 +170,7 @@ africa_colonial_events.4 = {
 				months = normal_modifier_time
 			}
 		}
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			add_modifier = {
 				name = approved_mission
 				months = normal_modifier_time
@@ -197,7 +197,7 @@ africa_colonial_events.4 = {
 		name = africa_colonial_events.4.b
 		default_option = yes
 
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			add_modifier = {
 				name = rejected_mission
 				months = normal_modifier_time
@@ -389,7 +389,7 @@ africa_colonial_events.6 = {
 			}
 		}
 
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			add_modifier = {
 				name = curtailed_colonial_labor_abuses
 				months = normal_modifier_time

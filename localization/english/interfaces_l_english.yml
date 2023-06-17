@@ -2808,8 +2808,6 @@
  SEA_INFRASTRUCTURE_MAP_MARKER_TOOLTIP:0 "#header [StateRegion.GetName] [concept_market_access]#!\n[StateRegion.GetSeaInfrastructureDesc(GetPlayer)]"
  STATE_INFRASTRUCTURE_MAP_MARKER_TOOLTIP:2 "#header [State.GetName] [concept_market_access]#!\n[State.GetMarketAccessDesc]"
 
- ERROR_DEER_TOOLTIP:0 "#header Oh Deer!#!\n#instruction Left-Click#! to open Error Log\n#instruction Right-Click#! to make it go away (until you upset it again)"
-
  TRADE_LENS:1 "[concept_trade_lens]"
  PRODUCTION_LENS:1 "[concept_production_lens]"
  POLITICAL_LENS:1 "[concept_political_lens]"

@@ -9,7 +9,7 @@ FRA_louis_philippe = {
 	ruler = yes
 	birth_date = 1773.10.6
 	dna = dna_king_louis_philippe_01
-	interest_group = ig_industrialists
+	interest_group = ig_plutocratic
 	ideology = ideology_orleanist
 	traits = {
 		basic_political_operator
@@ -34,7 +34,7 @@ FRA_ferdinand_philippe = {
 	historical = yes
 	heir = yes
 	birth_date = 1810.9.3
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	ideology = ideology_orleanist
 	traits = {
 		popular_commander
@@ -50,7 +50,7 @@ FRA_victor_de_broglie = {
 	historical = yes
 	birth_date = 1785.11.28
 	ig_leader = yes
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	ideology = ideology_orleanist
 	traits = {
 		experienced_political_operator
@@ -64,7 +64,7 @@ FRA_adolphe_thiers = {
 	historical = yes
 	birth_date = 1797.4.15
 	ig_leader = yes
-	interest_group = ig_intelligentsia
+	interest_group = ig_rationalist
 	ideology = ideology_reformer
 	traits = {
 		experienced_political_operator
@@ -78,7 +78,7 @@ FRA_jacques_lafitte = {
 	historical = yes
 	birth_date = 1767.10.24
 	ig_leader = yes
-	interest_group = ig_industrialists
+	interest_group = ig_plutocratic
 	ideology = ideology_reformer
 	traits = {
 		basic_political_operator
@@ -92,7 +92,7 @@ FRA_jean-francois_mocquard = {
 	historical = yes
 	birth_date = 1791.11.11
 	ig_leader = yes
-	interest_group = ig_petty_bourgeoisie
+	interest_group = ig_market_liberal
 	ideology = ideology_bonapartist
 	traits = {
 		experienced_diplomat
@@ -106,7 +106,7 @@ FRA_francois-rene_de_chateaubriand = {
 	historical = yes
 	birth_date = 1768.9.4
 	ig_leader = yes
-	interest_group = ig_devout
+	interest_group = ig_theocratic
 	ideology = ideology_legitimist
 	traits = {
 		romantic
@@ -121,7 +121,7 @@ FRA_jean-de-dieu_soult = {
 	historical = yes
 	birth_date = 1769.3.29
 	ig_leader = yes
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	ideology = ideology_moderate
 	traits = {
 		experienced_defensive_strategist
@@ -136,7 +136,7 @@ FRA_mathieu_de_la_drome = {
 	historical = yes
 	birth_date = 1808.6.4
 	ig_leader = yes
-	interest_group = ig_rural_folk
+	interest_group = ig_agrarian
 	ideology = ideology_radical
 	traits = {
 		basic_political_operator
@@ -150,7 +150,7 @@ FRA_charles_fourier = {
 	historical = yes
 	birth_date = 1772.4.7
 	ig_leader = yes
-	interest_group = ig_trade_unions
+	interest_group = ig_egalitarian
 	ideology = ideology_radical
 	traits = {
 		basic_political_operator
@@ -167,7 +167,7 @@ FRA_thomas_bugeaud = {
 	last_name = Bugeaud
 	historical = yes
 	birth_date = 1784.10.15
-	interest_group = ig_rural_folk
+	interest_group = ig_agrarian
 	ideology = ideology_orleanist
 	traits = {
 		resupply_commander
@@ -182,7 +182,7 @@ FRA_bertrand_clauzel = {
 	last_name = Clauzel
 	historical = yes
 	birth_date = 1772.12.12
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	ideology = ideology_traditionalist
 	traits = {
 		basic_offensive_planner
@@ -196,7 +196,7 @@ FRA_guy-victor_duperre = {
 	last_name = Duperre
 	historical = yes
 	birth_date = 1775.2.20
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	ideology = ideology_moderate
 	traits = {
 		experienced_naval_commander
@@ -210,7 +210,7 @@ FRA_charles_baudin = {
 	last_name = Baudin
 	historical = yes
 	birth_date = 1784.7.21
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	ideology = ideology_moderate
 	traits = {
 		experienced_naval_commander
@@ -225,7 +225,7 @@ FRA_honore-charles_reille = {
 	last_name = Reille
 	historical = yes
 	birth_date = 1775.9.1
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	ideology = ideology_moderate
 	traits = {
 		brave
@@ -239,7 +239,7 @@ FRA_guillaume_dode_de_la_brunerie = {
 	last_name = Dode_de_la_Brunerie
 	historical = yes
 	birth_date = 1775.4.30
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	ideology = ideology_reformer
 	traits = {
 		innovative

@@ -1,8 +1,8 @@
 ﻿congo_river_expedition = {
 	is_shown = {		
 		NOT = { has_variable = on_expedition }		
-		has_technology_researched = colonization
-		NOT = { has_global_variable = research_departments }
+		has_technology_researched = research_departments
+		NOT = { has_global_variable = congo_river_explored }
 		OR = {
 			is_ai = no
 			NOT = { has_variable = ai_expedition_cooldown }

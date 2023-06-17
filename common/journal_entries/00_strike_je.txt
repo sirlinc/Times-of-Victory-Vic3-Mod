@@ -4,17 +4,17 @@
 	is_shown_when_inactive = {
 		has_technology_researched = human_rights
 		NOT = { has_law = law_type:law_council_republic }
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			is_marginal = no
 			ig_clout >= 0.1
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			is_marginal = no
 		}
 	}
 
 	possible = {
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			is_in_government = no
 			ig_approval < 0
 		}

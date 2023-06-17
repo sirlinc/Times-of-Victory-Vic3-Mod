@@ -200,11 +200,7 @@ social_democrat_party = {
 		default = "/gfx/interface/icons/political_parties/social_democrats.dds"
 	}
 	unlocking_technologies = {
-<<<<<<< Updated upstream
 		socialism
-=======
-		labor_movement
->>>>>>> Stashed changes
 	}
 	# THIS IS RUN ONLY ONCE AT GAME START
 	valid_for_country = {
@@ -212,11 +208,7 @@ social_democrat_party = {
 	}
 	available_for_interest_group = {
 		owner = {
-<<<<<<< Updated upstream
 			country_has_voting_franchise = yes
-=======
-			#country_has_voting_franchise = yes
->>>>>>> Stashed changes
 			OR = {
 				any_interest_group = {
 					is_marginal = no
@@ -224,14 +216,14 @@ social_democrat_party = {
 						has_ideology = ideology:ideology_social_democrat
 					}
 				}
-				ig:ig_trade_unions = {
+				ig:ig_egalitarian = {
 					is_marginal = no
 				}
 			}
 		}
 		NOT = { # these ig's are inherently anti-worker
-			is_interest_group_type = ig_landowners
-			is_interest_group_type = ig_industrialists
+			is_interest_group_type = ig_elitist
+			is_interest_group_type = ig_plutocratic
 		}
 		leader = { # fascists and conservatives hate social democracy
 			NOT = {
@@ -387,7 +379,7 @@ social_democrat_party = {
 		}
 		if = { # generic powerful trade unions party
 			limit = {
-				is_interest_group_type = ig_trade_unions
+				is_interest_group_type = ig_egalitarian
 				is_powerful = yes
 				leader = {
 					NOR = {
@@ -609,7 +601,7 @@ social_democrat_party = {
 		}
 		if = {
 			limit = {
-				is_interest_group_type = ig_trade_unions
+				is_interest_group_type = ig_egalitarian
 				is_powerful = yes
 			}
 			multiply = {

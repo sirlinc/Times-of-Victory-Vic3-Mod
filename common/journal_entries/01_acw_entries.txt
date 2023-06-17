@@ -29,7 +29,7 @@
 				any_country = {
 					is_revolutionary = yes
 					country_definition = root.country_definition
-					ig:ig_landowners = {
+					ig:ig_elitist = {
 						is_in_government = yes
 					}
 				}
@@ -37,7 +37,7 @@
 			# FSA
 			custom_tooltip = {
 				text = acw_antislaver_revolt
-				ig:ig_landowners = {
+				ig:ig_elitist = {
 					is_in_government = yes
 				}
 				NOT = { has_law = law_type:law_slavery_banned }
@@ -56,7 +56,7 @@
 				any_country = {
 					is_revolutionary = yes
 					country_definition = root.country_definition
-					ig:ig_landowners = {
+					ig:ig_elitist = {
 						is_in_government = yes
 					}
 				}

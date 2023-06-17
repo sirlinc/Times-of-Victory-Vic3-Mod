@@ -5,12 +5,7 @@
 	ideologies = { ideology_patriotic }
 
 	enable = {
-		trigger_if = {
-			#limit = { 
-			#	has_variable = discovered_rationalism
-			#}
-			has_technology_researched = national_mythos 
-		}
+			always = yes
 	}
 	
 	traits = {}	
@@ -57,9 +52,9 @@
 			if = {
 				limit = {
 					OR = {
-						pop_employment_building = building_war_machine_industry
-						pop_employment_building = building_arms_industry
-						pop_employment_building = building_munition_plants
+						pop_employment_building = building_automotive_firms
+						pop_employment_building = building_arsenal
+						pop_employment_building = building_munitions_plants
 						AND = {
 							pop_employment_building = building_shipyards
 							workplace = {
@@ -225,6 +220,19 @@
 				add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
 				min = 0
 			}
+		}
+		multiply = {
+			desc = "NO_THE_NATION_STATE"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						NOT = { has_technology_researched = the_nation_state }
+					}
+				}
+				value = 0
+			}		
 		}
 	}
 

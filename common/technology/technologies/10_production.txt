@@ -848,7 +848,7 @@ chemical_solvents = {
 
 pest_control = {
 	era = era_7
-	texture = "gfx/interface/icons/invention_icons/military_statistics.dds"
+	texture = "gfx/interface/icons/invention_icons/quinine.dds"
 	category = production
 	
 	unlocking_technologies = {
@@ -862,7 +862,7 @@ pest_control = {
 
 breed_registries = {
 	era = era_7
-	texture = "gfx/interface/icons/invention_icons/quinine.dds"
+	texture = "gfx/interface/icons/invention_icons/military_statistics.dds"
 	category = production
 	
 	unlocking_technologies = {

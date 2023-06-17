@@ -44,7 +44,7 @@ scotland_yard.1 = {
 		capital = {
 			save_scope_as = capital_scope
 		}
-		law_type:law_dedicated_police = {
+		law_type:law_regulated_police_force = {
 			save_scope_as = police_law
 		}
 	}

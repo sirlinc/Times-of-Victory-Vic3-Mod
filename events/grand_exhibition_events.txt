@@ -127,10 +127,10 @@ exhibition_events.4 = { #The Exhibition caused controversy as its opening approa
 
 	trigger = {
 		OR = {
-			ig:ig_devout = {
+			ig:ig_theocratic = {
 				is_marginal = no
 			}
-			ig:ig_landowners = {
+			ig:ig_elitist = {
 				is_marginal = no
 			}
 		}
@@ -140,16 +140,16 @@ exhibition_events.4 = { #The Exhibition caused controversy as its opening approa
 	immediate = {
 		if = {
 			limit = {
-				ig:ig_landowners = {
+				ig:ig_elitist = {
 					is_marginal = no
 				}
 			}
-			ig:ig_landowners = {
+			ig:ig_elitist = {
 				save_scope_as = conservative_ig
 			}
 		}
 		else = {
-			ig:ig_devout = {
+			ig:ig_theocratic = {
 				save_scope_as = conservative_ig
 			}
 		}
@@ -202,7 +202,7 @@ exhibition_events.5 = { #toilets event!
 
 	trigger = {
 		has_technology_researched = sanitation
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			is_marginal = no
 		}
 		any_country = {
@@ -217,7 +217,7 @@ exhibition_events.5 = { #toilets event!
 	}
 
 	immediate = {
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			save_scope_as = anti_toilet_ig
 		}
 		random_country = {

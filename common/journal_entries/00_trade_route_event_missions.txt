@@ -8,7 +8,7 @@
 	}
 
 	on_complete = {
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = ig_domestic_weapons_manufacturing
 				months = short_modifier_time
@@ -18,7 +18,7 @@
 
 
 	on_timeout = {
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = ig_unreliable_weapon_imports
 				months = short_modifier_time
@@ -85,7 +85,7 @@ je_set_up_steel_import = {
 	}
 
 	on_complete = {
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			add_modifier = {
 				name = ig_secured_desired_imports
 				months = normal_modifier_time
@@ -95,7 +95,7 @@ je_set_up_steel_import = {
 
 
 	on_timeout = {
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			add_modifier = {
 				name = ig_refused_desired_imports
 				months = normal_modifier_time
@@ -124,7 +124,7 @@ je_set_up_paper_import = {
 	}
 
 	on_complete = {
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = ig_secured_desired_imports
 				months = normal_modifier_time
@@ -134,7 +134,7 @@ je_set_up_paper_import = {
 
 
 	on_timeout = {
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = ig_refused_desired_imports
 				months = normal_modifier_time

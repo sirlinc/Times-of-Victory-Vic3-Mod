@@ -158,7 +158,7 @@ has_industrialized_pm = {
 		}
 		# Ironworks
 		is_production_method_active = {
-			building_type = pm_puddling_process
+			building_type = building_ironworks
 			production_method = pm_rotary_valve_engine
 		}
 		is_production_method_active = {
@@ -547,7 +547,7 @@ is_heavy_industry_building = {
 		is_building_type = building_synthetics_plants
 		is_building_type = building_alloy_smelters
 		is_building_type = building_automotive_firms
-		is_building_type = building_engineering_firmsry
+		is_building_type = building_engineering_firms
 		is_building_type = building_oil_refineries
 		is_building_type = building_munitions_plants
 		is_building_type = building_power_plant
@@ -980,8 +980,8 @@ law_can_hurt_minorities = {
 		is_enacting_law = law_type:law_religious_zealotry
 		is_enacting_law = law_type:law_secret_police
 		is_enacting_law = law_type:law_serfdom
-		is_enacting_law = law_type:law_no_migration_controls
-		is_enacting_law = law_type:law_migration_controls
+		is_enacting_law = law_type:law_freedom_of_movement
+		is_enacting_law = law_type:law_heavy_migration_controls
 		is_enacting_law = law_type:law_closed_borders
 		is_enacting_law = law_type:law_child_labor_expected
 		is_enacting_law = law_type:law_no_social_security
@@ -1619,11 +1619,11 @@ government_ig_ambivalent_enaction = {
 }
 ig_is_dreyfusard = {
 	OR = {
-		is_interest_group_type = ig_intelligentsia
-		is_interest_group_type = ig_trade_unions
-		is_interest_group_type = ig_petty_bourgeoisie
-		is_interest_group_type = ig_rural_folk
-		is_interest_group_type = ig_industrialists
+		is_interest_group_type = ig_rationalist
+		is_interest_group_type = ig_egalitarian
+		is_interest_group_type = ig_market_liberal
+		is_interest_group_type = ig_agrarian
+		is_interest_group_type = ig_plutocratic
 	}
 	OR = {
 		leader = {
@@ -1664,12 +1664,12 @@ ig_is_dreyfusard = {
 
 ig_is_anti_dreyfusard = {
 	OR = {
-		is_interest_group_type = ig_armed_forces
-		is_interest_group_type = ig_landowners
-		is_interest_group_type = ig_rural_folk
-		is_interest_group_type = ig_petty_bourgeoisie
-		is_interest_group_type = ig_devout
-		is_interest_group_type = ig_industrialists
+		is_interest_group_type = ig_expansionist
+		is_interest_group_type = ig_elitist
+		is_interest_group_type = ig_agrarian
+		is_interest_group_type = ig_market_liberal
+		is_interest_group_type = ig_theocratic
+		is_interest_group_type = ig_plutocratic
 	}
 	OR = {
 		leader = {
@@ -1714,51 +1714,51 @@ ig_type_matches_former = { #Temporary Workaround
 		text = ig_type_matches_former_tt
 		OR = {
 			AND = {
-				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_expansionist
 				scope:ex_ig = {
-					is_interest_group_type = ig_armed_forces
+					is_interest_group_type = ig_expansionist
 				}
 			}
 			AND = {
-				is_interest_group_type = ig_devout
+				is_interest_group_type = ig_theocratic
 				scope:ex_ig = {
-					is_interest_group_type = ig_devout
+					is_interest_group_type = ig_theocratic
 				}
 			}
 			AND = {
-				is_interest_group_type = ig_industrialists
+				is_interest_group_type = ig_plutocratic
 				scope:ex_ig = {
-					is_interest_group_type = ig_industrialists
+					is_interest_group_type = ig_plutocratic
 				}
 			}
 			AND = {
-				is_interest_group_type = ig_intelligentsia
+				is_interest_group_type = ig_rationalist
 				scope:ex_ig = {
-					is_interest_group_type = ig_intelligentsia
+					is_interest_group_type = ig_rationalist
 				}
 			}
 			AND = {
-				is_interest_group_type = ig_landowners
+				is_interest_group_type = ig_elitist
 				scope:ex_ig = {
-					is_interest_group_type = ig_landowners
+					is_interest_group_type = ig_elitist
 				}
 			}
 			AND = {
-				is_interest_group_type = ig_petty_bourgeoisie
+				is_interest_group_type = ig_market_liberal
 				scope:ex_ig = {
-					is_interest_group_type = ig_petty_bourgeoisie
+					is_interest_group_type = ig_market_liberal
 				}
 			}
 			AND = {
-				is_interest_group_type = ig_rural_folk
+				is_interest_group_type = ig_agrarian
 				scope:ex_ig = {
-					is_interest_group_type = ig_rural_folk
+					is_interest_group_type = ig_agrarian
 				}
 			}
 			AND = {
-				is_interest_group_type = ig_trade_unions
+				is_interest_group_type = ig_egalitarian
 				scope:ex_ig = {
-					is_interest_group_type = ig_trade_unions
+					is_interest_group_type = ig_egalitarian
 				}
 			}
 		}
@@ -1833,11 +1833,11 @@ can_have_radical_leader = { # interest_group scope
 		}
 	}
 	OR = {
-		is_interest_group_type = ig_rural_folk
-		is_interest_group_type = ig_intelligentsia
-		is_interest_group_type = ig_trade_unions
-		is_interest_group_type = ig_petty_bourgeoisie
-		is_interest_group_type = ig_industrialists
+		is_interest_group_type = ig_agrarian
+		is_interest_group_type = ig_rationalist
+		is_interest_group_type = ig_egalitarian
+		is_interest_group_type = ig_market_liberal
+		is_interest_group_type = ig_plutocratic
 	}
 }
 

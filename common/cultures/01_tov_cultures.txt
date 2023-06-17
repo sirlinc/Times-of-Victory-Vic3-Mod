@@ -4,26 +4,26 @@
 	traits = { indigenous_american_heritage north_american_group }
 	male_common_first_names={
 		piachiti
-		inkinishit’iti
+		inkinishititi
 		wetsita
-		shikapu’t’iti
-		sha’ta
+		shikaputiti
+		shata
 		kitsaiish
 		tahbakumshia
 		washish
 		nichagaiyu
-		nvhi’
-		k’akitsaiyet
-		ba’tshush
-		hina’kahdi
-		banusha’a
+		nvhi
+		kakitsaiyet
+		batshush
+		hinakahdi
+		banushaa
 		gandigudid
-		dj'ankaiyudid
+		djankaiyudid
 		maika
 		binsin
 		nibaihi
 		sho-e-tat
-		nishkû'ntu
+		nishkuntu
 		dehahuit
 	}
 	female_common_first_names = {
@@ -286,7 +286,7 @@ penutian={
 		lakisamni
 		tachi
 		wowa
-		síako
+		siako
 		quitiquit
 		chukchansi
 		chochenyo
@@ -310,7 +310,7 @@ penutian={
 		lakisamni
 		tachi
 		wowa
-		síako
+		siako
 		quitiquit
 		chukchansi
 		chochenyo
@@ -341,14 +341,14 @@ tanoan={
 		teh-toot-sah
 		to-ho-sa
 		ankímä
-		dánpä
+		danpa
 		zepko-ete
-		a'dáte
+		a'date
 		gui-kati
 		adoeette
 		satanta
 		appiatan
-		set-ängyä
+		set-angya
 		settainte
 	}
 	female_common_first_names = {
@@ -362,7 +362,7 @@ tanoan={
 	}
 	noble_last_names = {
 		to-kinah-yup
-		sálqáhyói
+		salqahyoi
 		gwa-kelega
 		kaigwa
 		kogui
@@ -375,7 +375,7 @@ tanoan={
 	}
 	common_last_names={
 		to-kinah-yup
-		sálqáhyói
+		salqahyoi
 		gwa-kelega
 		kaigwa
 		kogui
@@ -1230,6 +1230,7 @@ nyungar={
 	graphics = generic
 }
 
+#to set religion tikanga
 maori={
 	color= hsv{ 0.74 0.32 0.63 }
 	religion = tikanga
@@ -1279,4 +1280,86 @@ maori={
 		1 = polynesian
 	}
 	graphics = generic
+}
+
+#to change obsession from opium to tea
+han={
+	color= rgb{ 190 80 48 }
+	religion = mahayana
+	traits = { sinosphere han_chinese east_asian_heritage }
+	obsessions = {
+		tea
+	}
+	male_common_first_names={
+		Chen
+		Cheng
+		Deng
+		Dong
+		Gao
+		Hsia
+		Hu
+		Huang
+		Kong
+		Kwong
+		Li
+		Liang
+		Liao
+		Liu
+		Luo
+		Ma
+		Mao
+		Pan
+		Tan
+		Wang
+		Xie
+		Yang
+		Yu
+		Zhang
+		Zhu
+	}
+	female_common_first_names = {
+		Akew
+		Jin
+		Jinhong
+		Junying
+		Qingtang
+		Sanniang
+		Shanziang
+		Shih
+		Taiqing
+		Xiefen
+		Xiugu
+		Xuanjiao
+		Yu
+		Yunmei
+	}	
+	noble_last_names = {
+		Cui
+		Li
+		Nie
+		Zhang
+	}
+	common_last_names={
+		Dong
+		Fang
+		Hu
+		Jiang
+		Jin
+		Lu
+		Ma
+		Peng
+		Qiu
+		Shen
+		Sun
+		Tian
+		Ting
+		Wei
+		Wu
+		Ye
+		Zhao
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
 }

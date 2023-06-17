@@ -1,14 +1,4 @@
 ﻿l_english:
-<<<<<<< Updated upstream
-=======
-  
-  # Leader Ideologies
- ideology_moderate:0 "Moderate"
- ideology_moderate_desc:0 "#lore This Influential politician is considered a moderate in their Ideology.#!"
- 
- ideology_traditionalist:0 "Traditionalist"
- ideology_traditionalist_desc:0 "#lore This leader believes in maintaining traditional customs, viewing them as an extension of natural laws. #!"
->>>>>>> Stashed changes
 
 #administrative_infrastructure
 lawgroup_administrative_infrastructure: "Administrative Infrastructure"

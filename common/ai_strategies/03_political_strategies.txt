@@ -29,11 +29,16 @@
 	}		
 	
 	pro_interest_groups = {
-		ig_rural_folk
-		ig_devout
-		ig_landowners
-		ig_armed_forces
-		ig_petty_bourgeoisie
+		ig_agrarian
+		ig_elitist
+		ig_isolationist
+		ig_moralist
+		ig_nationalist
+		ig_paternalist
+		ig_patriarchal
+		ig_slaver
+		ig_protectionist
+		ig_theocratic
 	}
 	
 	institution_scores = {
@@ -73,7 +78,8 @@
 				ruler = {
 					OR = {
 						has_ideology = ideology:ideology_traditionalist
-						has_monarchist_ideology = yes
+						has_monarchist_ideol
+						ogy = yes
 					}
 				}
 			}
@@ -114,14 +120,29 @@ ai_strategy_reactionary_agenda = {
 	type = political
 	
 	pro_interest_groups = {
-		ig_devout
-		ig_landowners
+		ig_agrarian
+		ig_elitist
+		ig_isolationist
+		ig_moralist
+		ig_nationalist
+		ig_paternalist
+		ig_patriarchal
+		ig_slaver
+		ig_protectionist
+		ig_theocratic
 	}
 	
 	anti_interest_groups = {
-		ig_intelligentsia
-		ig_trade_unions
-		ig_industrialists
+		ig_abolitionist
+		ig_anarchist
+		ig_classical_radicalist
+		ig_egalitarian
+		ig_feminist
+		ig_individualist
+		ig_market_liberal
+		ig_meritocratic
+		ig_pacifist
+		ig_rationalist
 	}
 	
 	institution_scores = {
@@ -153,9 +174,16 @@ ai_strategy_reactionary_agenda = {
 		ruler = {
 			interest_group = { 
 				NOR = {
-					is_interest_group_type = ig_intelligentsia
-					is_interest_group_type = ig_trade_unions
-					is_interest_group_type = ig_industrialists
+					is_interest_group_type = ig_abolitionist
+					is_interest_group_type = ig_anarchist
+					is_interest_group_type = ig_classical_radicalist
+					is_interest_group_type = ig_egalitarian
+					is_interest_group_type = ig_feminist
+					is_interest_group_type = ig_individualist
+					is_interest_group_type = ig_market_liberal
+					is_interest_group_type = ig_meritocratic
+					is_interest_group_type = ig_pacifist
+					is_interest_group_type = ig_rationalist
 				}
 			}
 			OR = {
@@ -166,12 +194,12 @@ ai_strategy_reactionary_agenda = {
 		}
 		OR = {
 			AND = {
-				exists = ig:ig_landowners
-				ig:ig_landowners = { is_marginal = no }		
+				exists = ig:ig_elitist
+				ig:ig_elitist = { is_marginal = no }		
 			}
 			AND = {			
-				exists = ig:ig_devout
-				ig:ig_devout = { is_marginal = no }
+				exists = ig:ig_theocratic
+				ig:ig_theocratic = { is_marginal = no }
 			}
 		}			
 	}
@@ -181,8 +209,8 @@ ai_strategy_reactionary_agenda = {
 		
 		if = {
 			limit = {
-				exists = ig:ig_landowners
-				ig:ig_landowners = { is_powerful = yes }
+				exists = ig:ig_elitist
+				ig:ig_elitist = { is_powerful = yes }
 			}
 			
 			add = 10
@@ -190,8 +218,8 @@ ai_strategy_reactionary_agenda = {
 		
 		if = {
 			limit = {
-				exists = ig:ig_devout
-				ig:ig_devout = { is_powerful = yes }
+				exists = ig:ig_theocratic
+				ig:ig_theocratic = { is_powerful = yes }
 			}
 			
 			add = 10
@@ -201,8 +229,8 @@ ai_strategy_reactionary_agenda = {
 			limit = {
 				has_modifier = forced_regime_change
 				OR = {
-					ig:ig_devout ?= { is_in_government = yes }
-					ig:ig_landowners ?= { is_in_government = yes }
+					ig:ig_theocratic ?= { is_in_government = yes }
+					ig:ig_elitist ?= { is_in_government = yes }
 				}				
 			}
 			
@@ -242,8 +270,15 @@ ai_strategy_progressive_agenda = {
 	}	
 	
 	pro_interest_groups = {
-		ig_intelligentsia
-		ig_industrialists
+		ig_abolitionist
+		ig_classical_radicalist
+		ig_egalitarian
+		ig_feminist
+		ig_individualist
+		ig_market_liberal
+		ig_meritocratic
+		ig_pacifist
+		ig_rationalist
 	}
 
 	institution_scores = {
@@ -273,12 +308,12 @@ ai_strategy_progressive_agenda = {
 	possible = {
 		OR = {
 			AND = {
-				exists = ig:ig_intelligentsia
-				ig:ig_intelligentsia = { is_marginal = no }
+				exists = ig:ig_rationalist
+				ig:ig_rationalist = { is_marginal = no }
 			}
 			AND = {			
-				exists = ig:ig_industrialists
-				ig:ig_industrialists = { is_marginal = no }
+				exists = ig:ig_plutocratic
+				ig:ig_plutocratic = { is_marginal = no }
 			}
 		}	
 	}
@@ -316,8 +351,8 @@ ai_strategy_progressive_agenda = {
 				
 		if = {
 			limit = {
-				exists = ig:ig_intelligentsia
-				ig:ig_intelligentsia = { is_powerful = yes }
+				exists = ig:ig_rationalist
+				ig:ig_rationalist = { is_powerful = yes }
 			}
 			
 			add = 10
@@ -325,8 +360,8 @@ ai_strategy_progressive_agenda = {
 		
 		if = {
 			limit = {
-				exists = ig:ig_industrialists
-				ig:ig_industrialists = { is_powerful = yes }
+				exists = ig:ig_plutocratic
+				ig:ig_plutocratic = { is_powerful = yes }
 			}
 			
 			add = 10
@@ -350,8 +385,8 @@ ai_strategy_progressive_agenda = {
 			limit = {
 				has_modifier = forced_regime_change
 				OR = {
-					ig:ig_industrialists ?= { is_in_government = yes }
-					ig:ig_intelligentsia ?= { is_in_government = yes }
+					ig:ig_plutocratic ?= { is_in_government = yes }
+					ig:ig_rationalist ?= { is_in_government = yes }
 				}				
 			}
 			
@@ -391,13 +426,29 @@ ai_strategy_egalitarian_agenda = {
 	}	
 	
 	pro_interest_groups = {
-		ig_trade_unions
+		ig_abolitionist
+		ig_anarchist
+		ig_classical_radicalist
+		ig_egalitarian
+		ig_feminist
+		ig_individualist
+		ig_meritocratic
+		ig_pacifist
+		ig_rationalist
+		ig_agrarian
+		ig_protectionist
 	}
 	
 	anti_interest_groups = {
-		ig_landowners
-		ig_industrialists
-		ig_petty_bourgeoisie
+		ig_market_liberal
+		ig_elitist
+		ig_isolationist
+		ig_moralist
+		ig_nationalist
+		ig_paternalist
+		ig_patriarchal
+		ig_slaver
+		ig_theocratic
 	}
 	
 	institution_scores = {
@@ -426,8 +477,8 @@ ai_strategy_egalitarian_agenda = {
 
 	possible = {
 		has_technology_researched = egalitarianism
-		exists = ig:ig_trade_unions
-		ig:ig_trade_unions = { is_marginal = no }
+		exists = ig:ig_egalitarian
+		ig:ig_egalitarian = { is_marginal = no }
 	}
 	
 	weight = {
@@ -467,8 +518,8 @@ ai_strategy_egalitarian_agenda = {
 		
 		if = {
 			limit = {
-				exists = ig:ig_trade_unions
-				ig:ig_trade_unions = { is_powerful = yes }
+				exists = ig:ig_egalitarian
+				ig:ig_egalitarian = { is_powerful = yes }
 			}
 			
 			add = 10
@@ -477,7 +528,7 @@ ai_strategy_egalitarian_agenda = {
 		if = {
 			limit = {
 				has_modifier = forced_regime_change
-				ig:ig_trade_unions ?= { is_in_government = yes }			
+				ig:ig_egalitarian ?= { is_in_government = yes }			
 			}
 			
 			add = 1000
@@ -516,13 +567,20 @@ ai_strategy_nationalist_agenda = {
 	}	
 	
 	pro_interest_groups = {
-		ig_armed_forces
-		ig_petty_bourgeoisie
+		ig_elitist
+		ig_protectionist
+		ig_moralist
+		ig_nationalist
+		ig_paternalist
+		ig_patriarchal
+		ig_theocratic
 	}
 	
 	anti_interest_groups = {
-		ig_rural_folk
-		ig_trade_unions
+		ig_anarchist
+		ig_individualist
+		ig_pacifist
+		ig_isolationist
 	}
 	
 	institution_scores = {
@@ -553,12 +611,12 @@ ai_strategy_nationalist_agenda = {
 		has_technology_researched = the_nation_state
 		OR = {
 			AND = {
-				exists = ig:ig_armed_forces
-				ig:ig_armed_forces = { is_marginal = no }
+				exists = ig:ig_expansionist
+				ig:ig_expansionist = { is_marginal = no }
 			}
 			AND = {			
-				exists = ig:ig_petty_bourgeoisie
-				ig:ig_petty_bourgeoisie = { is_marginal = no }
+				exists = ig:ig_market_liberal
+				ig:ig_market_liberal = { is_marginal = no }
 			}
 		}			
 	}
@@ -583,8 +641,8 @@ ai_strategy_nationalist_agenda = {
 		
 		if = {
 			limit = {
-				exists = ig:ig_armed_forces
-				ig:ig_armed_forces = { is_powerful = yes }
+				exists = ig:ig_expansionist
+				ig:ig_expansionist = { is_powerful = yes }
 			}
 			
 			add = 10
@@ -592,8 +650,8 @@ ai_strategy_nationalist_agenda = {
 		
 		if = {
 			limit = {
-				exists = ig:ig_petty_bourgeoisie
-				ig:ig_petty_bourgeoisie = { is_powerful = yes }
+				exists = ig:ig_market_liberal
+				ig:ig_market_liberal = { is_powerful = yes }
 			}
 			
 			add = 10
@@ -603,8 +661,8 @@ ai_strategy_nationalist_agenda = {
 			limit = {
 				has_modifier = forced_regime_change
 				OR = {
-					ig:ig_petty_bourgeoisie ?= { is_in_government = yes }
-					ig:ig_armed_forces ?= { is_in_government = yes }
+					ig:ig_market_liberal ?= { is_in_government = yes }
+					ig:ig_expansionist ?= { is_in_government = yes }
 				}				
 			}
 			
@@ -639,14 +697,23 @@ ai_strategy_maintain_mandate_of_heaven = {
 	}	
 
 	pro_interest_groups = {
-		ig_landowners
-		ig_armed_forces
+		ig_elitist
+		ig_moralist
+		ig_isolationist
+		ig_pacifist
+		ig_agrarian
+		ig_paternalist
 	}
 	
 	anti_interest_groups ={
-		ig_industrialists
-		ig_trade_unions
-		ig_intelligentsia
+		ig_plutocratic
+		ig_egalitarian
+		ig_rationalist
+		ig_expansionist
+		ig_republican
+		ig_classical_radicalist
+		ig_individualist
+		ig_anarchist
 	}
 	
 	institution_scores = {

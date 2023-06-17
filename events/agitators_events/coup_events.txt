@@ -1124,8 +1124,8 @@ coup.3 = {
 				has_law = law_type:law_outlawed_dissent
 				has_law = law_type:law_secret_police
 				has_law = law_type:law_national_guard
-				has_law = law_type:law_dedicated_police
-				has_law = law_type:law_militarized_police
+				has_law = law_type:law_regulated_police_force
+				has_law = law_type:law_paramilitary_force
 			}
 		}
 		create_character = {
@@ -1778,10 +1778,10 @@ coup_pulse_events.4 = {
 		}
 		scope:coup_ig = {
 			NOT = {
-				is_interest_group_type = ig_industrialists
+				is_interest_group_type = ig_plutocratic
 			}
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			is_marginal = no
 		}
 	}
@@ -1790,7 +1790,7 @@ coup_pulse_events.4 = {
 		capital = {
 			save_scope_as = investor_affected_state
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			save_scope_as = investor_ig
 		}
 	}
@@ -1842,7 +1842,7 @@ coup_pulse_events.4 = {
 				}
 			}
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			add_modifier = {
 				name = modifier_economic_uncertainty
 				months = normal_modifier_time
@@ -2307,7 +2307,7 @@ coup_pulse_events.10 = {
 				save_scope_as = barracks_theft_building
 			}
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			save_scope_as = armed_forces_ig
 		}
 	}
@@ -2362,7 +2362,7 @@ coup_pulse_events.11 = {
 
 	trigger = {
 		scope:coup_ig = {
-			is_interest_group_type = ig_armed_forces
+			is_interest_group_type = ig_expansionist
 		}
 		any_scope_state = {
 			ig_state_pol_strength_share = {
@@ -2442,7 +2442,7 @@ coup_pulse_events.11 = {
 		every_interest_group = {
 			limit = {
 				NOT = {
-					is_interest_group_type = ig_armed_forces
+					is_interest_group_type = ig_expansionist
 				}
 				is_in_government = yes
 			}
@@ -2483,7 +2483,7 @@ coup_pulse_events.12 = {
 
 	trigger = {
 		scope:coup_ig = {
-			is_interest_group_type = ig_devout
+			is_interest_group_type = ig_theocratic
 		}
 		any_scope_state = {
 			ig_state_pol_strength_share = {
@@ -2557,7 +2557,7 @@ coup_pulse_events.12 = {
 		every_interest_group = {
 			limit = {
 				NOT = {
-					is_interest_group_type = ig_devout
+					is_interest_group_type = ig_theocratic
 				}
 				is_in_government = yes
 			}
@@ -2598,7 +2598,7 @@ coup_pulse_events.13 = {
 
 	trigger = {
 		scope:coup_ig = {
-			is_interest_group_type = ig_industrialists
+			is_interest_group_type = ig_plutocratic
 		}
 		any_scope_state = {
 			ig_state_pol_strength_share = {
@@ -2671,7 +2671,7 @@ coup_pulse_events.13 = {
 		every_interest_group = {
 			limit = {
 				NOT = {
-					is_interest_group_type = ig_industrialists
+					is_interest_group_type = ig_plutocratic
 				}
 				is_in_government = yes
 			}
@@ -2712,7 +2712,7 @@ coup_pulse_events.14 = {
 
 	trigger = {
 		scope:coup_ig = {
-			is_interest_group_type = ig_landowners
+			is_interest_group_type = ig_elitist
 		}
 		any_scope_state = {
 			ig_state_pol_strength_share = {
@@ -2786,7 +2786,7 @@ coup_pulse_events.14 = {
 		every_interest_group = {
 			limit = {
 				NOT = {
-					is_interest_group_type = ig_landowners
+					is_interest_group_type = ig_elitist
 				}
 				is_in_government = yes
 			}
@@ -2828,7 +2828,7 @@ coup_pulse_events.15 = {
 
 	trigger = {
 		scope:coup_ig = {
-			is_interest_group_type = ig_petty_bourgeoisie
+			is_interest_group_type = ig_market_liberal
 		}
 		any_scope_state = {
 			ig_state_pol_strength_share = {
@@ -2905,7 +2905,7 @@ coup_pulse_events.15 = {
 		every_interest_group = {
 			limit = {
 				NOT = {
-					is_interest_group_type = ig_petty_bourgeoisie
+					is_interest_group_type = ig_market_liberal
 				}
 				is_in_government = yes
 			}
@@ -2946,7 +2946,7 @@ coup_pulse_events.16 = {
 
 	trigger = {
 		scope:coup_ig = {
-			is_interest_group_type = ig_intelligentsia
+			is_interest_group_type = ig_rationalist
 		}
 		any_scope_state = {
 			ig_state_pol_strength_share = {
@@ -3024,7 +3024,7 @@ coup_pulse_events.16 = {
 		every_interest_group = {
 			limit = {
 				NOT = {
-					is_interest_group_type = ig_intelligentsia
+					is_interest_group_type = ig_rationalist
 				}
 				is_in_government = yes
 			}
@@ -3065,7 +3065,7 @@ coup_pulse_events.17 = {
 
 	trigger = {
 		scope:coup_ig = {
-			is_interest_group_type = ig_trade_unions
+			is_interest_group_type = ig_egalitarian
 		}
 		any_scope_state = {
 			ig_state_pol_strength_share = {
@@ -3142,7 +3142,7 @@ coup_pulse_events.17 = {
 		every_interest_group = {
 			limit = {
 				NOT = {
-					is_interest_group_type = ig_trade_unions
+					is_interest_group_type = ig_egalitarian
 				}
 				is_in_government = yes
 			}
@@ -3183,7 +3183,7 @@ coup_pulse_events.18 = {
 
 	trigger = {
 		scope:coup_ig = {
-			is_interest_group_type = ig_rural_folk
+			is_interest_group_type = ig_agrarian
 		}
 		any_scope_state = {
 			ig_state_pol_strength_share = {
@@ -3263,7 +3263,7 @@ coup_pulse_events.18 = {
 		every_interest_group = {
 			limit = {
 				NOT = {
-					is_interest_group_type = ig_rural_folk
+					is_interest_group_type = ig_agrarian
 				}
 				is_in_government = yes
 			}
@@ -3613,7 +3613,7 @@ coup_aftermath_events.4 = {
 
 	trigger = {
 		has_variable = government_couped
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			law_stance = {
 				law = scope:coup_desired_law.type
 				value < neutral
@@ -3627,7 +3627,7 @@ coup_aftermath_events.4 = {
 	}
 
 	immediate = {
-		ig:ig_intelligentsia = { 
+		ig:ig_rationalist = { 
 			save_scope_as = intelligentsia_ig
 		}
 		random_scope_character = {
@@ -3670,7 +3670,7 @@ coup_aftermath_events.4 = {
 	}
 	option = { 
 		name = coup_aftermath_events.4.b
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = modifier_emboldened_academia
 				months = normal_modifier_time

@@ -662,7 +662,7 @@ suffragist_events.7 = {
 
 	trigger = {
 		NOT = { has_variable = suffrage_cooldown }
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			any_scope_character = {
 				OR = {
 					has_role = politician
@@ -695,7 +695,7 @@ suffragist_events.7 = {
 			name = suffrage_cooldown
 			months = short_modifier_time
 		}
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			random_scope_character = {
 				limit = {
 					OR = {
@@ -731,7 +731,7 @@ suffragist_events.7 = {
 			}
 		}
 
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = treatise_banned
 				months = normal_modifier_time
@@ -744,16 +744,16 @@ suffragist_events.7 = {
 
 		trigger = {
 			NAND = {
-				ig:ig_rural_folk = {
+				ig:ig_agrarian = {
 					leader = { has_ideology = ideology:ideology_feminist }
 				}
-				ig:ig_trade_unions = {
+				ig:ig_egalitarian = {
 					leader = { has_ideology = ideology:ideology_feminist }
 				}
-				ig:ig_petty_bourgeoisie = {
+				ig:ig_market_liberal = {
 					leader = { has_ideology = ideology:ideology_feminist }
 				}
-				ig:ig_industrialists = {
+				ig:ig_plutocratic = {
 					leader = { has_ideology = ideology:ideology_feminist }
 				}
 			}
@@ -764,53 +764,53 @@ suffragist_events.7 = {
 				modifier = {
 					if = {
 						limit = {
-							ig:ig_rural_folk = {
+							ig:ig_agrarian = {
 								leader = { has_ideology = ideology:ideology_feminist }
 							}
 						}
 						add = -1
 					}
 				}
-				ig:ig_rural_folk = { leader = { set_ideology = ideology:ideology_feminist } }
+				ig:ig_agrarian = { leader = { set_ideology = ideology:ideology_feminist } }
 			}
 			1 = {
 				modifier = {
 					if = {
 						limit = {
-							ig:ig_trade_unions = {
+							ig:ig_egalitarian = {
 								leader = { has_ideology = ideology:ideology_feminist }
 							}
 						}
 						add = -1
 					}
 				}
-				ig:ig_trade_unions = { leader = { set_ideology = ideology:ideology_feminist } }
+				ig:ig_egalitarian = { leader = { set_ideology = ideology:ideology_feminist } }
 			}
 			1 = {
 				modifier = {
 					if = {
 						limit = {
-							ig:ig_petty_bourgeoisie = {
+							ig:ig_market_liberal = {
 								leader = { has_ideology = ideology:ideology_feminist }
 							}
 						}
 						add = -1
 					}
 				}
-				ig:ig_petty_bourgeoisie = { leader = { set_ideology = ideology:ideology_feminist } }
+				ig:ig_market_liberal = { leader = { set_ideology = ideology:ideology_feminist } }
 			}
 			1 = {
 				modifier = {
 					if = {
 						limit = {
-							ig:ig_industrialists = {
+							ig:ig_plutocratic = {
 								leader = { has_ideology = ideology:ideology_feminist }
 							}
 						}
 						add = -1
 					}
 				}
-				ig:ig_industrialists = { leader = { set_ideology = ideology:ideology_feminist } }
+				ig:ig_plutocratic = { leader = { set_ideology = ideology:ideology_feminist } }
 			}
 		}
 	}
@@ -847,11 +847,11 @@ suffragist_events.8 = {
 		}
 		any_interest_group = {
 			OR = {
-				is_interest_group_type = ig_rural_folk
-				is_interest_group_type = ig_intelligentsia
-				is_interest_group_type = ig_trade_unions
-				is_interest_group_type = ig_petty_bourgeoisie
-				is_interest_group_type = ig_industrialists
+				is_interest_group_type = ig_agrarian
+				is_interest_group_type = ig_rationalist
+				is_interest_group_type = ig_egalitarian
+				is_interest_group_type = ig_market_liberal
+				is_interest_group_type = ig_plutocratic
 			}
 			NOR = {
 				leader = { has_ideology = ideology:ideology_reformer }
@@ -874,66 +874,66 @@ suffragist_events.8 = {
 				modifier = {
 					if = {
 						limit = {
-							ig:ig_rural_folk = {
+							ig:ig_agrarian = {
 								leader = { has_ideology = ideology:ideology_feminist }
 							}
 						}
 						add = -1
 					}
 				}
-				ig:ig_rural_folk = { leader = { set_ideology = ideology:ideology_feminist } }
+				ig:ig_agrarian = { leader = { set_ideology = ideology:ideology_feminist } }
 			}
 			1 = {
 				modifier = {
 					if = {
 						limit = {
-							ig:ig_trade_unions = {
+							ig:ig_egalitarian = {
 								leader = { has_ideology = ideology:ideology_feminist }
 							}
 						}
 						add = -1
 					}
 				}
-				ig:ig_trade_unions = { leader = { set_ideology = ideology:ideology_feminist } }
+				ig:ig_egalitarian = { leader = { set_ideology = ideology:ideology_feminist } }
 			}
 			1 = {
 				modifier = {
 					if = {
 						limit = {
-							ig:ig_petty_bourgeoisie = {
+							ig:ig_market_liberal = {
 								leader = { has_ideology = ideology:ideology_feminist }
 							}
 						}
 						add = -1
 					}
 				}
-				ig:ig_petty_bourgeoisie = { leader = { set_ideology = ideology:ideology_feminist } }
+				ig:ig_market_liberal = { leader = { set_ideology = ideology:ideology_feminist } }
 			}
 			1 = {
 				modifier = {
 					if = {
 						limit = {
-							ig:ig_industrialists = {
+							ig:ig_plutocratic = {
 								leader = { has_ideology = ideology:ideology_feminist }
 							}
 						}
 						add = -1
 					}
 				}
-				ig:ig_industrialists = { leader = { set_ideology = ideology:ideology_feminist } }
+				ig:ig_plutocratic = { leader = { set_ideology = ideology:ideology_feminist } }
 			}
 			1 = {
 				modifier = {
 					if = {
 						limit = {
-							ig:ig_intelligentsia = {
+							ig:ig_rationalist = {
 								leader = { has_ideology = ideology:ideology_feminist }
 							}
 						}
 						add = -1
 					}
 				}
-				ig:ig_intelligentsia = { leader = { set_ideology = ideology:ideology_feminist } }
+				ig:ig_rationalist = { leader = { set_ideology = ideology:ideology_feminist } }
 			}
 		}
 	}
@@ -947,66 +947,66 @@ suffragist_events.8 = {
 				modifier = {
 					if = {
 						limit = {
-							ig:ig_rural_folk = {
+							ig:ig_agrarian = {
 								leader = { has_ideology = ideology:ideology_reformer }
 							}
 						}
 						add = -1
 					}
 				}
-				ig:ig_rural_folk = { leader = { set_ideology = ideology:ideology_reformer } }
+				ig:ig_agrarian = { leader = { set_ideology = ideology:ideology_reformer } }
 			}
 			1 = {
 				modifier = {
 					if = {
 						limit = {
-							ig:ig_trade_unions = {
+							ig:ig_egalitarian = {
 								leader = { has_ideology = ideology:ideology_reformer }
 							}
 						}
 						add = -1
 					}
 				}
-				ig:ig_trade_unions = { leader = { set_ideology = ideology:ideology_reformer } }
+				ig:ig_egalitarian = { leader = { set_ideology = ideology:ideology_reformer } }
 			}
 			1 = {
 				modifier = {
 					if = {
 						limit = {
-							ig:ig_petty_bourgeoisie = {
+							ig:ig_market_liberal = {
 								leader = { has_ideology = ideology:ideology_reformer }
 							}
 						}
 						add = -1
 					}
 				}
-				ig:ig_petty_bourgeoisie = { leader = { set_ideology = ideology:ideology_reformer } }
+				ig:ig_market_liberal = { leader = { set_ideology = ideology:ideology_reformer } }
 			}
 			1 = {
 				modifier = {
 					if = {
 						limit = {
-							ig:ig_industrialists = {
+							ig:ig_plutocratic = {
 								leader = { has_ideology = ideology:ideology_reformer }
 							}
 						}
 						add = -1
 					}
 				}
-				ig:ig_industrialists = { leader = { set_ideology = ideology:ideology_reformer } }
+				ig:ig_plutocratic = { leader = { set_ideology = ideology:ideology_reformer } }
 			}
 			1 = {
 				modifier = {
 					if = {
 						limit = {
-							ig:ig_intelligentsia = {
+							ig:ig_rationalist = {
 								leader = { has_ideology = ideology:ideology_reformer }
 							}
 						}
 						add = -1
 					}
 				}
-				ig:ig_intelligentsia = { leader = { set_ideology = ideology:ideology_reformer } }
+				ig:ig_rationalist = { leader = { set_ideology = ideology:ideology_reformer } }
 			}
 		}
 	}
@@ -1036,11 +1036,11 @@ suffragist_events.9 = {
 			limit = {
 				any_interest_group = {
 					OR = {
-						is_interest_group_type = ig_rural_folk
-						is_interest_group_type = ig_intelligentsia
-						is_interest_group_type = ig_trade_unions
-						is_interest_group_type = ig_petty_bourgeoisie
-						is_interest_group_type = ig_industrialists
+						is_interest_group_type = ig_agrarian
+						is_interest_group_type = ig_rationalist
+						is_interest_group_type = ig_egalitarian
+						is_interest_group_type = ig_market_liberal
+						is_interest_group_type = ig_plutocratic
 					}
 					is_marginal = no
 					NOT = {
@@ -1051,11 +1051,11 @@ suffragist_events.9 = {
 			random_interest_group = {
 				limit = {
 					OR = {
-						is_interest_group_type = ig_rural_folk
-						is_interest_group_type = ig_intelligentsia
-						is_interest_group_type = ig_trade_unions
-						is_interest_group_type = ig_petty_bourgeoisie
-						is_interest_group_type = ig_industrialists
+						is_interest_group_type = ig_agrarian
+						is_interest_group_type = ig_rationalist
+						is_interest_group_type = ig_egalitarian
+						is_interest_group_type = ig_market_liberal
+						is_interest_group_type = ig_plutocratic
 					}
 					OR = {
 						is_marginal = no
@@ -1100,11 +1100,11 @@ suffragist_events.9 = {
 				limit = {
 					any_interest_group = {
 						OR = {
-							is_interest_group_type = ig_rural_folk
-							is_interest_group_type = ig_intelligentsia
-							is_interest_group_type = ig_trade_unions
-							is_interest_group_type = ig_petty_bourgeoisie
-							is_interest_group_type = ig_industrialists
+							is_interest_group_type = ig_agrarian
+							is_interest_group_type = ig_rationalist
+							is_interest_group_type = ig_egalitarian
+							is_interest_group_type = ig_market_liberal
+							is_interest_group_type = ig_plutocratic
 						}
 						is_marginal = no
 						NOT = {
@@ -1134,11 +1134,11 @@ suffragist_events.9 = {
 				any_interest_group = {
 					is_in_government = yes
 					OR = {
-						is_interest_group_type = ig_rural_folk
-						is_interest_group_type = ig_intelligentsia
-						is_interest_group_type = ig_trade_unions
-						is_interest_group_type = ig_petty_bourgeoisie
-						is_interest_group_type = ig_industrialists
+						is_interest_group_type = ig_agrarian
+						is_interest_group_type = ig_rationalist
+						is_interest_group_type = ig_egalitarian
+						is_interest_group_type = ig_market_liberal
+						is_interest_group_type = ig_plutocratic
 					}
 					NOT = {
 						leader = { has_ideology = ideology:ideology_feminist }
@@ -1149,11 +1149,11 @@ suffragist_events.9 = {
 				limit = {
 					is_in_government = yes
 					OR = {
-						is_interest_group_type = ig_rural_folk
-						is_interest_group_type = ig_intelligentsia
-						is_interest_group_type = ig_trade_unions
-						is_interest_group_type = ig_petty_bourgeoisie
-						is_interest_group_type = ig_industrialists
+						is_interest_group_type = ig_agrarian
+						is_interest_group_type = ig_rationalist
+						is_interest_group_type = ig_egalitarian
+						is_interest_group_type = ig_market_liberal
+						is_interest_group_type = ig_plutocratic
 					}
 					NOT = {
 						leader = { has_ideology = ideology:ideology_feminist }
@@ -1172,11 +1172,11 @@ suffragist_events.9 = {
 				limit = {
 					any_interest_group = {
 						OR = {
-							is_interest_group_type = ig_rural_folk
-							is_interest_group_type = ig_intelligentsia
-							is_interest_group_type = ig_trade_unions
-							is_interest_group_type = ig_petty_bourgeoisie
-							is_interest_group_type = ig_industrialists
+							is_interest_group_type = ig_agrarian
+							is_interest_group_type = ig_rationalist
+							is_interest_group_type = ig_egalitarian
+							is_interest_group_type = ig_market_liberal
+							is_interest_group_type = ig_plutocratic
 						}
 						is_marginal = no
 						NOT = {
@@ -1226,9 +1226,9 @@ suffragist_events.10 = {
 	option = {
 		name = suffragist_events.10.a
 		trigger = {
-			ig:ig_trade_unions = { is_in_government = yes }
+			ig:ig_egalitarian = { is_in_government = yes }
 		}
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			add_ideology = ideology_feminist_ig
 		}
 	}
@@ -1236,9 +1236,9 @@ suffragist_events.10 = {
 	option = {
 		name = suffragist_events.10.b
 		trigger = {
-			ig:ig_intelligentsia = { is_in_government = yes }
+			ig:ig_rationalist = { is_in_government = yes }
 		}
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_ideology = ideology_feminist_ig
 		}
 	}
@@ -1287,11 +1287,11 @@ suffragist_events.10 = {
 			random_interest_group = {
 				limit = {
 					OR = {
-						is_interest_group_type = ig_rural_folk
-						is_interest_group_type = ig_intelligentsia
-						is_interest_group_type = ig_trade_unions
-						is_interest_group_type = ig_petty_bourgeoisie
-						is_interest_group_type = ig_industrialists
+						is_interest_group_type = ig_agrarian
+						is_interest_group_type = ig_rationalist
+						is_interest_group_type = ig_egalitarian
+						is_interest_group_type = ig_market_liberal
+						is_interest_group_type = ig_plutocratic
 					}
 					NOT = {
 						leader = { has_ideology = ideology:ideology_feminist }

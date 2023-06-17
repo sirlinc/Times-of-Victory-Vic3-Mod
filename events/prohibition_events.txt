@@ -26,10 +26,10 @@ prohibition.1 = { #start the JE
 			has_distillery = yes
 		}
 		NOR = {
-			ig:ig_devout = {
+			ig:ig_theocratic = {
 				has_modifier = rejected_prohibition_modifier
 			}
-			ig:ig_intelligentsia = {
+			ig:ig_rationalist = {
 				has_modifier = rejected_prohibition_modifier
 			}
 		}
@@ -43,10 +43,10 @@ prohibition.1 = { #start the JE
 			}
 			save_scope_as = temperance_state
 		}
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			save_scope_as = devout_ig
 		}
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			save_scope_as = intelligentsia_ig
 		}
 	}
@@ -71,7 +71,7 @@ prohibition.1 = { #start the JE
 			base = 50
 			modifier = {
 				trigger = {
-					ig:ig_devout = {
+					ig:ig_theocratic = {
 						ig_approval < -5
 					}
 				}
@@ -79,7 +79,7 @@ prohibition.1 = { #start the JE
 			}
 			modifier = {
 				trigger = {
-					ig:ig_intelligentsia = {
+					ig:ig_rationalist = {
 						ig_approval < -5
 					}
 				}
@@ -87,13 +87,13 @@ prohibition.1 = { #start the JE
 			}
 		}
 		custom_tooltip = rejected_prohibition_tt
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			add_modifier = {
 				name = rejected_prohibition_modifier
 				months = normal_modifier_time
 			}
 		}
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = rejected_prohibition_modifier
 				months = normal_modifier_time
@@ -244,7 +244,7 @@ prohibition.3 = { #Industrialists dont like losing money
 	cooldown = { months = normal_modifier_time }
 	
 	trigger = {
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			OR = {
 				is_powerful = yes
 				is_in_government = yes 
@@ -267,7 +267,7 @@ prohibition.3 = { #Industrialists dont like losing money
 			}
 			save_scope_as = temperance_state
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			save_scope_as = industrialists_ig
 			leader = {
 				save_scope_as = industrialist_leader
@@ -279,7 +279,7 @@ prohibition.3 = { #Industrialists dont like losing money
 		name = prohibition.3.a
 		default_option = yes
 		custom_tooltip = prohibition_laws_weak_pm.tt
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			add_modifier = {
 				name = industrialists_rejected_modifier #approval
 				months = normal_modifier_time
@@ -478,13 +478,13 @@ prohibition.5 = { #people are using subsistence farms to make liquor
 			}
 		}
 		OR = {
-			ig:ig_industrialists = {
+			ig:ig_plutocratic = {
 				OR = {
 					is_powerful = yes
 					is_in_government = yes
 				}
 			}
-			ig:ig_landowners = {
+			ig:ig_elitist = {
 				OR = {
 					is_powerful = yes
 					is_in_government = yes
@@ -535,8 +535,8 @@ prohibition.5 = { #people are using subsistence farms to make liquor
 					is_in_government = yes
 				}
 				OR = {
-					is_interest_group_type = ig_industrialists
-					is_interest_group_type = ig_landowners
+					is_interest_group_type = ig_plutocratic
+					is_interest_group_type = ig_elitist
 				}
 			}
 			save_scope_as = alcoholic_ig
@@ -611,7 +611,7 @@ prohibition.6 = { #Teetotalism
 			}
 			NOT = { has_modifier = teetoliarism_modifier }
 		}
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			OR = {
 				is_powerful = yes
 				is_in_government = yes
@@ -645,7 +645,7 @@ prohibition.6 = { #Teetotalism
 				save_scope_as = wine_building
 			}
 		}
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			save_scope_as = devout_ig
 		}
 		random_scope_pop = {
@@ -678,7 +678,7 @@ prohibition.6 = { #Teetotalism
 
 	option = { #ignore them
 		name = prohibition.6.b
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			add_modifier = {
 				name = no_teetoliarism_modifier #approval
 				months = normal_modifier_time

@@ -83,7 +83,7 @@ trade_route_events.1 = {
 	option = {
 		name = trade_route_events.1.b
 		default_option = yes
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = ig_unreliable_weapon_imports
 				months = normal_modifier_time
@@ -285,8 +285,8 @@ trade_route_events.3 = {
 		any_interest_group = {
 			is_marginal = no
 			OR = {
-				is_interest_group_type = ig_devout
-				is_interest_group_type = ig_trade_unions
+				is_interest_group_type = ig_theocratic
+				is_interest_group_type = ig_egalitarian
 			}
 		}
 		capital.market = {
@@ -315,8 +315,8 @@ trade_route_events.3 = {
 			limit = {
 				is_marginal = no
 				OR = {
-					is_interest_group_type = ig_devout
-					is_interest_group_type = ig_trade_unions
+					is_interest_group_type = ig_theocratic
+					is_interest_group_type = ig_egalitarian
 				}
 			}
 			save_scope_as = angry_luxury_import_ig
@@ -362,7 +362,7 @@ trade_route_events.4 = {
 	duration = 3
 
 	trigger = {
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			is_marginal = no
 		}
 		capital.market = {
@@ -387,7 +387,7 @@ trade_route_events.4 = {
 	option = {
 		name = trade_route_events.4.b
 		default_option = yes
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			add_modifier = {
 				name = ig_refused_desired_imports
 				months = normal_modifier_time
@@ -415,7 +415,7 @@ trade_route_events.5 = {
 	duration = 3
 
 	trigger = {
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			is_marginal = no
 		}
 		capital.market = {
@@ -440,7 +440,7 @@ trade_route_events.5 = {
 	option = {
 		name = trade_route_events.5.b
 		default_option = yes
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = ig_refused_desired_imports
 				months = normal_modifier_time

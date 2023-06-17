@@ -141,7 +141,7 @@ law_events.5 = { #Landowners in state request you turn a blind eye to their work
 	duration = 3
 
 	trigger = {
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			is_marginal = no
 		}
 		OR = {
@@ -187,7 +187,7 @@ law_events.5 = { #Landowners in state request you turn a blind eye to their work
 
 	option = {
 		name = law_events.5.a
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			add_modifier = {
 					name = modifier_mine_regulations_not_enforced
 					months = normal_modifier_time
@@ -205,7 +205,7 @@ law_events.5 = { #Landowners in state request you turn a blind eye to their work
 	option = {
 		name = law_events.5.b
 		default_option = yes
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			add_modifier = {
 					name = modifier_mine_regulations_enforced
 					months = normal_modifier_time
@@ -238,7 +238,7 @@ law_events.6 = { #Intelligentsia disapprove of religious schools
 	duration = 3
 
 	trigger = {
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			is_marginal = no
 		}
 		NOT = { has_variable = intelligentsia_disapprove_religious_schools}
@@ -246,7 +246,7 @@ law_events.6 = { #Intelligentsia disapprove of religious schools
 	}
 
 	immediate = {
-		ig:ig_intelligentsia = { save_scope_as = intelligentsia_ig }
+		ig:ig_rationalist = { save_scope_as = intelligentsia_ig }
 		set_variable = {
 			name = intelligentsia_disapprove_religious_schools
 			months = normal_modifier_time
@@ -265,7 +265,7 @@ law_events.6 = { #Intelligentsia disapprove of religious schools
 		add_enactment_modifier = { #law takes more time to pass
 			name = religious_schools_bad_modifier
 		}
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = modifier_religious_schools_abolished_intelligentsia
 				months = normal_modifier_time
@@ -279,7 +279,7 @@ law_events.6 = { #Intelligentsia disapprove of religious schools
 		add_enactment_modifier = { #you get some success thing
 			name = religious_schools_good_modifier
 		}
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = modifier_ignored_intelligentsia_request
 				months = normal_modifier_time

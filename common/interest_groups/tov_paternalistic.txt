@@ -7,14 +7,8 @@
 	}
 
 	enable = {
-		trigger_if = {
-			#limit = { 
-			#	has_variable = discovered_rationalism
-			#}
-			has_technology_researched = absolutism 
-		}
+			always = yes
 	}
-	
 	traits = {}	
 	
 	on_enable = {}
@@ -187,6 +181,19 @@
 				add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
 				min = 0
 			}
+		}
+		multiply = {
+			desc = "NO_SOCIAL_CONTRACT_THEORY"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						NOT = { has_technology_researched = social_contract_theory }
+					}
+				}
+				value = 0
+			}		
 		}
 	}
 

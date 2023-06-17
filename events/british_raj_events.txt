@@ -301,7 +301,7 @@ raj.4 = {
 
 	option = {
 		name = raj.4.a
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = hindu_overseas_exemption
 				months = normal_modifier_time
@@ -418,7 +418,7 @@ raj.5 = {
 				months = long_modifier_time
 			}
 		}
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			add_modifier = {
 				name = promised_no_missionaries
 				months = normal_modifier_time
@@ -576,7 +576,7 @@ raj.6 = {
 				culture = cu:avadhi
 				is_general = yes
 				religion = sunni
-				interest_group = ig_armed_forces
+				interest_group = ig_expansionist
 				ideology = ideology_jingoist_leader
 				traits = { 
 					stalwart_defender 
@@ -600,7 +600,7 @@ raj.6 = {
 					culture = cu:avadhi
 					is_general = yes
 					religion = sunni
-					interest_group = ig_landowners
+					interest_group = ig_elitist
 					ideology = ideology_royalist
 					traits = { 
 						resupply_commander 
@@ -616,7 +616,7 @@ raj.6 = {
 					ruler = yes
 					religion = sunni
 					noble = yes
-					interest_group = ig_landowners
+					interest_group = ig_elitist
 					ideology = ideology_royalist
 					traits = { 
 						reserved 
@@ -633,7 +633,7 @@ raj.6 = {
 					heir = yes
 					religion = sunni
 					noble = yes
-					interest_group = ig_landowners
+					interest_group = ig_elitist
 					ideology = ideology_royalist
 					traits = {
 					}
@@ -659,7 +659,7 @@ raj.6 = {
 					culture = cu:avadhi
 					is_general = yes
 					religion = sunni
-					interest_group = ig_landowners
+					interest_group = ig_elitist
 					ideology = ideology_royalist
 					traits = { 
 						resupply_commander 
@@ -675,7 +675,7 @@ raj.6 = {
 					ruler = yes
 					religion = sunni
 					noble = yes
-					interest_group = ig_landowners
+					interest_group = ig_elitist
 					ideology = ideology_royalist
 					traits = { 
 						reserved 
@@ -692,7 +692,7 @@ raj.6 = {
 					heir = yes
 					religion = sunni
 					noble = yes
-					interest_group = ig_landowners
+					interest_group = ig_elitist
 					ideology = ideology_royalist
 					traits = { 
 					}

@@ -26,9 +26,9 @@ acw_events.1 = {
 		NOT = { has_variable = abolitionist_martydom }
 		any_interest_group = {
 			OR = { 
-				is_interest_group_type = ig_intelligentsia 
-				is_interest_group_type = ig_trade_unions
-				is_interest_group_type = ig_devout
+				is_interest_group_type = ig_rationalist 
+				is_interest_group_type = ig_egalitarian
+				is_interest_group_type = ig_theocratic
 			}			
         	is_marginal = no
         	leader = {
@@ -40,8 +40,8 @@ acw_events.1 = {
 		}
 		any_interest_group = {
 			NOR = { 
-				is_interest_group_type = ig_intelligentsia 
-				is_interest_group_type = ig_trade_unions
+				is_interest_group_type = ig_rationalist 
+				is_interest_group_type = ig_egalitarian
 			}
     		is_marginal = no
     		leader = {
@@ -66,9 +66,9 @@ acw_events.1 = {
         random_interest_group = {
         	limit = {
 				OR = { 
-					is_interest_group_type = ig_intelligentsia 
-					is_interest_group_type = ig_trade_unions
-					is_interest_group_type = ig_devout
+					is_interest_group_type = ig_rationalist 
+					is_interest_group_type = ig_egalitarian
+					is_interest_group_type = ig_theocratic
 				}
         		is_marginal = no
         		leader = {
@@ -89,8 +89,8 @@ acw_events.1 = {
         random_interest_group = {
         	limit = {
 				NOR = { 
-					is_interest_group_type = ig_intelligentsia 
-					is_interest_group_type = ig_trade_unions
+					is_interest_group_type = ig_rationalist 
+					is_interest_group_type = ig_egalitarian
 				}
         		is_marginal = no
         		leader = {
@@ -745,8 +745,8 @@ acw_events.8 = {
 			has_law = law_type:law_no_police
 			OR = {
 				is_enacting_law = law_type:law_local_police
-				is_enacting_law = law_type:law_dedicated_police
-				is_enacting_law = law_type:law_militarized_police
+				is_enacting_law = law_type:law_regulated_police_force
+				is_enacting_law = law_type:law_paramilitary_force
 			}
 		}
 		add_enactment_modifier = {

@@ -49,7 +49,7 @@ labor_rights.1 = {
 			}
 			save_scope_as = serf_state
 		}
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			save_scope_as = serf_mistreaters
 		}
 		currently_enacting_law = {
@@ -229,7 +229,7 @@ labor_rights.3 = {
 			is_enacting_law = law_type:law_regulatory_bodies
 			is_enacting_law = law_type:law_worker_protections
 		}
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			is_marginal = no
 		}
 		NOT = { has_modifier = government_buying_serfs }
@@ -238,7 +238,7 @@ labor_rights.3 = {
 	}
 
 	immediate = {
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			save_scope_as = serf_owners
 		}
 		currently_enacting_law = {
@@ -318,7 +318,7 @@ labor_rights.4 = {
 			}
 			is_enacting_law = law_type:law_worker_protections
 		}
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			is_marginal = no
 		}
 		NOT = { has_modifier = enactment_strikes_modifier }
@@ -329,7 +329,7 @@ labor_rights.4 = {
 		currently_enacting_law = {
 			save_scope_as = current_law_scope
 		}
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			save_scope_as = unions_scope
 		}
 	}
@@ -390,10 +390,10 @@ labor_rights.5 = {
 			}
 			is_enacting_law = law_type:law_worker_protections
 		}
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			is_marginal = no
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			is_marginal = no
 		}
 		NOT = { has_modifier = worker_protection_negotiations }
@@ -403,10 +403,10 @@ labor_rights.5 = {
 		currently_enacting_law = {
 			save_scope_as = current_law_scope
 		}
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			save_scope_as = unions_scope
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			save_scope_as = capitalists_scope
 		}
 	}
@@ -477,10 +477,10 @@ labor_rights.6 = {
 			}
 			is_enacting_law = law_type:law_worker_protections
 		}
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			is_marginal = no
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			is_marginal = no
 		}
 		NOT = { has_modifier = strikbreakers_enactment }
@@ -490,10 +490,10 @@ labor_rights.6 = {
 		currently_enacting_law = {
 			save_scope_as = current_law_scope
 		}
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			save_scope_as = unions_scope
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			save_scope_as = capitalists_scope
 		}
 	}

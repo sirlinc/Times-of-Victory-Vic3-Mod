@@ -5,7 +5,7 @@
 	culture = cu:russian
 	religion = rel:atheist
 	female = no
-	interest_group = ig_intelligentsia
+	interest_group = ig_rationalist
 	ideology = ideology_atheist
 	birth_date = 1840.10.14 # October 2nd in the Old Style calendar
 	dna = dna_pisarev
@@ -25,8 +25,8 @@
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_intelligentsia
-                is_interest_group_type = ig_trade_unions
+                is_interest_group_type = ig_rationalist
+                is_interest_group_type = ig_egalitarian
             } 
         }   
 		earliest_usage_date = 1858.1.1
@@ -42,7 +42,7 @@ agitator_nestor_makhno = {
 	culture = cu:ukrainian
 	religion = rel:atheist
 	female = no
-	interest_group = ig_rural_folk
+	interest_group = ig_agrarian
 	ideology = ideology_anarchist
 	birth_date = 1888.11.8 # October 27th in the Old Style calendar
 	dna = dna_mahno
@@ -62,8 +62,8 @@ agitator_nestor_makhno = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_trade_unions
-                is_interest_group_type = ig_rural_folk
+                is_interest_group_type = ig_egalitarian
+                is_interest_group_type = ig_agrarian
             } 
         }   
 		earliest_usage_date = 1910.1.1
@@ -79,7 +79,7 @@ agitator_pierre_joseph_proudhon = {
 	culture = cu:french
 	religion = rel:atheist
 	female = no
-	interest_group = ig_intelligentsia
+	interest_group = ig_rationalist
 	ideology = ideology_anarchist
 	birth_date = 1809.1.15
 	dna = dna_proudhon
@@ -96,8 +96,8 @@ agitator_pierre_joseph_proudhon = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_intelligentsia
-                is_interest_group_type = ig_trade_unions
+                is_interest_group_type = ig_rationalist
+                is_interest_group_type = ig_egalitarian
             } 
         }   
 		earliest_usage_date = 1840.6.30 # first publication of "What is to be Done?""
@@ -113,7 +113,7 @@ agitator_errico_malatesta = {
 	culture = cu:south_italian
 	religion = rel:atheist
 	female = no
-	interest_group = ig_trade_unions
+	interest_group = ig_egalitarian
 	ideology = ideology_anarchist
 	birth_date = 1853.12.4
 	dna = dna_malatesta
@@ -133,8 +133,8 @@ agitator_errico_malatesta = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_intelligentsia
-                is_interest_group_type = ig_trade_unions
+                is_interest_group_type = ig_rationalist
+                is_interest_group_type = ig_egalitarian
             } 
         }   
 		earliest_usage_date = 1872.9.15 # Malatesta met Bakunin at the Saint-Inier Congress
@@ -150,7 +150,7 @@ agitator_john_stuart_mill = {
 	culture = cu:british
 	religion = rel:protestant
 	female = no
-	interest_group = ig_intelligentsia
+	interest_group = ig_rationalist
 	ideology = ideology_reformer
 	birth_date = 1806.5.20
 	dna = dna_john_stuart_mill
@@ -169,7 +169,7 @@ agitator_john_stuart_mill = {
 		}
         interest_group_trigger = {
             is_marginal = no
-            is_interest_group_type = ig_intelligentsia
+            is_interest_group_type = ig_rationalist
         }   
 		earliest_usage_date = 1843.1.1 # Publication year of "A System of Logic"
 		latest_usage_date = 1865.1.1
@@ -184,7 +184,7 @@ agitator_henry_ford = {
 	culture = cu:yankee
 	religion = rel:protestant
 	female = no
-	interest_group = ig_industrialists
+	interest_group = ig_plutocratic
 	ideology = ideology_ethno_nationalist
 	birth_date = 1863.7.30
 	traits = {
@@ -203,7 +203,7 @@ agitator_henry_ford = {
 		}
         interest_group_trigger = {
             is_marginal = no
-            is_interest_group_type = ig_industrialists
+            is_interest_group_type = ig_plutocratic
         }   
 		earliest_usage_date = 1908.8.12 # first production Model T
 		latest_usage_date = 1935.12.31
@@ -218,7 +218,7 @@ agitator_louise_michel = {
 	culture = cu:french
 	religion = rel:catholic
 	female = yes
-	interest_group = ig_intelligentsia
+	interest_group = ig_rationalist
 	ideology = ideology_feminist
 	birth_date = 1830.5.29
 	dna = dna_louise_michel
@@ -235,8 +235,8 @@ agitator_louise_michel = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_intelligentsia
-                is_interest_group_type = ig_trade_unions
+                is_interest_group_type = ig_rationalist
+                is_interest_group_type = ig_egalitarian
             } 
         }   
 		earliest_usage_date = 1869.1.1
@@ -252,7 +252,7 @@ agitator_emiliano_zapata = {
 	culture = cu:mexican
 	religion = rel:catholic
 	female = no
-	interest_group = ig_rural_folk
+	interest_group = ig_agrarian
 	ideology = ideology_anarchist
 	birth_date = 1879.8.8
 	dna = dna_zapata
@@ -269,8 +269,8 @@ agitator_emiliano_zapata = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_trade_unions
-                is_interest_group_type = ig_rural_folk
+                is_interest_group_type = ig_egalitarian
+                is_interest_group_type = ig_agrarian
             } 
         }   
 		earliest_usage_date = 1909.1.1
@@ -286,7 +286,7 @@ agitator_ernst_rohm = {
 	culture = cu:south_german
 	religion = rel:caholic
 	female = no
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	ideology = ideology_fascist
 	dna = dna_rohm_ernst
 	birth_date = 1887.11.28
@@ -308,8 +308,8 @@ agitator_ernst_rohm = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_armed_forces
-                is_interest_group_type = ig_petty_bourgeoisie
+                is_interest_group_type = ig_expansionist
+                is_interest_group_type = ig_market_liberal
             } 
         }   
 		earliest_usage_date = 1917.1.1
@@ -325,7 +325,7 @@ agitator_frederick_douglass = {
 	culture = cu:afro_american
 	religion = rel:protestant
 	female = no
-	interest_group = ig_intelligentsia
+	interest_group = ig_rationalist
 	ideology = ideology_abolitionist
 	birth_date = 1817.2.14 # He was not entirely sure of his birthday or year, but remembered his mom called him "Little Valentine" so he settled for Valentine's Day
 	dna = dna_douglass
@@ -347,8 +347,8 @@ agitator_frederick_douglass = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_intelligentsia
-                is_interest_group_type = ig_rural_folk
+                is_interest_group_type = ig_rationalist
+                is_interest_group_type = ig_agrarian
             } 
         }   
 		earliest_usage_date = 1840.1.1
@@ -364,7 +364,7 @@ agitator_ahmed_urabi = {
 	culture = cu:misri
 	religion = rel:sunni
 	female = no
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	ideology = ideology_ethno_nationalist
 	birth_date = 1841.3.31
 	dna = dna_orabi_ahmed_pasha
@@ -380,7 +380,7 @@ agitator_ahmed_urabi = {
 		}
         interest_group_trigger = {
             is_marginal = no
-            is_interest_group_type = ig_armed_forces
+            is_interest_group_type = ig_expansionist
         }   
 		earliest_usage_date = 1876.3.9 # End of the Egyptian-Ethiopian War
 		latest_usage_date = 1901.5.1
@@ -395,7 +395,7 @@ agitator_eugene_debs = {
 	culture = cu:yankee
 	religion = rel:protestant
 	female = no
-	interest_group = ig_trade_unions
+	interest_group = ig_egalitarian
 	ideology = ideology_social_democrat
 	birth_date = 1855.11.5
 	dna = dna_debs_eugene
@@ -411,7 +411,7 @@ agitator_eugene_debs = {
 		}
         interest_group_trigger = {
             is_marginal = no
-            is_interest_group_type = ig_trade_unions
+            is_interest_group_type = ig_egalitarian
         }   
 		earliest_usage_date = 1893.6.20 # foundation of the American Railway Union
 		latest_usage_date = 1921.12.25
@@ -426,7 +426,7 @@ agitator_saigo_takamori = {
 	culture = cu:japanese
 	religion = rel:shinto
 	female = no
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	ideology = ideology_traditionalist
 	birth_date = 1828.1.23
 	traits = {
@@ -441,7 +441,7 @@ agitator_saigo_takamori = {
 		}
         interest_group_trigger = {
             is_marginal = no
-            is_interest_group_type = ig_landowners
+            is_interest_group_type = ig_elitist
         }   
 		earliest_usage_date = 1868.1.27
 		latest_usage_date = 1877.9.24
@@ -456,7 +456,7 @@ agitator_wichaichan = { # a.k.a. PRINCE GEORGE WASHINGTON
 	culture = cu:thai
 	religion = rel:theravada
 	female = no
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	ideology = ideology_traditionalist
 	birth_date = 1838.4.6
 	traits = {
@@ -471,7 +471,7 @@ agitator_wichaichan = { # a.k.a. PRINCE GEORGE WASHINGTON
 		}
         interest_group_trigger = {
             is_marginal = no
-            is_interest_group_type = ig_landowners
+            is_interest_group_type = ig_elitist
         }   
 		earliest_usage_date = 1868.8.2
 		latest_usage_date = 1885.8.28
@@ -486,7 +486,7 @@ agitator_enver_pasha = {
 	culture = cu:turkish
 	religion = rel:sunni
 	female = no
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	ideology = ideology_ethno_nationalist
 	birth_date = 1881.11.22
 	dna = dna_pasha_enver
@@ -502,7 +502,7 @@ agitator_enver_pasha = {
 		}
         interest_group_trigger = {
             is_marginal = no
-            is_interest_group_type = ig_armed_forces
+            is_interest_group_type = ig_expansionist
         }   
 		earliest_usage_date = 1906.1.1
 		latest_usage_date = 1922.8.4
@@ -514,7 +514,7 @@ agitator_enver_pasha = {
         }
         interest_group_trigger = {
             is_marginal = no
-            is_interest_group_type = ig_armed_forces
+            is_interest_group_type = ig_expansionist
         }
         earliest_usage_date = 1908.1.1
         latest_usage_date = 1936.1.1
@@ -529,7 +529,7 @@ agitator_alfred_hugenberg = {
 	culture = cu:north_german
 	religion = rel:protestant
 	female = no
-	interest_group = ig_petty_bourgeoisie
+	interest_group = ig_market_liberal
 	ideology = ideology_fascist
 	birth_date = 1865.6.19
 	dna = dna_hugenberg
@@ -549,7 +549,7 @@ agitator_alfred_hugenberg = {
 		}
         interest_group_trigger = {
             is_marginal = no
-            is_interest_group_type = ig_petty_bourgeoisie
+            is_interest_group_type = ig_market_liberal
         }   
 		earliest_usage_date = 1916.1.1
 		latest_usage_date = 1936.1.1
@@ -564,7 +564,7 @@ agitator_susan_b_anthony = {
 	culture = cu:yankee
 	religion = rel:protestant
 	female = yes
-	interest_group = ig_intelligentsia
+	interest_group = ig_rationalist
 	ideology = ideology_feminist
 	birth_date = 1820.2.15
 	dna = dna_susan_b_anthony
@@ -584,8 +584,8 @@ agitator_susan_b_anthony = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_intelligentsia
-                is_interest_group_type = ig_petty_bourgeoisie
+                is_interest_group_type = ig_rationalist
+                is_interest_group_type = ig_market_liberal
             } 
         }   
 		earliest_usage_date = 1851.1.1
@@ -601,7 +601,7 @@ agitator_giovanni_gentile = {
 	culture = cu:south_italian
 	religion = rel:catholic
 	female = no
-	interest_group = ig_petty_bourgeoisie
+	interest_group = ig_market_liberal
 	ideology = ideology_fascist
 	birth_date = 1875.5.30
 	dna = dna_giovanni_gentille
@@ -618,8 +618,8 @@ agitator_giovanni_gentile = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-	            is_interest_group_type = ig_petty_bourgeoisie
-	            is_interest_group_type = ig_intelligentsia
+	            is_interest_group_type = ig_market_liberal
+	            is_interest_group_type = ig_rationalist
 	        }
         }   
 		earliest_usage_date = 1922.1.1
@@ -635,7 +635,7 @@ agitator_lajos_kossuth = {
 	culture = cu:hungarian
 	religion = rel:protestant
 	female = no
-	interest_group = ig_petty_bourgeoisie
+	interest_group = ig_market_liberal
 	ideology = ideology_radical
 	birth_date = 1802.9.19
 	traits = {
@@ -656,7 +656,7 @@ agitator_lajos_kossuth = {
 		}
         interest_group_trigger = {
             is_marginal = no
-	        is_interest_group_type = ig_petty_bourgeoisie
+	        is_interest_group_type = ig_market_liberal
         }   
 		earliest_usage_date = 1836.1.1
 		latest_usage_date = 1867.5.29 # Compromise of 1867
@@ -671,7 +671,7 @@ agitator_ludwik_mieroslawski = {
 	culture = cu:polish
 	religion = rel:catholic
 	female = no
-	interest_group = ig_petty_bourgeoisie
+	interest_group = ig_market_liberal
 	ideology = ideology_radical
 	birth_date = 1814.1.17
 	traits = {
@@ -700,7 +700,7 @@ agitator_ludwik_mieroslawski = {
 		}
         interest_group_trigger = {
             is_marginal = no
-	        is_interest_group_type = ig_petty_bourgeoisie
+	        is_interest_group_type = ig_market_liberal
         }   
 		earliest_usage_date = 1836.1.1
 		latest_usage_date = 1871.1.28
@@ -715,7 +715,7 @@ agitator_william_smith_o_brien = {
 	culture = cu:irish
 	religion = rel:protestant
 	female = no
-	interest_group = ig_petty_bourgeoisie
+	interest_group = ig_market_liberal
 	ideology = ideology_radical
 	birth_date = 1803.10.17
 	traits = {
@@ -737,9 +737,9 @@ agitator_william_smith_o_brien = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-		        is_interest_group_type = ig_petty_bourgeoisie
-		        is_interest_group_type = ig_intelligentsia
-		        is_interest_group_type = ig_rural_folk
+		        is_interest_group_type = ig_market_liberal
+		        is_interest_group_type = ig_rationalist
+		        is_interest_group_type = ig_agrarian
 		    }
         }   
 		earliest_usage_date = 1836.1.1
@@ -755,7 +755,7 @@ agitator_francesco_crispi = {
 	culture = cu:south_italian
 	religion = rel:catholic
 	female = no
-	interest_group = ig_petty_bourgeoisie
+	interest_group = ig_market_liberal
 	ideology = ideology_radical
 	birth_date = 1818.10.4
 	dna = dna_francesco_crispi
@@ -775,9 +775,9 @@ agitator_francesco_crispi = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-		        is_interest_group_type = ig_petty_bourgeoisie
-		        is_interest_group_type = ig_intelligentsia
-		        is_interest_group_type = ig_rural_folk
+		        is_interest_group_type = ig_market_liberal
+		        is_interest_group_type = ig_rationalist
+		        is_interest_group_type = ig_agrarian
 		    }
         }   
 		earliest_usage_date = 1847.1.1
@@ -793,7 +793,7 @@ agitator_bjornstjerne_bjornson = {
 	culture = cu:norwegian
 	religion = rel:protestant
 	female = no
-	interest_group = ig_intelligentsia
+	interest_group = ig_rationalist
 	ideology = ideology_radical
 	birth_date = 1832.12.8
 	traits = {
@@ -812,8 +812,8 @@ agitator_bjornstjerne_bjornson = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-		        is_interest_group_type = ig_petty_bourgeoisie
-		        is_interest_group_type = ig_intelligentsia
+		        is_interest_group_type = ig_market_liberal
+		        is_interest_group_type = ig_rationalist
 		    }
         }   
 		earliest_usage_date = 1857.1.1
@@ -829,7 +829,7 @@ agitator_orla_lehmann = { # Peter Martin Orla Lehmann
 	culture = cu:danish
 	religion = rel:protestant
 	female = no
-	interest_group = ig_petty_bourgeoisie
+	interest_group = ig_market_liberal
 	ideology = ideology_radical
 	birth_date = 1810.5.19
 	traits = {
@@ -848,9 +848,9 @@ agitator_orla_lehmann = { # Peter Martin Orla Lehmann
         interest_group_trigger = {
             is_marginal = no
             OR = {
-		        is_interest_group_type = ig_petty_bourgeoisie
-		        is_interest_group_type = ig_intelligentsia
-		        is_interest_group_type = ig_rural_folk
+		        is_interest_group_type = ig_market_liberal
+		        is_interest_group_type = ig_rationalist
+		        is_interest_group_type = ig_agrarian
 		    }
         }   
 		earliest_usage_date = 1836.1.1
@@ -866,7 +866,7 @@ agitator_aleksei_aladin = { # Aleksei Feodorovich Aladin
 	culture = cu:russian
 	religion = rel:orthodox
 	female = no
-	interest_group = ig_rural_folk
+	interest_group = ig_agrarian
 	ideology = ideology_social_democrat
 	birth_date = 1873.3.15
 	traits = {
@@ -881,7 +881,7 @@ agitator_aleksei_aladin = { # Aleksei Feodorovich Aladin
 		}
         interest_group_trigger = {
             is_marginal = no
-		    is_interest_group_type = ig_rural_folk
+		    is_interest_group_type = ig_agrarian
         }   
 		earliest_usage_date = 1892.1.1
 		latest_usage_date = 1927.7.30
@@ -896,7 +896,7 @@ agitator_prince_sabahaddin = { # Prince Sabahaddin de Neuchâtel
 	culture = cu:turkish
 	religion = rel:sunni
 	female = no
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	ideology = ideology_reformer
 	birth_date = 1879.2.13
 	dna = dna_sabahaddin_prince
@@ -914,8 +914,8 @@ agitator_prince_sabahaddin = { # Prince Sabahaddin de Neuchâtel
         interest_group_trigger = {
             is_marginal = no
             OR = {
-			    is_interest_group_type = ig_intelligentsia
-			    is_interest_group_type = ig_landowners
+			    is_interest_group_type = ig_rationalist
+			    is_interest_group_type = ig_elitist
 			}
         }   
 		earliest_usage_date = 1899.1.1
@@ -931,7 +931,7 @@ agitator_francisco_madero = { # Francisco Ignacio Madero Gonzalez
 	culture = cu:mexican
 	religion = rel:catholic
 	female = no
-	interest_group = ig_petty_bourgeoisie
+	interest_group = ig_market_liberal
 	ideology = ideology_market_liberal
 	birth_date = 1873.10.30
 	dna = dna_francisco_madero
@@ -948,8 +948,8 @@ agitator_francisco_madero = { # Francisco Ignacio Madero Gonzalez
         interest_group_trigger = {
             is_marginal = no
             OR = {
-			    is_interest_group_type = ig_intelligentsia
-			    is_interest_group_type = ig_petty_bourgeoisie
+			    is_interest_group_type = ig_rationalist
+			    is_interest_group_type = ig_market_liberal
 			}
         }   
 		earliest_usage_date = 1903.1.1
@@ -965,7 +965,7 @@ agitator_gabriele_d_annunzio = { # Gabriele D'Annunzio
 	culture = cu:south_italian
 	religion = rel:catholic
 	female = no
-	interest_group = ig_petty_bourgeoisie
+	interest_group = ig_market_liberal
 	ideology = ideology_fascist
 	birth_date = 1863.3.12
 	dna = dna_gabriele_dannunzio
@@ -988,9 +988,9 @@ agitator_gabriele_d_annunzio = { # Gabriele D'Annunzio
         interest_group_trigger = {
             is_marginal = no
             OR = {
-			    is_interest_group_type = ig_landowners
-			    is_interest_group_type = ig_petty_bourgeoisie
-			    is_interest_group_type = ig_intelligentsia
+			    is_interest_group_type = ig_elitist
+			    is_interest_group_type = ig_market_liberal
+			    is_interest_group_type = ig_rationalist
 			}
         }   
 		earliest_usage_date = 1899.1.1
@@ -1006,7 +1006,7 @@ agitator_jean_jaures = { # Jean Jaurès
 	culture = cu:french
 	religion = rel:catholic
 	female = no
-	interest_group = ig_intelligentsia
+	interest_group = ig_rationalist
 	ideology = ideology_social_democrat
 	birth_date = 1859.9.3
 	traits = {
@@ -1025,8 +1025,8 @@ agitator_jean_jaures = { # Jean Jaurès
         interest_group_trigger = {
             is_marginal = no
             OR = {
-			    is_interest_group_type = ig_trade_unions
-			    is_interest_group_type = ig_intelligentsia
+			    is_interest_group_type = ig_egalitarian
+			    is_interest_group_type = ig_rationalist
 			}
         }   
 		earliest_usage_date = 1892.1.1
@@ -1042,7 +1042,7 @@ agitator_viggo_horup = { # Viggo Hørup
 	culture = cu:danish
 	religion = rel:protestant
 	female = no
-	interest_group = ig_petty_bourgeoisie
+	interest_group = ig_market_liberal
 	ideology = ideology_radical
 	birth_date = 1841.5.22
 	traits = {
@@ -1061,8 +1061,8 @@ agitator_viggo_horup = { # Viggo Hørup
         interest_group_trigger = {
             is_marginal = no
             OR = {
-			    is_interest_group_type = ig_petty_bourgeoisie
-			    is_interest_group_type = ig_intelligentsia
+			    is_interest_group_type = ig_market_liberal
+			    is_interest_group_type = ig_rationalist
 			}
         }   
 		earliest_usage_date = 1876.1.1
@@ -1078,7 +1078,7 @@ agitator_georg_brandes = { # Georg Brandes
 	culture = cu:danish
 	religion = rel:jewish
 	female = no
-	interest_group = ig_petty_bourgeoisie
+	interest_group = ig_market_liberal
 	ideology = ideology_radical
 	birth_date = 1841.5.22
 	traits = {
@@ -1097,8 +1097,8 @@ agitator_georg_brandes = { # Georg Brandes
         interest_group_trigger = {
             is_marginal = no
             OR = {
-			    is_interest_group_type = ig_petty_bourgeoisie
-			    is_interest_group_type = ig_intelligentsia
+			    is_interest_group_type = ig_market_liberal
+			    is_interest_group_type = ig_rationalist
 			}
         }   
 		earliest_usage_date = 1871.11.3
@@ -1114,7 +1114,7 @@ agitator_alexis_de_tocqueville = { # Alexis de Tocqueville
 	culture = cu:french
 	religion = rel:catholic
 	female = no
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	ideology = ideology_reformer
 	birth_date = 1805.7.29
 	dna = dna_alexis_de_tocqueville
@@ -1131,8 +1131,8 @@ agitator_alexis_de_tocqueville = { # Alexis de Tocqueville
         interest_group_trigger = {
             is_marginal = no
             OR = {
-			    is_interest_group_type = ig_landowners
-			    is_interest_group_type = ig_intelligentsia
+			    is_interest_group_type = ig_elitist
+			    is_interest_group_type = ig_rationalist
 			}
         }   
 		earliest_usage_date = 1836.1.1
@@ -1148,7 +1148,7 @@ agitator_jose_do_patrocinio = { # José do Patrocínio
 	culture = cu:afro_american
 	religion = rel:catholic
 	female = no
-	interest_group = ig_intelligentsia
+	interest_group = ig_rationalist
 	ideology = ideology_abolitionist
 	birth_date = 1853.10.9
 	traits = {
@@ -1168,8 +1168,8 @@ agitator_jose_do_patrocinio = { # José do Patrocínio
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_intelligentsia
-                is_interest_group_type = ig_rural_folk
+                is_interest_group_type = ig_rationalist
+                is_interest_group_type = ig_agrarian
             } 
         }   
 		earliest_usage_date = 1874.1.1
@@ -1185,7 +1185,7 @@ agitator_karl_liebknecht = { # Karl Liebknecht, or as I like to call him, Chucky
 	culture = cu:north_german
 	religion = rel:protestant
 	female = no
-	interest_group = ig_intelligentsia
+	interest_group = ig_rationalist
 	ideology = ideology_communist
 	birth_date = 1871.8.13
 	dna = dna_karl_liebknecht
@@ -1206,8 +1206,8 @@ agitator_karl_liebknecht = { # Karl Liebknecht, or as I like to call him, Chucky
         interest_group_trigger = {
             is_marginal = no
             OR = {
-			    is_interest_group_type = ig_trade_unions
-			    is_interest_group_type = ig_intelligentsia
+			    is_interest_group_type = ig_egalitarian
+			    is_interest_group_type = ig_rationalist
 			}
         }   
 		earliest_usage_date = 1899.4.5
@@ -1223,7 +1223,7 @@ agitator_francesc_pi_i_margall = { # Francesc Pi i Margall
 	culture = cu:catalan
 	religion = rel:catholic
 	female = no
-	interest_group = ig_petty_bourgeoisie
+	interest_group = ig_market_liberal
 	ideology = ideology_radical
 	birth_date = 1824.4.29
 	dna = dna_francesc_pi_i_margall
@@ -1243,8 +1243,8 @@ agitator_francesc_pi_i_margall = { # Francesc Pi i Margall
         interest_group_trigger = {
             is_marginal = no
             OR = {
-			    is_interest_group_type = ig_petty_bourgeoisie
-			    is_interest_group_type = ig_intelligentsia
+			    is_interest_group_type = ig_market_liberal
+			    is_interest_group_type = ig_rationalist
 			}
         }   
 		earliest_usage_date = 1854.1.1
@@ -1260,7 +1260,7 @@ agitator_manuel_ruiz_zorrilla = { # Manuel Ruiz Zorrilla
 	culture = cu:spanish
 	religion = rel:catholic
 	female = no
-	interest_group = ig_petty_bourgeoisie
+	interest_group = ig_market_liberal
 	ideology = ideology_radical
 	birth_date = 1824.4.29
 	dna = dna_manuel_ruiz_zorrilla
@@ -1277,8 +1277,8 @@ agitator_manuel_ruiz_zorrilla = { # Manuel Ruiz Zorrilla
         interest_group_trigger = {
             is_marginal = no
             OR = {
-			    is_interest_group_type = ig_petty_bourgeoisie
-			    is_interest_group_type = ig_intelligentsia
+			    is_interest_group_type = ig_market_liberal
+			    is_interest_group_type = ig_rationalist
 			}
         }   
 		earliest_usage_date = 1866.1.1
@@ -1294,7 +1294,7 @@ agitator_francois_rene_de_la_tour_du_pin_chambly = { # François-René de La Tou
 	culture = cu:french
 	religion = rel:catholic
 	female = no
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	ideology = ideology_legitimist
 	birth_date = 1834.4.1
 	traits = {
@@ -1310,8 +1310,8 @@ agitator_francois_rene_de_la_tour_du_pin_chambly = { # François-René de La Tou
         interest_group_trigger = {
             is_marginal = no
             OR = {
-			    is_interest_group_type = ig_landowners
-			    is_interest_group_type = ig_armed_forces
+			    is_interest_group_type = ig_elitist
+			    is_interest_group_type = ig_expansionist
 			}
         }   
 		earliest_usage_date = 1870.1.1
@@ -1327,7 +1327,7 @@ agitator_antonio_sardinha = { # António Sardinha, integralist
 	culture = cu:portuguese
 	religion = rel:catholic
 	female = no
-	interest_group = ig_intelligentsia
+	interest_group = ig_rationalist
 	ideology = ideology_fascist
 	birth_date = 1887.9.9
 	traits = {
@@ -1343,8 +1343,8 @@ agitator_antonio_sardinha = { # António Sardinha, integralist
         interest_group_trigger = {
             is_marginal = no
             OR = {
-			    is_interest_group_type = ig_intelligentsia
-			    is_interest_group_type = ig_petty_bourgeoisie
+			    is_interest_group_type = ig_rationalist
+			    is_interest_group_type = ig_market_liberal
 			}
         }   
 		earliest_usage_date = 1910.1.1
@@ -1360,7 +1360,7 @@ agitator_ion_dragoumis = { # Ion Dragoumis
 	culture = cu:greek
 	religion = rel:orthodox
 	female = no
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	ideology = ideology_fascist
 	birth_date = 1878.9.14
 	traits = {
@@ -1376,8 +1376,8 @@ agitator_ion_dragoumis = { # Ion Dragoumis
         interest_group_trigger = {
             is_marginal = no
             OR = {
-			    is_interest_group_type = ig_landowners
-			    is_interest_group_type = ig_petty_bourgeoisie
+			    is_interest_group_type = ig_elitist
+			    is_interest_group_type = ig_market_liberal
 			}
         }   
 		earliest_usage_date = 1907.1.1
@@ -1393,7 +1393,7 @@ agitator_sandor_petofi = { # Sándor Petőfi
 	culture = cu:hungarian
 	religion = rel:protestant
 	female = no
-	interest_group = ig_intelligentsia
+	interest_group = ig_rationalist
 	ideology = ideology_radical
 	birth_date = 1823.1.1
 	traits = {
@@ -1409,8 +1409,8 @@ agitator_sandor_petofi = { # Sándor Petőfi
         interest_group_trigger = {
             is_marginal = no
             OR = {
-			    is_interest_group_type = ig_intelligentsia
-			    is_interest_group_type = ig_petty_bourgeoisie
+			    is_interest_group_type = ig_rationalist
+			    is_interest_group_type = ig_market_liberal
 			}
         }   
 		earliest_usage_date = 1847.1.1
@@ -1426,7 +1426,7 @@ agitator_harriet_tubman = {
 	culture = cu:afro_american
 	religion = rel:protestant
 	female = yes
-	interest_group = ig_devout
+	interest_group = ig_theocratic
 	ideology = ideology_abolitionist
 	birth_date = 1822.3.1 # exact birthdate unknown
 	traits = {
@@ -1447,8 +1447,8 @@ agitator_harriet_tubman = {
         interest_group_trigger = {
             is_marginal = no
             OR = {
-			    is_interest_group_type = ig_intelligentsia
-			    is_interest_group_type = ig_devout
+			    is_interest_group_type = ig_rationalist
+			    is_interest_group_type = ig_theocratic
 			}
         }   
 		earliest_usage_date = 1849.9.17
@@ -1464,7 +1464,7 @@ agitator_web_du_bois = { # W.E.B. Du Bois
 	culture = cu:afro_american
 	religion = rel:protestant
 	female = no
-	interest_group = ig_intelligentsia
+	interest_group = ig_rationalist
 	ideology = ideology_social_democrat
 	birth_date = 1868.2.23
 	traits = {
@@ -1482,7 +1482,7 @@ agitator_web_du_bois = { # W.E.B. Du Bois
 		}
         interest_group_trigger = {
             is_marginal = no
-			is_interest_group_type = ig_intelligentsia
+			is_interest_group_type = ig_rationalist
         }
 		earliest_usage_date = 1894.6.1
 		latest_usage_date = 1935.12.31 # Died on August 27th, 1963
@@ -1497,7 +1497,7 @@ agitator_maxim_gorky = { # The Maximum Gorky
 	culture = cu:russian
 	religion = rel:orthodox
 	female = no
-	interest_group = ig_intelligentsia
+	interest_group = ig_rationalist
 	ideology = ideology_communist
 	birth_date = 1868.3.28
 	traits = {
@@ -1512,7 +1512,7 @@ agitator_maxim_gorky = { # The Maximum Gorky
 		}
         interest_group_trigger = {
             is_marginal = no
-			is_interest_group_type = ig_intelligentsia
+			is_interest_group_type = ig_rationalist
         }
 		earliest_usage_date = 1899.1.1
 		latest_usage_date = 1921.1.1
@@ -1527,7 +1527,7 @@ agitator_alexandru_bogdan_pitesti = { # Alexandru Bogdan-Pitești
 	culture = cu:romanian
 	religion = rel:catholic # He's not Orthodox. He converted to Catholicism. I don't make the rules.
 	female = no
-	interest_group = ig_intelligentsia
+	interest_group = ig_rationalist
 	ideology = ideology_anarchist
 	birth_date = 1870.6.13
 	dna = dna_bogdan_pitesti
@@ -1546,7 +1546,7 @@ agitator_alexandru_bogdan_pitesti = { # Alexandru Bogdan-Pitești
 		}
         interest_group_trigger = {
             is_marginal = no
-			is_interest_group_type = ig_intelligentsia
+			is_interest_group_type = ig_rationalist
         }
 		earliest_usage_date = 1894.1.1
 		latest_usage_date = 1918.1.1 # Died May 12, 1922
@@ -1561,7 +1561,7 @@ agitator_jules_brunet = { # Jules Brunet
 	culture = cu:french
 	religion = rel:catholic
 	female = no
-	interest_group = ig_armed_forces
+	interest_group = ig_expansionist
 	ideology = ideology_authoritarian
 	birth_date = 1838.1.2
 	dna = dna_jules_brunet
@@ -1578,8 +1578,8 @@ agitator_jules_brunet = { # Jules Brunet
         interest_group_trigger = {
             is_marginal = no
             OR = {
-			    is_interest_group_type = ig_armed_forces
-			    is_interest_group_type = ig_landowners
+			    is_interest_group_type = ig_expansionist
+			    is_interest_group_type = ig_elitist
 			}
         }   
 		earliest_usage_date = 1867.1.1 # French military mission to Japan

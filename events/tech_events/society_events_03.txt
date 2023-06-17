@@ -42,7 +42,7 @@ society_tech_events.301 = { #airships
 					law = law_type:law_per_capita_based_taxation
 					value > neutral
 				}
-				NOT = { is_interest_group_type = ig_armed_forces }
+				NOT = { is_interest_group_type = ig_expansionist }
 			}
 			add_modifier = {
 				name = zeppelins_society_modifier

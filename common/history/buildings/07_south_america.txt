@@ -430,12 +430,8 @@
 		}
 	}
 	s:STATE_PATAGONIA={
-		region_state:PAT={
-		}
 	}
 	s:STATE_RIO_NEGRO={
-		region_state:ARG={
-		}
 	}
 	s:STATE_LA_PAMPA={
 	}

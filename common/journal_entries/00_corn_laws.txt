@@ -3,7 +3,7 @@
 
 	is_shown_when_inactive = {
 		NOT = { has_variable = corn_laws_abolished }
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			is_marginal = no
 		}
 		OR = {
@@ -24,7 +24,7 @@
 			has_law = law_type:law_isolationism
 			has_law = law_type:law_mercantilism
 		}
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			is_powerful = yes
 			is_in_government = yes
 		}
@@ -42,14 +42,14 @@
 		show_as_tooltip = {
 			if = {
 				limit = {
-					ig:ig_landowners = {
+					ig:ig_elitist = {
 						is_in_government = yes
 						leader = {
 							NOT = { has_ideology = ideology:ideology_market_liberal }
 						}
 					}
 				}
-				ig:ig_landowners = {
+				ig:ig_elitist = {
 					add_modifier = {
 						name = repealed_corn_laws
 						months = long_modifier_time
@@ -64,7 +64,7 @@
 	}
 
 	invalid = {
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			is_marginal = yes
 		}
 	}

@@ -211,7 +211,7 @@ type = country_event
 				save_scope_as = manufacturing_building_production_politics
 			}
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			save_scope_as = industrialists_ig_focus
 		}
 	}
@@ -435,7 +435,7 @@ type = country_event
 				save_scope_as = agricultural_building_production_politics
 			}
 		}
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			save_scope_as = landowners_ig_focus
 		}
 	}
@@ -647,10 +647,10 @@ type = country_event
 				save_scope_as = resource_building_production_politics
 			}
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			save_scope_as = industrialists_ig_focus
 		}
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			save_scope_as = landowners_ig_focus
 		}
 	}
@@ -744,7 +744,7 @@ type = country_event
 			}
 			save_scope_as = decree_enlistment
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			save_scope_as = armed_forces_ig_focus
 		}
 	}

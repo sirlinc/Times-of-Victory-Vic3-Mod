@@ -1,7 +1,6 @@
 ﻿# Fallback party for Rural Folk
 # Occasionally used for an anti-serfdom alliance
 # More popular in Nordic countries
-<<<<<<< Updated upstream
 
 agrarian_party = {
 	color = { 64 173 59 }
@@ -119,17 +118,6 @@ agrarian_party = {
 				}
 			}
 			triggered_desc = {
-=======
-# Particularist + Agrarian + Isolationist + Expansionitst/Pacifist + Abolicionist
-
-agrarian_party = {
-	color = { 64 173 59 }
-	icon = { default = "/gfx/interface/icons/political_parties/agrarians.dds" }
-	
-	name = {
-		first_valid = {
-			triggered_desc = {
->>>>>>> Stashed changes
 				desc = party_agrarian
 				trigger = {
 					always = yes
@@ -137,29 +125,21 @@ agrarian_party = {
 			}
 		}
 	}
-<<<<<<< Updated upstream
 	icon = {
 		default = "/gfx/interface/icons/political_parties/agrarians.dds"
 	}
-=======
->>>>>>> Stashed changes
 
 	# THIS IS RUN ONLY ONCE AT GAME START
 	valid_for_country = {
 		always = yes
 	}
-<<<<<<< Updated upstream
 	available_for_interest_group = {
 		owner = {
 			country_has_voting_franchise = yes
-			ig:ig_rural_folk = {
+			ig:ig_agrarian = {
 				is_marginal = no
 			}
 		}
-=======
-
-	available_for_interest_group = {
->>>>>>> Stashed changes
 		OR = {
 	     	NOT = {
 	         	owner = {
@@ -179,7 +159,6 @@ agrarian_party = {
 			value = -5
 			desc = "base_value"
 		}
-<<<<<<< Updated upstream
 		if = { # a party for powerful farmers
 			limit = {
 				has_ideology = ideology:ideology_agrarian
@@ -190,56 +169,6 @@ agrarian_party = {
 				desc = "from_peasants"
 			}
 		}
-=======
-		if = { # can form farmer's coalition
-			limit = {
-				OR = { 
-					is_interest_group_type = ig_agrarian
-					is_interest_group_type = particularist
-					#is_interest_group_type = isolationist -> SEPARETED CONDITIONS TO GIVE A "10" VALUE WIP
-				}
-				is_marginal = no
-			}
-			add = {
-				value = 10
-				desc = "from_agrarian_coalition"
-			}
-		}
-		if = { # coalition of powerful farmers for power
-			limit = {
-				OR = { 
-					is_interest_group_type = ig_agrarian
-					is_interest_group_type = ig_particularist
-				}
-				is_powerful = yes
-				is_in_government = no #WIP
-			} 
-			add = {
-				value = 10
-				desc = "from_peasants"
-			}
-		}
-		if = { # isolationism
-			limit = {
-				is_interest_group_type = ig_isolationist
-				is_marginal = no
-			} 
-			add = {
-				value = 6
-				desc = "from_isolationism_support"
-			}
-		}
-		if = { # powerful isolationist support
-			limit = {
-				is_interest_group_type = ig_isolationist
-				is_powerful = yes
-			} 
-			add = {
-				value = 10
-				desc = "from_isolationism_support"
-			}
-		}
->>>>>>> Stashed changes
 		if = { # weak anti-serfdom types might fall in line behind strong farmers
 			limit = {
 				is_powerful = no
@@ -256,7 +185,6 @@ agrarian_party = {
 				desc = "from_powerful_farmers"
 			}
 		}
-<<<<<<< Updated upstream
 		if = { # scandinavians are more likely to have agrarian parties
 			limit = {
 				owner = {
@@ -265,38 +193,23 @@ agrarian_party = {
 					}
 				}
 				OR = {
-					is_interest_group_type = ig_rural_folk
-					is_interest_group_type = ig_intelligentsia
+					is_interest_group_type = ig_agrarian
+					is_interest_group_type = ig_rationalist
 				}
 			}
 			add = {
 				value = 10
 				desc = "from_scandinavian"
-=======
-		if = { # a party for anti-serfdom anarchists
-			limit = {
-				is_interest_group_type = ig_anarchists
-				owner = { has_law = law_type:law_serfdom }
-			}
-			add = {
-				value = 10
-				desc = "from_anti_serfdom_anarchists"
->>>>>>> Stashed changes
 			}
 		}
 		if = { # pacifist anti-colonial alliance
 			limit = {
-<<<<<<< Updated upstream
 				leader = {
 					has_ideology = ideology:ideology_pacifist
 				}
 				owner = {
 					NOT = { has_law = law_type:law_no_colonial_affairs }
 				}
-=======
-				is_interest_group_type = ig_pacifist
-				owner = { NOT = { has_law = law_type:law_no_colonial_affairs } }
->>>>>>> Stashed changes
 			}
 			add = {
 				value = 6
@@ -306,17 +219,12 @@ agrarian_party = {
 		if = { # anti-immigration alliance
 			limit = {
 				OR = {
-<<<<<<< Updated upstream
 					has_ideology = ideology:ideology_isolationist
 					has_ideology = ideology:ideology_populist
 					has_ideology = ideology:ideology_reactionary
-=======
-					is_interest_group_type = ig_isolationist
-					is_interest_group_type = ig_nationalist
->>>>>>> Stashed changes
 				}
 				owner = {
-					has_law = law_type:law_no_migration_controls
+					has_law = law_type:law_freedom_of_movement
 				}
 			}
 			add = {
@@ -327,18 +235,13 @@ agrarian_party = {
 		if = { # against arbitrary or militarized policing
 			limit = {
 				OR = {
-<<<<<<< Updated upstream
 					has_ideology = ideology:ideology_liberal
 					has_ideology = ideology:ideology_particularist
-=======
-					is_interest_group_type = ig_egalitarian
-					is_interest_group_type = ig_particularist
->>>>>>> Stashed changes
 				}
 				owner = {
 					OR = {	
 						has_law = law_type:law_local_police
-						has_law = law_type:law_militarized_police
+						has_law = law_type:law_paramilitary_force
 					}
 				}
 			}
@@ -352,12 +255,9 @@ agrarian_party = {
 				OR = {
 					has_ideology = ideology:ideology_meritocratic
 					has_ideology = ideology:ideology_agrarian
-<<<<<<< Updated upstream
 					leader = {
 						has_ideology = ideology:ideology_social_democrat
 					}
-=======
->>>>>>> Stashed changes
 				}
 				owner = {
 					has_law = law_type:law_land_based_taxation
@@ -378,14 +278,11 @@ agrarian_party = {
 				owner = {
 					has_law = law_type:law_free_trade
 				}
-<<<<<<< Updated upstream
 				NOT = {
 					leader = {
 						has_ideology = ideology:ideology_market_liberal
 					}
 				}
-=======
->>>>>>> Stashed changes
 			}
 			add = {
 				value = 6
@@ -395,29 +292,20 @@ agrarian_party = {
 		if = { # against laissez-faire - peasant/socialist alliance
 			limit = {
 				OR = {
-<<<<<<< Updated upstream
 					has_ideology = ideology:ideology_proletarian
 					has_ideology = ideology:ideology_agrarian
 					leader = {
 						has_ideology = ideology:ideology_protectionist
 					}
-=======
-					is_interest_group_type = ig_proletarian
-					is_interest_group_type = ig_agrarian
-					is_interest_group_type = ig_protectionist
->>>>>>> Stashed changes
 				}
 				owner = {
 					has_law = law_type:law_laissez_faire
 				}
-<<<<<<< Updated upstream
 				NOT = {
 					leader = {
 						has_ideology = ideology:ideology_market_liberal
 					}
 				}
-=======
->>>>>>> Stashed changes
 			}
 			add = {
 				value = 6
@@ -427,7 +315,6 @@ agrarian_party = {
 		if = { # opposition to peasant levies
 			limit = {
 				OR = {
-<<<<<<< Updated upstream
 					has_ideology = ideology:ideology_jingoist
 					has_ideology = ideology:ideology_particularist
 					has_ideology = ideology:ideology_sikh_moralist
@@ -439,13 +326,6 @@ agrarian_party = {
 							has_ideology = ideology:ideology_jingoist_leader
 						}
 					}
-=======
-					is_interest_group_type = ig_jingoist
-					is_interest_group_type = ig_particularist
-					is_interest_group = ig_anarchist
-					is_interest_group = ig_pacifist
-					has_ideology = ideology:ideology_sikh_moralist
->>>>>>> Stashed changes
 				}
 				owner = {
 					has_law = law_type:law_peasant_levies
@@ -462,7 +342,6 @@ agrarian_party = {
 					has_law = law_type:law_serfdom
 				}
 				OR = {
-<<<<<<< Updated upstream
 					has_ideology = ideology:ideology_egalitarian
 					has_ideology = ideology:ideology_anti_slavery
 					has_ideology = ideology:ideology_laissez_faire
@@ -472,12 +351,6 @@ agrarian_party = {
 						has_ideology = ideology:ideology_social_democrat
 						has_ideology = ideology:ideology_communist
 					}
-=======
-					is_interest_group_type = ig_egalitarian
-					is_interest_group_type = ig_abolitionist
-					is_interest_group_type = ig_market_liberal
-					is_interest_group_type = ig_particularist
->>>>>>> Stashed changes
 				}
 			}
 			add = {
@@ -490,16 +363,12 @@ agrarian_party = {
 				owner = {
 					has_law = law_type:law_debt_slavery
 				}
-<<<<<<< Updated upstream
 				OR = {
 					has_ideology = ideology:ideology_anti_slavery
 					leader = {
 						has_ideology = ideology:ideology_abolitionist
 					}
 				}
-=======
-				is_interest_group_type = ig_abolitionist
->>>>>>> Stashed changes
 			}
 			add = {
 				value = 10
@@ -508,21 +377,13 @@ agrarian_party = {
 		}
 		if = { # nobody will join if the rural folk don't join
 			limit = {
-<<<<<<< Updated upstream
-				NOT = { is_interest_group_type = ig_rural_folk }
-=======
 				NOT = { is_interest_group_type = ig_agrarian }
->>>>>>> Stashed changes
 				OR = {
 					NOT = { exists = owner.py:agrarian_party }
 					AND = {
 						exists = owner.py:agrarian_party
 						owner = {
-<<<<<<< Updated upstream
-							ig:ig_rural_folk = {
-=======
 							ig:ig_agrarian = {
->>>>>>> Stashed changes
 								NOT = { is_member_of_party = owner.py:agrarian_party }
 							}
 						}
@@ -531,11 +392,7 @@ agrarian_party = {
 			}
 			add = {
 				value = -20
-<<<<<<< Updated upstream
 				desc = "from_no_rural_folk_in_party" # this should probably never actually display in game because the party won't exist
-=======
-				desc = "from_no_agrarian_in_party" # this should probably never actually display in game because the party won't exist
->>>>>>> Stashed changes
 			}
 		}
 		if = {
@@ -554,14 +411,7 @@ agrarian_party = {
 		}
 		if = {
 			limit = {
-<<<<<<< Updated upstream
-				is_interest_group_type = ig_rural_folk
-=======
-				OR = { 
-					is_interest_group_type = ig_agrarian
-					is_interest_group_type = ig_particularist
-				}
->>>>>>> Stashed changes
+				is_interest_group_type = ig_agrarian
 				is_powerful = yes
 			}
 			multiply = {

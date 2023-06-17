@@ -95,7 +95,7 @@ indochina.1 = {
 		every_interest_group = {
 			limit = {
 				OR = {
-					is_interest_group_type = ig_devout
+					is_interest_group_type = ig_theocratic
 					leader = {
 						has_ideology = ideology:ideology_pious
 					}
@@ -144,8 +144,8 @@ indochina.2 = {
 			NOT = { region = sr:region_indochina }
 		}
 		OR = {
-			ig:ig_devout = { is_powerful = yes }
-			ig:ig_armed_forces = { is_powerful = yes }
+			ig:ig_theocratic = { is_powerful = yes }
+			ig:ig_expansionist = { is_powerful = yes }
 		}
 		any_country = {
 			capital = {
@@ -219,8 +219,8 @@ indochina.2 = {
 		every_interest_group = {
 			limit = {
 				OR = {
-					is_interest_group_type = ig_devout
-					is_interest_group_type = ig_armed_forces
+					is_interest_group_type = ig_theocratic
+					is_interest_group_type = ig_expansionist
 					leader = {
 						has_ideology = ideology:ideology_jingoist_leader
 					}
@@ -308,8 +308,8 @@ indochina.3 = {
 		every_interest_group = {
 			limit = {
 				OR = {
-					is_interest_group_type = ig_devout
-					is_interest_group_type = ig_armed_forces
+					is_interest_group_type = ig_theocratic
+					is_interest_group_type = ig_expansionist
 					leader = {
 						has_ideology = ideology:ideology_jingoist_leader
 					}

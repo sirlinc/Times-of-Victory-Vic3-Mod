@@ -7,12 +7,7 @@
 	}
 
 	enable = {
-		trigger_if = {
-			#limit = { 
-			#	has_variable = discovered_rationalism
-			#}
-			has_technology_researched = classical_liberalism 
-		}
+			always = yes
 	}
 	
 	traits = {}	
@@ -128,6 +123,20 @@
 				add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
 				min = 0
 			}
+		}
+
+		multiply = {
+			desc = "NO_HUMANISM"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						NOT = { has_technology_researched = humanism }
+					}
+				}
+				value = 0
+			}		
 		}
 	}
 

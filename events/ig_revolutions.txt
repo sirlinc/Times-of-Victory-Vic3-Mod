@@ -111,7 +111,7 @@ ig_revolutions.2 = {
 
 	trigger = {
 		has_insurrectionary_interest_groups = yes
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			is_revolutionary = no
 			is_in_government = no
 			is_marginal = no
@@ -126,7 +126,7 @@ ig_revolutions.2 = {
 	}
 
 	immediate = {
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			save_scope_as = ig_lo_on_the_edge
 		}
 	}
@@ -137,7 +137,7 @@ ig_revolutions.2 = {
 		ai_chance = {
 			base = 30
 		}
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 	        add_modifier = {
 	            name = ig_concessions_and_appeasement
 	            months = 36
@@ -150,7 +150,7 @@ ig_revolutions.2 = {
 		ai_chance = {
 			base = 15
 		}
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 	    	join_revolution = yes
 	        add_modifier = {
 	            name = ig_unappeased
@@ -163,15 +163,15 @@ ig_revolutions.2 = {
 		name = ig_revolutions.2.c
 		trigger = {
 			OR = {
-				has_law = law_type:law_dedicated_police
-				has_law = law_type:law_militarized_police
+				has_law = law_type:law_regulated_police_force
+				has_law = law_type:law_paramilitary_force
 			}
 		}
 		ai_chance = {
 			base = 30
 			modifier = {
 				trigger = {
-					ig:ig_landowners = {
+					ig:ig_elitist = {
 						is_powerful = yes
 					}
 				}
@@ -179,14 +179,14 @@ ig_revolutions.2 = {
 			}
 			modifier = {
 				trigger = {
-					ig:ig_landowners = {
+					ig:ig_elitist = {
 						ig_approval < -3
 					}
 				}
 				add = -10
 			}
 		}
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 	        add_modifier = {
 	            name = ig_mass_arrests
 	            months = 12
@@ -216,7 +216,7 @@ ig_revolutions.3 = {
 
 	trigger = {
 		has_insurrectionary_interest_groups = yes
-		ig:ig_rural_folk = {
+		ig:ig_agrarian = {
 			is_revolutionary = no
 			is_in_government = no
 			is_marginal = no
@@ -231,7 +231,7 @@ ig_revolutions.3 = {
 	}
 
 	immediate = {
-		ig:ig_rural_folk = {
+		ig:ig_agrarian = {
 			save_scope_as = ig_rf_on_the_edge
 		}
 	}
@@ -242,7 +242,7 @@ ig_revolutions.3 = {
 		ai_chance = {
 			base = 30
 		}
-		ig:ig_rural_folk = {
+		ig:ig_agrarian = {
 	        add_modifier = {
 	            name = ig_concessions_and_appeasement
 	            months = 36
@@ -255,7 +255,7 @@ ig_revolutions.3 = {
 		ai_chance = {
 			base = 15
 		}
-		ig:ig_rural_folk = {
+		ig:ig_agrarian = {
 	    	join_revolution = yes
 	        add_modifier = {
 	            name = ig_unappeased
@@ -267,15 +267,15 @@ ig_revolutions.3 = {
 		name = ig_revolutions.3.c
 		trigger = {
 			OR = {
-				has_law = law_type:law_dedicated_police
-				has_law = law_type:law_militarized_police
+				has_law = law_type:law_regulated_police_force
+				has_law = law_type:law_paramilitary_force
 			}
 		}
 		ai_chance = {
 			base = 30
 			modifier = {
 				trigger = {
-					ig:ig_rural_folk = {
+					ig:ig_agrarian = {
 						is_powerful = yes
 					}
 				}
@@ -283,14 +283,14 @@ ig_revolutions.3 = {
 			}
 			modifier = {
 				trigger = {
-					ig:ig_rural_folk = {
+					ig:ig_agrarian = {
 						ig_approval < -3
 					}
 				}
 				add = -10
 			}
 		}
-		ig:ig_rural_folk = {
+		ig:ig_agrarian = {
 	        add_modifier = {
 	            name = ig_mass_arrests
 	            months = 12
@@ -320,7 +320,7 @@ ig_revolutions.4 = {
 
 	trigger = {
 		has_insurrectionary_interest_groups = yes
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			is_revolutionary = no
 			is_in_government = no
 			is_marginal = no
@@ -335,7 +335,7 @@ ig_revolutions.4 = {
 	}
 
 	immediate = {
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			save_scope_as = ig_dv_on_the_edge
 		}
 	}
@@ -346,7 +346,7 @@ ig_revolutions.4 = {
 		ai_chance = {
 			base = 30
 		}
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 	        add_modifier = {
 	            name = ig_concessions_and_appeasement
 	            months = 36
@@ -359,7 +359,7 @@ ig_revolutions.4 = {
 		ai_chance = {
 			base = 15
 		}
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 	    	join_revolution = yes
 	        add_modifier = {
 	            name = ig_unappeased
@@ -371,15 +371,15 @@ ig_revolutions.4 = {
 		name = ig_revolutions.4.c
 		trigger = {
 			OR = {
-				has_law = law_type:law_dedicated_police
-				has_law = law_type:law_militarized_police
+				has_law = law_type:law_regulated_police_force
+				has_law = law_type:law_paramilitary_force
 			}
 		}
 		ai_chance = {
 			base = 30
 			modifier = {
 				trigger = {
-					ig:ig_devout = {
+					ig:ig_theocratic = {
 						is_powerful = yes
 					}
 				}
@@ -387,14 +387,14 @@ ig_revolutions.4 = {
 			}
 			modifier = {
 				trigger = {
-					ig:ig_devout = {
+					ig:ig_theocratic = {
 						ig_approval < -3
 					}
 				}
 				add = -10
 			}
 		}
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 	        add_modifier = {
 	            name = ig_mass_arrests
 	            months = 12
@@ -424,7 +424,7 @@ ig_revolutions.5 = {
 
 	trigger = {
 		has_insurrectionary_interest_groups = yes
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			is_revolutionary = no
 			is_in_government = no
 			is_marginal = no
@@ -439,7 +439,7 @@ ig_revolutions.5 = {
 	}
 
 	immediate = {
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			save_scope_as = ig_af_on_the_edge
 		}
 	}
@@ -450,7 +450,7 @@ ig_revolutions.5 = {
 		ai_chance = {
 			base = 30
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 	        add_modifier = {
 	            name = ig_concessions_and_appeasement
 	            months = 36
@@ -463,7 +463,7 @@ ig_revolutions.5 = {
 		ai_chance = {
 			base = 15
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 	    	join_revolution = yes
 	        add_modifier = {
 	            name = ig_unappeased
@@ -475,15 +475,15 @@ ig_revolutions.5 = {
 		name = ig_revolutions.5.c
 		trigger = {
 			OR = {
-				has_law = law_type:law_dedicated_police
-				has_law = law_type:law_militarized_police
+				has_law = law_type:law_regulated_police_force
+				has_law = law_type:law_paramilitary_force
 			}
 		}
 		ai_chance = {
 			base = 30
 			modifier = {
 				trigger = {
-					ig:ig_armed_forces = {
+					ig:ig_expansionist = {
 						is_powerful = yes
 					}
 				}
@@ -491,14 +491,14 @@ ig_revolutions.5 = {
 			}
 			modifier = {
 				trigger = {
-					ig:ig_armed_forces = {
+					ig:ig_expansionist = {
 						ig_approval < -3
 					}
 				}
 				add = -10
 			}
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 	        add_modifier = {
 	            name = ig_mass_arrests
 	            months = 12
@@ -528,7 +528,7 @@ ig_revolutions.6 = {
 
 	trigger = {
 		has_insurrectionary_interest_groups = yes
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			is_revolutionary = no
 			is_in_government = no
 			is_marginal = no
@@ -543,7 +543,7 @@ ig_revolutions.6 = {
 	}
 
 	immediate = {
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			save_scope_as = ig_in_on_the_edge
 		}
 	}
@@ -554,7 +554,7 @@ ig_revolutions.6 = {
 		ai_chance = {
 			base = 30
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 	        add_modifier = {
 	            name = ig_concessions_and_appeasement
 	            months = 36
@@ -567,7 +567,7 @@ ig_revolutions.6 = {
 		ai_chance = {
 			base = 15
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 	    	join_revolution = yes
 	        add_modifier = {
 	            name = ig_unappeased
@@ -579,15 +579,15 @@ ig_revolutions.6 = {
 		name = ig_revolutions.6.c
 		trigger = {
 			OR = {
-				has_law = law_type:law_dedicated_police
-				has_law = law_type:law_militarized_police
+				has_law = law_type:law_regulated_police_force
+				has_law = law_type:law_paramilitary_force
 			}
 		}
 		ai_chance = {
 			base = 30
 			modifier = {
 				trigger = {
-					ig:ig_industrialists = {
+					ig:ig_plutocratic = {
 						is_powerful = yes
 					}
 				}
@@ -595,14 +595,14 @@ ig_revolutions.6 = {
 			}
 			modifier = {
 				trigger = {
-					ig:ig_industrialists = {
+					ig:ig_plutocratic = {
 						ig_approval < -3
 					}
 				}
 				add = -10
 			}
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 	        add_modifier = {
 	            name = ig_mass_arrests
 	            months = 12
@@ -632,7 +632,7 @@ ig_revolutions.7 = {
 
 	trigger = {
 		has_insurrectionary_interest_groups = yes
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			is_revolutionary = no
 			is_in_government = no
 			is_marginal = no
@@ -647,7 +647,7 @@ ig_revolutions.7 = {
 	}
 
 	immediate = {
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			save_scope_as = ig_it_on_the_edge
 		}
 	}
@@ -658,7 +658,7 @@ ig_revolutions.7 = {
 		ai_chance = {
 			base = 30
 		}
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 	        add_modifier = {
 	            name = ig_concessions_and_appeasement
 	            months = 36
@@ -671,7 +671,7 @@ ig_revolutions.7 = {
 		ai_chance = {
 			base = 15
 		}
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 	    	join_revolution = yes
 	        add_modifier = {
 	            name = ig_unappeased
@@ -683,15 +683,15 @@ ig_revolutions.7 = {
 		name = ig_revolutions.7.c
 		trigger = {
 			OR = {
-				has_law = law_type:law_dedicated_police
-				has_law = law_type:law_militarized_police
+				has_law = law_type:law_regulated_police_force
+				has_law = law_type:law_paramilitary_force
 			}
 		}
 		ai_chance = {
 			base = 30
 			modifier = {
 				trigger = {
-					ig:ig_intelligentsia = {
+					ig:ig_rationalist = {
 						is_powerful = yes
 					}
 				}
@@ -699,14 +699,14 @@ ig_revolutions.7 = {
 			}
 			modifier = {
 				trigger = {
-					ig:ig_intelligentsia = {
+					ig:ig_rationalist = {
 						ig_approval < -3
 					}
 				}
 				add = -10
 			}
 		}
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 	        add_modifier = {
 	            name = ig_mass_arrests
 	            months = 12
@@ -736,7 +736,7 @@ ig_revolutions.8 = {
 
 	trigger = {
 		has_insurrectionary_interest_groups = yes
-		ig:ig_petty_bourgeoisie = {
+		ig:ig_market_liberal = {
 			is_revolutionary = no
 			is_in_government = no
 			is_marginal = no
@@ -751,7 +751,7 @@ ig_revolutions.8 = {
 	}
 
 	immediate = {
-		ig:ig_petty_bourgeoisie = {
+		ig:ig_market_liberal = {
 			save_scope_as = ig_pb_on_the_edge
 		}
 	}
@@ -762,7 +762,7 @@ ig_revolutions.8 = {
 		ai_chance = {
 			base = 30
 		}
-		ig:ig_petty_bourgeoisie = {
+		ig:ig_market_liberal = {
 	        add_modifier = {
 	            name = ig_concessions_and_appeasement
 	            months = 36
@@ -775,7 +775,7 @@ ig_revolutions.8 = {
 		ai_chance = {
 			base = 15
 		}
-		ig:ig_petty_bourgeoisie = {
+		ig:ig_market_liberal = {
 	    	join_revolution = yes
 	        add_modifier = {
 	            name = ig_unappeased
@@ -787,15 +787,15 @@ ig_revolutions.8 = {
 		name = ig_revolutions.8.c
 		trigger = {
 			OR = {
-				has_law = law_type:law_dedicated_police
-				has_law = law_type:law_militarized_police
+				has_law = law_type:law_regulated_police_force
+				has_law = law_type:law_paramilitary_force
 			}
 		}
 		ai_chance = {
 			base = 30
 			modifier = {
 				trigger = {
-					ig:ig_petty_bourgeoisie = {
+					ig:ig_market_liberal = {
 						is_powerful = yes
 					}
 				}
@@ -803,14 +803,14 @@ ig_revolutions.8 = {
 			}
 			modifier = {
 				trigger = {
-					ig:ig_petty_bourgeoisie = {
+					ig:ig_market_liberal = {
 						ig_approval < -3
 					}
 				}
 				add = -10
 			}
 		}
-		ig:ig_petty_bourgeoisie = {
+		ig:ig_market_liberal = {
 	        add_modifier = {
 	            name = ig_mass_arrests
 	            months = 12
@@ -840,7 +840,7 @@ ig_revolutions.9 = {
 
 	trigger = {
 		has_insurrectionary_interest_groups = yes
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			is_revolutionary = no
 			is_in_government = no
 			is_marginal = no
@@ -855,7 +855,7 @@ ig_revolutions.9 = {
 	}
 
 	immediate = {
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			save_scope_as = ig_tu_on_the_edge
 		}
 	}
@@ -866,7 +866,7 @@ ig_revolutions.9 = {
 		ai_chance = {
 			base = 30
 		}
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 	        add_modifier = {
 	            name = ig_concessions_and_appeasement
 	            months = 36
@@ -879,7 +879,7 @@ ig_revolutions.9 = {
 		ai_chance = {
 			base = 15
 		}
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 	    	join_revolution = yes
 	        add_modifier = {
 	            name = ig_unappeased
@@ -891,15 +891,15 @@ ig_revolutions.9 = {
 		name = ig_revolutions.9.c
 		trigger = {
 			OR = {
-				has_law = law_type:law_dedicated_police
-				has_law = law_type:law_militarized_police
+				has_law = law_type:law_regulated_police_force
+				has_law = law_type:law_paramilitary_force
 			}
 		}
 		ai_chance = {
 			base = 30
 			modifier = {
 				trigger = {
-					ig:ig_trade_unions = {
+					ig:ig_egalitarian = {
 						is_powerful = yes
 					}
 				}
@@ -907,14 +907,14 @@ ig_revolutions.9 = {
 			}
 			modifier = {
 				trigger = {
-					ig:ig_trade_unions = {
+					ig:ig_egalitarian = {
 						ig_approval < -3
 					}
 				}
 				add = -10
 			}
 		}
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 	        add_modifier = {
 	            name = ig_mass_arrests
 	            months = 12

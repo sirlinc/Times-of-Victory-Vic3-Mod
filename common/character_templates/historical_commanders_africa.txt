@@ -6,7 +6,7 @@
 	female = yes
 	religion = sunni
 	commander_rank = default
-	interest_group = ig_devout
+	interest_group = ig_theocratic
 	ideology = ideology_theocrat
 	birth_date = 1830.8.21 # estimate
 	traits = {
@@ -77,7 +77,7 @@ ald_general_mokrani = {
 	female = no
 	religion = sunni
 	commander_rank = default
-	interest_group = ig_landowners
+	interest_group = ig_elitist
 	ideology = ideology_traditionalist
 	birth_date = 1815.3.7 # only year known
 	traits = {

@@ -125,7 +125,7 @@ decree_events.1 = {
 	
 	option = { #we dont want to make our roads better
 		name = decree_events.1.e
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			add_modifier = {
 				name = no_roads_sad_modifier
 				months = normal_modifier_time
@@ -286,8 +286,8 @@ decree_events.3 = {
 			}
 			save_scope_as = decree_state
 		}
-		ig:ig_intelligentsia = {
-			save_scope_as = ig_intelligentsia
+		ig:ig_rationalist = {
+			save_scope_as = ig_rationalist
 		}
 		set_variable = david_copperfield_var
 	}
@@ -305,7 +305,7 @@ decree_events.3 = {
 				last_name = Copperfield
 				female = no
 				#role = politician # Remove this line
-				interest_group = ig_intelligentsia
+				interest_group = ig_rationalist
 				ig_leader = yes
 				on_created = {
 					add_modifier = {
@@ -319,7 +319,7 @@ decree_events.3 = {
 			create_character = {
 				#role = politician # Remove this line
 				female = no
-				interest_group = ig_intelligentsia
+				interest_group = ig_rationalist
 				ig_leader = yes
 				on_created = {
 					add_modifier = {
@@ -333,7 +333,7 @@ decree_events.3 = {
 	
 	option = { #ignore him
 		name = decree_events.3.b
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = ignored_david_copperfield_modifier
 				months = normal_modifier_time
@@ -348,7 +348,7 @@ decree_events.3 = {
 				first_name = David
 				last_name = Copperfield
 				female = no
-				interest_group = ig_intelligentsia
+				interest_group = ig_rationalist
 				is_agitator = yes
 				on_created = {
 					add_modifier = {
@@ -361,7 +361,7 @@ decree_events.3 = {
 		else = {
 			create_character = {
 				female = no
-				interest_group = ig_intelligentsia
+				interest_group = ig_rationalist
 				is_agitator = yes
 				on_created = {
 					add_modifier = {
@@ -413,10 +413,10 @@ decree_events.4 = {
 				has_role = admiral
 				interest_group = {
 					OR = {
-						is_interest_group_type = ig_petty_bourgeoisie
-						is_interest_group_type = ig_landowners
-						is_interest_group_type = ig_industrialists
-						is_interest_group_type = ig_armed_forces
+						is_interest_group_type = ig_market_liberal
+						is_interest_group_type = ig_elitist
+						is_interest_group_type = ig_plutocratic
+						is_interest_group_type = ig_expansionist
 					}
 				}
 			}
@@ -449,10 +449,10 @@ decree_events.4 = {
 					has_role = admiral
 					interest_group = {
 						OR = {
-							is_interest_group_type = ig_petty_bourgeoisie
-							is_interest_group_type = ig_landowners
-							is_interest_group_type = ig_industrialists
-							is_interest_group_type = ig_armed_forces
+							is_interest_group_type = ig_market_liberal
+							is_interest_group_type = ig_elitist
+							is_interest_group_type = ig_plutocratic
+							is_interest_group_type = ig_expansionist
 						}
 					}
 				}
@@ -468,7 +468,7 @@ decree_events.4 = {
 		default_option = yes
 		create_character = {
 			is_admiral = yes
-			interest_group = ig_trade_unions
+			interest_group = ig_egalitarian
 			ig_leader = no
 			noble = no
 		}
@@ -478,7 +478,7 @@ decree_events.4 = {
 				pop_type = laborers
 			}
 		}
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			add_modifier = {
 				name = social_mobility_modifier
 				months = normal_modifier_time
@@ -490,7 +490,7 @@ decree_events.4 = {
 		name = decree_events.4.b
 		create_character = {
 			is_admiral = yes
-			interest_group = ig_landowners
+			interest_group = ig_elitist
 			ig_leader = no
 			noble = yes
 		}
@@ -500,7 +500,7 @@ decree_events.4 = {
 				pop_type = laborers
 			}
 		}
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			add_modifier = {
 				name = social_mobility_modifier
 				months = normal_modifier_time
@@ -595,7 +595,7 @@ decree_events.5 = {
 			name = opera_didnt_pay_modifier
 			months = normal_modifier_time
 		}
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = refused_to_pay_modifier
 				months = normal_modifier_time
@@ -674,7 +674,7 @@ decree_events.6 = {
 	
 	option = { #ignore them
 		name = decree_events.6.b
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = ignored_concert_modifier
 				months = normal_modifier_time

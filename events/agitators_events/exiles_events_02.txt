@@ -693,9 +693,9 @@ exiles_more_events.4 = {
 
 		else_if = {
 			limit = {
-				scope:post_unification_agitator = { is_interest_group_type = ig_armed_forces }
+				scope:post_unification_agitator = { is_interest_group_type = ig_expansionist }
 			}
-			ig:ig_armed_forces = {
+			ig:ig_expansionist = {
 				add_modifier = {
 					name = national_hero_rejected
 					months = normal_modifier_time
@@ -705,9 +705,9 @@ exiles_more_events.4 = {
 
 		else_if = {
 			limit = {
-				scope:post_unification_agitator = { is_interest_group_type = ig_devout }
+				scope:post_unification_agitator = { is_interest_group_type = ig_theocratic }
 			}
-			ig:ig_devout = {
+			ig:ig_theocratic = {
 				add_modifier = {
 					name = national_hero_rejected
 					months = normal_modifier_time
@@ -717,9 +717,9 @@ exiles_more_events.4 = {
 
 		else_if = {
 			limit = {
-				scope:post_unification_agitator = { is_interest_group_type = ig_industrialists }
+				scope:post_unification_agitator = { is_interest_group_type = ig_plutocratic }
 			}
-			ig:ig_industrialists = {
+			ig:ig_plutocratic = {
 				add_modifier = {
 					name = national_hero_rejected
 					months = normal_modifier_time
@@ -729,9 +729,9 @@ exiles_more_events.4 = {
 		
 		else_if = {
 			limit = {
-				scope:post_unification_agitator = { is_interest_group_type = ig_intelligentsia }
+				scope:post_unification_agitator = { is_interest_group_type = ig_rationalist }
 			}
-			ig:ig_intelligentsia = {
+			ig:ig_rationalist = {
 				add_modifier = {
 					name = national_hero_rejected
 					months = normal_modifier_time
@@ -741,9 +741,9 @@ exiles_more_events.4 = {
 
 		else_if = {
 			limit = {
-				scope:post_unification_agitator = { is_interest_group_type = ig_landowners }
+				scope:post_unification_agitator = { is_interest_group_type = ig_elitist }
 			}
-			ig:ig_landowners = {
+			ig:ig_elitist = {
 				add_modifier = {
 					name = national_hero_rejected
 					months = normal_modifier_time
@@ -753,9 +753,9 @@ exiles_more_events.4 = {
 
 		else_if = {
 			limit = {
-				scope:post_unification_agitator = { is_interest_group_type = ig_petty_bourgeoisie }
+				scope:post_unification_agitator = { is_interest_group_type = ig_market_liberal }
 			}
-			ig:ig_petty_bourgeoisie = {
+			ig:ig_market_liberal = {
 				add_modifier = {
 					name = national_hero_rejected
 					months = normal_modifier_time
@@ -765,9 +765,9 @@ exiles_more_events.4 = {
 
 		else_if = {
 			limit = {
-				scope:post_unification_agitator = { is_interest_group_type = ig_rural_folk }
+				scope:post_unification_agitator = { is_interest_group_type = ig_agrarian }
 			}
-			ig:ig_rural_folk = {
+			ig:ig_agrarian = {
 				add_modifier = {
 					name = national_hero_rejected
 					months = normal_modifier_time
@@ -777,9 +777,9 @@ exiles_more_events.4 = {
 
 		else_if = {
 			limit = {
-				scope:post_unification_agitator = { is_interest_group_type = ig_trade_unions }
+				scope:post_unification_agitator = { is_interest_group_type = ig_egalitarian }
 			}
-			ig:ig_trade_unions = {
+			ig:ig_egalitarian = {
 				add_modifier = {
 					name = national_hero_rejected
 					months = normal_modifier_time

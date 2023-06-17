@@ -28,7 +28,7 @@ meiji.1 = {
 			name = meiji_var
 			value = 0
 		}
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			save_scope_as = shogunate_ig
 			leader = {
 				save_scope_as = shogunate_ig_leader
@@ -46,7 +46,7 @@ meiji.1 = {
 				ruler = yes
 				birth_date = 1800.1.1
 				dna = dna_ninko
-				interest_group = ig_landowners # beholden to the Shogun
+				interest_group = ig_elitist # beholden to the Shogun
 				ideology = ideology_traditionalist
 				traits = {
 					reserved # not very active in affairs of state
@@ -59,7 +59,7 @@ meiji.1 = {
 				heir = yes
 				birth_date = 1831.1.1
 				dna = dna_emperor_komei
-				interest_group = ig_armed_forces
+				interest_group = ig_expansionist
 				traits = {
 					reserved # ditto
 				}
@@ -77,7 +77,7 @@ meiji.1 = {
 				ruler = yes
 				birth_date = 1831.1.1
 				dna = dna_emperor_komei
-				interest_group = ig_armed_forces
+				interest_group = ig_expansionist
 				traits = {
 					reserved # ditto
 				}
@@ -89,7 +89,7 @@ meiji.1 = {
 				heir = yes
 				birth_date = 1852.1.1
 				dna = dna_emperor_meiji
-				interest_group = ig_industrialists
+				interest_group = ig_plutocratic
 				traits = {
 					innovative
 					charismatic
@@ -108,7 +108,7 @@ meiji.1 = {
 				ruler = yes
 				birth_date = 1852.1.1
 				dna = dna_emperor_meiji
-				interest_group = ig_industrialists
+				interest_group = ig_plutocratic
 				traits = {
 					innovative
 					charismatic
@@ -120,7 +120,7 @@ meiji.1 = {
 				historical = yes
 				heir = yes
 				birth_date = 1879.1.1
-				interest_group = ig_industrialists
+				interest_group = ig_plutocratic
 				traits = {
 				}
 			}
@@ -136,7 +136,7 @@ meiji.1 = {
 				historical = yes
 				ruler = yes
 				birth_date = 1879.1.1
-				interest_group = ig_industrialists
+				interest_group = ig_plutocratic
 				traits = {
 				}
 			}
@@ -146,7 +146,7 @@ meiji.1 = {
 				historical = yes
 				heir = yes
 				birth_date = 1901.1.1
-				interest_group = ig_armed_forces
+				interest_group = ig_expansionist
 				traits = {
 				}
 			}
@@ -162,7 +162,7 @@ meiji.1 = {
 				historical = yes
 				heir = yes
 				birth_date = 1901.1.1
-				interest_group = ig_armed_forces
+				interest_group = ig_expansionist
 				traits = {
 				}
 			}
@@ -178,7 +178,7 @@ meiji.1 = {
 	option = { # favour the industrialists
 		name = meiji.1.a
 		default_option = yes
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			add_modifier = {
 				name = meiji_favored_ig
 				months = normal_modifier_time
@@ -188,7 +188,7 @@ meiji.1 = {
 		custom_tooltip = shogunate_rename.tt
 		hidden_effect = {
 			scope:shogunate_ig = {
-				set_interest_group_name = ig_landowners
+				set_interest_group_name = ig_elitist
 			}
 		}
 		scope:shogunate_ig_leader = { # honorable sudoku
@@ -222,7 +222,7 @@ meiji.1 = {
 		if = {
 			limit = {
 				NOT = { has_law = law_type:law_serfdom }
-				ig:ig_armed_forces = {
+				ig:ig_expansionist = {
 					is_powerful = no
 					is_in_government = no
 				}
@@ -269,7 +269,7 @@ meiji.1 = {
 	}
 	option = { # favour the intellectuals
 		name = meiji.1.b
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = meiji_favored_ig
 				months = normal_modifier_time
@@ -279,7 +279,7 @@ meiji.1 = {
 		custom_tooltip = shogunate_rename.tt
 		hidden_effect = {
 			scope:shogunate_ig = {
-				set_interest_group_name = ig_landowners
+				set_interest_group_name = ig_elitist
 			}
 		}
 		scope:shogunate_ig_leader = {
@@ -313,7 +313,7 @@ meiji.1 = {
 		if = {
 			limit = {
 				NOT = { has_law = law_type:law_serfdom }
-				ig:ig_armed_forces = {
+				ig:ig_expansionist = {
 					is_powerful = no
 					is_in_government = no
 				}
@@ -474,7 +474,7 @@ meiji.3 = {
 	}
 
 	immediate = {
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			save_scope_as = samurai_ig
 			leader = {
 				save_scope_as = samurai_ig_leader
@@ -488,7 +488,7 @@ meiji.3 = {
 		custom_tooltip = samurai_rename.tt
 		hidden_effect = {
 			scope:samurai_ig = {
-				set_interest_group_name = ig_armed_forces
+				set_interest_group_name = ig_expansionist
 			}
 		}
 		scope:samurai_ig = {
@@ -505,7 +505,7 @@ meiji.3 = {
 		custom_tooltip = samurai_rename.tt
 		hidden_effect = {
 			scope:samurai_ig = {
-				set_interest_group_name = ig_armed_forces
+				set_interest_group_name = ig_expansionist
 			}
 		}
 		scope:samurai_ig = {
@@ -838,7 +838,7 @@ meiji.6 = {
 			relations:root >= relations_threshold:neutral
 			NOT = { has_war_with = ROOT }
 			NOT = { is_owed_obligation_by = ROOT }
-			ig:ig_industrialists = {
+			ig:ig_plutocratic = {
 				is_in_government = yes
 			}
 		}
@@ -851,12 +851,12 @@ meiji.6 = {
 				relations:root >= relations_threshold:neutral
 				NOT = { has_war_with = ROOT }
 				NOT = { is_owed_obligation_by = ROOT }
-				ig:ig_industrialists = {
+				ig:ig_plutocratic = {
 					is_in_government = yes
 				}
 			}
 			save_scope_as = western_investor_country
-			ig:ig_industrialists = {
+			ig:ig_plutocratic = {
 				leader = {
 					save_scope_as = western_investor_ig_leader
 				}
@@ -1089,7 +1089,7 @@ meiji.8 = {
 			}
 			save_scope_as = military_railway_state
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			save_scope_as = armed_forces_ig
 		}
 	}
@@ -1102,7 +1102,7 @@ meiji.8 = {
 				level = 1
 			}
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = railway_priority
 				months = long_modifier_time
@@ -1119,7 +1119,7 @@ meiji.8 = {
 			months = long_modifier_time
 		}
 
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = refused_railway_priority
 				months = normal_modifier_time
@@ -1166,7 +1166,7 @@ meiji.9 = {
 			culture = cu:japanese
 			value = large_radicals
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = revoked_sword_rights
 				months = long_modifier_time
@@ -1196,7 +1196,7 @@ meiji.9 = {
 		name = meiji.9.c
 		default_option = yes
 
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = retained_sword_rights
 				months = normal_modifier_time
@@ -1229,7 +1229,7 @@ meiji.10 = {
 		s:STATE_KYUSHU.region_state:JAP = {
 			has_building = building_barracks
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			ig_approval <= unhappy
 		}
 	}
@@ -1239,7 +1239,7 @@ meiji.10 = {
 		s:STATE_KYUSHU.region_state:JAP = {
 			save_scope_as = kyushu_state
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			leader = { save_scope_as = armed_forces_leader }
 		}
 	}
@@ -1262,7 +1262,7 @@ meiji.10 = {
 		name = meiji.10.b
 		default_option = yes
 
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = shut_down_military_academies
 				months = long_modifier_time
@@ -1515,7 +1515,7 @@ meiji.13 = {
 	}
 
 	immediate = {
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			save_scope_as = shogunate_ig
 		}
 		ruler = {

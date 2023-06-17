@@ -3,7 +3,7 @@
 	icon = "gfx/interface/icons/objectives/egalitarian_society.dds"
 
 	complete = {
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			is_powerful = yes
 			is_being_bolstered = yes
 			is_in_government = yes

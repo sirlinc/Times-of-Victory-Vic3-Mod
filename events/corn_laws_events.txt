@@ -24,14 +24,14 @@ corn_laws.1 = {
 
         if = {
         	limit = {
-        		ig:ig_landowners = {
+        		ig:ig_elitist = {
         			is_in_government = yes
         			leader = {
         				NOT = { has_ideology = ideology:ideology_market_liberal }
         			}
         		}
         	}
-        	ig:ig_landowners = {
+        	ig:ig_elitist = {
         		# interest_group_approval_add
         		add_modifier = {
         			name = repealed_corn_laws
@@ -70,7 +70,7 @@ corn_laws.2 = {
 
 	trigger = {
 		NOT = { has_variable = corn_law_opponent_event }
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			leader = {
 				NOT = { has_ideology = ideology:ideology_market_liberal }
 			}
@@ -78,7 +78,7 @@ corn_laws.2 = {
 	}
 
 	immediate = {
-		ig:ig_landowners = { save_scope_as = landowners_ig }
+		ig:ig_elitist = { save_scope_as = landowners_ig }
 		set_variable = corn_law_opponent_event
 	}
 
@@ -86,7 +86,7 @@ corn_laws.2 = {
 		name = corn_laws.2.a
 		create_character = {
 			is_agitator = yes
-			interest_group = ig:ig_landowners
+			interest_group = ig:ig_elitist
 			ideology = ideology_market_liberal
 		}
 		add_radicals = {
@@ -99,7 +99,7 @@ corn_laws.2 = {
 		name = corn_laws.2.b
         default_option = yes
 
-        ig:ig_landowners.leader = {
+        ig:ig_elitist.leader = {
         	# character_popularity_add
         	add_modifier = {
         		name = corn_law_proponent

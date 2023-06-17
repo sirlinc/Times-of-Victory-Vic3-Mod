@@ -12,7 +12,7 @@
 	}
 	
 	modifier = {
-		interest_group_ig_landowners_pol_str_mult = 0.5
+		interest_group_ig_elitist_pol_str_mult = 0.5
 	}
 
 	possible_political_movements = {
@@ -49,7 +49,7 @@ law_tenant_farmers = {
 	progressiveness = 0
 
 	modifier = {
-		interest_group_ig_landowners_pol_str_mult = 0.25
+		interest_group_ig_elitist_pol_str_mult = 0.25
 	}
 
 	possible_political_movements = {
@@ -160,7 +160,7 @@ law_homesteading = {
 		}
 
 	modifier = {
-		interest_group_ig_rural_folk_pol_str_mult = 0.25
+		interest_group_ig_agrarian_pol_str_mult = 0.25
 	}
 
 	pop_support = {

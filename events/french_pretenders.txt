@@ -154,20 +154,20 @@ french_pretenders.1 = {
 				type = je_cement_the_rightful_dynasty
 			}
 		}
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			add_modifier = {
 				name = orleanist_restoration_modifier
 				months = normal_modifier_time
 			}
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = orleanist_restoration_modifier
 				months = normal_modifier_time
 				multiplier = 0.5
 			}
 		}
-		ig:ig_petty_bourgeoisie = {
+		ig:ig_market_liberal = {
 			add_modifier = {
 				name = orleanist_restoration_modifier
 				months = normal_modifier_time
@@ -206,13 +206,13 @@ french_pretenders.1 = {
 				type = je_cement_the_rightful_dynasty
 			}
 		}
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			add_modifier = {
 				name = legitimist_restoration_modifier
 				months = long_modifier_time
 			}
 		}
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			add_modifier = {
 				name = legitimist_restoration_modifier
 				months = long_modifier_time
@@ -220,7 +220,7 @@ french_pretenders.1 = {
 
 			}
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = legitimist_restoration_modifier
 				months = long_modifier_time
@@ -279,20 +279,20 @@ french_pretenders.1 = {
 				type = je_cement_the_rightful_dynasty
 			}
 		}
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			add_modifier = {
 				name = bonapartist_restoration_modifier
 				months = long_modifier_time
 			}
 		}
-		ig:ig_landowners = {
+		ig:ig_elitist = {
 			add_modifier = {
 				name = bonapartist_restoration_modifier
 				months = long_modifier_time
 				multiplier = 1.5
 			}
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			add_modifier = {
 				name = bonapartist_restoration_modifier
 				months = long_modifier_time
@@ -1045,7 +1045,7 @@ french_pretenders.4 = { # The Real Country
 				add = 5
 			}
 		}
-		ig:ig_rural_folk = {
+		ig:ig_agrarian = {
 			add_modifier = {
 				name = backbone_of_the_real_country_modifier
 				months = normal_modifier_time
@@ -1059,13 +1059,13 @@ french_pretenders.4 = { # The Real Country
 						has_ideology = ideology:ideology_orleanist
 					}
 				}
-				ig:ig_rural_folk = {
+				ig:ig_agrarian = {
 					leader = {
 						NOT = { has_ideology = ideology:ideology_orleanist }
 					}
 				}
 			}
-			ig:ig_rural_folk = {
+			ig:ig_agrarian = {
 				leader = {
 					set_ideology = ideology:ideology_orleanist
 				}
@@ -1079,13 +1079,13 @@ french_pretenders.4 = { # The Real Country
 						has_ideology = ideology:ideology_legitimist
 					}
 				}
-				ig:ig_rural_folk = {
+				ig:ig_agrarian = {
 					leader = {
 						NOT = { has_ideology = ideology:ideology_legitimist }
 					}
 				}
 			}
-			ig:ig_rural_folk = {
+			ig:ig_agrarian = {
 				leader = {
 					set_ideology = ideology:ideology_legitimist
 				}
@@ -1099,13 +1099,13 @@ french_pretenders.4 = { # The Real Country
 						has_ideology = ideology:ideology_bonapartist
 					}
 				}
-				ig:ig_rural_folk = {
+				ig:ig_agrarian = {
 					leader = {
 						NOT = { has_ideology = ideology:ideology_bonapartist }
 					}
 				}
 			}
-			ig:ig_rural_folk = {
+			ig:ig_agrarian = {
 				leader = {
 					set_ideology = ideology:ideology_bonapartist
 				}
@@ -1122,7 +1122,7 @@ french_pretenders.4 = { # The Real Country
 				add = 5
 			}
 		}
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			add_modifier = {
 				name = backbone_of_the_real_country_modifier
 				months = normal_modifier_time
@@ -1136,13 +1136,13 @@ french_pretenders.4 = { # The Real Country
 						has_ideology = ideology:ideology_orleanist
 					}
 				}
-				ig:ig_devout = {
+				ig:ig_theocratic = {
 					leader = {
 						NOT = { has_ideology = ideology:ideology_orleanist }
 					}
 				}
 			}
-			ig:ig_devout = {
+			ig:ig_theocratic = {
 				leader = {
 					set_ideology = ideology:ideology_orleanist
 				}
@@ -1156,13 +1156,13 @@ french_pretenders.4 = { # The Real Country
 						has_ideology = ideology:ideology_legitimist
 					}
 				}
-				ig:ig_devout = {
+				ig:ig_theocratic = {
 					leader = {
 						NOT = { has_ideology = ideology:ideology_legitimist }
 					}
 				}
 			}
-			ig:ig_devout = {
+			ig:ig_theocratic = {
 				leader = {
 					set_ideology = ideology:ideology_legitimist
 				}
@@ -1176,13 +1176,13 @@ french_pretenders.4 = { # The Real Country
 						has_ideology = ideology:ideology_bonapartist
 					}
 				}
-				ig:ig_devout = {
+				ig:ig_theocratic = {
 					leader = {
 						NOT = { has_ideology = ideology:ideology_bonapartist }
 					}
 				}
 			}
-			ig:ig_devout = {
+			ig:ig_theocratic = {
 				leader = {
 					set_ideology = ideology:ideology_bonapartist
 				}

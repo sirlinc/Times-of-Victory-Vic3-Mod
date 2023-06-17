@@ -212,9 +212,14 @@ ai_strategy_territorial_expansion = {
 		value = 10
 			
 		if = {
-			limit = { ig:ig_armed_forces = { is_powerful = yes } }
+			limit = { ig:ig_expansionist = { is_powerful = yes } }
 			multiply = 1.5
-		}			
+		}	
+		
+		if = {
+			limit = { ig:ig_nationalist = { is_powerful = yes } }
+			multiply = 1.5
+		}	
 		
 		if = {
 			limit = { country_is_in_europe = yes }

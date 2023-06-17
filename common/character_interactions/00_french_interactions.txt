@@ -16,10 +16,10 @@
 		interest_group = {
 			is_in_government = yes
 			OR = {
-				is_interest_group_type = ig_rural_folk
-				is_interest_group_type = ig_petty_bourgeoisie
-				is_interest_group_type = ig_industrialists
-				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_agrarian
+				is_interest_group_type = ig_market_liberal
+				is_interest_group_type = ig_plutocratic
+				is_interest_group_type = ig_expansionist
 			}
 		}
 		NOR = {
@@ -72,10 +72,10 @@ sway_to_legitimism = {
 		interest_group = {
 			is_in_government = yes
 			OR = {
-				is_interest_group_type = ig_devout
-				is_interest_group_type = ig_rural_folk
-				is_interest_group_type = ig_petty_bourgeoisie
-				is_interest_group_type = ig_landowners
+				is_interest_group_type = ig_theocratic
+				is_interest_group_type = ig_agrarian
+				is_interest_group_type = ig_market_liberal
+				is_interest_group_type = ig_elitist
 			}
 		}
 		NOR = {
@@ -129,10 +129,10 @@ sway_to_orleanism = {
 		interest_group = {
 			is_in_government = yes
 			OR = {
-				is_interest_group_type = ig_industrialists
-				is_interest_group_type = ig_petty_bourgeoisie
-				is_interest_group_type = ig_intelligentsia
-				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_plutocratic
+				is_interest_group_type = ig_market_liberal
+				is_interest_group_type = ig_rationalist
+				is_interest_group_type = ig_expansionist
 			}
 		}
 		NOR = {

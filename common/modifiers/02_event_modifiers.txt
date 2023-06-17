@@ -1221,7 +1221,7 @@ modifier_ignored_ig_urbanization = {
 	interest_group_pol_str_mult = -0.1
 }
 
-modifier_ig_industrialists_urbanization = {
+modifier_ig_plutocratic_urbanization = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	interest_group_approval_add = 2
 }
@@ -1553,7 +1553,7 @@ mining_production_modifier = {
 
 munitions_production_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_munition_plants_throughput_mult = 0.33
+	building_munitions_plants_throughput_mult = 0.33
 }
 
 motor_industry_production_modifier = {

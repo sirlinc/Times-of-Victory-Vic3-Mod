@@ -2358,7 +2358,7 @@ agitators_election_events.17 = {
 		any_active_party = {
 			is_party_type = fascist_party
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			is_marginal = no
 		}
 	}
@@ -2377,7 +2377,7 @@ agitators_election_events.17 = {
 	
 	immediate = {
 		fascist_agitator_election_scope_effect = yes
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			save_scope_as = industrialists_scope
 		}
 	}
@@ -3094,7 +3094,7 @@ agitators_election_events.23 = {
 		any_active_party = {
 			is_party_type = agrarian_party
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			has_party = yes
 		}
 		any_active_party = {
@@ -3102,10 +3102,10 @@ agitators_election_events.23 = {
 				is_party_type = agrarian_party
 			}
 			any_member = {
-				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_expansionist
 			}
 		}
-		ig:ig_rural_folk = {
+		ig:ig_agrarian = {
 			leader = {
 				NOT = {
 					has_ideology = ideology:ideology_jingoist
@@ -3128,7 +3128,7 @@ agitators_election_events.23 = {
 	
 	immediate = {
 		agrarian_agitator_election_scope_effect = yes
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			save_scope_as = armed_forces_scope
 			leader = {
 				save_scope_as = armed_forces_leader
@@ -3325,10 +3325,10 @@ agitators_election_events.25 = {
 			}
 			save_scope_as = industry_enroachment_state
 		}
-		ig:ig_rural_folk = {
+		ig:ig_agrarian = {
 			save_scope_as = rural_folk_ig
 		}
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			save_scope_as = industrialists_ig
 		}
 	}
@@ -3609,7 +3609,7 @@ agitators_election_events.28 = {
 		any_active_party = {
 			is_party_type = social_democrat_party
 		}
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			is_marginal = no
 		}
 	}
@@ -3628,7 +3628,7 @@ agitators_election_events.28 = {
 	
 	immediate = {
 		socdem_agitator_election_scope_effect = yes
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			save_scope_as = trade_union_ig
 		}
 	}
@@ -3913,7 +3913,7 @@ agitators_election_events.31 = {
 	option = {
 		name = agitators_election_events.31.c
 		trigger = {
-			has_technology_researched = behaviourism 
+			has_technology_researched = behaviorism 
 		}
 		highlighted_option = yes
 		scope:agitator_party_scope = {
@@ -4543,7 +4543,7 @@ agitators_election_events.36 = {
 			has_law = law_type:law_state_religion
 			has_law = law_type:law_freedom_of_conscience
 		}
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			is_marginal = no
 		}
 	}
@@ -4562,7 +4562,7 @@ agitators_election_events.36 = {
 	
 	immediate = {
 		conservative_agitator_election_scope_effect = yes
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			save_scope_as = devout_ig
 		}
 	}
@@ -4589,7 +4589,7 @@ agitators_election_events.36 = {
 	option = {
 		name = agitators_election_events.36.c
 		trigger = {
-			ig:ig_devout = {
+			ig:ig_theocratic = {
 				has_party = no
 			}
 		}
@@ -4661,15 +4661,15 @@ agitators_election_events.37 = {
 						has_ideology = ideology:ideology_radical
 					}
 				}
-				ig:ig_rural_folk = {
+				ig:ig_agrarian = {
 					is_powerful = yes
 					is_in_government = yes
 				}
-				ig:ig_intelligentsia = {
+				ig:ig_rationalist = {
 					is_powerful = yes
 					is_in_government = yes
 				}
-				ig:ig_trade_unions = {
+				ig:ig_egalitarian = {
 					is_powerful = yes
 					is_in_government = yes
 				}
@@ -4721,23 +4721,23 @@ agitators_election_events.37 = {
 							}
 						}
 					}
-					ig:ig_rural_folk = {
+					ig:ig_agrarian = {
 						is_powerful = yes
 						is_in_government = yes
 					}
-					ig:ig_intelligentsia = {
+					ig:ig_rationalist = {
 						is_powerful = yes
 						is_in_government = yes
 					}
-					ig:ig_trade_unions = {
+					ig:ig_egalitarian = {
 						is_powerful = yes
 						is_in_government = yes
 					}
 					NOR = {
-						ig:ig_landowners = {
+						ig:ig_elitist = {
 							is_in_government = yes
 						}
-						ig:ig_devout = {
+						ig:ig_theocratic = {
 							is_in_government = yes
 						}
 					}
@@ -5029,7 +5029,7 @@ agitators_election_events.39 = {
 		any_active_party = {
 			is_party_type = conservative_party
 		}
-		ig:ig_rural_folk = {
+		ig:ig_agrarian = {
 			leader = {
 				NOR = {
 					has_ideology = ideology:ideology_communist
@@ -5054,7 +5054,7 @@ agitators_election_events.39 = {
 	
 	immediate = {
 		conservative_agitator_election_scope_effect = yes
-		ig:ig_rural_folk = {
+		ig:ig_agrarian = {
 			save_scope_as = rf_scope
 			leader = {
 				save_scope_as = rf_leader_scope
@@ -5289,7 +5289,7 @@ agitators_election_events.41 = {
 		capital = {
 			save_scope_as = capital_scope
 		}
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			save_scope_as = devout_ig
 		}
 	}
@@ -5307,7 +5307,7 @@ agitators_election_events.41 = {
 				is_decaying = yes
 			}
 		}
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			add_modifier = {
 				name = modifier_radical_prescription_devout
 				months = short_modifier_time
@@ -5326,7 +5326,7 @@ agitators_election_events.41 = {
 				months = normal_modifier_time
 			}
 		}
-		ig:ig_devout = {
+		ig:ig_theocratic = {
 			add_modifier = {
 				name = modifier_radical_prescription_denied_devout
 				months = short_modifier_time
@@ -5376,7 +5376,7 @@ agitators_election_events.42 = {
 		any_scope_character = {
 			has_role = agitator
 			NOT = {
-				is_interest_group_type = ig_intelligentsia
+				is_interest_group_type = ig_rationalist
 			}
 			OR = {
 				has_ideology = ideology:ideology_radical
@@ -5416,7 +5416,7 @@ agitators_election_events.42 = {
 		ruler = {
 			save_scope_as = monarch_scope
 		}
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			save_scope_as = intelligentsia_ig
 		}
 	}
@@ -5444,7 +5444,7 @@ agitators_election_events.42 = {
 
 	option = {
 		name = agitators_election_events.42.c
-		ig:ig_intelligentsia = {
+		ig:ig_rationalist = {
 			add_modifier = {
 				name = modifier_agitator_hates_the_monarchy_ig
 				months = normal_modifier_time
@@ -5452,7 +5452,7 @@ agitators_election_events.42 = {
 		}
 		if = {
 			limit = {
-				NOT = { scope:agitator_scope.interest_group = ig:ig_intelligentsia }
+				NOT = { scope:agitator_scope.interest_group = ig:ig_rationalist }
 			}
 			scope:agitator_scope.interest_group = {
 				add_modifier = {
@@ -5566,7 +5566,7 @@ agitators_election_events.43 = {
 			}
 			save_scope_as = discriminated_culture_scope
 		}
-		ig:ig_petty_bourgeoisie = {
+		ig:ig_market_liberal = {
 			save_scope_as = pb_scope
 		}
 	}
@@ -5983,7 +5983,7 @@ agitators_election_events.46 = {
 	
 	immediate = {
 		free_trade_agitator_election_scope_effect = yes
-		ig:ig_industrialists = {
+		ig:ig_plutocratic = {
 			save_scope_as = industrialists_ig
 		}
 	}
@@ -6203,7 +6203,7 @@ agitators_election_events.48 = {
 		any_active_party = {
 			is_party_type = free_trade_party
 		}
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			is_marginal = no
 			has_party = yes
 			trigger_if = {
@@ -6238,7 +6238,7 @@ agitators_election_events.48 = {
 	
 	immediate = {
 		free_trade_agitator_election_scope_effect = yes
-		ig:ig_armed_forces = {
+		ig:ig_expansionist = {
 			save_scope_as = armed_forces_ig
 			party = {
 				save_scope_as = armed_forces_party
@@ -6246,7 +6246,7 @@ agitators_election_events.48 = {
 		}
 		random_scope_character = {
 			limit = {
-				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_expansionist
 			}
 			save_scope_as = armed_forces_char
 		}
@@ -6340,7 +6340,7 @@ agitators_election_events.49 = {
 		any_active_party = {
 			is_party_type = free_trade_party
 		}
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			is_marginal = no
 		}
 	}
@@ -6359,7 +6359,7 @@ agitators_election_events.49 = {
 	
 	immediate = {
 		free_trade_agitator_election_scope_effect = yes
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			save_scope_as = trade_unions_ig
 			leader = {
 				save_scope_as = trade_union_leader_scope
@@ -6464,7 +6464,7 @@ agitators_election_events.50 = {
 	
 	immediate = {
 		free_trade_agitator_election_scope_effect = yes
-		ig:ig_trade_unions = {
+		ig:ig_egalitarian = {
 			save_scope_as = trade_unions_ig
 			leader = {
 				save_scope_as = trade_union_leader_scope
@@ -6502,7 +6502,7 @@ agitators_election_events.50 = {
 				has_law = law_type:law_compulsory_education_to_twelve
 				has_law = law_type:law_compulsory_education_to_sixteen
 				}
-			ig:ig_trade_unions = {
+			ig:ig_egalitarian = {
 				is_marginal = no
 			}
 		}

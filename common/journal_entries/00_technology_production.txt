@@ -455,9 +455,9 @@ je_railroads = {
 				}
 				percent > 0.2
 				OR = {
-				    has_active_production_method = pm_rail_transport_mine
-				    has_active_production_method = pm_rail_transport_building_logging_camp
-				    has_active_production_method = pm_rail_transport_building_oil_rig
+				    has_active_production_method = pm_ore_vanning_base_mine
+				    has_active_production_method = pm_logging_trucks
+				    has_active_production_method = pm_tanker_railcars
                 }
 				occupancy >= 0.75
 			}
@@ -491,7 +491,7 @@ je_railroads = {
 					}
 				}
 				percent > 0.2
-				has_active_production_method = pm_steam_rail_transport
+				has_active_production_method = pm_rail_linkages
 				occupancy >= 0.75
 			}
 		}

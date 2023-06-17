@@ -105,11 +105,11 @@ ig_suppression_events.2 = { #scandal / es can da lo es un escandalo
 			OR = {
 				has_law = law_type:law_secret_police
 				AND = {
-					ig:ig_intelligentsia = {
+					ig:ig_rationalist = {
 						is_powerful = yes
 					}
 					scope:target = {
-						is_interest_group_type = ig_intelligentsia
+						is_interest_group_type = ig_rationalist
 					}
 				}
 			}
@@ -304,10 +304,10 @@ ig_suppression_events.3 = { #make them step down
 		if = {
 			limit = {
 				scope:target = {
-					NOT = { is_interest_group_type = ig_armed_forces }
+					NOT = { is_interest_group_type = ig_expansionist }
 				}
 			}
-			ig:ig_armed_forces = {
+			ig:ig_expansionist = {
 				add_modifier = {
 					name = plot_backing_down_bad_modifier
 					months = normal_modifier_time
@@ -378,7 +378,7 @@ ig_suppression_events.4 = { #send them to jail
 			limit = {
 				NOR = {
 					has_law = law_type:law_censorship
-					has_law = law_type:law_militarized_police
+					has_law = law_type:law_paramilitary_force
 				}
 			}
 			add_modifier = {
@@ -416,10 +416,10 @@ ig_suppression_events.4 = { #send them to jail
 		if = {
 			limit = {
 				scope:target = {
-					NOT = { is_interest_group_type = ig_armed_forces }
+					NOT = { is_interest_group_type = ig_expansionist }
 				}
 			}
-			ig:ig_armed_forces = {
+			ig:ig_expansionist = {
 				add_modifier = {
 					name = plot_backing_down_bad_modifier
 					months = normal_modifier_time
@@ -460,7 +460,7 @@ ig_suppression_events.5 = { #break into an IG's meeting
 	trigger = {
 		#triggered by JE
 		OR = {
-			has_law = law_type:law_militarized_police
+			has_law = law_type:law_paramilitary_force
 			has_law = law_type:law_secret_police
 			NOT = { has_law = law_type:law_right_of_assembly }
 		}
@@ -491,7 +491,7 @@ ig_suppression_events.5 = { #break into an IG's meeting
 	option = { #break by force
 		name = ig_suppression_events.5.b
 		trigger = {
-			has_law = law_type:law_militarized_police
+			has_law = law_type:law_paramilitary_force
 		}
 		capital = {
 			add_radicals_in_state = {
@@ -551,7 +551,7 @@ ig_suppression_events.6 = { #bribe an IG leader
 	trigger = {
 		#triggered by JE
 		OR = {
-			has_law = law_type:law_militarized_police
+			has_law = law_type:law_paramilitary_force
 			has_law = law_type:law_secret_police
 			institution_investment_level = {
 				institution = institution_police
@@ -716,7 +716,7 @@ ig_suppression_events.1000 = { #Write negative article about IG
 	option = { #Devout
 		name = ig_suppression_events.1000.a.1
 		trigger = {
-			scope:negative_article_ig = ig:ig_devout
+			scope:negative_article_ig = ig:ig_theocratic
 		}
 		add_modifier = {
 			name = modifier_paying_journalist
@@ -734,7 +734,7 @@ ig_suppression_events.1000 = { #Write negative article about IG
 	option = { #Rural Folk
 		name = ig_suppression_events.1000.a.2
 		trigger = {
-			scope:negative_article_ig = ig:ig_rural_folk
+			scope:negative_article_ig = ig:ig_agrarian
 		}
 		add_modifier = {
 			name = modifier_paying_journalist
@@ -752,7 +752,7 @@ ig_suppression_events.1000 = { #Write negative article about IG
 	option = { #Armed Forces
 		name = ig_suppression_events.1000.a.3
 		trigger = {
-			scope:negative_article_ig = ig:ig_armed_forces
+			scope:negative_article_ig = ig:ig_expansionist
 		}
 		add_modifier = {
 			name = modifier_paying_journalist
@@ -770,7 +770,7 @@ ig_suppression_events.1000 = { #Write negative article about IG
 	option = { #industrialists
 		name = ig_suppression_events.1000.a.4
 		trigger = {
-			scope:negative_article_ig = ig:ig_industrialists
+			scope:negative_article_ig = ig:ig_plutocratic
 		}
 		add_modifier = {
 			name = modifier_paying_journalist
@@ -789,10 +789,10 @@ ig_suppression_events.1000 = { #Write negative article about IG
 		name = ig_suppression_events.1000.a
 		trigger = {
 			OR = {
-				scope:negative_article_ig = ig:ig_landowners
-				scope:negative_article_ig = ig:ig_petty_bourgeoisie
-				scope:negative_article_ig = ig:ig_trade_unions
-				scope:negative_article_ig = ig:ig_intelligentsia
+				scope:negative_article_ig = ig:ig_elitist
+				scope:negative_article_ig = ig:ig_market_liberal
+				scope:negative_article_ig = ig:ig_egalitarian
+				scope:negative_article_ig = ig:ig_rationalist
 			}
 		}
 		add_modifier = {
@@ -1019,10 +1019,10 @@ ig_suppression_events.1003 = { #Assassinate an Ig leader
 		if = {
 			limit = {
 				scope:target = {
-					NOT = { is_interest_group_type = ig_armed_forces }
+					NOT = { is_interest_group_type = ig_expansionist }
 				}
 			}
-			ig:ig_armed_forces = {
+			ig:ig_expansionist = {
 				add_modifier = {
 					name = plot_backing_down_bad_modifier
 					months = normal_modifier_time

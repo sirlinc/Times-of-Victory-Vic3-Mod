@@ -6,7 +6,7 @@
     female = no
     religion = protestant
     ideology = ideology_traditionalist
-    interest_group = ig_rural_folk
+    interest_group = ig_agrarian
     birth_date = 1825.10.10
     traits = {
         pious
@@ -19,9 +19,9 @@
         interest_group_trigger = {
             is_marginal = no
             OR = {
-                is_interest_group_type = ig_rural_folk
-                is_interest_group_type = ig_landowners
-                is_interest_group_type = ig_petty_bourgeoisie
+                is_interest_group_type = ig_agrarian
+                is_interest_group_type = ig_elitist
+                is_interest_group_type = ig_market_liberal
             }
         }
         earliest_usage_date = 1852.1.1

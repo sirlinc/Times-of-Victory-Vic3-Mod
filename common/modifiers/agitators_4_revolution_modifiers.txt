@@ -25,7 +25,7 @@ modifier_dual_power_state_occupied = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
 	state_mortality_turmoil_mult = 0.10
 	state_turmoil_effects_mult = -0.25
-	interest_group_ig_armed_forces_pol_str_mult = 0.5
+	interest_group_ig_expansionist_pol_str_mult = 0.5
 }
 
 modifier_dual_power_country = {
@@ -159,7 +159,7 @@ modifier_civil_demonstrations = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
 	state_mortality_turmoil_mult = -0.15
 	state_turmoil_effects_mult = -0.25
-	interest_group_ig_armed_forces_pol_str_mult = -0.10
+	interest_group_ig_expansionist_pol_str_mult = -0.10
 }
 
 modifier_refused_overtures = {
@@ -316,7 +316,7 @@ modifier_movement_putsch_averted = {
 
 modifier_minor_royal_assassinated = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
-	interest_group_ig_landowners_pol_str_mult = -0.20
+	interest_group_ig_elitist_pol_str_mult = -0.20
 }
 
 modifier_ignored_assassination = {
@@ -326,7 +326,7 @@ modifier_ignored_assassination = {
 
 modifier_state_of_mourning = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
-	interest_group_ig_landowners_pol_str_mult = -0.10
+	interest_group_ig_elitist_pol_str_mult = -0.10
 	country_bureaucracy_mult = -0.05
 	building_throughput_mult = -0.03
 }
@@ -499,7 +499,7 @@ modifier_arrested_landlords_for_collusion = {
 
 modifier_arrested_landlords_exortion = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
-	interest_group_ig_rural_folk_approval_add = 2
+	interest_group_ig_agrarian_approval_add = 2
 	building_group_bg_plantations_throughput_mult = -0.10
 }
 
@@ -511,8 +511,8 @@ modifier_light_rent_controls = {
 modifier_replacing_false_reports = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
 	state_radicals_from_sol_change_mult = 0.10
-	interest_group_ig_intelligentsia_approval_add = 3
-	interest_group_ig_industrialists_approval_add = 3
+	interest_group_ig_rationalist_approval_add = 3
+	interest_group_ig_plutocratic_approval_add = 3
 }
 
 modifier_fraud_false_reports = {
@@ -539,7 +539,7 @@ modifier_armed_forces_farm_seizures = {
 modifier_foreign_food_aid = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
 	country_trade_route_imports_add = 10
-	interest_group_ig_industrialists_approval_add = 2
+	interest_group_ig_plutocratic_approval_add = 2
 }
 
 modifier_local_farm_shutdowns_with_substinence = {
@@ -557,7 +557,7 @@ modifier_unp_barracks_malus = {
 
 modifier_militarised_police_force = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
-	interest_group_ig_armed_forces_approval_add = 3
+	interest_group_ig_expansionist_approval_add = 3
 	state_pop_support_law_paramilitary_force_mult = 0.05
 	state_mortality_turmoil_mult = 0.10
 	state_turmoil_effects_mult = -0.35

@@ -189,7 +189,7 @@ anarchy.2 = {
 			limit = {
 				any_interest_group = {
 					law_stance = {
-						law = law_type:law_dedicated_police
+						law = law_type:law_regulated_police_force
 						value > neutral
 					}
 				}
@@ -198,7 +198,7 @@ anarchy.2 = {
 				limit = {
 					is_marginal = no
 					law_stance = {
-						law = law_type:law_dedicated_police
+						law = law_type:law_regulated_police_force
 						value > neutral
 					}
 				}
@@ -330,7 +330,7 @@ anarchy.3 = {
 	
 	trigger = {
 		is_enacting_law = law_type:law_anarchy
-		ig:ig_rural_folk = {
+		ig:ig_agrarian = {
 			is_marginal = no
 		}
 		NOT = {
@@ -341,11 +341,11 @@ anarchy.3 = {
 	immediate = {
 		create_character = {
 			ig_leader = yes
-			interest_group = ig_rural_folk
+			interest_group = ig_agrarian
 			female = no
 			ideology = ideology_anarchist
 		}
-		ig:ig_rural_folk = {
+		ig:ig_agrarian = {
 			save_scope_as = farmer_ig
 			leader = { save_scope_as = anarchist_farmer }
 		}

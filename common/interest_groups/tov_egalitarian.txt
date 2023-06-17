@@ -5,12 +5,7 @@
 	ideologies = { ideology_egalitarian }
 
 	enable = {
-		trigger_if = {
-			#limit = { 
-			#	has_variable = discovered_rationalism
-			#}
-			has_technology_researched = classical_liberalism 
-		}
+			always = yes
 	}
 	
 	traits = {}	
@@ -223,6 +218,19 @@
 				min = 0
 			}
 		}
+		multiply = {
+			desc = "NO_EGALITARIANISM"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						NOT = { has_technology_researched = egalitarianism }
+					}
+				}
+				value = 0
+			}		
+		}		
 	}
 
 	monarch_weight = {

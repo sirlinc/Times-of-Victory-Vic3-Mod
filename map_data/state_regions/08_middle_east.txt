@@ -473,6 +473,7 @@ STATE_TABRIZ = {
     capped_resources = {
         bg_coal_mining = 40
         bg_logging = 7
+        bg_kaolin_mining = 5
     }
 }
 
@@ -544,6 +545,7 @@ STATE_KONYA = {
     capped_resources = {
         bg_logging = 4
         bg_fishing = 6
+        bg_kaolin_mining = 6
     }
     naval_exit_id = 3034
 }

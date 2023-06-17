@@ -108,9 +108,6 @@ opium_wars.1 = {
 			name = opium_wars_completion_tracker
 			value = 0
 		}
-		add_journal_entry = {
-			type = je_opium_obsession
-		}
 		# send events to all applicable powers
 			# can't just use the scope because we want to catch multiple countries if we can
 		random_market = {

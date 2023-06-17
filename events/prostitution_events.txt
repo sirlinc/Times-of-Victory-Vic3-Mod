@@ -12,7 +12,7 @@ prostitution.1 = {
 				trigger = {
 					NOT = {
 						scope:cda_ig = {
-							is_interest_group_type = ig_armed_forces
+							is_interest_group_type = ig_expansionist
 						}
 					}
 				}
@@ -21,7 +21,7 @@ prostitution.1 = {
 				desc = prostitution.1.d2
 				trigger = {
 					scope:cda_ig = {
-						is_interest_group_type = ig_armed_forces
+						is_interest_group_type = ig_expansionist
 					}
 				}
 			}
@@ -61,8 +61,8 @@ prostitution.1 = {
 				}
 				AND = {
 					OR = {
-						is_interest_group_type = ig_devout
-						is_interest_group_type = ig_armed_forces
+						is_interest_group_type = ig_theocratic
+						is_interest_group_type = ig_expansionist
 					}
 					NOT = {
 						leader = {
@@ -98,8 +98,8 @@ prostitution.1 = {
 					}
 					AND = {
 						OR = {
-							is_interest_group_type = ig_devout
-							is_interest_group_type = ig_armed_forces
+							is_interest_group_type = ig_theocratic
+							is_interest_group_type = ig_expansionist
 						}
 						NOT = {
 							leader = {
@@ -255,8 +255,8 @@ prostitution.2 = {
 						}
 						AND = {
 							OR = {
-								is_interest_group_type = ig_devout
-								is_interest_group_type = ig_armed_forces
+								is_interest_group_type = ig_theocratic
+								is_interest_group_type = ig_expansionist
 							}
 							NOT = {
 								leader = {
@@ -275,8 +275,8 @@ prostitution.2 = {
 						}
 						AND = {
 							OR = {
-								is_interest_group_type = ig_devout
-								is_interest_group_type = ig_armed_forces
+								is_interest_group_type = ig_theocratic
+								is_interest_group_type = ig_expansionist
 							}
 							NOT = {
 								leader = {
@@ -344,10 +344,10 @@ prostitution.3 = {
 		any_interest_group = {
 			is_in_government = yes
 			OR = {
-				is_interest_group_type = ig_devout
-				is_interest_group_type = ig_industrialists
-				is_interest_group_type = ig_landowners
-				is_interest_group_type = ig_petty_bourgeoisie
+				is_interest_group_type = ig_theocratic
+				is_interest_group_type = ig_plutocratic
+				is_interest_group_type = ig_elitist
+				is_interest_group_type = ig_market_liberal
 			}
 			leader = {
 				NOT = {
@@ -373,10 +373,10 @@ prostitution.3 = {
 			limit = {
 				is_in_government = yes
 				OR = {
-					is_interest_group_type = ig_devout
-					is_interest_group_type = ig_industrialists
-					is_interest_group_type = ig_landowners
-					is_interest_group_type = ig_petty_bourgeoisie
+					is_interest_group_type = ig_theocratic
+					is_interest_group_type = ig_plutocratic
+					is_interest_group_type = ig_elitist
+					is_interest_group_type = ig_market_liberal
 				}
 				leader = {
 					NOT = {
