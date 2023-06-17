@@ -8,7 +8,7 @@ pm_manual_sorting_base_mine = {
 		level_scaled = {
 			building_employment_laborers_add = 4500
 		}
-		unscaled = {
+		workforce_scaled = {
 			building_throughput_mult = -0.1
 		}
 	}	
@@ -24,7 +24,7 @@ pm_arrastras_base_mine = {
 		
 	building_modifiers = {
 		workforce_scaled = {				
-				building_input_tools_add = 1
+				building_input_tools_add = 3
 			}
 
 		level_scaled = {
@@ -43,14 +43,12 @@ pm_stamp_mills_base_mine = {
 		
 	building_modifiers = {
 		workforce_scaled = {				
-				building_input_tools_add = 3
+				building_input_tools_add = 5
+				building_throughput_mult = 0.05
 			}
 
 		level_scaled = {
 			building_employment_laborers_add = 3900
-		}
-		unscaled = {
-			building_throughput_mult = 0.05
 		}
 	}
 }
@@ -65,16 +63,15 @@ pm_newcomen_engine_base_mine = {
 		
 	building_modifiers = {
 		workforce_scaled = {				
-				building_input_tools_add = 4
-				building_input_coal_add = 1
-
+				building_input_tools_add = 5
+				building_input_coal_add = 5
+				building_throughput_mult = 0.1
 			}
 
 		level_scaled = {
 			building_employment_laborers_add = 3400
 		}
 		unscaled = {
-			building_throughput_mult = 0.1
 		}
 	}
 }
@@ -89,16 +86,14 @@ pm_ore_vanning_base_mine = {
 		
 	building_modifiers = {
 		workforce_scaled = {				
-				building_input_machined_parts_add = 1
-				building_input_coal_add = 3
+				building_input_machined_parts_add = 3
+				building_input_coal_add = 10
+				building_throughput_mult = 0.15
 
 			}
 
 		level_scaled = {
 			building_employment_laborers_add = 2900
-		}
-		unscaled = {
-			building_throughput_mult = 0.15
 		}
 	}
 }
@@ -113,16 +108,15 @@ pm_flameless_lights_base_mine = {
 
 	building_modifiers = {
 		workforce_scaled = {				
-				building_input_machined_parts_add = 3
-				building_input_electricity_add = 3
-
+				building_input_machined_parts_add = 5
+				building_input_electricity_add = 10
+				building_throughput_mult = 0.2
 			}
 
 		level_scaled = {
 			building_employment_laborers_add = 2400
 		}
 		unscaled = {
-			building_throughput_mult = 0.2
 			building_laborers_mortality_mult = -0.05
 		}
 	}
@@ -138,16 +132,16 @@ pm_electrostatic_separator_base_mine = {
 
 	building_modifiers = {
 		workforce_scaled = {				
-			building_input_machined_parts_add = 3
-			building_input_electricity_add = 5
-			building_input_chemicals_add = 2			
+			building_input_machined_parts_add = 5
+			building_input_electricity_add = 15
+			building_input_chemicals_add = 5	
+			building_throughput_mult = 0.25		
 			}
 
 		level_scaled = {
 			building_employment_laborers_add = 1900
 		}
 		unscaled = {
-			building_throughput_mult = 0.25
 			building_laborers_mortality_mult = -0.05
 		}
 	}
@@ -1745,11 +1739,8 @@ pm_shuttle_kilns_kaolin_mine = {
 		workforce_scaled = {				
 				building_input_tools_add = 5
 				building_input_coal_add = 5
-
+				building_throughput_mult = 0.1
 			}
-		unscaled = {
-			building_throughput_mult = 0.1
-		}
 	}
 }
 
@@ -1765,11 +1756,8 @@ pm_gas_fired_kilns_kaolin_mine = {
 		workforce_scaled = {				
 				building_input_tools_add = 5
 				building_input_coal_add = 10
-
+				building_throughput_mult = 0.2
 			}
-		unscaled = {
-			building_throughput_mult = 0.2
-		}
 	}
 }
 
@@ -1785,11 +1773,8 @@ pm_hoffmann_kilns_kaolin_mine = {
 		workforce_scaled = {				
 				building_input_tools_add = 10
 				building_input_fuel_oil_add = 10
-
+				building_throughput_mult = 0.3
 			}
-		unscaled = {
-			building_throughput_mult = 0.3
-		}
 	}
 }
 

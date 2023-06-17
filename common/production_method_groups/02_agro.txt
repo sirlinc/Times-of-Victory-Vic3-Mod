@@ -41,10 +41,11 @@ pmg_secondary_building_temperate_farmland = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
 		pm_no_secondary_yields_tef
-		pm_mulberry_groves_tef
-		pm_coppice_woodland_tef
+		pm_flax_and_hemp_fields_tef
 		pm_vineyards_tef
+		pm_coppice_woodland_tef
 		pm_tomato_greenhouses_tef
+		pm_sugarbeet_fields_tef
 	}
 }
 
@@ -77,9 +78,11 @@ pmg_secondary_building_tropical_farmland = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
 		pm_no_secondary_yields_trf
-		pm_cacao_plantations_trf
+		pm_jute_fields_trf
 		pm_tropical_dyes_trf
 		pm_palm_fermentation_trf
+		pm_cacao_plantations_trf
+		pm_hardwood_forestry_trf
 	}
 }
 
@@ -94,7 +97,7 @@ pmg_mechanization_tropical_farmland = {
 	}
 }
 
-#Monsoonal Farmland
+#Wetlands Farmland
 
 pmg_rice_yield_wetlands_farmland = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
@@ -113,6 +116,8 @@ pmg_secondary_building_wetlands_farmland = {
 	production_methods = {
 		pm_no_secondary_yields_wef
 		pm_jute_plantations_wef
+		pm_pepper_plantations_wef
+		pm_wetlands_clay_wef
 		pm_rice_fish_aquaculture_wef
 		pm_rice_triple_cropping_wef
 	}
@@ -147,9 +152,10 @@ pmg_secondary_building_arid_farmland = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
 		pm_no_secondary_yields_arf
-		pm_coffee_plantations_arf
-		pm_fig_tree_orchards_arf
+		pm_raffia_palm_groves_arf
 		pm_vineyards_arf
+		pm_fig_tree_orchards_arf
+		pm_coffee_plantations_arf
 	}
 }
 
@@ -191,7 +197,7 @@ pmg_horses_base_pasture = {
 pmg_tanneries_base_pasture = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
-		pm_no_secondary_pasture
+		pm_natural_hides
 		pm_vegetable_tannins
 		pm_dyed_hides
 		pm_collagen_glue_factories

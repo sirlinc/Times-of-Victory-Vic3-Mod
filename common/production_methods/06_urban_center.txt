@@ -754,15 +754,13 @@ pm_apolitical = {
 
     building_modifiers = {
         workforce_scaled = {
-            
+        building_throughput_mult = 0.1           
             
         }
 
-        level_scaled = {
-            
+        level_scaled = {          
         }
         unscaled = {
-            building_throughput_mult = 0.1
         }
     }
 }

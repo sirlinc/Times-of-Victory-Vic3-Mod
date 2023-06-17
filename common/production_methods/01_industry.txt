@@ -8,7 +8,7 @@ pm_manual_labour = {
 		level_scaled = {
 			building_employment_laborers_add = 4500
 		}
-		unscaled = {
+		workforce_scaled = {
 			building_throughput_mult = -0.1
 		} 
 	}
@@ -37,15 +37,12 @@ pm_rotating_mills = {
 		workforce_scaled = {												
 			building_input_wood_add = 10	
 			building_input_horses_add = 5
+            building_throughput_mult = 0.05
 		}
         level_scaled = {
 			building_employment_laborers_add = 4000
 			building_employment_machinists_add = 200
 		}
-		unscaled = {
-			building_throughput_mult = 0.05
-		}	
-    	
 	}
 }
 
@@ -61,14 +58,12 @@ pm_steam_engines = {
 		workforce_scaled = {								
 			building_input_iron_add = 10 
 			building_input_coal_add = 10
+            building_throughput_mult = 0.1
             }
             level_scaled = {
-			building_employment_laborers_add = 3500
+			building_employment_laborers_add = 3000
 			building_employment_machinists_add = 400
-		    }
-		unscaled = {
-			building_throughput_mult = 0.1
-		}		
+		    }		
 	}
 }
 
@@ -84,14 +79,14 @@ pm_rotary_valve_engine = {
 		workforce_scaled = {								
 			building_input_steel_add = 5 
 			building_input_coal_add = 15
+            building_throughput_mult = 0.15
         }
         level_scaled = {           
-			building_employment_laborers_add = 3000
-			building_employment_machinists_add = 600
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 800
 			building_employment_engineers_add = 100
 		}
 		unscaled = {
-			building_throughput_mult = 0.15
 		}		
 	}
 }
@@ -110,8 +105,8 @@ pm_petrol_engines = {
 			building_input_fuel_oil_add = 10
         }
         level_scaled = {
-			building_employment_laborers_add = 2250
-			building_employment_machinists_add = 900
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 1200
 			building_employment_engineers_add = 200
 		}
 		unscaled = {
@@ -135,8 +130,8 @@ pm_electronic_process_control = {
 			building_input_electricity_add = 15
         }
         level_scaled = {
-			building_employment_laborers_add = 1500
-			building_employment_machinists_add = 1200
+			building_employment_laborers_add = 750
+			building_employment_machinists_add = 1500
 			building_employment_engineers_add = 300
 		}
 		unscaled = {
@@ -1247,7 +1242,7 @@ basic_appliances = {
     building_modifiers = {
         workforce_scaled = {
             
-            building_throughput_mult_add = -0.1
+            building_throughput_mult = -0.1
         }
 
         level_scaled = {
@@ -1267,7 +1262,6 @@ oven_thermometers = {
         workforce_scaled = {
             building_input_tools_add = 2
 			building_input_coal_add = 5
-            building_throughput_mult_add = 0
         }
         level_scaled = {
             building_employment_laborers_add = 4000
@@ -1287,7 +1281,7 @@ gas_stoves = {
         workforce_scaled = {
             building_input_tools_add = 5
 			building_input_coal_add = 10
-            building_throughput_mult_add = 0.1
+            building_throughput_mult = 0.1
         }
 
         level_scaled = {
@@ -1308,7 +1302,7 @@ electric_mixers = {
         workforce_scaled = {
             building_input_tools_add = 10
 			building_input_electricity_add = 10
-            building_throughput_mult_add = 0.2
+            building_throughput_mult = 0.2
         }
 
         level_scaled = {
@@ -1329,7 +1323,7 @@ dishwashers = {
         workforce_scaled = {
             building_input_machined_parts_add = 5
 			building_input_electricity_add = 20
-            building_throughput_mult_add = 0.3
+            building_throughput_mult = 0.3
         }
 
         level_scaled = {

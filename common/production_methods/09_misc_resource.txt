@@ -134,7 +134,7 @@ pm_manual_hauling = {
 	texture = "gfx/interface/icons/production_method_icons/no_hauling.dds"
 
 	building_modifiers = {
-		unscaled = {
+		workforce_scaled = {
 			building_throughput_mult = -0.1
 		}
 	}
@@ -148,11 +148,8 @@ pm_skid_trails = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_tools_add = 1
-			building_input_horses_add = 1
-		}
-
-		unscaled = {
+			building_input_tools_add = 3
+			building_input_horses_add = 3
 			building_throughput_mult = 0.05
 		}
 	}
@@ -166,12 +163,13 @@ pm_log_flumes = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_tools_add = 2
-			building_input_horses_add = 2
+			building_input_tools_add = 5
+			building_input_horses_add = 5
+			building_throughput_mult = 0.1
 		}
 
 		unscaled = {
-			building_throughput_mult = 0.1
+
 		}
 	}
 }
@@ -184,12 +182,12 @@ pm_steam_donkey = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_tools_add = 3
-			building_input_coal_add = 3
+			building_input_tools_add = 5
+			building_input_coal_add = 10
+			building_throughput_mult = 0.2
 		}
 
 		unscaled = {
-			building_throughput_mult = 0.2
 		}
 	}
 }
@@ -202,12 +200,12 @@ pm_logging_trucks = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_automobiles_add = 1
-			building_input_fuel_oil_add = 4
+			building_input_automobiles_add = 3
+			building_input_fuel_oil_add = 10
+			building_throughput_mult = 0.3
 		}
 
 		unscaled = {
-			building_throughput_mult = 0.3
 		}
 	}
 }

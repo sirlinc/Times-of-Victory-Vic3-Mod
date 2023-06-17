@@ -956,3 +956,15 @@ pm_no_explosives_tov: "今天没有爆炸物"
 pm_nitroglycerin: "硝化甘油"
 pm_dynamite: "炸药"
 pm_trinitrotoluene: "三硝基甲苯"
+
+
+#Unsorted 0.2 Additions
+
+pm_natural_hides: "天然皮革"
+pm_flax_and_hemp_fields_tef: "亚麻和大麻田"
+pm_sugarbeet_fields_tef: "甜菜田"
+pm_jute_fields_trf: "黄麻田"
+pm_hardwood_forestry_trf: "硬木林业"
+pm_raffia_palm_groves_arf: "拉菲亚棕榈林"
+pm_pepper_plantations_wef: "胡椒种植园"
+pm_wetlands_clay_wef: "湿地粘土"

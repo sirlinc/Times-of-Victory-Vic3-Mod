@@ -943,3 +943,14 @@ pm_no_explosives_tov: "本日は爆薬無し"
 pm_nitroglycerin: "ニトログリセリン"
 pm_dynamite: "ダイナマイト"
 pm_trinitrotoluene: "トリニトロトルエン"
+
+#unsorted 0.2 Additions
+
+pm_natural_hides: "天然の皮革"
+pm_flax_and_hemp_fields_tef: "亜麻と麻の畑"
+pm_sugarbeet_fields_tef: "テンサイ畑"
+pm_jute_fields_trf: "ジュートの畑"
+pm_hardwood_forestry_trf: "堅木材林業"
+pm_raffia_palm_groves_arf: "ラフィアヤシの木立"
+pm_pepper_plantations_wef: "コショウ農園"
+pm_wetlands_clay_wef: "湿地の粘土"

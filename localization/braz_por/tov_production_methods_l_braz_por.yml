@@ -948,3 +948,15 @@ pm_no_explosives_tov: "Sem Explosivos Hoje"
 pm_nitroglycerin: "Nitroglicerina"
 pm_dynamite: "Dinamite"
 pm_trinitrotoluene: "Trinitrotolueno"
+
+
+#Unsorted 0.2 Additions
+
+pm_natural_hides: "Couro Natural"
+pm_flax_and_hemp_fields_tef: "Campos de Linho e Cânhamo"
+pm_sugarbeet_fields_tef: "Campos de Beterraba"
+pm_jute_fields_trf: "Campos de Juta"
+pm_hardwood_forestry_trf: "Silvicultura de Madeira Dura"
+pm_raffia_palm_groves_arf: "Bosques de Palmeira Ráfia"
+pm_pepper_plantations_wef: "Plantações de Pimenta"
+pm_wetlands_clay_wef: "Argila de Zonas Úmidas"

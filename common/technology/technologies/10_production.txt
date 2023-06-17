@@ -311,7 +311,7 @@ paved_roads = {
 	}
 	
 	unlocking_technologies = {	
-		engineering_theory
+		earthworks
 	}
 	ai_weight = {
 		value = 1
@@ -434,20 +434,20 @@ tool_specialization = {
 	
 	unlocking_technologies = {	
 		zinc_alloys
-		paved_roads
+		earthworks
 	}
 	ai_weight = {
 		value = 1
 	}
 }
 
-land_reclamation = {
+earthworks = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/trench_works.dds"
 	category = production
 	
 	unlocking_technologies = {
-		paved_roads
+		engineering_theory
 	}
 	ai_weight = {
 		value = 1
@@ -521,6 +521,7 @@ atmospheric_engine = {
 	unlocking_technologies = {	
 		tool_specialization
 		pot_stills
+		paved_roads
 	}
 	ai_weight = {
 		value = 1
