@@ -48,11 +48,6 @@
 			25 = { set_strategy = ai_strategy_progressive_agenda }
 		}
 	}	
-	c:FIN = {
-		set_strategy = ai_strategy_resource_expansion	
-		set_strategy = ai_strategy_maintain_power_balance
-		set_strategy = ai_strategy_conservative_agenda
-	}	
 	c:AUS = {
 		random_list = {	
 			50 = { set_strategy = ai_strategy_agricultural_expansion }

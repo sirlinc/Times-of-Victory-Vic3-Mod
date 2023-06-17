@@ -18,7 +18,7 @@
 	}
 
 	possible = {
-		has_technology_researched = national_mythos
+		has_technology_researched = the_nation_state
 		any_country = {
 			custom_tooltip = {
 				text = at_peace_nocontext_tt
@@ -71,7 +71,7 @@ sell_savoy = {
 	}
 
 	possible = {
-		has_technology_researched = national_mythos
+		has_technology_researched = the_nation_state
 		c:FRA = {
 			is_at_war = no
 			owns_entire_state_region = STATE_RHONE

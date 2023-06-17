@@ -18,7 +18,7 @@ pmg_performed_culture = {
 		pm_traditional_art
 		pm_piano_compositions
 		pm_symphony_orchestras
-		pm_deguerrotypes
+		pm_daguerrotypes
 		pm_motion_pictures
 		pm_theatre_realism
 	}

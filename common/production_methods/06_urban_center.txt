@@ -482,7 +482,7 @@ pm_symphony_orchestras = {
     }
 }
 
-pm_deguerrotypes = {
+pm_daguerrotypes = {
     texture = "gfx/interface/icons/production_method_icons/photographic_art.dds"
 
     unlocking_technologies = {

@@ -1,7 +1,7 @@
 ﻿niger_river_expedition = {
 	is_shown = {
 		NOT = {  has_variable = on_expedition }	
-		has_technology_researched = scientific_expeditions
+		has_technology_researched = medical_professionalism
 		NOT = { has_global_variable = niger_river_explored }
 		OR = {
 			is_ai = no
@@ -12,7 +12,7 @@
 	possible = {
 		is_at_war = no
 		has_interest_marker_in_region = region_niger
-		has_technology_researched = scientific_expeditions
+		has_technology_researched = social_sciences
 		any_scope_character = {
 			OR = {
 				has_role = general
@@ -23,10 +23,19 @@
 	}
 
 	when_taken = {
-		trigger_event = { id = expedition_events.1 popup = yes }
-		set_variable = {
-			name = on_expedition
-			value = yes
+		if = {
+			limit = {
+				is_player = yes
+			}
+			trigger_event = { id = expedition_events.1 popup = yes }
+			set_variable = {
+				name = on_expedition
+				value = yes
+			}
+		}
+		else = {
+			set_variable = AI_EXPEDITION_NIGER
+			ai_expedition_simulator_start = yes
 		}
 		hidden_effect = {
 			set_variable = {
