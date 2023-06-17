@@ -471,12 +471,7 @@
 		}
 	}
 	s:STATE_ALAND={
-		region_state:FIN={
-			create_building={
-				building="building_fishing_wharf"
-				level=1
-				reserves=1
-			}
+		region_state:SWE={
 		}
 	}
 	s:STATE_OSTROBOTHNIA={

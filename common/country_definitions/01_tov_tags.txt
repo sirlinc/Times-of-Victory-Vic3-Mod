@@ -71,16 +71,6 @@ YGH = { #Yaghan
 	cultures = { patagonian }
 	capital = STATE_PATAGONIA
 }
-ONA = { #Ona
-	color = { 224  163  255 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { patagonian }
-	capital = STATE_PATAGONIA
-}
 CHO = { #Chono
 	color = { 255  178  150 }
 	

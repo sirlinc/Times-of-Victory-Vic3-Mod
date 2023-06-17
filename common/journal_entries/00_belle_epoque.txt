@@ -40,7 +40,7 @@
 			any_scope_building = {
 				is_building_type = building_arts_academy
 				level >= 3
-				has_active_production_method = pm_deguerrotypes
+				has_active_production_method = pm_daguerrotypes
 			}
 		}
 		

@@ -3,7 +3,7 @@
 		exists = c:RUS
 		c:RUS = ROOT
 		is_subject = no
-		has_technology_researched = manifest_destiny
+		has_technology_researched = nationalism
 		NOR = { 
 			owns_entire_state_region = STATE_OUTER_MANCHURIA 
 			has_global_variable = rus_bought_outer_manchuria
@@ -98,7 +98,7 @@ russia_chuguchak_protocol = {
 		exists = c:RUS 
 		c:RUS = ROOT
 		is_subject = no
-		has_technology_researched = manifest_destiny
+		has_technology_researched = nationalism
 		NOT = { 
 			owns_entire_state_region = STATE_TOMSK
 			owns_entire_state_region = STATE_JETISY 

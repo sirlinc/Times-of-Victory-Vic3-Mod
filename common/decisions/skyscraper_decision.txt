@@ -1,7 +1,7 @@
 ﻿skyscraper_decision = {
 	is_shown = {
 		has_technology_researched = steel_frame_buildings
-		has_technology_researched = reinforced_concrete
+		has_technology_researched = electric_arc_furnace
 		NOT = {
 			any_scope_building = {
 				is_building_type = building_skyscraper

@@ -80,7 +80,7 @@ camera_film_pm_events.2 = {
 			limit = {
 				any_scope_building = {
 					is_building_type = building_arts_academy
-					has_active_production_method = pm_film_art
+					has_active_production_method = pm_motion_pictures
 				}
 			}
 			save_scope_as = arts_academy_state

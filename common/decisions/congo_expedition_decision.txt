@@ -1,8 +1,8 @@
 ﻿congo_river_expedition = {
 	is_shown = {		
 		NOT = { has_variable = on_expedition }		
-		has_technology_researched = scientific_expeditions
-		NOT = { has_global_variable = congo_river_explored }
+		has_technology_researched = colonization
+		NOT = { has_global_variable = research_departments }
 		OR = {
 			is_ai = no
 			NOT = { has_variable = ai_expedition_cooldown }
@@ -19,12 +19,24 @@
 			}	
 			count >= 3
 		}
-		has_technology_researched = scientific_expeditions
+		has_technology_researched = vaccination
 	}
 	
 	when_taken = {
-		trigger_event = { id = expedition_events.601 popup = yes }
-		set_variable = on_expedition
+		if = {
+			limit = {
+				is_player = yes
+			}
+			trigger_event = { id = expedition_events.601 popup = yes }
+			set_variable = {
+				name = on_expedition
+				value = yes
+			}
+		}
+		else = {
+			set_variable = AI_EXPEDITION_CONGO
+			ai_expedition_simulator_start = yes
+		}
 		hidden_effect = {
 			set_variable = {
 				name = ai_expedition_cooldown

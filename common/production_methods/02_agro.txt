@@ -1448,10 +1448,6 @@ pm_draft_breeds = {
 	}
 }
 
-unlocking_technologies = {
-	joint_stock_company
-}
-
 pm_baroque_breeds = {
 	texture = "gfx/interface/icons/production_method_icons/horses.dds"
 

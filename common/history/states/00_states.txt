@@ -3770,12 +3770,6 @@ STATES = {
 			}
 		}
 		create_state = {
-			country = c:ONA #Ona
-			owned_provinces = {
-				
-			}
-		}
-		create_state = {
 			country = c:YGH #Yaghan
 			owned_provinces = {	x06CB06 x1205C7 x350B0F x3618F8 xA8029D x9806EE x92226D x8D3309 xCC30AA x3F684C x706090 xEC5162 x977A70 xAB76FA x78955F xD88028 xB180F2 x06CB06 xCA8971 x5BA7C2 x1BC85D xFA990A xA5B2DA xB8B2B8 xD2DD34 x62F8C0 xB0E4AA x8DFAB2	}
 		}

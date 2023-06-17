@@ -11,9 +11,10 @@
         any_scope_building = { 
             is_building_type = building_arsenal
             OR = {
-                has_active_production_method = pm_rifles
-                has_active_production_method = pm_repeaters
+                has_active_production_method = pm_percussion_caps
+                has_active_production_method = pm_breech_loading_rifles
                 has_active_production_method = pm_bolt_action_rifles
+                has_active_production_method = pm_semi_automatic_firearms
             }
             level >= 3
             occupancy >= 0.75
