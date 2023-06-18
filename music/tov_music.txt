@@ -48,15 +48,15 @@
 }
 
 #WAR THEMES
-war_theme_confutatis_maledictis = {
-	music = "file:/music/tov_themes/confutatis_maledictis.mp3"
-	name = "war_theme_confutatis_maledictis"
-	pause_factor = 0
-	mood = yes
-	can_be_interrupted = no
-	
-	is_valid = {
-		is_at_war = yes
-		is_country_alive = yes
-	}
-}
+#	war_theme_confutatis_maledictis = {
+#	w	music = "file:/music/tov_themes/confutatis_maledictis.mp3"
+#	w	name = "war_theme_confutatis_maledictis"
+#	w	pause_factor = 0
+#	w	mood = yes
+#	w	can_be_interrupted = yes
+#	w	
+#	w	is_valid = {
+#	w		is_at_war = yes
+#	w		is_country_alive = yes
+#	w	}
+#	}

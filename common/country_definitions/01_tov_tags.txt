@@ -877,7 +877,8 @@ ZAP = { #Zaporozhian Cossacks
 	
 	tier = principality
 	
-	cultures = { tatar ukrainian }
+	cultures = { ukrainian }
+
 	capital = STATE_LUHANSK
 }
 
