@@ -33,6 +33,7 @@
 		"map_data/state_regions",
 		"localization/english/inventions_l_english.yml",
 		"localization/english/pop_types_l_english.yml",
+		"localization/english/states_l_english.yml",
 		"events"
 	]
   }

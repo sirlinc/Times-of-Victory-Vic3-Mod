@@ -743,17 +743,21 @@
 		}
 	}
 	s:STATE_BURGUNDY = {
-		region_state:FRA = {
+		region_state:SPA = {
 			create_pop = {
 				culture = french
 				size = 73257
 			}
 			create_pop = {
 				culture = francoprovencal
-				size = 76834
+				size = 66834
+			}
+			create_pop = {
+				culture = spanish
+				size = 6834
 			}
 		}
-		region_state:SPA = {
+		region_state:FRA = {
 			create_pop = {
 				culture = french
 				size = 455591
@@ -795,20 +799,12 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = francoprovencal
-				size = 92366
-			}
-			create_pop = {
-				culture = ashkenazi
-				size=7070
-			}
-			create_pop = {
-				culture = south_german
-				size = 10574
+				size = 22366
 			}
 		}
 		region_state:SPA = {
 			create_pop = {
-				culture = french
+				culture = francoprovencal
 				size = 104293
 			}
 			create_pop = {

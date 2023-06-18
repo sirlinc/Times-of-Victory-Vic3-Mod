@@ -326,11 +326,6 @@
 				level=3
 				reserves=1
 			}
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-			}
 		}
 	}
 	s:STATE_GANSU={
@@ -338,11 +333,6 @@
 			create_building={
 				building="building_prime_pasture"
 				level=3
-				reserves=1
-			}
-			create_building={
-				building="building_barracks"
-				level=5
 				reserves=1
 			}
 		}
@@ -361,7 +351,7 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=15
+				level=5
 				reserves=1
 			}
 		}
@@ -473,16 +463,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_silk_plantation"
-				level=10
-				reserves=1
-			}
-			create_building={
-				building="building_wetlands_farmland"
-				level=5
-				reserves=1
-			}
-			create_building={
 				building="building_kaolin_mine"
 				level=9
 				reserves=1
@@ -524,11 +504,6 @@
 			create_building={
 				building="building_fishing_wharf"
 				level=3
-				reserves=1
-			}
-			create_building={
-				building="building_barracks"
-				level=10
 				reserves=1
 			}
 		}
@@ -657,50 +632,20 @@
 				reserves=1
 			}
 			create_building={
-				building="building_glassworks"
-				level=3
-				reserves=1
-			}
-			create_building={
-				building="building_wetlands_farmland"
-				level=3
-				reserves=1
-			}
-			create_building={
-				building="building_silk_plantation"
-				level=6
-				reserves=1
-			}
-			create_building={
 				building="building_kaolin_mine"
-				level=20
-				reserves=1
-			}
-			create_building={
-				building="building_barracks"
 				level=10
 				reserves=1
 			}
 		}
 		region_state:A06={
 			create_building={
-				building="building_glassworks"
-				level=2
+				building="building_kaolin_mine"
+				level=10
 				reserves=1
 			}
 			create_building={
 				building="building_wetlands_farmland"
 				level=2
-				reserves=1
-			}
-			create_building={
-				building="building_silk_plantation"
-				level=4
-				reserves=1
-			}
-			create_building={
-				building="building_tea_plantation"
-				level=7
 				reserves=1
 			}
 			create_building={
@@ -758,12 +703,12 @@
 			}
 			create_building={
 				building="building_tea_plantation"
-				level=15
+				level=5
 				reserves=1
 			}
 			create_building={
 				building="building_barracks"
-				level=15
+				level=5
 				reserves=1
 			}
 		}

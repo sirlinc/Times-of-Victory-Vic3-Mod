@@ -451,12 +451,7 @@
 		region_state:PER={
 			create_building={
 				building="building_government_administration"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_glassworks"
-				level=1
+				level=3
 				reserves=1
 			}
 			create_building={
@@ -903,7 +898,7 @@
 		region_state:TUR={
 			create_building={
 				building="building_government_administration"
-				level=2
+				level=3
 				reserves=1
 			}
 			create_building={

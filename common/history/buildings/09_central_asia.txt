@@ -334,7 +334,7 @@
 	s:STATE_WESTERN_AFGHANISTAN={
 		region_state:A43={
 			create_building={
-				building="building_textile_mills"
+				building="building_government_administration"
 				level=1
 				reserves=1
 			}

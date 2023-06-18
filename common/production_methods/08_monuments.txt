@@ -94,6 +94,7 @@ pm_default_building_hagia_sophia = {
 		workforce_scaled = {
 			interest_group_ig_theocratic_pop_attraction_mult = 0.1
 			country_prestige_add = 25
+			country_bureaucracy_add = 100
 		}
 	}
 
