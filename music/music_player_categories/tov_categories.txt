@@ -7,6 +7,6 @@
 		"03_a_cruce_victoria"
 		"04_signs_of_victory"
 		"05_undisclosed_tactics"
-		"war_theme_confutatis_maledictis"
+		#"war_theme_confutatis_maledictis"
 	}
 }
