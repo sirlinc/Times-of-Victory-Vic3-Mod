@@ -1604,7 +1604,7 @@ pm_marquetry = {
         workforce_scaled = {
             building_input_dye_add = 10
             building_output_luxury_furniture_add = 10
-			building_output_furniture_add = -25
+			building_output_furniture_add = -20
         }
     }
 }
@@ -1621,7 +1621,7 @@ pm_upholstering = {
             building_input_dye_add = 15
 			building_input_fabric_add = 25
             building_output_luxury_furniture_add = 25
-			building_output_furniture_add = -25
+			building_output_furniture_add = -20
         }
     }
 }
@@ -1639,7 +1639,7 @@ pm_electroplated_metals = {
 			building_input_alloys_add = 20
 			building_input_electricity_add = 10
             building_output_luxury_furniture_add = 50
-			building_output_furniture_add = -25
+			building_output_furniture_add = -20
         }
     }
 }

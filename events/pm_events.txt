@@ -204,7 +204,7 @@ pm_events.3 = {
 			limit = {
 				OR = {
 					building_type = building_food_industry
-					is_production_method_active = {
+					has_active_production_method = {
 						OR = {
 							production_method = pm_wooden_casks
 							production_method = pm_pot_stills
@@ -287,7 +287,6 @@ pm_events.3 = {
 				subtract = 5
 			}
 		}
-	}
 }
 
 pm_events.4 = {

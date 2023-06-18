@@ -1,0 +1,216 @@
+﻿revolution_abolitionist = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_abolitionist
+	}
+
+	entity = "vfx_entity_revolution_trade_unions"
+}
+
+revolution_agrarian = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_agrarian
+	}
+
+	entity = "vfx_entity_revolution_rural_folk"
+}
+
+revolution_anarchist = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_anarchist
+	}
+
+	entity = "vfx_entity_revolution_trade_unions"
+}
+
+revolution_classical_radicalist = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_classical_radicalist
+	}
+
+	entity = "vfx_entity_revolution_petite_bourgeoisie"
+}
+
+revolution_egalitarian = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_egalitarian
+	}
+
+	entity = "vfx_entity_revolution_trade_unions"
+}
+
+
+revolution_elitist = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_elitist
+	}
+
+	entity = "vfx_entity_revolution_landowners"
+}
+
+revolution_expansionist = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_expansionist
+	}
+
+	entity = "vfx_entity_revolution_armed_forces"
+}
+
+revolution_feminist = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_feminist
+	}
+
+	entity = "vfx_entity_revolution_trade_unions"
+}
+
+revolution_individualist = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_individualist
+	}
+
+	entity = "vfx_entity_revolution_petite_bourgeoisie"
+}
+
+revolution_isolationist = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_isolationist
+	}
+
+	entity = "vfx_entity_revolution_rural_folk"
+}
+
+revolution_market_liberal = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_market_liberal
+	}
+
+	entity = "vfx_entity_revolution_petite_bourgeoisie"
+}
+
+revolution_meritocratic = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_meritocratic
+	}
+
+	entity = "vfx_entity_revolution_petite_bourgeoisie"
+}
+
+revolution_moralist = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_moralist
+	}
+
+	entity = "vfx_entity_revolution_devout"
+}
+
+revolution_nationalist = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_nationalist
+	}
+
+	entity = "vfx_entity_revolution_armed_forces"
+}
+
+revolution_pacifist = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_pacifist
+	}
+
+	entity = "vfx_entity_revolution_rural_folk"
+}
+
+revolution_particularist = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_particularist
+	}
+
+	entity = "vfx_entity_revolution_rural_folk"
+}
+
+revolution_paternalistic = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_paternalistic
+	}
+
+	entity = "vfx_entity_revolution_landowners"
+}
+
+revolution_patriarchal = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_patriarchal
+	}
+
+	entity = "vfx_entity_revolution_landowners"
+}
+
+revolution_plutocratic = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_plutocratic
+	}
+
+	entity = "vfx_entity_revolution_industrialists"
+}
+
+revolution_protectionist = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_protectionist
+	}
+
+	entity = "vfx_entity_revolution_landowners"
+}
+
+revolution_rationalist = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_rationalist
+	}
+
+	entity = "vfx_entity_revolution_intelligentsia"
+}
+
+revolution_republican = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_republican
+	}
+
+	entity = "vfx_entity_revolution_petite_bourgeoisie"
+}
+
+revolution_slaver = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_slaver
+	}
+
+	entity = "vfx_entity_revolution_landowners"
+}
+
+revolution_theocratic = {
+	visible = {
+		is_in_revolt = yes
+		most_prominent_revolting_interest_group = ig_theocratic
+	}
+
+	entity = "vfx_entity_revolution_devout"
+}

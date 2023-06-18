@@ -66,10 +66,10 @@ raj.1 = {
 			if = {
 				limit = {
 					NOT = {
-						has_law = law_type:law_appointed_bureaucrats
+						has_law = law_type:law_appointed_office
 					}
 				}
-				activate_law = law_type:law_appointed_bureaucrats
+				activate_law = law_type:law_appointed_office
 			}
 		}
 	}
@@ -748,7 +748,7 @@ raj.7 = {
 					type = puppet
 				}
 			}
-			activate_law = law_type:law_appointed_bureaucrats
+			activate_law = law_type:law_appointed_office
 		}
 	}
 }

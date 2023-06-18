@@ -339,7 +339,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_shipyards"
+				building="building_distilleries"
 				level=1
 				reserves=1
 			}
@@ -698,8 +698,8 @@
 				reserves=1
 			}				
 			create_building={
-				building="building_glassworks"
-				level=1
+				building="building_distilleries"
+				level=2
 				reserves=1
 			}
 			create_building={
@@ -1520,8 +1520,8 @@
 				reserves=1
 			}
 			create_building={
-				building="building_glassworks"
-				level=4
+				building="building_distilleries"
+				level=2
 				reserves=1
 			}
 			create_building={
@@ -1603,7 +1603,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_glassworks"
+				building="building_distilleries"
 				level=1
 				reserves=1
 			}
@@ -1857,8 +1857,8 @@
 				reserves=1
 			}
 			create_building={
-				building="building_glassworks"
-				level=2
+				building="building_distilleries"
+				level=3
 				reserves=1
 			}
 			create_building={
@@ -2470,7 +2470,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_glassworks"
+				building="building_dyeworks"
 				level=1
 				reserves=1
 			}
@@ -2766,8 +2766,8 @@
 				reserves=1
 			}			
 			create_building={
-				building="building_glassworks"
-				level=2
+				building="building_distilleries"
+				level=6
 				reserves=1
 			}
 			create_building={
@@ -2825,7 +2825,7 @@
 		}
 		region_state:PAS={
 			create_building={
-				building="building_glassworks"
+				building="building_distilleries"
 				level=1
 				reserves=1
 			}
@@ -2944,8 +2944,8 @@
 				reserves=1
 			}
 			create_building={
-				building="building_glassworks"
-				level=5
+				building="building_distilleries"
+				level=4
 				reserves=1
 			}
 			create_building={

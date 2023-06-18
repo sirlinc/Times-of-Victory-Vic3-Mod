@@ -1517,7 +1517,7 @@
 				size=9996
 			}
 			create_pop = {
-				culture = portguese
+				culture = portuguese
 				size=7234
 			}
 			create_pop = {
@@ -3793,11 +3793,7 @@
 		region_state:C29 = {
 			create_pop = {
 				culture = sotho
-				size=7937
-			}
-			create_pop = {
-				pop_type = tonga
-				size = 4000
+				size=11937
 			}
 		}
 	}

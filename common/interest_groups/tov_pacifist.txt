@@ -70,7 +70,7 @@
 					owner = { 
 						is_at_war = yes 
 						any_scope_war = { 
-							has_war_support <= 50
+							has_war_support < 50
 						}
 					}
 					
@@ -87,7 +87,7 @@
 					owner = { 
 						is_at_war = yes 
 						any_scope_war = { 
-							has_war_support <= 25
+							has_war_support < 25
 						}
 					}
 					
@@ -104,7 +104,7 @@
 					owner = { 
 						is_at_war = yes 
 						any_scope_war = { 
-							has_war_support <= 0
+							has_war_support < 0
 						}
 					}
 					
@@ -121,7 +121,7 @@
 					owner = { 
 						is_at_war = yes 
 						any_scope_war = { 
-							has_war_support <= -10
+							has_war_support < -10
 						}
 					}
 					
@@ -138,7 +138,7 @@
 					owner = { 
 						is_at_war = yes 
 						any_scope_war = { 
-							has_war_support <= -25
+							has_war_support < -25
 						}
 					}
 					
@@ -155,7 +155,7 @@
 					owner = { 
 						is_at_war = yes 
 						any_scope_war = { 
-							has_war_support <= -50
+							has_war_support < -50
 						}
 					}
 					

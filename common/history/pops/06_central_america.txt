@@ -108,7 +108,7 @@
 	s:STATE_HAITI = {
 		region_state:SPA = {
 			create_pop = {
-				culture = PLACEHOLDER
+				culture = caribeno
 				size=31937
 			}
 			create_pop = {

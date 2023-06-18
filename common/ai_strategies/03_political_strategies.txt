@@ -34,7 +34,7 @@
 		ig_isolationist
 		ig_moralist
 		ig_nationalist
-		ig_paternalist
+		ig_paternalistic
 		ig_patriarchal
 		ig_slaver
 		ig_protectionist
@@ -125,7 +125,7 @@ ai_strategy_reactionary_agenda = {
 		ig_isolationist
 		ig_moralist
 		ig_nationalist
-		ig_paternalist
+		ig_paternalistic
 		ig_patriarchal
 		ig_slaver
 		ig_protectionist
@@ -445,7 +445,7 @@ ai_strategy_egalitarian_agenda = {
 		ig_isolationist
 		ig_moralist
 		ig_nationalist
-		ig_paternalist
+		ig_paternalistic
 		ig_patriarchal
 		ig_slaver
 		ig_theocratic
@@ -571,7 +571,7 @@ ai_strategy_nationalist_agenda = {
 		ig_protectionist
 		ig_moralist
 		ig_nationalist
-		ig_paternalist
+		ig_paternalistic
 		ig_patriarchal
 		ig_theocratic
 	}
@@ -702,7 +702,7 @@ ai_strategy_maintain_mandate_of_heaven = {
 		ig_isolationist
 		ig_pacifist
 		ig_agrarian
-		ig_paternalist
+		ig_paternalistic
 	}
 	
 	anti_interest_groups ={

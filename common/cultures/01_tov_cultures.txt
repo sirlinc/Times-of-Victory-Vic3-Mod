@@ -396,6 +396,10 @@ oirat={
 	color= rgb{ 255 199 44 }
 	religion = gelugpa
 	traits = { central_asian_heritage mongolic }
+
+	obsessions = {
+		horses
+	}
 	male_common_first_names={
 		badamdorj
 		balingiin
@@ -501,6 +505,11 @@ khalkha={
 	color= rgb{ 156 19 26 }
 	religion = gelugpa
 	traits = { north_asian_heritage mongolic }
+
+	obsessions = {
+		horses
+	}
+
 	male_common_first_names={
 		badamdorj
 		balingiin
@@ -1043,7 +1052,7 @@ mughal={
 
 koori={ 
 	color= { 181 130 111 }
-	religion = the_dreaming
+	religion = animist
 	traits = { indigenous_oceanic_heritage aboriginal_australian }
 	male_common_first_names={
 		bennelong
@@ -1106,7 +1115,7 @@ koori={
 
 murri={ 
 	color= { 165 111 181 }
-	religion = the_dreaming
+	religion = animist
 	traits = { indigenous_oceanic_heritage aboriginal_australian }
 	male_common_first_names={
 		bennelong
@@ -1169,7 +1178,7 @@ murri={
 
 nyungar={ 
 	color= { 127 181 111 }
-	religion = the_dreaming
+	religion = animist
 	traits = { indigenous_oceanic_heritage aboriginal_australian }
 	male_common_first_names={
 		bennelong
@@ -1228,138 +1237,4 @@ nyungar={
 		1 = polynesian
 	}
 	graphics = generic
-}
-
-#to set religion tikanga
-maori={
-	color= hsv{ 0.74 0.32 0.63 }
-	religion = tikanga
-	traits = { polynesian_group indigenous_oceanic_heritage }
-	male_common_first_names={
-		auha
-		koroki
-		mahuta
-		matutaera
-		potatau
-		rangi-kahu
-		tawhiao
-		te_ata-i
-		te_rata
-		tukaroto
-		pokaia
-	}
-	female_common_first_names = {
-		hariata
-		kahupeka
-		parengaope
-		ruawehea
-		tarore
-		tiahuia
-		te_tahuna
-		ta_puea
-		te_marama
-		te_kona
-		tuhikura
-		whakaawi
-	}	
-	noble_last_names = {
-		herangi
-		heke
-		hongi
-		te_wherowhero
-		whaanga
-	}
-	common_last_names={
-		ataarangikaahu
-		kenena
-		ngapora
-		raouparah
-		wherowhero
-	}
-	ethnicities = {
-		1 = polynesian
-	}
-	graphics = generic
-}
-
-#to change obsession from opium to tea
-han={
-	color= rgb{ 190 80 48 }
-	religion = mahayana
-	traits = { sinosphere han_chinese east_asian_heritage }
-	obsessions = {
-		tea
-	}
-	male_common_first_names={
-		Chen
-		Cheng
-		Deng
-		Dong
-		Gao
-		Hsia
-		Hu
-		Huang
-		Kong
-		Kwong
-		Li
-		Liang
-		Liao
-		Liu
-		Luo
-		Ma
-		Mao
-		Pan
-		Tan
-		Wang
-		Xie
-		Yang
-		Yu
-		Zhang
-		Zhu
-	}
-	female_common_first_names = {
-		Akew
-		Jin
-		Jinhong
-		Junying
-		Qingtang
-		Sanniang
-		Shanziang
-		Shih
-		Taiqing
-		Xiefen
-		Xiugu
-		Xuanjiao
-		Yu
-		Yunmei
-	}	
-	noble_last_names = {
-		Cui
-		Li
-		Nie
-		Zhang
-	}
-	common_last_names={
-		Dong
-		Fang
-		Hu
-		Jiang
-		Jin
-		Lu
-		Ma
-		Peng
-		Qiu
-		Shen
-		Sun
-		Tian
-		Ting
-		Wei
-		Wu
-		Ye
-		Zhao
-	}
-	ethnicities = {
-		1 = asian
-	}
-	graphics = asian
 }

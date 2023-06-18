@@ -958,7 +958,7 @@ adopt_random_antigovernment_ideology = {
 						limit = {
 							this.interest_group = {
 								OR = {
-									is_interest_group_type = ig_landowners
+									is_interest_group_type = ig_elitist
 									is_interest_group_type = ig_theocratic
 								}
 							}
@@ -1075,7 +1075,7 @@ adopt_random_antigovernment_ideology = {
 					if = {
 						limit = {
 							this.interest_group = {
-								is_interest_group_type = ig_landowners
+								is_interest_group_type = ig_elitist
 							}
 						}
 						multiply = {
@@ -1132,7 +1132,7 @@ adopt_random_antigovernment_ideology = {
 					if = {
 						limit = {
 							this.interest_group = {
-								is_interest_group_type = ig_landowners
+								is_interest_group_type = ig_elitist
 							}
 						}
 						multiply = {

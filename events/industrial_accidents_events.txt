@@ -46,9 +46,10 @@ industrial_accident_events.1 = {
 			}
 		}
 		any_scope_state = {
-			has_building = building_textile_mills
+			is_building_type = building_textile_mills
 			NOR = {
 				is_production_method_active = {
+
 					production_method = pm_treadle_looms
 					production_method = pm_flying_shuttles
 					production_method = pm_spinning_jenny
@@ -89,7 +90,7 @@ industrial_accident_events.1 = {
 		}
 		random_scope_state = {
 			limit = {
-				has_building = building_textile_mills
+				is_building_type = building_textile_mills
 				NOR = {
 					is_production_method_active = {
 						production_method = pm_treadle_looms

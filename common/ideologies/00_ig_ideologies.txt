@@ -284,7 +284,6 @@ ideology_isolationist = {
 		law_free_trade = disapprove
 	}
 }
-}
 
 ideology_moralist = {
 	icon = "gfx/interface/icons/ideology_icons/moralist.dds"
@@ -845,7 +844,7 @@ ideology_paternalistic = {
 	
 	lawgroup_bureaucracy = {
 		law_hereditary_office = approve
-		law_appointed_bureaucrats = neutral
+		law_appointed_office = neutral
 		law_elected_office = disapprove
 	}
 
@@ -1069,7 +1068,7 @@ ideology_isolationist = {
 	
 	lawgroup_colonization = {
 		law_no_colonial_affairs = approve
-		law_colonial_resettlement = disapprove
+		law_resettlement = disapprove
 		law_exploitation = disapprove
 	}
 	
@@ -1182,7 +1181,7 @@ ideology_jingoist = {
 	}
 	
 	lawgroup_colonization = {
-		law_colonial_resettlement = approve
+		law_resettlement = approve
 		law_exploitation = approve
 		law_no_colonial_affairs = neutral
 	}
@@ -1206,7 +1205,7 @@ ideology_anti_clerical = { #Rationalist
 	}
 
 	lawgroup_bureaucracy = {
-		law_appointed_bureaucrats = approve
+		law_appointed_office = approve
 		law_elected_office = neutral	
 		law_hereditary_office = disapprove
 	}
