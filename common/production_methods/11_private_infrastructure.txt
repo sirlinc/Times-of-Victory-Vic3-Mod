@@ -6,8 +6,7 @@ pm_rolling_wagons = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_wood_add = 15
-			state_infrastructure_add = 10           
+            building_input_wood_add = 15        
         }
 
         level_scaled = {
@@ -15,8 +14,10 @@ pm_rolling_wagons = {
 			building_employment_machinists_add = 200
 			building_employment_clerks_add = 200
         }
-        unscaled = {
-            
+    }
+        state_modifiers = {       
+            workforce_scaled = {
+            state_infrastructure_add = 10   
         }
     }
 }
@@ -31,7 +32,7 @@ pm_flatcars = {
     building_modifiers = {
         workforce_scaled = {
             building_input_iron_add = 15
-			state_infrastructure_add = 20
+
         }
 
         level_scaled = {
@@ -39,8 +40,10 @@ pm_flatcars = {
 			building_employment_machinists_add = 400
 			building_employment_clerks_add = 400
         }
-        unscaled = {
-            
+    }
+    state_modifiers = {       
+        workforce_scaled = {
+			state_infrastructure_add = 20            
         }
     }
 }
@@ -55,17 +58,17 @@ pm_gondola_cars = {
     building_modifiers = {
         workforce_scaled = {
             building_input_iron_add = 20
-			state_infrastructure_add = 30
-        }
 
+        }
         level_scaled = {
             building_employment_laborers_add = 1000
 			building_employment_machinists_add = 600
 			building_employment_clerks_add = 600
-
         }
-        unscaled = {
-            
+    }
+        state_modifiers = {       
+            workforce_scaled = {
+            state_infrastructure_add = 30            
         }
     }
 }
@@ -81,16 +84,16 @@ pm_rotary_cars = {
         workforce_scaled = {
             building_input_steel_add = 10
 			building_input_machined_parts_add = 10
-			state_infrastructure_add = 45
         }
-
         level_scaled = {
             building_employment_laborers_add = 750
 			building_employment_machinists_add = 800
 			building_employment_clerks_add = 800
         }
-        unscaled = {
-            
+    }
+        state_modifiers = {       
+            workforce_scaled = {
+                state_infrastructure_add = 45            
         }
     }
 }
@@ -106,7 +109,7 @@ pm_intermodal_freight_containers = {
         workforce_scaled = {
             building_input_steel_add = 20
 			building_input_machined_parts_add = 15
-			state_infrastructure_add = 60
+
         }
 
         level_scaled = {
@@ -114,8 +117,10 @@ pm_intermodal_freight_containers = {
 			building_employment_machinists_add = 1000
 			building_employment_clerks_add = 1000
         }
-        unscaled = {
-            
+    }
+    state_modifiers = {       
+        workforce_scaled = {
+			state_infrastructure_add = 60            
         }
     }
 }
@@ -362,15 +367,12 @@ pm_scenic_touring_trains = {
         workforce_scaled = {
             building_input_services_add = 20
             building_output_fine_art_add = 5
-			state_infrastructure_add = -10
 			building_output_transportation_add = -10
         }
-
-        level_scaled = {
-            
-        }
-        unscaled = {
-            
+    }
+    state_modifiers = {       
+        workforce_scaled = {
+            state_infrastructure_add = -10
         }
     }
 }
@@ -383,16 +385,16 @@ pm_military_railways = {
     building_modifiers = {
         workforce_scaled = {
             building_input_ammunition_add = 15
-            state_infrastructure_add = -10
 			building_output_transportation_add = -10
         }
-
-        level_scaled = {
-            
-        }
-        unscaled = {
-            front_advancement_speed_mult = 0.15
-			unit_supply_consumption_mult = -0.15
+        state_modifiers = {       
+            workforce_scaled = {
+                state_infrastructure_add = -10
+            }
+            unscaled = {
+                front_advancement_speed_mult = 0.15
+                unit_supply_consumption_mult = -0.15
+            }
         }
     }
 }
@@ -403,15 +405,14 @@ pm_whistle_stop_tours = {
     
 
     building_modifiers = {
-        workforce_scaled = {
-            
+        workforce_scaled = {         
+			building_output_transportation_add = -10
+        }
+    }
+        state_modifiers = {       
+            workforce_scaled = {
             state_infrastructure_add = -10
-			building_output_transportation_add = -20
-        }
-
-        level_scaled = {
-            
-        }
+            }
         unscaled = {
             state_loyalists_from_sol_change_mult = 0.1
         }
@@ -427,13 +428,12 @@ pm_colonial_railways = {
 
     building_modifiers = {
         workforce_scaled = {
-            
-            state_infrastructure_add = -10
 			building_output_transportation_add = -20
         }
-
-        level_scaled = {
-            
+    }
+    state_modifiers = {       
+        workforce_scaled = {
+            state_infrastructure_add = -10
         }
         unscaled = {
             state_migration_pull_mult = 0.2

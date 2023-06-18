@@ -558,7 +558,6 @@ pm_traditional_patrons = {
         unscaled = {        
             country_clergymen_pol_str_mult = 0.01
 			country_aristocrats_pol_str_mult = 0.02
-            }
         }
     }
 }
@@ -954,22 +953,14 @@ pm_utility_poles = {
     }
 }
 
+#pmg_roadways
+
 pm_dirt_trails = {
     texture = "gfx/interface/icons/production_method_icons/trackways.dds"
 
-    
-
     building_modifiers = {
-        workforce_scaled = {
-            
-            
-        }
-
         level_scaled = {
             building_employment_laborers_add = 1400
-        }
-        unscaled = {
-            
         }
     }
 }
@@ -984,9 +975,7 @@ pm_trackways = {
     building_modifiers = {
         workforce_scaled = {
             building_input_horses_add = 5
-            
         }
-
         level_scaled = {
             building_employment_laborers_add = 1200
         }
@@ -1011,12 +1000,8 @@ pm_paved_roads = {
 			building_input_horses_add = 5
             
         }
-
         level_scaled = {
             building_employment_laborers_add = 1000
-        }
-        unscaled = {
-             = 0.15
         }
     }
     state_modifiers = {
@@ -1036,10 +1021,8 @@ pm_macadam_roads = {
     building_modifiers = {
         workforce_scaled = {
             building_input_tools_add = 10
-			building_input_horses_add = 10
-            
+			building_input_horses_add = 10           
         }
-
         level_scaled = {
             building_employment_laborers_add = 800
 			building_employment_machinists_add = 200
@@ -1063,10 +1046,8 @@ pm_tarmacadam_roads = {
         workforce_scaled = {
             building_input_tools_add = 15
 			building_input_automobiles_add = 5
-			building_input_chemicals_add = 5
-            
+			building_input_chemicals_add = 5            
         }
-
         level_scaled = {
             building_employment_laborers_add = 600
 			building_employment_machinists_add = 400
@@ -1090,10 +1071,8 @@ pm_motorways = {
         workforce_scaled = {
             building_input_machined_parts_add = 10
 			building_input_automobiles_add = 10
-			building_input_chemicals_add = 15
-            
+			building_input_chemicals_add = 15          
         }
-
         level_scaled = {
             building_employment_laborers_add = 400
 			building_employment_machinists_add = 600
@@ -1113,14 +1092,10 @@ pm_travelling_fairs = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_output_services_add = 1    
-            
+            building_output_services_add = 1              
         }
-
         level_scaled = {
             building_employment_shopkeepers_add = 1200
-        }
-        unscaled = {          
         }
     }
 }
