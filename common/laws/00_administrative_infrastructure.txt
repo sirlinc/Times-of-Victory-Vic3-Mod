@@ -13,7 +13,7 @@
 		country_authority_mult = -0.4
 	}
 
-	allowing_laws = {
+	unlocking_laws = {
 		law_chiefdom
 	}
 	

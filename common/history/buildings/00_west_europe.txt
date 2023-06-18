@@ -991,12 +991,7 @@
 		}
 	}
 	s:STATE_RHONE={
-		region_state:FRA={
-			create_building={
-				building="building_construction_sector"
-				level=2
-				reserves=1
-			}			
+		region_state:FRA={			
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -1004,12 +999,7 @@
 			}
 			create_building={
 				building="building_textile_mills"
-				level=3
-				reserves=1
-			}
-			create_building={
-				building="building_ironworks"
-				level=2
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -1039,11 +1029,6 @@
 			create_building={
 				building="building_arsenal"
 				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_logging_camp"
-				level=2
 				reserves=1
 			}
 			create_building={
@@ -1153,6 +1138,11 @@
 				reserves=1
 			}
 			create_building={
+				building="building_ironworks"
+				level=1
+				reserves=1
+			}
+			create_building={
 				building="building_port"
 				level=1
 				reserves=1
@@ -1169,6 +1159,11 @@
 			create_building={
 				building="building_prime_pasture"
 				level=1
+				reserves=1
+			}
+			create_building={
+				building="building_distilleries"
+				level=3
 				reserves=1
 			}
 			create_building={
@@ -1425,18 +1420,6 @@
 			create_building={
 				building="building_barracks"
 				level=8
-				reserves=1
-			}
-		}
-		region_state:LOR={
-			create_building={
-				building="building_furniture_manufacturies"
-				level=2
-				reserves=1
-			}
-			create_building={
-				building="building_barracks"
-				level=9
 				reserves=1
 			}
 		}
@@ -2551,6 +2534,11 @@
 				level=1
 				reserves=1
 			}
+			create_building={
+				building="building_logging_camp"
+				level=2
+				reserves=1
+			}			
 			create_building={
 				building="building_tooling_workshops"
 				level=1

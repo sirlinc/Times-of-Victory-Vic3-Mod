@@ -8,8 +8,8 @@ pm_manual_sorting_base_mine = {
 		level_scaled = {
 			building_employment_laborers_add = 4500
 		}
-		workforce_scaled = {
-			building_throughput_mult = -0.1
+		unscaled = {
+			building_group_bg_mining_throughput_mult = -0.1
 		}
 	}	
 }
@@ -44,7 +44,9 @@ pm_stamp_mills_base_mine = {
 	building_modifiers = {
 		workforce_scaled = {				
 				building_input_tools_add = 5
-				building_throughput_mult = 0.05
+				}
+		unscaled = {
+			building_group_bg_mining_throughput_mult = 0.05
 			}
 
 		level_scaled = {
@@ -65,7 +67,9 @@ pm_newcomen_engine_base_mine = {
 		workforce_scaled = {				
 				building_input_tools_add = 5
 				building_input_coal_add = 5
-				building_throughput_mult = 0.1
+				}
+		unscaled = {
+			building_group_bg_mining_throughput_mult = 0.1
 			}
 
 		level_scaled = {
@@ -88,7 +92,9 @@ pm_ore_vanning_base_mine = {
 		workforce_scaled = {				
 				building_input_machined_parts_add = 3
 				building_input_coal_add = 10
-				building_throughput_mult = 0.15
+				}
+		unscaled = {
+			building_group_bg_mining_throughput_mult = 0.15
 
 			}
 
@@ -110,7 +116,9 @@ pm_flameless_lights_base_mine = {
 		workforce_scaled = {				
 				building_input_machined_parts_add = 5
 				building_input_electricity_add = 10
-				building_throughput_mult = 0.2
+				}
+		unscaled = {
+			building_group_bg_mining_throughput_mult = 0.2
 			}
 
 		level_scaled = {
@@ -135,7 +143,9 @@ pm_electrostatic_separator_base_mine = {
 			building_input_machined_parts_add = 5
 			building_input_electricity_add = 15
 			building_input_chemicals_add = 5	
-			building_throughput_mult = 0.25		
+			}
+		unscaled = {
+			building_group_bg_mining_throughput_mult = 0.25		
 			}
 
 		level_scaled = {
@@ -1739,7 +1749,9 @@ pm_shuttle_kilns_kaolin_mine = {
 		workforce_scaled = {				
 				building_input_tools_add = 5
 				building_input_coal_add = 5
-				building_throughput_mult = 0.1
+				}
+		unscaled = {
+			building_group_bg_mining_throughput_mult = 0.1
 			}
 	}
 }
@@ -1756,7 +1768,9 @@ pm_gas_fired_kilns_kaolin_mine = {
 		workforce_scaled = {				
 				building_input_tools_add = 5
 				building_input_coal_add = 10
-				building_throughput_mult = 0.2
+				}
+		unscaled = {
+			building_group_bg_mining_throughput_mult = 0.2
 			}
 	}
 }
@@ -1773,7 +1787,9 @@ pm_hoffmann_kilns_kaolin_mine = {
 		workforce_scaled = {				
 				building_input_tools_add = 10
 				building_input_fuel_oil_add = 10
-				building_throughput_mult = 0.3
+				}
+		unscaled = {
+			building_group_bg_mining_throughput_mult = 0.3
 			}
 	}
 }

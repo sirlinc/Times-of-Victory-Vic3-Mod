@@ -736,8 +736,6 @@ ideology_anarchist = {
 ideology_feminist = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_womens_liberation.dds"
 	
-	character_ideology = yes
-	
 	lawgroup_rights_of_women = {
 		law_womens_suffrage = strongly_approve
 		law_women_in_the_workplace = neutral

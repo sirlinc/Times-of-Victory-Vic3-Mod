@@ -2178,47 +2178,6 @@ on_revolution_start = {
 			}
 			set_variable = anti_shogunate_civil_war
 		}
-		if = {
-			limit = {
-				has_journal_entry = je_the_paris_commune_france
-			}
-			c:FRA = {
-				trigger_event = { id = paris_commune.4 popup = yes }
-			}
-			random_scope_state = {
-				limit = {
-					state_region = s:STATE_ILE_DE_FRANCE
-				}
-				set_state_owner = c:PRC
-			}
-			c:PRC = {
-				annex = scope:target
-				create_diplomatic_play = {
-					type = dp_annex_war
-					target_state = c:FRA.capital
-					annex_as_civil_war = yes
-					add_war_goal = {
-						holder = c:FRA
-						type = annex_country
-						target_country = c:PRC
-					}
-				}
-			}
-		}
-		if = {
-			limit = {
-				has_dlc_feature = voice_of_the_people_content
-				c:KRA ?= root
-				c:AUS ?= {
-					any_subject_or_below = {
-						c:KRA ?= this
-					}
-				}
-			}
-			c:AUS = {
-				trigger_event = { id = krakow.1 days = 3 popup = yes }
-			}
-		}
 	}
 }
 
@@ -2728,12 +2687,12 @@ on_wargoal_enforced = {
         }
         if = {
         	limit = {
-        		c:PRC ?= root
+        		c:FR2 ?= root
         		NOT = {
         			exists = c:FRA
         		}
         	}
-        	c:PRC = {
+        	c:FR2 = {
 				change_tag = FRA
 				every_scope_state = {
 					limit = {

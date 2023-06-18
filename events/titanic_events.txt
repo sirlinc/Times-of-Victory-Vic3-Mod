@@ -37,7 +37,7 @@ titanic.1 = { #you build the titanic
 
 	trigger = {
 		NOT = { has_global_variable = built_the_titanic }
-		has_technology_researched = radio
+		has_technology_researched = radios
 		any_scope_building = {
 			is_building_type = building_shipyards
 			has_active_production_method = pm_metal_shipbuilding #will need ironclad_tech to do this

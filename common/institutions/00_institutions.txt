@@ -52,7 +52,8 @@ institution_army_professionalism = {
 	icon = "gfx/interface/icons/institution_icons/army_professionalism.dds"
 	background_texture = "gfx/interface/illustrations/institutions/institution_icon_bg.dds"
 	modifier = {
-		country_army_power_projection_mult = 0.1
+		building_training_rate_mult = 0.2
+		state_building_barracks_max_level_add = 15
 	}
 }
 

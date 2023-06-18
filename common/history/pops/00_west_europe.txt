@@ -507,28 +507,24 @@
 	s:STATE_PROVENCE = {
 		region_state:SAV = {
 			create_pop = {
-				culture = north_italian
-				size=6585
-			}
-			create_pop = {
-				culture = french
-				size = 8200
-			}
-		}
-		region_state:PAP = {
-			create_pop = {
-				culture = north_italian
-				size = 7200
-			}
-			create_pop = {
-				culture = occitan
-				size=6109
+				culture = francoprovencal
+				size=16585
 			}
 		}
 		region_state:FRA = {
 			create_pop = {
 				culture = occitan
-				size = 243160
+				size=26585
+			}
+		}
+		region_state:FR2 = {
+			create_pop = {
+				culture = francoprovencal
+				size = 43160
+			}
+			create_pop = {
+				culture = occitan
+				size = 93160
 			}
 		}
 	}
@@ -566,15 +562,15 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = francoprovencal
-				size = 611761
+				size = 600761
 			}
 			create_pop = {
 				culture = occitan
-				size = 154726
+				size = 150726
 			}
 			create_pop = {
 				culture = ashkenazi
-				size=4726
+				size=14726
 			}
 		}
 	}
@@ -640,19 +636,19 @@
 		}
 	}
 	s:STATE_ALSACE_LORRAINE = {
-		region_state:FRA = {
+		region_state:LOR = {
 			create_pop = {
 				culture = alemannic
-				size = 382784
+				size = 102784
 			}
 			create_pop = {
 				culture = alemannic
 				religion = protestant
-				size = 138770
+				size = 108770
 			}
 			create_pop = {
 				culture = south_german
-				size = 142080
+				size = 102080
 			}
 			create_pop = {
 				culture = south_german
@@ -661,11 +657,30 @@
 			}
 			create_pop = {
 				culture = french
-				size = 134627
+				size = 44627
 			}
 			create_pop = {
 				culture = ashkenazi
 				size = 22511
+			}
+		}
+		region_state:FRA = {
+			create_pop = {
+				culture = french
+				size = 72064
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 7396
+			}
+			create_pop = {
+				culture = alemannic
+				size = 39229
+			}
+			create_pop = {
+				culture = alemannic
+				religion = protestant
+				size = 22193
 			}
 		}
 	}
@@ -791,20 +806,6 @@
 				size = 10574
 			}
 		}
-		region_state:LOR = {
-			create_pop = {
-				culture = french
-				size = 186122
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 7996
-			}
-			create_pop = {
-				culture = south_german
-				size = 33684
-			}
-		}
 		region_state:SPA = {
 			create_pop = {
 				culture = french
@@ -829,25 +830,6 @@
 			create_pop = {
 				culture = alemannic
 				size = 10768
-			}
-		}
-		region_state:LOR = {
-			create_pop = {
-				culture = french
-				size = 72064
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 7396
-			}
-			create_pop = {
-				culture = alemannic
-				size = 39229
-			}
-			create_pop = {
-				culture = alemannic
-				religion = protestant
-				size = 22193
 			}
 		}
 	}

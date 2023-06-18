@@ -10,10 +10,6 @@ building_barracks = {
 	
 	levels_per_mesh = 25
 
-	unlocking_technologies = {
-		standing_army
-	}
-
 	production_method_groups = {
 		pmg_organization
 		pmg_artillery

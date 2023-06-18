@@ -5,8 +5,7 @@
 	progressiveness = -100
 	
 	modifier = {
-		unit_morale_loss_mult = 0.3
-		state_conscription_rate_add = 0.01
+		state_conscription_rate_add = 0.1
 		country_military_goods_cost_mult = -0.25
 		state_building_barracks_max_level_add = 10
 		state_building_conscription_center_max_level_add = 10
@@ -33,12 +32,11 @@ law_peasant_levies = {
 	
 	modifier = {
 		unit_morale_loss_mult = 0.1
-		state_conscription_rate_add = 0.02
-		interest_group_ig_elitist_pol_str_mult = 0.12
-		interest_group_ig_nobility_pol_str_mult = 0.12
+		state_conscription_rate_add = 0.05
+		country_aristocrats_pol_str_mult = 0.15
 		country_military_goods_cost_mult = -0.25
-		state_building_barracks_max_level_add = 25
-		state_building_conscription_center_max_level_add = 25
+		state_building_barracks_max_level_add = 15
+		state_building_conscription_center_max_level_add = 15
 	}
 	
 	on_enact = {
@@ -66,13 +64,13 @@ law_mercenary_army = {
 	unlocking_technologies = { mandatory_service }
 	
 	modifier = {
-		unit_morale_loss_mult = -0.05
-		state_conscription_rate_add = 0.01
-		interest_group_ig_expansionist_pol_str_mult = -0.2
+		unit_morale_loss_mult = -0.1
+		state_conscription_rate_add = 0.03
+		country_officers_pol_str_mult = -0.2
 		country_military_goods_cost_mult = -0.4
 		country_military_wages_mult = 0.3
-		state_building_barracks_max_level_add = 10
-		state_building_conscription_center_max_level_add = 30
+		state_building_barracks_max_level_add = 15
+		state_building_conscription_center_max_level_add = 15
 	}
 	
 	possible_political_movements = {
@@ -90,11 +88,10 @@ law_national_militia = {
 	unlocking_technologies = { mandatory_service }
 	
 	modifier = {
-		unit_morale_loss_mult = -0.05
-		state_conscription_rate_add = 0.05
-		interest_group_ig_expansionist_pol_str_mult = -0.25
-		state_building_barracks_max_level_add = 5
-		state_building_conscription_center_max_level_add = 100
+		state_conscription_rate_add = 0.03
+		country_soldiers_pol_str_mult = 0.15
+		state_building_barracks_max_level_add = 15
+		state_building_conscription_center_max_level_add = 25
 	}
 	
 	possible_political_movements = {
@@ -126,9 +123,9 @@ law_standing_army = {
 	
 	modifier = {
 		unit_morale_loss_mult = -0.1
-		state_conscription_rate_add = 0.01
-		interest_group_ig_expansionist_pol_str_mult = 0.25
-		state_building_barracks_max_level_add = 100
+		state_conscription_rate_add = 0.02
+		country_officers_pol_str_mult = 0.2
+		state_building_barracks_max_level_add = 15
 		state_building_conscription_center_max_level_add = 50
 	}
 	
@@ -153,10 +150,10 @@ law_mass_conscription = {
 	unlocking_technologies = { enlistment_offices }
 	
 	modifier = {
-		unit_morale_loss_mult = 0.05
-		state_conscription_rate_add = 0.04
-		building_training_rate_mult = 1
-		state_building_barracks_max_level_add = 100
+		unit_morale_loss_mult = 0.1
+		state_conscription_rate_add = 0.1
+		country_officers_pol_str_mult = 0.1
+		state_building_barracks_max_level_add = 15
 		state_building_conscription_center_max_level_add = 100
 	}
 	

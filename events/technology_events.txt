@@ -95,12 +95,12 @@ technology_events.10 = { #Telephone line between countries
 	duration = 3
 
 	trigger = {
-		has_technology_researched = telephone
+		has_technology_researched = telephones
 		any_neighbouring_state = {
 			owner = {
 				relations:root >= relations_threshold:neutral
 				is_player = no
-				has_technology_researched = telephone
+				has_technology_researched = telephones
 				NOT = {
 					has_variable = telephone_exchange
 				}
@@ -113,7 +113,7 @@ technology_events.10 = { #Telephone line between countries
 			limit = {
 				owner = {
 					relations:root >= relations_threshold:neutral
-					has_technology_researched = telephone
+					has_technology_researched = telephones
 					NOT = {
 						has_variable = telephone_exchange
 					}
@@ -163,7 +163,7 @@ technology_events.20 = { #Radio Chats
 	duration = 3
 
 	trigger = {
-		has_technology_researched = radio
+		has_technology_researched = radios
 		NOT = {
 			has_variable = radio_chats
 		}

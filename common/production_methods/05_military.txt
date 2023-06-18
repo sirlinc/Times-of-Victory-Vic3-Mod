@@ -150,7 +150,7 @@ pm_squad_infantry = {
 		workforce_scaled = {
 			building_input_ammunition_add = 2
 			building_input_small_arms_add = 1
-			building_input_radios_add = 1
+			building_input_telecomms_add = 1
 		}
 
 		level_scaled = {
@@ -193,7 +193,7 @@ pm_mechanized_infantry = {
 			building_input_ammunition_add = 3
 			building_input_tanks_add = 1
 			building_input_oil_add = 1
-			building_input_radios_add = 1
+			building_input_telecomms_add = 1
 		}
 
 		level_scaled = {
@@ -530,7 +530,7 @@ pm_infiltrators = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_radios_add = 1
+			building_input_telecomms_add = 1
 			building_input_explosives_add = 1
 		}
 		throughput_scaled = {
@@ -761,7 +761,7 @@ pm_squad_infantry_conscription = {
 		workforce_scaled = {
 			building_input_ammunition_add = 2
 			building_input_small_arms_add = 1
-			building_input_radios_add = 1
+			building_input_telecomms_add = 1
 		}
 
 		level_scaled = {
@@ -799,7 +799,7 @@ pm_mechanized_infantry_conscription = {
 			building_input_ammunition_add = 3
 			building_input_tanks_add = 1
 			building_input_oil_add = 1
-			building_input_radios_add = 1
+			building_input_telecomms_add = 1
 		}
 
 		level_scaled = {
@@ -1108,7 +1108,7 @@ pm_infiltrators_conscription = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_radios_add = 1
+			building_input_telecomms_add = 1
 			building_input_explosives_add = 1
 		}
 		throughput_scaled = {
@@ -1364,7 +1364,7 @@ pm_dreadnoughts = {
 			# input goods
 			building_input_ironclads_add = 4
 			building_input_ammunition_add = 4
-			building_input_radios_add = 1
+			building_input_telecomms_add = 1
 		}
 
 		level_scaled = {
@@ -1407,7 +1407,7 @@ pm_battleships = {
 			# input goods
 			building_input_ironclads_add = 5
 			building_input_ammunition_add = 6
-			building_input_radios_add = 2
+			building_input_telecomms_add = 2
 		}
 
 		level_scaled = {
@@ -1586,7 +1586,7 @@ pm_carriers = {
 			building_input_ironclads_add = 2
 			building_input_ammunition_add = 2
 			building_input_aeroplanes_add = 2
-			building_input_radios_add = 2
+			building_input_telecomms_add = 2
 		}
 
 		level_scaled = {

@@ -1269,7 +1269,7 @@ industrialists_cars_unrestricted = {
 
 automobile_regulations = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
-	building_motor_industry_throughput_mult = -0.1
+	building_automotive_firms_throughput_mult = -0.1
 }
 
 modifier_supported_marx = {
@@ -1514,10 +1514,10 @@ tractor_food_for_the_poor = {
 
 tractor_production = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_rye_farm_throughput_mult = 0.2
-	building_wheat_farm_throughput_mult = 0.2
-	building_maize_farm_throughput_mult = 0.2
-	building_millet_farm_throughput_mult = 0.2
+	building_temperate_farmland_throughput_mult = 0.2
+	building_arid_farmland_throughput_mult = 0.2
+	building_wetlands_farmland_throughput_mult = 0.2
+	building_tropical_farmland_throughput_mult = 0.2
 }
 
 atmospheric_engine_mining = {
@@ -1526,6 +1526,7 @@ atmospheric_engine_mining = {
 	building_iron_mine_throughput_mult = 0.33
 	building_lead_mine_throughput_mult = 0.33
 	building_sulfur_mine_throughput_mult = 0.33
+	building_kaolin_mine_throughput_mult = 0.33
 }
 
 plastic_production_modifier = {
@@ -1535,12 +1536,12 @@ plastic_production_modifier = {
 
 radio_production_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_output_radio_mult = 0.5
+	building_output_telecomms_mult = 0.5
 }
 
 dynamite_production_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_chemical_plants_throughput_mult = 0.33
+	building_munitions_plants_throughput_mult = 0.33
 }
 
 mining_production_modifier = {
@@ -1549,6 +1550,7 @@ mining_production_modifier = {
 	building_coal_mine_throughput_mult = 0.2
 	building_lead_mine_throughput_mult = 0.2
 	building_sulfur_mine_throughput_mult = 0.2
+	building_kaolin_mine_throughput_mult = 0.2
 }
 
 munitions_production_modifier = {
@@ -1558,17 +1560,17 @@ munitions_production_modifier = {
 
 motor_industry_production_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_motor_industry_throughput_mult = 0.33
+	building_automotive_firms_throughput_mult = 0.33
 }
 
 public_trasportation_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_urban_center_throughput_mult = 0.33
+	building_railways_throughput_mult = 0.33
 }
 
 engine_production_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_motor_industry_throughput_mult = 0.33
+	building_engineering_firms_throughput_mult = 0.33
 }
 
 railway_production_modifier = {
@@ -1578,7 +1580,7 @@ railway_production_modifier = {
 
 electrics_building_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_electrics_industry_throughput_mult = 0.33
+	building_engineering_firms_throughput_mult = 0.33
 }
 
 whaling_admiral_modifier = {
@@ -1735,7 +1737,7 @@ horizontal_filing_cabinets_modifier = {
 
 elevator_goods_production_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_steel_mills_throughput_mult = 0.2
+	building_alloy_smelters_throughput_mult = 0.2
 	building_glassworks_throughput_mult = 0.2
 }
 

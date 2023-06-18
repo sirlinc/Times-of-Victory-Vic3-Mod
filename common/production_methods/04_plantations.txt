@@ -4,8 +4,8 @@ pm_minimal_infrastructure = {
 	texture = "gfx/interface/icons/production_method_icons/no_infrastructure.dds"
 
 	building_modifiers = {
-		workforce_scaled = {
-			building_throughput_mult = -0.1
+		unscaled = {
+			building_group_bg_plantations_throughput_mult = -0.1
 		}
 	}
 }
@@ -34,9 +34,9 @@ pm_warehouses = {
 		workforce_scaled = {												
 			building_input_wood_add = 5	
 			building_input_horses_add = 2
-			building_throughput_mult = 0.05
 		}
 		unscaled = {
+			building_group_bg_plantations_throughput_mult = 0.05
 		}		
 	}
 }
@@ -53,7 +53,9 @@ pm_rail_linkages = {
 		workforce_scaled = {								
 			building_input_iron_add = 3 
 			building_input_coal_add = 3
-			building_throughput_mult = 0.15
+			}
+		unscaled = {
+			building_group_bg_plantations_throughput_mult = 0.15
 		}		
 	}
 }
@@ -70,7 +72,9 @@ pm_cold_storage = {
 		workforce_scaled = {								
 			building_input_steel_add = 5 
 			building_input_electricity_add = 8
-			building_throughput_mult = 0.2
+			}
+		unscaled = {
+			building_group_bg_plantations_throughput_mult = 0.2
 		}		
 	}
 }
@@ -88,7 +92,9 @@ pm_electrified_fences = {
 			# input goods								
 			building_input_alloys_add = 5 
 			building_input_electricity_add = 10
-			building_throughput_mult = 0.25
+			}
+		unscaled = {
+			building_group_bg_plantations_throughput_mult = 0.25
 		}	
 	}
 }
@@ -781,6 +787,12 @@ pm_freeze_dried_coffee_coffee = {
 		}
 	}
 }
+
+#pmg_innovations_sugar_plantation
+
+
+
+
 
 #pmg_innovations_tobacco_plantation
 

@@ -202,17 +202,17 @@ je_plastics = {
 	}
 }
 
-je_radio = {
+je_radios = {
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 
 	is_shown_when_inactive = {
 		is_player = yes
-		NOT = { has_variable = radio_je_done }
-		has_technology_researched = telephone
+		NOT = { has_variable = radios_je_done }
+		has_technology_researched = telephones
 	}
 
 	possible = {
-		has_technology_researched = radio
+		has_technology_researched = radios
 		any_scope_building = {
 			is_building_type = building_engineering_firms
 		}
@@ -229,14 +229,14 @@ je_radio = {
 			cash_reserves_ratio > 0.25
 			weekly_profit > 0
 			level >= 5
-			has_active_production_method = pm_radio
+			has_active_production_method = pm_radios
 		}
 	}
 
 	on_complete = {
 		trigger_event = { id = production_tech_events.210 }
 		set_variable = {
-			name = radio_je_done
+			name = radios_je_done
 		}
 	}
 }
@@ -523,8 +523,8 @@ je_telephone = {
 	}
 
 	possible = {
-		has_technology_researched = telephone
-		NOT = { has_technology_researched = radio }
+		has_technology_researched = telephones
+		NOT = { has_technology_researched = radios }
 	}
 
 	complete = {
@@ -535,8 +535,8 @@ je_telephone = {
 			occupancy > 0.75
 			level >= 5
 		}
-		NOT = { has_technology_researched = radio }
-		can_research = radio
+		NOT = { has_technology_researched = radios }
+		can_research = radios
 	}
 
 	on_complete = {
@@ -547,7 +547,7 @@ je_telephone = {
 	}
 
 	fail = {
-		has_technology_researched = radio
+		has_technology_researched = radios
 	}
 
 	on_monthly_pulse = {

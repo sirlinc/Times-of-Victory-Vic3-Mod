@@ -376,7 +376,8 @@ STATE_WALES = {
     arable_land = 40
     arable_resources = { "bg_temperate_farmland" "bg_prime_pasture" }
     capped_resources = {
-        bg_coal_mining = 80
+        bg_coal_mining = 70
+        bg_iron_mining = 10
         bg_logging = 14
         bg_fishing = 4
     }

@@ -169,11 +169,13 @@ pmg_canning = {
 	}
 }
 
+#Distilleries
+
 pmg_liquor_distillation = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_no_liquor
 		pm_wooden_casks
+		pm_brew_kettles
 		pm_pot_stills
 		pm_column_stills
 		pm_chromium_vessels
@@ -186,6 +188,17 @@ pmg_opium_tinctures = {
 		pm_no_tinctures
 		pm_laudanum
 	}
+}
+
+pmg_chemicals = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_no_chemicals
+        pm_soda_ash
+        pm_leblanc_process
+        pm_solvay_process
+        pm_castner_kellner_process
+    }
 }
 
 #Textile Mills
@@ -258,7 +271,7 @@ pmg_pulp_material = {
     }
 }
 
-#Chemical Industries
+#Dyeworks
 
 pmg_dyeworks = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
@@ -269,17 +282,6 @@ pmg_dyeworks = {
 		pm_aniline_dyes
 		pm_azo_dyes
 	}
-}
-
-pmg_chemicals = {
-    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-    production_methods = {
-        pm_no_chemicals
-        pm_soda_ash
-        pm_leblanc_process
-        pm_solvay_process
-        pm_castner_kellner_process
-    }
 }
 
 pmg_fertilizer = {

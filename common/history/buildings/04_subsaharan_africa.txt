@@ -613,8 +613,8 @@
 	s:STATE_DAHOMEY={
 		region_state:B73={
 			create_building={
-				building="building_fishing_wharf"
-				level=1
+				building="building_tropical_farmland"
+				level=3
 				reserves=1
 			}
 			create_building={
@@ -1031,7 +1031,7 @@
 	s:STATE_SOUTH_MADAGASCAR={
 		region_state:C41={
 			create_building={
-				building="building_temperate_farmland"
+				building="building_arid_farmland"
 				level=1
 				reserves=1
 			}
@@ -1106,7 +1106,7 @@
 			}
 			create_building={
 				building="building_fishing_wharf"
-				level=20
+				level=2
 				reserves=1
 			}
 			create_building={
@@ -1463,7 +1463,7 @@
 	s:STATE_ZAMBEZI={
 		region_state:C33={
 			create_building={
-				building="building_arid_farmland"
+				building="building_temperate_farmland"
 				level=2
 				reserves=1
 			}
@@ -1475,7 +1475,7 @@
 		}
 		region_state:C34={
 			create_building={
-				building="building_arid_farmland"
+				building="building_temperate_farmland"
 				level=1
 				reserves=1
 			}
@@ -1494,7 +1494,7 @@
 		}
 		region_state:C36={
 			create_building={
-				building="building_arid_farmland"
+				building="building_temperate_farmland"
 				level=1
 				reserves=1
 			}

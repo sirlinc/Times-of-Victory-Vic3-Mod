@@ -569,7 +569,7 @@ expensive_tastes = {
 				OR = {
 					is_interest_group_type = ig_elitist
 					is_interest_group_type = ig_patriarchal
-					is_interest_group_type = ig_paternalist
+					is_interest_group_type = ig_paternalistic
 					is_interest_group_type = ig_plutocratic
 				}
 			}

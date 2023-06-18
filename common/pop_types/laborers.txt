@@ -29,13 +29,13 @@
 		}
 
 		multiply = {
-			desc = "NO_LABOR_MOVEMENT"	
+			desc = "NO_CRITICAL_THEORY"	
 			value = 1.0
 			
 			if = {
 				limit = { 
 					owner = {
-						NOT = { has_technology_researched = radicalism }
+						NOT = { has_technology_researched = critical_theory }
 					}
 				}
 				value = 0.5

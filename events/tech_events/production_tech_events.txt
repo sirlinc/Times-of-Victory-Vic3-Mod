@@ -256,8 +256,8 @@ production_tech_events.210 = {
 		random_neighbouring_state = {
 			limit = {
 				owner = {
-					NOT = { has_technology_researched = radio }
-					has_technology_researched = telephone
+					NOT = { has_technology_researched = radios }
+					has_technology_researched = telephones
 				}
 			}
 			owner = {
@@ -281,14 +281,14 @@ production_tech_events.210 = {
 		trigger = {
 			exists = scope:radio_production_neighbor
 			scope:radio_production_neighbor = {
-				NOT = { has_technology_researched = radio }
+				NOT = { has_technology_researched = radios }
 			}
 		}
 		scope:radio_production_neighbor = {
 			hidden_effect = { post_notification = country_shared_radio_tech }
 			if = {
-				limit = { can_research = radio }
-				add_technology_progress = { progress = 6000 technology = radio }
+				limit = { can_research = radios }
+				add_technology_progress = { progress = 6000 technology = radios }
 			}
 			change_relations = {
 				country = ROOT
@@ -298,7 +298,7 @@ production_tech_events.210 = {
 	}
 }
 
-production_tech_events.300 = { #telephone
+production_tech_events.300 = { #telephones
 	type = country_event
 	duration = 3
 	placement = scope:electrics_state
@@ -348,8 +348,8 @@ production_tech_events.300 = { #telephone
 		name = production_tech_events.300.a
 		default_option = yes
 		if = {
-			limit = { can_research = radio }
-			add_technology_progress = { progress = 6000 technology = radio }
+			limit = { can_research = radios }
+			add_technology_progress = { progress = 6000 technology = radios }
 		}
 	}
 

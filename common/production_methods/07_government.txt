@@ -249,7 +249,7 @@ pm_telephone_switchboards = {
     texture = "gfx/interface/icons/production_method_icons/telephone_switchboards.dds"
 
     unlocking_technologies = {
-		telephone
+		telephones
 	}
 
     building_modifiers = {
@@ -272,7 +272,7 @@ pm_radio_towers = {
     texture = "gfx/interface/icons/production_method_icons/radio_towers.dds"
 
     unlocking_technologies = {
-		radio
+		radios
 	}
 
     building_modifiers = {
@@ -1142,7 +1142,7 @@ pm_skyscraper_bureaucratic_nexus = {
 	texture = "gfx/interface/icons/production_method_icons/skyscraper_bureaucratic_nexus.dds"
 	
 	state_modifiers = {
-		workforce_scaled = {
+		unscaled = {
 			building_government_administration_throughput_mult = 0.25
 		}
 	}

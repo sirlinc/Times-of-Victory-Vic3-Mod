@@ -366,11 +366,11 @@ tanoan={
 		gwa-kelega
 		kaigwa
 		kogui
-		kâtá
+		kata
 		kinep
-		káugyabidau
+		kaugyabidau
 		semat
-		soy-hay-talpupé
+		soy-hay-talpupe
 		pojoaque
 	}
 	common_last_names={
@@ -379,11 +379,11 @@ tanoan={
 		gwa-kelega
 		kaigwa
 		kogui
-		kâtá
+		kata
 		kinep
-		káugyabidau
+		kaugyabidau
 		semat
-		soy-hay-talpupé
+		soy-hay-talpupe
 		pojoaque
 	}
 	ethnicities = {
@@ -517,7 +517,6 @@ khalkha={
 		baterdene
 		jampildorj
 		nasantsogt
-		tserendorj
 		chingis
 		dambyan
 		dashyam

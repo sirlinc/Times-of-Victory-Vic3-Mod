@@ -2571,24 +2571,30 @@ ai_strategy_default = {
 				limit = {
 					country_has_primary_culture = cu:russian
 					has_law = law_type:law_national_supremacy
-					has_technology_researched = national_mythos
+					has_technology_researched = the_nation_state
 					OR = {
 						AND = {	
-							exists = c:KZH
+							exists = c:CRI
 							scope:target_country = {
-								this = c:KZH
+								this = c:CRI
 							}
 						}
 						AND = {	
-							exists = c:UZH
+							exists = c:CIR
 							scope:target_country = {
-								this = c:UZH
+								this = c:CIR
 							}
 						}
 						AND = {	
-							exists = c:OZH
+							exists = c:A94
 							scope:target_country = {
-								this = c:OZH
+								this = c:A94
+							}
+						}
+						AND = {	
+							exists = c:ZAP
+							scope:target_country = {
+								this = c:ZAP
 							}
 						}
 					}
@@ -2873,24 +2879,30 @@ ai_strategy_default = {
 				limit = {
 					country_has_primary_culture = cu:russian
 					has_law = law_type:law_national_supremacy
-					has_technology_researched = national_mythos
+					has_technology_researched = the_nation_state
 					OR = {
 						AND = {	
-							exists = c:KZH
+							exists = c:CRI
 							scope:target_country = {
-								this = c:KZH
+								this = c:CRI
 							}
 						}
 						AND = {	
-							exists = c:UZH
+							exists = c:CIR
 							scope:target_country = {
-								this = c:UZH
+								this = c:CIR
 							}
 						}
 						AND = {	
-							exists = c:OZH
+							exists = c:A94
 							scope:target_country = {
-								this = c:OZH
+								this = c:A94
+							}
+						}
+						AND = {	
+							exists = c:ZAP
+							scope:target_country = {
+								this = c:ZAP
 							}
 						}
 					}
@@ -3308,24 +3320,30 @@ ai_strategy_default = {
 				limit = {
 					country_has_primary_culture = cu:russian
 					has_law = law_type:law_national_supremacy
-					has_technology_researched = national_mythos
+					has_technology_researched = the_nation_state
 					OR = {
 						AND = {	
-							exists = c:KZH
-							scope:target_state.owner = {
-								this = c:KZH
+							exists = c:CRI
+							scope:target_country = {
+								this = c:CRI
 							}
 						}
 						AND = {	
-							exists = c:UZH
-							scope:target_state.owner = {
-								this = c:UZH
+							exists = c:CIR
+							scope:target_country = {
+								this = c:CIR
 							}
 						}
 						AND = {	
-							exists = c:OZH
-							scope:target_state.owner = {
-								this = c:OZH
+							exists = c:A94
+							scope:target_country = {
+								this = c:A94
+							}
+						}
+						AND = {	
+							exists = c:ZAP
+							scope:target_country = {
+								this = c:ZAP
 							}
 						}
 					}

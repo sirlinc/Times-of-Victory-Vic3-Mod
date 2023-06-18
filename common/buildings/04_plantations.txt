@@ -140,7 +140,7 @@ building_sugar_plantation = {
 	levels_per_mesh = 5
 
 	production_method_groups = {
-		pmg_innovations_sugar_plantation
+		pmg_innovations_sugarcane_plantation
 		pmg_infrastructure_base_plantation
 		pmg_ownership_base_plantation
 		pmg_labor_equity_base_plantation
