@@ -109,7 +109,7 @@ building_textile_mills = {
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
-		framed_machines
+		compound_machines
 	}
 
 	production_method_groups = {
