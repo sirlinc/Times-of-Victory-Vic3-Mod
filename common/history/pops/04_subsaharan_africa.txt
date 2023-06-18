@@ -3060,7 +3060,7 @@
 			}
 			create_pop = {
 				culture = portuguese
-				size = 3368
+				size = 4368
 			}
 			create_pop = {
 				culture = bakongo
@@ -3071,6 +3071,16 @@
 				culture = kavango_bantu
 				religion = catholic
 				size = 7396
+			}
+		}
+		region_state:NEB = {
+			create_pop = {
+				culture = bakongo
+				size=7287
+			}
+			create_pop = {
+				culture = dutch
+				size = 3368
 			}
 		}
 		region_state:B98 = {

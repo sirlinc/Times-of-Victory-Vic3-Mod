@@ -1,1 +1,1 @@
-﻿namespace = bic_breakup
+﻿

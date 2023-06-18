@@ -1334,6 +1334,23 @@
 				reserves=1
 			}
 		}
+		region_state:NEB={
+			create_building={
+				building="building_tropical_farmland"
+				level=1
+				reserves=1
+			}
+			create_building={
+				building="building_barracks"
+				level=4
+				reserves=1
+			}
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+			}
+		}
 		region_state:B98={
 			create_building={
 				building="building_tropical_farmland"

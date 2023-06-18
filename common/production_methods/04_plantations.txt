@@ -329,7 +329,7 @@ pm_sugarloaf_molds_sugarcane = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_output_tea_add = 10
+			building_output_sugar_add = 10
 		}
 
 		level_scaled = {
@@ -352,7 +352,7 @@ pm_molasses_separation_sugarcane = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_tools_add = 1
-			building_output_tea_add = 15
+			building_output_sugar_add = 15
 		}
 
 		level_scaled = {
@@ -376,7 +376,7 @@ pm_cane_crushers_sugarcane = {
 		workforce_scaled = {
 			building_input_tools_add = 3
 			building_input_coal_add = 3
-			building_output_tea_add = 25
+			building_output_sugar_add = 25
 		}
 
 		level_scaled = {
@@ -401,7 +401,7 @@ pm_vacuum_pan_evaporation_sugarcane = {
 		workforce_scaled = {
 			building_input_tools_add = 5
 			building_input_coal_add = 5
-			building_output_tea_add = 40
+			building_output_sugar_add = 40
 		}
 
 		level_scaled = {
@@ -426,7 +426,7 @@ pm_centrifugation_sugarcane = {
 		workforce_scaled = {
 			building_input_machined_parts_add = 3
 			building_input_electricity_add = 8
-			building_output_tea_add = 60
+			building_output_sugar_add = 60
 		}
 
 		level_scaled = {

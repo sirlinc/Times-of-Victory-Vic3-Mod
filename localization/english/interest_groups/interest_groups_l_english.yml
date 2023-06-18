@@ -221,3 +221,8 @@ ig_elitist: "Gentry"
  ig_nobility: "Titled Nobility"
   ig_nobility_only_icon: "@nobility!"
   ig_nobility_desc: "The high-ranking aristocracy, holding hereditary titles and often exercising significant political and social power."
+
+#Custom IGs
+
+#expansionist
+#ig_cossack_hosts: "Cossack Hosts"

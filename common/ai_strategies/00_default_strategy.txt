@@ -1096,22 +1096,22 @@ ai_strategy_default = {
 	wanted_army_size = {
 		value = 0
 		
-		# To increase base army size for small countries, capped at 1 million population
+		# To increase base army size for small countries, capped at 600k population
 		add = {
 			value = cached_ai_incorporated_population
-			divide = 100000 # 1 level of barracks per 100k incorporated population	
+			divide = 30000 # 1 level of barracks per 30k incorporated population	
 			
-			max = 10
+			max = 20
 		}			
 	
 		add = {
 			value = cached_ai_incorporated_population
-			divide = 250000 # 1 level of barracks per 250k incorporated population	
+			divide = 125000 # 1 level of barracks per 125k incorporated population	
 		}		
 		
 		add = {
 			value = cached_ai_unincorporated_population
-			divide = 1000000 # 1 level of barracks per 1 million unincorporated population	
+			divide = 500000 # 1 level of barracks per 500k unincorporated population	
 		}
 		
 		max = 250 # No more than 250 from population
