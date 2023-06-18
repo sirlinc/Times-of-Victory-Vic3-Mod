@@ -36,7 +36,7 @@
 	}
 	
 	leader_weight = {
-		value = 25 # moderates are boring
+		value = 600 # moderates are boring
 		# angry IG's more likely to have opinions
 		if = {
 			limit = {

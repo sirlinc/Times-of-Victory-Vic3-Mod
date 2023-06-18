@@ -2,13 +2,17 @@
 	color = rgb{ 173 60 115 }
 	texture = "gfx/interface/icons/ig_icons/paternalistic.dds" #
 	
+	layer = "revolution_dynamic_landowners"
+	index = 4
+	
 	ideologies = {
 		ideology_paternalistic
 	}
 
 	enable = {
-			always = yes
+		always = yes
 	}
+	
 	traits = {}	
 	
 	on_enable = {}
@@ -16,9 +20,12 @@
 	on_character_ig_membership = {}
 	
 	pop_potential = {
-		is_pop_type = aristocrats
-		is_pop_type = clergymen
-		is_pop_type = officers
+		strata >= poor
+		OR = {
+			is_pop_type = aristocrats
+			is_pop_type = clergymen
+			is_pop_type = officers
+		}
 	}
 
 	pop_weight = {

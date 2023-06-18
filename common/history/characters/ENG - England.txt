@@ -1,9 +1,9 @@
 ﻿CHARACTERS = {
 	c:ENG = {
 		create_character = {
-			first_name = "charles_i"
-			last_name = "stuart"
-			age = 39
+			first_name = "oliver"
+			last_name = "cromwell"
+			age = 49
 			ruler = yes
 		}
 	}

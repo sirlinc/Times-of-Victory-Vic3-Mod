@@ -2,6 +2,9 @@
 	color = rgb { 0 167 81 }
 	texture = "gfx/interface/icons/ig_icons/meritocratic.dds"
 	
+	layer = "revolution_dynamic_petty_bourgeoisie"
+	index = 5
+	
 	ideologies = { ideology_meritocratic }
 
 	enable = {

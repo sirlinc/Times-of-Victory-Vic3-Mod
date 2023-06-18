@@ -2,6 +2,9 @@
 	color = rgb { 255 108 79 }
 	texture = "gfx/interface/icons/ig_icons/feminist.dds"
 	
+	layer = "revolution_dynamic_intelligentsia"
+	index = 3
+	
 	ideologies = { ideology_feminist }
 
 	enable = {

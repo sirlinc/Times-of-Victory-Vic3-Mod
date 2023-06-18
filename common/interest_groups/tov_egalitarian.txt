@@ -1,11 +1,14 @@
 ﻿ig_egalitarian = {
 	color = rgb { 198 255 165 }
 	texture = "gfx/interface/icons/ig_icons/egalitarian.dds"
+		
+	layer = "revolution_dynamic_intelligentsia"
+	index = 3
 	
 	ideologies = { ideology_egalitarian }
 
 	enable = {
-			always = yes
+		always = yes
 	}
 	
 	traits = {}	

@@ -4557,9 +4557,9 @@ STATES = {
 			}
 		add_homeland = french
 	}
-		s:STATE_LORRAINE = {
+	s:STATE_LORRAINE = {
 		create_state = {
-			country = c:FRA #France
+			country = c:LOR
 			owned_provinces = { x282DCC x3080E0 x70BFA0 x7FC1E6 xB080E0 xC5F13A }
 		}
 
@@ -4734,7 +4734,8 @@ STATES = {
 			country = c:SPA #Spain
 			owned_provinces = { xB0A0C0 x8080A0 x3A5FB9 xD001A0 x2D32D7 }
 		}
-
+		
+		effect_medium_devastation = yes
 		add_homeland = wallonian
 		add_claim = c:NET
 	}
@@ -4747,7 +4748,8 @@ STATES = {
 			country = c:LIE #Liege
 			owned_provinces = { x808061 }
 		}
-
+		
+		effect_medium_devastation = yes
 		add_homeland = flemish
 		add_claim = c:NET
 	}
@@ -8522,7 +8524,8 @@ STATES = {
 			country = c:AUS #Austria
 			owned_provinces = { x71E041 xCDE96E x0B9B4F x465A13 x81C142 x9080A0 xFA371D x9C175D x61902F xEE1941 x716141 xA40163 x400226 x1D6B94 x67FE18 xF06141 xAFD2D1 xF0E041 xD286DB x2ED2B3 x74C71F }
 		}
-
+		
+		effect_medium_devastation = yes
 		add_homeland = czech
 		add_homeland = south_german
 	}
@@ -8814,7 +8817,8 @@ STATES = {
 			country = c:PLT
 			owned_provinces = { x318061 }
 		}
-
+		
+		effect_low_devastation = yes
 		add_homeland = south_german
 		add_homeland = alemannic
 	}

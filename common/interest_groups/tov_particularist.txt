@@ -2,6 +2,9 @@
 	color = rgb { 71 105 68 }
 	texture = "gfx/interface/icons/ig_icons/particularism.dds" #
 	
+	layer = "revolution_dynamic_rural_folk"
+	index = 6
+	
 	ideologies = { ideology_particularist }
 
 	enable = {
@@ -15,6 +18,7 @@
 	on_character_ig_membership = {}
 	
 	pop_potential = {
+		standard_of_living < 30
 		NOR = {
 			is_pop_type = aristocrats
 			is_pop_type = capitalists

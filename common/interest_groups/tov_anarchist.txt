@@ -2,6 +2,9 @@
 	color = rgb { 3 3 3 }
 	texture = "gfx/interface/icons/ig_icons/anarchy.dds"
 	
+	layer = "revolution_dynamic_trade_unions"
+	index = 7
+	
 	ideologies = { ideology_anarchist }
 
 	enable = {

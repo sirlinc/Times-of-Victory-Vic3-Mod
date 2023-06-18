@@ -2,6 +2,9 @@
 	color = rgb{68 25 20 }
 	texture = "gfx/interface/icons/ig_icons/slavery.dds" #
 	
+	layer = "revolution_dynamic_landowners"
+	index = 4
+	
 	ideologies = {
 		ideology_pro_slavery
 	}
@@ -25,7 +28,7 @@
 	}
 
 	pop_weight = {
-		value = 75
+		value = 0
 	
 		add = {
 			desc = "BASE_POP"

@@ -1,6 +1,9 @@
 ﻿ig_market_liberal = {
 	color = rgb { 216 172 49}
 	texture = "gfx/interface/icons/ig_icons/economy_lib.dds" #
+		
+	layer = "revolution_dynamic_industrialists"
+	index = 2
 	
 	ideologies = { ideology_laissez_faire }
 

@@ -2,6 +2,9 @@
 	color = rgb { 95 96 77 }
 	texture = "gfx/interface/icons/ig_icons/rationalist.dds"
 	
+	layer = "revolution_dynamic_intelligentsia"
+	index = 3
+	
 	ideologies = {
 		ideology_anti_clerical #Rationalist
 	}

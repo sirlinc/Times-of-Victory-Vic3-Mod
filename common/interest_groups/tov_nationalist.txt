@@ -2,10 +2,13 @@
 	color = rgb { 18 15 91 }
 	texture = "gfx/interface/icons/ig_icons/nationalist.dds"
 	
+	layer = "revolution_dynamic_armed_forces"
+	index = 0
+	
 	ideologies = { ideology_patriotic }
 
 	enable = {
-			always = yes
+		always = yes
 	}
 	
 	traits = {}	
