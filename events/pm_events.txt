@@ -176,10 +176,11 @@ pm_events.3 = {
 
 	trigger = {
 		any_scope_state = {
-			building_type = building_food_industry
+			building_type = building_distilleries
 			is_production_method_active = {
 				OR = {
 					production_method = pm_wooden_casks
+					production_method = pm_brew_kettles
 					production_method = pm_pot_stills
 					production_method = pm_column_stills
 					production_method = pm_chromium_vessels
@@ -449,4 +450,5 @@ pm_events.5 = {
 		}
 		default_option = yes
 	}
+}
 }

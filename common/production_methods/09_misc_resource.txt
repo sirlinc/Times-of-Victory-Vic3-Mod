@@ -5,7 +5,7 @@ pm_crosscut_saws = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_output_wood_add = 30
+			building_output_wood_add = 10
 		}
 
 		level_scaled = {
@@ -23,10 +23,10 @@ pm_frame_saws = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			building_input_tools_add = 1
+			building_input_tools_add = 5
 			
 			# output goods
-			building_output_wood_add = 45
+			building_output_wood_add = 20
 		}
 
 		level_scaled = {
@@ -39,16 +39,16 @@ pm_frame_saws = {
 pm_circular_saws = {
 	texture = "gfx/interface/icons/production_method_icons/electric_saw_mills.dds"
 	unlocking_technologies = {
-		machine_tools
+		atmospheric_engine
 	}				
 
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			building_input_tools_add = 3
+			building_input_tools_add = 10
 			
 			# output goods
-			building_output_wood_add = 60
+			building_output_wood_add = 40
 		}
 
 		level_scaled = {
@@ -67,9 +67,9 @@ pm_powered_saws = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_machined_parts_add = 1
-			building_input_coal_add = 2
-			building_output_wood_add = 80
+			building_input_machined_parts_add = 5
+			building_input_coal_add = 20
+			building_output_wood_add = 60
 		}
 
 		level_scaled = {
@@ -89,9 +89,9 @@ pm_band_saws = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_machined_parts_add = 2
-			building_input_coal_add = 4
-			building_output_wood_add = 100
+			building_input_machined_parts_add = 20
+			building_input_coal_add = 40
+			building_output_wood_add = 90
 		}
 
 		level_scaled = {
@@ -112,11 +112,11 @@ pm_chainsaws = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			building_input_engines_add = 1
-			building_input_fuel_oil_add = 3
+			building_input_engines_add = 15
+			building_input_fuel_oil_add = 40
 			
 			# output goods
-			building_output_wood_add = 125
+			building_output_wood_add = 120
 		}
 
 		level_scaled = {
@@ -308,7 +308,7 @@ pm_cable_tool_drilling = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_machined_parts_add = 2
+			building_input_machined_parts_add = 5
 			building_output_crude_oil_add = 30
 		}
 
@@ -331,7 +331,7 @@ pm_rotary_drilling = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_machined_parts_add = 5
+			building_input_machined_parts_add = 10
 			building_output_crude_oil_add = 50
 		}
 
@@ -354,7 +354,7 @@ pm_directional_drilling = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_machined_parts_add = 8		
+			building_input_machined_parts_add = 15		
 			building_output_crude_oil_add = 80
 		}
 
@@ -376,8 +376,8 @@ pm_steam_powered_drilling_rigs = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_steel_add = 6
-			building_input_coal_add = 8
+			building_input_steel_add = 5
+			building_input_coal_add = 10
 			building_output_crude_oil_add = 30
 		}
 	}
@@ -395,7 +395,7 @@ pm_gas_powered_drilling_rigs = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_engines_add = 5
-			building_input_fuel_oil_add = 8
+			building_input_fuel_oil_add = 20
 			building_output_crude_oil_add = 50
 		}
 	}
@@ -412,8 +412,8 @@ pm_electric_drilling_rigs = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_engines_add = 8
-			building_input_electricity_add = 8
+			building_input_engines_add = 10
+			building_input_electricity_add = 25
 			building_output_crude_oil_add = 80
 		}
 	}

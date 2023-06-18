@@ -1076,7 +1076,7 @@ pm_rotary_mountage_silk = {
 	pollution_generation = 5
 		
 	unlocking_technologies = {
-		engineering_theory
+		compound_machines
 	}
 	
 	building_modifiers = {

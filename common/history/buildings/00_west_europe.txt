@@ -233,12 +233,7 @@
 				building="building_government_administration"
 				level=3
 				reserves=1
-			}		
-			create_building={
-				building="building_construction_sector"
-				level=1
-				reserves=1
-			}				
+			}						
 			create_building={
 				building="building_shipyards"
 				level=1
@@ -691,12 +686,7 @@
 				building="building_government_administration"
 				level=3
 				reserves=1
-			}
-			create_building={
-				building="building_construction_sector"
-				level=1
-				reserves=1
-			}				
+			}			
 			create_building={
 				building="building_distilleries"
 				level=2
@@ -1718,12 +1708,7 @@
 		}
 	}
 	s:STATE_FLANDERS={
-		region_state:SPA={
-			create_building={
-				building="building_construction_sector"
-				level=1
-				reserves=1
-			}			
+		region_state:SPA={			
 			create_building={
 				building="building_paper_mills"
 				level=1
@@ -1779,12 +1764,7 @@
 		}
 	}
 	s:STATE_AUSTRIA={
-		region_state:AUS={
-			create_building={
-				building="building_construction_sector"
-				level=2
-				reserves=1
-			}				
+		region_state:AUS={				
 			create_building={
 				building="building_university"
 				level=2

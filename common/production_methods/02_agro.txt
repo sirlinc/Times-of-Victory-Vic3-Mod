@@ -980,7 +980,7 @@ pm_rice_fish_aquaculture_wef = {
 	texture = "gfx/interface/icons/production_method_icons/rice_fish_aquaculture.dds"
 
 	unlocking_technologies = {
-		rotational_grazing
+		four_field_system
 	}	
 
 	building_modifiers = {
@@ -1438,9 +1438,6 @@ pm_refrigerated_rail_cars = {
 pm_natural_hides = {
 	texture = "gfx/interface/icons/production_method_icons/dyed_hides.dds"
 
-	unlocking_technologies = {
-		adhesives
-	}	
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -1553,7 +1550,7 @@ pm_baroque_breeds = {
 	texture = "gfx/interface/icons/production_method_icons/horses.dds"
 
 	unlocking_technologies = {
-		intercropping
+		selective_breeding
 	}	
 
 	building_modifiers = {
@@ -1568,7 +1565,7 @@ pm_warmblooded_breeds = {
 	texture = "gfx/interface/icons/production_method_icons/horses.dds"
 	
 	unlocking_technologies = {
-		selective_breeding
+		pedigrees
 	}
 
 	building_modifiers = {
