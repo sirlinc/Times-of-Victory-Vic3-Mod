@@ -2,6 +2,9 @@
 	color = rgb { 190 247 255 }
 	texture = "gfx/interface/icons/ig_icons/abolitionism.dds"
 	
+	layer = "revolution_dynamic_intelligentsia"
+	index = 3
+	
 	ideologies = {
 		ideology_anti_slavery
 	}

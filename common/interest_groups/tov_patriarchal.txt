@@ -2,6 +2,9 @@
 	color = rgb{ 124 61 0 }
 	texture = "gfx/interface/icons/ig_icons/patriarchy.dds"
 	
+	layer = "revolution_dynamic_landowners"
+	index = 4
+	
 	ideologies = { ideology_patriarchal }
 
 	enable = {

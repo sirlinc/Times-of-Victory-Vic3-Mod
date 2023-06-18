@@ -2,6 +2,9 @@
 	color = rgb{ 107 134 188 }
 	texture = "gfx/interface/icons/ig_icons/moral.dds"
 	
+	layer = "revolution_dynamic_devout"
+	index = 1
+	
 	ideologies = { ideology_moralist }
 
 	enable = { always = yes }

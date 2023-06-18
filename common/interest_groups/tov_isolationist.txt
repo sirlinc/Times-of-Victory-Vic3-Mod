@@ -2,6 +2,9 @@
 	color = rgb { 155 87 130 }
 	texture = "gfx/interface/icons/ig_icons/isolationism.dds" #
 	
+	layer = "revolution_dynamic_rural_folk"
+	index = 6
+	
 	ideologies = { ideology_isolationist }
 
 	enable = {

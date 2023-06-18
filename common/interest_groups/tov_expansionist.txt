@@ -2,6 +2,9 @@
 	color = rgb{ 104 31 0 }
 	texture = "gfx/interface/icons/ig_icons/militar.dds"
 	
+	layer = "revolution_dynamic_armed_forces"
+	index = 0
+	
 	ideologies = {
 		ideology_jingoist
 	}
@@ -15,7 +18,6 @@
 	on_character_ig_membership = {}
 	
 	pop_potential = {
-		pop_is_discriminated = no
 		OR = {
 			is_pop_type = soldiers
 			is_pop_type = officers
@@ -109,13 +111,13 @@
 			}
 		}
 		
-		add = {
-			desc = "POP_NOT_DISCRIMINATED"
+		multiply = {
+			desc = "POP_DISCRIMINATED"
 			if = {
 				limit = { 
-					pop_is_discriminated = no
+					pop_is_discriminated = yes
 				}
-				value = 25
+				value = 0.5
 			}
 		}	
 		

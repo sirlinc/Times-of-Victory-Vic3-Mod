@@ -1,5 +1,5 @@
 ﻿ideology_protectionist = {
-	icon = "gfx/interface/icons/ideology_icons/ideology_leader/exp_ideology_leader_protectionism.dds"
+	icon = "gfx/interface/icons/ideology_icons/value.dds" #/ideology_leader/exp_ideology_leader_protectionism.dds"
 
 	lawgroup_economic_system = {
 		law_interventionism = approve
@@ -20,7 +20,7 @@
 }
 
 ideology_socialist = { #1.3
-	icon = "gfx/interface/icons/ideology_icons/socialist.dds"
+	icon = "gfx/interface/icons/ideology_icons/value.dds"
 
 	lawgroup_governance_principles = {
 		law_council_republic = approve
@@ -57,7 +57,7 @@ ideology_socialist = { #1.3
 }
 
 ideology_anarchist = {
-	icon = "gfx/interface/icons/ideology_icons/ideology_leader/value.dds"
+	icon = "gfx/interface/icons/ideology_icons/value.dds"
 
 	lawgroup_citizenship = {
 		law_ethnostate = strongly_disapprove
@@ -128,7 +128,7 @@ ideology_anarchist = {
 	}
 }
 ideology_feminist = {
-	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_womens_liberation.dds"
+	icon = "gfx/interface/icons/ideology_icons/value.dds"
 	
 	character_ideology = yes
 	

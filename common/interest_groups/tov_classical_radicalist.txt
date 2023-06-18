@@ -2,10 +2,13 @@
 	color = rgb{ 255 96 96 }
 	texture = "gfx/interface/icons/ig_icons/classicalrad.dds"
 	
+	layer = "revolution_dynamic_trade_unions"
+	index = 7
+	
 	ideologies = { ideology_social_democrat }
 
 	enable = {
-			always = yes
+		always = yes
 	}
 	
 	traits = {}	

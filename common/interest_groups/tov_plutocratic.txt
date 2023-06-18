@@ -2,6 +2,9 @@
 	color = rgb { 23 122 120 }
 	texture = "gfx/interface/icons/ig_icons/plutocratic.dds"
 	
+	layer = "revolution_dynamic_industrialists"
+	index = 2
+	
 	ideologies = { ideology_plutocratic	}
 
 	enable = { always = yes }

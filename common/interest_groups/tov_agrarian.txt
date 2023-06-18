@@ -2,6 +2,9 @@
 	color = hsv{ 0.22 0.66 0.44 }
 	texture = "gfx/interface/icons/ig_icons/agrarian.dds"
 	
+	layer = "revolution_dynamic_landowners"
+	index = 4
+	
 	ideologies = { ideology_agrarian }
 
 	enable = { always = yes }

@@ -2,6 +2,9 @@
 	color = rgb { 73 83 255 }
 	texture = "gfx/interface/icons/ig_icons/individualist.dds"
 	
+	layer = "revolution_dynamic_industrialists"
+	index = 2
+	
 	ideologies = { ideology_individualist }
 
 	enable = {

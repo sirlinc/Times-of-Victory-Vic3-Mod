@@ -50,11 +50,18 @@ interest_group_ig_agrarian_pol_str_mult = {
 	num_decimals = 0
 }
 
+interest_group_ig_paternalistic_pol_str_mult = {
+	neutral = yes
+	percent = yes
+	num_decimals = 0
+}
+
 interest_group_ig_egalitarian_pol_str_mult = {
 	neutral = yes
 	percent = yes
 	num_decimals = 0
 }
+
 
 interest_group_pol_str_mult = {
 	neutral = yes

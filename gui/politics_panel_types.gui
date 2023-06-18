@@ -472,6 +472,24 @@ types information_panels_types
 								default_format = "#variable"
 								using = fontsize_large
 							}
+							
+							bar_horizontal = {
+								size = { 75 10 }
+
+								blockoverride "values" {
+									min = 0
+									max = "[AccessPlayer.GetMaxCloutOrPopulationPercentage]"
+									value = "[FixedPointToFloat(InterestGroup.GetClout)]"
+									invertprogress = yes
+								}
+								blockoverride "marker_widgetanchor" {
+									widgetanchor = left
+									mirror = horizontal
+								}
+								blockoverride "color" {
+									color = "[InterestGroup.GetColor]"
+								}
+							}
 						}
 
 						icon = {

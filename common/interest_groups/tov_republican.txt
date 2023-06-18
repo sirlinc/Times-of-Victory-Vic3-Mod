@@ -2,6 +2,9 @@
 	color = rgb { 74 93 89 }
 	texture = "gfx/interface/icons/ig_icons/republican.dds"
 	
+	layer = "revolution_dynamic_intelligentsia"
+	index = 3
+	
 	ideologies = { ideology_republican }
 
 	enable = {
