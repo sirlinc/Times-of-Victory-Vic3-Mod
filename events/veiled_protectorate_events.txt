@@ -23,7 +23,7 @@ veiled_protectorate.1 = {
 
 	immediate = {
 		save_scope_as = egypt_overlord_country
-		c:EGY = {
+		c:B37 = {
 			save_scope_as = egypt_country
 			ruler = {
 				save_scope_as = egypt_ruler
@@ -56,7 +56,7 @@ veiled_protectorate.1 = {
 			kill_character = yes
 		}
 		change_relations = {
-			country = c:EGY
+			country = c:B37
 			value = 50
 		}
 		change_relations = {

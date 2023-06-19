@@ -578,7 +578,7 @@ exclusive_wine = {
 
 popular_wine = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_output_wine_mult = 0.5
+	building_output_liquor_mult = 0.5
 }
 
 modifier_new_ideology = {
@@ -1536,7 +1536,7 @@ plastic_production_modifier = {
 
 radio_production_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_output_telecomms_mult = 0.5
+	building_throughput_telecomms_mult = 0.5
 }
 
 dynamite_production_modifier = {
@@ -1565,7 +1565,7 @@ motor_industry_production_modifier = {
 
 public_trasportation_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_railways_throughput_mult = 0.33
+	building_railway_throughput_mult = 0.33
 }
 
 engine_production_modifier = {

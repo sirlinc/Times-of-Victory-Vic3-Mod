@@ -458,7 +458,7 @@ raj.5 = {
 # Mutiny!
 raj.6 = {
 	type = country_event
-	placement = c:MUG.capital
+	placement = c:A43.capital
 
 	title = raj.6.t
 	desc = raj.6.d
@@ -485,25 +485,25 @@ raj.6 = {
 		}
 		if = {
 			limit = {
-				NOT = { exists = c:MUG }
+				NOT = { exists = c:A43 }
 				exists = s:STATE_DELHI.region_state:BIC
 			}
 			create_country = {
-				tag = MUG
+				tag = A43
 				origin = c:BIC
 				state = s:STATE_DELHI.region_state:BIC
 			}
 		}
 		else_if = {
 			limit = {
-				exists = c:MUG
+				exists = c:A43
 				exists = s:STATE_DELHI.region_state:BIC
 			}
-			s:STATE_DELHI.region_state:BIC = { set_state_owner = c:MUG }
+			s:STATE_DELHI.region_state:BIC = { set_state_owner = c:A43 }
 		}
 		else_if = {
 			limit = {
-				NOT = { exists = c:MUG }
+				NOT = { exists = c:A43 }
 			}
 			random_country = {
 				limit = {
@@ -512,18 +512,18 @@ raj.6 = {
 						state_region = s:STATE_DELHI
 					}
 				}
-				change_tag = MUG
+				change_tag = A43
 			}
 		}
 		if = {
 			limit = { exists = s:STATE_AWADH.region_state:BIC }
-			s:STATE_AWADH.region_state:BIC = { set_state_owner = c:MUG }
+			s:STATE_AWADH.region_state:BIC = { set_state_owner = c:A43 }
 		}
 		if = {
 			limit = {
 				NOT = {
 					any_diplomatic_play = {
-						any_scope_play_involved = { this = c:MUG }
+						any_scope_play_involved = { this = c:A43 }
 						any_scope_play_involved = { this = c:BIC }
 						is_diplomatic_play_type = dp_secession
 					}
@@ -533,25 +533,25 @@ raj.6 = {
 				name = sepoy_mutiny
 				type = dp_annex_war
 				escalation = 80
-				target_state = s:STATE_DELHI.region_state:MUG
+				target_state = s:STATE_DELHI.region_state:A43
 
 				add_war_goal = {
-					holder = c:MUG
+					holder = c:A43
 					type = conquer_state
 					target_state = s:STATE_BIHAR.region_state:BIC
 				}
 				add_war_goal = {
-					holder = c:MUG
+					holder = c:A43
 					type = conquer_state
 					target_state = s:STATE_NORTH_BENGAL.region_state:BIC
 				}
 				add_war_goal = {
-					holder = c:MUG
+					holder = c:A43
 					type = conquer_state
 					target_state = s:STATE_PUNJAB.region_state:BIC
 				}
 				add_war_goal = {
-					holder = c:MUG
+					holder = c:A43
 					type = conquer_state
 					target_state = s:STATE_CENTRAL_INDIA.region_state:BIC
 				}
@@ -561,7 +561,7 @@ raj.6 = {
 			name = weakened_by_mutiny
 			months = normal_modifier_time
 		}
-		c:MUG = {
+		c:A43 = {
 			add_modifier = {
 				name = war_for_independence
 				months = normal_modifier_time
@@ -591,7 +591,7 @@ raj.6 = {
 		default_option = yes
 		add_journal_entry = { type = je_sepoy_mutiny }
 		hidden_effect = {
-			c:MUG = {
+			c:A43 = {
 				create_character = {
 					first_name = "Mirza_Mughal"
 					last_name = "Gurkani"
@@ -648,9 +648,9 @@ raj.6 = {
 			is_player = yes
 		}
 		add_journal_entry = { type = je_sepoy_mutiny }
-		play_as = c:MUG
+		play_as = c:A43
 		hidden_effect = {
-			c:MUG = {
+			c:A43 = {
 				create_character = {
 					first_name = "Mirza_Mughal"
 					last_name = "Gurkani"

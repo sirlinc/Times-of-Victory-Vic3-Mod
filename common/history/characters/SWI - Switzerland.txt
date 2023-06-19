@@ -1,7 +1,7 @@
 ﻿CHARACTERS = {
 	c:SWI = {
 		create_character = {
-			first_name = "christina"
+			first_name = "kristina_augusta"
 			last_name = "vasa"
 			age = 22
 			ruler = yes

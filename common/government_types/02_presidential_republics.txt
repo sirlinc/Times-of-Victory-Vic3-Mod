@@ -296,7 +296,7 @@ gov_colonial_administration = {
 		OR = {
 			AND = {
 				AND = { exists = c:NET is_subject_of = c:NET }
-				AND = { exists = c:DEI c:DEI = ROOT }
+				AND = { exists = c:A23 c:A23 = ROOT }
 				is_subject_type = subject_type_dominion
 			}
 			AND = {

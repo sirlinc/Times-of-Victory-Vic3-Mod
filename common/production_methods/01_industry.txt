@@ -152,9 +152,11 @@ pm_electronic_process_control = {
 #pmg_industrial_organization
 
 pm_decentralized_industry = {
-	texture = "gfx/interface/icons/production_method_icons/decentralized.dds"
+	texture = "gfx/interface/icons/production_method_icons/decentralized_industry.dds"
 
-	building_modifiers = {
+	state_modifiers = {
+        state_dependent_wage_mult = 0.3
+        building_economy_of_scale_level_cap_add = -20
 	}
 }
 
@@ -907,7 +909,7 @@ pm_crucible_steel_parts = {
     texture = "gfx/interface/icons/production_method_icons/lathes.dds"
 
     unlocking_technologies = {
-		machine_tools
+		the_factory_system
 	}
 
     building_modifiers = {
@@ -988,7 +990,7 @@ pm_confectionery = {
     texture = "gfx/interface/icons/production_method_icons/sweeteners.dds"
 
     unlocking_technologies = {
-		fractional_distillation
+		industrial_kitchens
 	}
 
     building_modifiers = {
@@ -1144,10 +1146,6 @@ pm_no_canning = {
 
 pm_glass_jars = {
     texture = "gfx/interface/icons/production_method_icons/canneries.dds"
-
-    unlocking_technologies = {
-		food_processing_machines
-	}
 
     building_modifiers = {
         workforce_scaled = {

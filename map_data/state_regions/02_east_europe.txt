@@ -276,7 +276,8 @@ STATE_CHERSON = {
     arable_land = 60
     arable_resources = { "bg_temperate_farmland" "bg_prime_pasture" }
     capped_resources = {
-        bg_coal_mining = 48
+        bg_coal_mining = 10
+        bg_iron_mining = 30
         bg_logging = 6
         bg_fishing = 12
     }

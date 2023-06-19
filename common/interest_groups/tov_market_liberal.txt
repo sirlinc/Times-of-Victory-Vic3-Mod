@@ -56,7 +56,7 @@
 				}
 				value = 160
 			}
-		
+		}
 		add = {
 			desc = "POP_ARISTOCRATS"
 			if = {
@@ -285,5 +285,4 @@
 			}
 		}
 	}
-}
 }

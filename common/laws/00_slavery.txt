@@ -89,6 +89,7 @@ law_slave_trade = {
 	
 	on_enact = {
 		ig:ig_elitist = { add_ideology = ideology_pro_slavery }
+		ig:ig_plutocratic = { add_ideology = ideology_pro_slavery }
 	}
 	
 	modifier = {

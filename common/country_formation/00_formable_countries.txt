@@ -176,7 +176,7 @@ CHI = {
 	ai_will_do = { always = yes }
 }
 
-ETH = {
+C59 = {
 	use_culture_states = yes
 
 	required_states_fraction = 0.50

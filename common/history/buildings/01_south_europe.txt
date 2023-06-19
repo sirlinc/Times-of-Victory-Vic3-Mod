@@ -256,11 +256,6 @@
 	s:STATE_CAMPANIA={
 		region_state:NAP={
 			create_building={
-				building="building_construction_sector"
-				level=1
-				reserves=1
-			}
-			create_building={
 				building="building_shipyards"
 				level=1
 				reserves=1
@@ -478,12 +473,7 @@
 				building="building_university"
 				level=1
 				reserves=1
-			}
-			create_building={
-				building="building_construction_sector"
-				level=1
-				reserves=1
-			}			
+			}		
 			create_building={
 				building="building_glassworks"
 				level=2
@@ -686,13 +676,7 @@
 		}
 	}
 	s:STATE_TOLEDO={
-		region_state:SPA={
-
-			create_building={
-				building="building_construction_sector"
-				level=2
-				reserves=1
-			}			
+		region_state:SPA={		
 			create_building={
 				building="building_university"
 				level=1
@@ -1581,7 +1565,7 @@
 		}
 	}
 	s:STATE_CRETE={
-		region_state:EGY={
+		region_state:B37={
 			create_building={
 				building="building_cotton_plantation"
 				level=1

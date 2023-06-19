@@ -33,7 +33,7 @@
 					OR = {
 						is_pop_type = aristocrats
 						is_pop_type = capitalists
-						strata = upper
+						strata = rich
 					}
 				}
 				value = 185
@@ -45,7 +45,7 @@
 			desc = "SOL_20_25"
 			if = {
 				limit = {
-					NOT = { strata = upper }
+					NOT = { strata = rich }
 					standard_of_living >= 20
 					standard_of_living < 25
 				}
@@ -57,7 +57,7 @@
 			desc = "SOL_25_30"
 			if = {
 				limit = {
-					NOT = { strata = upper }
+					NOT = { strata = rich }
 					standard_of_living >= 25
 					standard_of_living < 30
 				}
@@ -68,7 +68,7 @@
 			desc = "SOL_30_35"
 			if = {
 				limit = {
-					NOT = { strata = upper }
+					NOT = { strata = rich }
 					standard_of_living >= 30
 					standard_of_living < 35
 				}
@@ -80,7 +80,7 @@
 			desc = "SOL_35_40"
 			if = {
 				limit = {
-					NOT = { strata = upper }
+					NOT = { strata = rich }
 					standard_of_living >= 35
 					standard_of_living < 40
 				}
@@ -91,7 +91,7 @@
 			desc = "SOL_40_45"
 			if = {
 				limit = {
-					NOT = { strata = upper }
+					NOT = { strata = rich }
 					standard_of_living >= 40
 					standard_of_living < 45
 				}
@@ -104,7 +104,7 @@
 			desc = "SOL_LESS_15"
 			if = {
 				limit = {
-					strata = upper 
+					strata = rich 
 					standard_of_living < 15
 				}
 				value = 0.5
@@ -114,7 +114,7 @@
 			desc = "SOL_15_20"
 			if = {
 				limit = {
-					strata = upper 
+					strata = rich 
 					standard_of_living >= 15
 					standard_of_living < 20
 				}
@@ -125,7 +125,7 @@
 			desc = "SOL_20_25"
 			if = {
 				limit = {
-					strata = upper 
+					strata = rich 
 					standard_of_living >= 20
 					standard_of_living < 25
 				}
@@ -137,7 +137,7 @@
 			desc = "SOL_25_30"
 			if = {
 				limit = {
-					strata = upper
+					strata = rich
 					standard_of_living >= 25
 					standard_of_living < 30
 				}
@@ -148,7 +148,7 @@
 			desc = "SOL_30_35"
 			if = {
 				limit = {
-					strata = upper
+					strata = rich
 					standard_of_living >= 30
 					standard_of_living < 35
 				}
@@ -160,7 +160,7 @@
 			desc = "SOL_35_40"
 			if = {
 				limit = {
-					strata = upper
+					strata = rich
 					standard_of_living >= 35
 					standard_of_living < 40
 				}
@@ -171,7 +171,7 @@
 			desc = "SOL_40_45"
 			if = {
 				limit = {
-					strata = upper
+					strata = rich
 					standard_of_living >= 40
 					standard_of_living < 45
 				}

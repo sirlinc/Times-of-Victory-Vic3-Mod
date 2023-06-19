@@ -1243,7 +1243,7 @@ KAZ = {
 	capital = STATE_SEMIRECHE
 }
 
-MUG = {
+A43 = {
 	color = { 150  230  255 }
 	
 	country_type = unrecognized
@@ -1865,7 +1865,7 @@ JOH = {
 	cultures = { malay }
 }
 
-SIA = {
+A13 = {
 	color = { 88  137  172 }
 	
 	country_type = unrecognized
@@ -4095,7 +4095,7 @@ TAS = {
 	cultures = { australian }
 }
 
-DEI = {
+A23 = {
 	color = { 20  80  80 }
 	
 	country_type = colonial
@@ -4345,7 +4345,7 @@ CON = {
 	capital = STATE_CONSTANTINE
 }
 
-EGY = {
+B37 = {
 	color = { 255  205  155 }
 	
 	country_type = unrecognized
@@ -4356,7 +4356,7 @@ EGY = {
 	capital = STATE_LOWER_EGYPT
 }
 
-ETH = {
+C59 = {
 	color = { 56  120  191 }
 	
 	country_type = unrecognized

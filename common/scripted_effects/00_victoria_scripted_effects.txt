@@ -1827,7 +1827,7 @@ create_paris_commune_characters = {
 					owner = c:FRA
 					has_template = rus_jaroslaw_dabrowski_character_template
 				}
-				transfer_character = c:PRC
+				transfer_character = c:FRA
 				add_character_role = general
 				add_commander_rank = 1
 			}
@@ -1842,7 +1842,7 @@ create_paris_commune_characters = {
 				limit = {
 					has_template = rus_jaroslaw_dabrowski_character_template
 				}
-				transfer_character = c:PRC
+				transfer_character = c:FRA
 				add_character_role = general
 				add_commander_rank = 1
 			}
@@ -1886,7 +1886,7 @@ create_paris_commune_characters = {
 					owner = c:FRA
 					has_template = fra_delescluze_character_template
 				}
-				transfer_character = c:PRC
+				transfer_character = c:FRA
 				add_character_role = politician
 				remove_character_role = agitator
 				set_as_interest_group_leader = yes
@@ -1902,7 +1902,7 @@ create_paris_commune_characters = {
 				limit = {
 					has_template = fra_delescluze_character_template
 				}
-				transfer_character = c:PRC
+				transfer_character = c:FRA
 				add_character_role = politician
 				remove_character_role = agitator
 				set_as_interest_group_leader = yes
@@ -1941,7 +1941,7 @@ create_paris_commune_characters = {
 					owner = c:FRA
 					has_template = agitator_louise_michel
 				}
-				transfer_character = c:PRC
+				transfer_character = c:FRA
 			}
 		}	
 		else_if = {
@@ -1954,7 +1954,7 @@ create_paris_commune_characters = {
 				limit = {
 					has_template = agitator_louise_michel
 				}
-				transfer_character = c:PRC
+				transfer_character = c:FRA
 			}
 		}	
 	}

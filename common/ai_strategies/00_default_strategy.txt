@@ -783,9 +783,9 @@ ai_strategy_default = {
 		if = {
 			limit = {
 				has_journal_entry = je_veiled_protectorate
-				exists = c:EGY
+				exists = c:B37
 				scope:target_country = {
-					THIS = c:EGY
+					THIS = c:B37
 				}
 			}
 			add = 5
@@ -2435,8 +2435,8 @@ ai_strategy_default = {
 			if = {
 				limit = {
 					has_journal_entry = je_sick_man_syria
-					exists = c:EGY
-					scope:target_country = c:EGY
+					exists = c:B37
+					scope:target_country = c:B37
 				}
 				add = 200
 			}
@@ -2811,8 +2811,8 @@ ai_strategy_default = {
 						has_journal_entry = je_sick_man_syria
 						has_journal_entry = je_veiled_protectorate
 					}
-					exists = c:EGY
-					scope:target_country = c:EGY
+					exists = c:B37
+					scope:target_country = c:B37
 				}
 				add = 200
 			}
@@ -3815,8 +3815,8 @@ ai_strategy_default = {
 						has_journal_entry = je_sick_man_egypt
 						has_journal_entry = je_veiled_protectorate
 					}
-					exists = c:EGY
-					scope:target_country = c:EGY
+					exists = c:B37
+					scope:target_country = c:B37
 				}
 				add = 100
 			}			
@@ -3988,8 +3988,8 @@ ai_strategy_default = {
 						has_journal_entry = je_sick_man_egypt
 						has_journal_entry = je_veiled_protectorate
 					}
-					exists = c:EGY
-					scope:target_country = c:EGY
+					exists = c:B37
+					scope:target_country = c:B37
 				}
 				add = 100
 			}	
@@ -4119,8 +4119,8 @@ ai_strategy_default = {
 						has_journal_entry = je_sick_man_egypt
 						has_journal_entry = je_veiled_protectorate
 					}
-					exists = c:EGY
-					scope:target_country = c:EGY
+					exists = c:B37
+					scope:target_country = c:B37
 				}
 				add = 100
 			}	

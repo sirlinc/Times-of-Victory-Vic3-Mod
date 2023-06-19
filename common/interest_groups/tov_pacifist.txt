@@ -37,9 +37,6 @@
 					is_pop_type = clergymen
 					owner = { 
 						is_at_war = no 
-						any_diplomatic_play = { 
-							NOT = { is_diplomatic_play_undecided_participant }
-						}
 					}
 					
 				}

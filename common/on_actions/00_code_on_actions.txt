@@ -5,12 +5,9 @@ on_monthly_pulse_country = {
 	events = {
 		communism.8 # Red Army
 		peoples_springtime.1
-		opium_wars.1
 		native_resettlement.1
 		meiji.13
-		bic_breakup.1
 		dreyfus.1
-		dei_breakup.1
 		unable_to_enact.1
 
 		# Exile Agitators Events
@@ -397,8 +394,6 @@ on_yearly_pulse_country = {
 		50 = strike.5
 		50 = strike.6
 		50 = strike.7
-
-		10 = opium_wars.8
 
 		10 = south_america.3
 		

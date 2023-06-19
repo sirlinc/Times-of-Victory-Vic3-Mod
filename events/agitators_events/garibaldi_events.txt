@@ -24,7 +24,7 @@ garibaldi_events.1 = {
 
 	trigger = {
 		has_dlc_feature = voice_of_the_people_content
-		year <= 1862 # Garibaldi was (sadly) not immortal
+		year > 1820 # Garibaldi was (sadly) not immortal
 		NOT = {
 			has_variable = rejected_garibaldi
 		}
