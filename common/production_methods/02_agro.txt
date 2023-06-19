@@ -1438,7 +1438,6 @@ pm_refrigerated_rail_cars = {
 pm_natural_hides = {
 	texture = "gfx/interface/icons/production_method_icons/dyed_hides.dds"
 
-
 	building_modifiers = {
 		workforce_scaled = {
 			building_output_fabric_add = 5

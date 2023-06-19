@@ -338,8 +338,8 @@ industrial_accident_events.4 = {
 		set_variable = {
 			name = great_molasses_flood
 			value = yes
-		}
 	}
+
 
 	option = {
 		name = industrial_accident_events.4.a
@@ -372,7 +372,6 @@ industrial_accident_events.4 = {
 			}
 		}
 	}
-}
 
 industrial_accident_events.5 = {
 	type = country_event

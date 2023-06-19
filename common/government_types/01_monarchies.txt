@@ -717,33 +717,14 @@ gov_khanate = {
 	possible = {
 		has_law = law_type:law_monarchy
 		OR = {
+			AND = { exists = c:CRI c:CRI = ROOT }
+			AND = { exists = c:A41 c:A41 = ROOT }
 			AND = { exists = c:KHI c:KHI = ROOT }
-			AND = { exists = c:KOK c:KOK = ROOT }
-			AND = { exists = c:KAZ c:KAZ = ROOT }
 			AND = { exists = c:KAL c:KAL = ROOT }
-		}
-	}
-
-	on_government_type_change = {
-		change_to_hereditary = yes
-	}
-}
-
-gov_zhuz = {
-	transfer_of_power = hereditary
-
-	male_ruler = "RULER_TITLE_SENIOR_SULTAN"
-	female_ruler = "RULER_TITLE_SENIOR_SULTANA"
-	
-	male_heir = "RULER_TITLE_PRINCE"
-	female_heir = "RULER_TITLE_PRINCESS"
-	
-	possible = {
-		has_law = law_type:law_monarchy
-		OR = {
-			AND = { exists = c:UZH c:UZH = ROOT }
-			AND = { exists = c:KZH c:KZH = ROOT }
-			AND = { exists = c:OZH c:OZH = ROOT }
+			AND = { exists = c:A01 c:A01 = ROOT }
+			AND = { exists = c:A02 c:A02 = ROOT }
+			AND = { exists = c:A03 c:A03 = ROOT }
+			AND = { exists = c:A04 c:A04 = ROOT }
 		}
 	}
 
