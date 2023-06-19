@@ -53,9 +53,6 @@ industrial_accident_events.1 = {
 				}	
 				is_production_method_active = {			
 					is_building_type = building_textile_mills
-				}
-				is_production_method_active = {			
-					is_building_type = building_textile_mills
 					production_method = pm_flying_shuttles
 				}
 				is_production_method_active = {			
@@ -324,11 +321,6 @@ industrial_accident_events.4 = {
 	trigger = {
 		any_scope_state = {
 			has_building = building_distilleries
-			NOT = {
-				is_production_method_active = {
-					building_type = building_distilleries
-					production_method = pm_no_liquor
-				}
 			}
 		}
 		NOT = {
@@ -339,11 +331,6 @@ industrial_accident_events.4 = {
 		random_scope_state = {
 			limit = {
 				has_building = building_distilleries
-				NOT = {
-					is_production_method_active = {
-						building_type = building_distilleries
-						production_method = pm_no_liquor
-					}
 				}
 			}
 			save_scope_as = molasses_flood_state
