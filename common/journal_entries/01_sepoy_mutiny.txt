@@ -50,8 +50,8 @@ je_sepoy_mutiny = {
 
 	complete = {
 		trigger_if = {
-			limit = { exists = c:MUG }
-			c:MUG = { is_country_alive = no }
+			limit = { exists = c:A43 }
+			c:A43 = { is_country_alive = no }
 		}
 		highest_secession_progress < 0.3
 		has_any_secessionists_broken_out = no

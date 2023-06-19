@@ -3008,7 +3008,7 @@
 #        trigger = {
 #            any_diplomatic_play = {
 #                initiator_is = c:TUR
-#                target_is = c:EGY
+#                target_is = c:B37
 #                is_diplomatic_play_type = dp_return_state
 #            }
 #        }

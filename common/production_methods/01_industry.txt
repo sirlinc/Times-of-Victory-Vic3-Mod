@@ -152,9 +152,11 @@ pm_electronic_process_control = {
 #pmg_industrial_organization
 
 pm_decentralized_industry = {
-	texture = "gfx/interface/icons/production_method_icons/decentralized.dds"
+	texture = "gfx/interface/icons/production_method_icons/decentralized_industry.dds"
 
-	building_modifiers = {
+	state_modifiers = {
+        state_dependent_wage_mult = 0.3
+        building_economy_of_scale_level_cap_add = -20
 	}
 }
 

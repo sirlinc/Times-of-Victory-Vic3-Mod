@@ -4,9 +4,9 @@
 	is_shown_when_inactive = {
 		trigger_if = {
 			limit = {
-				exists = c:EGY
+				exists = c:B37
 			}
-			c:EGY = {
+			c:B37 = {
 				is_subject = no
 				is_country_type = unrecognized
 			}
@@ -24,13 +24,13 @@
 			}
 		}
 		any_neighbouring_state = {
-			owner = c:EGY
+			owner = c:B37
 		}
 	}
 
 	possible = {
-		exists = c:EGY
-		c:EGY = {
+		exists = c:B37
+		c:B37 = {
 			OR = {
 				owes_obligation_to = ROOT
 				relations:root <= relations_threshold:poor
@@ -41,7 +41,7 @@
 	}
 
 	complete = {
-		c:EGY = {
+		c:B37 = {
 			is_subject_of = ROOT
 		}
 	}
@@ -54,12 +54,12 @@
 
 	fail = {
 		OR = {
-			NOT = { exists = c:EGY }
-			c:EGY = {
+			NOT = { exists = c:B37 }
+			c:B37 = {
 				is_subject = yes
 				NOT = { is_subject_of = ROOT }
 			}
-			c:EGY = {
+			c:B37 = {
 				NOT = { is_country_type = unrecognized }
 			}
 		}

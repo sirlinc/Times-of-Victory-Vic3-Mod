@@ -345,8 +345,8 @@ gov_mughal_empire = {
 	
 	possible = {
 		has_law = law_type:law_monarchy
-		exists = c:MUG
-		c:MUG = ROOT
+		exists = c:A43
+		c:A43 = ROOT
 	}
 
 	on_government_type_change = {
@@ -385,8 +385,8 @@ gov_khedive = {
 	
 	possible = {
 		has_law = law_type:law_monarchy
-		exists = c:EGY
-		c:EGY = ROOT
+		exists = c:B37
+		c:B37 = ROOT
 	}
 
 	on_government_type_change = {

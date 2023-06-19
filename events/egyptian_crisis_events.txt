@@ -19,10 +19,10 @@ egyptian_crisis_events.1 = {
 	duration = 3
 
 	trigger = {
-		exists = c:EGY
+		exists = c:B37
 		any_diplomatic_play = {
 			initiator = root
-			target = c:EGY
+			target = c:B37
 			OR = {
 				has_play_goal = conquer_state
 				has_play_goal = return_state
@@ -41,11 +41,11 @@ egyptian_crisis_events.1 = {
 			name = egyptian_crisis
 		}
 		if = {
-			limit = { exists = s:STATE_SYRIA.region_state:EGY }
-			s:STATE_SYRIA.region_state:EGY = { save_scope_as = egyptian_crisis_state }
+			limit = { exists = s:STATE_SYRIA.region_state:B37 }
+			s:STATE_SYRIA.region_state:B37 = { save_scope_as = egyptian_crisis_state }
 		}
 		else = {
-			c:EGY.capital = { save_scope_as = egyptian_crisis_state }
+			c:B37.capital = { save_scope_as = egyptian_crisis_state }
 		}
 	}
 
@@ -61,10 +61,10 @@ egyptian_crisis_events.1 = {
 				country_rank = rank_value:great_power
 				country_is_in_europe = yes
 				NOR = {
-					c:EGY = this
+					c:B37 = this
 					c:TUR = this
 					has_war_with = c:TUR
-					has_war_with = c:EGY
+					has_war_with = c:B37
 					has_diplomatic_pact = {
 						who = root
 						type = rivalry
@@ -82,16 +82,16 @@ egyptian_crisis_events.1 = {
 				country_is_in_europe = yes
 				NOR = {
 					has_interest_marker_in_region = region_arabic
-					c:EGY = this
+					c:B37 = this
 					c:TUR = this
 					has_war_with = c:TUR
-					has_war_with = c:EGY
+					has_war_with = c:B37
 				}
 			}
 			hidden_effect = { trigger_event = { id = egyptian_crisis_events.4 } }
 			custom_tooltip = egyptian_crisis_events.1.a.tt
 		}
-		c:EGY = {
+		c:B37 = {
 			trigger_event = { id = egyptian_crisis_events.2 }
 		}
 	}
@@ -105,16 +105,16 @@ egyptian_crisis_events.1 = {
         		country_is_in_europe = yes
         		NOR = {
         			has_interest_marker_in_region = region_arabic
-        			c:EGY = this
+        			c:B37 = this
         			c:TUR = this
         			has_war_with = c:TUR
-        			has_war_with = c:EGY
+        			has_war_with = c:B37
         		}
         	}
         	hidden_effect = { trigger_event = { id = egyptian_crisis_events.4 } }
         	custom_tooltip = egyptian_crisis_events.1.a.tt
         }
-        c:EGY = {
+        c:B37 = {
         	trigger_event = { id = egyptian_crisis_events.2 }
         }
 	}
@@ -140,11 +140,11 @@ egyptian_crisis_events.2 = {
 
 	immediate = {
 		if = {
-			limit = { exists = s:STATE_SYRIA.region_state:EGY }
-			s:STATE_SYRIA.region_state:EGY = { save_scope_as = egyptian_crisis_state }
+			limit = { exists = s:STATE_SYRIA.region_state:B37 }
+			s:STATE_SYRIA.region_state:B37 = { save_scope_as = egyptian_crisis_state }
 		}
 		else = {
-			c:EGY.capital = { save_scope_as = egyptian_crisis_state }
+			c:B37.capital = { save_scope_as = egyptian_crisis_state }
 		}
 	}
 
@@ -175,11 +175,11 @@ egyptian_crisis_events.4 = {
 
 	immediate = {
 		if = {
-			limit = { exists = s:STATE_SYRIA.region_state:EGY }
-			s:STATE_SYRIA.region_state:EGY = { save_scope_as = egyptian_crisis_state }
+			limit = { exists = s:STATE_SYRIA.region_state:B37 }
+			s:STATE_SYRIA.region_state:B37 = { save_scope_as = egyptian_crisis_state }
 		}
 		else = {
-			c:EGY.capital = { save_scope_as = egyptian_crisis_state }
+			c:B37.capital = { save_scope_as = egyptian_crisis_state }
 		}
 	}
 

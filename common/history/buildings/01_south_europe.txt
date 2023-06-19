@@ -1565,7 +1565,7 @@
 		}
 	}
 	s:STATE_CRETE={
-		region_state:EGY={
+		region_state:B37={
 			create_building={
 				building="building_cotton_plantation"
 				level=1

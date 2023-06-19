@@ -376,7 +376,7 @@ agitator_ahmed_urabi = {
 	agitator_usage = {
 		country_trigger = {
 			has_dlc_feature = voice_of_the_people_content
-			c:EGY ?= this
+			c:B37 ?= this
 		}
         interest_group_trigger = {
             is_marginal = no
@@ -467,7 +467,7 @@ agitator_wichaichan = { # a.k.a. PRINCE GEORGE WASHINGTON
 	agitator_usage = {
 		country_trigger = {
 			has_dlc_feature = voice_of_the_people_content
-			c:SIA ?= this
+			c:A13 ?= this
 		}
         interest_group_trigger = {
             is_marginal = no
@@ -613,7 +613,7 @@ agitator_giovanni_gentile = {
 	agitator_usage = {
 		country_trigger = {
 			has_dlc_feature = voice_of_the_people_content
-			c:SIA ?= this
+			c:A13 ?= this
 		}
         interest_group_trigger = {
             is_marginal = no

@@ -6124,7 +6124,7 @@ DAI_subject_FRA = {
 	}		
 }
 
-DEI = { 
+A23 = { 
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 
@@ -6135,7 +6135,7 @@ DEI = {
 	}
 }
 
-DEI_subject = {
+A23_subject = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 
@@ -6146,7 +6146,7 @@ DEI_subject = {
 	}
 }
 
-DEI_voc = { #Company Flag
+A23_voc = { #Company Flag
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 
@@ -6713,7 +6713,7 @@ EST_communist = {
 	}	
 }
 
-ETH = {
+C59 = {
 	# default monarchy (correct colour order before ww2)
 	
 	pattern = "pattern_solid.tga"
@@ -6907,7 +6907,7 @@ DEN_fascist = {
 	}	
 }
 
-EGY = { # Egypt
+B37 = { # Egypt
 	# 1923-58
 	
 	pattern = "pattern_solid.tga"
@@ -6929,7 +6929,7 @@ EGY = { # Egypt
 		instance = { scale = { 0.2 -0.2 } position = { 0.55 0.62 } }		
 	}		
 }
-EGY_absolute_monarchy = {
+B37_absolute_monarchy = {
 	# Late 19th c. design - Starting flag
 	
 	pattern = "pattern_solid.tga"
@@ -6952,7 +6952,7 @@ EGY_absolute_monarchy = {
 		instance = { scale = { 0.22 0.22 } position = { 0.6 0.5 } }	
 	}
 }
-EGY_republic = {
+B37_republic = {
 	
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -6963,7 +6963,7 @@ EGY_republic = {
 		color2 = "black"
 	}	
 }
-EGY_dictatorship = {
+B37_dictatorship = {
 	# 1958 revolution
 	
 	pattern = "pattern_solid.tga"
@@ -7016,7 +7016,7 @@ EGY_dictatorship = {
 		instance = { scale = { 0.06 0.06 } position = { 0.52 0.49 } }		
 	}	
 }
-EGY_subject = {
+B37_subject = {
 	pattern = "pattern_solid.tga"
 	color1 = "green"
 	color2 = "white"
@@ -7026,7 +7026,7 @@ EGY_subject = {
         instance = { scale = { 0.5 0.5 } offset = { 0.5 0.25 }  }
     }	
 }
-EGY_subject_GBR = {
+B37_subject_GBR = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
 	color2 = "white"
@@ -7038,7 +7038,7 @@ EGY_subject_GBR = {
 		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }		
 	}	
     sub = {
-        parent = "sub_EGY_early" 
+        parent = "sub_B37_early" 
         instance = { scale = { 0.45 0.45 } offset = { 0.525 0.275 }  }
 		color1 = "blue"
 		color2 = "red"
@@ -12042,7 +12042,7 @@ KUT_subject = {
         instance = { position = { 0.25 0.25 } scale = { 0.5 0.5 } }				
 	}		
 }
-KZH = {
+A94 = {
 	pattern = "pattern_border_outlined_thin.dds"
 	color1 = "white"
 	color2 = "red"
@@ -13928,7 +13928,7 @@ MTC_subject = {
 	}
 }
 
-MUG = { # Mughal Empire
+A43 = { # Mughal Empire
 	pattern = "pattern_solid.tga"
 	color1 = "green"
 
@@ -13938,7 +13938,7 @@ MUG = { # Mughal Empire
 		color1 = "yellow"	
 	}
 }
-MUG_absolute_monarchy = {
+A43_absolute_monarchy = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
 	color2 = "green"	
@@ -14008,7 +14008,7 @@ MUG_absolute_monarchy = {
 		instance = { scale = { 0.70 0.70 } position = { 0.45 0.5 } }			
 	}	
 }
-MUG_subject = {
+A43_subject = {
 	pattern = "pattern_solid.tga"
 	color1 = "green"
 	
@@ -14019,7 +14019,7 @@ MUG_subject = {
 		
 	}
 }
-MUG_subject_GBR = {
+A43_subject_GBR = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 	
@@ -19278,7 +19278,7 @@ SGF_fascist = {
 	}			
 }
 
-SIA = {
+A13 = {
 	# 1891 decorated elephant on dais, chakra in chief dexter sometimes (1851-91 the design doesnt feature the platform)
 	
 	pattern = "pattern_solid.tga"
@@ -19299,7 +19299,7 @@ SIA = {
 		instance = { scale = { 1.0 1.0 } position = { 0.50 0.48 } }			
 	}
 }
-SIA_absolute_monarchy = { # Siam
+A13_absolute_monarchy = { # Siam
 	# Early design, starting flag
 	
 	pattern = "pattern_solid.tga"
@@ -19318,7 +19318,7 @@ SIA_absolute_monarchy = { # Siam
 		instance = { scale = { 0.4 0.4 } position = { 0.50 0.49 } }			
 	}
 }
-SIA_republic = {
+A13_republic = {
 	# Modern flag of Thailand, adopted 1917
 	
 	pattern = "pattern_solid.tga"
@@ -19338,7 +19338,7 @@ SIA_republic = {
 		instance = { scale = { 1.0 @third } position = { 0.50 0.50 } }			
 	}	
 }
-SIA_dictatorship = {
+A13_dictatorship = {
 	# 1916 flag
 	pattern = "pattern_solid.tga"
 	color1 = "white"
@@ -19350,7 +19350,7 @@ SIA_dictatorship = {
 		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }			
 	}	
 }
-SIA_theocracy = {
+A13_theocracy = {
 	pattern = "pattern_border_of_3_double.dds"
 	color1 = "red"
 	color2 = "yellow"
@@ -19363,7 +19363,7 @@ SIA_theocracy = {
 		instance = { scale = { 0.75 0.75 } position = { 0.45 0.5 } }			
 	}	
 }
-SIA_subject = {
+A13_subject = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 	color2 = "blue"
@@ -19387,7 +19387,7 @@ SIA_subject = {
         instance = { position = { 0.25 0.25 } scale = { 0.5 0.5 } }				
 	}	
 }
-SIA_subject_gold = {
+A13_subject_gold = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 	color2 = "blue"

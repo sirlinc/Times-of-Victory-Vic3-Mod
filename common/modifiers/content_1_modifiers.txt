@@ -1440,20 +1440,20 @@ generic_law_stall = {
 
 age_of_caudillos_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	interest_group_ig_armed_forces_pop_attraction_mult = 0.1
-	interest_group_ig_armed_forces_pol_str_mult = 0.5
+	interest_group_ig_expansionist_pop_attraction_mult = 0.1
+	interest_group_ig_expansionist_pol_str_mult = 0.5
 }
 
 missouri_compromise = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
-	interest_group_ig_landowners_pol_str_mult = 0.25
+	interest_group_ig_elitist_pol_str_mult = 0.25
 	country_aristocrats_voting_power_add = 50
 	country_farmers_voting_power_add = 10
 }
 
 shogun_ig_forced_to_open_market = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
-	interest_group_ig_landowners_pol_str_mult = -0.75
+	interest_group_ig_elitist_pol_str_mult = -0.75
 }
 
 shogun_forced_to_open_market = {

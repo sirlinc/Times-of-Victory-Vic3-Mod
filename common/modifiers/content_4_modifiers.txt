@@ -78,7 +78,7 @@ decree_resource_trade_union_attraction = {
 decree_resentful_military = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	interest_group_ig_expansionist_approval_add = 2
-	interest_group_ig_armed_forces_pop_attraction_mult = -0.1
+	interest_group_ig_expansionist_pop_attraction_mult = -0.1
 }
 
 decree_increased_pay = {
@@ -308,7 +308,7 @@ taiping_taiping_rebellion = { #This is temporary
 
 taiping_land_socialization = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
-	interest_group_ig_landowners_pol_str_mult = -0.50
+	interest_group_ig_elitist_pol_str_mult = -0.50
 	country_peasants_pol_str_mult = 0.10
 	country_aristocrats_pol_str_mult = -0.50
 	state_aristocrats_mortality_mult = 0.50
@@ -381,7 +381,7 @@ modifier_vladivostok_navy = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	state_building_naval_base_max_level_add = 2
 	building_naval_base_throughput_mult = 0.15
-	interest_group_ig_armed_forces_pol_str_mult = 0.05
+	interest_group_ig_expansionist_pol_str_mult = 0.05
 }
 
 modifier_vladivostok_civilian = {

@@ -86,7 +86,7 @@ institution_collectivization = {
 	background_texture = "gfx/interface/illustrations/institutions/institution_icon_bg.dds"
 	modifier = {
 		state_political_strength_from_wealth_mult = -0.1
-		building_economy_of_scale_level_cap_add = 5
+		building_economy_of_scale_level_cap_add = 10
 	}
 }
 

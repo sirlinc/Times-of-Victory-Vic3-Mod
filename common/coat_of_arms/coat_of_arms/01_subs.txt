@@ -1642,7 +1642,7 @@ sub_EGY = {
 	}		
 }
 
-sub_EGY_early  = {	
+sub_B37_early  = {	
 	# pattern = "pattern_solid.tga"
 	color1 = "red"
 	color2 = "white"

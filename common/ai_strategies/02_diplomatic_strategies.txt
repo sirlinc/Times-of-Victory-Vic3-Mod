@@ -1221,7 +1221,7 @@ ai_strategy_unify_ethiopia = {
 	
 		if = {
 			limit = { 
-				scope:target_country = { can_form_nation = ETH }
+				scope:target_country = { can_form_nation = C59 }
 			}
 			add = 25
 		}
@@ -1236,7 +1236,7 @@ ai_strategy_unify_ethiopia = {
 		
 		if = {
 			limit = { 
-				scope:target_country = { can_form_nation = ETH }
+				scope:target_country = { can_form_nation = C59 }
 			}
 			add = 2.5
 		}
@@ -1284,7 +1284,7 @@ ai_strategy_unify_ethiopia = {
 			if = {
 				limit = {
 					scope:target_country = {
-						can_form_nation = ETH
+						can_form_nation = C59
 					}
 					can_reach_target_country = yes
 				}
@@ -1332,7 +1332,7 @@ ai_strategy_unify_ethiopia = {
 			if = {
 				limit = {
 					scope:target_country = {
-						can_form_nation = ETH
+						can_form_nation = C59
 					}
 				}
 				add = 150
@@ -1349,7 +1349,7 @@ ai_strategy_unify_ethiopia = {
 			if = {
 				limit = {
 					scope:target_country = {
-						can_form_nation = ETH
+						can_form_nation = C59
 					}
 					can_reach_target_country = yes
 				}
@@ -1359,8 +1359,8 @@ ai_strategy_unify_ethiopia = {
 	}	
 
 	possible = {
-		NOT = { exists = c:ETH }
-		can_form_nation = ETH
+		NOT = { exists = c:C59 }
+		can_form_nation = C59
 	}
 
 	weight = {

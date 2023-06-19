@@ -74,7 +74,6 @@ widespread_condemnation_modifier = {
 }
 algerian_state_raided = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
-	_throughput_mult = -0.2
 	building_group_bg_agriculture_throughput_mult = -0.2
 	state_mortality_mult = 0.5
 	state_migration_pull_mult = -0.2

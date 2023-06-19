@@ -1,7 +1,7 @@
 ﻿CHARACTERS = {
 	c:OLD = {
 		create_character = {
-			first_name = "anthony_günther"
+			first_name = "anthony_gunther"
 			last_name = "oldenburg"
 			age = 65
 			ruler = yes

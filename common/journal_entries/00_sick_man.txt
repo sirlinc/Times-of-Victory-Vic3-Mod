@@ -72,8 +72,8 @@ je_sick_man_syria = {
 			limit = {
 				OR = {
 					AND = {
-						exists = c:EGY
-						c:EGY = {
+						exists = c:B37
+						c:B37 = {
 							is_subject_of = ROOT
 						}
 					}
@@ -123,8 +123,8 @@ je_sick_man_egypt = {
 	complete = {
 		OR = {
 			AND = {
-				exists = c:EGY
-				c:EGY = {
+				exists = c:B37
+				c:B37 = {
 					is_subject_of = ROOT
 				}
 			}

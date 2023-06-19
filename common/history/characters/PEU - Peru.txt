@@ -1,7 +1,7 @@
 ﻿CHARACTERS = {
 	c:PEU = {
 		create_character = {
-			first_name = "garcía_sarmiento"
+			first_name = "garcia_sarmiento"
 			last_name = "de_sotomayor"
 			age = 53
 			ruler = yes

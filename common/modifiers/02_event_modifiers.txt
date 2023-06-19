@@ -1565,7 +1565,7 @@ motor_industry_production_modifier = {
 
 public_trasportation_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	building_railways_throughput_mult = 0.33
+	building_railway_throughput_mult = 0.33
 }
 
 engine_production_modifier = {

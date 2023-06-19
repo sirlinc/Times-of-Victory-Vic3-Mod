@@ -857,11 +857,11 @@ c:TUR = {
         set_relations = { country = c:RUS value = -50 }
     }
 
-c:SIA = {
+c:A13 = {
         set_relations = { country = c:DAI value = -50 }
     }
 c:DAI = {
-        set_relations = { country = c:SIA value = -50 }
+        set_relations = { country = c:A13 value = -50 }
     }
 c:A03 = {
         set_relations = { country = c:A04 value = -50 }

@@ -47,8 +47,8 @@ GLOBAL = {
 	#Muhammad Ali's Ambition
 	every_country = {
 		limit = {
-			exists = c:EGY
-			this = c:EGY
+			exists = c:B37
+			this = c:B37
 		}
 		set_variable = muhammed_alis_ambition_ach_possible
 	}
@@ -264,7 +264,7 @@ GLOBAL = {
 	#Solomon's Quest
 	every_country = {
 		limit = {
-			can_form_nation = ETH
+			can_form_nation = C59
 		}
 		set_variable = solomons_quest_ach_possible
 	}

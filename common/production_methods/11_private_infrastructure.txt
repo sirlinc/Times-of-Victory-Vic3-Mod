@@ -377,36 +377,12 @@ pm_scenic_touring_trains = {
     }
 }
 
-pm_military_railways = {
-    texture = "gfx/interface/icons/production_method_icons/military_railways.dds"
-
-    
-
-    building_modifiers = {
-        workforce_scaled = {
-            building_input_ammunition_add = 15
-			building_output_transportation_add = -10
-        }
-        state_modifiers = {       
-            workforce_scaled = {
-                state_infrastructure_add = -10
-            }
-            unscaled = {
-                front_advancement_speed_mult = 0.15
-                unit_supply_consumption_mult = -0.15
-            }
-        }
-    }
-}
-
 pm_whistle_stop_tours = {
     texture = "gfx/interface/icons/production_method_icons/whistlestop_tours.dds"
 
-    
-
     building_modifiers = {
         workforce_scaled = {         
-			building_output_transportation_add = -10
+			building_output_transportation_add = 10
         }
     }
         state_modifiers = {       
@@ -414,7 +390,7 @@ pm_whistle_stop_tours = {
             state_infrastructure_add = -10
             }
         unscaled = {
-            state_loyalists_from_sol_change_mult = 0.1
+            state_radicals_from_sol_change_mult = -0.1
         }
     }
 }
@@ -427,17 +403,31 @@ pm_colonial_railways = {
 	}
 
     building_modifiers = {
-        workforce_scaled = {
+        unscaled = {
 			building_output_transportation_add = -20
         }
     }
     state_modifiers = {       
-        workforce_scaled = {
-            state_infrastructure_add = -10
-        }
         unscaled = {
             state_migration_pull_mult = 0.2
 			state_colony_growth_speed_mult = 0.05
+        }
+    }
+}
+
+pm_military_railways = {
+    texture = "gfx/interface/icons/production_method_icons/military_railways.dds"
+
+    building_modifiers = {
+        workforce_scaled = {
+            building_input_ammunition_add = 10
+			building_output_transportation_add = -10
+        }
+        state_modifiers = {       
+            workforce_scaled = {
+                front_advancement_speed_mult = 0.03
+                unit_supply_consumption_mult = -0.02
+            }
         }
     }
 }

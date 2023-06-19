@@ -73,8 +73,8 @@ je_reform_indies = {
 				c:BIC = THIS
 			}
 			AND = {
-				exists = c:DEI
-				c:DEI = THIS
+				exists = c:A23
+				c:A23 = THIS
 			}
 		}
 	}

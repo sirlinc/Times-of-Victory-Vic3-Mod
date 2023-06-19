@@ -663,7 +663,7 @@ modifier_landowner_bailout_funds = {
 modifier_landowner_bailout_funds_country = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	interest_group_ig_elitist_approval_add = 2
-	interest_group_ig_landowners_pol_str_mult = 0.1
+	interest_group_ig_elitist_pol_str_mult = 0.1
 }
 
 modifier_landowners_not_bailed_out = {

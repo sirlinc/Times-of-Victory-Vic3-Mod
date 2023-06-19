@@ -93,7 +93,7 @@ uto_aztecan={
 		washakie
 		piaru-ekaruhkapu
 		mukwooru
-		tsökahovi
+		tsokahovi
 		wirasuap
 		pikee_queenah
 		isa-viah
@@ -212,7 +212,7 @@ yuman={
 		hapatul
 		hakwa
 		sitcarknyewa
-		jhlumúk
+		jhlumuk
 		cukwapa
 		ja-kwak-wak
 		epegam
@@ -229,7 +229,7 @@ yuman={
 		hapatul
 		hakwa
 		sitcarknyewa
-		jhlumúk
+		jhlumuk
 		cukwapa
 		ja-kwak-wak
 		epegam
@@ -340,7 +340,7 @@ tanoan={
 		ah-pe-a-ton
 		teh-toot-sah
 		to-ho-sa
-		ankímä
+		ankima
 		danpa
 		zepko-ete
 		a'date

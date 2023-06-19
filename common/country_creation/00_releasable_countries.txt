@@ -1117,7 +1117,7 @@ DZG = {
 	ai_will_do = { always = no }
 }
 
-EGY = {
+B37 = {
 	use_culture_states = yes
 	
 	required_num_states = 3
@@ -1768,7 +1768,7 @@ JOH = {
 	ai_will_do = { always = no }
 }
 
-SIA = {
+A13 = {
 	use_culture_states = yes
 	ai_will_do = { always = no }
 }
@@ -2272,7 +2272,7 @@ TRI = {
 	ai_will_do = { always = no }
 }
 
-ETH = {
+C59 = {
 	use_culture_states = yes
 
 	ai_will_do = { always = no }

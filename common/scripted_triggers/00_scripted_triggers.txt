@@ -1852,8 +1852,8 @@ is_major_unifier = {
 			this = c:ITA
 		}
 		AND = {
-			exists = c:ETH # Ethiopia
-			this = c:ETH
+			exists = c:C59 # Ethiopia
+			this = c:C59
 		}
 		AND = {
 			exists = c:SCA # Scandinavia
