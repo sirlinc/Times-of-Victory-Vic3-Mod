@@ -1237,10 +1237,8 @@ pm_laudanum = {
 
 #pmg_kitchen_appliances
 
-basic_appliances = {
+pm_basic_appliances = {
     texture = "gfx/interface/icons/production_method_icons/butchering_tools_tov.dds"
-
-    
 
     building_modifiers = {
         unscaled = {
@@ -1253,7 +1251,7 @@ basic_appliances = {
     }
 }
 
-oven_thermometers = {
+pm_oven_thermometers = {
     texture = "gfx/interface/icons/production_method_icons/kaolin_basic.dds"
 
     unlocking_technologies = {
@@ -1272,7 +1270,7 @@ oven_thermometers = {
     }
 }
 
-gas_stoves = {
+pm_gas_stoves = {
     texture = "gfx/interface/icons/production_method_icons/coal_kiln.dds"
 
     unlocking_technologies = {
@@ -1295,7 +1293,7 @@ gas_stoves = {
     }
 }
 
-electric_mixers = {
+pm_electric_mixers = {
     texture = "gfx/interface/icons/production_method_icons/electric_mixers.dds"
 
     unlocking_technologies = {
@@ -1318,7 +1316,7 @@ electric_mixers = {
     }
 }
 
-dishwashers = {
+pm_dishwashers = {
     texture = "gfx/interface/icons/production_method_icons/automated_bottle_blowers.dds"
 
     unlocking_technologies = {
