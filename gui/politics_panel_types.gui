@@ -3267,19 +3267,19 @@ types information_panels_types
 		
 		### IG FILTER
 		widget = {
-			size = { 75 75 }
+			size = { 35 35 }
 			tooltip = "EXILE_POOL_INTEREST_GROUP_FILTER"
 			using = tooltip_above
 
 			icon = {
 				texture = "gfx/interface/backgrounds/round_frame_dec.dds"
-				size = { 75 75 }
+				size = { 35 35 }
 				visible = "[Not( GetExilePool.IsInterestGroupFiltered(InterestGroup.Self) )]"
 				using = default_fade_in_out
 			}
 
 			button_icon_round_big = {
-				size = { 59 59 }
+				size = { 25 25 }
 				parentanchor = center
 
 				click_modifiers = {
