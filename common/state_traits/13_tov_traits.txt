@@ -7,3 +7,91 @@
 		state_infrastructure_mult = -0.1
 	}
 }
+
+state_trait_colonization_1 = { # -1648
+    icon = "gfx/interface/icons/state_trait_icons/colonization_1.dds"
+	
+	disabling_technologies = { "territoriality" }
+	
+	modifier = {
+		state_non_homeland_colony_growth_speed_mult = -0.20
+		state_non_homeland_mortality_mult = 0.1
+		state_radicals_from_discrimination_mult = 0.3
+		state_turmoil_effects_mult = 0.2
+		state_accepted_birth_rate_mult = 0.1
+	}
+}
+
+state_trait_colonization_2 = { #1650-1700
+    icon = "gfx/interface/icons/state_trait_icons/colonization_2.dds"
+	
+	required_techs_for_colonization = { "territoriality" }
+	disabling_technologies = { "unequal_treaties" }
+	
+	modifier = {
+		state_non_homeland_colony_growth_speed_mult = -0.4
+		state_non_homeland_mortality_mult = 0.1
+		state_radicals_from_discrimination_mult = 0.3
+		state_turmoil_effects_mult = 0.2
+		state_accepted_birth_rate_mult = 0.1
+	}
+}
+
+state_trait_colonization_3 = { #1700-1750
+    icon = "gfx/interface/icons/state_trait_icons/colonization_3.dds"
+	
+	required_techs_for_colonization = { "unequal_treaties" }
+	disabling_technologies = { "settler_colonialism" }
+	
+	modifier = {
+		state_non_homeland_colony_growth_speed_mult = -0.5
+		state_non_homeland_mortality_mult = 0.1
+		state_radicals_from_discrimination_mult = 0.3
+		state_turmoil_effects_mult = 0.2
+		state_accepted_birth_rate_mult = 0.1
+	}
+}
+
+state_trait_colonization_4 = { #1750-1820
+    icon = "gfx/interface/icons/state_trait_icons/colonization_4.dds"
+	
+	required_techs_for_colonization = { "settler_colonialism" }
+	disabling_technologies = { "manifest_destiny" }
+	
+	modifier = {
+		state_non_homeland_colony_growth_speed_mult = -0.6
+		state_non_homeland_mortality_mult = 0.1
+		state_radicals_from_discrimination_mult = 0.3
+		state_turmoil_effects_mult = 0.2
+		state_accepted_birth_rate_mult = 0.1
+	}
+}
+
+state_trait_colonization_5 = { #1820-1880
+    icon = "gfx/interface/icons/state_trait_icons/colonization_5.dds"
+	
+	required_techs_for_colonization = { "manifest_destiny" }
+	disabling_technologies = { "new_imperialism" }
+	
+	modifier = {
+		state_non_homeland_colony_growth_speed_mult = -0.75
+		state_non_homeland_mortality_mult = 0.25
+		state_radicals_from_discrimination_mult = 0.3
+		state_turmoil_effects_mult = 0.2
+		state_accepted_birth_rate_mult = 0.1
+	}
+}
+state_trait_colonization_6 = { #1880-1936
+    icon = "gfx/interface/icons/state_trait_icons/colonization_6.dds"
+	
+	required_techs_for_colonization = { "new_imperialism" }
+	disabling_technologies = { "empire_under_the_sun" }
+	
+	modifier = {
+		state_non_homeland_colony_growth_speed_mult = -0.90
+		state_non_homeland_mortality_mult = 0.25
+		state_radicals_from_discrimination_mult = 0.3
+		state_turmoil_effects_mult = 0.2
+		state_accepted_birth_rate_mult = 0.1
+	}
+}

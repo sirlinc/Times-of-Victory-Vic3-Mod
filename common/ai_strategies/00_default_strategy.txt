@@ -607,7 +607,7 @@ ai_strategy_default = {
 	# How likely is the AI to start a diplomatic play against another country if their attitude allows for it
 	# Using this value in other strategies will function additively
 	aggression = {
-		value = 0
+		value = 25
 
 		# Higher aggression against pariah countries
 		if = {
@@ -1473,18 +1473,15 @@ ai_strategy_default = {
 				add = 200
 			}		
 		}
-		region_north_africa = {
+		state_is_in_north_america = {
 			if = {
 				limit = {
-					OR = {
-						AND = {
-							country_rank = rank_value:great_power
-							has_technology_researched = empire_under_the_sun
-						}
-						has_journal_entry = scramble_for_africa
-					}		
+					AND = {
+						country_rank = rank_value:great_power
+						has_technology_researched = unequal_treaties
+					}	
 				}
-				add = 200
+				add = 100
 			}		
 		}
 		region_senegal = {
@@ -1535,7 +1532,7 @@ ai_strategy_default = {
 					OR = {
 						AND = {
 							country_rank = rank_value:great_power
-							has_technology_researched = empire_under_the_sun
+							has_technology_researched = settler_colonialism
 						}
 						has_journal_entry = scramble_for_africa
 					}		
@@ -1543,6 +1540,21 @@ ai_strategy_default = {
 				add = 200
 			}		
 		}
+		region_southern_africa = {
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							country_rank = rank_value:great_power
+							has_technology_researched = settler_colonialism
+						}
+						has_journal_entry = scramble_for_africa
+					}		
+				}
+				add = 200
+			}		
+		}
+
 		region_zanj = {
 			if = {
 				limit = {
