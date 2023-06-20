@@ -1,0 +1,81 @@
+﻿l_german:
+
+# Temperate Farmland
+building_temperate_farmland: "Gemäßigtes Ackerland"
+modifier_building_temperate_farmland_throughput_mult: "$building_temperate_farmland$ Gebäude [concept_throughput]"
+modifier_building_temperate_farmland_throughput_mult_desc: "Ein Bonus oder Malus sowohl für Eingabe als auch Ausgabe von $building_temperate_farmland$"
+
+# Tropical Farmland
+building_tropical_farmland: "Tropisches Ackerland"
+modifier_building_tropical_farmland_throughput_mult: "$building_tropical_farmland$ Gebäude [concept_throughput]"
+modifier_building_tropical_farmland_throughput_mult_desc: "Ein Bonus oder Malus sowohl für Eingabe als auch Ausgabe von $building_tropical_farmland$"
+
+# Wetlands Farmland
+building_wetlands_farmland: "Feuchtgebiete Ackerland"
+modifier_building_wetlands_farmland_throughput_mult: "$building_wetlands_farmland$ Gebäude [concept_throughput]"
+modifier_building_wetlands_farmland_throughput_mult_desc: "Ein Bonus oder Malus sowohl für Eingabe als auch Ausgabe von $building_wetlands_farmland$"
+
+# Arid Farmland
+building_arid_farmland: "Trockenes Ackerland"
+modifier_building_arid_farmland_throughput_mult: "$building_arid_farmland$ Gebäude [concept_throughput]"
+modifier_building_arid_farmland_throughput_mult_desc: "Ein Bonus oder Malus sowohl für Eingabe als auch Ausgabe von $building_arid_farmland$"
+
+# Prime Pasture
+building_prime_pasture: "Weideflächen"
+modifier_building_prime_pasture_throughput_mult: "$building_prime_pasture$ Gebäude [concept_throughput]"
+modifier_building_prime_pasture_throughput_mult_desc: "Ein Bonus oder Malus sowohl für Eingabe als auch Ausgabe von $building_prime_pasture$"
+
+# Spice Plantations
+building_spice_plantation: "Gewürzplantagen"
+modifier_building_spice_plantation_throughput_mult: "$building_spice_plantations$ Gebäude [concept_throughput]"
+modifier_building_spice_plantation_throughput_mult_desc: "Ein Bonus oder Malus sowohl für Eingabe als auch Ausgabe von $building_spice_plantations$"
+
+# Engineering Firms
+building_engineering_firms: "Ingenieurbüros"
+modifier_building_engineering_firms_throughput_mult: "$building_engineering_firms$ Gebäude [concept_throughput]"
+modifier_building_engineering_firms_throughput_mult_desc: "Ein Bonus oder Malus sowohl für Eingabe als auch Ausgabe von $building_engineering_firms$"
+
+# Oil Refineries
+building_oil_refineries: "Ölraffinerien"
+modifier_building_oil_refineries_throughput_mult: "$building_oil_refineries$ Gebäude [concept_throughput]"
+modifier_building_oil_refineries_throughput_mult_desc: "Ein Bonus oder Malus sowohl für Eingabe als auch Ausgabe von $building_oil_refineries$"
+
+# Automotive Firms
+building_automotive_firms: "Automobilfirmen"
+modifier_building_automotive_firms_throughput_mult: "$building_automotive_firms$ Gebäude [concept_throughput]"
+modifier_building_automotive_firms_throughput_mult_desc: "Ein Bonus oder Malus sowohl für Eingabe als auch Ausgabe von $building_automotive_firms$"
+
+# Kaolin Mines
+building_kaolin_mine: "Kaolinminen"
+modifier_building_kaolin_mine_throughput_mult: "$building_kaolin_mine$ Gebäude [concept_throughput]"
+modifier_building_kaolin_mine_throughput_mult_desc: "Ein Bonus oder Malus sowohl für Eingabe als auch Ausgabe von $building_kaolin_mine$"
+
+# Ironworks
+building_ironworks: "Eisenhütten"
+modifier_building_ironworks_throughput_mult: "$building_ironworks$ Gebäude [concept_throughput]"
+modifier_building_ironworks_throughput_mult_desc: "Ein Bonus oder Malus sowohl für Eingabe als auch Ausgabe von $building_ironworks$"
+
+# Distilleries
+building_distilleries: "Destillerien"
+modifier_building_distilleries_throughput_mult: "$building_distilleries$ Gebäude [concept_throughput]"
+modifier_building_distilleries_throughput_mult_desc: "Ein Bonus oder Malus sowohl für Eingabe als auch Ausgabe von $building_distilleries$"
+
+# Dyeworks
+building_dyeworks: "Färbereien"
+modifier_building_dyeworks_throughput_mult: "$building_dyeworks$ Gebäude [concept_throughput]"
+modifier_building_dyeworks_throughput_mult_desc: "Ein Bonus oder Malus sowohl für Eingabe als auch Ausgabe von $building_dyeworks$"
+
+# Alloy Smelters
+building_alloy_smelters: "Legierungsschmelzen"
+modifier_building_alloy_smelters_throughput_mult: "$building_alloy_smelters$ Gebäude [concept_throughput]"
+modifier_building_alloy_smelters_throughput_mult_desc: "Ein Bonus oder Malus sowohl für Eingabe als auch Ausgabe von $building_alloy_smelters$"
+
+# Arsenal
+building_arsenal: "Arsenal"
+modifier_building_arsenal_throughput_mult: "$building_arsenal$ Gebäude [concept_throughput]"
+modifier_building_arsenal_throughput_mult_desc: "Ein Bonus oder Malus sowohl für Eingabe als auch Ausgabe von $building_arsenal$"
+
+# Munitions Plants
+building_munitions_plants: "Munitionsfabriken"
+modifier_building_munitions_plants_throughput_mult: "$building_munitions_plants$ Gebäude [concept_throughput]"
+modifier_building_munitions_plants_throughput_mult_desc: "Ein Bonus oder Malus sowohl für Eingabe als auch Ausgabe von $building_munitions_plants$"

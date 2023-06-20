@@ -1523,7 +1523,7 @@ pm_draft_breeds = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_grain_add = 10
+			building_input_grain_add = 5
 			building_output_horses_add = 5
 		}
 	}
@@ -1538,8 +1538,8 @@ pm_baroque_breeds = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_grain_add = 20
-			building_output_horses_add = 10
+			building_input_grain_add = 15
+			building_output_horses_add = 15
 		}
 	}
 }
@@ -1553,8 +1553,8 @@ pm_warmblooded_breeds = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_grain_add = 40
-			building_output_horses_add = 20
+			building_input_grain_add = 25
+			building_output_horses_add = 25
 		}
 	}
 }
@@ -1568,8 +1568,8 @@ pm_stock_horse_breeds = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_grain_add = 60
-			building_output_horses_add = 30
+			building_input_grain_add = 35
+			building_output_horses_add = 35
 		}
 	}
 }
@@ -1727,7 +1727,7 @@ pm_silage_prp = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_grain_add = 10
-			building_output_meat_add = 15
+			building_output_meat_add = 20
 		}
 
 		level_scaled = {
@@ -1748,8 +1748,8 @@ pm_prime_breeds_prp = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_grain_add = 15
-			building_input_wood_add = 4
-			building_output_meat_add = 20
+			building_input_wood_add = 5
+			building_output_meat_add = 25
 		}
 
 		level_scaled = {
@@ -1772,8 +1772,8 @@ pm_rotational_grazing_prp = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_grain_add = 20
-			building_input_wood_add = 4
-			building_output_meat_add = 30
+			building_input_wood_add = 5
+			building_output_meat_add = 40
 		}
 
 		level_scaled = {
@@ -1797,7 +1797,7 @@ pm_batteries_prp = {
 		workforce_scaled = {
 			building_input_grain_add = 35
 			building_input_machined_parts_add = 5
-			building_output_meat_add = 50
+			building_output_meat_add = 80
 		}
 
 		level_scaled = {

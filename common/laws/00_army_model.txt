@@ -5,10 +5,10 @@
 	progressiveness = -100
 	
 	modifier = {
-		state_conscription_rate_add = 0.1
-		country_military_goods_cost_mult = -0.25
+		state_conscription_rate_add = 0.5
+		country_military_goods_cost_mult = -0.5
 		state_building_barracks_max_level_add = 10
-		state_building_conscription_center_max_level_add = 10
+		state_building_conscription_center_max_level_add = 30
 	}
 	
 	possible_political_movements = {

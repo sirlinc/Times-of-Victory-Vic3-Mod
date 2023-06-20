@@ -41,13 +41,13 @@
 
 	timeout = 3650
 }
-
+	
 je_munitions_factories = {
 	icon = "gfx/interface/icons/event_icons/event_fire.dds"
 
 	is_shown_when_inactive = {
 		is_player = yes
-		has_technology_researched = gunsmithing
+		has_technology_researched = gunpowder_warfare
 	}
 
 	possible = {

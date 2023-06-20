@@ -982,7 +982,7 @@ pm_trackways = {
     }
     state_modifiers = {
         workforce_scaled = {
-            state_infrastructure_from_population_add = 0.1
+            state_infrastructure_from_population_add = 0.2
         }
     }
 }
@@ -1006,7 +1006,7 @@ pm_paved_roads = {
     }
     state_modifiers = {
         workforce_scaled = {
-            state_infrastructure_from_population_add = 0.2
+            state_infrastructure_from_population_add = 0.4
         }
     }
 }
@@ -1030,7 +1030,7 @@ pm_macadam_roads = {
     }
     state_modifiers = {
         workforce_scaled = {
-            state_infrastructure_from_population_add = 0.3
+            state_infrastructure_from_population_add = 0.6
         }
     }
 }
@@ -1055,7 +1055,7 @@ pm_tarmacadam_roads = {
     }
     state_modifiers = {
         workforce_scaled = {
-            state_infrastructure_from_population_add = 0.4
+            state_infrastructure_from_population_add = 0.8
         }
     }
 }
@@ -1080,7 +1080,7 @@ pm_motorways = {
     }
     state_modifiers = {
         workforce_scaled = {
-            state_infrastructure_from_population_add = 0.5
+            state_infrastructure_from_population_add = 1.0
         }
     }
 }

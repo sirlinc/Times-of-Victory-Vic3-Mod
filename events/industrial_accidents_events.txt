@@ -46,18 +46,19 @@ industrial_accident_events.1 = {
 			}
 		}
 		any_scope_state = {
-			NOR = {
+			OR = {
+				# Textile Mills
 				is_production_method_active = {
-					is_building_type = building_textile_mills
-					production_method = pm_treadle_looms
-				}	
-				is_production_method_active = {			
-					is_building_type = building_textile_mills
-					production_method = pm_flying_shuttles
+					building_type = building_textile_mills
+					production_method = pm_jacquard_heads
+				}		
+				is_production_method_active = {
+					building_type = building_textile_mills
+					production_method = pm_sewing_machines
 				}
-				is_production_method_active = {			
-					is_building_type = building_textile_mills
-					production_method = pm_spinning_jenny
+				is_production_method_active = {
+					building_type = building_textile_mills
+					production_method = pm_automatic_power_looms
 				}
 			}
 		}
@@ -94,14 +95,19 @@ industrial_accident_events.1 = {
 			}
 		}
 		random_scope_state = {
-			limit = {
-				is_building_type = building_textile_mills
-				NOR = {
-					is_production_method_active = {
-						production_method = pm_treadle_looms
-						production_method = pm_flying_shuttles
-						production_method = pm_spinning_jenny
-					}
+			OR = {
+				# Textile Mills
+				is_production_method_active = {
+					building_type = building_textile_mills
+					production_method = pm_jacquard_heads
+				}		
+				is_production_method_active = {
+					building_type = building_textile_mills
+					production_method = pm_sewing_machines
+				}
+				is_production_method_active = {
+					building_type = building_textile_mills
+					production_method = pm_automatic_power_looms
 				}
 			}
 			save_scope_as = triangle_shirtwaist_factory_state
