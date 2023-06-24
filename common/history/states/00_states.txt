@@ -617,10 +617,6 @@ STATES = {
 			owned_provinces = { x47C329 x25C814 x76A411 x9040C0 x876BD0 }
 		}
 		create_state = {
-			country = c:D18 #Kadohadacho
-			owned_provinces = { xEF15A7 xC03040 x158786 xF6681C x49BF7D }
-		}
-		create_state = {
 			country = c:D30 #Ka'igwu
 			owned_provinces = { xD3D517 xEB0DEB x405BB7 x94CB2D x432B51 x6377BB }
 		}
@@ -657,7 +653,10 @@ STATES = {
 			country = c:D30 #Ka'igwu
 			owned_provinces = { x3A130C xCF0284 x4034FA x155091 x5C449B xE43B98 xF3AC52 xDAABDA x7507ED xC62026 x3449B1 x51621D xE64C00 x13C47E x3DC254 }
 		}
-
+		create_state = {
+			country = c:D18 #Kadohadacho
+			owned_provinces = { xEF15A7 xC03040 x158786 xF6681C x49BF7D }
+		}
 		add_homeland = cherokee
 		add_homeland = siouan
 	}
