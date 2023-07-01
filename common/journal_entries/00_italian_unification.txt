@@ -10,7 +10,7 @@
 		
 	possible = {
 		country_rank >= rank_value:major_power
-		has_technology_researched = manifest_destiny
+		has_technology_researched = manifest_destiny_tov
 		is_subject = no
 	}
 

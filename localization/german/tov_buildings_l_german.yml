@@ -79,3 +79,14 @@ modifier_building_arsenal_throughput_mult_desc: "Ein Bonus oder Malus sowohl fü
 building_munitions_plants: "Munitionsfabriken"
 modifier_building_munitions_plants_throughput_mult: "$building_munitions_plants$ Gebäude [concept_throughput]"
 modifier_building_munitions_plants_throughput_mult_desc: "Ein Bonus oder Malus sowohl für Eingabe als auch Ausgabe von $building_munitions_plants$"
+
+# Major Rivers
+building_major_rivers: "Hauptflüsse"
+modifier_building_major_rivers_throughput_mult: "$building_major_rivers$ Bau [concept_throughput]"
+modifier_building_major_rivers_throughput_mult_desc: "Ein Bonus oder Malus für Ein- und Ausgabe von $building_major_rivers$"
+modifier_state_building_major_rivers_max_level_add: "$building_major_rivers$ Maximale Stufe"
+modifier_state_building_major_rivers_max_level_add_desc: "Ein Bonus oder Malus zur maximalen Stufe des geographischen Merkmals $building_major_rivers$."
+
+# Geographical Features
+bg_geographical_features: "Geographische Merkmale"
+bg_major_rivers: "Hauptflüsse"

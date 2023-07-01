@@ -11,6 +11,7 @@ effect_starting_technology_tier_1_tech = {
 
 	# Military	
 	add_technology_researched = gunpowder_warfare
+	add_technology_researched = admiralty
 
 	# Cultural
 	add_technology_researched = joint_stock_company
@@ -34,11 +35,13 @@ effect_starting_technology_tier_2_tech = {
 
 	# Military	
 	add_technology_researched = gunpowder_warfare
+	add_technology_researched = admiralty
 	
 	# Cultural
 	add_technology_researched = joint_stock_company
 	add_technology_researched = urbanization
 	add_technology_researched = governance
+	add_technology_researched = pluralism
 }
 
 # Average Eurasian nation
@@ -54,8 +57,11 @@ effect_starting_technology_tier_3_tech = {
 	# Military	
 	add_technology_researched = gunpowder_warfare
 	add_technology_researched = urbanization
+	add_technology_researched = admiralty
 
 	# Cultural
+	add_technology_researched = governance
+	add_technology_researched = pluralism
 }
 
 # Average centralised African nation, pre-gunpowder
@@ -91,7 +97,7 @@ effect_starting_technology_tier_5_tech = {
 effect_starting_technology_tier_6_tech = {	
 	# Economic
 	add_technology_researched = simple_machines
-	
+	add_technology_researched = enclosure	
 	# Military
 	
 	# Cultural

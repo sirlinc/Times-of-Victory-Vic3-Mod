@@ -13,7 +13,7 @@ ai_strategy_default = {
 	# The AI will avoid getting this much infamy unless it's a wargoal it really wants
 	# Using a different value in a strategy will override this value
 	undesirable_infamy_level = {
-		value = 75
+		value = 50
 	}
 	
 	# The AI will never deliberately add wargoals that will bring its infamy this high
@@ -49,7 +49,7 @@ ai_strategy_default = {
 	# How regressive is the AI willing to be when passing laws
 	# Using a different value in a strategy will override this value
 	max_regressiveness = {
-		value = 25 
+		value = 50 
 	}
 	
 	# Added to base neutrality in diplomatic plays	
@@ -2406,7 +2406,7 @@ ai_strategy_default = {
 					NOT = { is_country_type = unrecognized }
 					scope:target_country = { NOT = { is_country_type = unrecognized } }
 				}
-				add = 10	
+				add = 6	
 			}		
 	
 			if = {
@@ -2415,7 +2415,7 @@ ai_strategy_default = {
 					NOT = { is_country_type = unrecognized }
 					scope:target_country = { is_country_type = unrecognized }
 				}
-				add = 50
+				add = 3
 				
 				if = {
 					limit = { has_technology_researched = new_imperialism }
@@ -2429,7 +2429,7 @@ ai_strategy_default = {
 					is_country_type = unrecognized
 					scope:target_country = { is_country_type = unrecognized }						
 				}
-				add = 25
+				add = 12
 			}
 			
 			if = {
@@ -2799,7 +2799,7 @@ ai_strategy_default = {
 					scope:target_country = { is_country_type = unrecognized }
 					scope:target_country = { NOT = { is_subject_of = root }	}
 				}
-				add = 25
+				add = 9
 				
 				if = {
 					limit = { has_technology_researched = new_imperialism }
@@ -2814,7 +2814,7 @@ ai_strategy_default = {
 					scope:target_country.country_rank < rank_value:major_power
 					scope:target_country = { NOT = { is_subject_of = root }	}
 				}
-				add = 25
+				add = 11
 			}
 			
 			if = {
@@ -3039,18 +3039,17 @@ ai_strategy_default = {
 	# scope:target_state = wargoal target state (if any)
 	wargoal_scores = {
 		conquer_state = {
-			value = 0
+			value = 1
 
 			if = {
 				limit = {
 					has_secret_goal = {
 						who = scope:target_country
 						secret_goal = conquer
-					}					
-					can_reach_target_state = yes			
+					}							
 				}
 				add = {
-					value = 20
+					value = 5
 				
 					add = {
 						value = scope:target_state.state_population

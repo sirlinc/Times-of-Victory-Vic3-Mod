@@ -8,7 +8,7 @@
 
 	required_states_fraction = 0.63
 	
-	ai_will_do = { has_technology_researched = manifest_destiny }
+	ai_will_do = { has_technology_researched = manifest_destiny_tov }
 
 	possible = {
 		OR = {
@@ -31,7 +31,7 @@ ITA = {
 
 	required_states_fraction = 0.9
 
-	ai_will_do = { has_technology_researched = manifest_destiny }
+	ai_will_do = { has_technology_researched = manifest_destiny_tov }
 
 	possible = {
 		OR = {
@@ -43,7 +43,7 @@ ITA = {
 				country_has_primary_culture = cu:north_italian
 				country_has_primary_culture = cu:south_italian
 			}
-			has_technology_researched = manifest_destiny
+			has_technology_researched = manifest_destiny_tov
 		}
 	}
 }

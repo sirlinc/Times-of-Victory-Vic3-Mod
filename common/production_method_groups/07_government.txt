@@ -39,7 +39,7 @@ pmg_communication = {
 
 pmg_law_enforcement = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	ai_selection = military
+	ai_selection = most_productive
 	production_methods = {
 		pm_unorganised_militia
 		pm_city_watch
@@ -51,7 +51,6 @@ pmg_law_enforcement = {
 
 pmg_bureaucracy = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	ai_selection = military
 	production_methods = {
 		pm_hereditary_bureaucracy
 		pm_religious_bureaucracy
@@ -63,7 +62,7 @@ pmg_bureaucracy = {
 
 pmg_education = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	ai_selection = civilian
+	ai_selection = most_productive
 	production_methods = {
 		pm_liberal_arts
 		pm_humanities
@@ -75,7 +74,7 @@ pmg_education = {
 
 pmg_scientific_infrastructure = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	ai_selection = civilian
+	ai_selection = most_productive
 	production_methods = {
 		pm_no_science_infrastructure
 		pm_operating_theatres
@@ -88,7 +87,6 @@ pmg_scientific_infrastructure = {
 
 pmg_institutions = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	ai_selection = civilian
 	production_methods = {
 		pm_elitist_schools
 		pm_private_institutions
@@ -100,7 +98,6 @@ pmg_institutions = {
 
 pmg_academic_principles = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	ai_selection = civilian
 	production_methods = {
 		pm_indoctrination
 		pm_censorship
@@ -111,7 +108,6 @@ pmg_academic_principles = {
 
 pmg_base_building_skyscraper = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	ai_selection = most_productive
 
 	production_methods = {
 		pm_skyscraper_bureaucratic_nexus
@@ -121,7 +117,6 @@ pmg_base_building_skyscraper = {
 
 pmg_airship_mooring_post = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
-	ai_selection = most_productive
 
 	production_methods = {
 		pm_no_airships

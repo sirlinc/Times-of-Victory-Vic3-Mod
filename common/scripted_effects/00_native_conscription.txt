@@ -42,7 +42,7 @@ effect_native_conscription_5 = {
 	if = {
 		limit = { is_country_type = decentralized }	
 		add_modifier = {
-			name = native_conscription_12
+			name = native_conscription_10
 			months = -1
 		}		
 	}
@@ -92,7 +92,7 @@ effect_native_conscription_10 = {
 	if = {
 		limit = { is_country_type = decentralized }		
 		add_modifier = {
-			name = native_conscription_10
+			name = native_conscription_5
 			months = -1
 		}		
 	}
@@ -112,7 +112,7 @@ effect_native_conscription_12 = {
 	if = {
 		limit = { is_country_type = decentralized }		
 		add_modifier = {
-			name = native_conscription_5
+			name = native_conscription_12
 			months = -1
 		}		
 	}

@@ -21,6 +21,26 @@
 # proportionality_limit = X				How high is the building's tolerance for pop types being out of proportion? default NDefines::NEconomy::EMPLOYMENT_PROPORTIONALITY_LIMIT)
 # hires_unemployed_only = yes			If yes, buildings in this group may only hire from the unemployment pool. Default no.
 
+#Geographical Features
+
+bg_geographical_features = {
+	lens = infrastructure	
+	category = rural
+	capped_by_resources = yes
+	is_government_funded = no
+	subsidized = yes
+	stateregion_max_level = yes	
+	cash_reserves_max = 25000
+	urbanization = 5
+	can_use_slaves = yes
+}
+
+bg_major_rivers = {
+	parent_group = bg_geographical_features
+	
+	default_building = building_major_rivers
+}
+
 # Manufacturing
 
 bg_manufacturing = {
@@ -69,7 +89,7 @@ bg_agriculture = {
 	can_use_slaves = yes
 	
 	urbanization = 5
-	infrastructure_usage_per_level = 0.5
+	infrastructure_usage_per_level = 1
 	
 	should_auto_expand = { 
 		default_auto_expand_rule = yes
@@ -138,7 +158,7 @@ bg_ranching = {
 	can_use_slaves = yes
 	
 	urbanization = 5
-	infrastructure_usage_per_level = 0.5
+	infrastructure_usage_per_level = 1
 	
 	should_auto_expand = { 
 		default_auto_expand_rule = yes
@@ -392,7 +412,7 @@ bg_whaling = {
 	cash_reserves_max = 25000
 	
 	urbanization = 5
-	infrastructure_usage_per_level = 0.5
+	infrastructure_usage_per_level = 1
 	
 	should_auto_expand = { 
 		default_auto_expand_rule = yes

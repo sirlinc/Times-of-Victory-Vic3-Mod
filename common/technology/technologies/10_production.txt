@@ -16,8 +16,7 @@ simple_machines = {
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/labor_movement.dds"
 	category = production
-		unlocking_technologies = {
-	}
+
 	ai_weight = {
 		value = 1
 	}
@@ -159,27 +158,14 @@ draft_animal_tools = {
 	}
 }
 
-shaft_mining = {
-	era = era_2
-	texture = "gfx/interface/icons/invention_icons/prospecting_tech.dds"
-	category = production
-	
-	unlocking_technologies = {
-		rotating_mills
-		compound_machines
-	}
-	ai_weight = {
-		value = 1
-	}
-}
-
 calculus = {
-	era = era_3
+	era = era_2
 	texture = "gfx/interface/icons/invention_icons/hydraulic_cranes.dds"
 	category = production
 
 	unlocking_technologies = {
-		shaft_mining
+		rotating_mills
+		compound_machines
 	}
 	modifier = {
 		state_building_construction_sector_max_level_add = 3
@@ -231,13 +217,13 @@ rolling_mills = {
 	}
 }
 
-clockwork_mechanisms = {
+gearwheel_mechanisms = {
 	era = era_3
-	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+	texture = "gfx/interface/icons/invention_icons/gearwheel_mechanisms.dds"
 	category = production
 	
 	unlocking_technologies = {
-		shaft_mining
+		calculus
 	}
 	ai_weight = {
 		value = 1
@@ -250,8 +236,8 @@ engineering_theory = {
 	category = production
 	
 	unlocking_technologies = {
-		calculus
-		clockwork_mechanisms
+		shaft_mining
+		gearwheel_mechanisms
 	}
 
 	modifier = {
@@ -302,19 +288,13 @@ cultivars = {
 	}
 }
 
-paved_roads = {
-	era = era_4
-	texture = "gfx/interface/icons/invention_icons/paved_roads.dds"
+shaft_mining = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/prospecting_tech.dds"
 	category = production
 	
-	modifier = {
-		state_infrastructure_from_population_add = 0.05
-		state_infrastructure_from_population_max_add = 10
-		state_building_construction_sector_max_level_add = 3
-	}
-	
-	unlocking_technologies = {	
-		earthworks
+	unlocking_technologies = {
+		calculus
 	}
 	ai_weight = {
 		value = 1
@@ -396,7 +376,7 @@ zinc_alloys = {
 	
 	unlocking_technologies = {
 		rolling_mills
-		clockwork_mechanisms
+		gearwheel_mechanisms
 	}
 	ai_weight = {
 		value = 1
@@ -425,6 +405,25 @@ four_field_system = {
 	unlocking_technologies = {
 		coppicing
 		selective_breeding
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+paved_roads = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/paved_roads.dds"
+	category = production
+	
+	modifier = {
+		state_infrastructure_from_population_add = 0.05
+		state_infrastructure_from_population_max_add = 10
+		state_building_construction_sector_max_level_add = 3
+	}
+	
+	unlocking_technologies = {	
+		earthworks
 	}
 	ai_weight = {
 		value = 1
@@ -675,7 +674,8 @@ watertube_boiler = {
 	}
 }
 
-macadam_roads = {
+
+civil_engineering = {
 	era = era_6
 	texture = "gfx/interface/icons/invention_icons/paved_roads.dds"
 	category = production
@@ -809,13 +809,14 @@ stranded_wire = {
 	}
 }
 
-industrial_lubricants = {
+fluid_mechanics = {
 	era = era_7
 	texture = "gfx/interface/icons/invention_icons/steam_donkey.dds"
 	category = production
 	
 	unlocking_technologies = {	
 		continuous_process
+		railways
 	}
 	ai_weight = {
 		value = 1
@@ -829,7 +830,7 @@ railways = {
 	
 	unlocking_technologies = {
 		watertube_boiler
-		macadam_roads
+		civil_engineering
 	}
 	ai_weight = {
 		value = 1
@@ -887,7 +888,7 @@ mechanized_workshops = {
 	
 	unlocking_technologies = {
 		stranded_wire
-		industrial_lubricants
+		fluid_mechanics
 	}
 	ai_weight = {
 		value = 1
@@ -900,7 +901,7 @@ rotary_valve_engine = {
 	category = production
 	
 	unlocking_technologies = {	
-		industrial_lubricants
+		fluid_mechanics
 	}
 	ai_weight = {
 		value = 1
@@ -918,7 +919,7 @@ pneumatic_tools = {
 	}
 	
 	unlocking_technologies = {	
-		macadam_roads
+		civil_engineering
 		railways
 	}
 	ai_weight = {
@@ -1012,6 +1013,19 @@ combustion_engine = {
 	unlocking_technologies = {	
 		rotary_valve_engine
 		mechanized_workshops
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+hydraulic_engineering = {
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/concrete_dockyards.dds"
+	category = production
+	
+	unlocking_technologies = {	
+		rotary_valve_engine
 	}
 	ai_weight = {
 		value = 1
@@ -1289,6 +1303,7 @@ hydroelectric_dams = {
 
 	unlocking_technologies = {
 		electric_motors
+		hydraulic_engineering
 	}
 	ai_weight = {
 		value = 1

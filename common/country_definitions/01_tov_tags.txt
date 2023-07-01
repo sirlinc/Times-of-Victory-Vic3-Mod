@@ -994,7 +994,7 @@ NAP = { #Naples
 	country_type = recognized
 	tier = kingdom
 	
-	capital = STATE_CAMPAIA
+	capital = STATE_CAMPANIA
 	cultures = { south_italian }
 	religion = catholic
 }
@@ -1004,7 +1004,7 @@ SCI = { #Sicily
 	country_type = recognized
 	tier = kingdom
 	
-	capital = STATE_CAMPAIA
+	capital = STATE_SICILY
 	cultures = { south_italian }
 	religion = catholic
 }
@@ -1024,7 +1024,7 @@ FNM = { #Finmark
 	country_type = recognized
 	tier = principality
 	
-	capital = STATE_CAMPAIA
+	capital = STATE_NORTHERN_NORWAY
 	cultures = { sami norwegian }
 	religion = protestant
 }
@@ -2857,7 +2857,7 @@ B57 = { #Serer Kingdoms
 	country_type = unrecognized
 	tier = kingdom
 	
-	capital = s:STATE_GAMBIA
+	capital = STATE_GAMBIA
 	cultures = { wolof }
 	religion = animist
 }
@@ -2868,7 +2868,7 @@ B58 = { #Kaabu
 	country_type = unrecognized
 	tier = kingdom
 	
-	capital = s:STATE_GAMBIA
+	capital = STATE_GAMBIA
 	cultures = { mande }
 	religion = animist
 }
@@ -2879,7 +2879,7 @@ B59 = { #Great Fulo
 	country_type = unrecognized
 	tier = empire
 	
-	capital = s:STATE_SENEGAL
+	capital = STATE_SENEGAL
 	cultures = { fulbe }
 	religion = animist
 }
@@ -2890,7 +2890,7 @@ B60 = { #Koya
 	country_type = unrecognized
 	tier = principality
 	
-	capital = s:STATE_SIERRA_LEONE
+	capital = STATE_SIERRA_LEONE
 	cultures = { kissi }
 	religion = animist
 }
@@ -2901,7 +2901,7 @@ B61 = { #Mane
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_LIBERIA
+	capital = STATE_LIBERIA
 	cultures = { mande }
 	religion = animist
 }
@@ -2912,7 +2912,7 @@ B63 = { #Bono
 	country_type = unrecognized
 	tier = kingdom
 	
-	capital = s:STATE_VOLTA
+	capital = STATE_VOLTA
 	cultures = { akan }
 	religion = animist
 }
@@ -2923,7 +2923,7 @@ B64 = { #Wagadugu
 	country_type = unrecognized
 	tier = kingdom
 	
-	capital = s:STATE_VOLTA
+	capital = STATE_VOLTA
 	cultures = { mossi }
 	religion = animist
 }
@@ -2934,7 +2934,7 @@ B65 = { #Tenkodogo
 	country_type = unrecognized
 	tier = principality
 	
-	capital = s:STATE_VOLTA
+	capital = STATE_VOLTA
 	cultures = { mossi }
 	religion = animist
 }
@@ -2945,7 +2945,7 @@ B66 = { #Fada N'gourma
 	country_type = unrecognized
 	tier = principality
 	
-	capital = s:STATE_VOLTA
+	capital = STATE_VOLTA
 	cultures = { mossi }
 	religion = animist
 }
@@ -2956,7 +2956,7 @@ B67 = { #Yatenga
 	country_type = unrecognized
 	tier = principality
 	
-	capital = s:STATE_VOLTA
+	capital = STATE_VOLTA
 	cultures = { mossi }
 	religion = animist
 }
@@ -2967,7 +2967,7 @@ B68 = { #Nafana
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_IVORY_COAST
+	capital = STATE_IVORY_COAST
 	cultures = { senufo }
 	religion = animist
 }
@@ -2978,7 +2978,7 @@ B69 = { #Dagbon
 	country_type = unrecognized
 	tier = kingdom
 	
-	capital = s:STATE_TOGO
+	capital = STATE_TOGO
 	cultures = { mossi }
 	religion = animist
 }
@@ -2989,7 +2989,7 @@ B70 = { #Oyoko
 	country_type = unrecognized
 	tier = principality
 	
-	capital = s:STATE_GHANA
+	capital = STATE_GHANA
 	cultures = { akan }
 	religion = animist
 }
@@ -3000,7 +3000,7 @@ B71 = { #Denkyira
 	country_type = unrecognized
 	tier = kingdom
 	
-	capital = s:STATE_GHANA
+	capital = STATE_GHANA
 	cultures = { akan }
 	religion = animist
 }
@@ -3011,7 +3011,7 @@ B72 = { #Mankessim
 	country_type = unrecognized
 	tier = principality
 	
-	capital = s:STATE_GHANA
+	capital = STATE_GHANA
 	cultures = { akan }
 	religion = animist
 }
@@ -3022,7 +3022,7 @@ B73 = { #Ardra
 	country_type = unrecognized
 	tier = principality
 	
-	capital = s:STATE_DAHOMEY
+	capital = STATE_DAHOMEY
 	cultures = { fon }
 	religion = animist
 }
@@ -3033,7 +3033,7 @@ B74 = { #Dahomey
 	country_type = unrecognized
 	tier = kingdom
 	
-	capital = s:STATE_DAHOMEY
+	capital = STATE_DAHOMEY
 	cultures = { fon }
 	religion = animist
 }
@@ -3044,7 +3044,7 @@ B75 = { #Borgu
 	country_type = unrecognized
 	tier = kingdom
 	
-	capital = s:STATE_DAHOMEY
+	capital = STATE_DAHOMEY
 	cultures = { mossi }
 	religion = animist
 }
@@ -3055,7 +3055,7 @@ B76 = { #Oyo
 	country_type = unrecognized
 	tier = kingdom
 	
-	capital = s:STATE_YORUBA_STATES
+	capital = STATE_YORUBA_STATES
 	cultures = { yoruba }
 	religion = animist
 }
@@ -3066,7 +3066,7 @@ B77 = { #Kebbi
 	country_type = unrecognized
 	tier = kingdom
 	
-	capital = s:STATE_HAUSALAND
+	capital = STATE_HAUSALAND
 	cultures = { hausa }
 	religion = sunni
 }
@@ -3077,7 +3077,7 @@ B78 = { #Yauri
 	country_type = unrecognized
 	tier = city_state
 	
-	capital = s:STATE_HAUSALAND
+	capital = STATE_HAUSALAND
 	cultures = { hausa }
 	religion = sunni
 }
@@ -3088,7 +3088,7 @@ B79 = { #Nupe
 	country_type = unrecognized
 	tier = kingdom
 	
-	capital = s:STATE_EAST_HAUSALAND
+	capital = STATE_EAST_HAUSALAND
 	cultures = { hausa }
 	religion = sunni
 }
@@ -3099,7 +3099,7 @@ B80 = { #Katsina
 	country_type = unrecognized
 	tier = city_state
 	
-	capital = s:STATE_EAST_HAUSALAND
+	capital = STATE_EAST_HAUSALAND
 	cultures = { hausa }
 	religion = sunni
 }
@@ -3110,7 +3110,7 @@ B81 = { #Kano
 	country_type = unrecognized
 	tier = city_state
 	
-	capital = s:STATE_EAST_HAUSALAND
+	capital = STATE_EAST_HAUSALAND
 	cultures = { hausa }
 	religion = sunni
 }
@@ -3121,7 +3121,7 @@ B82 = { #Zazzau
 	country_type = unrecognized
 	tier = city_state
 	
-	capital = s:STATE_EAST_HAUSALAND
+	capital = STATE_EAST_HAUSALAND
 	cultures = { hausa }
 	religion = sunni
 }
@@ -3132,7 +3132,7 @@ B83 = { #Kwararafa
 	country_type = unrecognized
 	tier = kingdom
 	
-	capital = s:STATE_NIGERIA
+	capital = STATE_NIGERIA
 	cultures = { hausa }
 	religion = animist
 }
@@ -3143,7 +3143,7 @@ B84 = { #Kotoko
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_NORTH_CAMEROON
+	capital = STATE_NORTH_CAMEROON
 	cultures = { equatorial_bantu }
 	religion = animist
 }
@@ -3154,7 +3154,7 @@ B85 = { #Adamawa
 	country_type = unrecognized
 	tier = principality
 	
-	capital = s:STATE_NORTH_CAMEROON
+	capital = STATE_NORTH_CAMEROON
 	cultures = { fulbe }
 	religion = sunni
 }
@@ -3165,7 +3165,7 @@ B86 = { #Arochukwu
 	country_type = unrecognized
 	tier = kingdom
 	
-	capital = s:STATE_NIGER_DELTA
+	capital = STATE_NIGER_DELTA
 	cultures = { ibo ibibio }
 	religion = animist
 }
@@ -3176,7 +3176,7 @@ B87 = { #Gbaya
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_UBANGI_SHARI
+	capital = STATE_UBANGI_SHARI
 	cultures = { equatorial_bantu }
 	religion = animist
 }
@@ -3187,7 +3187,7 @@ B88 = { #Banda
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_UBANGI_SHARI
+	capital = STATE_UBANGI_SHARI
 	cultures = { equatorial_bantu }
 	religion = animist
 }
@@ -3198,7 +3198,7 @@ B89 = { #Mbenga
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_CONGO
+	capital = STATE_CONGO
 	cultures = { equatorial_bantu }
 	religion = animist
 }
@@ -3209,7 +3209,7 @@ B90 = { #Mbochi
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_CONGO
+	capital = STATE_CONGO
 	cultures = { equatorial_bantu }
 	religion = animist
 }
@@ -3220,7 +3220,7 @@ B91 = { #Mongo_Twa
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_EQUATEUR
+	capital = STATE_EQUATEUR
 	cultures = { equatorial_bantu }
 	religion = animist
 }
@@ -3231,7 +3231,7 @@ B92 = { #Mongo
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_EQUATEUR
+	capital = STATE_EQUATEUR
 	cultures = { mongo }
 	religion = animist
 }
@@ -3242,7 +3242,7 @@ B93 = { #Ngando
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_EQUATEUR
+	capital = STATE_EQUATEUR
 	cultures = { fluvian_bantu }
 	religion = animist
 }
@@ -3253,7 +3253,7 @@ B94 = { #Songye
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_EQUATEUR
+	capital = STATE_EQUATEUR
 	cultures = { fluvian_bantu }
 	religion = animist
 }
@@ -3264,7 +3264,7 @@ B95 = { #Kako
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_SOUTH_CAMEROON
+	capital = STATE_SOUTH_CAMEROON
 	cultures = { equatorial_bantu }
 	religion = animist
 }
@@ -3275,7 +3275,7 @@ B96 = { #Loango
 	country_type = unrecognized
 	tier = kingdom
 	
-	capital = s:STATE_CONGO
+	capital = STATE_CONGO
 	cultures = { bakongo }
 	religion = animist
 }
@@ -3286,7 +3286,7 @@ B97 = { #Anziku
 	country_type = unrecognized
 	tier = kingdom
 	
-	capital = s:STATE_CONGO
+	capital = STATE_CONGO
 	cultures = { bakongo }
 	religion = animist
 }
@@ -3297,7 +3297,7 @@ B98 = { #Kongo
 	country_type = unrecognized
 	tier = kingdom
 	
-	capital = s:STATE_BAS_CONGO
+	capital = STATE_BAS_CONGO
 	cultures = { bakongo }
 	religion = animist
 }
@@ -3308,7 +3308,7 @@ B99 = { #Yaka
 	country_type = unrecognized
 	tier = kingdom
 	
-	capital = s:STATE_BAS_CONGO
+	capital = STATE_BAS_CONGO
 	cultures = { lunda }
 	religion = animist
 }
@@ -3319,7 +3319,7 @@ C01 = { #Ndongo
 	country_type = unrecognized
 	tier = kingdom
 	
-	capital = s:STATE_NORTH_ANGOLA
+	capital = STATE_NORTH_ANGOLA
 	cultures = { bakongo }
 	religion = animist
 }
@@ -3330,7 +3330,7 @@ C02 = { #Matamba
 	country_type = unrecognized
 	tier = kingdom
 	
-	capital = s:STATE_EAST_ANGOLA
+	capital = STATE_EAST_ANGOLA
 	cultures = { bakongo }
 	religion = animist
 }
@@ -3341,7 +3341,7 @@ C03 = { #Kasanje
 	country_type = unrecognized
 	tier = kingdom
 	
-	capital = s:STATE_EAST_ANGOLA
+	capital = STATE_EAST_ANGOLA
 	cultures = { bakongo }
 	religion = animist
 }
@@ -3352,7 +3352,7 @@ C04 = { #Luvale
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_EAST_ANGOLA
+	capital = STATE_EAST_ANGOLA
 	cultures = { lunda }
 	religion = animist
 }
@@ -3363,7 +3363,7 @@ C05 = { #Nganguela
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_EAST_ANGOLA
+	capital = STATE_EAST_ANGOLA
 	cultures = { kavango_bantu }
 	religion = animist
 }
@@ -3374,7 +3374,7 @@ C06 = { #Ovambo
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_SOUTH_ANGOLA
+	capital = STATE_SOUTH_ANGOLA
 	cultures = { kavango_bantu }
 	religion = animist
 }
@@ -3385,7 +3385,7 @@ C07 = { #ǂAonin
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_HEREROLAND
+	capital = STATE_HEREROLAND
 	cultures = { khoisan }
 	religion = animist
 }
@@ -3396,7 +3396,7 @@ C08 = { #Juǀʼhoan
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_HEREROLAND
+	capital = STATE_HEREROLAND
 	cultures = { khoisan }
 	religion = animist
 }
@@ -3407,7 +3407,7 @@ C09 = { #ǃNamidaman
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_NAMAQUALAND
+	capital = STATE_NAMAQUALAND
 	cultures = { khoisan }
 	religion = animist
 }
@@ -3418,7 +3418,7 @@ C10 = { #Khaiǁkhaun
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_NAMAQUALAND
+	capital = STATE_NAMAQUALAND
 	cultures = { khoisan }
 	religion = animist
 }
@@ -3429,7 +3429,7 @@ C11 = { #ǃGariǁîn
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_NAMAQUALAND
+	capital = STATE_NAMAQUALAND
 	cultures = { khoisan }
 	religion = animist
 }
@@ -3440,7 +3440,7 @@ C12 = { #Hessequa
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_CAPE_COLONY
+	capital = STATE_CAPE_COLONY
 	cultures = { khoisan }
 	religion = animist
 }
@@ -3451,7 +3451,7 @@ C13 = { #Xhosa
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_EASTERN_CAPE
+	capital = STATE_EASTERN_CAPE
 	cultures = { nguni }
 	religion = animist
 }
@@ -3462,7 +3462,7 @@ C14 = { #ʼNǀohan
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_NORTHERN_CAPE
+	capital = STATE_NORTHERN_CAPE
 	cultures = { khoisan }
 	religion = animist
 }
@@ -3473,7 +3473,7 @@ C15 = { #baFokeng
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_NORTHERN_CAPE
+	capital = STATE_NORTHERN_CAPE
 	cultures = { tswana }
 	religion = animist
 }
@@ -3484,7 +3484,7 @@ C16 = { #!Xoon
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_BOTSWANA
+	capital = STATE_BOTSWANA
 	cultures = { khoisan }
 	religion = animist
 }
@@ -3495,7 +3495,7 @@ C17 = { #baNgwaketse
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_BOTSWANA
+	capital = STATE_BOTSWANA
 	cultures = { tswana }
 	religion = animist
 }
@@ -3506,7 +3506,7 @@ C18 = { #baNgwato
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_BOTSWANA
+	capital = STATE_BOTSWANA
 	cultures = { tswana }
 	religion = animist
 }
@@ -3517,7 +3517,7 @@ C19 = { #baKoena
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_VRYSTAAT
+	capital = STATE_VRYSTAAT
 	cultures = { sotho }
 	religion = animist
 }
@@ -3528,7 +3528,7 @@ C20 = { #baKololo
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_VRYSTAAT
+	capital = STATE_VRYSTAAT
 	cultures = { sotho }
 	religion = animist
 }
@@ -3539,7 +3539,7 @@ C21 = { #baMokoteli
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_ZULULAND
+	capital = STATE_ZULULAND
 	cultures = { sotho }
 	religion = animist
 }
@@ -3550,7 +3550,7 @@ C22 = { #Mpondo
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_ZULULAND
+	capital = STATE_ZULULAND
 	cultures = { nguni }
 	religion = animist
 }
@@ -3561,7 +3561,7 @@ C23 = { #Mthethwa
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_ZULULAND
+	capital = STATE_ZULULAND
 	cultures = { zulu }
 	religion = animist
 }
@@ -3572,7 +3572,7 @@ C24 = { #Ndwandwe
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_ZULULAND
+	capital = STATE_ZULULAND
 	cultures = { zulu }
 	religion = animist
 }
@@ -3583,7 +3583,7 @@ C25 = { #!Uriǁ’aeǀona
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_CAPE_COLONY
+	capital = STATE_CAPE_COLONY
 	cultures = { khoisan }
 	religion = animist
 }
@@ -3594,7 +3594,7 @@ C26 = { #baKgatla
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_TRANSVAAL
+	capital = STATE_TRANSVAAL
 	cultures = { tswana }
 	religion = animist
 }
@@ -3605,7 +3605,7 @@ C27 = { #baMapela
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_TRANSVAAL
+	capital = STATE_TRANSVAAL
 	cultures = { zulu }
 	religion = animist
 }
@@ -3616,7 +3616,7 @@ C28 = { #VhaVenda
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_TRANSVAAL
+	capital = STATE_TRANSVAAL
 	cultures = { nguni }
 	religion = animist
 }
@@ -3627,7 +3627,7 @@ C29 = { #bakaNgwane
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_TRANSVAAL
+	capital = STATE_TRANSVAAL
 	cultures = { nguni }
 	religion = animist
 }
@@ -3638,7 +3638,7 @@ C30 = { #Ronga
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_LOURENCO_MARQUES
+	capital = STATE_LOURENCO_MARQUES
 	cultures = { tonga }
 	religion = animist
 }
@@ -3649,7 +3649,7 @@ C31 = { #Illengwe
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_LOURENCO_MARQUES
+	capital = STATE_LOURENCO_MARQUES
 	cultures = { tonga }
 	religion = animist
 }
@@ -3660,7 +3660,7 @@ C32 = { #baKalanga
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_ZAMBEZI
+	capital = STATE_ZAMBEZI
 	cultures = { shona }
 	religion = animist
 }
@@ -3671,7 +3671,7 @@ C33 = { #Butua
 	country_type = unrecognized
 	tier = kingdom
 	
-	capital = s:STATE_ZAMBEZI
+	capital = STATE_ZAMBEZI
 	cultures = { shona }
 	religion = animist
 }
@@ -3682,7 +3682,7 @@ C34 = { #Nhowe
 	country_type = unrecognized
 	tier = principality
 	
-	capital = s:STATE_ZAMBEZI
+	capital = STATE_ZAMBEZI
 	cultures = { shona }
 	religion = animist
 }
@@ -3692,7 +3692,7 @@ C35 = { #Maungwe
 
 	country_type = unrecognized
 	tier = principality
-	capital = s:STATE_ZAMBEZI
+	capital = STATE_ZAMBEZI
 	cultures = { shona }
 	religion = animist
 }
@@ -3702,7 +3702,7 @@ C36 = { #Manyika
 
 	country_type = unrecognized
 	tier = principality
-	capital = s:STATE_ZAMBEZIA
+	capital = STATE_ZAMBEZIA
 	cultures = { shona }
 	religion = animist
 }
@@ -3712,7 +3712,7 @@ C37 = { #Mutapa
 
 	country_type = unrecognized
 	tier = kingdom
-	capital = s:STATE_ZAMBEZIA
+	capital = STATE_ZAMBEZIA
 	cultures = { shona }
 	religion = animist
 }
@@ -3723,7 +3723,7 @@ C38 = { #baTonga
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_ZAMBIA
+	capital = STATE_ZAMBIA
 	cultures = { kavango_bantu }
 	religion = animist
 }
@@ -3734,7 +3734,7 @@ C39 = { #Makua
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_MOCAMBIQUE
+	capital = STATE_MOCAMBIQUE
 	cultures = { makua }
 	religion = animist
 }
@@ -3745,7 +3745,7 @@ C40 = { #Yao
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_MOCAMBIQUE
+	capital = STATE_MOCAMBIQUE
 	cultures = { yao }
 	religion = animist
 }
@@ -3755,7 +3755,7 @@ C41 = { #Menabé
 
 	country_type = unrecognized
 	tier = kingdom
-	capital = s:STATE_SOUTH_MADAGASCAR
+	capital = STATE_SOUTH_MADAGASCAR
 	cultures = { malagasy }
 	religion = animist
 }
@@ -3765,7 +3765,7 @@ C42 = { #Zafimanely
 
 	country_type = unrecognized
 	tier = kingdom
-	capital = s:STATE_SOUTH_MADAGASCAR
+	capital = STATE_SOUTH_MADAGASCAR
 	cultures = { malagasy }
 	religion = animist
 }
@@ -3775,7 +3775,7 @@ C43 = { #Antesaka
 
 	country_type = unrecognized
 	tier = kingdom
-	capital = s:STATE_SOUTH_MADAGASCAR
+	capital = STATE_SOUTH_MADAGASCAR
 	cultures = { malagasy }
 	religion = animist
 }
@@ -3785,7 +3785,7 @@ C44 = { #Mahafaly
 
 	country_type = unrecognized
 	tier = kingdom
-	capital = s:STATE_SOUTH_MADAGASCAR
+	capital = STATE_SOUTH_MADAGASCAR
 	cultures = { malagasy }
 	religion = animist
 }
@@ -3795,7 +3795,7 @@ C45 = { #Boina
 
 	country_type = unrecognized
 	tier = kingdom
-	capital = s:STATE_NORTH_MADAGASCAR
+	capital = STATE_NORTH_MADAGASCAR
 	cultures = { malagasy }
 	religion = animist
 }
@@ -3805,7 +3805,7 @@ C46 = { #Betsimisaraka
 
 	country_type = unrecognized
 	tier = kingdom
-	capital = s:STATE_NORTH_MADAGASCAR
+	capital = STATE_NORTH_MADAGASCAR
 	cultures = { malagasy }
 	religion = animist
 }
@@ -3815,7 +3815,7 @@ C47 = { #Imerina
 
 	country_type = unrecognized
 	tier = kingdom
-	capital = s:STATE_NORTH_MADAGASCAR
+	capital = STATE_NORTH_MADAGASCAR
 	cultures = { malagasy }
 	religion = animist
 }
@@ -3826,7 +3826,7 @@ C48 = { #Makonde
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_MOCAMBIQUE
+	capital = STATE_MOCAMBIQUE
 	cultures = { yao }
 	religion = animist
 }
@@ -3837,7 +3837,7 @@ C49 = { #Mwera
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_LINDI
+	capital = STATE_LINDI
 	cultures = { yao }
 	religion = animist
 }
@@ -3848,7 +3848,7 @@ C50 = { #Mijikenda
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_LINDI
+	capital = STATE_LINDI
 	cultures = { yao }
 	religion = animist
 }
@@ -3859,7 +3859,7 @@ C51 = { #Shambalai
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_ZANZIBAR
+	capital = STATE_ZANZIBAR
 	cultures = { swahili }
 	religion = animist
 }
@@ -3870,7 +3870,7 @@ C52 = { #Rendille
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_KENYA
+	capital = STATE_KENYA
 	cultures = { oromo }
 	religion = animist
 }
@@ -3881,7 +3881,7 @@ C53 = { #Pate
 	country_type = unrecognized
 	tier = principality
 	
-	capital = s:STATE_KENYA
+	capital = STATE_KENYA
 	cultures = { swahili }
 	religion = sunni
 }
@@ -3892,7 +3892,7 @@ C54 = { #Ajuuraan
 	country_type = unrecognized
 	tier = principality
 	
-	capital = s:STATE_SOMALILAND
+	capital = STATE_SOMALILAND
 	cultures = { somali }
 	religion = sunni
 }
@@ -3903,7 +3903,7 @@ C55 = { #Silcis
 	country_type = unrecognized
 	tier = principality
 	
-	capital = s:STATE_SOMALILAND
+	capital = STATE_SOMALILAND
 	cultures = { somali }
 	religion = sunni
 }
@@ -3914,7 +3914,7 @@ C56 = { #Abgaal
 	country_type = unrecognized
 	tier = principality
 	
-	capital = s:STATE_SOMALILAND
+	capital = STATE_SOMALILAND
 	cultures = { somali }
 	religion = sunni
 }
@@ -3925,7 +3925,7 @@ C57 = { #Geledi
 	country_type = unrecognized
 	tier = principality
 	
-	capital = s:STATE_SOMALILAND
+	capital = STATE_SOMALILAND
 	cultures = { somali }
 	religion = sunni
 }
@@ -3936,7 +3936,7 @@ C58 = { #Ogaden
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_OROMIA
+	capital = STATE_OROMIA
 	cultures = { somali }
 	religion = sunni
 }
@@ -3947,7 +3947,7 @@ C59 = { #Ethiopia
 	country_type = unrecognized
 	tier = empire
 	
-	capital = s:STATE_GONDER
+	capital = STATE_GONDER
 	cultures = { amhara tigray }
 	religion = oriental_orthodox
 }
@@ -3958,7 +3958,7 @@ C60 = { #Wolaita
 	country_type = unrecognized
 	tier = kingdom
 	
-	capital = s:STATE_AMHARA
+	capital = STATE_AMHARA
 	cultures = { sidama }
 	religion = oriental_orthodox
 }
@@ -3969,7 +3969,7 @@ C61 = { #Yamma
 	country_type = unrecognized
 	tier = city_state
 	
-	capital = s:STATE_AMHARA
+	capital = STATE_AMHARA
 	cultures = { sidama }
 	religion = oriental_orthodox
 }
@@ -3980,7 +3980,7 @@ C62 = { #Garo
 	country_type = unrecognized
 	tier = city_state
 	
-	capital = s:STATE_AMHARA
+	capital = STATE_AMHARA
 	cultures = { sidama }
 	religion = oriental_orthodox
 }
@@ -3991,7 +3991,7 @@ C63 = { #Ennarea
 	country_type = unrecognized
 	tier = kingdom
 	
-	capital = s:STATE_AMHARA
+	capital = STATE_AMHARA
 	cultures = { amhara }
 	religion = oriental_orthodox
 }
@@ -4025,7 +4025,7 @@ C64 = { #Beothuk
 	country_type = decentralized
 	tier = principality
 	
-	capital = s:STATE_NEWFOUNDLAND
+	capital = STATE_NEWFOUNDLAND
 	cultures = { algonquian }
 	religion = animist
 }
@@ -4587,7 +4587,7 @@ D18 = { #Kadohadacho
 	tier = principality
 	
 	cultures = { caddo }
-	capital = STATE_MISSIPPI
+	capital = STATE_MISSISSIPPI
 }
 
 D19 = { #Natchez

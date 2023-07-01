@@ -118,7 +118,7 @@ admiralty = {
 	category = military
 	
 	modifier = {
-		state_building_naval_base_max_level_add = 20
+		state_building_naval_base_max_level_add = 10
     }
 	
 	unlocking_technologies = {
@@ -261,7 +261,7 @@ percussion_cap = {
 	category = military
 	
 	unlocking_technologies = {	
-		gunsmithing
+		gunpowder_warfare
 	}
 	ai_weight = {
 		value = 1
@@ -366,7 +366,7 @@ nitroglycerin = {
 	category = military
 	
 	modifier = {
-		country_resource_discovery_chance_mult = 0.25
+		country_resource_discovery_chance_mult = 0.15
 	}
 	
 	unlocking_technologies = {	
@@ -454,24 +454,8 @@ repeaters = {
 		value = 1
 	}
 }
-breech_loading_artillery = {
-	# Unlocks Breech Loading Artillery Production PM in Arms Industries
-	# Unlocks Breech Loading Artillery PM in Barracks
-	# Unlocks Railway Guns PM in Railways
-	era = era_6
-	texture = "gfx/interface/icons/invention_icons/breech_loading_artillery.dds"
-	category = military
-	
-	unlocking_technologies = {	
-		rifling
-		shell_gun
-	}
-	ai_weight = {
-		value = 1
-	}
-}
 handcranked_machine_gun = {
-	era = era_6
+	era = era_8
 	texture = "gfx/interface/icons/invention_icons/handcranked_machine_gun.dds"
 	category = military
 	
@@ -482,7 +466,6 @@ handcranked_machine_gun = {
 	
 	unlocking_technologies = {	
 		repeaters
-		breech_loading_artillery
 	}
 	ai_weight = {
 		value = 1
@@ -588,23 +571,6 @@ gantry_cranes = {
 }
 ### ERA 4
 
-dynamite = {
-	era = era_8
-	texture = "gfx/interface/icons/invention_icons/dynamite.dds"
-	category = military
-	
-	modifier = {
-		country_resource_discovery_chance_mult = 0.25
-	}
-	
-	unlocking_technologies = {	
-		nitroglycerin
-	}
-	
-	ai_weight = {
-		value = 1
-	}
-}
 trench_works = {
 	# Unlocks Officer Training PM in Barracks
 	# Unlocks Barbed Wire Fences in Livestock Ranches
@@ -675,29 +641,14 @@ defense_in_depth = {
 		value = 1
 	}
 }
-bolt_action_rifles = {
-	# Unlocks Bolt Action Rifles PM in Arms Industry
-	# Global Unlock for Bolt Action Rifles PM in Barracks
-	era = era_8
-	texture = "gfx/interface/icons/invention_icons/bolt_action_rifles.dds"
-	category = military
-	
-	unlocking_technologies = {	
-		repeaters
-	}
-	ai_weight = {
-		value = 1
-	}
-}
 automatic_machine_guns = {
 	# #todo#! Does nothing yet
-	era = era_8
+	era = era_9
 	texture = "gfx/interface/icons/invention_icons/machine_gun.dds"
 	category = military
 	
 	unlocking_technologies = {	
 		handcranked_machine_gun
-		bolt_action_rifles
 	}
 	ai_weight = {
 		value = 1
@@ -873,7 +824,7 @@ chemical_warfare = {
 }
 stormtroopers = {
 	# #todo#! Does nothing yet
-	era = era_5
+	era = era_10
 	texture = "gfx/interface/icons/invention_icons/stormtroopers.dds"
 	category = military
 	
@@ -948,7 +899,7 @@ flamethrowers = {
 	
 	unlocking_technologies = {	
 		trench_works
-		automatic_machine_guns
+		chemical_warfare
 	}
 	modifier = {
 		unit_kill_rate_add = 0.05
@@ -1172,6 +1123,11 @@ dynamite = {
 	unlocking_technologies = {
 		nitroglycerin
 	}
+
+	modifier = {
+		country_resource_discovery_chance_mult = 0.15
+	}
+
 	ai_weight = {
 		value = 1
 	}
@@ -1216,6 +1172,11 @@ trinitrotoluene = {
 	unlocking_technologies = {
 		dynamite
 	}
+
+	modifier = {
+		country_resource_discovery_chance_mult = 0.15
+	}
+
 	ai_weight = {
 		value = 1
 	}
@@ -1238,6 +1199,11 @@ hexogen = {
 	unlocking_technologies = {
 		trinitrotoluene
 	}
+
+	modifier = {
+		country_resource_discovery_chance_mult = 0.15
+	}
+
 	ai_weight = {
 		value = 1
 	}

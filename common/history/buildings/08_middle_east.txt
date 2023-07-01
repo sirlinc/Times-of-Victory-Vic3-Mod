@@ -404,11 +404,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_opium_plantation"
-				level=2
-				reserves=1
-			}
-			create_building={
 				building="building_fishing_wharf"
 				level=1
 				reserves=1
@@ -455,11 +450,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_opium_plantation"
-				level=2
-				reserves=1
-			}
-			create_building={
 				building="building_prime_pasture"
 				level=1
 				reserves=1
@@ -480,11 +470,6 @@
 			}
 			create_building={
 				building="building_temperate_farmland"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_opium_plantation"
 				level=1
 				reserves=1
 			}
@@ -525,11 +510,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_tea_plantation"
-				level=1
-				reserves=1
-			}
-			create_building={
 				building="building_logging_camp"
 				level=2
 				reserves=1
@@ -537,11 +517,6 @@
 			create_building={
 				building="building_prime_pasture"
 				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_opium_plantation"
-				level=2
 				reserves=1
 			}
 			create_building={
@@ -598,11 +573,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_cotton_plantation"
-				level=1
-				reserves=1
-			}
-			create_building={
 				building="building_silk_plantation"
 				level=2
 				reserves=1
@@ -618,11 +588,6 @@
 		region_state:PER={
 			create_building={
 				building="building_arid_farmland"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_cotton_plantation"
 				level=1
 				reserves=1
 			}
@@ -658,11 +623,6 @@
 			create_building={
 				building="building_fishing_wharf"
 				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_tea_plantation"
-				level=4
 				reserves=1
 			}
 			create_building={
@@ -710,16 +670,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_tea_plantation"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_cotton_plantation"
-				level=2
-				reserves=1
-			}
-			create_building={
 				building="building_naval_base"
 				level=5
 				reserves=1
@@ -734,16 +684,6 @@
 	s:STATE_KONYA={
 		region_state:TUR={
 			create_building={
-				building="building_cotton_plantation"
-				level=2
-				reserves=1
-			}
-			create_building={
-				building="building_tea_plantation"
-				level=2
-				reserves=1
-			}
-			create_building={
 				building="building_prime_pasture"
 				level=1
 				reserves=1
@@ -757,11 +697,6 @@
 	}
 	s:STATE_KASTAMONU={
 		region_state:TUR={
-			create_building={
-				building="building_tea_plantation"
-				level=5
-				reserves=1
-			}
 			create_building={
 				building="building_fishing_wharf"
 				level=3
@@ -782,11 +717,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_tea_plantation"
-				level=2
-				reserves=1
-			}
-			create_building={
 				building="building_barracks"
 				level=10
 				reserves=1
@@ -795,11 +725,6 @@
 	}
 	s:STATE_ADANA={
 		region_state:TUR={
-			create_building={
-				building="building_cotton_plantation"
-				level=1
-				reserves=1
-			}
 			create_building={
 				building="building_fishing_wharf"
 				level=2
@@ -832,11 +757,6 @@
 			create_building={
 				building="building_prime_pasture"
 				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_tea_plantation"
-				level=3
 				reserves=1
 			}
 			create_building={
@@ -903,11 +823,6 @@
 			}
 			create_building={
 				building="building_prime_pasture"
-				level=2
-				reserves=1
-			}
-			create_building={
-				building="building_tea_plantation"
 				level=2
 				reserves=1
 			}

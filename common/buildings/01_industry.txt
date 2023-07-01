@@ -235,7 +235,7 @@ building_engineering_firms = {
 	levels_per_mesh = 5
 	
 	unlocking_technologies = {
-		industrial_lubricants
+		fluid_mechanics
 	}
 
 	production_method_groups = {

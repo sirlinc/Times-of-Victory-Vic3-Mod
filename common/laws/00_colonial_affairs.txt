@@ -98,7 +98,7 @@ law_paternalism = {
 	progressiveness = -25
 
 	unlocking_technologies = {
-		manifest_destiny
+		manifest_destiny_tov
 	}
 	
 	modifier = {

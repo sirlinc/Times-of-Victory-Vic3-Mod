@@ -1,7 +1,6 @@
 ﻿l_japanese:
 
 #Arts Academy
-
 pmg_print_culture: "印刷文化"
 pm_woodblock_printing: "木版印刷"
 pm_pamphlets: "パンフレット"
@@ -9,7 +8,6 @@ pm_daily_newspapers: "日刊新聞"
 pm_paperback_novels: "ペーパーバック小説"
 pm_journalistic_media: "報道メディア"
 pm_radio_dramas: "ラジオドラマ"
-
 pmg_performed_culture: "演じられた文化"
 pm_traditional_art: "伝統的な芸術"
 pm_piano_compositions: "ピアノ作曲"
@@ -17,7 +15,6 @@ pm_symphony_orchestras: "シンフォニーオーケストラ"
 pm_daguerrotypes: "デゲロタイプ"
 pm_motion_pictures: "映画"
 pm_theatre_realism: "劇場のリアリズム"
-
 pmg_patronage: "庇護"
 pm_traditional_patrons: "伝統的な庇護者"
 pm_religious_institutions: "宗教機関"
@@ -26,7 +23,6 @@ pm_state_mouthpiece: "国家の代弁者"
 pm_military_media_interface: "軍事メディアのインターフェース"
 pm_workers_unions: "労働組合"
 pm_independent_art_movements: "独立した芸術運動"
-
 pmg_ideological_focus: "イデオロギーの焦点"
 pm_apolitical: "政治的中立"
 pm_traditionalism: "伝統主義"
@@ -34,9 +30,7 @@ pm_jingoism: "排他主義"
 pm_liberalism: "自由主義"
 pm_nationalism: "ナショナリズム"
 pm_radicalism: "過激主義"
-
 #Urban Center
-
 pmg_utilities: "公共設備"
 pm_drainage_ditches: "排水溝"
 pm_public_wells: "公共井戸"
@@ -44,7 +38,6 @@ pm_kerosene_steet_lamps: "石油ランプ"
 pm_sewerage_systems: "下水道システム"
 pm_electric_steet_lamps: "電気ランプ"
 pm_utility_poles: "電柱"
-
 pmg_roadways: "道路"
 pm_dirt_trails: "未舗装道路"
 pm_trackways: "トラックウェイ"
@@ -52,7 +45,6 @@ pm_paved_roads: "舗装道路"
 pm_macadam_roads: "マカダム道路"
 pm_tarmacadam_roads: "ターマカダム道路"
 pm_motorways: "高速道路"
-
 pmg_commerce: "商業"
 pm_travelling_fairs: "移動市場"
 pm_market_squares: "市場広場"
@@ -60,9 +52,7 @@ pm_banks: "銀行"
 pm_arcades: "アーケード"
 pm_stock_exchanges: "証券取引所"
 pm_department_stores: "デパート"
-
 #Government Administration
-
 pmg_organisation: "組織"
 pm_repositories: "リポジトリ"
 pm_central_archives: "中央アーカイブ"
@@ -70,7 +60,6 @@ pm_public_libraries: "公共図書館"
 pm_public_works_departments: "公共事業部門"
 pm_index_cards: "索引カード"
 pm_filing_cabinets: "縦型ファイリングキャビネット"
-
 pmg_communication: "コミュニケーション"
 pm_horseback_couriers: "馬による宅配"
 pm_posthouses: "郵便局"
@@ -78,36 +67,28 @@ pm_semaphore_towers: "信号塔"
 pm_electrical_telegraphs: "電信"
 pm_telephone_switchboards: "電話交換機"
 pm_radio_towers: "無線塔"
-
 pmg_law_enforcement: "法の執行"
 pm_unorganised_militia: "非組織化された民兵"
 pm_city_watch: "市警察"
 pm_courts_of_law: "裁判所"
 pm_police_departments: "警察署"
 pm_detective_units: "刑事部門"
-
 pmg_academic_principles: "学問の原則"
 pm_indoctrination: "洗脳"
 pm_censorship: "検閲"
 pm_freedom: "自由"
-pm_radicalism: "過激主義"
-
 pmg_bureaucracy: "僚制"
 pm_hereditary_bureaucracy: "世襲官僚制"
 pm_religious_bureaucracy: "宗教官僚制"
 pm_military_bureaucracy: "軍事官僚制"
 pm_professional_bureaucracy: "専門的官僚制"
-
-
 #University
-
 pmg_education: "教育"
 pm_liberal_arts: "人文科学"
 pm_humanities: "人文科学"
 pm_academic_philosophy: "学問哲学"
 pm_social_sciences: "社会科学"
 pm_political_ecology: "政治生態学"
-
 pmg_scientific_infrastructure: "科学のインフラストラクチャ"
 pm_no_science_infrastructure: "インフラなし"
 pm_operating_theatres: "手術室"
@@ -115,35 +96,23 @@ pm_society_journals: "学会誌"
 pm_chemical_laboratories: "化学研究所"
 pm_research_departments: "研究部門"
 pm_applied_research_labs: "応用研究室"
-
 pmg_institutions: "機関"
 pm_elitist_schools: "エリート校"
 pm_private_institutions: "私立機関"
 pm_religious_schools: "宗教学校"
 pm_military_academies: "軍事アカデミー"
 pm_public_institutions: "政府機関"
-
-pmg_academic_principles: "学問の原則"
-pm_indoctrination: "洗脳"
-pm_censorship: "検閲"
-pm_freedom: "自由"
-pm_radicalism: "過激主義"
-
 # Trade Center
-
 pm_corporate_entity: "法人"
 pm_cooperative_association: "協同組合"
 pm_trade_center_charter: "憲章付与"
-
 #building_base_farmland
-
 pmg_motive_power_base_farmland: "農業の動力"
 pm_manual_labor_farmland: "手作業"
 pm_draft_animals_farmland: "引き馬"
 pm_portable_engine_farmland: "携帯エンジン"
 pm_steam_powered_tractors_farmland: "蒸気動力のトラクター"
 pm_diesel_tractors_farmland: "ディーゼルトラクター"
-
 pmg_land_tenure_base_farmland: "土地の所有権"
 pm_tributary_system_farmland: "藩属制度"
 pm_smallholders_farmland: "小作農"
@@ -151,9 +120,7 @@ pm_military_homesteads_farmland: "軍事入植地"
 pm_corporate_entities_farmland: "法人"
 pm_state_ownership_farmland: "国有"
 pm_worker_cooperative_farmland: "労働者協同組合"
-
 #Temperate Farmland
-
 pmg_wheat_yield_temperate_farmland: "小麦収量"
 pm_rye_cultivation_tef: "ライ麦の栽培"
 pm_potash_tef: "カリ肥料"
@@ -161,23 +128,19 @@ pm_bread_wheat_cultivation_tef: "食パン用小麦の栽培"
 pm_gypsum_fertilizer_tef: "石膏肥料"
 pm_pesticides_tef: "農薬"
 pm_ammonia_fertilizer_tef: "アンモニア肥料"
-
 pmg_secondary_building_temperate_farmland: "付加的な建物"
 pm_no_secondary_yields_tef: "付加的な収量なし"
 pm_mulberry_groves_tef: "桑畑"
 pm_coppice_woodland_tef: "節伐林"
 pm_vineyards_tef: "ぶどう園"
 pm_tomato_greenhouses_tef: "トマトの温室栽培"
-
 pmg_mechanization_temperate_farmland: "小麦の機械化"
 pm_tools_disabled_tef: "ツールなし"
 pm_mould_board_plows_tef: "モールドボードプラウ"
 pm_reaper_binders_tef: "刈り取り結束機"
 pm_combine_harvesters_tef: "コンバインハーベスター"
 pm_automated_irrigation_tef: "自動灌漑"
-
 #Tropical Farmland
-
 pmg_legume_yield_tropical_farmland: "マメの収量"
 pm_grain_legume_cultivation_trf: "穀物マメの栽培"
 pm_cereal_intercropping_trf: "穀物の混植"
@@ -185,22 +148,18 @@ pm_high_yield_landraces_trf: "高収量の在来種"
 pm_potassium_fertilizer_trf: "カリ肥料"
 pm_pesticides_trf: "農薬"
 pm_ammonia_fertilizer_trf: "アンモニア肥料"
-
 pmg_secondary_building_tropical_farmland: "付加的な建物"
 pm_no_secondary_yields_trf: "付加的な収量なし"
 pm_cacao_plantations_trf: "カカオ農園"
 pm_tropical_dyes_trf: "熱帯染料"
 pm_palm_fermentation_trf: "ヤシの発酵"
-
 pmg_mechanization_tropical_farmland: "マメの機械化"
 pm_tools_disabled_trf: "ツールなし"
 pm_tillage_tools_trf: "耕起具"
 pm_threshers_trf: "脱穀機"
 pm_combine_harvesters_trf: "コンバインハーベスター"
 pm_automated_irrigation_trf: "自動灌漑"
-
 #wetlands Farmland
-
 pmg_rice_yield_wetlands_farmland: "稲の収量"
 pm_rice_cultivation_wef: "稲の栽培"
 pm_paddies_and_terraces_wef: "水田と段々畑"
@@ -208,22 +167,18 @@ pm_rice_hybridization_wef: "稲の交配"
 pm_pesticides_wef: "農薬"
 pm_nitrate_fertilizer_wef: "硝酸肥料"
 pm_enriched_rice_wef: "栄養米"
-
 pmg_secondary_building_wetlands_farmland: "付加的な建物"
 pm_no_secondary_yields_wef: "付加的な収量なし"
 pm_jute_plantations_wef: "ジュート農園"
 pm_rice_fish_aquaculture_wef: "稲と魚の養殖"
 pm_rice_triple_cropping_wef: "稲の三期作"
-
 pmg_mechanization_wetlands_farmland: "稲の機械化"
 pm_tools_disabled_wef: "ツールなし"
 pm_spike_harrows_wef: "スパイクハロー"
 pm_hulling_machines_wef: "脱穀機"
 pm_combine_harvesters_wef: "コンバインハーベスター"
 pm_automated_irrigation_wef: "自動灌漑"
-
 #Arid Farmland
-
 pmg_millet_yield_arid_farmland: "キビの収量"
 pm_sorghum_cultivation_arf: "トウモロコシの栽培"
 pm_cereal_intercropping_arf: "穀物の混植"
@@ -231,43 +186,36 @@ pm_pearl_millet_cultivation_arf: "パールミレットの栽培"
 pm_gypsum_fertilizer_arf: "石膏肥料"
 pm_pesticides_arf: "農薬"
 pm_ammonia_fertilizer_arf: "アンモニア肥料"
-
 pmg_secondary_building_arid_farmland: "付加的な建物"
 pm_no_secondary_yields_arf: "付加的な収量なし"
 pm_coffee_plantations_arf: "コーヒー農園"
 pm_fig_tree_orchards_arf: "イチジクの果樹園"
 pm_vineyards_arf: "ぶどう園"
-
 pmg_mechanization_arid_farmland: "キビの機械化"
 pm_tools_disabled_arf: "ツールなし"
 pm_panemone_windmills_arf: "パネモーン風車"
 pm_irrigation_aqueducts_arf: "灌漑用水路"
 pm_combine_harvesters_arf: "コンバインハーベスター"
 pm_automated_irrigation_arf: "自動灌漑"
-
 #Base Pasture
-
 pmg_processing_base_pasture: "加工"
 pm_cured_meats: "燻製肉"
 pm_natural_preservatives: "天然保存料"
 pm_butchering_tools: "屠殺道具"
 pm_abattoirs: "屠畜場"
 pm_refrigerated_rail_cars: "冷蔵鉄道車両"
-
 pmg_horses_base_pasture: "馬"
 pm_no_horses: "馬なし"
 pm_draft_breeds: "重種"
 pm_baroque_breeds: "バロック種"
 pm_warmblooded_breeds: "ウォームブラッド種"
 pm_stock_horse_breeds: "作業用馬の品種"
-
 pmg_tanneries_base_pasture: "なめし場"
 pm_no_secondary_pasture: "なめしなし"
 pm_vegetable_tannins: "植物性タンニン"
 pm_dyed_hides: "染められた革"
 pm_collagen_glue_factories: "コラーゲン接着剤工場"
 pm_chrome_tanning: "クロム鞣し"
-
 pmg_land_tenure_base_pasture: "土地の所有権"
 pm_commons_pasture: "共有地"
 pm_rural_estates_pasture: "農村地所"
@@ -275,18 +223,14 @@ pm_fortified_ranches_pasture: "要塞化された牧場"
 pm_corporate_entities_pasture: "法人"
 pm_state_ownership_pasture: "国有"
 pm_worker_cooperative_pasture: "労働者協同組合"
-
 #Prime Pasture
-
 pmg_prime_pasture: "優良牧草地"
 pm_free_range_prp: "放し飼い"
 pm_silage_prp: "サイレージ"
 pm_prime_breeds_prp: "優良品種"
 pm_rotational_grazing_prp: "輪番放牧"
 pm_batteries_prp: "養鶏場"
-
 #Base Mine
-
 pmg_processing_base_mine: "加工"
 pm_manual_sorting_base_mine: "手動分類"
 pm_arrastras_base_mine: "アラストラス"
@@ -295,7 +239,6 @@ pm_newcomen_engine_base_mine: "ニューコメンエンジン"
 pm_ore_vanning_base_mine: "鉱石バンニング"
 pm_flameless_lights_base_mine: "フレームレスランプ"
 pm_electrostatic_separator_base_mine: "静電分離器"
-
 pmg_resource_rights_base_mine: "資源の権利"
 pm_liege_rights_base_mine: "封建的権利"
 pm_guild_privileges_base_mine: "ギルド特権"
@@ -303,9 +246,7 @@ pm_leasehold_rights_base_mine: "借地権"
 pm_prospector_claims_base_mine: "採鉱者の権利"
 pm_private_property_base_mine: "私有地"
 pm_national_patrimony_base_mine: "国家財産"
-
 #Coal Mine
-
 pmg_extraction_coal_mine: "採掘"
 pm_picks_and_shovels_coal_mine: "つるはしとシャベル"
 pm_drainage_pumps_coal_mine: "排水ポンプ"
@@ -314,16 +255,13 @@ pm_hydraulic_mining_coal_mine: "水圧採掘"
 pm_deep_shaft_machinery_coal_mine: "深井戸機械"
 pm_ventilation_fans_coal_mine: "換気扇"
 pm_boring_machines_coal_mine: "掘削機"
-
 pmg_blasting_coal_mine: "爆破"
 pm_no_blasting_coal_mine: "爆破なし"
 pm_fire_setting_coal_mine: "火薬による崩落"
 pm_blackpowder_coal_mine: "火薬"
 pm_nitroglycerin_coal_mine: "ニトログリセリン"
 pm_dynamite_coal_mine: "ダイナマイト"
-
 #Iron Mine
-
 pmg_extraction_iron_mine: "採掘"
 pm_picks_and_shovels_iron_mine: "つるはしとシャベル"
 pm_drainage_pumps_iron_mine: "排水ポンプ"
@@ -332,14 +270,12 @@ pm_hydraulic_mining_iron_mine: "水圧採掘"
 pm_deep_shaft_machinery_iron_mine: "深井戸機械"
 pm_ventilation_fans_iron_mine: "換気扇"
 pm_boring_machines_iron_mine: "掘削機"
-
 pmg_blasting_iron_mine: "爆破"
 pm_no_blasting_iron_mine: "爆破なし"
 pm_fire_setting_iron_mine: "火薬による崩落"
 pm_blackpowder_iron_mine: "火薬"
 pm_nitroglycerin_iron_mine: "ニトログリセリン"
 pm_dynamite_iron_mine: "ダイナマイト"
-
 pmg_extraction_lead_mine: "採取"
 pm_picks_and_shovels_lead_mine: "つるはしとシャベル"
 pm_drainage_pumps_lead_mine: "排水ポンプ"
@@ -348,16 +284,13 @@ pm_hydraulic_mining_lead_mine: "水圧採掘"
 pm_deep_shaft_machinery_lead_mine: "深井戸機械"
 pm_ventilation_fans_lead_mine: "換気扇"
 pm_boring_machines_lead_mine: "掘削機"
-
 pmg_blasting_lead_mine: "爆破"
 pm_no_blasting_lead_mine: "爆破なし"
 pm_fire_setting_lead_mine: "火薬による崩落"
 pm_blackpowder_lead_mine: "火薬"
 pm_nitroglycerin_lead_mine: "ニトログリセリン"
 pm_dynamite_lead_mine: "ダイナマイト"
-
 #硫黄鉱山
-
 pmg_extraction_sulfur_mine: "採取"
 pm_picks_and_shovels_sulfur_mine: "つるはしとシャベル"
 pm_drainage_pumps_sulfur_mine: "排水ポンプ"
@@ -366,16 +299,13 @@ pm_hydraulic_mining_sulfur_mine: "水圧採掘"
 pm_deep_shaft_machinery_sulfur_mine: "深井戸機械"
 pm_ventilation_fans_sulfur_mine: "換気扇"
 pm_boring_machines_sulfur_mine: "掘削機"
-
 pmg_blasting_sulfur_mine: "爆破"
 pm_no_blasting_sulfur_mine: "爆破なし"
 pm_fire_setting_sulfur_mine: "火薬による崩落"
 pm_blackpowder_sulfur_mine: "火薬"
 pm_nitroglycerin_sulfur_mine: "ニトログリセリン"
 pm_dynamite_sulfur_mine: "ダイナマイト"
-
 #金鉱山
-
 pmg_extraction_gold_mine: "採取"
 pm_picks_and_shovels_gold_mine: "つるはしとシャベル"
 pm_drainage_pumps_gold_mine: "排水ポンプ"
@@ -384,16 +314,13 @@ pm_hydraulic_mining_gold_mine: "水圧採掘"
 pm_deep_shaft_machinery_gold_mine: "深井戸機械"
 pm_ventilation_fans_gold_mine: "換気扇"
 pm_boring_machines_gold_mine: "掘削機"
-
 pmg_blasting_gold_mine: "爆破"
 pm_no_blasting_gold_mine: "爆破なし"
 pm_fire_setting_gold_mine: "火薬による崩落"
 pm_blackpowder_gold_mine: "火薬"
 pm_nitroglycerin_gold_mine: "ニトログリセリン"
 pm_dynamite_gold_mine: "ダイナマイト"
-
 #建設セクター
-
 pmg_building_methods_construction: "建設方法"
 pm_braced_framing: "筋交い枠組み"
 pm_window_glazing: "窓ガラス張り"
@@ -401,16 +328,13 @@ pm_balloon_framing: "バルーンフレーミング"
 pm_iron_frame_buildings: "鉄骨建築"
 pm_steel_frame_buildings: "鉄骨建築"
 pm_earthmovers: "土工機械"
-
 pmg_organization_construction: "組織"
 pm_corvee_labour_construction: "コルヴェ労働"
 pm_artisan_guilds_construction: "職人ギルド"
 pm_construction_firms_construction: "建設会社"
 pm_engineer_corps_construction: "エンジニア部隊"
 pm_industrial_conglomerate_construction: "産業コングロマリット"
-
 #伐採キャンプ
-
 pmg_logging_logging_camp: "伐採"
 pm_crosscut_saws: "クロスカットソー"
 pm_frame_saws: "フレームソー"
@@ -418,46 +342,37 @@ pm_circular_saws: "円盤ソー"
 pm_powered_saws: "電動ソー"
 pm_band_saws: "バンドソー"
 pm_chainsaws: "チェーンソー"
-
 pmg_hauling_logging_camp: "運搬"
 pm_manual_hauling: "手作業での運搬"
 pm_skid_trails: "スキッドトレイル"
 pm_log_flumes: "丸太導水路"
 pm_steam_donkey: "蒸気ドンキー"
 pm_logging_trucks: "伐採トラック"
-
 pmg_forestry_management_logging_camp: "森林管理"
 pm_aristocratic_reserve: "貴族の保護林地"
 pm_common_land: "共有地"
 pm_state_ownership_logging_camp: "国有林地"
 pm_private_ownership_logging_camp: "私有林地"
 pm_national_parks: "国立公園"
-
 #石油掘削
-
 pmg_extraction_oil_derrick: "採取"
 pm_cable_tool_drilling: "ケーブル工具による掘削"
 pm_rotary_drilling: "回転式掘削"
 pm_directional_drilling: "方向掘削"
-
 pmg_drilling_rig_oil_derrick: "掘削リグ"
 pm_steam_powered_drilling_rigs: "蒸気駆動の掘削リグ"
 pm_gas_powered_drilling_rigs: "ガス駆動の掘削リグ"
 pm_electric_drilling_rigs: "電気駆動の掘削リグ"
-
 pmg_transportation_oil_derrick: "輸送"
 pm_blue_barrels: "青い樽"
 pm_tanker_railcars: "タンカーレールカー"
 pm_oil_pipelines: "石油パイプライン"
-
 pmg_ownership_oil_derrick: "所有権"
 pm_oil_magnates: "石油マグナート"
 pm_nationalized_oil: "国有化された石油"
 pm_industrial_conglomerate_oil: "産業コングロマリット"
 pm_military_industrial_complex_oil: "軍産複合体"
-
 #基地プランテーション
-
 pmg_infrastructure_base_plantation: "インフラ"
 pm_minimal_infrastructure: "最小限のインフラ"
 pm_irrigation_networks: "灌漑網"
@@ -465,21 +380,18 @@ pm_warehouses: "倉庫"
 pm_rail_linkages: "鉄道連結"
 pm_cold_storage: "冷蔵庫"
 pm_electrified_fences: "電気柵"
-
 pmg_ownership_base_plantation: "所有権"
 pm_titled_aristocracy: "貴族の所有地"
 pm_religious_order: "宗教組織"
 pm_planter_aristocracy: "プランター貴族"
 pm_corporate_entities_plantation: "企業組織"
 pm_state_owned_plantations: "国有プランテーション"
-
 pmg_labor_equity_base_plantation: "労働の公正さ"
 pm_forced_labor: "強制労働"
 pm_exploitation: "搾取"
 pm_tenant_farming: "テナント農業"
 pm_collectivization: "集団化"
 pm_fair_trade: "公正な貿易"
-
 #茶プランテーション
 pmg_innovations_tea_plantation: "茶の革新"
 pm_hand_rolling_tea: "手作業の茶揉み"
@@ -487,7 +399,6 @@ pm_withering_racks_tea: "枯らし棚"
 pm_hydraulic_tea_press_tea: "水圧茶押し"
 pm_tea_blending_machines_tea: "茶ブレンド機"
 pm_ctc_machines_tea: "CTC機"
-
 #コーヒープランテーション
 pmg_innovations_coffee_plantation: "コーヒーの革新"
 pm_dry_processing_coffee: "乾燥処理"
@@ -495,7 +406,6 @@ pm_strip_picking_tools_coffee: "ストリップピッキングツール"
 pm_roasting_machines_coffee: "焙煎機"
 pm_fermentation_tanks_coffee: "発酵タンク"
 pm_freeze_dried_coffee_coffee: "フリーズドライコーヒー"
-
 #スパイスプランテーション
 pmg_innovations_spice_plantation: "スパイスの革新"
 pm_natural_spices_spice: "天然スパイス"
@@ -503,7 +413,6 @@ pm_grinding_mills_spice: "粉砕機"
 pm_aromatics_extraction_spice: "香料の抽出"
 pm_steam_sterilization_spice: "蒸気滅菌"
 pm_sorting_and_grading_machines_spice: "選別およびグレード分け機"
-
 #サトウキビプランテーション
 pmg_innovations_sugarcane_plantation: "サトウキビの革新"
 pm_sugarloaf_molds_sugarcane: "砂糖菓子の型"
@@ -511,7 +420,6 @@ pm_molasses_separation_sugarcane: "モラセスの分離"
 pm_cane_crushers_sugarcane: "サトウキビ粉砕機"
 pm_vacuum_pan_evaporation_sugarcane: "真空パンの蒸発"
 pm_centrifugation_sugarcane: "遠心分離"
-
 #綿プランテーション
 pmg_innovations_cotton_plantation: "綿の革新"
 pm_hand_picking_cotton: "手摘み"
@@ -519,7 +427,6 @@ pm_fiber_carding_tools_cotton: "繊維カーディングツール"
 pm_cotton_gin_cottons: "綿のジン"
 pm_diesel_powered_gins_cotton: "ディーゼル駆動のジン"
 pm_cotton_harvesters_cotton: "綿の収穫機"
-
 #タバコプランテーション
 pmg_innovations_tobacco_plantation: "たばこの革新"
 pm_darkleaf_tobacco_tobacco: "ダークリーフたばこ"
@@ -527,7 +434,6 @@ pm_protective_frames_tobacco: "保護フレーム"
 pm_brightleaf_tobacco_tobacco: "ブライトリーフたばこ"
 pm_shredding_machines_tobacco: "細断機"
 pm_cigarette_rolling_machines_tobacco: "たばこ巻き機"
-
 #絹プランテーション
 pmg_innovations_silk_plantation: "絹の革新"
 pm_wild_silk: "野生絹"
@@ -535,100 +441,81 @@ pm_silk_threading_looms_silk: "絹糸の織機"
 pm_rotary_mountage_silk: "ロータリーマウンテージ"
 pm_mechanical_spooling_silk: "機械的な巻き取り"
 pm_automatic_reeling_devices_silk: "自動巻き取り装置"
-
 #ゴムプランテーション
 pmg_innovations_rubber_plantation: "ゴムの革新"
 pm_rubber_mastication_rubber: "ゴムの練り"
 pm_vulcanized_rubber_rubber: "硫化ゴム"
 pm_coagulating_agents_rubber: "凝固剤"
 pm_ammoniation_rubber: "アンモニア処理"
-
 #アヘンプランテーション
 pmg_innovations_opium_plantation: "アヘンの革新"
 pm_camphorated_opium_opium: "カンファーテッドアヘン"
 pm_morphine_extraction_opium: "モルヒネの抽出"
 pm_codeine_isolation_opium: "コデインの分離"
 pm_heroin_synthesis_opium: "ヘロインの合成"
-
 #発電所
 pmg_fuel_power_plant: "燃料源"
 pm_coal_power_plant: "石炭"
 pm_fuel_oil_power_plant: "重油"
 pm_pumped_storage_power_plant: "揚水発電"
-
 pmg_power_generation_power_plant: "発電"
 pm_reciprocating_steam_engines_power_plant: "往復蒸気エンジン"
 pm_steam_turbines_power_plant: "蒸気タービン"
 pm_francis_turbines_power_plant: "フランシスタービン"
-
 pmg_infrastructure_power_plant: "電力インフラ"
 pm_no_power_grid_infrastructure: "電力グリッドインフラがありません"
 pm_neighborhood_power_grids: "近隣の電力網"
 pm_city_power_grids: "都市の電力網"
 pm_regional_power_grids_power_plant: "地域電力グリッド"
-
 pmg_ownership_power_plant: "所有権"
 pm_private_ownership_power_plant: "私有"
 pm_public_private_partnership_power_plant: "公的-民間パートナーシップ"
 pm_nationalized_plants_power_plant: "国有施設"
-
 #カオリン鉱山
-
 pmg_kaolin_extraction: "カオリンの採取"
 pm_picks_and_shovels_kaolin_mine: "ピックとシャベル"
 pm_stamp_mills_kaolin_mine: "スタンプミル"
 pm_hydraulic_mining_kaolin_mine: "油圧採掘"
 pm_centrifugation_kaolin_mine: "遠心分離"
 pm_open_pit_mining_kaolin_mine: "露天掘り"
-
 pmg_kaolin_kilns: "カオリン窯"
 pm_crossdraft_kilns_kaolin_mine: "横流し窯"
 pm_shuttle_kilns_kaolin_mine: "シャトル窯"
 pm_gas_fired_kilns_kaolin_mine: "ガス焚き窯"
 pm_hoffmann_kilns_kaolin_mine: "ホフマン窯"
-
 #基本産業
-
 pmg_motive_power: "動力源"
 pm_manual_labour: "手作業労働"
 pm_draft_animals: "引き馬"
 pm_rotating_mills: "回転する製粉所"
-
 pmg_industrial_motive_power: "産業用動力"
 pm_steam_engines: "蒸気エンジン"
 pm_rotary_valve_engine: "回転弁エンジン"
 pm_petrol_engines: "ガソリンエンジン"
 pm_electronic_process_control: "電子プロセス制御"
-
 pmg_pre_industrial_organization: "前工業時代の組織"
 pm_decentralized_industry: "分散型産業"
 pm_aristocratic_control: "貴族支配"
 pm_guild_monopolies: "ギルドの独占"
-
 pmg_industrial_organization: "産業組織"
 pm_state_owned_enterprise: "国有企業"
 pm_military_industrial_complex: "軍産複合体"
 pm_workers_cooperative: "労働者協同組合"
 pm_small_and_medium_enterprises: "中小企業"
 pm_industrial_conglomerate: "産業コングロマリット"
-
+pm_industrial_conglomerate_river: "産業コングロマリット"
 #Glassworks
-
 pmg_kilns: "窯"
 pm_crossdraft_kilns: "横流し窯"
 pm_shuttle_kilns: "シャトル窯"
 pm_gas_fired_kilns: "ガス焚き窯"
 pm_hoffmann_kilns: "ホフマン窯"
-
 pmg_glassworks: "ガラス工場"
 pm_forest_glass: "フォレストガラス"
 pm_lead_crystal_glass: "リードクリスタルガラス"
 pm_polished_plate_glass: "研磨プレートガラス"
 pm_cylinder_sheet_glass: "シリンダーシートガラス"
 pm_borosilicate_glass: "ホウケイ酸ガラス"
-
-
-
 pm_powered_milling_machines: "動力フライス盤"
 pm_cam_driven_machines: "カム駆動機械"
 pm_crucible_steel_parts: "坩堝鋼部品"
@@ -638,10 +525,7 @@ pm_confectionery: "菓子類"
 pm_no_liquor: "酒類無し"
 pm_no_chemicals: "化学薬品無し"
 pm_cotton_gins_cotton: "コットンジン綿"
-
-
 #スメルトリー
-
 pmg_ironworks: "鉄工所"
 pm_bloomery: "製鉄炉"
 pm_blast_furnace: "高炉"
@@ -649,7 +533,6 @@ pm_rolling_mill: "圧延工場"
 pm_potting_and_stamping: "鍛造と押出し"
 pm_puddling_process: "パドリング法"
 pm_electric_arc_furnace_iron: "電気アーク炉"
-
 pmg_steelworks: "製鋼所"
 pm_no_steel: "鋼鉄なし"
 pm_crucible_steel: "坩堝鋼"
@@ -657,77 +540,63 @@ pm_blister_steel: "ブリスタースチール"
 pm_bessemer_process: "ベッセマー法"
 pm_open_hearth_furnace: "オープンハース炉"
 pm_electric_arc_furnace_steel: "電気アーク炉"
-
 pmg_alloys: "合金"
 pm_no_alloys: "合金なし"
 pm_pewter_alloys: "錫合金"
 pm_brass_alloys: "真鍮合金"
 pm_soldering_alloys: "はんだ付け用合金"
 pm_aluminium_alloys: "アルミニウム合金"
-
 pmg_slag_byproducts: "スラグ副産物"
 pm_resmelting: "再溶解"
 pm_iron_mordants: "鉄媒染剤"
 pm_ferrous_fertilizers: "鉄肥料"
 pm_mineral_wool: "ミネラルウール"
 pm_slag_glass: "スラグガラス"
-
 #食品産業
-
 pmg_baking: "ベーキング"
 pm_comfits: "コンフィット"
 pm_baking_powder: "ベーキングパウダー"
 pm_commercial_yeast: "商業用イースト"
 pm_solid_chocolate: "固形チョコレート"
-
 pmg_liquor_distillation: "リキュール蒸留"
 pm_wooden_casks: "木製の樽"
 pm_brew_kettles: "醸造釜"
 pm_pot_stills: "ポットスティル"
 pm_column_stills: "カラムスティル"
 pm_chromium_vessels: "クロム容器"
-
 pmg_opium_tinctures: "アヘンチンキ"
 pm_no_tinctures: "チンキなし"
 pm_laudanum: "ローダナム"
-
 pmg_canning: "缶詰"
 pm_no_canning: "缶詰なし"
 pm_glass_jars: "ガラス瓶"
 pm_metal_cans: "金属缶"
 pm_vacuum_sealed_cans: "真空密閉缶"
 pm_freeze_dried_food: "フリーズドライ食品"
-
 pmg_kitchen_appliances: "キッチン家電"
 pm_basic_appliances: "基本家電"
 pm_oven_thermometers: "オーブン温度計"
 pm_gas_stoves: "ガスコンロ"
 pm_electric_mixers: "電動ミキサー"
 pm_dishwashers: "食器洗い機"
-
 #高級衣料産業
-
 pmg_dyeworks: "染色工場"
 pm_organic_dyes: "有機染料"
 pm_sulfate_mordants: "硫酸塩媒染剤"
 pm_chromium_mordants: "クロム媒染剤"
 pm_aniline_dyes: "アニリン染料"
 pm_azo_dyes: "アゾ染料"
-
 pmg_luxury_clothes: "高級衣料"
 pm_no_luxury_clothes: "高級衣料なし"
 pm_artisanal_weavers: "職人による織物"
 pm_couture_fabrics: "高級生地"
 pm_black_and_white_tie: "ブラックアンドホワイトタイ"
 pm_sportswear: "スポーツウェア"
-
 pmg_waterproof_clothing: "防水服"
 pm_no_waterproof_clothing: "防水服なし"
 pm_raincoats: "レインコート"
 pm_trenchcoats: "トレンチコート"
-
 #テキスタイル工場
-
 pmg_clothes: "衣料品"
 pm_treadle_looms: "足踏み織機"
 pm_flying_shuttles: "飛び杼"
@@ -735,24 +604,19 @@ pm_spinning_jenny: "ジェニースピニング"
 pm_jacquard_heads: "ジャカードヘッド"
 pm_sewing_machines: "ミシン"
 pm_automatic_power_looms: "自動力織機"
-
 #家具工場
-
 pmg_furniture: "家具"
 pm_handcarved_furniture: "手彫り家具"
 pm_woodturning_lathes: "木工旋盤"
 pm_veneering_machines: "ベニヤ貼り機"
 pm_plywood: "合板"
 pm_precision_joinery: "精密な接合"
-
 pmg_luxury_furniture: "高級家具"
 pm_no_luxury_furniture: "高級家具なし"
 pm_marquetry: "マルキェトリ"
 pm_upholstering: "張り物"
 pm_electroplated_metals: "電気めっき金属"
-
 #工具製作工房
-
 pmg_tools: "工具"
 pm_non_metal_tools: "非金属工具"
 pm_wrought_iron_tools: "鍛造鉄工具"
@@ -760,158 +624,127 @@ pm_case_hardened_tools: "表面硬化工具"
 pm_crucible_steel_tools: "坩堝鋼工具"
 pm_chromium_steel_tools: "クロム鋼工具"
 pm_tungsten_carbide_tools: "タングステンカーバイト工具"
-
 pmg_machined_parts: "加工部品"
 pm_no_machined_parts: "加工部品なし"
 pm_turret_lathe: "旋盤台"
 pm_steel_milling_machines: "鋼材加工機"
 pm_drill_press: "ドリルプレス"
 pm_molded_polymers: "成形ポリマー"
-
 #紙工場
-
 pmg_papermaking: "製紙"
 pm_handmade_paper: "手作り紙"
 pm_pulping_mills: "パルプ工場"
 pm_fourdrinier_machine: "フォードリニエ機"
 pm_rotary_press: "ロータリープレス"
 pm_chemical_pulping: "化学パルプ"
-
 pmg_pulp_material: "パルプ素材"
 pm_rag_paper: "布製紙"
 pm_wood_pulp_paper: "木材パルプ紙"
 pm_acidic_paper: "酸性紙"
-
 #化学産業
-
 pmg_chemicals: "化学物質"
 pm_soda_ash: "ソーダ灰"
 pm_iron_sulfate_process: "硫酸鉄法"
 pm_leblanc_process: "ルブラン法"
 pm_solvay_process: "ソルヴェイ法"
 pm_castner_kellner_process: "カストナー・ケルナー法"
-
 pmg_fertilizer: "肥料"
 pm_no_fertilizer: "肥料なし"
 pm_gypsum_fertilizer: "石膏肥料"
 pm_ammonia_fertilizer: "アンモニア肥料"
 pm_birkeland_eyde_process: "ビルケランド・アイデ法"
 pm_haber_bosch_process: "ハーバー・ボッシュ法"
-
 #合成物質工場
-
 pmg_composite_porcelain: "複合磁器"
 pm_hard_paste_porcelain: "硬質磁器"
 pm_soft_paste_porcelain: "軟質磁器"
 pm_bone_china: "ボーンチャイナ"
-
 pmg_synthetic_fibers: "合成繊維"
 pm_no_synthetic_fibers: "合成繊維なし"
 pm_art_silk: "アートシルク"
 pm_rayon: "レーヨン"
-
 pmg_synthetic_polymers: "合成ポリマー"
 pm_no_synthetic_polymers: "合成ポリマーなし"
 pm_isoprene_production: "イソプレンの製造"
 pm_bakelite_production: "バクライトの製造"
-
 #エンジニアリング企業
-
 pmg_engines: "エンジン"
 pm_piston_engine: "ピストンエンジン"
 pm_spark_ignition_engine: "スパーク点火エンジン"
 pm_diesel_engine: "ディーゼルエンジン"
 pm_v8_engine: "V8エンジン"
-
 pmg_telecomms: "通信"
 pm_no_telecomms: "通信なし"
 pm_telegraph: "電信"
 pm_telephone: "電話"
 pm_radio: "ラジオ"
-
 pmg_ironclads: "装甲艦"
 pm_no_ironclads: "装甲艦なし"
 pm_revolving_gun_turrets: "旋回砲塔"
 pm_streamlined_hulls: "流線型船体"
 pm_sloped_armor_ironclads: "傾斜装甲"
-
 #石油精製所
-
 pmg_oil_cracking: "油のクラッキング"
 pm_thermal_cracking: "熱クラッキング"
 pm_continuous_distillation: "連続蒸留"
 pm_catalytic_cracking: "触媒クラッキング"
 pm_hydrocracking: "水素化クラッキング"
-
 pmg_petrochemicals: "石油化学製品"
 pm_no_petrochemicals: "石油化学製品なし"
 pm_naphtha_extraction: "ナフサの抽出"
 pm_phenol_extraction: "フェノールの抽出"
 pm_ethylene_production: "エチレンの製造"
 pm_polymerization: "重合"
-
 #自動車メーカー
-
 pmg_automobiles: "自動車"
 pm_motorwagon: "モーターワゴン"
 pm_phaeton_carriage: "フェートン型乗用車"
 pm_touring_car: "ツーリングカー"
-
 pmg_tyres: "タイヤ"
 pm_metal_tires: "金属タイヤ"
 pm_solid_rubber_tyres: "ソリッドゴムタイヤ"
 pm_pneumatic_tyres: "空気入りタイヤ"
-
 pmg_tanks: "戦車"
 pm_no_tanks: "戦車なし"
 pm_landships: "ランドシップ"
 pm_turreted_tanks: "塔付き戦車"
 pm_sloped_armor_tanks: "傾斜装甲"
-
 pmg_aeroplanes: "航空機"
 pm_no_aeroplanes: "航空機なし"
 pm_biplanes: "複葉機"
 pm_monoplanes: "単葉機"
 pm_all_metal_aircraft: "全金属製航空機"
-
 #鉄道
-
 pmg_railways_freight: "貨物鉄道"
 pm_rolling_wagons: "転がりワゴン"
 pm_flatcars: "フラットカー"
 pm_gondola_cars: "ゴンドラ車"
 pm_rotary_cars: "ロータリーカー"
 pm_intermodal_freight_containers: "インターモーダル貨物コンテナ"
-
 pmg_railways_passenger: "旅客鉄道"
 pm_no_passenger_cars: "旅客車なし"
 pm_stagecoach_cars: "ステージコーチ車"
 pm_passenger_cars: "旅客車"
 pm_dining_cars: "食堂車"
 pm_passenger_streamliner: "旅客用ストリームライナー"
-
 pmg_railways_bonus: "鉄道ボーナス"
 pm_no_railway_bonus: "鉄道ボーナスなし"
 pm_scenic_touring_trains: "景観ツアートレイン"
 pm_military_railways: "軍用鉄道"
 pm_whistle_stop_tours: "一時停車ツアー"
 pm_colonial_railways: "植民地鉄道"
-
 pmg_railways_motive_power: "動力源"
 pm_horse_drawn_trains: "馬車牽引列車"
 pm_coal_trains: "石炭列車"
 pm_electricity_trains: "電車"
 pm_petrol_trains: "ガソリン列車"
-
 pmg_railways_ownership: "鉄道所有権"
 pm_railways_private_ownership: "私有鉄道"
 pm_railways_military_owned: "軍事所有鉄道"
 pm_railways_industrial_conglomerate: "産業コングロマリット鉄道"
 pm_railways_state_owned: "国有鉄道"
 pm_railways_worker_cooperative: "労働者協同組合鉄道"
-
 #Arsenal
-
 pmg_arsenal_firearms: "火器"
 pm_matchlock_muskets: "マッチロック式マスケット銃"
 pm_flintlock_muskets: "フリントロック式マスケット銃"
@@ -920,7 +753,6 @@ pm_percussion_caps: "撃発キャップ"
 pm_breech_loading_rifles: "後装式ライフル銃"
 pm_bolt_action_rifles: "ボルトアクション式ライフル銃"
 pm_semi_automatic_firearms: "半自動火器"
-
 pmg_arsenal_artillery: "大砲"
 pm_no_artillery: "本日は大砲無し"
 pm_muzzle_loading_cannons: "前装式大砲"
@@ -928,24 +760,53 @@ pm_mobile_field_artillery: "機動野砲"
 pm_breech_loading_artillery: "後装式大砲"
 pm_hydraulic_recoil_mechanism: "油圧制退装置"
 pm_quick_firing_artillery: "速射砲"
-
 #Munitions Plants
-
 pmg_munitions_plant_ammunition: "弾薬"
 pm_paper_cartridges: "紙薬莢"
 pm_minie_ball: "ミニエ弾"
 pm_metallic_cartridges: "金属薬莢"
 pm_smokeless_powder: "無煙火薬"
 pm_spitzer_bullet: "シュピッツァー弾"
-
 pmg_munitions_plant_explosives: "爆薬"
 pm_no_explosives_tov: "本日は爆薬無し"
 pm_nitroglycerin: "ニトログリセリン"
 pm_dynamite: "ダイナマイト"
 pm_trinitrotoluene: "トリニトロトルエン"
-
+#Major Rivers
+pmg_river_utilization: "川の利用"
+pm_freshwater_fishing: "淡水釣り"
+pm_flax_linen_industry: "亜麻麻業"
+pm_small_goods_trade: "小物貿易"
+pm_hydroelectric_dams: "水力発電ダム"
+pmg_river_engineering: "河川工学"
+pm_earthen_embankments: "土手"
+pm_watermills: "水車"
+pm_iron_geared_watermills: "鉄歯車水車"
+pm_artificial_embankments: "人工堤防"
+pm_steel_geared_watermills: "鋼歯車水車"
+pm_water_turbines: "水力タービン"
+pm_canalized_rivers: "運河化された川"
+pmg_river_shipping: "川の船便"
+pm_no_boats: "ボートなし"
+pm_river_rafts: "川のいかだ"
+pm_river_barges: "川のバージ"
+pm_paddle_steamers: "パドルスチーマー"
+pm_screw_propeller_steamers: "スクリュープロペラスチーマー"
+pm_intermodal_cargo_boats: "インターモーダル貨物船"
+pmg_river_bonus: "川のボーナス"
+pm_no_river_bonus: "川のボーナスなし"
+pm_river_based_settlements: "川に基づく集落"
+pm_irrigation_canals: "灌漑用運河"
+pm_drinking_water_reservoirs: "飲料水貯水池"
+pm_gravel_quarries: "砂利採石場"
+pm_floating_casinos: "浮遊カジノ"
+pmg_river_usage_rights: "川の使用権"
+pm_decentralised_control: "分散制御"
+pm_merchant_leagues: "商人リーグ"
+pm_crown_estate: "王室財産"
+pm_privately_owned_parcels: "個人所有地"
+pm_nationalized_infrastructure: "国有化されたインフラ"
 #unsorted 0.2 Additions
-
 pm_natural_hides: "天然の皮革"
 pm_flax_and_hemp_fields_tef: "亜麻と麻の畑"
 pm_sugarbeet_fields_tef: "テンサイ畑"

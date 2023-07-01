@@ -777,6 +777,7 @@ ideology_reactionary = {
 
 	lawgroup_citizenship = {
 		law_ethnostate = approve
+		law_subjects = neutral
 		law_national_supremacy = strongly_approve
 		law_racial_segregation = approve
 		law_cultural_exclusion = neutral
@@ -784,9 +785,10 @@ ideology_reactionary = {
 	}
 
 	lawgroup_migration = {
-		law_closed_borders = approve
-		law_heavy_migration_controls = strongly_approve
-		law_freedom_of_movement = disapprove
+		law_closed_borders = strongly_approve
+		law_heavy_migration_controls = approve
+		law_light_migration_controls = disapprove
+		law_freedom_of_movement = strongly_disapprove
 	}
 }
 
@@ -794,6 +796,8 @@ ideology_plutocratic = {
 	icon = "gfx/interface/icons/ideology_icons/value.dds" #/plutocratic.dds"
 	
 	lawgroup_distribution_of_power = {
+		law_technocracy = strongly_approve
+		law_single_party_state = approve
 		law_oligarchy = approve
 		law_wealth_voting = approve
 		law_landed_voting = neutral
@@ -826,9 +830,12 @@ ideology_plutocratic = {
 	}	
 	
 	lawgroup_colonization = {
-		law_exploitation = approve
-		law_no_colonial_affairs = neutral
-		law_resettlement = neutral
+		law_no_colonial_affairs = disapprove
+		law_commerce = strongly_approve
+		law_exploitation = strongly_approve
+		law_resettlement = approve
+		law_paternalism = approve
+		law_assimilation = neutral
 	}
 }
 
@@ -840,9 +847,11 @@ ideology_patriarchal = {
 		law_women_own_property = disapprove
 		law_women_in_the_workplace = disapprove
 		law_womens_suffrage = strongly_disapprove
+		law_women_in_leadership = strongly_disapprove
 	}
 
 	lawgroup_free_speech = {
+		law_informal_regulation = neutral
 		law_outlawed_dissent = strongly_approve
 		law_censorship = approve
 		law_right_of_assembly = neutral
@@ -877,5 +886,11 @@ ideology_pro_slavery = {
 		law_debt_slavery = approve
 		law_legacy_slavery = neutral
 		law_slavery_banned = strongly_disapprove
+	}
+
+		lawgroup_labor_rights = {
+		law_no_workers_rights = approve
+		law_regulatory_bodies = neutral
+		law_worker_protections = neutral
 	}
 }

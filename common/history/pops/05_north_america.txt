@@ -3,11 +3,11 @@
 		region_state:ENG = { #England
 			create_pop = {
 				culture = iroquoian
-				size=6855
+				size = 25962
 			}
 			create_pop = {
 				culture = british
-				size = 1813
+				size = 2847
 			}
 		}
 	}
@@ -15,31 +15,31 @@
 		region_state:C91 = { #Choctaw
 			create_pop = {
 				culture = muskogean
-				size=6324
+				size = 34403
 			}
 		}
 		region_state:D15 = { #Chitimacha
 			create_pop = {
 				culture = caddo
-				size=5786
+				size = 39716
 			}
 		}
 		region_state:D17 = { #Natchitoches
 			create_pop = {
 				culture = caddo
-				size=9638
+				size = 28151
 			}
 		}
 		region_state:D18 = { #Kadohadacho
 			create_pop = {
 				culture = caddo
-				size=15090
+				size = 35385
 			}
 		}
 		region_state:D19 = { #Natchez
 			create_pop = {
 				culture = caddo
-				size=7642
+				size = 37180
 			}
 		}
 	}
@@ -47,39 +47,39 @@
 		region_state:C78 = { #Haudenosaunee
 			create_pop = {
 				culture = iroquoian
-				size=21954
+				size = 44003
 			}
 		}
 		region_state:C79 = { #Susquehannock
 			create_pop = {
 				culture = iroquoian
-				size=6387
+				size = 34949
 			}
 		}
 		region_state:C80 = { #Erie
 			create_pop = {
 				culture = iroquoian
-				size=7940
+				size = 27988
 			}
 		}
 		region_state:NET = { #Netherlands
 			create_pop = {
 				culture = iroquoian
-				size=17101
+				size = 31533
 			}
 			create_pop = {
 				culture = dutch
-				size = 3303
+				size = 3344
 			}
 		}
 		region_state:ENG = { #England
 			create_pop = {
 				culture = iroquoian
-				size=7989
+				size = 41295
 			}
 			create_pop = {
 				culture = british
-				size = 2303
+				size = 3614
 			}
 		}
 	}
@@ -87,23 +87,23 @@
 		region_state:C83 = { #Powhatan
 			create_pop = {
 				culture = algonquian
-				size=12743
+				size = 44464
 			}
 		}
 		region_state:C84 = { #Cherokee
 			create_pop = {
 				culture = iroquoian
-				size=11943
+				size = 23013
 			}
 		}
 		region_state:ENG = { #England
 			create_pop = {
 				culture = algonquian
-				size=5205
+				size = 31182
 			}
 			create_pop = {
 				culture = british
-				size = 4888
+				size = 3558
 			}
 		}
 	}
@@ -111,49 +111,49 @@
 		region_state:E10 = { #Haida
 			create_pop = {
 				culture = athabaskan
-				size = 8576
+				size = 17538
 			}
 		}
 		region_state:E11 = { #Lingít
 			create_pop = {
 				culture = athabaskan
-				size=13175
+				size = 15194
 			}
 		}
 		region_state:E12 = { #Iñupiat
 			create_pop = {
 				culture = inuit
-				size = 4672
+				size = 7359
 			}
 		}
 		region_state:E13 = { #Tanana
 			create_pop = {
 				culture = athabaskan
-				size = 9866
+				size = 43072
 			}
 		}
 		region_state:E14 = { #Sugpiat
 			create_pop = {
 				culture = inuit
-				size=4526
+				size = 9844
 			}
 		}
 		region_state:E15 = { #Yup'ik
 			create_pop = {
 				culture = inuit
-				size=10353
+				size = 5456
 			}
 		}
 		region_state:E16 = { #Unangam Tanangin
 			create_pop = {
 				culture = inuit
-				size=6395
+				size = 3358
 			}
 		}
 		region_state:E17 = { #Dena'ina
 			create_pop = {
 				culture = athabaskan
-				size = 6438
+				size = 46676
 			}
 		}
 	}
@@ -161,43 +161,43 @@
 		region_state:D59 = { #Schitsu'umsh
 			create_pop = {
 				culture = salish
-				size=8379
+				size = 40272
 			}
 		}
 		region_state:D90 = { #Salish
 			create_pop = {
 				culture = salish
-				size=17669
+				size = 39089
 			}
 		}
 		region_state:D99 = { #Chinook
 			create_pop = {
 				culture = penutian
-				size=11774
+				size = 36912
 			}
 		}
 		region_state:D98 = { #Liksiyu
 			create_pop = {
 				culture = penutian
-				size=8338
+				size = 46289
 			}
 		}
 		region_state:E01 = { #Yakama
 			create_pop = {
 				culture = penutian
-				size=9134
+				size = 43759
 			}
 		}
 		region_state:E02 = { #Lushootseed
 			create_pop = {
 				culture = salish
-				size=7479
+				size = 47268
 			}
 		}
 		region_state:E03 = { #Halkomelem
 			create_pop = {
 				culture = salish
-				size=5786
+				size = 30457
 			}
 		}
 	}
@@ -205,49 +205,49 @@
 		region_state:D64 = { #Numu
 			create_pop = {
 				culture = uto_aztecan
-				size = 4121
+				size = 40306
 			}
 		}
 		region_state:D89 = { #Wintun
 			create_pop = {
 				culture = penutian
-				size=6488
+				size = 33766
 			}
 		}
 		region_state:D93 = { #Modoc
 			create_pop = {
 				culture = penutian
-				size=6001
+				size = 39758
 			}
 		}
 		region_state:D94 = { #Molala
 			create_pop = {
 				culture = penutian
-				size=6414
+				size = 47208
 			}
 		}
 		region_state:D95 = { #Kalapuya
 			create_pop = {
 				culture = penutian
-				size=10242
+				size = 44804
 			}
 		}
 		region_state:D96 = { #Coos
 			create_pop = {
 				culture = penutian
-				size=14072
+				size = 40521
 			}
 		}
 		region_state:D97 = { #Tillamook
 			create_pop = {
 				culture = penutian
-				size=16214
+				size = 43418
 			}
 		}
 		region_state:D98 = { #Liksiyu
 			create_pop = {
 				culture = penutian
-				size=6019
+				size = 30195
 			}
 		}
 	}
@@ -255,37 +255,37 @@
 		region_state:D54 = { #Kootenai
 			create_pop = {
 				culture = algonquian
-				size=12561
+				size = 35581
 			}
 		}
 		region_state:D59 = { #Schitsu'umsh
 			create_pop = {
 				culture = salish
-				size=6017
+				size = 47234
 			}
 		}
 		region_state:D60 = { #Nimíipuu
 			create_pop = {
 				culture = salish
-				size=6213
+				size = 43681
 			}
 		}
 		region_state:D61 = { #Northern Shoshone
 			create_pop = {
 				culture = uto_aztecan
-				size = 5599
+				size = 31963
 			}
 		}
 		region_state:D62 = { #Eastern Shoshone
 			create_pop = {
 				culture = uto_aztecan
-				size = 6651
+				size = 27773
 			}
 		}
 		region_state:D64 = { #Numu
 			create_pop = {
 				culture = uto_aztecan
-				size=8619
+				size = 43047
 			}
 		}
 	}
@@ -293,49 +293,49 @@
 		region_state:D30 = { #Ka'igwu
 			create_pop = {
 				culture = tanoan
-				size = 5991
+				size = 30263
 			}
 		}
 		region_state:D32 = { #Na i sha
 			create_pop = {
 				culture = athabaskan
-				size=5356
+				size = 35883
 			}
 		}
 		region_state:D38 = { #Tsiihistano
 			create_pop = {
 				culture = siouan
-				size=10179
+				size = 37400
 			}
 		}
 		region_state:D62 = { #Eastern Shoshone
 			create_pop = {
 				culture = uto_aztecan
-				size=10651
+				size = 33887
 			}
 		}
 		region_state:D65 = { #Arapaho
 			create_pop = {
 				culture = algonquian
-				size=5426
+				size = 39426
 			}
 		}
 		region_state:D66 = { #Haisndayin
 			create_pop = {
 				culture = athabaskan
-				size=15119
+				size = 30983
 			}
 		}
 		region_state:D75 = { #Ute
 			create_pop = {
 				culture = uto_aztecan
-				size=14019
+				size = 28868
 			}
 		}
 		region_state:D69 = { #Diné
 			create_pop = {
 				culture = athabaskan
-				size=9213
+				size = 47436
 			}
 		}
 	}
@@ -343,31 +343,31 @@
 		region_state:D37 = { #Lakota
 			create_pop = {
 				culture = siouan
-				size=8545
+				size = 32789
 			}
 		}
 		region_state:D38 = { #Tsiihistano
 			create_pop = {
 				culture = siouan
-				size=12471
+				size = 38763
 			}
 		}
 		region_state:D53 = { #Absaroka
 			create_pop = {
 				culture = siouan
-				size=8240
+				size = 31667
 			}
 		}
 		region_state:D61 = { #Northern Shoshone
 			create_pop = {
 				culture = uto_aztecan
-				size = 4762
+				size = 37450
 			}
 		}
 		region_state:D62 = { #Eastern Shoshone
 			create_pop = {
 				culture = uto_aztecan
-				size=5236
+				size = 32663
 			}
 		}
 	}
@@ -375,55 +375,55 @@
 		region_state:D37 = { #Lakota
 			create_pop = {
 				culture = siouan
-				size=14124
+				size = 33414
 			}
 		}
 		region_state:D39 = { #Hunkpapa
 			create_pop = {
 				culture = siouan
-				size=11370
+				size = 40073
 			}
 		}
 		region_state:D40 = { #Hidatsa
 			create_pop = {
 				culture = siouan
-				size=8474
+				size = 43456
 			}
 		}
 		region_state:D41 = { #Mandan
 			create_pop = {
 				culture = siouan
-				size=10080
+				size = 37604
 			}
 		}
 		region_state:D52 = { #Aaniiih
 			create_pop = {
 				culture = algonquian
-				size=12446
+				size = 29863
 			}
 		}
 		region_state:D53 = { #Absaroka
 			create_pop = {
 				culture = siouan
-				size=12838
+				size = 40435
 			}
 		}
 		region_state:D54 = { #Kootenai
 			create_pop = {
 				culture = algonquian
-				size=7110
+				size = 42852
 			}
 		}
 		region_state:D55 = { #Niitsitapi
 			create_pop = {
 				culture = algonquian
-				size=13765
+				size = 40185
 			}
 		}
 		region_state:D62 = { #Eastern Shoshone
 			create_pop = {
 				culture = uto_aztecan
-				size=9090
+				size = 41152
 			}
 		}
 	}
@@ -431,31 +431,31 @@
 		region_state:C98 = { #Nakota
 			create_pop = {
 				culture = siouan
-				size=12280
+				size = 33771
 			}
 		}
 		region_state:D03 = { #Yanktonai
 			create_pop = {
 				culture = siouan
-				size=13437
+				size = 35549
 			}
 		}
 		region_state:D39 = { #Hunkpapa
 			create_pop = {
 				culture = siouan
-				size=12711
+				size = 33768
 			}
 		}
 		region_state:D40 = { #Hidatsa
 			create_pop = {
 				culture = siouan
-				size=11533
+				size = 47603
 			}
 		}
 		region_state:D41 = { #Mandan
 			create_pop = {
 				culture = siouan
-				size=6205
+				size = 40893
 			}
 		}
 	}
@@ -463,43 +463,43 @@
 		region_state:D02 = { #Yankton
 			create_pop = {
 				culture = siouan
-				size=14085
+				size = 43493
 			}
 		}
 		region_state:D03 = { #Yanktonai
 			create_pop = {
 				culture = siouan
-				size=16066
+				size = 30556
 			}
 		}
 		region_state:D35 = { #Oglala
 			create_pop = {
 				culture = siouan
-				size=11457
+				size = 27941
 			}
 		}
 		region_state:D36 = { #Brule
 			create_pop = {
 				culture = siouan
-				size=12124
+				size = 28349
 			}
 		}
 		region_state:D37 = { #Lakota
 			create_pop = {
 				culture = siouan
-				size=10309
+				size = 39217
 			}
 		}
 		region_state:D39 = { #Hunkpapa
 			create_pop = {
 				culture = siouan
-				size=10626
+				size = 35023
 			}
 		}
 		region_state:D40 = { #Hidatsa
 			create_pop = {
 				culture = siouan
-				size=14863
+				size = 25119
 			}
 		}
 	}
@@ -507,49 +507,49 @@
 		region_state:D31 = { #Kaw
 			create_pop = {
 				culture = siouan
-				size=10349
+				size = 48175
 			}
 		}
 		region_state:D32 = { #Na i sha
 			create_pop = {
 				culture = athabaskan
-				size=15666
+				size = 29949
 			}
 		}
 		region_state:D33 = { #Chatiks si Chatiks
 			create_pop = {
 				culture = athabaskan
-				size=12169
+				size = 38578
 			}
 		}
 		region_state:D34 = { #Omaha
 			create_pop = {
 				culture = siouan
-				size=12695
+				size = 40781
 			}
 		}
 		region_state:D35 = { #Oglala
 			create_pop = {
 				culture = siouan
-				size=17636
+				size = 38553
 			}
 		}
 		region_state:D36 = { #Brule
 			create_pop = {
 				culture = siouan
-				size=10669
+				size = 42611
 			}
 		}
 		region_state:D37 = { #Lakota
 			create_pop = {
 				culture = siouan
-				size=8022
+				size = 37002
 			}
 		}
 		region_state:D38 = { #Tsiihistano
 			create_pop = {
 				culture = siouan
-				size=6326
+				size = 36162
 			}
 		}
 	}
@@ -557,37 +557,37 @@
 		region_state:D13 = { #Wazhazhe
 			create_pop = {
 				culture = siouan
-				size=15351
+				size = 36709
 			}
 		}
 		region_state:D18 = { #Kadohadacho
 			create_pop = {
 				culture = caddo
-				size=12044
+				size = 26252
 			}
 		}
 		region_state:D30 = { #Ka'igwu
 			create_pop = {
 				culture = tanoan
-				size=8469
+				size = 35577
 			}
 		}
 		region_state:D31 = { #Kaw
 			create_pop = {
 				culture = siouan
-				size=14302
+				size = 44415
 			}
 		}
 		region_state:D32 = { #Na i sha
 			create_pop = {
 				culture = athabaskan
-				size=5932
+				size = 36838
 			}
 		}
 		region_state:D33 = { #Chatiks si Chatiks
 			create_pop = {
 				culture = athabaskan
-				size=14138
+				size = 42405
 			}
 		}
 	}
@@ -595,25 +595,25 @@
 		region_state:D13 = { #Wazhazhe
 			create_pop = {
 				culture = siouan
-				size=7706
+				size = 35385
 			}
 		}
 		region_state:D31 = { #Kaw
 			create_pop = {
 				culture = siouan
-				size=8948
+				size = 44806
 			}
 		}
 		region_state:D24 = { #Kitikiti'sh
 			create_pop = {
 				culture = caddo
-				size=8901
+				size = 35221
 			}
 		}
 		region_state:D30 = { #Ka'igwu
 			create_pop = {
 				culture = tanoan
-				size=14164
+				size = 45857
 			}
 		}
 	}
@@ -621,19 +621,19 @@
 		region_state:D14 = { #Quapaw
 			create_pop = {
 				culture = siouan
-				size=13137
+				size = 25989
 			}
 		}
 		region_state:D13 = { #Wazhazhe
 			create_pop = {
 				culture = siouan
-				size=6196
+				size = 42169
 			}
 		}
 		region_state:D18 = { #Kadohadacho
 			create_pop = {
 				culture = caddo
-				size=10454
+				size = 39679
 			}
 		}
 	}
@@ -641,25 +641,25 @@
 		region_state:D11 = { #Chiwere
 			create_pop = {
 				culture = siouan
-				size=13398
+				size = 42911
 			}
 		}
 		region_state:D12 = { #Niúachi
 			create_pop = {
 				culture = siouan
-				size=8593
+				size = 37994
 			}
 		}
 		region_state:D13 = { #Wazhazhe
 			create_pop = {
 				culture = siouan
-				size=9658
+				size = 27834
 			}
 		}
 		region_state:D14 = { #Quapaw
 			create_pop = {
 				culture = siouan
-				size=7725
+				size = 45326
 			}
 		}
 	}
@@ -667,25 +667,25 @@
 		region_state:D02 = { #Yankton
 			create_pop = {
 				culture = siouan
-				size=8245
+				size = 42039
 			}
 		}
 		region_state:D04 = { #Baxoje
 			create_pop = {
 				culture = siouan
-				size=6171
+				size = 25381
 			}
 		}
 		region_state:D10 = { #Illiniwek
 			create_pop = {
 				culture = algonquian
-				size=9273
+				size = 33259
 			}
 		}
 		region_state:D11 = { #Chiwere
 			create_pop = {
 				culture = siouan
-				size=8646
+				size = 48903
 			}
 		}
 	}
@@ -693,37 +693,37 @@
 		region_state:C98 = { #Nakota
 			create_pop = {
 				culture = siouan
-				size=9223
+				size = 45946
 			}
 		}
 		region_state:C99 = { #Santee
 			create_pop = {
 				culture = siouan
-				size=5025
+				size = 31232
 			}
 		}
 		region_state:D01 = { #Wahpeton
 			create_pop = {
 				culture = siouan
-				size=16654
+				size = 47038
 			}
 		}
 		region_state:D02 = { #Yankton
 			create_pop = {
 				culture = siouan
-				size=15431
+				size = 41854
 			}
 		}
 		region_state:D03 = { #Yanktonai
 			create_pop = {
 				culture = siouan
-				size=15931
+				size = 34673
 			}
 		}
 		region_state:D04 = { #Baxoje
 			create_pop = {
 				culture = siouan
-				size=10436
+				size = 34380
 			}
 		}
 	}
@@ -731,13 +731,13 @@
 		region_state:D05 = { #Mamaceqtaw
 			create_pop = {
 				culture = algonquian
-				size=8070
+				size = 26990
 			}
 		}
 		region_state:D06 = { #Ho-Chunk
 			create_pop = {
 				culture = algonquian
-				size=6476
+				size = 35812
 			}
 		}
 	}
@@ -745,19 +745,19 @@
 		region_state:C94 = { #Three Fires Confederacy
 			create_pop = {
 				culture = algonquian
-				size = 6233
+				size = 26765
 			}
 		}
 		region_state:D09 = { #Myaamiaki
 			create_pop = {
 				culture = algonquian
-				size=9791
+				size = 35004
 			}
 		}
 		region_state:D10 = { #Illiniwek
 			create_pop = {
 				culture = algonquian
-				size=13891
+				size = 43389
 			}
 		}
 	}
@@ -765,19 +765,19 @@
 		region_state:C94 = { #Three Fires Confederacy
 			create_pop = {
 				culture = algonquian
-				size=11950
+				size = 13414
 			}
 		}
 		region_state:D07 = { #Asakiwaki
 			create_pop = {
 				culture = algonquian
-				size=9050
+				size = 33771
 			}
 		}
 		region_state:D08 = { #Meskwaki
 			create_pop = {
 				culture = algonquian
-				size=15548
+				size = 30244
 			}
 		}
 	}
@@ -785,19 +785,19 @@
 		region_state:C80 = { #Erie
 			create_pop = {
 				culture = iroquoian
-				size=8045
+				size = 37323
 			}
 		}
 		region_state:C82 = { #Shawnee
 			create_pop = {
 				culture = algonquian
-				size=5395
+				size = 49975
 			}
 		}
 		region_state:D09 = { #Myaamiaki
 			create_pop = {
 				culture = algonquian
-				size=7481
+				size = 49550
 			}
 		}
 	}
@@ -805,13 +805,13 @@
 		region_state:C84 = { #Cherokee
 			create_pop = {
 				culture = iroquoian
-				size=17863
+				size = 27997
 			}
 		}
 		region_state:C90 = { #Chickasaw
 			create_pop = {
 				culture = muskogean
-				size=7273
+				size = 32375
 			}
 		}
 	}
@@ -819,13 +819,13 @@
 		region_state:C84 = { #Cherokee
 			create_pop = {
 				culture = iroquoian
-				size=17894
+				size = 6652
 			}
 		}
 		region_state:C90 = { #Chickasaw
 			create_pop = {
 				culture = muskogean
-				size = 9541
+				size = 29168
 			}
 		}
 	}
@@ -833,13 +833,13 @@
 		region_state:C90 = { #Chickasaw
 			create_pop = {
 				culture = muskogean
-				size=15253
+				size = 45573
 			}
 		}
 		region_state:C91 = { #Choctaw
 			create_pop = {
 				culture = muskogean
-				size=6099
+				size = 48507
 			}
 		}
 	}
@@ -847,25 +847,25 @@
 		region_state:C84 = { #Cherokee
 			create_pop = {
 				culture = iroquoian
-				size = 8427
+				size = 22118
 			}
 		}
 		region_state:C87 = { #Muskogee Confederacy
 			create_pop = {
 				culture = muskogean
-				size=5296
+				size = 36697
 			}
 		}
 		region_state:C90 = { #Chickasaw
 			create_pop = {
 				culture = muskogean
-				size=13643
+				size = 46780
 			}
 		}
 		region_state:C91 = { #Choctaw
 			create_pop = {
 				culture = muskogean
-				size=14143
+				size = 45147
 			}
 		}
 	}
@@ -873,23 +873,23 @@
 		region_state:C88 = { #Timucua
 			create_pop = {
 				culture = muskogean
-				size=6024
+				size = 41726
 			}
 		}
 		region_state:C89 = { #Apalachee
 			create_pop = {
 				culture = muskogean
-				size=12631
+				size = 29984
 			}
 		}
 		region_state:MEX = { #Mexico
 			create_pop = {
 				culture = muskogean
-				size=9129
+				size = 41702
 			}
 			create_pop = {
 				culture = spanish
-				size = 7974
+				size = 4505
 			}
 		}
 	}
@@ -897,13 +897,13 @@
 		region_state:C84 = { #Cherokee
 			create_pop = {
 				culture = iroquoian
-				size=4793
+				size = 6020
 			}
 		}
 		region_state:C87 = { #Muskogee Confederacy
 			create_pop = {
 				culture = muskogean
-				size=8039
+				size = 25362
 			}
 		}
 	}
@@ -911,7 +911,7 @@
 		region_state:C82 = { #Shawnee
 			create_pop = {
 				culture = algonquian
-				size=6946
+				size = 41765
 			}
 		}
 	}
@@ -919,19 +919,19 @@
 		region_state:C79 = { #Susquehannock
 			create_pop = {
 				culture = iroquoian
-				size=5833
+				size = 25557
 			}
 		}
 		region_state:C83 = { #Powhatan
 			create_pop = {
 				culture = algonquian
-				size=10928
+				size = 25699
 			}
 		}
 		region_state:C82 = { #Shawnee
 			create_pop = {
 				culture = algonquian
-				size=7917
+				size = 49723
 			}
 		}
 	}
@@ -939,11 +939,11 @@
 		region_state:SWE = { #Sweden
 			create_pop = {
 				culture = algonquian
-				size=7076
+				size = 35519
 			}
 			create_pop = {
 				culture = swedish
-				size = 4620
+				size = 3861
 			}
 		}
 	}
@@ -951,31 +951,31 @@
 		region_state:C78 = { #Haudenosaunee
 			create_pop = {
 				culture = iroquoian
-				size=20069
+				size = 38676
 			}
 		}
 		region_state:C79 = { #Susquehannock
 			create_pop = {
 				culture = iroquoian
-				size=12593
+				size = 43568
 			}
 		}
 		region_state:C80 = { #Erie
 			create_pop = {
 				culture = iroquoian
-				size=6297
+				size = 42595
 			}
 		}
 		region_state:C81 = { #Lenape
 			create_pop = {
 				culture = algonquian
-				size=12116
+				size = 36359
 			}
 		}
 		region_state:C82 = { #Shawnee
 			create_pop = {
 				culture = algonquian
-				size = 8259
+				size = 45826
 			}
 		}
 	}
@@ -983,7 +983,7 @@
 		region_state:C81 = { #Lenape
 			create_pop = {
 				culture = algonquian
-				size = 9377
+				size = 28244
 			}
 		}
 	}
@@ -991,13 +991,13 @@
 		region_state:C94 = { #Three Fires Confederacy
 			create_pop = {
 				culture = algonquian
-				size=7363
+				size = 15371
 			}
 		}
 		region_state:D10 = { #Illiniwek
 			create_pop = {
 				culture = algonquian
-				size=5335
+				size = 50255
 			}
 		}
 	}
@@ -1005,23 +1005,23 @@
 		region_state:C75 = { #Quinnipiac
 			create_pop = {
 				culture = algonquian
-				size=6745
+				size = 30657
 			}
 		}
 		region_state:C77 = { #Narragansett
 			create_pop = {
 				culture = algonquian
-				size=11652
+				size = 32114
 			}
 		}
 		region_state:ENG = { #England
 			create_pop = {
 				culture = algonquian
-				size=10245
+				size = 40711
 			}
 			create_pop = {
 				culture = british
-				size = 5451
+				size = 3190
 			}
 		}
 	}
@@ -1029,17 +1029,17 @@
 		region_state:ENG = { #England
 			create_pop = {
 				culture = algonquian
-				size=11035
+				size = 47277
 			}
 			create_pop = {
 				culture = british
-				size = 5451
+				size = 2664
 			}
 		}
 		region_state:C77 = { #Narragansett
 			create_pop = {
 				culture = algonquian
-				size=11202
+				size = 26649
 			}
 		}
 	}
@@ -1047,29 +1047,29 @@
 		region_state:ENG = { #England
 			create_pop = {
 				culture = algonquian
-				size=9808
+				size = 44801
 			}
 			create_pop = {
 				culture = british
-				size = 4451
+				size = 3299
 			}
 		}
 		region_state:C74 = { #Nipmuck
 			create_pop = {
 				culture = algonquian
-				size=14829
+				size = 46658
 			}
 		}
 		region_state:C75 = { #Quinnipiac
 			create_pop = {
 				culture = algonquian
-				size=6640
+				size = 45960
 			}
 		}
 		region_state:C76 = { #Wampanoag
 			create_pop = {
 				culture = algonquian
-				size=11737
+				size = 29385
 			}
 		}
 	}
@@ -1077,19 +1077,19 @@
 		region_state:C71 = { #Abenaki
 			create_pop = {
 				culture = algonquian
-				size=13383
+				size = 37508
 			}
 		}
 		region_state:C74 = { #Nipmuck
 			create_pop = {
 				culture = algonquian
-				size=5345
+				size = 37175
 			}
 		}
 		region_state:C75 = { #Quinnipiac
 			create_pop = {
 				culture = algonquian
-				size=13766
+				size = 31073
 			}
 		}
 	}
@@ -1097,23 +1097,23 @@
 		region_state:C71 = { #Abenaki
 			create_pop = {
 				culture = algonquian
-				size=6913
+				size = 31464
 			}
 		}
 		region_state:C74 = { #Nipmuck
 			create_pop = {
 				culture = algonquian
-				size=11001
+				size = 48576
 			}
 		}
 		region_state:ENG = { #England
 			create_pop = {
 				culture = algonquian
-				size=6686
+				size = 29987
 			}
 			create_pop = {
 				culture = british
-				size = 3851
+				size = 3515
 			}
 		}
 	}
@@ -1121,29 +1121,29 @@
 		region_state:C71 = { #Abenaki
 			create_pop = {
 				culture = algonquian
-				size=5686
+				size = 29506
 			}
 		}
 		region_state:C72 = { #Maliseet
 			create_pop = {
 				culture = algonquian
-				size=10579
+				size = 36392
 			}
 		}
 		region_state:C73 = { #Penobscot
 			create_pop = {
 				culture = algonquian
-				size=7004
+				size = 38123
 			}
 		}
 		region_state:ENG = { #England
 			create_pop = {
 				culture = algonquian
-				size=6213
+				size = 44738
 			}
 			create_pop = {
 				culture = british
-				size = 3851
+				size = 4795
 			}
 		}
 	}
@@ -1151,19 +1151,19 @@
 		region_state:C84 = { #Cherokee
 			create_pop = {
 				culture = iroquoian
-				size=14904
+				size = 20519
 			}
 		}
 		region_state:C85 = { #Tuskarora
 			create_pop = {
 				culture = iroquoian
-				size=7042
+				size = 34199
 			}
 		}
 		region_state:C86 = { #Catawba
 			create_pop = {
 				culture = siouan
-				size=9269
+				size = 32509
 			}
 		}
 	}
@@ -1171,73 +1171,73 @@
 		region_state:D16 = { #Hasinai
 			create_pop = {
 				culture = caddo
-				size=8270
+				size = 30999
 			}
 		}
 		region_state:D18 = { #Kadohadacho
 			create_pop = {
 				culture = caddo
-				size=15517
+				size = 43384
 			}
 		}
 		region_state:D20 = { #Adai
 			create_pop = {
 				culture = caddo
-				size=15675
+				size = 32435
 			}
 		}
 		region_state:D21 = { #Karankawa
 			create_pop = {
 				culture = caddo
-				size=11876
+				size = 32224
 			}
 		}
 		region_state:D22 = { #Ishak
 			create_pop = {
 				culture = caddo
-				size=6365
+				size = 25673
 			}
 		}
 		region_state:D23 = { #Tonkawa
 			create_pop = {
 				culture = caddo
-				size=12299
+				size = 37943
 			}
 		}
 		region_state:D24 = { #Kitikiti'sh
 			create_pop = {
 				culture = caddo
-				size=7577
+				size = 37084
 			}
 		}
 		region_state:D26 = { #Coahuiltecan
 			create_pop = {
 				culture = uto_aztecan
-				size=18291
+				size = 26519
 			}
 		}
 		region_state:D27 = { #Tamaulipecan
 			create_pop = {
 				culture = uto_aztecan
-				size=14350
+				size = 46231
 			}
 		}
 		region_state:D28 = { #Nermernuh
 			create_pop = {
 				culture = uto_aztecan
-				size=15865
+				size = 31113
 			}
 		}
 		region_state:D29 = { #Apache
 			create_pop = {
 				culture = athabaskan
-				size=12867
+				size = 25754
 			}
 		}
 		region_state:D30 = { #Ka'igwu
 			create_pop = {
 				culture = tanoan
-				size=6550
+				size = 29634
 			}
 		}
 	}
@@ -1245,31 +1245,31 @@
 		region_state:D48 = { #Siglitun
 			create_pop = {
 				culture = inuit
-				size = 5392
+				size = 3208
 			}
 		}
 		region_state:D57 = { #Tsa'tinne
 			create_pop = {
 				culture = athabaskan
-				size=9180
+				size = 29565
 			}
 		}
 		region_state:E08 = { #Kaska
 			create_pop = {
 				culture = athabaskan
-				size=7242
+				size = 29307
 			}
 		}
 		region_state:E12 = { #Iñupiat
 			create_pop = {
 				culture = inuit
-				size = 6935
+				size = 7237
 			}
 		}
 		region_state:E13 = { #Tanana
 			create_pop = {
 				culture = athabaskan
-				size = 4147
+				size = 28659
 			}
 		}
 	}
@@ -1277,55 +1277,55 @@
 		region_state:D43 = { #Aivilingmiut
 			create_pop = {
 				culture = inuit
-				size = 7998
+				size = 4252
 			}
 		}
 		region_state:D44 = { #Netsilingmiut
 			create_pop = {
 				culture = inuit
-				size = 5971
+				size = 3318
 			}
 		}
 		region_state:D46 = { #Tlicho
 			create_pop = {
 				culture = athabaskan
-				size = 8207
+				size = 49347
 			}
 		}
 		region_state:D47 = { #Inuinnaqtun
 			create_pop = {
 				culture = inuit
-				size = 6886
+				size = 4796
 			}
 		}
 		region_state:D48 = { #Siglitun
 			create_pop = {
 				culture = inuit
-				size = 8248
+				size = 3976
 			}
 		}
 		region_state:D57 = { #Tsa'tinne
 			create_pop = {
 				culture = athabaskan
-				size=14755
+				size = 47582
 			}
 		}
 		region_state:E08 = { #Kaska
 			create_pop = {
 				culture = athabaskan
-				size=11305
+				size = 32557
 			}
 		}
 		region_state:D58 = { #Dehcho
 			create_pop = {
 				culture = athabaskan
-				size=7559
+				size = 47089
 			}
 		}
 		region_state:D49 = { #Kivallirmiut
 			create_pop = {
 				culture = inuit
-				size=11293
+				size = 3533
 			}
 		}
 	}
@@ -1333,31 +1333,31 @@
 		region_state:D44 = { #Netsilingmiut
 			create_pop = {
 				culture = inuit
-				size = 3682
+				size = 4788
 			}
 		}
 		region_state:D47 = { #Inuinnaqtun
 			create_pop = {
 				culture = inuit
-				size = 4279
+				size = 2367
 			}
 		}
 		region_state:D49 = { #Kivallirmiut
 			create_pop = {
 				culture = inuit
-				size = 6803
+				size = 7298
 			}
 		}
 		region_state:D43 = { #Aivilingmiut
 			create_pop = {
 				culture = inuit
-				size = 9539
+				size = 1564
 			}
 		}
 		region_state:D45 = { #Iglulingmuit
 			create_pop = {
 				culture = inuit
-				size = 9931
+				size = 3456
 			}
 		}
 	}
@@ -1365,91 +1365,91 @@
 		region_state:D54 = { #Kootenai
 			create_pop = {
 				culture = algonquian
-				size=11796
+				size = 27047
 			}
 		}
 		region_state:D56 = { #Nakoda
 			create_pop = {
 				culture = siouan
-				size=9987
+				size = 41211
 			}
 		}
 		region_state:D57 = { #Tsa'tinne
 			create_pop = {
 				culture = athabaskan
-				size = 8657
+				size = 39684
 			}
 		}
 		region_state:D58 = { #Dehcho
 			create_pop = {
 				culture = athabaskan
-				size=13843
+				size = 27027
 			}
 		}
 		region_state:D90 = { #Salish
 			create_pop = {
 				culture = salish
-				size=5279
+				size = 32941
 			}
 		}
 		region_state:E03 = { #Halkomelem
 			create_pop = {
 				culture = salish
-				size=16791
+				size = 32125
 			}
 		}
 		region_state:E04 = { #Secwepemcúĺecw
 			create_pop = {
 				culture = salish
-				size=14212
+				size = 30262
 			}
 		}
 		region_state:E05 = { #Nlaka'pamux
 			create_pop = {
 				culture = salish
-				size=8062
+				size = 25494
 			}
 		}
 		region_state:E06 = { #St'at'imc
 			create_pop = {
 				culture = salish
-				size=12790
+				size = 33182
 			}
 		}
 		region_state:E07 = { #Kwakwaka'wakw
 			create_pop = {
 				culture = salish
-				size=9764
+				size = 46382
 			}
 		}
 		region_state:E08 = { #Kaska
 			create_pop = {
 				culture = athabaskan
-				size=7382
+				size = 35603
 			}
 		}
 		region_state:E09 = { #Sekani
 			create_pop = {
 				culture = athabaskan
-				size=4513
+				size = 44161
 			}
 		}
 		region_state:E10 = { #Haida
 			create_pop = {
 				culture = athabaskan
-				size=5038
+				size = 43818
 			}
 		}
 		region_state:E11 = { #Lingít
 			create_pop = {
 				culture = athabaskan
-				size=8099
+				size = 26696
 			}
 		}
 		region_state:E13 = { #Tanana
 			create_pop = {
 				culture = athabaskan
-				size=17879
+				size = 35405
 			}
 		}
 	}
@@ -1457,49 +1457,49 @@
 		region_state:D46 = { #Tlicho
 			create_pop = {
 				culture = athabaskan
-				size=5810
+				size = 48305
 			}
 		}
 		region_state:D50 = { #Nêhiyawak
 			create_pop = {
 				culture = algonquian
-				size=9194
+				size = 28272
 			}
 		}
 		region_state:D51 = { #Tsuut'ina
 			create_pop = {
 				culture = athabaskan
-				size=7566
+				size = 47893
 			}
 		}
 		region_state:D52 = { #Aaniiih
 			create_pop = {
 				culture = algonquian
-				size=16531
+				size = 34348
 			}
 		}
 		region_state:D55 = { #Niitsitapi
 			create_pop = {
 				culture = algonquian
-				size=10836
+				size = 29270
 			}
 		}
 		region_state:D56 = { #Nakoda
 			create_pop = {
 				culture = siouan
-				size=10372
+				size = 35698
 			}
 		}
 		region_state:D57 = { #Tsa'tinne
 			create_pop = {
 				culture = athabaskan
-				size=8926
+				size = 29787
 			}
 		}
 		region_state:D58 = { #Dehcho
 			create_pop = {
 				culture = athabaskan
-				size=6181
+				size = 38178
 			}
 		}
 	}
@@ -1507,49 +1507,49 @@
 		region_state:C98 = { #Nakota
 			create_pop = {
 				culture = siouan
-				size=8316
+				size = 49014
 			}
 		}
 		region_state:D41 = { #Mandan
 			create_pop = {
 				culture = siouan
-				size=10084
+				size = 42099
 			}
 		}
 		region_state:D42 = { #Denésoliné
 			create_pop = {
 				culture = athabaskan
-				size=13838
+				size = 26357
 			}
 		}
 		region_state:D46 = { #Tlicho
 			create_pop = {
 				culture = athabaskan
-				size=9228
+				size = 46357
 			}
 		}
 		region_state:D49 = { #Kivallirmiut
 			create_pop = {
 				culture = inuit
-				size=9565
+				size = 4329
 			}
 		}
 		region_state:D50 = { #Nêhiyawak
 			create_pop = {
 				culture = algonquian
-				size=8463
+				size = 44418
 			}
 		}
 		region_state:D51 = { #Tsuut'ina
 			create_pop = {
 				culture = athabaskan
-				size=19177
+				size = 25331
 			}
 		}
 		region_state:D52 = { #Aaniiih
 			create_pop = {
 				culture = algonquian
-				size=8076
+				size = 25855
 			}
 		}
 	}
@@ -1557,37 +1557,37 @@
 		region_state:C96 = { #Maskegon
 			create_pop = {
 				culture = algonquian
-				size = 687
+				size = 45177
 			}
 		}
 		region_state:C97 = { #Oji-Cree
 			create_pop = {
 				culture = algonquian
-				size=16259
+				size = 31094
 			}
 		}
 		region_state:C98 = { #Nakota
 			create_pop = {
 				culture = siouan
-				size=11604
+				size = 29755
 			}
 		}
 		region_state:D49 = { #Kivallirmiut
 			create_pop = {
 				culture = inuit
-				size=10376
+				size = 7924
 			}
 		}
 		region_state:D42 = { #Denésoliné
 			create_pop = {
 				culture = athabaskan
-				size=9743
+				size = 40200
 			}
 		}
 		region_state:D41 = { #Mandan
 			create_pop = {
 				culture = siouan
-				size=6326
+				size = 42091
 			}
 		}
 	}
@@ -1595,43 +1595,43 @@
 		region_state:C92 = { #Wendat
 			create_pop = {
 				culture = iroquoian
-				size=6896
+				size = 46720
 			}
 		}
 		region_state:C93 = { #Attawandaron
 			create_pop = {
 				culture = iroquoian
-				size=5113
+				size = 25422
 			}
 		}
 		region_state:C94 = { #Three Fires Confederacy
 			create_pop = {
 				culture = algonquian
-				size=14193
+				size = 23243
 			}
 		}
 		region_state:C95 = { #Nipissing
 			create_pop = {
 				culture = algonquian
-				size=9859
+				size = 44281
 			}
 		}
 		region_state:C96 = { #Maskegon
 			create_pop = {
 				culture = algonquian
-				size=7419
+				size = 40807
 			}
 		}
 		region_state:C97 = { #Oji-Cree
 			create_pop = {
 				culture = algonquian
-				size=13712
+				size = 43462
 			}
 		}
 		region_state:C98 = { #Nakota
 			create_pop = {
 				culture = siouan
-				size=5623
+				size = 41857
 			}
 		}
 	}
@@ -1639,47 +1639,47 @@
 		region_state:NFR = { #New France
 			create_pop = {
 				culture = algonquian
-				size=31008
+				size = 29957
 			}
 			create_pop = {
 				culture = french
-				size=8181
+				size = 9916
 			}
 		}
 		region_state:C65 = { #Nitassinan
 			create_pop = {
 				culture = algonquian
-				size=13993
+				size = 45564
 			}
 		}
 		region_state:C66 = { #Miꞌkmaꞌki
 			create_pop = {
 				culture = algonquian
-				size=8131
+				size = 44975
 			}
 		}
 		region_state:C68 = { #Atikamekw
 			create_pop = {
 				culture = algonquian
-				size=6670
+				size = 33131
 			}
 		}
 		region_state:C69 = { #Eeyou Istchee
 			create_pop = {
 				culture = algonquian
-				size=12454
+				size = 37181
 			}
 		}
 		region_state:C70 = { #Nunavik
 			create_pop = {
 				culture = inuit
-				size=6392
+				size = 2509
 			}
 		}
 		region_state:C71 = { #Abenaki
 			create_pop = {
 				culture = algonquian
-				size=7525
+				size = 39638
 			}
 		}
 	}
@@ -1687,35 +1687,35 @@
 		region_state:C64 = { #Beothuk
 			create_pop = {
 				culture = algonquian
-				size=16982
+				size = 48025
 			}
 		}
 		region_state:C65 = { #Nitassinan
 			create_pop = {
 				culture = algonquian
-				size=7973
+				size = 32236
 			}
 		}
 		region_state:C66 = { #Miꞌkmaꞌki
 			create_pop = {
 				culture = algonquian
-				size=6666
+				size = 48758
 			}
 		}
 		region_state:C67 = { #Nunatsiavut
 			create_pop = {
 				culture = inuit
-				size=6030
+				size = 6545
 			}
 		}
 		region_state:ENG = { #England
 			create_pop = {
 				culture = algonquian
-				size = 4789
+				size = 43871
 			}
 			create_pop = {
 				culture = british
-				size = 7481
+				size = 4904
 			}
 		}
 	}
@@ -1723,7 +1723,7 @@
 		region_state:A93 = { #Hawaiʻi
 			create_pop = {
 				culture = polynesian
-				size=13566
+				size = 40868
 			}
 		}
 	}
@@ -1731,43 +1731,43 @@
 		region_state:D86 = { #Maidu
 			create_pop = {
 				culture = penutian
-				size=9949
+				size = 36089
 			}
 		}
 		region_state:D92 = { #Achomawi
 			create_pop = {
 				culture = penutian
-				size=8906
+				size = 37627
 			}
 		}
 		region_state:D93 = { #Modoc
 			create_pop = {
 				culture = penutian
-				size=12063
+				size = 40423
 			}
 		}
 		region_state:D64 = { #Numu
 			create_pop = {
 				culture = uto_aztecan
-				size=12993
+				size = 46391
 			}
 		}
 		region_state:D61 = { #Northern Shoshone
 			create_pop = {
 				culture = uto_aztecan
-				size = 3575
+				size = 45004
 			}
 		}
 		region_state:D63 = { #Western Shoshone
 			create_pop = {
 				culture = uto_aztecan
-				size=12358
+				size = 49025
 			}
 		}
 		region_state:D75 = { #Ute
 			create_pop = {
 				culture = uto_aztecan
-				size=6577
+				size = 25363
 			}
 		}
 	}
@@ -1775,49 +1775,49 @@
 		region_state:D76 = { #Mojave
 			create_pop = {
 				culture = yuman
-				size=17462
+				size = 44895
 			}
 		}
 		region_state:D75 = { #Ute
 			create_pop = {
 				culture = uto_aztecan
-				size=15925
+				size = 34485
 			}
 		}
 		region_state:D67 = { #Akimel O'odham
 			create_pop = {
 				culture = uto_aztecan
-				size=8966
+				size = 31766
 			}
 		}
 		region_state:D68 = { #Tohono O'odham
 			create_pop = {
 				culture = uto_aztecan
-				size=12157
+				size = 48713
 			}
 		}
 		region_state:D69 = { #Diné
 			create_pop = {
 				culture = athabaskan
-				size=14202
+				size = 29197
 			}
 		}
 		region_state:D70 = { #Shiwinna
 			create_pop = {
 				culture = uto_aztecan
-				size=11035
+				size = 34898
 			}
 		}
 		region_state:D77 = { #Cocopah
 			create_pop = {
 				culture = yuman
-				size=12641
+				size = 44121
 			}
 		}
 		region_state:D79 = { #Yaqui
 			create_pop = {
 				culture = uto_aztecan
-				size=11287
+				size = 35624
 			}
 		}
 	}
@@ -1825,71 +1825,71 @@
 		region_state:MEX = { #Mexico
 			create_pop = {
 				culture = spanish
-				size=13649
+				size = 2747
 			}
 			create_pop = {
 				culture = uto_aztecan
-				size=11313
+				size = 34660
 			}
 		}
 		region_state:D28 = { #Nermernuh
 			create_pop = {
 				culture = uto_aztecan
-				size=12517
+				size = 37674
 			}
 		}
 		region_state:D29 = { #Apache
 			create_pop = {
 				culture = athabaskan
-				size=6841
+				size = 26367
 			}
 		}
 		region_state:D30 = { #Ka'igwu
 			create_pop = {
 				culture = tanoan
-				size=7083
+				size = 40603
 			}
 		}
 		region_state:D66 = { #Haisndayin
 			create_pop = {
 				culture = athabaskan
-				size=11182
+				size = 26870
 			}
 		}
 		region_state:D68 = { #Tohono O'odham
 			create_pop = {
 				culture = uto_aztecan
-				size=14781
+				size = 40449
 			}
 		}
 		region_state:D69 = { #Diné
 			create_pop = {
 				culture = athabaskan
-				size=11928
+				size = 45832
 			}
 		}
 		region_state:D70 = { #Shiwinna
 			create_pop = {
 				culture = uto_aztecan
-				size=17374
+				size = 29395
 			}
 		}
 		region_state:D71 = { #Áak'u
 			create_pop = {
 				culture = uto_aztecan
-				size=6231
+				size = 49351
 			}
 		}
 		region_state:D72 = { #P'ohwhogeh Ówingeh
 			create_pop = {
 				culture = uto_aztecan
-				size=5990
+				size = 39949
 			}
 		}
 		region_state:D73 = { #Taotho
 			create_pop = {
 				culture = uto_aztecan
-				size=14024
+				size = 47200
 			}
 		}
 	}
@@ -1897,103 +1897,103 @@
 		region_state:D63 = { #Western Shoshone
 			create_pop = {
 				culture = uto_aztecan
-				size=12623
+				size = 35709
 			}
 		}
 		region_state:D64 = { #Numu
 			create_pop = {
 				culture = uto_aztecan
-				size=17205
+				size = 45521
 			}
 		}
 		region_state:D76 = { #Mojave
 			create_pop = {
 				culture = yuman
-				size=8760
+				size = 25843
 			}
 		}
 		region_state:D77 = { #Cocopah
 			create_pop = {
 				culture = yuman
-				size = 2357
+				size = 45328
 			}
 		}
 		region_state:D80 = { #Ivilyuqaletem
 			create_pop = {
 				culture = uto_aztecan
-				size=9403
+				size = 48586
 			}
 		}
 		region_state:D81 = { #Chumash
 			create_pop = {
 				culture = penutian
-				size=11785
+				size = 47929
 			}
 		}
 		region_state:D82 = { #Ohlone
 			create_pop = {
 				culture = penutian
-				size=4754
+				size = 35389
 			}
 		}
 		region_state:D83 = { #Taaqtam
 			create_pop = {
 				culture = uto_aztecan
-				size=8292
+				size = 48174
 			}
 		}
 		region_state:D84 = { #Nüwa
 			create_pop = {
 				culture = uto_aztecan
-				size=6121
+				size = 38307
 			}
 		}
 		region_state:D85 = { #Miwok
 			create_pop = {
 				culture = penutian
-				size=11425
+				size = 47328
 			}
 		}
 		region_state:D86 = { #Maidu
 			create_pop = {
 				culture = penutian
-				size=5178
+				size = 39954
 			}
 		}
 		region_state:D87 = { #Konkow
 			create_pop = {
 				culture = penutian
-				size=7798
+				size = 36584
 			}
 		}
 		region_state:D88 = { #Pomo
 			create_pop = {
 				culture = penutian
-				size=7726
+				size = 46069
 			}
 		}
 		region_state:D89 = { #Wintun
 			create_pop = {
 				culture = penutian
-				size=15440
+				size = 36498
 			}
 		}
 		region_state:D91 = { #Yokuts
 			create_pop = {
 				culture = penutian
-				size=19444
+				size = 32476
 			}
 		}
 		region_state:D92 = { #Achomawi
 			create_pop = {
 				culture = penutian
-				size=8189
+				size = 40273
 			}
 		}
 		region_state:D93 = { #Modoc
 			create_pop = {
 				culture = penutian
-				size=7494
+				size = 34623
 			}
 		}
 	}
@@ -2001,31 +2001,31 @@
 		region_state:D68 = { #Tohono O'odham
 			create_pop = {
 				culture = uto_aztecan
-				size=13155
+				size = 38665
 			}
 		}
 		region_state:D77 = { #Cocopah
 			create_pop = {
 				culture = yuman
-				size=8645
+				size = 46363
 			}
 		}
 		region_state:D79 = { #Yaqui
 			create_pop = {
 				culture = uto_aztecan
-				size=13369
+				size = 43852
 			}
 		}
 		region_state:MEX = { #Mexico
 			create_pop = {
 				culture = yuman
-				size=19285
+				size = 47487
 			}
 		}
 		region_state:MEX = { #Mexico
 		create_pop = {
 			culture = spanish
-			size=4285
+			size = 4650
 		}
 	}
 	}
@@ -2033,15 +2033,15 @@
 		region_state:MEX = { #Mexico
 			create_pop = {
 				culture = spanish
-				size=22699
+				size = 4192
 			}
 			create_pop = {
 				culture = uto_aztecan
-				size = 38000
+				size = 25122
 			}
 			create_pop = {
 				culture = athabaskan
-				size = 26846
+				size = 49746
 			}
 		}
 	}
@@ -2049,16 +2049,16 @@
 		region_state:MEX = { #Mexico
 			create_pop = {
 				culture = spanish
-				size=12079
+				size = 4468
 			}
 			create_pop = {
 				culture = uto_aztecan
-				size=46350
+				size = 39209
 			}
 			create_pop = {
 				culture = uto_aztecan
 				religion = catholic
-				size=13456
+				size = 31131
 			}
 		}
 	}
@@ -2066,11 +2066,11 @@
 		region_state:MEX = { #Mexico
 		create_pop = {
 			culture = spanish
-			size=5751
+			size = 3141
 		}
 		create_pop = {
 			culture = uto_aztecan
-			size=27440
+			size = 35894
 		}
 		}
 	}
@@ -2078,11 +2078,11 @@
 			region_state:MEX = { #Mexico
 			create_pop = {
 				culture = spanish
-				size=9400
+				size = 2698
 			}
 			create_pop = {
 				culture = uto_aztecan
-				size=39820
+				size = 42463
 			}
 		}
 	}
@@ -2090,7 +2090,7 @@
 		region_state:MEX = { #Mexico
 			create_pop = {
 				culture = spanish
-				size=21998
+				size = 2466
 			}
 			create_pop = {
 				culture = nahua
@@ -2106,7 +2106,7 @@
 		region_state:MEX = { #Mexico
 			create_pop = {
 				culture = spanish
-				size=20567
+				size = 3997
 			}
 			create_pop = {
 				culture = mayan
@@ -2116,7 +2116,7 @@
 		region_state:MAY = { #Maya
 			create_pop = {
 				culture = mayan
-				size=37681
+				size = 25978
 			}
 		}
 	}
@@ -2124,7 +2124,7 @@
 			region_state:MEX = { #Mexico
 				create_pop = {
 					culture = spanish
-					size=76907
+					size=7697
 				}
 				create_pop = {
 					culture = mixtec
@@ -2145,7 +2145,7 @@
 		region_state:MEX = { #Mexico
 			create_pop = {
 				culture = spanish
-				size=22842
+				size = 2923
 			}
 			create_pop = {
 				culture = nahua
@@ -2157,19 +2157,19 @@
 		region_state:MEX = { #Mexico
 			create_pop = {
 				culture = spanish
-				size=30480
+				size = 3132
 			}
 			create_pop = {
 				culture = zapotec
-				size = 5346
+				size = 45606
 			}
 			create_pop = {
 				culture = tarascan
-				size=15410
+				size = 47281
 			}
 			create_pop = {
 				culture = nahua
-				size=8216
+				size = 40342
 			}
 		}
 	}
@@ -2177,19 +2177,19 @@
 		region_state:MEX = { #Mexico
 		create_pop = {
 			culture = spanish
-			size=5787
+			size = 3984
 		}
 		create_pop = {
 			culture = zapotec
-			size=20937
+			size = 34201
 		}
 		create_pop = {
 			culture = tarascan
-			size=40543
+			size = 44998
 		}
 		create_pop = {
 			culture = nahua
-			size=32189
+			size = 30738
 		}
 		}
 	}
@@ -2197,7 +2197,7 @@
 		region_state:MEX = { #Mexico
 		create_pop = {
 			culture = spanish
-			size=45539
+			size = 4170
 		}
 		create_pop = {
 			culture = uto_aztecan
@@ -2214,11 +2214,11 @@
 		region_state:MEX = { #Mexico
 			create_pop = {
 				culture = spanish
-				size=24924
+				size = 3012
 			}
 			create_pop = {
 				culture = nahua
-				size=34172
+				size = 47608
 			}
 		}
 	}
@@ -2226,13 +2226,13 @@
 		region_state:C66 = { #Miꞌkmaꞌki
 			create_pop = {
 				culture = algonquian
-				size=10243
+				size = 39368
 			}
 		}
 		region_state:C72 = { #Maliseet
 			create_pop = {
 				culture = algonquian
-				size=7864
+				size = 42787
 			}
 		}
 	}
@@ -2240,11 +2240,11 @@
 		region_state:ENG = { #England
 			create_pop = {
 				culture = caribeno
-				size = 9136
+				size = 33627
 			}
 			create_pop = {
 				culture = british
-				size = 6166
+				size = 4660
 			}
 		}
 	}
@@ -2252,43 +2252,43 @@
 		region_state:D69 = { #Diné
 			create_pop = {
 				culture = athabaskan
-				size=12671
+				size = 35088
 			}
 		}
 		region_state:D62 = { #Eastern Shoshone
 			create_pop = {
 				culture = uto_aztecan
-				size=8149
+				size = 39172
 			}
 		}
 		region_state:D75 = { #Ute
 			create_pop = {
 				culture = uto_aztecan
-				size=10002
+				size = 35931
 			}
 		}
 		region_state:D62 = { #Eastern Shoshone
 			create_pop = {
 				culture = uto_aztecan
-				size=12314
+				size = 48565
 			}
 		}
 		region_state:D74 = { #Gutsipiuti
 			create_pop = {
 				culture = uto_aztecan
-				size=16330
+				size = 43963
 			}
 		}
 		region_state:D61 = { #Northern Shoshone
 			create_pop = {
 				culture = uto_aztecan
-				size=9841
+				size = 38456
 			}
 		}
 		region_state:D63 = { #Western Shoshone
 			create_pop = {
 				culture = uto_aztecan
-				size=10797
+				size = 47092
 			}
 		}
 	}
@@ -2296,7 +2296,7 @@
 		region_state:C86 = { #Catawba
 			create_pop = {
 				culture = siouan
-				size=11625
+				size = 35196
 			}
 		}
 	}
@@ -2304,17 +2304,17 @@
 		region_state:MEX = { #Mexico
 			create_pop = {
 				culture = spanish
-				size=5818
+				size = 4610
 			}
 			create_pop = {
 				culture = mayan
-				size=31043
+				size = 33078
 			}
 		}
 		region_state:MAY = { #Maya
 			create_pop = {
 				culture = mayan
-				size=6891
+				size = 29513
 			}
 		}
 	}
@@ -2322,13 +2322,13 @@
 		region_state:D77 = { #Cocopah
 			create_pop = {
 				culture = yuman
-				size = 6131
+				size = 30320
 			}
 		}
 		region_state:D78 = { #Cochimí
 			create_pop = {
 				culture = yuman
-				size = 7105
+				size = 45523
 			}
 		}
 	}

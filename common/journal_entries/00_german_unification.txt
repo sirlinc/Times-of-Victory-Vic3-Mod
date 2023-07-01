@@ -118,7 +118,7 @@ je_german_unification_idea = {
 					country_has_primary_culture = cu:south_german				
 				}
 			}
-			has_technology_researched = manifest_destiny	
+			has_technology_researched = manifest_destiny_tov	
 			percent >= 0.75
 		}
 	}
@@ -262,7 +262,7 @@ je_north_german_unification = {
 		hidden_trigger = {
 			has_variable = je_unification_progress
 		}	
-		has_technology_researched = manifest_destiny
+		has_technology_researched = manifest_destiny_tov
 		is_unification_candidate = GER
 		custom_tooltip = {
 			text = je_german_unification_sole_candidate_trigger_desc
@@ -316,7 +316,7 @@ je_south_german_unification = {
 		hidden_trigger = {
 			has_variable = je_unification_progress
 		}	
-		has_technology_researched = manifest_destiny
+		has_technology_researched = manifest_destiny_tov
 		is_unification_candidate = GER
 		custom_tooltip = {
 			text = je_german_unification_sole_candidate_trigger_desc

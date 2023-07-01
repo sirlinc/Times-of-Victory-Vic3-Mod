@@ -1,6 +1,5 @@
 ﻿pmg_print_culture = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	ai_selection = most_productive
 	production_methods = {
 		pm_woodblock_printing
 		pm_pamphlets
@@ -13,7 +12,6 @@
 
 pmg_performed_culture = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	ai_selection = most_productive
 	production_methods = {
 		pm_traditional_art
 		pm_piano_compositions
@@ -26,7 +24,6 @@ pmg_performed_culture = {
 
 pmg_patronage = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	ai_selection = most_productive
 	production_methods = {
 		pm_traditional_patrons
 		pm_religious_institutions
@@ -40,20 +37,17 @@ pmg_patronage = {
 
 pmg_ideological_focus = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	ai_selection = most_productive
 	production_methods = {
 		pm_apolitical
 		pm_traditionalism
 		pm_jingoism
 		pm_liberalism
 		pm_nationalism
-		pm_radicalism
 	}
 }
 
 pmg_utilities = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	ai_selection = most_productive
 	production_methods = {
 		pm_drainage_ditches
 		pm_public_wells
@@ -79,7 +73,6 @@ pmg_roadways = {
 
 pmg_commerce = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	ai_selection = most_productive
 	production_methods = {
 		pm_travelling_fairs
 		pm_market_squares
@@ -95,7 +88,6 @@ pmg_fuel_power_plant = {
 	production_methods = {
 		pm_coal_power_plant
 		pm_fuel_oil_power_plant
-		pm_pumped_storage_power_plant
 	}
 }
 

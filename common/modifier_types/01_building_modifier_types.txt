@@ -646,6 +646,11 @@ building_group_bg_government_employee_mult = {
 	percent = yes
 }
 
+building_group_bg_urban_facilities_employee_mult = {
+	good = no
+	percent = yes
+}
+
 building_group_bg_infrastructure_employee_mult = {
 	good = no
 	percent = yes
@@ -1336,6 +1341,11 @@ building_food_industry_throughput_mult = {
 }
 
 building_munitions_plants_throughput_mult = {
+	good = yes
+	percent = yes
+}
+
+building_major_rivers_throughput_mult = {
 	good = yes
 	percent = yes
 }

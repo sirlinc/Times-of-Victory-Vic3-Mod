@@ -32,7 +32,7 @@ great_power = {
 	}
 	
 	modifier = {
-		country_influence_add = 1000
+		country_influence_add = 600
 		country_diplomatic_play_maneuvers_add = 100
 		country_max_declared_interests_add = 3
 		country_loan_interest_rate_mult = -0.5
@@ -61,7 +61,7 @@ major_power = {
 	}
 	
 	modifier = {
-		country_influence_add = 750
+		country_influence_add = 400
 		country_diplomatic_play_maneuvers_add = 75
 		country_max_declared_interests_add = 2
 		country_loan_interest_rate_mult = -0.25
@@ -84,7 +84,7 @@ minor_power = {
 	}
 	
 	modifier = {
-		country_influence_add = 600
+		country_influence_add = 300
 		country_diplomatic_play_maneuvers_add = 60
 		country_max_declared_interests_add = 1
 	}
@@ -103,7 +103,7 @@ insignificant_power = {
 	}
 	
 	modifier = {
-		country_influence_add = 500
+		country_influence_add = 200
 		country_diplomatic_play_maneuvers_add = 50
 		country_loan_interest_rate_mult = 0.25
 		state_migration_pull_mult = -0.25
@@ -131,7 +131,7 @@ unrecognized_major_power = {
 	}
 	
 	modifier = {
-		country_influence_add = 750
+		country_influence_add = 500
 		country_diplomatic_play_maneuvers_add = 75
 		country_max_declared_interests_add = 2
 		country_tech_spread_mult = -0.15
@@ -159,7 +159,7 @@ unrecognized_regional_power = {
 	}
 	
 	modifier = {
-		country_influence_add = 600
+		country_influence_add = 400
 		country_diplomatic_play_maneuvers_add = 60
 		country_max_declared_interests_add = 1
 		country_tech_spread_mult = -0.20
@@ -183,7 +183,7 @@ unrecognized_power = {
 	}
 	
 	modifier = {
-		country_influence_add = 500	
+		country_influence_add = 300	
 		country_diplomatic_play_maneuvers_add = 50
 		country_tech_spread_mult = -0.25
 		country_loan_interest_rate_mult = 1.0

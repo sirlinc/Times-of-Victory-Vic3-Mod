@@ -1,7 +1,6 @@
 ﻿l_russian:
 
 #Arts Academy
-
 pmg_print_culture: "Культура печати"
 pm_woodblock_printing: "Деревянная печать"
 pm_pamphlets: "Брошюры"
@@ -9,7 +8,6 @@ pm_daily_newspapers: "Ежедневные газеты"
 pm_paperback_novels: "Мягкие обложки романов"
 pm_journalistic_media: "Журналистские СМИ"
 pm_radio_dramas: "Радиоспектакли"
-
 pmg_performed_culture: "Театральная культура"
 pm_traditional_art: "Традиционное искусство"
 pm_piano_compositions: "Композиции для фортепиано"
@@ -17,7 +15,6 @@ pm_symphony_orchestras: "Симфонические оркестры"
 pm_daguerrotypes: "Дагеротипы"
 pm_motion_pictures: "Движущиеся картинки"
 pm_theatre_realism: "Театральный реализм"
-
 pmg_patronage: "Патронаж"
 pm_traditional_patrons: "Традиционные покровители"
 pm_religious_institutions: "Религиозные учреждения"
@@ -26,7 +23,6 @@ pm_state_mouthpiece: "Политический орган власти"
 pm_military_media_interface: "Военно-медиа интерфейс"
 pm_workers_unions: "Профсоюзы"
 pm_independent_art_movements: "Независимые художественные движения"
-
 pmg_ideological_focus: "Идеологический фокус"
 pm_apolitical: "Без политической окраски"
 pm_traditionalism: "Традиционализм"
@@ -34,9 +30,7 @@ pm_jingoism: "Жинглизм"
 pm_liberalism: "Либерализм"
 pm_nationalism: "Национализм"
 pm_radicalism: "Радикализм"
-
 #Urban Center
-
 pmg_utilities: "Коммунальные услуги"
 pm_drainage_ditches: "Канавы для дренажа"
 pm_public_wells: "Общественные колодцы"
@@ -44,7 +38,6 @@ pm_kerosene_steet_lamps: "Керосиновые уличные фонари"
 pm_sewerage_systems: "Канализационные системы"
 pm_electric_steet_lamps: "Электрические уличные фонари"
 pm_utility_poles: "Утилитарные столбы"
-
 pmg_roadways: "Дорожное строительство"
 pm_dirt_trails: "Грунтовые тропы"
 pm_trackways: "Треки"
@@ -52,7 +45,6 @@ pm_paved_roads: "Асфальтовые дороги"
 pm_macadam_roads: "Макадамовые дороги"
 pm_tarmacadam_roads: "Тармакадамовые дороги"
 pm_motorways: "Магистральные дороги"
-
 pmg_commerce: "Торговля"
 pm_travelling_fairs: "Путешествующие ярмарки"
 pm_market_squares: "Рыночные площади"
@@ -60,9 +52,7 @@ pm_banks: "Банки"
 pm_arcades: "Аркады"
 pm_stock_exchanges: "Фондовые биржи"
 pm_department_stores: "Универмаги"
-
 #Government Administration
-
 pmg_organisation: "Организация"
 pm_repositories: "Хранилища"
 pm_central_archives: "Центральные архивы"
@@ -70,7 +60,6 @@ pm_public_libraries: "Публичные библиотеки"
 pm_public_works_departments: "Департаменты коммунального хозяйства"
 pm_index_cards: "Индексные карты"
 pm_filing_cabinets: "Шкафы для документов"
-
 pmg_communication: "Коммуникация"
 pm_horseback_couriers: "Конные курьеры"
 pm_posthouses: "Почтовые дома"
@@ -78,36 +67,28 @@ pm_semaphore_towers: "Семафорные башни"
 pm_electrical_telegraphs: "Электрические телеграфы"
 pm_telephone_switchboards: "Телефонные коммутаторы"
 pm_radio_towers: "Радиовышки"
-
 pmg_law_enforcement: "Правоохранительные органы"
 pm_unorganised_militia: "Неподготовленная милиция"
 pm_city_watch: "Городская стража"
 pm_courts_of_law: "Суды"
 pm_police_departments: "Полицейские управления"
 pm_detective_units: "Детективные подразделения"
-
 pmg_academic_principles: "Академические принципы"
 pm_indoctrination: "Индоктринация"
 pm_censorship: "Цензура"
 pm_freedom: "Свобода"
-pm_radicalism: "Радикализм"
-
 pmg_bureaucracy: "бюрократия"
 pm_hereditary_bureaucracy: "Наследственная бюрократия"
 pm_religious_bureaucracy: "Религиозная бюрократия"
 pm_military_bureaucracy: "Военная бюрократия"
 pm_professional_bureaucracy: "Профессиональная бюрократия"
-
-
 #University
-
 pmg_education: "Образование"
 pm_liberal_arts: "Гуманитарные науки"
 pm_humanities: "Гуманитарные науки"
 pm_academic_philosophy: "Академическая философия"
 pm_social_sciences: "Социальные науки"
 pm_political_ecology: "Политическая экология"
-
 pmg_scientific_infrastructure: "Научная инфраструктура"
 pm_no_science_infrastructure: "Отсутствует инфраструктура"
 pm_operating_theatres: "Хирургические операционные"
@@ -115,35 +96,23 @@ pm_society_journals: "Научные журналы"
 pm_chemical_laboratories: "Химические лаборатории"
 pm_research_departments: "Научно-исследовательские отделы"
 pm_applied_research_labs: "Лаборатории прикладных исследований"
-
 pmg_institutions: "Учреждения"
 pm_elitist_schools: "Элитные учебные заведения"
 pm_private_institutions: "Частные учреждения"
 pm_religious_schools: "Религиозные школы"
 pm_military_academies: "Военные академии"
 pm_public_institutions: "Государственные учреждения"
-
-pmg_academic_principles: "Академические принципы"
-pm_indoctrination: "Индоктринация"
-pm_censorship: "Цензура"
-pm_freedom: "Свобода"
-pm_radicalism: "Радикализм"
-
 # Trade Center
-
 pm_corporate_entity: "Корпоративная структура"
 pm_cooperative_association: "Кооперативное объединение"
 pm_trade_center_charter: "Уставный"
-
 #building_base_farmland
-
 pmg_motive_power_base_farmland: "Энергия для сельского хозяйства"
 pm_manual_labor_farmland: "Ручной труд"
 pm_draft_animals_farmland: "Тягловые животные"
 pm_portable_engine_farmland: "Переносной двигатель"
 pm_steam_powered_tractors_farmland: "Тракторы на паровом двигателе"
 pm_diesel_tractors_farmland: "Дизельные тракторы"
-
 pmg_land_tenure_base_farmland: "Земельные отношения"
 pm_tributary_system_farmland: "Трибутиарная система"
 pm_smallholders_farmland: "Мелкие владельцы"
@@ -151,9 +120,7 @@ pm_military_homesteads_farmland: "Военные поселения"
 pm_corporate_entities_farmland: "Корпоративные организации"
 pm_state_ownership_farmland: "Государственная собственность"
 pm_worker_cooperative_farmland: "Сельскохозяйственные кооперативы"
-
 #Temperate Farmland
-
 pmg_wheat_yield_temperate_farmland: "Урожайность пшеницы"
 pm_rye_cultivation_tef: "Выращивание ржи"
 pm_potash_tef: "Калийное удобрение"
@@ -161,23 +128,19 @@ pm_bread_wheat_cultivation_tef: "Выращивание хлебной пшен�
 pm_gypsum_fertilizer_tef: "Гипсовое удобрение"
 pm_pesticides_tef: "Пестициды"
 pm_ammonia_fertilizer_tef: "Аммиачное удобрение"
-
 pmg_secondary_building_temperate_farmland: "Вторичные постройки"
 pm_no_secondary_yields_tef: "Отсутствуют вторичные урожаи"
 pm_mulberry_groves_tef: "Шелковые плантации"
 pm_coppice_woodland_tef: "Малоценные лесные массивы"
 pm_vineyards_tef: "Виноградники"
 pm_tomato_greenhouses_tef: "Томатные теплицы"
-
 pmg_mechanization_temperate_farmland: "Механизация для пшеницы"
 pm_tools_disabled_tef: "Отсутствие инструментов"
 pm_mould_board_plows_tef: "Плуги с лемехом"
 pm_reaper_binders_tef: "Жатки-связыватели"
 pm_combine_harvesters_tef: "Комбайны"
 pm_automated_irrigation_tef: "Автоматизированное орошение"
-
 #Tropical Farmland
-
 pmg_legume_yield_tropical_farmland: "Урожайность бобовых"
 pm_grain_legume_cultivation_trf: "Выращивание зерновых бобовых"
 pm_cereal_intercropping_trf: "Междурядное выращивание злаковых"
@@ -185,22 +148,18 @@ pm_high_yield_landraces_trf: "Сорта с высокой урожайност�
 pm_potassium_fertilizer_trf: "Калийное удобрение"
 pm_pesticides_trf: "Пестициды"
 pm_ammonia_fertilizer_trf: "Аммиачное удобрение"
-
 pmg_secondary_building_tropical_farmland: "Вторичные постройки"
 pm_no_secondary_yields_trf: "Отсутствуют вторичные урожаи"
 pm_cacao_plantations_trf: "Плантации какао"
 pm_tropical_dyes_trf: "Тропические красители"
 pm_palm_fermentation_trf: "Ферментация пальмы"
-
 pmg_mechanization_tropical_farmland: "Механизация для бобовых"
 pm_tools_disabled_trf: "Отсутствие инструментов"
 pm_tillage_tools_trf: "Средства обработки почвы"
 pm_threshers_trf: "Молотилки"
 pm_combine_harvesters_trf: "Комбайны"
 pm_automated_irrigation_trf: "Автоматизированное орошение"
-
 #wetlands Farmland
-
 pmg_rice_yield_wetlands_farmland: "Урожайность риса"
 pm_rice_cultivation_wef: "Выращивание риса"
 pm_paddies_and_terraces_wef: "Рисовые поля и террасы"
@@ -208,22 +167,18 @@ pm_rice_hybridization_wef: "Рисовая гибридизация"
 pm_pesticides_wef: "Пестициды"
 pm_nitrate_fertilizer_wef: "Азотные удобрения"
 pm_enriched_rice_wef: "Обогащенный рис"
-
 pmg_secondary_building_wetlands_farmland: "Вторичные постройки"
 pm_no_secondary_yields_wef: "Отсутствуют вторичные урожаи"
 pm_jute_plantations_wef: "Плантации джута"
 pm_rice_fish_aquaculture_wef: "Рыборастениеводство с рисом"
 pm_rice_triple_cropping_wef: "Тройной выращивание риса"
-
 pmg_mechanization_wetlands_farmland: "Механизация для риса"
 pm_tools_disabled_wef: "Отсутствие инструментов"
 pm_spike_harrows_wef: "Шиповые бороны"
 pm_hulling_machines_wef: "Обдирочные машины"
 pm_combine_harvesters_wef: "Комбайны"
 pm_automated_irrigation_wef: "Автоматизированное орошение"
-
 #Arid Farmland
-
 pmg_millet_yield_arid_farmland: "Урожайность просо"
 pm_sorghum_cultivation_arf: "Выращивание сорго"
 pm_cereal_intercropping_arf: "Междурядное выращивание злаковых"
@@ -231,43 +186,36 @@ pm_pearl_millet_cultivation_arf: "Выращивание жемчужного п
 pm_gypsum_fertilizer_arf: "Гипсовое удобрение"
 pm_pesticides_arf: "Пестициды"
 pm_ammonia_fertilizer_arf: "Аммиачное удобрение"
-
 pmg_secondary_building_arid_farmland: "Вторичные постройки"
 pm_no_secondary_yields_arf: "Отсутствуют вторичные урожаи"
 pm_coffee_plantations_arf: "Плантации кофе"
 pm_fig_tree_orchards_arf: "Фиговые сады"
 pm_vineyards_arf: "Виноградники"
-
 pmg_mechanization_arid_farmland: "Механизация для проса"
 pm_tools_disabled_arf: "Отсутствие инструментов"
 pm_panemone_windmills_arf: "Ветряные мельницы"
 pm_irrigation_aqueducts_arf: "Ирригационные акведуки"
 pm_combine_harvesters_arf: "Комбайны"
 pm_automated_irrigation_arf: "Автоматизированное орошение"
-
 #Base Pasture
-
 pmg_processing_base_pasture: "Переработка"
 pm_cured_meats: "Соленые мясные изделия"
 pm_natural_preservatives: "Натуральные консерванты"
 pm_butchering_tools: "Орудия для убоя"
 pm_abattoirs: "Убойни"
 pm_refrigerated_rail_cars: "Холодильные железнодорожные вагоны"
-
 pmg_horses_base_pasture: "Лошади"
 pm_no_horses: "Нет Лошадей"
 pm_draft_breeds: "Породы Тяжеловозов"
 pm_baroque_breeds: "Барочные Породы"
 pm_warmblooded_breeds: "Породы Тёплокровных Лошадей"
 pm_stock_horse_breeds: "Породы Рабочих Лошадей"
-
 pmg_tanneries_base_pasture: "Гончарные"
 pm_no_secondary_pasture: "Отсутствует дубление"
 pm_vegetable_tannins: "Растительные дубители"
 pm_dyed_hides: "Окрашенные шкуры"
 pm_collagen_glue_factories: "Заводы по производству коллагенового клея"
 pm_chrome_tanning: "Хромовое дубление"
-
 pmg_land_tenure_base_pasture: "Земельные отношения"
 pm_commons_pasture: "Общинные земли"
 pm_rural_estates_pasture: "Сельские поместья"
@@ -275,18 +223,14 @@ pm_fortified_ranches_pasture: "Укрепленные ранчо"
 pm_corporate_entities_pasture: "Корпоративные организации"
 pm_state_ownership_pasture: "Государственная собственность"
 pm_worker_cooperative_pasture: "Сельскохозяйственные кооперативы"
-
 #Prime Pasture
-
 pmg_prime_pasture: "Лучшие пастбища"
 pm_free_range_prp: "Свободный выпас"
 pm_silage_prp: "Силосирование"
 pm_prime_breeds_prp: "Премиальные породы"
 pm_rotational_grazing_prp: "Ротационный выпас"
 pm_batteries_prp: "Батареи"
-
 #Base Mine
-
 pmg_processing_base_mine: "Переработка"
 pm_manual_sorting_base_mine: "Ручная сортировка"
 pm_arrastras_base_mine: "Аррастры"
@@ -295,7 +239,6 @@ pm_newcomen_engine_base_mine: "Машина Ньюкомена"
 pm_ore_vanning_base_mine: "Разделение руды"
 pm_flameless_lights_base_mine: "Беспламенные фонари"
 pm_electrostatic_separator_base_mine: "Электростатический сепаратор"
-
 pmg_resource_rights_base_mine: "Права на ресурсы"
 pm_liege_rights_base_mine: "Феодальные права"
 pm_guild_privileges_base_mine: "Привилегии гильдий"
@@ -303,9 +246,7 @@ pm_leasehold_rights_base_mine: "Права аренды"
 pm_prospector_claims_base_mine: "Права проспектора"
 pm_private_property_base_mine: "Частная собственность"
 pm_national_patrimony_base_mine: "Государственная собственность"
-
 #Coal Mine
-
 pmg_extraction_coal_mine: "Добыча"
 pm_picks_and_shovels_coal_mine: "Кирки и лопаты"
 pm_drainage_pumps_coal_mine: "Насосы для откачки воды"
@@ -314,16 +255,13 @@ pm_hydraulic_mining_coal_mine: "Гидравлическая добыча"
 pm_deep_shaft_machinery_coal_mine: "Механизмы для глубоких шахт"
 pm_ventilation_fans_coal_mine: "Вентиляционные вентиляторы"
 pm_boring_machines_coal_mine: "Буровые машины"
-
 pmg_blasting_coal_mine: "Взрывные работы"
 pm_no_blasting_coal_mine: "Отсутствие взрывных работ"
 pm_fire_setting_coal_mine: "Поджог"
 pm_blackpowder_coal_mine: "Черное порошковое вещество"
 pm_nitroglycerin_coal_mine: "Нитроглицерин"
 pm_dynamite_coal_mine: "Динамит"
-
 #Iron Mine
-
 pmg_extraction_iron_mine: "Добыча"
 pm_picks_and_shovels_iron_mine: "Кирки и лопаты"
 pm_drainage_pumps_iron_mine: "Насосы для откачки воды"
@@ -332,16 +270,13 @@ pm_hydraulic_mining_iron_mine: "Гидравлическая добыча"
 pm_deep_shaft_machinery_iron_mine: "Механизмы для глубоких шахт"
 pm_ventilation_fans_iron_mine: "Вентиляционные вентиляторы"
 pm_boring_machines_iron_mine: "Буровые машины"
-
 pmg_blasting_iron_mine: "Взрывные работы"
 pm_no_blasting_iron_mine: "Отсутствие взрывных работ"
 pm_fire_setting_iron_mine: "Поджог"
 pm_blackpowder_iron_mine: "Черное порошковое вещество"
 pm_nitroglycerin_iron_mine: "Нитроглицерин"
 pm_dynamite_iron_mine: "Динамит"
-
 #Lead Mine
-
 pmg_extraction_lead_mine: "Извлечение"
 pm_picks_and_shovels_lead_mine: "Кирки и лопаты"
 pm_drainage_pumps_lead_mine: "Дренажные насосы"
@@ -350,16 +285,13 @@ pm_hydraulic_mining_lead_mine: "Гидравлическая добыча"
 pm_deep_shaft_machinery_lead_mine: "Глубокая шахтная техника"
 pm_ventilation_fans_lead_mine: "Вентиляционные вентиляторы"
 pm_boring_machines_lead_mine: "Буровые машины"
-
 pmg_blasting_lead_mine: "Взрывные работы"
 pm_no_blasting_lead_mine: "Без взрывных работ"
 pm_fire_setting_lead_mine: "Поджог"
 pm_blackpowder_lead_mine: "Черное порошковое вещество"
 pm_nitroglycerin_lead_mine: "Нитроглицерин"
 pm_dynamite_lead_mine: "Динамит"
-
 #Sulfur Mine
-
 pmg_extraction_sulfur_mine: "Извлечение"
 pm_picks_and_shovels_sulfur_mine: "Кирки и лопаты"
 pm_drainage_pumps_sulfur_mine: "Дренажные насосы"
@@ -368,16 +300,13 @@ pm_hydraulic_mining_sulfur_mine: "Гидравлическая добыча"
 pm_deep_shaft_machinery_sulfur_mine: "Глубокая шахтная техника"
 pm_ventilation_fans_sulfur_mine: "Вентиляционные вентиляторы"
 pm_boring_machines_sulfur_mine: "Буровые машины"
-
 pmg_blasting_sulfur_mine: "Взрывные работы"
 pm_no_blasting_sulfur_mine: "Без взрывных работ"
 pm_fire_setting_sulfur_mine: "Поджог"
 pm_blackpowder_sulfur_mine: "Черное порошковое вещество"
 pm_nitroglycerin_sulfur_mine: "Нитроглицерин"
 pm_dynamite_sulfur_mine: "Динамит"
-
 #Gold Mine
-
 pmg_extraction_gold_mine: "Извлечение"
 pm_picks_and_shovels_gold_mine: "Кирки и лопаты"
 pm_drainage_pumps_gold_mine: "Дренажные насосы"
@@ -386,16 +315,13 @@ pm_hydraulic_mining_gold_mine: "Гидравлическая добыча"
 pm_deep_shaft_machinery_gold_mine: "Глубокая шахтная техника"
 pm_ventilation_fans_gold_mine: "Вентиляционные вентиляторы"
 pm_boring_machines_gold_mine: "Буровые машины"
-
 pmg_blasting_gold_mine: "Взрывные работы"
 pm_no_blasting_gold_mine: "Без взрывных работ"
 pm_fire_setting_gold_mine: "Поджог"
 pm_blackpowder_gold_mine: "Черное порошковое вещество"
 pm_nitroglycerin_gold_mine: "Нитроглицерин"
 pm_dynamite_gold_mine: "Динамит"
-
 #Construction Sector
-
 pmg_building_methods_construction: "Методы строительства"
 pm_braced_framing: "Армированная рама"
 pm_window_glazing: "Остекление окон"
@@ -403,14 +329,12 @@ pm_balloon_framing: "Баллонная рама"
 pm_iron_frame_buildings: "Здания с железной рамой"
 pm_steel_frame_buildings: "Здания с стальной рамой"
 pm_earthmovers: "Землеройная техника"
-
 pmg_organization_construction: "Организация"
 pm_corvee_labour_construction: "Корве-труд"
 pm_artisan_guilds_construction: "Ремесленные гильдии"
 pm_construction_firms_construction: "Строительные фирмы"
 pm_engineer_corps_construction: "Инженерные корпуса"
 pm_industrial_conglomerate_construction: "Промышленные конгломераты"
-
 #Logging Camp
 pmg_logging_logging_camp: "Лесозаготовка"
 pm_crosscut_saws: "Дисковые пилы"
@@ -419,46 +343,37 @@ pm_circular_saws: "Круговые пилы"
 pm_powered_saws: "Электрические пилы"
 pm_band_saws: "Ленточные пилы"
 pm_chainsaws: "Бензопилы"
-
 pmg_hauling_logging_camp: "Перевозка"
 pm_manual_hauling: "Ручная перевозка"
 pm_skid_trails: "Переносные тропы"
 pm_log_flumes: "Деревянные трубы для спуска бревен"
 pm_steam_donkey: "Паровой тягач"
 pm_logging_trucks: "Грузовики для лесозаготовки"
-
 pmg_forestry_management_logging_camp: "Управление лесом"
 pm_aristocratic_reserve: "Аристократические резерваты"
 pm_common_land: "Общие земли"
 pm_state_ownership_logging_camp: "Государственная собственность"
 pm_private_ownership_logging_camp: "Частная собственность"
 pm_national_parks: "Национальные парки"
-
 #Oil Derricks
-
 pmg_extraction_oil_derrick: "Добыча"
 pm_cable_tool_drilling: "Бурение с помощью кабельных инструментов"
 pm_rotary_drilling: "Вращательное бурение"
 pm_directional_drilling: "Направленное бурение"
-
 pmg_drilling_rig_oil_derrick: "Буровые вышки"
 pm_steam_powered_drilling_rigs: "Паровые буровые вышки"
 pm_gas_powered_drilling_rigs: "Газовые буровые вышки"
 pm_electric_drilling_rigs: "Электрические буровые вышки"
-
 pmg_transportation_oil_derrick: "Транспортировка"
 pm_blue_barrels: "Синие бочки"
 pm_tanker_railcars: "Железнодорожные цистерны"
 pm_oil_pipelines: "Нефтепроводы"
-
 pmg_ownership_oil_derrick: "Собственность"
 pm_oil_magnates: "Нефтяные магнаты"
 pm_nationalized_oil: "Национализированная нефть"
 pm_industrial_conglomerate_oil: "Промышленные конгломераты"
 pm_military_industrial_complex_oil: "Военно-промышленный комплекс"
-
 #Base Plantations
-
 pmg_infrastructure_base_plantation: "Инфраструктура"
 pm_minimal_infrastructure: "Минимальная инфраструктура"
 pm_irrigation_networks: "Ирригационные сети"
@@ -466,21 +381,18 @@ pm_warehouses: "Склады"
 pm_rail_linkages: "Железнодорожные связи"
 pm_cold_storage: "Холодильное хранилище"
 pm_electrified_fences: "Электрифицированные заборы"
-
 pmg_ownership_base_plantation: "Собственность"
 pm_titled_aristocracy: "Аристократический титул"
 pm_religious_order: "Религиозный орден"
 pm_planter_aristocracy: "Аристократия-плантаторы"
 pm_corporate_entities_plantation: "Корпоративные организации"
 pm_state_owned_plantations: "Государственные плантации"
-
 pmg_labor_equity_base_plantation: "Трудовая справедливость"
 pm_forced_labor: "Принудительный труд"
 pm_exploitation: "Эксплуатация"
 pm_tenant_farming: "Арендное земледелие"
 pm_collectivization: "Коллективизация"
 pm_fair_trade: "Справедливая торговля"
-
 #Tea Plantation
 pmg_innovations_tea_plantation: "Инновации в чаепитии"
 pm_hand_rolling_tea: "Ручное заворачивание чая"
@@ -488,7 +400,6 @@ pm_withering_racks_tea: "Сушка на подставках"
 pm_hydraulic_tea_press_tea: "Гидравлический пресс для чая"
 pm_tea_blending_machines_tea: "Машины для смешивания чая"
 pm_ctc_machines_tea: "CTC-машинки"
-
 #Coffee Plantation
 pmg_innovations_coffee_plantation: "Инновации в кофе"
 pm_dry_processing_coffee: "Сухая обработка"
@@ -496,7 +407,6 @@ pm_strip_picking_tools_coffee: "Инструменты для сбора по к
 pm_roasting_machines_coffee: "Обжиговые машины"
 pm_fermentation_tanks_coffee: "Баки для ферментации"
 pm_freeze_dried_coffee_coffee: "Замораживание сушеного кофе"
-
 #Spice Plantation
 pmg_innovations_spice_plantation: "Инновации в специях"
 pm_natural_spices_spice: "Натуральные специи"
@@ -504,7 +414,6 @@ pm_grinding_mills_spice: "Измельчительные станки"
 pm_aromatics_extraction_spice: "Извлечение ароматических веществ"
 pm_steam_sterilization_spice: "Паровая стерилизация"
 pm_sorting_and_grading_machines_spice: "Машины для сортировки и классификации"
-
 #Sugarcane Plantation
 pmg_innovations_sugarcane_plantation: "Инновации в сахарном тростнике"
 pm_sugarloaf_molds_sugarcane: "Формы для сахарных головок"
@@ -512,7 +421,6 @@ pm_molasses_separation_sugarcane: "Разделение патоки"
 pm_cane_crushers_sugarcane: "Дробилки для тростника"
 pm_vacuum_pan_evaporation_sugarcane: "Вакуумная испарительная камера"
 pm_centrifugation_sugarcane: "Центрифугирование"
-
 #Cotton Plantation
 pmg_innovations_cotton_plantation: "Инновации в хлопке"
 pm_hand_picking_cotton: "Ручной сбор хлопка"
@@ -520,7 +428,6 @@ pm_fiber_carding_tools_cotton: "Инструменты для расчесыва
 pm_cotton_gin_cottons: "Хлопковая джинса"
 pm_diesel_powered_gins_cotton: "Дизельные джинсы"
 pm_cotton_harvesters_cotton: "Комбайны для сбора хлопка"
-
 #Tobacco Plantation
 pmg_innovations_tobacco_plantation: "Инновации в табаке"
 pm_darkleaf_tobacco_tobacco: "Темный листовой табак"
@@ -528,7 +435,6 @@ pm_protective_frames_tobacco: "Защитные рамы"
 pm_brightleaf_tobacco_tobacco: "Светлый листовой табак"
 pm_shredding_machines_tobacco: "Машины для измельчения табака"
 pm_cigarette_rolling_machines_tobacco: "Машины для скручивания сигарет"
-
 #Silk Plantation
 pmg_innovations_silk_plantation: "Инновации в шелке"
 pm_wild_silk: "Дикий шелк"
@@ -536,100 +442,81 @@ pm_silk_threading_looms_silk: "Станки для производства ше
 pm_rotary_mountage_silk: "Вращающаяся монтажная станция"
 pm_mechanical_spooling_silk: "Механическая намотка шелка"
 pm_automatic_reeling_devices_silk: "Автоматические намоточные устройства"
-
 #Rubber Plantation
 pmg_innovations_rubber_plantation: "Инновации в резине"
 pm_rubber_mastication_rubber: "Резиновое размолотие"
 pm_vulcanized_rubber_rubber: "Вулканизированная резина"
 pm_coagulating_agents_rubber: "Свертывающие агенты"
 pm_ammoniation_rubber: "Аммиакация"
-
 #Opium Plantation
 pmg_innovations_opium_plantation: "Инновации в опиуме"
 pm_camphorated_opium_opium: "Камфорированный опиум"
 pm_morphine_extraction_opium: "Извлечение морфина"
 pm_codeine_isolation_opium: "Изоляция кодеина"
 pm_heroin_synthesis_opium: "Синтез героина"
-
 #Power Plant
 pmg_fuel_power_plant: "Топливо"
 pm_coal_power_plant: "Уголь"
 pm_fuel_oil_power_plant: "Мазут"
 pm_pumped_storage_power_plant: "Аккумулирующая ГЭС"
-
 pmg_power_generation_power_plant: "Генерация электроэнергии"
 pm_reciprocating_steam_engines_power_plant: "Поршневые паровые двигатели"
 pm_steam_turbines_power_plant: "Паровые турбины"
 pm_francis_turbines_power_plant: "Турбины Френсиса"
-
 pmg_infrastructure_power_plant: "Электрическая инфраструктура"
 pm_no_power_grid_infrastructure: "Нет инфраструктуры электросети"
 pm_neighborhood_power_grids: "Электросети Района"
 pm_city_power_grids: "Городские Электросети"
 pm_regional_power_grids_power_plant: "Региональные электросети"
-
 pmg_ownership_power_plant: "Собственность"
 pm_private_ownership_power_plant: "Частная собственность"
 pm_public_private_partnership_power_plant: "Государственно-частное партнерство"
 pm_nationalized_plants_power_plant: "Государственные электростанции"
-
 #Kaolin Mine
-
 pmg_kaolin_extraction: "Добыча каолина"
 pm_picks_and_shovels_kaolin_mine: "Кирки и лопаты"
 pm_stamp_mills_kaolin_mine: "Штамповые мельницы"
 pm_hydraulic_mining_kaolin_mine: "Гидравлическая добыча"
 pm_centrifugation_kaolin_mine: "Центрифугирование"
 pm_open_pit_mining_kaolin_mine: "Карьерная добыча"
-
 pmg_kaolin_kilns: "Каолиновые печи"
 pm_crossdraft_kilns_kaolin_mine: "Противоточные печи"
 pm_shuttle_kilns_kaolin_mine: "Шаттловые печи"
 pm_gas_fired_kilns_kaolin_mine: "Газовые печи"
 pm_hoffmann_kilns_kaolin_mine: "Печи Хоффмана"
-
 #Base Industry
-
 pmg_motive_power: "Силовая энергия"
 pm_manual_labour: "Ручной труд"
 pm_draft_animals: "Тяговые животные"
 pm_rotating_mills: "Вращающиеся мельницы"
-
 pmg_industrial_motive_power: "Промышленная силовая энергия"
 pm_steam_engines: "Паровые двигатели"
 pm_rotary_valve_engine: "Роторные клапанные двигатели"
 pm_petrol_engines: "Бензиновые двигатели"
 pm_electronic_process_control: "Электронное управление процессами"
-
 pmg_pre_industrial_organization: "Организация предпромышленной эпохи"
 pm_decentralized_industry: "Децентрализованная промышленность"
 pm_aristocratic_control: "Аристократическое управление"
 pm_guild_monopolies: "Монополии гильдий"
-
 pmg_industrial_organization: "Организация промышленности"
 pm_state_owned_enterprise: "Государственное предприятие"
 pm_military_industrial_complex: "Военно-промышленный комплекс"
 pm_workers_cooperative: "Кооператив рабочих"
 pm_small_and_medium_enterprises: "Малые и средние предприятия"
 pm_industrial_conglomerate: "Промышленный конгломерат"
-
 #Glassworks
-
 pmg_kilns: "Печи"
 pm_crossdraft_kilns: "Противоточные печи"
 pm_shuttle_kilns: "Шаттловые печи"
 pm_gas_fired_kilns: "Газовые печи"
 pm_hoffmann_kilns: "Печи Хоффмана"
-
 pmg_glassworks: "Стеклоделательные мастерские"
 pm_forest_glass: "Лесное стекло"
 pm_lead_crystal_glass: "Свинцовый хрусталь"
 pm_polished_plate_glass: "Полированное плоскостное стекло"
 pm_cylinder_sheet_glass: "Цилиндрическое листовое стекло"
 pm_borosilicate_glass: "Боросиликатное стекло"
-
 #Smelteries
-
 pmg_ironworks: "Железоделательные цеха"
 pm_bloomery: "Горницы"
 pm_blast_furnace: "Доменная печь"
@@ -637,28 +524,24 @@ pm_rolling_mill: "Прокатный стан"
 pm_potting_and_stamping: "Затычки и штамповка"
 pm_puddling_process: "Варильный процесс"
 pm_electric_arc_furnace_iron: "Электродуговая печь"
-
 pmg_steelworks: "Сталелитейные цеха"
 pm_no_steel: "Без стали"
 pm_crucible_steel: "Кувалдный стальной сплав"
 pm_bessemer_process: "Процесс Бессемера"
 pm_open_hearth_furnace: "Открытая топка"
 pm_electric_arc_furnace_steel: "Электродуговая печь"
-
 pmg_alloys: "Сплавы"
 pm_no_alloys: "Без сплавов"
 pm_pewter_alloys: "Сплавы из олова"
 pm_brass_alloys: "Сплавы из латуни"
 pm_soldering_alloys: "Паяльные сплавы"
 pm_aluminium_alloys: "Сплавы из алюминия"
-
 pmg_slag_byproducts: "Побочные продукты шлака"
 pm_resmelting: "Переплавка"
 pm_iron_mordants: "Железные морданты"
 pm_ferrous_fertilizers: "Железные удобрения"
 pm_mineral_wool: "Минеральная вата"
 pm_slag_glass: "Стекло из шлака"
-
 pm_blister_steel: "Блистерная сталь"
 pm_powered_milling_machines: "Фрезерные станки с электроприводом"
 pm_cam_driven_machines: "Кам-приводные машины"
@@ -669,64 +552,51 @@ pm_confectionery: "Кондитерские изделия"
 pm_no_liquor: "Без алкоголя"
 pm_no_chemicals: "Без химикатов"
 pm_cotton_gins_cotton: "Хлопок для хлопковых очистителей"
-
-
 #Food Industries
-
 pmg_baking: "Выпечка"
 pm_comfits: "Конфеты"
 pm_baking_powder: "Разрыхлитель для выпечки"
 pm_commercial_yeast: "Коммерческие дрожжи"
 pm_solid_chocolate: "Твердый шоколад"
-
 pmg_liquor_distillation: "Дистилляция спиртных напитков"
 pm_wooden_casks: "Деревянные бочки"
 pm_brew_kettles: "Варочные котлы"
 pm_pot_stills: "Потовые аппараты"
 pm_column_stills: "Колонновые аппараты"
 pm_chromium_vessels: "Хромовые сосуды"
-
 pmg_opium_tinctures: "Опиумные настойки"
 pm_no_tinctures: "Без настоек"
 pm_laudanum: "Лауданум"
-
 pmg_canning: "Консервирование"
 pm_no_canning: "Без консервирования"
 pm_glass_jars: "Стеклянные банки"
 pm_metal_cans: "Металлические банки"
 pm_vacuum_sealed_cans: "Вакуумные банки"
 pm_freeze_dried_food: "Замороженная сушка пищи"
-
 pmg_kitchen_appliances: "Кухонные приборы"
 pm_basic_appliances: "Основные приборы"
 pm_oven_thermometers: "Термометры для печи"
 pm_gas_stoves: "Газовые плиты"
 pm_electric_mixers: "Электрические миксеры"
 pm_dishwashers: "Посудомоечные машины"
-
 #Couture Industries
-
 pmg_dyeworks: "Красильные цеха"
 pm_organic_dyes: "Органические красители"
 pm_sulfate_mordants: "Сульфатные морданты"
 pm_chromium_mordants: "Хромовые морданты"
 pm_aniline_dyes: "Анилиновые красители"
 pm_azo_dyes: "Азо-красители"
-
 pmg_luxury_clothes: "Роскошная одежда"
 pm_no_luxury_clothes: "Без роскошной одежды"
 pm_artisanal_weavers: "Мастера-ткачи"
 pm_couture_fabrics: "Ткани для кутюр"
 pm_black_and_white_tie: "Вечерний и смокинг"
 pm_sportswear: "Спортивная одежда"
-
 pmg_waterproof_clothing: "Водонепроницаемая одежда"
 pm_no_waterproof_clothing: "Без водонепроницаемой одежды"
 pm_raincoats: "Плащи"
 pm_trenchcoats: "Пальто"
-
 #Textile Mills
-
 pmg_clothes: "Одежда"
 pm_treadle_looms: "Педальные ткацкие станки"
 pm_flying_shuttles: "Летающие челноки"
@@ -734,24 +604,19 @@ pm_spinning_jenny: "Прядильная веретено"
 pm_jacquard_heads: "Головки жаккарда"
 pm_sewing_machines: "Швейные машины"
 pm_automatic_power_looms: "Автоматические ткацкие станки"
-
 #Furniture Factories
-
 pmg_furniture: "Мебель"
 pm_handcarved_furniture: "Ручная резная мебель"
 pm_woodturning_lathes: "Деревообрабатывающие токарные станки"
 pm_veneering_machines: "Плотнительные станки"
 pm_plywood: "Фанера"
 pm_precision_joinery: "Точное столярное дело"
-
 pmg_luxury_furniture: "Роскошная мебель"
 pm_no_luxury_furniture: "Без роскошной мебели"
 pm_marquetry: "Маркетри"
 pm_upholstering: "Обивка"
 pm_electroplated_metals: "Электрозолированные металлы"
-
 #Tooling Workshops
-
 pmg_tools: "Инструменты"
 pm_non_metal_tools: "Неметаллические инструменты"
 pm_wrought_iron_tools: "Кованые железные инструменты"
@@ -759,158 +624,127 @@ pm_case_hardened_tools: "Твердые инструменты"
 pm_crucible_steel_tools: "Инструменты из кувалдного стали"
 pm_chromium_steel_tools: "Инструменты из хромовой стали"
 pm_tungsten_carbide_tools: "Инструменты из карбида вольфрама"
-
 pmg_machined_parts: "Механические детали"
 pm_no_machined_parts: "Без механических деталей"
 pm_turret_lathe: "Турельный токарный станок"
 pm_steel_milling_machines: "Станки для фрезерования стали"
 pm_drill_press: "Станок для сверления"
 pm_molded_polymers: "Литые полимеры"
-
 #Paper Mills
-
 pmg_papermaking: "Производство бумаги"
 pm_handmade_paper: "Ручная бумага"
 pm_pulping_mills: "Мельницы для измельчения"
 pm_fourdrinier_machine: "Машина Фурдранье"
 pm_rotary_press: "Ротационная печатная машина"
 pm_chemical_pulping: "Химическая переработка"
-
 pmg_pulp_material: "Материал для производства целлюлозы"
 pm_rag_paper: "Бумага из тряпок"
 pm_wood_pulp_paper: "Бумага из древесной целлюлозы"
 pm_acidic_paper: "Кислотная бумага"
-
 #Chemical Industries
-
 pmg_chemicals: "Химические вещества"
 pm_soda_ash: "Содовая зола"
 pm_iron_sulfate_process: "Процесс сульфата железа"
 pm_leblanc_process: "Процесс Леблана"
 pm_solvay_process: "Процесс Сольвея"
 pm_castner_kellner_process: "Процесс Кастнера-Келлнера"
-
 pmg_fertilizer: "Удобрения"
 pm_no_fertilizer: "Без удобрений"
 pm_gypsum_fertilizer: "Удобрение из гипса"
 pm_ammonia_fertilizer: "Удобрение из аммиака"
 pm_birkeland_eyde_process: "Процесс Биркеланда-Эйде"
 pm_haber_bosch_process: "Процесс Хабера-Боша"
-
 #Synthetics Plant
-
 pmg_composite_porcelain: "Композитная фарфоровая посуда"
 pm_hard_paste_porcelain: "Твердый фарфор"
 pm_soft_paste_porcelain: "Мягкий фарфор"
 pm_bone_china: "Костяной фарфор"
-
 pmg_synthetic_fibers: "Синтетические волокна"
 pm_no_synthetic_fibers: "Без синтетических волокон"
 pm_art_silk: "Искусственный шелк"
 pm_rayon: "Район"
-
 pmg_synthetic_polymers: "Синтетические полимеры"
 pm_no_synthetic_polymers: "Без синтетических полимеров"
 pm_isoprene_production: "Производство изопрена"
 pm_bakelite_production: "Производство бакелита"
-
 #Engineering Firms
-
 pmg_engines: "Двигатели"
 pm_piston_engine: "Поршневой двигатель"
 pm_spark_ignition_engine: "Двигатель внутреннего сгорания"
 pm_diesel_engine: "Дизельный двигатель"
 pm_v8_engine: "V8 двигатель"
-
 pmg_telecomms: "Телекоммуникации"
 pm_no_telecomms: "Без телекоммуникаций"
 pm_telegraph: "Телеграф"
 pm_telephone: "Телефон"
 pm_radio: "Радио"
-
 pmg_ironclads: "Броненосцы"
 pm_no_ironclads: "Без броненосцев"
 pm_revolving_gun_turrets: "Вращающиеся башни с орудиями"
 pm_streamlined_hulls: "Аэродинамические корпуса"
 pm_sloped_armor_ironclads: "Наклонная броня"
-
 #Oil Refineries
-
 pmg_oil_cracking: "Крекинг нефти"
 pm_thermal_cracking: "Термический крекинг"
 pm_continuous_distillation: "Непрерывная перегонка"
 pm_catalytic_cracking: "Каталитический крекинг"
 pm_hydrocracking: "Гидрокрекинг"
-
 pmg_petrochemicals: "Нефтепродукты"
 pm_no_petrochemicals: "Без нефтепродуктов"
 pm_naphtha_extraction: "Извлечение нафты"
 pm_phenol_extraction: "Извлечение фенола"
 pm_ethylene_production: "Производство этилена"
 pm_polymerization: "Полимеризация"
-
 #Automotive Firms
-
 pmg_automobiles: "Автомобили"
 pm_motorwagon: "Моторвагон"
 pm_phaeton_carriage: "Фетон"
 pm_touring_car: "Туринг-кар"
-
 pmg_tyres: "Шины"
 pm_metal_tires: "Металлические шины"
 pm_solid_rubber_tyres: "Шины из твердой резины"
 pm_pneumatic_tyres: "Пневматические шины"
-
 pmg_tanks: "Танки"
 pm_no_tanks: "Без танков"
 pm_landships: "Земные корабли"
 pm_turreted_tanks: "Танки с башнями"
 pm_sloped_armor_tanks: "Наклонная броня"
-
 pmg_aeroplanes: "Самолеты"
 pm_no_aeroplanes: "Без самолетов"
 pm_biplanes: "Бипланы"
 pm_monoplanes: "Монопланы"
 pm_all_metal_aircraft: "Всеметаллические самолеты"
-
 #Railways
-
 pmg_railways_freight: "Грузовые железные дороги"
 pm_rolling_wagons: "Катящиеся вагоны"
 pm_flatcars: "Платформы"
 pm_gondola_cars: "Гондольные вагоны"
 pm_rotary_cars: "Ротационные вагоны"
 pm_intermodal_freight_containers: "Межмодальные грузовые контейнеры"
-
 pmg_railways_passenger: "Пассажирские железные дороги"
 pm_no_passenger_cars: "Без пассажирских вагонов"
 pm_stagecoach_cars: "Дилерские вагоны"
 pm_passenger_cars: "Пассажирские вагоны"
 pm_dining_cars: "Ресторанские вагоны"
 pm_passenger_streamliner: "Пассажирские стримлайнеры"
-
 pmg_railways_bonus: "Бонус железных дорог"
 pm_no_railway_bonus: "Без бонуса железных дорог"
 pm_scenic_touring_trains: "Живописные туристические поезда"
 pm_military_railways: "Военные железные дороги"
 pm_whistle_stop_tours: "Поездные экскурсии с остановками на свисток"
 pm_colonial_railways: "Колониальные железные дороги"
-
 pmg_railways_motive_power: "Силовое оборудование железных дорог"
 pm_horse_drawn_trains: "Тяга лошадьми"
 pm_coal_trains: "Угольные поезда"
 pm_electricity_trains: "Поезда на электричестве"
 pm_petrol_trains: "Бензиновые поезда"
-
 pmg_railways_ownership: "Собственность железных дорог"
 pm_railways_private_ownership: "Частная собственность"
 pm_railways_military_owned: "Военная собственность"
 pm_railways_industrial_conglomerate: "Индустриальный конгломерат"
 pm_railways_state_owned: "Государственная собственность"
 pm_railways_worker_cooperative: "Кооператив работников"
-
 #Arsenal
-
 pmg_arsenal_firearms: "Огнестрельное оружие"
 pm_matchlock_muskets: "Матчлок-мушкеты"
 pm_flintlock_muskets: "Флинтовые мушкеты"
@@ -919,7 +753,6 @@ pm_percussion_caps: "Ударные капсюли"
 pm_breech_loading_rifles: "Ствольные ружья с задней загрузкой"
 pm_bolt_action_rifles: "Винтовки с затвором-болтом"
 pm_semi_automatic_firearms: "Полуавтоматическое оружие"
-
 pmg_arsenal_artillery: "Артиллерия"
 pm_no_artillery: "Сегодня нет артиллерии"
 pm_muzzle_loading_cannons: "Орудия с гладким стволом"
@@ -927,7 +760,6 @@ pm_mobile_field_artillery: "Мобильная полевая артиллери
 pm_breech_loading_artillery: "Орудия с задней загрузкой"
 pm_hydraulic_recoil_mechanism: "Гидравлический упругий возврат"
 pm_quick_firing_artillery: "Быстроходная артиллерия"
-
 #Munitions Plants
 pmg_munitions_plant_ammunition: "Боеприпасы"
 pm_paper_cartridges: "Бумажные патроны"
@@ -935,15 +767,47 @@ pm_minie_ball: "Мини-шар"
 pm_metallic_cartridges: "Металлические патроны"
 pm_smokeless_powder: "Бездымный порох"
 pm_spitzer_bullet: "Пуля спитцера"
-
 pmg_munitions_plant_explosives: "Взрывчатые вещества"
 pm_no_explosives_tov: "Сегодня нет взрывчатых веществ"
 pm_nitroglycerin: "Нитроглицерин"
 pm_dynamite: "Динамит"
 pm_trinitrotoluene: "Тринитротолуол"
-
+#Major Rivers
+pmg_river_utilization: "Использование Рек"
+pm_freshwater_fishing: "Пресноводная рыбалка"
+pm_flax_linen_industry: "Льняная промышленность"
+pm_small_goods_trade: "Торговля мелкими товарами"
+pm_hydroelectric_dams: "Гидроэлектростанции"
+pmg_river_engineering: "Речное Строительство"
+pm_earthen_embankments: "Земляные насыпи"
+pm_watermills: "Водяные мельницы"
+pm_iron_geared_watermills: "Водяные мельницы с железными зубчатыми передачами"
+pm_artificial_embankments: "Искусственные насыпи"
+pm_steel_geared_watermills: "Водяные мельницы с стальными зубчатыми передачами"
+pm_water_turbines: "Гидротурбины"
+pm_canalized_rivers: "Канализованные реки"
+pmg_river_shipping: "Речная Перевозка"
+pm_no_boats: "Без Лодок"
+pm_river_rafts: "Плоты"
+pm_river_barges: "Речные Баржи"
+pm_paddle_steamers: "Пароходы с Колесным Винтом"
+pm_screw_propeller_steamers: "Пароходы с Винтовым Движителем"
+pm_intermodal_cargo_boats: "Многоцелевые Грузовые Корабли"
+pmg_river_bonus: "Бонус Реки"
+pm_no_river_bonus: "Без Бонуса Реки"
+pm_river_based_settlements: "Поселения, основанные на реках"
+pm_irrigation_canals: "Орошаемые каналы"
+pm_drinking_water_reservoirs: "Резервуары для питьевой воды"
+pm_gravel_quarries: "Гравийные карьеры"
+pm_floating_casinos: "Плавучие казино"
+pmg_river_usage_rights: "Права на Использование Реки"
+pm_decentralised_control: "Децентрализованное Управление"
+pm_merchant_leagues: "Торговые Лиги"
+pm_crown_estate: "Королевская Собственность"
+pm_privately_owned_parcels: "Частная Собственность"
+pm_industrial_conglomerate_river: "Промышленный Конгломерат"
+pm_nationalized_infrastructure: "Национализированная Инфраструктура"
 #Unsorted 0.2 Additions
-
 pm_natural_hides: "Натуральные шкуры"
 pm_flax_and_hemp_fields_tef: "Поля льна и конопли"
 pm_sugarbeet_fields_tef: "Поля свеклы"

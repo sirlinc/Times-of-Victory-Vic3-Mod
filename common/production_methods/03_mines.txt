@@ -85,7 +85,7 @@ pm_ore_vanning_base_mine = {
 	pollution_generation = 9
 		
 	unlocking_technologies = {
-		industrial_lubricants
+		fluid_mechanics
 	}
 		
 	building_modifiers = {
@@ -304,7 +304,6 @@ pm_national_patrimony_base_mine = {
 		unscaled = {
 			building_bureaucrats_shares_add = 2
 			building_engineers_shares_add = 2
-			building_government_shares_add = 1
 		}
 	}
 }

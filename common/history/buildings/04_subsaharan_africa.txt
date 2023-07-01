@@ -427,11 +427,6 @@
 	s:STATE_EAST_HAUSALAND={
 		region_state:B79={
 			create_building={
-				building="building_cotton_plantation"
-				level=1
-				reserves=1
-			}
-			create_building={
 				building="building_wetlands_farmland"
 				level=1
 				reserves=1
@@ -663,16 +658,6 @@
 	}
 	s:STATE_ZANZIBAR={
 		region_state:POR={
-			create_building={
-				building="building_coffee_plantation"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_cotton_plantation"
-				level=1
-				reserves=1
-			}
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -972,12 +957,7 @@
 		region_state:C56={
 			create_building={
 				building="building_arid_farmland"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_fishing_wharf"
-				level=1
+				level=2
 				reserves=1
 			}
 			create_building={
@@ -1136,11 +1116,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_coffee_plantation"
-				level=1
-				reserves=1
-			}
-			create_building={
 				building="building_barracks"
 				level=10
 				reserves=1
@@ -1253,8 +1228,6 @@
 		}
 	}
 	s:STATE_UBANGI_SHARI={
-		region_state:DAK={
-		}
 		region_state:ZND={
 		}
 	}
@@ -1567,8 +1540,6 @@
 		}
 	}
 	s:STATE_BOTSWANA={
-		region_state:TSW={
-		}
 		region_state:LZO={
 		}
 	}
@@ -1576,11 +1547,6 @@
 		region_state:POR={
 			create_building={
 				building="building_tropical_farmland"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_coffee_plantation"
 				level=3
 				reserves=1
 			}

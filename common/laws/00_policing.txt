@@ -30,9 +30,7 @@ law_local_police = {
 
 	institution = institution_police
 	institution_modifier = {
-		interest_group_ig_nobility_pol_str_mult = 0.1
-		interest_group_ig_landonwers_pol_str_mult = 0.1
-		state_turmoil_effects_mult = -0.05
+		interest_group_ig_elitist_pol_str_mult = 0.1
 	}
 	
 	possible_political_movements = {
@@ -94,6 +92,7 @@ law_regulated_police_force = {
 	institution = institution_police
 	institution_modifier = {
 		state_radicals_from_sol_change_mult = -0.05
+		interest_group_ig_market_liberal_pol_str_mult = 0.1
 	}
 	
 	possible_political_movements = {
@@ -120,7 +119,7 @@ law_paramilitary_force = {
 	institution_modifier = {
 		state_radicals_from_sol_change_mult = -0.05
 		state_radicals_from_discrimination_mult = -0.05
-		interest_group_ig_expansionist_pol_str_mult = 0.10
+		interest_group_ig_expansionist_pol_str_mult = 0.1
 		state_mortality_turmoil_mult = 0.004
 		state_mortality_mult = 0.002
 	}

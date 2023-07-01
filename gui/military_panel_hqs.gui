@@ -433,7 +433,7 @@ types MilitaryPanelHQs {
 
 			# Morale
 			morale_bar = {
-				parentanchor = hright
+				parentanchor = right
 				tooltip = "COMMANDER_MORALE_TOOLTIP"
 			
 				blockoverride "morale_value" {

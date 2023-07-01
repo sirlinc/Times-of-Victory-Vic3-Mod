@@ -335,9 +335,7 @@ industrial_accident_events.4 = {
 	}
 	immediate = {
 		random_scope_state = {
-			limit = {
 				has_building = building_distilleries
-				}
 			}
 			save_scope_as = molasses_flood_state
 		}

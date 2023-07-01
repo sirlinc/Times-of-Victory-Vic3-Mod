@@ -767,11 +767,6 @@
 	s:STATE_LEINSTER={
 		region_state:ENG={
 			create_building={
-				building="building_lead_mine"
-				level=1
-				reserves=1
-			}
-			create_building={
 				building="building_temperate_farmland"
 				level=1
 				reserves=1
@@ -827,6 +822,11 @@
 				reserves=1
 			}
 			create_building={
+				building="building_arts_academy"
+				level=1
+				reserves=1
+			}
+			create_building={
 				building="building_barracks"
 				level=5
 				reserves=1
@@ -837,11 +837,6 @@
 			create_building={
 				building="building_university"
 				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_arts_academy"
-				level=2
 				reserves=1
 			}
 			create_building={
@@ -1878,11 +1873,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_lead_mine"
-				level=3
-				reserves=1
-			}
-			create_building={
 				building="building_temperate_farmland"
 				level=1
 				reserves=1
@@ -2914,11 +2904,6 @@
 			create_building={
 				building="building_distilleries"
 				level=4
-				reserves=1
-			}
-			create_building={
-				building="building_sulfur_mine"
-				level=3
 				reserves=1
 			}
 			create_building={

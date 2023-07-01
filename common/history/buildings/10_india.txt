@@ -79,11 +79,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_cotton_plantation"
-				level=2
-				reserves=1
-			}
-			create_building={
 				building="building_temperate_farmland"
 				level=7
 				reserves=1
@@ -192,11 +187,6 @@
 			create_building={
 				building="building_temperate_farmland"
 				level=5
-				reserves=1
-			}
-			create_building={
-				building="building_cotton_plantation"
-				level=1
 				reserves=1
 			}
 			create_building={
@@ -551,11 +541,6 @@
 		}
 		region_state:A99={
 			create_building={
-				building="building_cotton_plantation"
-				level=2
-				reserves=1
-			}
-			create_building={
 				building="building_wetlands_farmland"
 				level=1
 				reserves=1
@@ -759,11 +744,6 @@
 			create_building={
 				building="building_glassworks"
 				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_cotton_plantation"
-				level=2
 				reserves=1
 			}
 			create_building={

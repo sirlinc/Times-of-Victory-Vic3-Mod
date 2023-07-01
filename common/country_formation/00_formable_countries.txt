@@ -292,7 +292,7 @@ CAN = {
 	ai_will_do = { always = yes }
 
 	possible = {
-		has_technology_researched = manifest_destiny
+		has_technology_researched = manifest_destiny_tov
 	}
 }
 
@@ -304,7 +304,7 @@ AST = {
 	ai_will_do = { always = yes }
 
 	possible = {
-		has_technology_researched = manifest_destiny
+		has_technology_researched = manifest_destiny_tov
 	}
 }
 
@@ -366,7 +366,7 @@ GCO = {
 	ai_will_do = { always = yes }
 
 	possible = {
-		has_technology_researched = manifest_destiny
+		has_technology_researched = manifest_destiny_tov
 	}
 }
 
@@ -399,7 +399,7 @@ NGF = {
 	required_states_fraction = 0.75
 
 	possible = {
-		has_technology_researched = manifest_destiny
+		has_technology_researched = manifest_destiny_tov
 	}
 
 	ai_will_do = { always = yes }
@@ -546,23 +546,6 @@ YEM = {
 	ai_will_do = { always = yes }
 }
 
-CAU = {
-	states = {
-		STATE_GREATER_CAUCASUS
-		STATE_ARMENIA
-		STATE_AZERBAIJAN
-		STATE_KARS
-	}
-
-	required_states_fraction = 0.75	
-	
-	ai_will_do = { always = yes }
-
-	possible = {
-		has_technology_researched = pan_nationalism
-	}
-}
-
 PNS = {
 	use_culture_states = yes
 
@@ -586,7 +569,7 @@ KAZ = {
 	ai_will_do = { always = yes }
 
 	possible = {
-		has_technology_researched = manifest_destiny
+		has_technology_researched = manifest_destiny_tov
 	}
 }
 

@@ -79,3 +79,14 @@ modifier_building_arsenal_throughput_mult_desc: "Бонус или штраф к
 building_munitions_plants: "Заводы боеприпасов"
 modifier_building_munitions_plants_throughput_mult: "$building_munitions_plants$ здание [concept_throughput]"
 modifier_building_munitions_plants_throughput_mult_desc: "Бонус или штраф к объему ввода и вывода $building_munitions_plants$"
+
+# Major Rivers
+building_major_rivers: "Главные реки"
+modifier_building_major_rivers_throughput_mult: "Строительство $building_major_rivers$ [concept_throughput]"
+modifier_building_major_rivers_throughput_mult_desc: "Бонус или штраф к вводу и выводу $building_major_rivers$"
+modifier_state_building_major_rivers_max_level_add: "Максимальный уровень $building_major_rivers$"
+modifier_state_building_major_rivers_max_level_add_desc: "Бонус или штраф к максимальному уровню географической особенности $building_major_rivers$."
+
+# Geographical Features
+bg_geographical_features: "Географические Особенности"
+bg_major_rivers: "Крупные Реки"

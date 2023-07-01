@@ -1,6 +1,6 @@
 ﻿institution_colonial_affairs = { # Max level from tech
 	icon = "gfx/interface/icons/institution_icons/colonization.dds"
-	background_texture = "gfx/interface/illustrations/institutions/institution_icon_bg.dds"
+	background_texture = "gfx/interface/icons/institution_icons/institution_icon_bg.dds"
 	modifier = {
 		state_colony_growth_creation_mult = 0.1
 	}
@@ -8,7 +8,7 @@
 
 institution_social_security = {
 	icon = "gfx/interface/icons/institution_icons/social_security.dds"
-	background_texture = "gfx/interface/illustrations/institutions/institution_icon_bg.dds"
+	background_texture = "gfx/interface/icons/institution_icons/institution_icon_bg.dds"
 	modifier = {
 		state_welfare_payments_add = 0.2
 	}
@@ -16,7 +16,7 @@ institution_social_security = {
 
 institution_workplace_safety = {
 	icon = "gfx/interface/icons/institution_icons/workplace_safety.dds"
-	background_texture = "gfx/interface/illustrations/institutions/institution_icon_bg.dds"
+	background_texture = "gfx/interface/icons/institution_icons/institution_icon_bg.dds"
 	modifier = {
 		building_working_conditions_mult = -0.2
 	}
@@ -24,12 +24,12 @@ institution_workplace_safety = {
 
 institution_schools = {
 	icon = "gfx/interface/icons/institution_icons/schools.dds"
-	background_texture = "gfx/interface/illustrations/institutions/institution_icon_bg.dds"
+	background_texture = "gfx/interface/icons/institution_icons/institution_icon_bg.dds"
 }
 
 institution_health_system = {
 	icon = "gfx/interface/icons/institution_icons/health_service.dds"
-	background_texture = "gfx/interface/illustrations/institutions/institution_icon_bg.dds"
+	background_texture = "gfx/interface/icons/institution_icons/institution_icon_bg.dds"
 }
 
 institution_police = {
@@ -42,15 +42,16 @@ institution_police = {
 
 institution_home_affairs = {
 	icon = "gfx/interface/icons/institution_icons/home_affairs.dds"
-	background_texture = "gfx/interface/illustrations/institutions/institution_icon_bg.dds"
+	background_texture = "gfx/interface/icons/institution_icons/institution_icon_bg.dds"
 	modifier = {
-		country_revolution_secession_speed_mult = -0.1
+		interest_group_in_government_approval_add = 1
+		interest_group_in_opposition_approval_add = -2
 	}
 }
 
 institution_army_professionalism = {
 	icon = "gfx/interface/icons/institution_icons/army_professionalism.dds"
-	background_texture = "gfx/interface/illustrations/institutions/institution_icon_bg.dds"
+	background_texture = "gfx/interface/icons/institution_icons/institution_icon_bg.dds"
 	modifier = {
 		building_training_rate_mult = 0.2
 		state_building_barracks_max_level_add = 15
@@ -59,7 +60,7 @@ institution_army_professionalism = {
 
 institution_naval_professionalism = {
 	icon = "gfx/interface/icons/institution_icons/naval_professionalism.dds"
-	background_texture = "gfx/interface/illustrations/institutions/institution_icon_bg.dds"
+	background_texture = "gfx/interface/icons/institution_icons/institution_icon_bg.dds"
 	modifier = {
 		country_navy_power_projection_mult = 0.1
 	}
@@ -67,7 +68,7 @@ institution_naval_professionalism = {
 
 institution_civic_militarization = {
 	icon = "gfx/interface/icons/institution_icons/civic_militarization.dds"
-	background_texture = "gfx/interface/illustrations/institutions/institution_icon_bg.dds"
+	background_texture = "gfx/interface/icons/institution_icons/institution_icon_bg.dds"
 	modifier = {
 		country_war_exhaustion_casualties_mult = -0.1
 	}
@@ -75,7 +76,7 @@ institution_civic_militarization = {
 
 institution_economic_militarization = {
 	icon = "gfx/interface/icons/institution_icons/economic_militarization.dds"
-	background_texture = "gfx/interface/illustrations/institutions/institution_icon_bg.dds"
+	background_texture = "gfx/interface/icons/institution_icons/institution_icon_bg.dds"
 	modifier = {
 		country_military_goods_cost_mult = -0.1
 	}
@@ -83,7 +84,7 @@ institution_economic_militarization = {
 
 institution_collectivization = {
 	icon = "gfx/interface/icons/institution_icons/collectivization.dds"
-	background_texture = "gfx/interface/illustrations/institutions/institution_icon_bg.dds"
+	background_texture = "gfx/interface/icons/institution_icons/institution_icon_bg.dds"
 	modifier = {
 		state_political_strength_from_wealth_mult = -0.1
 		building_economy_of_scale_level_cap_add = 10
@@ -92,7 +93,7 @@ institution_collectivization = {
 
 institution_national_electrification = {
 	icon = "gfx/interface/icons/institution_icons/national_electrification.dds"
-	background_texture = "gfx/interface/illustrations/institutions/institution_icon_bg.dds"
+	background_texture = "gfx/interface/icons/institution_icons/institution_icon_bg.dds"
 	modifier = {
 		state_infrastructure_mult = 0.1
 	}
@@ -100,7 +101,7 @@ institution_national_electrification = {
 
 institution_foreign_affairs = {
 	icon = "gfx/interface/icons/institution_icons/foreign_affairs.dds"
-	background_texture = "gfx/interface/illustrations/institutions/institution_icon_bg.dds"
+	background_texture = "gfx/interface/icons/institution_icons/institution_icon_bg.dds"
 	modifier = {
 		country_max_declared_interests_add = 1
 	}
@@ -108,7 +109,7 @@ institution_foreign_affairs = {
 
 institution_state_propaganda = {
 	icon = "gfx/interface/icons/institution_icons/state_propaganda.dds"
-	background_texture = "gfx/interface/illustrations/institutions/institution_icon_bg.dds"
+	background_texture = "gfx/interface/icons/institution_icons/institution_icon_bg.dds"
 	modifier = {
 		state_loyalists_from_sol_change_mult = 0.1
 	}
@@ -116,7 +117,7 @@ institution_state_propaganda = {
 
 institution_research_funding = {
 	icon = "gfx/interface/icons/institution_icons/research_funding.dds"
-	background_texture = "gfx/interface/illustrations/institutions/institution_icon_bg.dds"
+	background_texture = "gfx/interface/icons/institution_icons/institution_icon_bg.dds"
 	modifier = {
 		technology_invention_cost_mult = -0.03
 	}

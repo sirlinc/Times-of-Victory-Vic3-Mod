@@ -10,7 +10,7 @@
 	}
 
 	possible = {
-		has_technology_researched = manifest_destiny
+		has_technology_researched = manifest_destiny_tov
 	}
 
 	complete = {
@@ -63,7 +63,7 @@ je_canada_gbr = {
 	}
 
 	possible = {
-		has_technology_researched = manifest_destiny
+		has_technology_researched = manifest_destiny_tov
 	}
 
 	complete = {
@@ -106,7 +106,7 @@ je_australia_aus = {
 	}
 
 	possible = {
-		has_technology_researched = manifest_destiny
+		has_technology_researched = manifest_destiny_tov
 	}
 
 	complete = {
@@ -155,7 +155,7 @@ je_australia_gbr = {
 	}
 
 	possible = {
-		has_technology_researched = manifest_destiny
+		has_technology_researched = manifest_destiny_tov
 	}
 
 	complete = {

@@ -1,0 +1,11 @@
+﻿tov_the_plunder_of_prague_art_used = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	building_arts_academy_throughput_mult = 0.25
+	building_university_throughput_mult = 0.25
+}
+
+tov_the_plunder_of_prague_art_sold = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_minting_add = 500
+}
+

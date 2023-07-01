@@ -37,20 +37,10 @@
 				reserves=1
 			}	
 			create_building={
-				building="building_opium_plantation"
-				level=3
-				reserves=1
-			}
-			create_building={
 				building="building_sugar_plantation"
 				level=4
 				reserves=1
 			}		
-			create_building={
-				building="building_cotton_plantation"
-				level=8
-				reserves=1
-			}
 			create_building={
 				building="building_fishing_wharf"
 				level=3
@@ -105,11 +95,6 @@
 			create_building={
 				building="building_temperate_farmland"
 				level=3
-				reserves=1
-			}
-			create_building={
-				building="building_cotton_plantation"
-				level=2
 				reserves=1
 			}
 			create_building={
@@ -462,11 +447,6 @@
 		region_state:B35={
 			create_building={
 				building="building_fishing_wharf"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_lead_mine"
 				level=1
 				reserves=1
 			}

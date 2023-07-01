@@ -21,7 +21,7 @@ sick_man.1 = {
 	trigger = {
 		this = c:TUR
 		exists = yes
-		country_rank != great_power
+		country_rank != rank_value:great_power
 	}
 
 	immediate = {

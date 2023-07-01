@@ -122,8 +122,8 @@ trade_route_events.2 = {
 				goods = g:small_arms
 				OR = {
 					AND = {
-						root = { is_researching_technology = gunsmithing }
-						exporter.owner = { has_technology_researched = gunsmithing }
+						root = { is_researching_technology = gunpowder_warfare }
+						exporter.owner = { has_technology_researched = gunpowder_warfare }
 					}
 					AND = {
 						root = { is_researching_technology = percussion_cap }
@@ -156,8 +156,8 @@ trade_route_events.2 = {
 					goods = g:small_arms
 					OR = {
 						AND = {
-							root = { is_researching_technology = gunsmithing }
-							exporter.owner = { has_technology_researched = gunsmithing }
+							root = { is_researching_technology = gunpowder_warfare }
+							exporter.owner = { has_technology_researched = gunpowder_warfare }
 						}
 						AND = {
 							root = { is_researching_technology = percussion_cap }
@@ -185,8 +185,8 @@ trade_route_events.2 = {
 					goods = g:small_arms
 					OR = {
 						AND = {
-							root = { is_researching_technology = gunsmithing }
-							exporter.owner = { has_technology_researched = gunsmithing }
+							root = { is_researching_technology = gunpowder_warfare }
+							exporter.owner = { has_technology_researched = gunpowder_warfare }
 						}
 						AND = {
 							root = { is_researching_technology = percussion_cap }
@@ -221,9 +221,9 @@ trade_route_events.2 = {
 			months = normal_modifier_time
 		}
 		if = {
-			limit = { is_researching_technology = gunsmithing }
+			limit = { is_researching_technology = gunpowder_warfare }
 			add_technology_progress = {
-				technology = gunsmithing
+				technology = gunpowder_warfare
 				progress = 2500
 			}
 		}

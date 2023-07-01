@@ -207,6 +207,8 @@ pm_state_ownership_farmland = {
 		unscaled = {
 			building_bureaucrats_shares_add = 5
 		}
+	}
+	state_modifiers = {
 		unscaled = {
 			state_construction_mult = 0.03
 		}		
@@ -1554,7 +1556,7 @@ pm_warmblooded_breeds = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_grain_add = 25
-			building_output_horses_add = 25
+			building_output_horses_add = 30
 		}
 	}
 }
@@ -1569,7 +1571,7 @@ pm_stock_horse_breeds = {
 	building_modifiers = {
 		workforce_scaled = {
 			building_input_grain_add = 35
-			building_output_horses_add = 35
+			building_output_horses_add = 40
 		}
 	}
 }
@@ -1673,6 +1675,8 @@ pm_state_ownership_pasture = {
 		unscaled = {
 			building_bureaucrats_shares_add = 5
 		}
+	}
+	state_modifiers = {
 		unscaled = {
 			state_construction_mult = 0.03
 		}		

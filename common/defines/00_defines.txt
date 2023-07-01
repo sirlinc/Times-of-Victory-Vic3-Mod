@@ -591,7 +591,7 @@ NAI = {
 
 	# Below data is used to calculate how much weight the AI places on a production building
 	PRODUCTION_BUILDING_RANDOM_FACTOR = 10.0 # The higher this is, the more random AI construction will be
-	PRODUCTION_BUILDING_STATE_RANDOM_FACTOR = 2.0 # The higher this is, the more random AI state selection for building types will be
+	PRODUCTION_BUILDING_STATE_RANDOM_FACTOR = 1.0 # The higher this is, the more random AI state selection for building types will be
 	PRODUCTION_BUILDING_BASE_VALUE = 1000 # If no ai_value is scripted in the building
 	PRODUCTION_BUILDING_NO_AVAILABLE_WORKFORCE_FACTOR = 0.25 # Total weight is multiplied by this if the state lacks enough workforce to staff the building
 	PRODUCTION_BUILDING_GOODS_PROFIT_FACTOR = 5000 # Per pound of predicted building profit (divided by employee count per level)
@@ -793,12 +793,10 @@ NAI = {
 NCountry = {
 	DEFAULT_COUNTRY_TYPE = "recognized"
 	MAX_NUM_COUNTRY_FORMATION_CANDIDATES = 3
-	COUNTRY_FORMATION_CANDIDATE_MIN_RANK = 6
-	COUNTRY_FORMATION_ANNEXATION_TARGET_MAX_RANK = 6
+	COUNTRY_FORMATION_CANDIDATE_MIN_RANK = 6				# countries with a lower rank value than this cannot be formation candidates
 	MOVE_CAPITAL_COOLDOWN_YEARS = 5
 	MOVE_MARKET_CAPITAL_COOLDOWN_YEARS = 5
 	MAX_POWER_EFFECT = 1.0 # The max by which a power excess/deficiency modifier can scale						
-	SPLIT_STATE_MIN_LAND_SHARE = 0.05
 	SPLIT_STATE_DOMINANT_LAND_SHARE_THRESHOLD = 0.5	# States with more land share than this can use the region's name
 	SPLIT_STATE_PRIME_LAND_WEIGHT = 5.0
 	CAPITAL_CULTURE_CORE_WEIGHT = 10
@@ -870,8 +868,9 @@ NPolitics = {
 	MINIMUM_INVESTMENT_COST = 10			# The absolute minimum cost in BUR per investment level
 	
 	POWERFUL_IG_THRESHOLD = 0.20		# Interest groups with more Clout than this are considered to be influential
-	POWERFUL_IG_CUTOFF = 0.18		# Powerful interest groups with less Clout than this will stop being influential
-	POWERFUL_IG_TRAIT_BONUS = 1		# The effects of all trait modifiers from influential IGs are increased by this, 1 = +100%
+	POWERFUL_IG_CUTOFF = 0.18			# Powerful interest groups with less Clout than this will stop being influential
+	POWERFUL_IG_TRAIT_BONUS = 1			# The effects of all trait modifiers from influential IGs are increased by this, 1 = +100%
+	IG_TRAIT_STICKINESS = 2				# If an IG trait is already active, this is the amount of Approval difference required to deactivate it
 	MARGINAL_IG_THRESHOLD = 0.05		# Interest Groups with Clout above this value are considered relevant while those below are marginal (if not also In Government)
 	MARGINAL_IG_CUTOFF = 0.04			# Interest Groups who are already relevant will only become marginal again if they drop below this value.
 	
@@ -1145,7 +1144,7 @@ NEconomy = {
 	SLAVE_TRADE_EXISTING_STATE_CULTURE_WEIGHT_MULT = 10 # Total score of state is multiplied by this if importing from states whose homeland cultures are already present in this state
 	SLAVE_TRADE_NUMBER_EVALUATED_STATES = 10	# Slave import marker is selected randomly from this many potential targets with highest weight
 	SLAVE_TRADE_SLAVES_PER_WEEK = 100			# Base number of slaves that will be traded per marker per week
-	SLAVE_TRADE_MIN_MARKET_ACCESS = 0.1			# Minimum market access multiplier for slave trade, i.e. even at a marker with 0 market access, this fraction of the base number will be traded
+	SLAVE_TRADE_MIN_MARKET_ACCESS = 0.8			# Minimum market access multiplier for slave trade, i.e. even at a marker with 0 market access, this fraction of the base number will be traded
 	
 	BUILDING_LAYOFFS_MIN_WEEKS_BETWEEN = 4		# Minimum number of weeks between layoffs
 	BUILDING_LAYOFFS_DECREASE_BY = 0.15			# The ratio that layoffs will reduce employment by (e.g. 0.15 means if you're currently 57% employed, reduce that to 48.45%)
@@ -1390,7 +1389,7 @@ NDiplomacy = {
 	WAR_GOAL_INFAMY_MAKE_DOMINION = 2.0
 	WAR_GOAL_INFAMY_TRANSFER_SUBJECT = 2.0	
 	WAR_GOAL_INFAMY_ANNEX_COUNTRY = 5.0
-	WAR_GOAL_INFAMY_UNIFICATION = 2.0
+	WAR_GOAL_INFAMY_UNIFICATION = 0.5
 	WAR_GOAL_INFAMY_REGIME_CHANGE = 0.5
 	
 	WAR_GOAL_INFAMY_DIPLO_PLAY_BACK_DOWN_REFUND = -0.75 # Refund of infamy for war goals that are dropped due to one side backing down in a diplo play (applied to initiator/target)
@@ -1587,25 +1586,48 @@ NPops = {
 	MAX_BASE_COLONIAL_GROWTH = 0.1						# Country base colonial growth from population cannot be higher than this
 	MAX_COLONIAL_GROWTH = 0.02							# Colonies can grow by this much at most per day 
 	
-	INDIVIDUALS_PER_POP_INFRASTRUCTURE = 40000			# Multiply state_infrastructure_from_population_add by this to determine infra from population
+	INDIVIDUALS_PER_POP_INFRASTRUCTURE = 20000			# Multiply state_infrastructure_from_population_add by this to determine infra from population
 
 	QUALIFICATIONS_UPDATE_FACTOR = 0.0003				# Calculated potential values are multiplied by this value and the workforce size of the pop before being added to the existing potentials
-	QUALIFICATIONS_NUM_MONTHS_AT_START = 60				# How many months of qualifications should be seeded to pops at start of game?
+	QUALIFICATIONS_NUM_MONTHS_AT_START = 30				# How many months of qualifications should be seeded to pops at start of game?
 	
 	INDIVIDUALS_TAXED_PER_TAX_CAPACITY = 10000			# How many pops can be taxed efficiently for each tax capacity
 	
-	POP_MERGE_MAX_WORKFORCE = 30						# Pops with workforce smaller than this may get merged with other pops of the same type in their building / unemployment pool; if zero, no small pop merging will occur, which may have an adverse effect on late-game performance
-	POP_MERGE_MIN_NUM_POPS_SAME_PROFESSION = 4			# Employed Pops will not get merged with others in their same building if there aren't at least this many Pops of the same type in the building
-	WORKFORCE_RATIO_MAX_UNEMPLOYMENT_FACTOR = 2			# Unemployed Pops with less than POP_MERGE_MAX_WORKFORCE and a Workforce:Dependent ratio that's this much worse than the ideal will be all turned into Dependents and merged back into Pops in the same state
+	EXPECTED_SOL_FROM_LITERACY_SUBSISTENCE_MULT = 0.25	# Expected SoL from literacy is multiplied by this for Pops working in subsistence buildings
 	
-	EXPECTED_SOL_FROM_LITERACY_SUBSISTENCE_MULT = 0.01	# Expected SoL from literacy is multiplied by this for Pops working in subsistence buildings
+	### Pop Consolidation defines
+	# Pop Consolidation identifies pops so small their impact on the economy and politics is insignificant, and merges them into other pops in the same building or state.
+	# 
+	# POP_MERGE_MAX_WORKFORCE_*: determines how small the pop needs to be in terms of Workforce in order to qualify to be merged with others in their same building or the unemployment pool
+	# POP_MERGE_MIN_NUM_POPS_SAME_PROFESSION_*: employed pops will not get merged with others in their same building if there aren't at least this many pops of the same type in the building
+	# WORKFORCE_RATIO_MAX_UNEMPLOYMENT_FACTOR_*: unemployed Pops with less than POP_MERGE_MAX_WORKFORCE and a Workforce:Dependent ratio that's this much worse than the ideal will be all turned into Dependents and merged back into pops in the same state
+	# 
+	# The tail of the define name corresponds to a Pop Consolidation Game Rule with the same name. 
+	# When that Game Rule is active, the defined values for POP_MERGE_MAX_WORKFORCE and WORKFORCE_RATIO_MAX_UNEMPLOYMENT_FACTOR represent the minimum values, while the maximum are that of the level above it.
+	# POP_MERGE_START_POP and POP_MERGE_MAX_TARGET_POP determines how high to scale the values towards the level above it.
+	# For example, at Moderate Consolidation, POP_MERGE_START_POP = 50000 and POP_MERGE_MAX_TARGET_POP = 100000, and a global population of 87560 pops:
+	# POP_MERGE_MAX_WORKFORCE will effectively be 45 (75% of the way from 30 to 50) and WORKFORCE_RATIO_MAX_UNEMPLOYMENT_FACTOR will effectively be 1.6244 (75% of the way from 2 to 1.5) 
+	
+	POP_MERGE_MAX_WORKFORCE_MINOR_CONSOLIDATION = 10
+	POP_MERGE_MIN_NUM_POPS_SAME_PROFESSION_MINOR_CONSOLIDATION = 5
+	WORKFORCE_RATIO_MAX_UNEMPLOYMENT_FACTOR_MINOR_CONSOLIDATION = 2.5
+	POP_MERGE_MAX_WORKFORCE_MODERATE_CONSOLIDATION = 30						
+	POP_MERGE_MIN_NUM_POPS_SAME_PROFESSION_MODERATE_CONSOLIDATION = 4
+	WORKFORCE_RATIO_MAX_UNEMPLOYMENT_FACTOR_MODERATE_CONSOLIDATION = 2		
+	POP_MERGE_MAX_WORKFORCE_AGGRESSIVE_CONSOLIDATION = 50
+	POP_MERGE_MIN_NUM_POPS_SAME_PROFESSION_AGGRESSIVE_CONSOLIDATION = 3
+	WORKFORCE_RATIO_MAX_UNEMPLOYMENT_FACTOR_AGGRESSIVE_CONSOLIDATION = 1.5
+	POP_MERGE_MAX_WORKFORCE_MAX_CONSOLIDATION = 100
+	WORKFORCE_RATIO_MAX_UNEMPLOYMENT_FACTOR_MAX_CONSOLIDATION = 1
+	POP_MERGE_START_POPS = 5000
+	POP_MERGE_MAX_TARGET_POPS = 10000
 } 
 
 ### Pop Growth Constants
-@min_birthrate = 0.0008
+@min_birthrate = 0.0009
 @max_birthrate = 0.0080
 @min_mortality = 0.0005
-@max_mortality = 0.0070
+@max_mortality = 0.0060
 @pop_growth_sol_equilibrium = 5							# Equilibrium is where (with no birthrate/death-rate mods) growth is stagnant
 @pop_growth_sol_delta_cap = 40							# SoL Delta Cap is where net growth stops increasing with rising SoL, i.e. both drop at the same pace
 @pop_growth_sol_cap = 60								# SoL Cap is where they birthrate/death-rate stop dropping
@@ -1645,7 +1667,7 @@ NEvents = {
 
 NTechnology = {
 	TECH_SPREAD_RANDOM_RANGE = 0.5 # How much can distribution of tech spread vary each week
-	TECH_AHEAD_OF_TIME_PENALTY_FACTOR = 0.15	# For every tech in a previous era not already researched in this category, take this multiple of the cost as an additional penalty (multiplied by number of eras between the techs)
+	TECH_AHEAD_OF_TIME_PENALTY_FACTOR = 0.20	# For every tech in a previous era not already researched in this category, take this multiple of the cost as an additional penalty (multiplied by number of eras between the techs)
 }
 
 NCharacters = {
@@ -1678,20 +1700,28 @@ NCharacters = {
 
 	INHERIT_RECESSIVE_GENE_CHANCE = 0.25 # Probability of a recessive gene being picked as an heir's dominant/recessive gene. Only used for portraits.
 	
+	AGITATOR_EXPECTED_SPAWN_INTERVAL_0_LITERACY = 12 # At 0% literacy, a new agitator is expected to spawn in a given country once every this many years. (supports decimal values)
+	AGITATOR_EXPECTED_SPAWN_INTERVAL_100_LITERACY = 2 # At 100% literacy, a new agitator is expected to spawn in a given country once every this many years. (supports decimal values)
+	AGITATOR_MOVEMENT_SUPPORT_WEIGHT = 0.5 # Political movements will gain support from agitators' popularity multiplied by this weight
+	AGITATOR_MOVEMENT_POPULARITY_THRESHOLD = 15 # Agitators whose popularity is at or lower than this threshold will not be considered when starting/joining political movements
+
 	### TRAIT GENERATION
 	# Every week, a character's Expected Trait Value meter increases by the specified amount below depending on their role and what they're doing (Commanders also gain the Activity Level from their Orders)
 	# Every week, a percentile die is rolled against ( Expected Trait Value meter - Current Trait Value . If the die rolls under the current value, a new random trait will be added, if a valid one exists.
 	
 	WEEKLY_CONDITION_CHANCE = 0.03					# The chance that a character will get a condition each week (1 = 1%)
 	MAX_EXPECTED_TRAIT_VALUE = 12.0					# The maximum amount of Trait Value a character can develop normally (note: not adhered to by add_trait effect)
-	MAX_TRAITS_PERSONALITY = 1						# The max amount of Personality Traits a character can develop normally (note: not adhered to by add_trait effect)
-	MAX_TRAITS_SKILL = 3							# The max amount of Skill Traits a character can develop normally (note: not adhered to by add_trait effect)
+	MAX_TRAITS_PERSONALITY = 2						# The max amount of Personality Traits a character can develop normally (note: not adhered to by add_trait effect)
+	MAX_TRAITS_SKILL = 2							# The max amount of Skill Traits a character can develop normally (note: not adhered to by add_trait effect)
 	MAX_TRAITS_CONDITION = 2						# The max amount of Condition Traits a character can develop normally (note: not adhered to by add_trait effect)
-	DEFAULT_TRAIT_GAIN = 0.005 						# Every character's Expected Traits meter increases by this much per week by default
-	TRAIT_GAIN_POLITICIAN_POWERFUL = 0.01			# Powerful Politicians Expected Traits meter increases by this much per week
-	TRAIT_GAIN_POLITICIAN_MARGINALIZED = 0.001		# Marginalized Politicians Expected Traits meter increases by this much per week
-	TRAIT_GAIN_RULER = 0.005						# Rulers Expected Traits meter increases by this much per week
-	TRAIT_GAIN_COMMANDER_AT_WAR_ADDITIONAL = 0.01	# Commanders increase their Expected Traits Value meter this much *extra* each week while at war, in addition to the Activity Level of their Order
+	
+	TRAIT_GAIN_DIVISOR = 100.0						# Final trait gain is always divided by this so we don't have to use all the decimals
+	DEFAULT_TRAIT_GAIN = 0.25						# Every character's Expected Traits meter increases by this much per week by default
+	TRAIT_GAIN_POLITICIAN_POWERFUL = 0.1			# Powerful Politicians Expected Traits meter increases by this much *extra* each week
+	TRAIT_GAIN_RULER = 0.1							# Rulers Expected Traits meter increases by this much *extra* each week
+	TRAIT_GAIN_COMMANDER_RECRUITABLE = 0.05			# Recruitable offer commanders Expected Traits meter increases by this much per week, overrides all other factors
+	TRAIT_GAIN_IN_EXILE_POOL = 0.1					# Characters in the exile pool Expected Traits meter increases by this much per week, overrides all other factors
+	TRAIT_GAIN_VOIDED = 0.0							# Voided characters Expected Traits meter increases by this much per week, overrides all other factors
 
 	# The following parameters determine how character life expectancy is calculated. The calculation is based on a normal distribution with parameters:
 	# µ = CHARACTER_LIFE_EXPECTANCY_BASE_YEARS
@@ -1758,9 +1788,9 @@ NWar = {
 	AUTO_CAPITULATE_WAR_SUPPORT = -100 # When war support is this low, the country will auto capitulate
 	DAYS_BETWEEN_WAR_EXHAUSTION = 7 # Every this many days war support will be reduced by the war exhaustion formula
 	WAR_EXHAUSTION_BASE = 0.25
-	WAR_EXHAUSTION_KIA_FACTOR = 20.0 # Scaled by casualties compared to total manpower
-	WAR_EXHAUSTION_KIA_BASE_MULTIPLIER = 0.1	# War Exhaustion from casualties is always multiplied by at least this
-	WAR_EXHAUSTION_KIA_BATTLES_LOST_MULTIPLIER = 0.25 	# At 100% of battles lost by our side, War Exhaustion from casualties is further multiplied by this 
+	WAR_EXHAUSTION_KIA_FACTOR = 5.0 # Scaled by casualties compared to total manpower
+	WAR_EXHAUSTION_KIA_BASE_MULTIPLIER = 0.25	# War Exhaustion from casualties is always multiplied by at least this
+	WAR_EXHAUSTION_KIA_BATTLES_LOST_MULTIPLIER = 0.75 	# At 100% of battles lost by our side, War Exhaustion from casualties is further multiplied by this 
 	WAR_EXHAUSTION_TURMOIL_FACTOR = 2.0 # At 100% turmoil
 	WAR_EXHAUSTION_CONTESTED_ENEMY_WARGOALS = 1.0
 	OCCUPATION_STATE_BASE_WEIGHT = 1
@@ -1769,9 +1799,9 @@ NWar = {
 	
 	STATE_CONQUEST_HOMELAND_AND_CLAIM_RADICALIZATION = 0.1
 	STATE_CONQUEST_HOMELAND_AND_CLAIM_DEMILITARIZATION = 0.25
-	STATE_CONQUEST_HOMELAND_OR_CLAIM_RADICALIZATION = 0.2
+	STATE_CONQUEST_HOMELAND_OR_CLAIM_RADICALIZATION = 0.3
 	STATE_CONQUEST_HOMELAND_OR_CLAIM_DEMILITARIZATION = 0.5
-	STATE_CONQUEST_DEFAULT_RADICALIZATION = 0.4
+	STATE_CONQUEST_DEFAULT_RADICALIZATION = 0.5
 	STATE_CONQUEST_DEFAULT_DEMILITARIZATION = 0.75
 
 	NUM_PROVINCES_FOR_ADVANCEMENT_SELECTION = 5		# After having computed weights for possible advancement provinces using front_battle_province_weight, filter out all but the X top weighted provinces

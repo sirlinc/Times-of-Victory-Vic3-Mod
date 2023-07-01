@@ -515,25 +515,25 @@
 		region_state:JMB = {
 			create_pop = {
 				culture = sumatran
-				size=31179
+				size= 41179
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = sumatran
-				size = 6000
+				size = 26000
 			}
 			create_pop = {
 				culture = batak
-				size = 7032
+				size = 27032
 			}
 			create_pop = {
 				culture = batak
 				religion = sunni
-				size = 1928
+				size = 21928
 			}
 			create_pop = {
 				culture = yue
-				size = 1004
+				size = 21004
 			}
 		}
 	}

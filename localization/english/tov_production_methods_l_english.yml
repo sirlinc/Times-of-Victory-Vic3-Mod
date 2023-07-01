@@ -1,7 +1,6 @@
 ﻿l_english:
 
 #Arts Academy
-
 pmg_print_culture: "Print Culture"
 pm_woodblock_printing: "Woodblock Printing"
 pm_pamphlets: "Pamphlets"
@@ -9,7 +8,6 @@ pm_daily_newspapers: "Daily Newspapers"
 pm_paperback_novels: "Paperback Novels"
 pm_journalistic_media: "Journalistic Media"
 pm_radio_dramas: "Radio Dramas"
-
 pmg_performed_culture: "Performed Culture"
 pm_traditional_art: "Traditional Art"
 pm_piano_compositions: "Piano Compositions"
@@ -17,7 +15,6 @@ pm_symphony_orchestras: "Symphony Orchestras"
 pm_daguerrotypes: "Daguerrotypes"
 pm_motion_pictures: "Motion Pictures"
 pm_theatre_realism: "Theatre Realism"
-
 pmg_patronage: "Patronage"
 pm_traditional_patrons: "Traditional Patrons"
 pm_religious_institutions: "Religious Institutions"
@@ -26,7 +23,6 @@ pm_state_mouthpiece: "State Mouthpiece"
 pm_military_media_interface: "Military-Media Interface"
 pm_workers_unions: "Worker's Unions"
 pm_independent_art_movements: "Independent Art Movements"
-
 pmg_ideological_focus: "Ideological Focus"
 pm_apolitical: "Apolitical"
 pm_traditionalism: "Traditionalism"
@@ -34,9 +30,7 @@ pm_jingoism: "Jingoism"
 pm_liberalism: "Liberalism"
 pm_nationalism: "Nationalism"
 pm_radicalism: "Radicalism"
-
 #Urban Center
-
 pmg_utilities: "Utilities"
 pm_drainage_ditches: "Drainage Ditches"
 pm_public_wells: "Public Wells"
@@ -44,7 +38,6 @@ pm_kerosene_steet_lamps: "Kerosene Street Lamps"
 pm_sewerage_systems: "Sewerage Systems"
 pm_electric_steet_lamps: "Electric Street Lamps"
 pm_utility_poles: "Utility Poles"
-
 pmg_roadways: "Roadways"
 pm_dirt_trails: "Dirt Trails"
 pm_trackways: "Trackways"
@@ -52,7 +45,6 @@ pm_paved_roads: "Paved Roads"
 pm_macadam_roads: "Macadam Roads"
 pm_tarmacadam_roads: "Tarmacadam Roads"
 pm_motorways: "Motorways"
-
 pmg_commerce: "Commerce"
 pm_travelling_fairs: "Travelling Fairs"
 pm_market_squares: "Market Squares"
@@ -60,9 +52,7 @@ pm_banks: "Banks"
 pm_arcades: "Arcades"
 pm_stock_exchanges: "Stock Exchanges"
 pm_department_stores: "Department Stores"
-
 #Government Administration
-
 pmg_organisation: "Organisation"
 pm_repositories: "Repositories"
 pm_central_archives: "Central Archives"
@@ -70,7 +60,6 @@ pm_public_libraries: "Public Libraries"
 pm_public_works_departments: "Public Works Departments"
 pm_index_cards: "Index Cards"
 pm_filing_cabinets: "Vertical Filing Cabinets"
-
 pmg_communication: "Communication"
 pm_horseback_couriers: "Horseback Couriers"
 pm_posthouses: "Posthouses"
@@ -78,36 +67,28 @@ pm_semaphore_towers: "Semaphore Towers"
 pm_electrical_telegraphs: "Electrical Telegraphs"
 pm_telephone_switchboards: "Telephone Switchboards"
 pm_radio_towers: "Radio Towers"
-
 pmg_law_enforcement: "Law Enforcement"
 pm_unorganised_militia: "Unorganised Militia"
 pm_city_watch: "City Watch"
 pm_courts_of_law: "Courts of Law"
 pm_police_departments: "Police Departments"
 pm_detective_units: "Detective Units"
-
 pmg_academic_principles: "Academic Principles"
 pm_indoctrination: "Indoctrination"
 pm_censorship: "Censorship"
 pm_freedom: "Freedom"
-pm_radicalism: "Radicalism"
-
 pmg_bureaucracy: "Bureaucracy"
 pm_hereditary_bureaucracy: "Hereditary Bureaucracy"
 pm_religious_bureaucracy: "Religious Bureaucracy"
 pm_military_bureaucracy: "Military Bureaucracy"
 pm_professional_bureaucracy: "Professional Bureaucracy"
-
-
 #University
-
 pmg_education: "Education"
 pm_liberal_arts: "Liberal Arts"
 pm_humanities: "Humanities"
 pm_academic_philosophy: "Academic Philosophy"
 pm_social_sciences: "Social Sciences"
 pm_political_ecology: "Political Ecology"
-
 pmg_scientific_infrastructure: "Scientific Infrastructure"
 pm_no_science_infrastructure: "No Infrastructure"
 pm_operating_theatres: "Operating Theatres"
@@ -115,35 +96,23 @@ pm_society_journals: "Society Journals"
 pm_chemical_laboratories: "Chemical Laboratories"
 pm_research_departments: "Research Departments"
 pm_applied_research_labs: "Applied Research Labs"
-
 pmg_institutions: "Institutions"
 pm_elitist_schools: "Elitist Institutions"
 pm_private_institutions: "Private Institutions"
 pm_religious_schools: "Religious Schools"
 pm_military_academies: "Military Academies"
 pm_public_institutions: "Government Institutions"
-
-pmg_academic_principles: "Academic Principles"
-pm_indoctrination: "Indoctrination"
-pm_censorship: "Censorship"
-pm_freedom: "Freedom"
-pm_radicalism: "Radicalism"
-
 # Trade Center
-
 pm_corporate_entity: "Corporate Entity"
 pm_cooperative_association: "Cooperative Association"
 pm_trade_center_charter: "Chartered"
-
 #building_base_farmland
-
 pmg_motive_power_base_farmland: "Farming Motive Power"
 pm_manual_labor_farmland: "Manual Labor"
 pm_draft_animals_farmland: "Draft Animals"
 pm_portable_engine_farmland: "Portable Engine"
 pm_steam_powered_tractors_farmland: "Steam-powered Tractors"
 pm_diesel_tractors_farmland: "Diesel Tractors"
-
 pmg_land_tenure_base_farmland: "Land Tenure"
 pm_tributary_system_farmland: "Tributary System"
 pm_smallholders_farmland: "Smallholders"
@@ -151,9 +120,7 @@ pm_military_homesteads_farmland: "Military Homesteads"
 pm_corporate_entities_farmland: "Corporate Entities"
 pm_state_ownership_farmland: "State Ownership"
 pm_worker_cooperative_farmland: "Worker Cooperative"
-
 #Temperate Farmland
-
 pmg_wheat_yield_temperate_farmland: "Wheat Yield"
 pm_rye_cultivation_tef: "Rye Cultivation"
 pm_potash_tef: "Potash"
@@ -161,7 +128,6 @@ pm_bread_wheat_cultivation_tef: "Bread Wheat Cultivation"
 pm_gypsum_fertilizer_tef: "Gypsum Fertilizer"
 pm_pesticides_tef: "Pesticides"
 pm_ammonia_fertilizer_tef: "Ammonia Fertilizer"
-
 pmg_secondary_building_temperate_farmland: "Secondary Buildings"
 pm_no_secondary_yields_tef: "No Secondary Yields"
 pm_flax_and_hemp_fields_tef: "Flax and Hemp Fields"
@@ -169,16 +135,13 @@ pm_sugarbeet_fields_tef: "Sugarbeet Fields"
 pm_coppice_woodland_tef: "Coppice Woodland"
 pm_vineyards_tef: "Vineyards"
 pm_tomato_greenhouses_tef: "Tomato Greenhouses"
-
 pmg_mechanization_temperate_farmland: "Wheat Mechanization"
 pm_tools_disabled_tef: "No Tools"
 pm_mould_board_plows_tef: "Mould-Board Plows"
 pm_reaper_binders_tef: "Reaper-binders"
 pm_combine_harvesters_tef: "Combine Harvesters"
 pm_automated_irrigation_tef: "Automated Irrigation"
-
 #Tropical Farmland
-
 pmg_legume_yield_tropical_farmland: "Legume Yield"
 pm_grain_legume_cultivation_trf: "Grain Legume Cultivation"
 pm_cereal_intercropping_trf: "Cereal Intercropping"
@@ -186,7 +149,6 @@ pm_high_yield_landraces_trf: "High Yield Landraces"
 pm_potassium_fertilizer_trf: "Potassium Fertilizer"
 pm_pesticides_trf: "Pesticides"
 pm_ammonia_fertilizer_trf: "Ammonia Fertilizer"
-
 pmg_secondary_building_tropical_farmland: "Secondary Buildings"
 pm_no_secondary_yields_trf: "No Secondary Yields"
 pm_jute_fields_trf: "Jute Fields"
@@ -194,16 +156,13 @@ pm_hardwood_forestry_trf: "Hardwood Forestry"
 pm_cacao_plantations_trf: "Cacao Plantations"
 pm_tropical_dyes_trf: "Tropical Dyes"
 pm_palm_fermentation_trf: "Palm Fermentation"
-
 pmg_mechanization_tropical_farmland: "Legume Mechanization"
 pm_tools_disabled_trf: "No Tools"
 pm_tillage_tools_trf: "Tillage Tools"
 pm_threshers_trf: "Threshers"
 pm_combine_harvesters_trf: "Combine Harvesters"
 pm_automated_irrigation_trf: "Automated Irrigation"
-
 #wetlands Farmland
-
 pmg_rice_yield_wetlands_farmland: "Rice Yield"
 pm_rice_cultivation_wef: "Rice Cultivation"
 pm_paddies_and_terraces_wef: "Paddies and Terraces"
@@ -211,7 +170,6 @@ pm_rice_hybridization_wef: "Rice Hybridization"
 pm_pesticides_wef: "Pesticides"
 pm_nitrate_fertilizer_wef: "Nitrate Fertilizer"
 pm_enriched_rice_wef: "Enriched Rice"
-
 pmg_secondary_building_wetlands_farmland: "Secondary Buildings"
 pm_no_secondary_yields_wef: "No Secondary Yields"
 pm_jute_plantations_wef: "Jute Plantations"
@@ -219,16 +177,13 @@ pm_pepper_plantations_wef: "Pepper Plantations"
 pm_wetlands_clay_wef: "Wetlands Clay"
 pm_rice_fish_aquaculture_wef: "Rice-Fish Aquaculture"
 pm_rice_triple_cropping_wef: "Rice Triple Cropping"
-
 pmg_mechanization_wetlands_farmland: "Rice Mechanization"
 pm_tools_disabled_wef: "No Tools"
 pm_spike_harrows_wef: "Spike Harrows"
 pm_hulling_machines_wef: "Hulling Machines"
 pm_combine_harvesters_wef: "Combine Harvesters"
 pm_automated_irrigation_wef: "Automated Irrigation"
-
 #Arid Farmland
-
 pmg_millet_yield_arid_farmland: "Millet Yield"
 pm_sorghum_cultivation_arf: "Sorghum Cultivation"
 pm_cereal_intercropping_arf: "Cereal Intercropping"
@@ -236,44 +191,37 @@ pm_pearl_millet_cultivation_arf: "Pearl Millet Cultivation"
 pm_gypsum_fertilizer_arf: "Gypsum Fertilizer"
 pm_pesticides_arf: "Pesticides"
 pm_ammonia_fertilizer_arf: "Ammonia Fertilizer"
-
 pmg_secondary_building_arid_farmland: "Secondary Buildings"
 pm_no_secondary_yields_arf: "No Secondary Yields"
 pm_raffia_palm_groves_arf: "Raffia Palm Groves"
 pm_coffee_plantations_arf: "Coffee Plantations"
 pm_fig_tree_orchards_arf: "Fig Orchards"
 pm_vineyards_arf: "Vineyards"
-
 pmg_mechanization_arid_farmland: "Millet Mechanization"
 pm_tools_disabled_arf: "No Tools"
 pm_panemone_windmills_arf: "Panemone Windmills"
 pm_irrigation_aqueducts_arf: "Irrigation Aqueducts"
 pm_combine_harvesters_arf: "Combine Harvesters"
 pm_automated_irrigation_arf: "Automated Irrigation"
-
 #Base Pasture
-
 pmg_processing_base_pasture: "Processing"
 pm_cured_meats: "Cured Meats"
 pm_natural_preservatives: "Natural Preservatives"
 pm_butchering_tools: "Butchering Tools"
 pm_abattoirs: "Abattoirs"
 pm_refrigerated_rail_cars: "Refrigerated Rail Cars"
-
 pmg_horses_base_pasture: "Horses"
 pm_no_horses: "No Horses"
 pm_draft_breeds: "Draft Breeds"
 pm_baroque_breeds: "Baroque Breeds"
 pm_warmblooded_breeds: "Warmblooded Breeds"
 pm_stock_horse_breeds: "Stock Horse Breeds"
-
 pmg_tanneries_base_pasture: "Tanneries"
 pm_natural_hides: "Natural Hides"
 pm_vegetable_tannins: "Vegetable Tannins"
 pm_dyed_hides: "Dyed Hides"
 pm_collagen_glue_factories: "Collagen Glue Factories"
 pm_chrome_tanning: "Chrome Tanning"
-
 pmg_land_tenure_base_pasture: "Land Tenure"
 pm_commons_pasture: "Commons"
 pm_rural_estates_pasture: "Rural Estates"
@@ -281,18 +229,14 @@ pm_fortified_ranches_pasture: "Fortified Ranches"
 pm_corporate_entities_pasture: "Corporate Entities"
 pm_state_ownership_pasture: "State Ownership"
 pm_worker_cooperative_pasture: "Worker Cooperative"
-
 #Prime Pasture
-
 pmg_prime_pasture: "Prime Pasture"
 pm_free_range_prp: "Free Range"
 pm_silage_prp: "Silage"
 pm_prime_breeds_prp: "Prime Breeds"
 pm_rotational_grazing_prp: "Rotational Grazing"
 pm_batteries_prp: "Batteries"
-
 #Base Mine
-
 pmg_processing_base_mine: "Processing"
 pm_manual_sorting_base_mine: "Manual Sorting"
 pm_arrastras_base_mine: "Arrastras"
@@ -301,7 +245,6 @@ pm_newcomen_engine_base_mine: "Newcomen Engine"
 pm_ore_vanning_base_mine: "Ore Vanning"
 pm_flameless_lights_base_mine: "Flameless Lights"
 pm_electrostatic_separator_base_mine: "Electrostatic Separator"
-
 pmg_resource_rights_base_mine: "Resource Rights"
 pm_liege_rights_base_mine: "Liege Rights"
 pm_guild_privileges_base_mine: "Guild Privileges"
@@ -309,9 +252,7 @@ pm_leasehold_rights_base_mine: "Leasehold Rights"
 pm_prospector_claims_base_mine: "Prospector Claims"
 pm_private_property_base_mine: "Private Property"
 pm_national_patrimony_base_mine: "National Patrimony"
-
 #Coal Mine
-
 pmg_extraction_coal_mine: "Extraction"
 pm_picks_and_shovels_coal_mine: "Picks and Shovels"
 pm_drainage_pumps_coal_mine: "Drainage Pumps"
@@ -320,16 +261,13 @@ pm_hydraulic_mining_coal_mine: "Hydraulic Mining"
 pm_deep_shaft_machinery_coal_mine: "Deep Shaft Machinery"
 pm_ventilation_fans_coal_mine: "Ventilation Fans"
 pm_boring_machines_coal_mine: "Boring Machines"
-
 pmg_blasting_coal_mine: "Blasting"
 pm_no_blasting_coal_mine: "No Blasting"
 pm_fire_setting_coal_mine: "Fire Setting"
 pm_blackpowder_coal_mine: "Blackpowder"
 pm_nitroglycerin_coal_mine: "Nitroglycerin"
 pm_dynamite_coal_mine: "Dynamite"
-
 #Iron Mine
-
 pmg_extraction_iron_mine: "Extraction"
 pm_picks_and_shovels_iron_mine: "Picks and Shovels"
 pm_drainage_pumps_iron_mine: "Drainage Pumps"
@@ -338,16 +276,13 @@ pm_hydraulic_mining_iron_mine: "Hydraulic Mining"
 pm_deep_shaft_machinery_iron_mine: "Deep Shaft Machinery"
 pm_ventilation_fans_iron_mine: "Ventilation Fans"
 pm_boring_machines_iron_mine: "Boring Machines"
-
 pmg_blasting_iron_mine: "Blasting"
 pm_no_blasting_iron_mine: "No Blasting"
 pm_fire_setting_iron_mine: "Fire Setting"
 pm_blackpowder_iron_mine: "Blackpowder"
 pm_nitroglycerin_iron_mine: "Nitroglycerin"
 pm_dynamite_iron_mine: "Dynamite"
-
 #Lead Mine
-
 pmg_extraction_lead_mine: "Extraction"
 pm_picks_and_shovels_lead_mine: "Picks and Shovels"
 pm_drainage_pumps_lead_mine: "Drainage Pumps"
@@ -356,16 +291,13 @@ pm_hydraulic_mining_lead_mine: "Hydraulic Mining"
 pm_deep_shaft_machinery_lead_mine: "Deep Shaft Machinery"
 pm_ventilation_fans_lead_mine: "Ventilation Fans"
 pm_boring_machines_lead_mine: "Boring Machines"
-
 pmg_blasting_lead_mine: "Blasting"
 pm_no_blasting_lead_mine: "No Blasting"
 pm_fire_setting_lead_mine: "Fire Setting"
 pm_blackpowder_lead_mine: "Blackpowder"
 pm_nitroglycerin_lead_mine: "Nitroglycerin"
 pm_dynamite_lead_mine: "Dynamite"
-
 #Sulfur Mine
-
 pmg_extraction_sulfur_mine: "Extraction"
 pm_picks_and_shovels_sulfur_mine: "Picks and Shovels"
 pm_drainage_pumps_sulfur_mine: "Drainage Pumps"
@@ -374,16 +306,13 @@ pm_hydraulic_mining_sulfur_mine: "Hydraulic Mining"
 pm_deep_shaft_machinery_sulfur_mine: "Deep Shaft Machinery"
 pm_ventilation_fans_sulfur_mine: "Ventilation Fans"
 pm_boring_machines_sulfur_mine: "Boring Machines"
-
 pmg_blasting_sulfur_mine: "Blasting"
 pm_no_blasting_sulfur_mine: "No Blasting"
 pm_fire_setting_sulfur_mine: "Fire Setting"
 pm_blackpowder_sulfur_mine: "Blackpowder"
 pm_nitroglycerin_sulfur_mine: "Nitroglycerin"
 pm_dynamite_sulfur_mine: "Dynamite"
-
 #Gold Mine
-
 pmg_extraction_gold_mine: "Extraction"
 pm_picks_and_shovels_gold_mine: "Picks and Shovels"
 pm_drainage_pumps_gold_mine: "Drainage Pumps"
@@ -392,16 +321,13 @@ pm_hydraulic_mining_gold_mine: "Hydraulic Mining"
 pm_deep_shaft_machinery_gold_mine: "Deep Shaft Machinery"
 pm_ventilation_fans_gold_mine: "Ventilation Fans"
 pm_boring_machines_gold_mine: "Boring Machines"
-
 pmg_blasting_gold_mine: "Blasting"
 pm_no_blasting_gold_mine: "No Blasting"
 pm_fire_setting_gold_mine: "Fire Setting"
 pm_blackpowder_gold_mine: "Blackpowder"
 pm_nitroglycerin_gold_mine: "Nitroglycerin"
 pm_dynamite_gold_mine: "Dynamite"
-
 #Construction Sector
-
 pmg_building_methods_construction: "Building Methods"
 pm_braced_framing: "Braced Framimg"
 pm_window_glazing: "Window Glazing"
@@ -409,14 +335,12 @@ pm_balloon_framing: "Balloon Framing"
 pm_iron_frame_buildings: "Iron Frame Buildings"
 pm_steel_frame_buildings: "Steel Frame Buildings"
 pm_earthmovers: "Earthmovers"
-
 pmg_organization_construction: "Organization"
 pm_corvee_labour_construction: "Corvée Labour"
 pm_artisan_guilds_construction: "Artisan Guilds"
 pm_construction_firms_construction: "Construction Firms"
 pm_engineer_corps_construction: "Engineer Corps"
 pm_industrial_conglomerate_construction: "Industrial Conglomerate"
-
 #Logging Camp
 pmg_logging_logging_camp: "Logging"
 pm_crosscut_saws: "Crosscut Saws"
@@ -425,46 +349,37 @@ pm_circular_saws: "Circular Saws"
 pm_powered_saws: "Powered Saws"
 pm_band_saws: "Band Saws"
 pm_chainsaws: "Chainsaws"
-
 pmg_hauling_logging_camp: "Hauling"
 pm_manual_hauling: "Manual Hauling"
 pm_skid_trails: "Skid Trails"
 pm_log_flumes: "Log Flumes"
 pm_steam_donkey: "Steam Donkey"
 pm_logging_trucks: "Logging Trucks"
-
 pmg_forestry_management_logging_camp: "Forestry Management"
 pm_aristocratic_reserve: "Aristocratic Reserve"
 pm_common_land: "Common Land"
 pm_state_ownership_logging_camp: "State Ownership"
 pm_private_ownership_logging_camp: "Private Ownership"
 pm_national_parks: "National Parks"
-
 #Oil Derricks
-
 pmg_extraction_oil_derrick: "Extraction"
 pm_cable_tool_drilling: "Cable Tool Drilling"
 pm_rotary_drilling: "Rotary Drilling"
 pm_directional_drilling: "Directional Drilling"
-
 pmg_drilling_rig_oil_derrick: "Drilling Rigs"
 pm_steam_powered_drilling_rigs: "Steam-powered Drilling Rigs"
 pm_gas_powered_drilling_rigs: "Gas-powered Drilling Rigs"
 pm_electric_drilling_rigs: "Electric Drilling Rigs"
-
 pmg_transportation_oil_derrick: "Transportation"
 pm_blue_barrels: "Blue Barrels"
 pm_tanker_railcars: "Tanker Railcars"
 pm_oil_pipelines: "Oil Pipelines"
-
 pmg_ownership_oil_derrick: "Ownership"
 pm_oil_magnates: "Oil Magnates"
 pm_nationalized_oil: "Nationalized Oil"
 pm_industrial_conglomerate_oil: "Industrial Conglomerate"
 pm_military_industrial_complex_oil: "Military-Industrial Complex"
-
 #Base Plantations
-
 pmg_infrastructure_base_plantation: "Infrastructure"
 pm_minimal_infrastructure: "Minimal Infrastructure"
 pm_irrigation_networks: "Irrigation Networks"
@@ -472,21 +387,18 @@ pm_warehouses: "Warehouses"
 pm_rail_linkages: "Rail Linkages"
 pm_cold_storage: "Cold Storage"
 pm_electrified_fences: "Electrified Fences"
-
 pmg_ownership_base_plantation: "Ownership"
 pm_titled_aristocracy: "Titled Aristocracy"
 pm_religious_order: "Religious Order"
 pm_planter_aristocracy: "Planter Aristocracy"
 pm_corporate_entities_plantation: "Corporate Entities"
 pm_state_owned_plantations: "State Owned Plantations"
-
 pmg_labor_equity_base_plantation: "Labor Equity"
 pm_forced_labor: "Forced Labor"
 pm_exploitation: "Exploitation"
 pm_tenant_farming: "Tenant Farming"
 pm_collectivization: "Collectivization"
 pm_fair_trade: "Fair Trade"
-
 #Tea Plantation
 pmg_innovations_tea_plantation: "Tea Innovations"
 pm_hand_rolling_tea: "Hand-rolling"
@@ -494,7 +406,6 @@ pm_withering_racks_tea: "Withering Racks"
 pm_hydraulic_tea_press_tea: "Hydraulic Tea Press"
 pm_tea_blending_machines_tea: "Tea Blending Machines"
 pm_ctc_machines_tea: "CTC Machines"
-
 #Coffee Plantation
 pmg_innovations_coffee_plantation: "Coffee Innovations"
 pm_dry_processing_coffee: "Dry Processing"
@@ -502,7 +413,6 @@ pm_strip_picking_tools_coffee: "Strip Picking Tools"
 pm_roasting_machines_coffee: "Roasting Machines"
 pm_fermentation_tanks_coffee: "Fermentation Tanks"
 pm_freeze_dried_coffee_coffee: "Freeze Dried Coffee"
-
 #Spice Plantation
 pmg_innovations_spice_plantation: "Spice Innovations"
 pm_natural_spices_spice: "Natural Spices"
@@ -510,7 +420,6 @@ pm_grinding_mills_spice: "Grinding Mills"
 pm_aromatics_extraction_spice: "Aromatics Extraction"
 pm_steam_sterilization_spice: "Steam Sterilization"
 pm_sorting_and_grading_machines_spice: "Sorting and Grading Machines"
-
 #Sugarcane Plantation
 pmg_innovations_sugarcane_plantation: "Sugarcane Innovations"
 pm_sugarloaf_molds_sugarcane: "Sugarloaf Molds"
@@ -518,7 +427,6 @@ pm_molasses_separation_sugarcane: "Molasses Separation"
 pm_cane_crushers_sugarcane: "Cane Crushers"
 pm_vacuum_pan_evaporation_sugarcane: "Vacuum Pan Evaporation"
 pm_centrifugation_sugarcane: "Centrifugation"
-
 #Cotton Plantation
 pmg_innovations_cotton_plantation: "Cotton Innovations"
 pm_hand_picking_cotton: "Hand-picking"
@@ -526,7 +434,6 @@ pm_fiber_carding_tools_cotton: "Fiber Carding Tools"
 pm_cotton_gin_cottons: "Cotton Gins"
 pm_diesel_powered_gins_cotton: "Diesel-powered Gins"
 pm_cotton_harvesters_cotton: "Cotton Harvesters"
-
 #Tobacco Plantation
 pmg_innovations_tobacco_plantation: "Tobacco Innovations"
 pm_darkleaf_tobacco_tobacco: "Darkleaf Tobacco"
@@ -534,7 +441,6 @@ pm_protective_frames_tobacco: "Protective Frames"
 pm_brightleaf_tobacco_tobacco: "Brightleaf Tobacco"
 pm_shredding_machines_tobacco: "Shredding Machines"
 pm_cigarette_rolling_machines_tobacco: "Cigarette Rolling Machines"
-
 #Silk Plantation
 pmg_innovations_silk_plantation: "Silk Innovations"
 pm_wild_silk: "Wild Silk"
@@ -542,100 +448,82 @@ pm_silk_threading_looms_silk: "Silk Threading Looms"
 pm_rotary_mountage_silk: "Rotary Mountage"
 pm_mechanical_spooling_silk: "Mechanical Spooling"
 pm_automatic_reeling_devices_silk: "Automatic Reeling Devices"
-
 #Rubber Plantation
 pmg_innovations_rubber_plantation: "Rubber Innovations"
 pm_rubber_mastication_rubber: "Rubber Mastication"
 pm_vulcanized_rubber_rubber: "Vulcanized Rubber"
 pm_coagulating_agents_rubber: "Coagulating Agents"
 pm_ammoniation_rubber: "Ammoniation"
-
 #Opium Plantation
 pmg_innovations_opium_plantation: "Opium Innovations"
 pm_camphorated_opium_opium: "Camphorated Opium"
 pm_morphine_extraction_opium: "Morphine Extraction"
 pm_codeine_isolation_opium: "Codeine Isolation"
 pm_heroin_synthesis_opium: "Heroin Synthesis"
-
 #Power Plant
 pmg_fuel_power_plant: "Fuel Source"
 pm_coal_power_plant: "Coal"
 pm_fuel_oil_power_plant: "Fuel Oil"
 pm_pumped_storage_power_plant: "Pumped Storage"
-
 pmg_power_generation_power_plant: "Electricity Generation"
 pm_reciprocating_steam_engines_power_plant: "Reciprocating Steam Engines"
 pm_steam_turbines_power_plant: "Steam Turbines"
 pm_francis_turbines_power_plant: "Francis Turbines"
-
 pmg_infrastructure_power_plant: "Electrical Infrastructure"
 pm_no_power_grid_infrastructure: "No Power Grid Infrastructure"
 pm_neighborhood_power_grids: "Neighborhood Power Grids"
 pm_city_power_grids: "City Power Grids"
 pm_regional_power_grids: "Regional Power Grids"
-
 pmg_ownership_power_plant: "Ownership"
 pm_private_ownership_power_plant: "Private Ownership"
 pm_public_private_partnership_power_plant: "Public-Private Partnership"
 pm_nationalized_plants_power_plant: "Nationalized Plants"
-
 #Kaolin Mine
-
 pmg_kaolin_extraction: "Kaolin Extraction"
 pm_picks_and_shovels_kaolin_mine: "Picks and Shovels"
 pm_stamp_mills_kaolin_mine: "Stamp Mills"
 pm_hydraulic_mining_kaolin_mine: "Hydraulic Mining"
 pm_centrifugation_kaolin_mine: "Centrifugation"
 pm_open_pit_mining_kaolin_mine: "Open-Pit Mining"
-
 pmg_kaolin_kilns: "Kaolin Kilns"
 pm_crossdraft_kilns_kaolin_mine: "Crossdraft Kilns"
 pm_shuttle_kilns_kaolin_mine: "Shuttle Kilns"
 pm_gas_fired_kilns_kaolin_mine: "Gas Fired Kilns"
 pm_hoffmann_kilns_kaolin_mine: "Hoffmann Kilns"
-
 #Base Industry
-
 pmg_motive_power: "Motive Power"
 pm_manual_labour: "Manual Labour"
 pm_draft_animals: "Draft Animals"
 pm_rotating_mills: "Rotating Mills"
-
 pmg_industrial_motive_power: "Industrial Motive Power"
 pm_steam_engines: "Steam Engines"
 pm_rotary_valve_engine: "Rotary Valve Engine"
 pm_petrol_engines: "Petrol Engines"
 pm_electronic_process_control: "Electronic Process Control"
-
 pmg_pre_industrial_organization: "Pre-Industrial Organization"
 pm_decentralized_industry: "Decentralized Industry"
 pm_aristocratic_control: "Aristocratic Control"
 pm_guild_monopolies: "Guild Monopolies"
-
 pmg_industrial_organization: "Industrial Organization"
 pm_state_owned_enterprise: "State-Owned Enterprise"
 pm_military_industrial_complex: "Military-Industrial Complex"
 pm_workers_cooperative: "Workers' Cooperative"
 pm_small_and_medium_enterprises: "Small and Medium Enterprises"
 pm_industrial_conglomerate: "Industrial Conglomerate"
-
+pm_industrial_conglomerate_river: "Industrial Conglomerate"
 #Glassworks
-
 pmg_kilns: "Kilns"
 pm_crossdraft_kilns: "Crossdraft Kilns"
 pm_shuttle_kilns: "Shuttle Kilns"
 pm_gas_fired_kilns: "Gas-Fired Kilns"
 pm_hoffmann_kilns: "Hoffmann Kilns"
-
 pmg_glassworks: "Glassworks"
 pm_forest_glass: "Forest Glass"
 pm_lead_crystal_glass: "Lead Crystal Glass"
 pm_polished_plate_glass: "Polished Plate Glass"
 pm_cylinder_sheet_glass: "Cylinder Sheet Glass"
 pm_borosilicate_glass: "Borosilicate Glass"
-
 #Smelteries
-
 pm_crucible_steel_parts: "Crucible Steel Parts"
 pm_chromium_steel_parts: "Chromium Steel Parts"
 pm_tungsten_carbide_parts: "Tungsten Carbide Parts"
@@ -643,7 +531,6 @@ pm_confectionery: "Confectionery"
 pm_no_liquor: "No Liquor"
 pm_no_chemicals: "No Chemicals"
 pm_cotton_gins_cotton: "Cotton Gins Cotton"
-
 pmg_ironworks: "Ironworks"
 pm_bloomery: "Bloomery"
 pm_blast_furnace: "Blast Furnace"
@@ -651,7 +538,6 @@ pm_rolling_mill: "Rolling Mill"
 pm_potting_and_stamping: "Potting and Stamping"
 pm_puddling_process: "Puddling Process"
 pm_electric_arc_furnace_iron: "Electric Arc Furnace"
-
 pmg_steelworks: "Steelworks"
 pm_no_steel: "No Steel"
 pm_blister_steel: "Blister Steel"
@@ -659,77 +545,63 @@ pm_crucible_steel: "Crucible Steel"
 pm_bessemer_process: "Bessemer Process"
 pm_open_hearth_furnace: "Open-Hearth Furnace"
 pm_electric_arc_furnace_steel: "Electric Arc Furnace"
-
 pmg_alloys: "Alloys"
 pm_no_alloys: "No Alloys"
 pm_pewter_alloys: "Pewter Alloys"
 pm_brass_alloys: "Brass Alloys"
 pm_soldering_alloys: "Soldering Alloys"
 pm_aluminium_alloys: "Aluminium Alloys"
-
 pmg_slag_byproducts: "Slag Byproducts"
 pm_resmelting: "Resmelting"
 pm_iron_mordants: "Iron Mordants"
 pm_ferrous_fertilizers: "Ferrous Fertilizers"
 pm_mineral_wool: "Mineral Wool"
 pm_slag_glass: "Slag Glass"
-
 #Food Industries
-
 pmg_baking: "Baking"
 pm_comfits: "Comfits"
 pm_baking_powder: "Baking Powder"
 pm_commercial_yeast: "Commercial Yeast"
 pm_solid_chocolate: "Solid Chocolate"
-
 pmg_liquor_distillation: "Liquor Distillation"
 pm_wooden_casks: "Wooden Casks"
 pm_brew_kettles: "Brew Kettles"
 pm_pot_stills: "Pot Stills"
 pm_column_stills: "Column Stills"
 pm_chromium_vessels: "Chromium Vessels"
-
 pmg_opium_tinctures: "Opium Tinctures"
 pm_no_tinctures: "No Tinctures"
 pm_laudanum: "Laudanum"
-
 pmg_canning: "Canning"
 pm_no_canning: "No Canning"
 pm_glass_jars: "Glass Jars"
 pm_metal_cans: "Metal Cans"
 pm_vacuum_sealed_cans: "Vacuum-Sealed Cans"
 pm_freeze_dried_food: "Freeze-Dried Food"
-
 pmg_kitchen_appliances: "Kitchen Appliances"
 pm_basic_appliances: "Basic Appliances"
 pm_oven_thermometers: "Oven Thermometers"
 pm_gas_stoves: "Gas Stoves"
 pm_electric_mixers: "Electric Mixers"
 pm_dishwashers: "Dishwashers"
-
 #Couture Industries
-
 pmg_dyeworks: "Dyeworks"
 pm_organic_dyes: "Organic Dyes"
 pm_sulfate_mordants: "Sulfate Mordants"
 pm_chromium_mordants: "Chromium Mordants"
 pm_aniline_dyes: "Aniline Dyes"
 pm_azo_dyes: "Azo Dyes"
-
 pmg_luxury_clothes: "Luxury Clothes"
 pm_no_luxury_clothes: "No Luxury Clothes"
 pm_artisanal_weavers: "Artisanal Weavers"
 pm_couture_fabrics: "Couture Fabrics"
 pm_black_and_white_tie: "Black and White Tie"
 pm_sportswear: "Sportswear"
-
 pmg_waterproof_clothing: "Waterproof Clothing"
 pm_no_waterproof_clothing: "No Waterproof Clothing"
 pm_raincoats: "Raincoats"
 pm_trenchcoats: "Trenchcoats"
-
 #Textile Mills
-
 pmg_clothes: "Clothes"
 pm_treadle_looms: "Treadle Looms"
 pm_flying_shuttles: "Flying Shuttles"
@@ -737,24 +609,19 @@ pm_spinning_jenny: "Spinning Jenny"
 pm_jacquard_heads: "Jacquard Heads"
 pm_sewing_machines: "Sewing Machines"
 pm_automatic_power_looms: "Automatic Power Looms"
-
 #Furniture Factories
-
 pmg_furniture: "Furniture"
 pm_handcarved_furniture: "Handcarved Furniture"
 pm_woodturning_lathes: "Woodturning Lathes"
 pm_veneering_machines: "Veneering Machines"
 pm_plywood: "Plywood"
 pm_precision_joinery: "Precision Joinery"
-
 pmg_luxury_furniture: "Luxury Furniture"
 pm_no_luxury_furniture: "No Luxury Furniture"
 pm_marquetry: "Marquetry"
 pm_upholstering: "Upholstering"
 pm_electroplated_metals: "Electroplated Metals"
-
 #Tooling Workshops
-
 pmg_tools: "Tools"
 pm_non_metal_tools: "Non-Metal Tools"
 pm_wrought_iron_tools: "Wrought Iron Tools"
@@ -764,158 +631,127 @@ pm_chromium_steel_tools: "Chromium Steel Tools"
 pm_tungsten_carbide_tools: "Tungsten Carbide Tools"
 pm_powered_milling_machines: "Powered Milling Machines"
 pm_cam_driven_machines: "Cam-Driven Machines"
-
 pmg_machined_parts: "Machined Parts"
 pm_no_machined_parts: "No Machined Parts"
 pm_turret_lathe: "Turret Lathe"
 pm_steel_milling_machines: "Steel Milling Machines"
 pm_drill_press: "Drill Press"
 pm_molded_polymers: "Molded Polymers"
-
 #Paper Mills
-
 pmg_papermaking: "Papermaking"
 pm_handmade_paper: "Handmade Paper"
 pm_pulping_mills: "Pulping Mills"
 pm_fourdrinier_machine: "Fourdrinier Machine"
 pm_rotary_press: "Rotary Press"
 pm_chemical_pulping: "Chemical Pulping"
-
 pmg_pulp_material: "Pulp Material"
 pm_rag_paper: "Rag Paper"
 pm_wood_pulp_paper: "Wood Pulp Paper"
 pm_acidic_paper: "Acidic Paper"
-
 #Chemical Industries
-
 pmg_chemicals: "Chemicals"
 pm_soda_ash: "Soda Ash"
 pm_iron_sulfate_process: "Iron Sulfate Process"
 pm_leblanc_process: "Leblanc Process"
 pm_solvay_process: "Solvay Process"
 pm_castner_kellner_process: "Castner-Kellner Process"
-
 pmg_fertilizer: "Fertilizer"
 pm_no_fertilizer: "No Fertilizer"
 pm_gypsum_fertilizer: "Gypsum Fertilizer"
 pm_ammonia_fertilizer: "Ammonia Fertilizer"
 pm_birkeland_eyde_process: "Birkeland-Eyde Process"
 pm_haber_bosch_process: "Haber-Bosch Process"
-
 #Synthetics Plant
-
 pmg_composite_porcelain: "Composite Porcelain"
 pm_hard_paste_porcelain: "Hard Paste Porcelain"
 pm_soft_paste_porcelain: "Soft Paste Porcelain"
 pm_bone_china: "Bone China"
-
 pmg_synthetic_fibers: "Synthetic Fibers"
 pm_no_synthetic_fibers: "No Synthetic Fibers"
 pm_art_silk: "Art Silk"
 pm_rayon: "Rayon"
-
 pmg_synthetic_polymers: "Synthetic Polymers"
 pm_no_synthetic_polymers: "No Synthetic Polymers"
 pm_isoprene_production: "Isoprene Production"
 pm_bakelite_production: "Bakelite Production"
-
 #Engineering Firms
-
 pmg_engines: "Engines"
 pm_piston_engine: "Piston Engine"
 pm_spark_ignition_engine: "Spark Ignition Engine"
 pm_diesel_engine: "Diesel Engine"
 pm_v8_engine: "V8 Engine"
-
 pmg_telecomms: "Telecommunications"
 pm_no_telecomms: "No Telecommunications"
 pm_telegraph: "Telegraph"
 pm_telephone: "Telephone"
 pm_radio: "Radio"
-
 pmg_ironclads: "Ironclads"
 pm_no_ironclads: "No Ironclads"
 pm_revolving_gun_turrets: "Revolving Gun Turrets"
 pm_streamlined_hulls: "Streamlined Hulls"
 pm_sloped_armor_ironclads: "Sloped Armor"
-
 #Oil Refineries
-
 pmg_oil_cracking: "Oil Cracking"
 pm_thermal_cracking: "Thermal Cracking"
 pm_continuous_distillation: "Continuous Distillation"
 pm_catalytic_cracking: "Catalytic Cracking"
 pm_hydrocracking: "Hydrocracking"
-
 pmg_petrochemicals: "Petrochemicals"
 pm_no_petrochemicals: "No Petrochemicals"
 pm_naphtha_extraction: "Naphtha Extraction"
 pm_phenol_extraction: "Phenol Extraction"
 pm_ethylene_production: "Ethylene Production"
 pm_polymerization: "Polymerization"
-
 #Automotive Firms
-
 pmg_automobiles: "Automobiles"
 pm_motorwagon: "Motorwagon"
 pm_phaeton_carriage: "Phaeton Carriage"
 pm_touring_car: "Touring Car"
-
 pmg_tyres: "Tyres"
 pm_metal_tires: "Metal Tires"
 pm_solid_rubber_tyres: "Solid Rubber Tyres"
 pm_pneumatic_tyres: "Pneumatic Tyres"
-
 pmg_tanks: "Tanks"
 pm_no_tanks: "No Tanks"
 pm_landships: "Landships"
 pm_turreted_tanks: "Turreted Tanks"
 pm_sloped_armor_tanks: "Sloped Armor"
-
 pmg_aeroplanes: "Aeroplanes"
 pm_no_aeroplanes: "No Aeroplanes"
 pm_biplanes: "Biplanes"
 pm_monoplanes: "Monoplanes"
 pm_all_metal_aircraft: "All-Metal Aircraft"
-
 #Railways
-
 pmg_railways_freight: "Freight Railways"
 pm_rolling_wagons: "Rolling Wagons"
 pm_flatcars: "Flatcars"
 pm_gondola_cars: "Gondola Cars"
 pm_rotary_cars: "Rotary Cars"
 pm_intermodal_freight_containers: "Intermodal Freight"
-
 pmg_railways_passenger: "Passenger Railways"
 pm_no_passenger_cars: "No Passenger Cars"
 pm_stagecoach_cars: "Stagecoach Cars"
 pm_passenger_cars: "Passenger Cars"
 pm_dining_cars: "Dining Cars"
 pm_passenger_streamliner: "Passenger Streamliners"
-
 pmg_railways_bonus: "Railways Bonus"
 pm_no_railway_bonus: "No Railway Bonus"
 pm_scenic_touring_trains: "Scenic Touring Trains"
 pm_military_railways: "Military Railways"
 pm_whistle_stop_tours: "Whistle Stop Tours"
 pm_colonial_railways: "Colonial Railways"
-
 pmg_railways_motive_power: "Motive Power"
 pm_horse_drawn_trains: "Horse-drawn"
 pm_coal_trains: "Coal"
 pm_electricity_trains: "Electricity"
 pm_petrol_trains: "Petrol"
-
 pmg_railways_ownership: "Railways Ownership"
 pm_railways_private_ownership: "Private Ownership"
 pm_railways_military_owned: "Military Owned"
 pm_railways_industrial_conglomerate: "Industrial Conglomerate"
 pm_railways_state_owned: "State Owned"
 pm_railways_worker_cooperative: "Worker Cooperative"
-
 #Arsenal
-
 pmg_arsenal_firearms: "Firearms"
 pm_matchlock_muskets: "Matchlock Muskets"
 pm_flintlock_muskets: "Flintlock Muskets"
@@ -924,7 +760,6 @@ pm_percussion_caps: "Percussion Caps"
 pm_breech_loading_rifles: "Breech-Loading Rifles"
 pm_bolt_action_rifles: "Bolt-Action Rifles"
 pm_semi_automatic_firearms: "Semi-Automatic Firearms"
-
 pmg_arsenal_artillery: "Artillery"
 pm_no_artillery: "No Artillery"
 pm_muzzle_loading_cannons: "Muzzle-Loading Cannons"
@@ -932,18 +767,49 @@ pm_mobile_field_artillery: "Mobile Field Artillery"
 pm_breech_loading_artillery: "Breech-Loading Artillery"
 pm_hydraulic_recoil_mechanism: "Hydraulic Recoil Mechanism"
 pm_quick_firing_artillery: "Quick-Firing Artillery"
-
 #Munitions Plants
-
 pmg_munitions_plant_ammunition: "Ammunition"
 pm_paper_cartridges: "Paper Cartridges"
 pm_minie_ball: "Minie Ball"
 pm_metallic_cartridges: "Metallic Cartridges"
 pm_smokeless_powder: "Smokeless Powder"
 pm_spitzer_bullet: "Spitzer Bullet"
-
 pmg_munitions_plant_explosives: "Explosives"
 pm_no_explosives_tov: "No Explosives Today"
 pm_nitroglycerin: "Nitroglycerin"
 pm_dynamite: "Dynamite"
 pm_trinitrotoluene: "Trinitrotoluene"
+#Major Rivers
+pmg_river_utilization: "River Utilization"
+pm_freshwater_fishing: "Freshwater Fishing"
+pm_flax_linen_industry: "Flax Linen Industry"
+pm_small_goods_trade: "Small Goods Trade"
+pm_hydroelectric_dams: "Hydroelectric Dams"
+pmg_river_engineering: "River Engineering"
+pm_earthen_embankments: "Earthen Embankments"
+pm_watermills: "Watermills"
+pm_iron_geared_watermills: "Iron Geared Watermills"
+pm_artificial_embankments: "Artificial Embankments"
+pm_steel_geared_watermills: "Steel Geared Watermills"
+pm_water_turbines: "Water Turbines"
+pm_canalized_rivers: "Canalized Rivers"
+pmg_river_shipping: "River Shipping"
+pm_no_boats: "No Boats"
+pm_river_rafts: "River Rafts"
+pm_river_barges: "River Barges"
+pm_paddle_steamers: "Paddle Steamers"
+pm_screw_propeller_steamers: "Screw Propeller Steamers"
+pm_intermodal_cargo_boats: "Intermodal Cargo Boats"
+pmg_river_bonus: "River Bonus"
+pm_no_river_bonus: "No River Bonus"
+pm_irrigation_canals: "Irrigation Canals"
+pm_river_based_settlements: "River-based Settlements"
+pm_drinking_water_reservoirs: "Drinking Water Reservoirs"
+pm_gravel_quarries: "Gravel Quarries"
+pm_floating_casinos: "Floating Casinos"
+pmg_river_usage_rights: "River Usage Rights"
+pm_decentralised_control: "Decentralised Control"
+pm_merchant_leagues: "Merchant Leagues"
+pm_crown_estate: "Crown Estate"
+pm_privately_owned_parcels: "Privately Owned Parcels"
+pm_nationalized_infrastructure: "Nationalized Infrastructure"

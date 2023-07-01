@@ -1,4 +1,6 @@
-﻿pmg_railways_freight = {
+﻿#railways
+
+pmg_railways_freight = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
@@ -13,7 +15,6 @@
 
 pmg_railways_passenger = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	ai_selection = most_productive
 
 	production_methods = {
 		pm_no_passenger_cars
@@ -27,7 +28,6 @@ pmg_railways_passenger = {
 
 pmg_railways_bonus = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
-	ai_selection = most_productive
 
 	production_methods = {
 		pm_no_railway_bonus
@@ -40,7 +40,6 @@ pmg_railways_bonus = {
 
 pmg_railways_motive_power = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
-	ai_selection = most_productive
 
 	production_methods = {
 		pm_horse_drawn_trains
@@ -61,6 +60,8 @@ pmg_railways_ownership = {
 	}
 }
 
+#trade_center
+
 pmg_base_building_trade_center = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 
@@ -79,5 +80,73 @@ pmg_ownership_building_trade_center = {
 		pm_trade_center_charter
 		pm_trade_center_privately_owned
 		pm_trade_center_government_run
+	}
+}
+
+#major rivers
+
+pmg_river_utilization = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		pm_freshwater_fishing
+		pm_flax_linen_industry
+		pm_small_goods_trade
+		pm_hydroelectric_dams
+	}
+}
+
+pmg_river_engineering = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_earthen_embankments
+		pm_watermills
+		pm_iron_geared_watermills
+		pm_artificial_embankments
+		pm_steel_geared_watermills
+		pm_water_turbines
+		pm_canalized_rivers
+	}
+}
+
+pmg_river_shipping = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_no_boats
+		pm_river_rafts
+		pm_river_barges
+		pm_paddle_steamers
+		pm_screw_propeller_steamers
+		pm_intermodal_cargo_boats
+	}
+}
+
+pmg_river_bonus = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+
+	production_methods = {
+		pm_no_river_bonus
+		pm_river_based_settlements
+		pm_irrigation_canals
+		pm_drinking_water_reservoirs
+		pm_gravel_quarries
+		pm_floating_casinos
+	}
+}
+
+pmg_river_usage_rights = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+
+	production_methods = {
+		pm_decentralised_control
+		pm_merchant_leagues
+		pm_crown_estate
+		pm_privately_owned_parcels
+		pm_industrial_conglomerate_river
+		pm_nationalized_infrastructure
 	}
 }

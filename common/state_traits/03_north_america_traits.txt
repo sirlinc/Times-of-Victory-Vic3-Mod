@@ -3,6 +3,7 @@
 	
 	modifier = {
 		building_group_bg_fishing_throughput_mult = 0.2
+		state_building_major_rivers_max_level_add = 1
 	}
 }
 
@@ -36,7 +37,7 @@ state_trait_st_lawrence_river = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
 	modifier = {
-		state_infrastructure_add = 15
+		#state_building_major_rivers_max_level_add = 3
 	}
 }
 
@@ -224,7 +225,7 @@ state_trait_mississippi_river = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
 	modifier = {
-		state_infrastructure_add = 20
+		#state_building_major_rivers_max_level_add = 4
 	}
 }
 
@@ -232,7 +233,7 @@ state_trait_ohio_river = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
 	modifier = {
-		state_infrastructure_add = 20
+		#state_building_major_rivers_max_level_add = 3
 	}
 }
 
@@ -240,7 +241,7 @@ state_trait_columbia_river = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
 	modifier = {
-		state_infrastructure_add = 20
+		#state_building_major_rivers_max_level_add = 3
 	}
 }
 
@@ -248,6 +249,6 @@ state_trait_great_lakes = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
 	modifier = {
-		state_infrastructure_add = 15
+		#state_building_major_rivers_max_level_add = 3
 	}	
 }

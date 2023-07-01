@@ -78,3 +78,14 @@ modifier_building_arsenal_throughput_mult_desc: "$building_arsenal$の入力お�
 building_munitions_plants: "弾薬工場"
 modifier_building_munitions_plants_throughput_mult: "$building_munitions_plants$ 建物 [concept_throughput]"
 modifier_building_munitions_plants_throughput_mult_desc: "$building_munitions_plants$の入力および出力の両方にボーナスまたはペナルティ"
+
+# Major Rivers
+building_major_rivers: "主要な河川"
+modifier_building_major_rivers_throughput_mult: "$building_major_rivers$ 建設 [concept_throughput]"
+modifier_building_major_rivers_throughput_mult_desc: "$building_major_rivers$ の入力と出力の両方にボーナスまたはペナルティ"
+modifier_state_building_major_rivers_max_level_add: "$building_major_rivers$ 最大レベル"
+modifier_state_building_major_rivers_max_level_add_desc: "$building_major_rivers$ 地理的特徴の最大レベルに対するボーナスまたはペナルティ。"
+
+# Geographical Features
+bg_geographical_features: "地理的特徴"
+bg_major_rivers: "主要な河川"

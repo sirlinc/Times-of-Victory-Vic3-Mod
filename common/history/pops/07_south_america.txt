@@ -3,7 +3,7 @@
 		region_state:PEU = {
 			create_pop = {
 				culture = spanish
-				size=7391
+				size = 12505
 			}
 			create_pop = {
 				culture = guarani
@@ -25,7 +25,7 @@
 		region_state:PEU = {
 			create_pop = {
 				culture = spanish
-				size=17391
+				size = 10114
 			}
 			create_pop = {
 				culture = quechua
@@ -41,7 +41,7 @@
 			}
 			create_pop = {
 				culture = amazonian
-				size=22921
+				size = 15703
 			}
 		}
 		region_state:VNZ = {
@@ -51,13 +51,13 @@
 			}
 			create_pop = {
 				culture = spanish
-				size=15979
+				size = 12542
 			}
 		}
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size=2812
+				size = 4767
 			}
 			create_pop = {
 				culture = cariban
@@ -73,7 +73,7 @@
 		region_state:TR0 = {
 			create_pop = {
 				culture = amazonian
-				size=19635
+				size = 16961
 			}
 		}
 	}
@@ -85,7 +85,7 @@
 			}
 			create_pop = {
 				culture = spanish
-				size=21979
+				size = 21997
 			}
 		}
 	}
@@ -97,7 +97,7 @@
 			}
 			create_pop = {
 				culture = spanish
-				size=17379
+				size = 24740
 			}
 		}
 	}
@@ -109,11 +109,11 @@
 			}
 			create_pop = {
 				culture = amazonian
-				size=18719
+				size = 19589
 			}
 			create_pop = {
 				culture = spanish
-				size=17379
+				size = 21855
 			}
 		}
 		region_state:PMO = {
@@ -137,7 +137,7 @@
 			}
 			create_pop = {
 				culture = spanish
-				size=15379
+				size = 24629
 			}
 		}
 	}
@@ -149,25 +149,25 @@
 			}
 			create_pop = {
 				culture = spanish
-				size=14379
+				size = 19689
 			}
 		}
 		region_state:ARW = {
 			create_pop = {
 				culture = amazonian
-				size=6633
+				size = 15306
 			}
 		}
 		region_state:YAA = {
 			create_pop = {
 				culture = amazonian
-				size=7546
+				size = 18207
 			}
 		}
 		region_state:BN1 = {
 			create_pop = {
 				culture = amazonian
-				size=6292
+				size = 17607
 			}
 		}
 	}
@@ -179,7 +179,7 @@
 			}
 			create_pop = {
 				culture = spanish
-				size=10379
+				size = 24841
 			}
 		}
 	}
@@ -191,7 +191,7 @@
 			}
 			create_pop = {
 				culture = spanish
-				size=3879
+				size = 17834
 			}
 		}
 	}
@@ -199,25 +199,25 @@
 		region_state:PEU = {
 			create_pop = {
 				culture = amazonian
-				size=5434
+				size = 16532
 			}
 		}
 		region_state:YAA = {
 			create_pop = {
 				culture = amazonian
-				size=3910
+				size = 19463
 			}
 		}
 		region_state:ARW = {
 			create_pop = {
 				culture = amazonian
-				size=4834
+				size = 16839
 			}
 		}
 		region_state:DN1 = {
 			create_pop = {
 				culture = amazonian
-				size=1318
+				size = 15307
 			}
 		}
 	}
@@ -229,7 +229,7 @@
 			}
 			create_pop = {
 				culture = spanish
-				size=7279
+				size = 23838
 			}
 		}
 	}
@@ -241,13 +241,13 @@
 			}
 			create_pop = {
 				culture = spanish
-				size=8279
+				size = 20283
 			}
 		}
 		region_state:CM2 = {
 			create_pop = {
 				culture = quechua
-				size=8488
+				size = 24748
 			}
 		}
 	}
@@ -259,13 +259,13 @@
 			}
 			create_pop = {
 				culture = spanish
-				size=18279
+				size = 23576
 			}
 		}
 		region_state:CM2 = {
 			create_pop = {
 				culture = quechua
-				size=2098
+				size = 23557
 			}
 		}
 	}
@@ -273,15 +273,15 @@
 		region_state:PEU = {
 			create_pop = {
 				culture = quechua
-				size=13088
+				size = 19065
 			}
 			create_pop = {
 				culture = aimara
-				size=19088
+				size = 17137
 			}
 			create_pop = {
 				culture = spanish
-				size=8279
+				size = 17049
 			}
 		}
 	}
@@ -289,47 +289,47 @@
 		region_state:M2N = {
 			create_pop = {
 				culture = amazonian
-				size=3604
+				size = 18207
 			}
 			create_pop = {
 				culture = portuguese
-				size=5604
+				size = 18242
 			}
 		}
 		region_state:UKG = {
 			create_pop = {
 				culture = amazonian
-				size=3588
+				size = 23103
 			}
 		}
 		region_state:WY1 = {
 			create_pop = {
 				culture = amazonian
-				size=1516
+				size = 22661
 			}
 		}
 		region_state:TR0 = {
 			create_pop = {
 				culture = amazonian
-				size=2195
+				size = 24933
 			}
 		}
 		region_state:KAY = {
 			create_pop = {
 				culture = amazonian
-				size=3906
+				size = 19729
 			}
 		}
 		region_state:MAW = {
 			create_pop = {
 				culture = amazonian
-				size=2480
+				size = 18855
 			}
 		}
 		region_state:MN1 = {
 			create_pop = {
 				culture = amazonian
-				size=3790
+				size = 18635
 			}
 		}
 	}
@@ -337,17 +337,17 @@
 		region_state:M2N = {
 			create_pop = {
 				culture = amazonian
-				size=9122
+				size = 15002
 			}
 			create_pop = {
 				culture = portuguese
-				size=2604
+				size = 18777
 			}
 		}
 		region_state:GJ1 = {
 			create_pop = {
 				culture = amazonian
-				size=5402
+				size = 16209
 			}
 		}
 	}
@@ -355,91 +355,91 @@
 		region_state:TH1 = {
 			create_pop = {
 				culture = amazonian
-				size=2615
+				size = 21334
 			}
 		}
 		region_state:AR1 = {
 			create_pop = {
 				culture = amazonian
-				size=6492
+				size = 19407
 			}
 		}
 		region_state:JA2 = {
 			create_pop = {
 				culture = amazonian
-				size=7820
+				size = 16362
 			}
 		}
 		region_state:SRI = {
 			create_pop = {
 				culture = amazonian
-				size=1963
+				size = 23510
 			}
 		}
 		region_state:YAA = {
 			create_pop = {
 				culture = amazonian
-				size=2543
+				size = 17652
 			}
 		}
 		region_state:DN1 = {
 			create_pop = {
 				culture = amazonian
-				size=2543
+				size = 23386
 			}
 		}
 		region_state:TK2 = {
 			create_pop = {
 				culture = amazonian
-				size=7583
+				size = 18739
 			}
 		}
 		region_state:MUR = {
 			create_pop = {
 				culture = amazonian
-				size=8063
+				size = 24035
 			}
 		}
 		region_state:KOA = {
 			create_pop = {
 				culture = amazonian
-				size=6901
+				size = 20911
 			}
 		}
 		region_state:WPS = {
 			create_pop = {
 				culture = amazonian
-				size=1892
+				size = 17362
 			}
 		}
 		region_state:YN1 = {
 			create_pop = {
 				culture = amazonian
-				size=5135
+				size = 21942
 			}
 		}
 		region_state:CM2 = {
 			create_pop = {
 				culture = amazonian
-				size=3627
+				size = 19418
 			}
 		}
 		region_state:BN1 = {
 			create_pop = {
 				culture = amazonian
-				size=1988
+				size = 16044
 			}
 		}
 		region_state:MAW = {
 			create_pop = {
 				culture = amazonian
-				size=2123
+				size = 23584
 			}
 		}
 		region_state:M2N = {
 			create_pop = {
 				culture = amazonian
-				size=4130
+				size = 16610
 			}
 		}
 	}
@@ -447,7 +447,7 @@
 		region_state:CM2 = {
 			create_pop = {
 				culture = amazonian
-				size=3112
+				size = 15100
 			}
 		}
 	}
@@ -455,31 +455,31 @@
 		region_state:AP2 = {
 			create_pop = {
 				culture = tupinamba
-				size=7176
+				size = 18283
 			}
 		}
 		region_state:AW2 = {
 			create_pop = {
 				culture = tupinamba
-				size=7064
+				size = 16414
 			}
 		}
 		region_state:KAY = {
 			create_pop = {
 				culture = tupinamba
-				size=6449
+				size = 16350
 			}
 		}
 		region_state:BO1 = {
 			create_pop = {
 				culture = tupinamba
-				size=5285
+				size = 19380
 			}
 		}
 		region_state:AW1 = {
 			create_pop = {
 				culture = tupinamba
-				size=6180
+				size = 15309
 			}
 		}
 	}
@@ -487,91 +487,91 @@
 		region_state:GNI = {
 			create_pop = {
 				culture = guarani
-				size=4176
+				size = 17422
 			}
 		}
 		region_state:TH1 = {
 			create_pop = {
 				culture = amazonian
-				size=4182
+				size = 22167
 			}
 		}
 		region_state:AR1 = {
 			create_pop = {
 				culture = guarani
-				size=5704
+				size = 18824
 			}
 		}
 		region_state:SRI = {
 			create_pop = {
 				culture = amazonian
-				size=3261
+				size = 22639
 			}
 		}
 		region_state:NMK = {
 			create_pop = {
 				culture = guarani
-				size=6386
+				size = 17623
 			}
 		}
 		region_state:XI5 = {
 			create_pop = {
 				culture = guarani
-				size=5870
+				size = 15434
 			}
 		}
 		region_state:KW1 = {
 			create_pop = {
 				culture = aimara
-				size=1341
+				size = 23472
 			}
 		}
 		region_state:GU2 = {
 			create_pop = {
 				culture = guarani
-				size=4193
+				size = 19917
 			}
 		}
 		region_state:AW2 = {
 			create_pop = {
 				culture = guarani
-				size=6407
+				size = 17943
 			}
 		}
 		region_state:GTO = {
 			create_pop = {
 				culture = guarani
-				size=8416
+				size = 21797
 			}
 		}
 		region_state:CH5 = {
 			create_pop = {
 				culture = guarani
-				size=4745
+				size = 23036
 			}
 		}
 		region_state:KAY = {
 			create_pop = {
 				culture = tupinamba
-				size=5007
+				size = 18201
 			}
 		}
 		region_state:XAV = {
 			create_pop = {
 				culture = guarani
-				size=2353
+				size = 18247
 			}
 		}
 		region_state:OF1 = {
 			create_pop = {
 				culture = guarani
-				size=4318
+				size = 20866
 			}
 		}
 		region_state:BO1 = {
 			create_pop = {
 				culture = guarani
-				size=6063
+				size = 15060
 			}
 		}
 	}
@@ -579,13 +579,13 @@
 		region_state:CHA = {
 			create_pop = {
 				culture = guarani
-				size=11424
+				size = 18499
 			}
 		}
 		region_state:TUP = {
 			create_pop = {
 				culture = guarani
-				size=9463
+				size = 16390
 			}
 		}
 	}
@@ -593,23 +593,23 @@
 		region_state:BRZ = {
 			create_pop = {
 				culture = guarani
-				size=10859
+				size = 18797
 			}
 			create_pop = {
 				culture = portuguese
-				size=7859
+				size = 20870
 			}
 		}
 		region_state:PEU = {
 			create_pop = {
 				culture = guarani
-				size=1630
+				size = 16468
 			}
 		}
 		region_state:G1A = {
 			create_pop = {
 				culture = guarani
-				size=15281
+				size = 20660
 			}
 		}
 	}
@@ -617,23 +617,23 @@
 		region_state:TUP = {
 			create_pop = {
 				culture = guarani
-				size=8306
+				size = 17793
 			}
 		}
 		region_state:BRZ = {
 			create_pop = {
 				culture = guarani
-				size=10859
+				size = 21545
 			}
 			create_pop = {
 				culture = portuguese
-				size=4859
+				size = 21823
 			}
 		}
 		region_state:PEU = {
 			create_pop = {
 				culture = guarani
-				size=1611
+				size = 20138
 			}
 		}
 	}
@@ -641,29 +641,29 @@
 		region_state:BRZ = {
 			create_pop = {
 				culture = portuguese
-				size=4312
+				size = 18533
 			}
 			create_pop = {
 				culture = guarani
-				size=10859
+				size = 16396
 			}
 		}
 		region_state:KA1 = {
 			create_pop = {
 				culture = guarani
-				size=4223
+				size = 15901
 			}
 		}
 		region_state:OF1 = {
 			create_pop = {
 				culture = guarani
-				size=6647
+				size = 18684
 			}
 		}
 		region_state:GU2 = {
 			create_pop = {
 				culture = guarani
-				size=7889
+				size = 19781
 			}
 		}
 	}
@@ -671,43 +671,43 @@
 		region_state:CT1 = {
 			create_pop = {
 				culture = tupinamba
-				size=9824
+				size = 24246
 			}
 		}
 		region_state:GOY = {
 			create_pop = {
 				culture = tupinamba
-				size=7930
+				size = 23577
 			}
 		}
 		region_state:BO1 = {
 			create_pop = {
 				culture = tupinamba
-				size=5572
+				size = 20346
 			}
 		}
 		region_state:OF1 = {
 			create_pop = {
 				culture = tupinamba
-				size=7915
+				size = 16706
 			}
 		}
 		region_state:PRI = {
 			create_pop = {
 				culture = tupinamba
-				size=7587
+				size = 21497
 			}
 		}
 		region_state:BRZ = {
 			create_pop = {
 				culture = tupinamba
-				size=5876
+				size = 18156
 			}
 		}
 		region_state:MX3 = {
 			create_pop = {
 				culture = tupinamba
-				size=9298
+				size = 17950
 			}
 		}
 	}
@@ -715,7 +715,7 @@
 		region_state:BRZ = {
 			create_pop = {
 				culture = portuguese
-				size=23883
+				size = 21330
 			}
 			create_pop = {
 				culture = tupinamba
@@ -725,7 +725,7 @@
 		region_state:MX3 = {
 			create_pop = {
 				culture = tupinamba
-				size=4495
+				size = 16600
 			}
 		}
 	}
@@ -733,17 +733,17 @@
 		region_state:BRZ = {
 			create_pop = {
 				culture = portuguese
-				size=13883
+				size = 24544
 			}
 			create_pop = {
 				culture = tupinamba
-				size=24883
+				size = 16205
 			}
 		}
 		region_state:AC1 = {
 			create_pop = {
 				culture = tupinamba
-				size=4746
+				size = 23352
 			}
 		}
 	}
@@ -751,21 +751,21 @@
 		region_state:BRZ = {
 			create_pop = {
 				culture = tupinamba
-				size=16544
+				size = 20104
 			}
 		}
 		region_state:NEB = {
 			create_pop = {
 				culture = tupinamba
-				size=10544
+				size = 21620
 			}
 			create_pop = {
 				culture = portuguese
-				size=1883
+				size = 17926
 			}
 			create_pop = {
 				culture = dutch
-				size=5883
+				size = 8508
 			}
 		}
 	}
@@ -773,11 +773,11 @@
 		region_state:M2N = {
 			create_pop = {
 				culture = tupinamba
-				size=11726
+				size = 18660
 			}
 			create_pop = {
 				culture = portuguese
-				size=1883
+				size = 15290
 			}
 		}
 	}
@@ -785,17 +785,17 @@
 		region_state:M2N = {
 			create_pop = {
 				culture = tupinamba
-				size=7490
+				size = 18297
 			}
 			create_pop = {
 				culture = portuguese
-				size=1883
+				size = 17478
 			}
 		}
 		region_state:GJ1 = {
 			create_pop = {
 				culture = tupinamba
-				size=5751
+				size = 20240
 			}
 		}
 	}
@@ -803,23 +803,23 @@
 		region_state:BRZ = {
 			create_pop = {
 				culture = tupinamba
-				size=4968
+				size = 18284
 			}
 			create_pop = {
 				culture = portuguese
-				size=2283
+				size = 17920
 			}
 		}
 		region_state:NEB = {
 			create_pop = {
 				culture = tupinamba
-				size=9041
+				size = 21251
 			}
 		}
 		region_state:QP1 = {
 			create_pop = {
 				culture = tupinamba
-				size=9497
+				size = 21193
 			}
 		}
 	}
@@ -827,21 +827,21 @@
 		region_state:BRZ = {
 			create_pop = {
 				culture = tupinamba
-				size=4968
+				size = 15042
 			}
 			create_pop = {
 				culture = portuguese
-				size=2283
+				size = 22825
 			}
 		}
 		region_state:NEB = {
 			create_pop = {
 				culture = tupinamba
-				size=4968
+				size = 19923
 			}
 			create_pop = {
 				culture = portuguese
-				size=2283
+				size = 16965
 			}
 		}
 	}
@@ -849,7 +849,7 @@
 		region_state:GNI = {
 			create_pop = {
 				culture = guarani
-				size=4959
+				size = 19851
 			}
 		}
 		region_state:NI2 = {
@@ -863,17 +863,17 @@
 		region_state:GNI = {
 			create_pop = {
 				culture = guarani
-				size=9619
+				size = 15389
 			}
 		}
 		region_state:PEU = {
 			create_pop = {
 				culture = spanish
-				size=1532
+				size = 20495
 			}
 			create_pop = {
 				culture = guarani
-				size=5417
+				size = 18009
 			}
 		}
 	}
@@ -881,29 +881,29 @@
 		region_state:PEU = {
 			create_pop = {
 				culture = spanish
-				size=1532
+				size = 18853
 			}
 			create_pop = {
 				culture = patagonian
-				size=9417
+				size = 17783
 			}
 		}
 		region_state:DIU = {
 			create_pop = {
 				culture = patagonian
-				size=5826
+				size = 15322
 			}
 		}
 		region_state:TL4 = {
 			create_pop = {
 				culture = patagonian
-				size=7633
+				size = 16058
 			}
 		}
 		region_state:CH2 = {
 			create_pop = {
 				culture = patagonian
-				size=4082
+				size = 19173
 			}
 		}
 	}
@@ -911,37 +911,37 @@
 		region_state:THL = {
 			create_pop = {
 				culture = patagonian
-				size=7683
+				size = 23463
 			}
 		}
 		region_state:TEU = {
 			create_pop = {
 				culture = patagonian
-				size=5432
+				size = 15615
 			}
 		}
 		region_state:PUH = {
 			create_pop = {
 				culture = patagonian
-				size=7760
+				size = 22776
 			}
 		}
 		region_state:CH2 = {
 			create_pop = {
 				culture = patagonian
-				size=7135
+				size = 17170
 			}
 		}
 		region_state:KWR = {
 			create_pop = {
 				culture = patagonian
-				size=6866
+				size = 16101
 			}
 		}
 		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
-				size=7561
+				size = 21626
 			}
 		}
 	}
@@ -949,41 +949,41 @@
 		region_state:PEU = {
 			create_pop = {
 				culture = patagonian
-				size=5343
+				size = 24037
 			}
 			create_pop = {
 				culture = spanish
-				size=1543
+				size = 20539
 			}
 		}
 		region_state:HP1 = {
 			create_pop = {
 				culture = patagonian
-				size=4073
+				size = 17802
 			}
 		}
 		region_state:TL4 = {
 			create_pop = {
 				culture = patagonian
-				size=3124
+				size = 21458
 			}
 		}
 		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
-				size=6278
+				size = 15109
 			}
 		}
 		region_state:CH2 = {
 			create_pop = {
 				culture = patagonian
-				size=5061
+				size = 16127
 			}
 		}
 		region_state:DIU = {
 			create_pop = {
 				culture = patagonian
-				size=3406
+				size = 18411
 			}
 		}
 	}
@@ -991,23 +991,23 @@
 		region_state:PEU = {
 			create_pop = {
 				culture = patagonian
-				size=5030
+				size = 22231
 			}
 			create_pop = {
 				culture = spanish
-				size=2300
+				size = 10874
 			}
 		}
 		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
-				size=3017
+				size = 18627
 			}
 		}
 		region_state:TL4 = {
 			create_pop = {
 				culture = patagonian
-				size=6324
+				size = 16624
 			}
 		}
 	}
@@ -1015,29 +1015,29 @@
 		region_state:TBA = {
 			create_pop = {
 				culture = guarani
-				size=6414
+				size = 16446
 			}
 		}
 		region_state:NI2 = {
 			create_pop = {
 				culture = guarani
-				size=5748
+				size = 17255
 			}
 		}
 		region_state:PEU = {
 			create_pop = {
 				culture = guarani
-				size=9030
+				size = 22503
 			}
 			create_pop = {
 				culture = spanish
-				size=9300
+				size = 19608
 			}
 		}
 		region_state:TL4 = {
 			create_pop = {
 				culture = patagonian
-				size=1201
+				size = 22017
 			}
 		}
 	}
@@ -1045,11 +1045,11 @@
 		region_state:PEU = {
 			create_pop = {
 				culture = guarani
-				size=10833
+				size = 16661
 			}
 			create_pop = {
 				culture = spanish
-				size=1500
+				size = 20929
 			}
 		}
 	}
@@ -1057,11 +1057,11 @@
 		region_state:PEU = {
 			create_pop = {
 				culture = aimara
-				size=14833
+				size = 19811
 			}
 			create_pop = {
 				culture = spanish
-				size=1500
+				size = 15143
 			}
 		}
 	}
@@ -1069,37 +1069,37 @@
 		region_state:TBA = {
 			create_pop = {
 				culture = guarani
-				size=4139
+				size = 18440
 			}
 		}
 		region_state:GNI = {
 			create_pop = {
 				culture = guarani
-				size=4815
+				size = 23172
 			}
 		}
 		region_state:NI2 = {
 			create_pop = {
 				culture = guarani
-				size=4820
+				size = 18435
 			}
 		}
 		region_state:NI2 = {
 			create_pop = {
 				culture = guarani
-				size=5209
+				size = 19507
 			}
 		}
 		region_state:PI2 = {
 			create_pop = {
 				culture = guarani
-				size=4658
+				size = 16842
 			}
 		}
 		region_state:VL1 = {
 			create_pop = {
 				culture = guarani
-				size=6329
+				size = 18131
 			}
 		}
 	}
@@ -1107,11 +1107,11 @@
 		region_state:PEU = {
 			create_pop = {
 				culture = aimara
-				size=11256
+				size = 18819
 			}
 			create_pop = {
 				culture = spanish
-				size=4329
+				size = 18501
 			}
 		}
 	}
@@ -1119,17 +1119,17 @@
 		region_state:CH5 = {
 			create_pop = {
 				culture = guarani
-				size=8616
+				size = 20105
 			}
 		}
 		region_state:PEU = {
 			create_pop = {
 				culture = quechua
-				size=7841
+				size = 20022
 			}
 			create_pop = {
 				culture = spanish
-				size=2041
+				size = 22043
 			}
 		}
 	}
@@ -1137,23 +1137,23 @@
 		region_state:PEU = {
 			create_pop = {
 				culture = aimara
-				size=12200
+				size = 17589
 			}
 			create_pop = {
 				culture = spanish
-				size=9400
+				size = 23109
 			}
 		}
 		region_state:KW1 = {
 			create_pop = {
 				culture = aimara
-				size=3720
+				size = 24708
 			}
 		}
 		region_state:CM2 = {
 			create_pop = {
 				culture = quechua
-				size=4007
+				size = 20062
 			}
 		}
 	}
@@ -1165,7 +1165,7 @@
 			}
 			create_pop = {
 				culture = spanish
-				size=11059
+				size = 11773
 			}
 		}
 	}
@@ -1173,11 +1173,11 @@
 		region_state:PEU = {
 			create_pop = {
 				culture = patagonian
-				size=23046
+				size = 17534
 			}
 			create_pop = {
 				culture = spanish
-				size=8059
+				size = 11741
 			}
 		}
 	}
@@ -1185,13 +1185,13 @@
 		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
-				size=23994
+				size = 21316
 			}
 		}
 		region_state:PEU = {
 			create_pop = {
 				culture = patagonian
-				size=2046
+				size = 16581
 			}
 		}
 	}
@@ -1199,37 +1199,37 @@
 		region_state:KWR = {
 			create_pop = {
 				culture = patagonian
-				size=3220
+				size = 16462
 			}
 		}
 		region_state:THL = {
 			create_pop = {
 				culture = patagonian
-				size=4654
+				size = 18361
 			}
 		}
 		region_state:PAT = {
 			create_pop = {
 				culture = patagonian
-				size=4864
+				size = 23351
 			}
 		}
 		region_state:CHO = {
 			create_pop = {
 				culture = patagonian
-				size=7133
+				size = 20204
 			}
 		}
 		region_state:TEU = {
 			create_pop = {
 				culture = patagonian
-				size=5997
+				size = 17021
 			}
 		}
 		region_state:YGH = {
 			create_pop = {
 				culture = patagonian
-				size=7510
+				size = 22386
 			}
 		}
 	}
@@ -1237,7 +1237,7 @@
 		region_state:THL = {
 			create_pop = {
 				culture = patagonian
-				size=2908
+				size = 19060
 			}
 		}
 	}
@@ -1245,7 +1245,7 @@
 		region_state:PEU = {
 			create_pop = {
 				culture = patagonian
-				size=2100
+				size = 23310
 			}
 		}
 	}
@@ -1253,7 +1253,7 @@
 		region_state:PEU = {
 			create_pop = {
 				culture = patagonian
-				size=3959
+				size = 15273
 			}
 		}
 	}

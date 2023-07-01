@@ -52,6 +52,10 @@ law_compulsory_education_to_sixteen: "Compulsory Education to Sixteen"
 law_compulsory_education_to_sixteen_desc: "A system that enforces mandatory education for all children up to the age of sixteen, promoting a more educated and skilled population."
 
 #citizenship
+
+law_subjects: "Subjects"
+law_subjects_desc: "The residents of this realm inherently owe their allegiance to the state, and the majority lack the necessary rights to be considered as citizens."
+
 law_cultural_tolerance: "Cultural Tolerance"
 law_cultural_tolerance_desc: "A policy that fosters acceptance of diverse cultural groups within a society, shunning open discrimination and aspiring for equal treatment."
 
@@ -182,8 +186,8 @@ law_confederation_desc: "An alliance-based political system uniting multiple pol
 law_consociationalism: "Consociationalism"
 law_consociationalism_desc: "A system of communal governance that fosters accommodation by sharing power and decision-making among diverse groups."
 
-law_anarchy: "Anarchy"
-law_anarchy_desc: "A society characterized by the absence of formal governance structures, relying on voluntary, self-organized cooperation."
+law_anarchy_tov: "Anarchy"
+law_anarchy_tov_desc: "A society characterized by the absence of formal governance structures, relying on voluntary, self-organized cooperation."
 
 modifier_state_pop_support_law_freedom_of_movement_add: "[GetLawType('law_freedom_of_movement').GetName] [concept_pop] Support"
 modifier_state_pop_support_law_freedom_of_movement_add_desc: "Impacts the rate at which [Concept('concept_pop', '$concept_pops$')] support the[GetLawType('law_freedom_of_movement').GetName] [concept_law]."

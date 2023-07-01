@@ -50,11 +50,6 @@
 				level=1
 				reserves=1
 			}
-			create_building={
-				building="building_tobacco_plantation"
-				level=2
-				reserves=1
-			}
 		}
 		region_state:C83={ #Powhatan
 		}
@@ -332,11 +327,6 @@
 	}
 	s:STATE_NEWFOUNDLAND={
 		region_state:ENG={ #England
-			create_building={
-				building="building_fishing_wharf"
-				level=1
-				reserves=1
-			}
 		}
 		region_state:C64={ #Beothuk
 		}
@@ -498,11 +488,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_tobacco_plantation"
-				level=2
-				reserves=1
-			}
-			create_building={
 				building="building_barracks"
 				level=5
 				reserves=1
@@ -518,11 +503,6 @@
 			}
 			create_building={
 				building="building_temperate_farmland"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_tobacco_plantation"
 				level=1
 				reserves=1
 			}
@@ -608,11 +588,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_tobacco_plantation"
-				level=1
-				reserves=1
-			}
-			create_building={
 				building="building_barracks"
 				level=2
 				reserves=1
@@ -629,11 +604,6 @@
 			create_building={
 				building="building_temperate_farmland"
 				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_tobacco_plantation"
-				level=4
 				reserves=1
 			}
 		}

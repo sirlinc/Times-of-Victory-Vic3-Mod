@@ -6,7 +6,7 @@
 	}
 
 	possible = {
-		has_technology_researched = manifest_destiny
+		has_technology_researched = manifest_destiny_tov
 		custom_tooltip = {
 			text = greek_state_possible_tt
 			any_scope_state = {

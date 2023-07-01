@@ -44,6 +44,9 @@ law_compulsory_education_to_sixteen: "16歳までの義務教育"
 law_compulsory_education_to_sixteen_desc: "すべての子どもに対する16歳までの義務教育を強制するシステムで、より教育を受け、スキルを持つ人口を促進します。"
 
 #citizenship
+law_subjects: "臣民"
+law_subjects_desc: "この領域の住民は本質的に国家に忠誠を尽くさなければならず、多くの人々は市民とみなされるための十分な権利を持っていません。"
+
 law_cultural_tolerance: "文化の寛容性"
 law_cultural_tolerance_desc: "社会内の多様な文化グループを受け入れることを促進し、公然と差別することを避け、平等な待遇を目指す政策。"
 
@@ -149,8 +152,8 @@ law_confederation: "連邦"
 law_confederation_desc: "幅広い問題で協力しながら、かなりの主権を保持している複数の政体を結びつける同盟ベースの政治システム。"
 law_consociationalism: "協調主義"
 law_consociationalism_desc: "様々なグループ間で権力と意思決定を共有することで調和を促進する共同統治システム。"
-law_anarchy: "無政府主義"
-law_anarchy_desc: "自発的な自己組織化された協力に依存している形式的な統治構造の欠如を特徴とする社会。"
+law_anarchy_tov: "無政府主義"
+law_anarchy_tov_desc: "自発的な自己組織化された協力に依存している形式的な統治構造の欠如を特徴とする社会。"
 
 modifier_state_pop_support_law_freedom_of_movement_add: "[GetLawType('law_freedom_of_movement').GetName] [concept_pop] サポート"
 modifier_state_pop_support_law_freedom_of_movement_add_desc: "[Concept('concept_pop', '$concept_pops$')]が[GetLawType('law_freedom_of_movement').GetName] [concept_law]をサポートする割合に影響を与えます。"

@@ -1256,7 +1256,7 @@ laws_against_war_crimes = {
 
 munitions_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
-	building_munition_plants_throughput_mult = 0.15
+	building_munitions_plants_throughput_mult = 0.15
 }
 
 tunguska_research = {

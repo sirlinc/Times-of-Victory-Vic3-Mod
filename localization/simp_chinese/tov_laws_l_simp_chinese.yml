@@ -44,6 +44,9 @@ law_compulsory_education_to_sixteen: "强制教育至十六岁"
 law_compulsory_education_to_sixteen_desc: "强制所有儿童接受到十六岁的教育的制度，旨在促进更有教育和技能的人口的发展。"
 
 #citizenship
+law_subjects: "臣民"
+law_subjects_desc: "这个领域的居民天然应对国家效忠，且多数人缺乏被视为公民所需的必要权利。"
+
 law_cultural_tolerance: "文化包容"
 law_cultural_tolerance_desc: "一种促进社会内多元文化群体接受的政策，避免公开的歧视并追求平等对待。"
 
@@ -150,8 +153,8 @@ law_confederation: "联盟制"
 law_confederation_desc: "一个基于联盟的政治系统，将多个政治实体联合起来，它们在保持相当大的主权的同时在更广泛的问题上进行合作。"
 law_consociationalism: "联合主义"
 law_consociationalism_desc: "一种公社治理系统，通过在多样化的群体间分享权力和决策来促进调适。"
-law_anarchy: "无政府状态"
-law_anarchy_desc: "一个社会，以没有形式化的治理结构为特征，依赖于自愿的，自我组织的合作。"
+law_anarchy_tov: "无政府状态"
+law_anarchy_tov_desc: "一个社会，以没有形式化的治理结构为特征，依赖于自愿的，自我组织的合作。"
 
 modifier_state_pop_support_law_freedom_of_movement_add: "[GetLawType('law_freedom_of_movement').GetName] [concept_pop] 支持"
 modifier_state_pop_support_law_freedom_of_movement_add_desc: "影响[Concept('concept_pop', '$concept_pops$')]支持[GetLawType('law_freedom_of_movement').GetName] [concept_law]的速率。"

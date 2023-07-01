@@ -78,3 +78,14 @@ modifier_building_arsenal_throughput_mult_desc: "$building_arsenal$的输入和�
 building_munitions_plants: "军火工厂"
 modifier_building_munitions_plants_throughput_mult: "$building_munitions_plants$ 建筑 [concept_throughput]"
 modifier_building_munitions_plants_throughput_mult_desc: "$building_munitions_plants$的输入和输出都有奖励或惩罚"
+
+# Major Rivers
+building_major_rivers: "主要河流"
+modifier_building_major_rivers_throughput_mult: "$building_major_rivers$ 建筑 [concept_throughput]"
+modifier_building_major_rivers_throughput_mult_desc: "对$building_major_rivers$输入和输出的奖励或惩罚"
+modifier_state_building_major_rivers_max_level_add: "$building_major_rivers$ 最大级别"
+modifier_state_building_major_rivers_max_level_add_desc: "$building_major_rivers$ 地理特征的最大级别的奖励或惩罚。"
+
+# Geographical Features
+bg_geographical_features: "地理特征"
+bg_major_rivers: "主要河流"

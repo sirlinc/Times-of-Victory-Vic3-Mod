@@ -28,7 +28,7 @@ state_trait_pearl_river = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
 	modifier = {
-		state_infrastructure_add = 15
+		#state_building_major_rivers_max_level_add = 3
 	}
 }
 
@@ -36,7 +36,7 @@ state_trait_yangtze_river = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
 	modifier = {
-		state_infrastructure_add = 20
+		#state_building_major_rivers_max_level_add = 6
 	}
 }
 
@@ -44,7 +44,7 @@ state_trait_yellow_river = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
 	modifier = {
-		state_infrastructure_add = 15
+		#state_building_major_rivers_max_level_add = 6
 	}
 }
 

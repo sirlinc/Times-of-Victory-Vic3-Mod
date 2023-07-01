@@ -392,9 +392,9 @@ arabic_fez_trigger = {
 				}
 			}
 			home_country = {
-				exists = c:EGY
-				c:EGY = this
-				c:EGY = { has_law = law_type:law_monarchy }
+				exists = c:B37
+				c:B37 = this
+				c:B37 = { has_law = law_type:law_monarchy }
 			}
 		}
 	}       
@@ -406,9 +406,9 @@ arabic_military_fez_pop_trigger = {
 		AND = {
 			OR = {
 				home_country = {
-					exists = c:EGY
-					c:EGY = this
-					c:EGY = { has_law = law_type:law_monarchy }
+					exists = c:B37
+					c:B37 = this
+					c:B37 = { has_law = law_type:law_monarchy }
 				}
 				home_country = {
 					exists = c:TUR
@@ -442,9 +442,9 @@ arabic_military_fez_pop_trigger = {
 							c:TUR = { has_law = law_type:law_monarchy }
 						}
 						home_country = {
-							exists = c:EGY
-							c:EGY = this
-							c:EGY = { has_law = law_type:law_monarchy }
+							exists = c:B37
+							c:B37 = this
+							c:B37 = { has_law = law_type:law_monarchy }
 						}
 					}
 				}
@@ -474,9 +474,9 @@ arabic_clothes_trigger = {
 						c:TUR = { has_law = law_type:law_monarchy }
 					}
 					home_country = {
-						exists = c:EGY
-						c:EGY = this
-						c:EGY = { has_law = law_type:law_monarchy }
+						exists = c:B37
+						c:B37 = this
+						c:B37 = { has_law = law_type:law_monarchy }
 					}
 				}
 			}
@@ -512,8 +512,8 @@ european_clothes_trigger = {
 						c:TUR = this
 					}
 					home_country = {
-						exists = c:EGY
-						c:EGY = this
+						exists = c:B37
+						c:B37 = this
 					}
 				}
 			}
@@ -632,14 +632,14 @@ christian_clothes_trigger = {
 devout_clothes_trigger = {
 	exists = scope:character
 	scope:character = {
-		is_interest_group_type = ig_devout
+		is_interest_group_type = ig_theocratic
 	}
 }
 
 armed_forces_clothes_trigger = {
 	exists = scope:character
 	scope:character = {
-		is_interest_group_type = ig_armed_forces
+		is_interest_group_type = ig_expansionist
 	}
 }
 

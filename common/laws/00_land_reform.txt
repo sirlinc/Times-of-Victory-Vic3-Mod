@@ -135,7 +135,6 @@ law_commercialized_agriculture = {
 				}
 				add = {
 					value = literacy_rate
-					divide = 2
 				}
 			}			
 		}

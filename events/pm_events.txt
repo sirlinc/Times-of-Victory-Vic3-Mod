@@ -177,7 +177,7 @@ pm_events.3 = {
 	trigger = {
 		any_scope_state = {
 			building_type = building_distilleries
-			is_production_method_active = {
+			has_active_production_method = {
 				OR = {
 					production_method = pm_wooden_casks
 					production_method = pm_brew_kettles
@@ -208,6 +208,7 @@ pm_events.3 = {
 					has_active_production_method = {
 						OR = {
 							production_method = pm_wooden_casks
+							production_method = pm_brew_kettles
 							production_method = pm_pot_stills
 							production_method = pm_column_stills
 							production_method = pm_chromium_vessels
@@ -420,12 +421,13 @@ pm_events.5 = {
 			limit = {
 				OR = {
 					is_production_method_active = {
-					building_type = building_temperate_farmland
-					production_method = pm_vineyards_tef
-				}
-				is_production_method_active = {
-					building_type = building_arid_farmland
-					production_method = pm_vineyards_arf
+						building_type = building_temperate_farmland
+						production_method = pm_vineyards_tef
+					}
+					is_production_method_active = {
+						building_type = building_arid_farmland
+						production_method = pm_vineyards_arf
+					}
 				}
 			}
 			save_scope_as = vinyard_state
@@ -450,5 +452,4 @@ pm_events.5 = {
 		}
 		default_option = yes
 	}
-}
 }

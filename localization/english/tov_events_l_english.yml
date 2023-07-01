@@ -1,0 +1,13 @@
+﻿l_english:
+
+#The Plunder of Prague
+
+  tov_swe_flavor.1.t: "The Plunder of Prague"
+  tov_swe_flavor.1.d: "The armies of Sweden have returned home from the Thirty Years' War, laden with plunder and emboldened by dreams of Empire."
+  tov_swe_flavor.1.f: "The last major clash of the Thirty Years' War ended in Prague, the very city where it began a generation ago. Vast amounts of wealth was seized from the city - among them, a trove of artwork, treatises, and tomes of interest to the erudite [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] [ROOT.GetCountry.GetRuler.GetFullName]. What shall be done with this treasure?"
+  tov_swe_flavor.1.a: "With this bounty, Stockholm could become the 'Athens of the North' - a center of learning and refinement." #Keep for tech bonus
+  tov_swe_flavor.1.b: "The state treasury is much diminished. The sale of the artworks and treatises could help finance a return to normalcy." #Sell for mint bonus
+  tov_swe_flavor.1.c: "The plunder of Prague was amoral opportunism. Return the treasure to their rightful Bohemian owners." #Return for relations bonus
+
+
+

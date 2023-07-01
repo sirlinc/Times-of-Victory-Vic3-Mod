@@ -80,4 +80,13 @@ building_munitions_plants: "Munitions Factories"
 modifier_building_munitions_plants_throughput_mult: "$building_munitions_plants$ building [concept_throughput]"
 modifier_building_munitions_plants_throughput_mult_desc: "A bonus or penalty to both input and output of $building_munitions_plants$"
 
+# Major Rivers
+building_major_rivers: "Major Rivers"
+modifier_building_major_rivers_throughput_mult: "$building_major_rivers$ geographical feature [concept_throughput]"
+modifier_building_major_rivers_throughput_mult_desc: "A bonus or penalty to both input and output of $building_major_rivers$"
+modifier_state_building_major_rivers_max_level_add: "$building_major_rivers$ Max Level"
+modifier_state_building_major_rivers_max_level_add_desc: "A bonus or penalty to the maximum level of the $building_major_rivers$ geographical feature."
 
+# Geographical Features
+bg_geographical_features: "Geographical Features"
+bg_major_rivers: "Major Rivers"

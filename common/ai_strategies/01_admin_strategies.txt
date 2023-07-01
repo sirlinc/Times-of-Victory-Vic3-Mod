@@ -233,7 +233,7 @@ ai_strategy_resource_expansion = {
 		explosives = { 
 			stance = wants_high_supply 
 			trigger = {
-				has_technology_researched = industrial_lubricants
+				has_technology_researched = fluid_mechanics
 			}			
 		}	
 		fertilizer = { # Explosives byproduct

@@ -203,22 +203,6 @@ territoriality = {
 	}
 }
 
-territoriality = {
-	era = era_2
-	texture = "gfx/interface/icons/invention_icons/centralization.dds"
-	category = society
-	modifier = {
-		country_authority_add = 10
-	}
-	unlocking_technologies = {
-		absolutism
-		urbanization
-	}
-	ai_weight = {
-		value = 1
-	}
-}
-
 social_contract_theory = {
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/dialectics.dds"
@@ -1093,7 +1077,7 @@ street_lighting = {
 	}
 }
 
-manifest_destiny = {
+manifest_destiny_tov = {
 	era = era_7
 		texture = "gfx/interface/icons/invention_icons/geopolitics.dds"
 	category = society
@@ -1296,7 +1280,7 @@ new_imperialism = {
 		country_institution_colonial_affairs_max_investment_add = 1
 	}
 	unlocking_technologies = {
-		manifest_destiny
+		manifest_destiny_tov
 	}
 	ai_weight = {
 		value = 1
@@ -1422,7 +1406,7 @@ human_rights = {
 
 literary_fiction = {
 	era = era_8
-	texture = "gfx/interface/icons/invention_icons/mass_media.dds"
+	texture = "gfx/interface/icons/invention_icons/mass_propaganda.dds"
 	category = society
 	unlocking_technologies = {
 		organized_sports

@@ -9,9 +9,13 @@
 			building_output_services_add = 0.2
 			building_output_horses_add = 0.05 # 15
 		}
-
 		level_scaled = {
 			building_employment_peasants_add = 4750
+		}
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_construction_mult = 0.01
 		}
 	}
 }
@@ -103,6 +107,11 @@ default_building_subsistence_orchards = {
 			building_employment_peasants_add = 4750
 		}
 	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_construction_mult = 0.01
+		}
+	}
 }
 
 pm_home_workshops_no_building_subsistence_orchards = {
@@ -172,6 +181,11 @@ default_building_subsistence_pastures = {
 
 		level_scaled = {
 			building_employment_peasants_add = 4750
+		}
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_construction_mult = 0.01
 		}
 	}
 }
@@ -245,6 +259,11 @@ default_building_subsistence_fishing_villages = {
 			building_employment_peasants_add = 4750
 		}
 	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_construction_mult = 0.01
+		}
+	}
 }
 
 pm_home_workshops_no_building_subsistence_fishing_villages = {
@@ -313,6 +332,11 @@ default_building_subsistence_rice_paddies = {
 
 		level_scaled = {
 			building_employment_peasants_add = 9750
+		}
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_construction_mult = 0.01
 		}
 	}
 }

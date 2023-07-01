@@ -602,9 +602,16 @@ widget = {
 			
 		}
 	}
+
+	widget = {
+		parentanchor = bottom|left
+		size = { 800 100 }
+		dlc_collection = {}
+	}
 }
 
-template main_menu_shimmer = {
+template main_menu_shimmer
+{
 	modify_texture = {
 		name = "glow"
 		texture = "gfx/interface/animation/shimmer.dds"

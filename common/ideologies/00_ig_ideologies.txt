@@ -604,27 +604,6 @@ ideology_populist = {
 	}
 }
 
-﻿ideology_protectionist = {
-	icon = "gfx/interface/icons/ideology_icons/ideology_leader/exp_ideology_leader_protectionism.dds"
-
-	lawgroup_economic_system = {
-		law_interventionism = approve
-		law_agrarianism = neutral
-		law_command_economy = disapprove
-		law_cooperative_ownership = disapprove
-		law_laissez_faire = disapprove
-		law_traditionalism = disapprove
-		law_industry_banned = strongly_disapprove
-	}
-	
-	lawgroup_trade_policy = {
-		law_protectionism = strongly_approve
-		law_mercantilism = approve
-		law_free_trade = disapprove
-		law_isolationism = neutral
-	}		
-}
-
 ideology_socialist = { #1.3
 	icon = "gfx/interface/icons/ideology_icons/socialist.dds"
 

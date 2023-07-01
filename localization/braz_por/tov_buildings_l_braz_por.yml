@@ -80,3 +80,14 @@ modifier_building_arsenal_throughput_mult_desc: "Um bônus ou penalidade para am
 building_munitions_plants: "Fábricas de Munições"
 modifier_building_munitions_plants_throughput_mult: "$building_munitions_plants$ edifício [concept_throughput]"
 modifier_building_munitions_plants_throughput_mult_desc: "Um bônus ou penalidade para ambos, entrada e saída de $building_munitions_plants$"
+
+# Major Rivers
+building_major_rivers: "Rios Principais"
+modifier_building_major_rivers_throughput_mult: "Construção de $building_major_rivers$ [concept_throughput]"
+modifier_building_major_rivers_throughput_mult_desc: "Um bônus ou penalidade para entrada e saída de $building_major_rivers$"
+modifier_state_building_major_rivers_max_level_add: "$building_major_rivers$ Nível Máximo"
+modifier_state_building_major_rivers_max_level_add_desc: "Um bônus ou penalidade para o nível máximo da característica geográfica $building_major_rivers$."
+
+# Geographical Features
+bg_geographical_features: "Características Geográficas"
+bg_major_rivers: "Rios Principais"

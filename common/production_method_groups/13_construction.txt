@@ -21,4 +21,5 @@ pmg_organization_construction = {
 		pm_construction_firms_construction
 		pm_engineer_corps_construction
 		pm_industrial_conglomerate_construction
+	}
 }

@@ -19,12 +19,12 @@ base_values = {
 
 	country_secession_progress_add = 0.1
 	
-	state_education_access_wealth_add = 0.02 #0.02
+	state_education_access_wealth_add = 0.005 #0.02
 	
 	country_minting_add = 200 #250
 
 	state_tax_capacity_add = 50 #100
-	state_infrastructure_add = 5
+	state_infrastructure_add = 3
 	
 	state_poor_expected_sol = 5
 	state_middle_expected_sol = 10

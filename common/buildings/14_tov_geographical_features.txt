@@ -1,0 +1,27 @@
+﻿############ GEOGRAPHICAL FEATURES
+
+building_major_rivers = {
+	building_group = bg_major_rivers	
+	texture = "gfx/interface/icons/building_icons/major_rivers.dds"
+
+	production_method_groups = {
+		pmg_river_utilization
+		pmg_river_engineering
+		pmg_river_shipping
+		pmg_river_bonus
+		pmg_river_usage_rights
+	}
+
+	required_construction = construction_cost_low
+	
+	ai_value = 2000 # Infrastructure is important
+	
+	should_auto_expand = { 
+		OR = {
+			cash_reserves_ratio > 0.5
+			is_subsidized = yes
+		}
+		state.market_access < 1
+		NOT = { is_under_construction = yes }
+	}
+}

@@ -37,7 +37,6 @@ decree_manufacturing_trade_attraction = {
 decree_manufacturing_petty_bourgeoisie_attraction = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	interest_group_ig_market_liberal_pop_attraction_mult = 0.1
-	interest_group_ig_egalitarian_attraction_mult = -1
 	interest_group_ig_plutocratic_approval_add = -1
 }
 

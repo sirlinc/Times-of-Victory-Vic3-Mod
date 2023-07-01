@@ -621,7 +621,7 @@ dp_unify_italy = {
 	possible = {
 		NOT = { exists = c:ITA }
 		NOT = { is_country_type = decentralized }
-		has_technology_researched = manifest_destiny
+		has_technology_researched = manifest_destiny_tov
 	}
 	
 	on_weekly_pulse = {}
@@ -844,7 +844,7 @@ dp_leadership_germany = {
 	}	
 	
 	possible = {
-		has_technology_researched = manifest_destiny			
+		has_technology_researched = manifest_destiny_tov			
 	}
 	
 	on_weekly_pulse = {}
@@ -867,7 +867,7 @@ dp_leadership_italy = {
 	}	
 	
 	possible = {
-		has_technology_researched = manifest_destiny			
+		has_technology_researched = manifest_destiny_tov			
 	}
 	
 	on_weekly_pulse = {}

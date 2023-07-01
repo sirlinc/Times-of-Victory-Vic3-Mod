@@ -7,7 +7,7 @@
 	}
 
 	possible = {
-		has_technology_researched = manifest_destiny
+		has_technology_researched = manifest_destiny_tov
 		has_interest_marker_in_region = region_pacific_coast
 	}
 

@@ -154,7 +154,7 @@ law_women_in_leadership = {
 
 	modifier = {
 		state_working_adult_ratio_add = 0.2
-		state_birth_rate_mult = -0.08
+		state_birth_rate_mult = -0.05
 		state_dependent_political_participation_add = 0.5
 	}
 	

@@ -11,7 +11,7 @@ state_trait_nile_river = {
 
 	modifier = {
 		building_group_bg_agriculture_throughput_mult = 0.2
-		state_infrastructure_add = 20
+		#state_building_major_rivers_max_level_add = 3
 	}
 }
 
@@ -19,7 +19,7 @@ state_trait_congo_river = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
 	modifier = {
-		state_infrastructure_add = 15
+		#state_building_major_rivers_max_level_add = 3
 	}
 }
 
@@ -27,7 +27,7 @@ state_trait_niger_river = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
 	modifier = {
-		state_infrastructure_add = 15
+		#state_building_major_rivers_max_level_add = 3
 	}
 }
 
@@ -35,7 +35,7 @@ state_trait_lake_victoria = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
 	modifier = {
-		state_infrastructure_add = 20
+		#state_building_major_rivers_max_level_add = 3
 	}
 }
 
@@ -53,7 +53,7 @@ state_trait_zambezi_river = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
 	modifier = {
-		state_infrastructure_add = 15
+		#state_building_major_rivers_max_level_add = 3
 	}
 }
 

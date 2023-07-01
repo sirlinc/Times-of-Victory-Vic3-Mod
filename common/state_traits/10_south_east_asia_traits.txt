@@ -3,6 +3,7 @@
 	
 	modifier = {
 		building_group_bg_agriculture_throughput_mult = 0.15
+		#state_building_major_rivers_max_level_add = 3
 	}
 }
 
@@ -11,6 +12,7 @@ state_trait_mekong_delta = {
 	
 	modifier = {
 		building_group_bg_agriculture_throughput_mult = 0.15
+		#state_building_major_rivers_max_level_add = 3
 	}
 }
 
@@ -19,6 +21,7 @@ state_trait_chao_phraya_delta = {
 	
 	modifier = {
 		building_group_bg_agriculture_throughput_mult = 0.15
+		#state_building_major_rivers_max_level_add = 3
 	}
 }
 
@@ -26,7 +29,7 @@ state_trait_mekong_river = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
 	modifier = {
-		state_infrastructure_add = 20
+		#state_building_major_rivers_max_level_add = 3
 	}
 }
 
@@ -64,7 +67,7 @@ state_trait_kapuas_river = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
 	modifier = {
-		state_infrastructure_add = 15
+		#state_building_major_rivers_max_level_add = 3
 	}
 }
 
@@ -72,7 +75,7 @@ state_trait_sarawak_river = {
 	icon = "gfx/interface/icons/state_trait_icons/river.dds"
 	
 	modifier = {
-		state_infrastructure_add = 15
+		#state_building_major_rivers_max_level_add = 3
 	}
 }
 

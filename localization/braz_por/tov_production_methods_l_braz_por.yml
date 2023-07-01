@@ -1,7 +1,6 @@
 ﻿l_braz_por:
 
 #Arts Academy
-
 pmg_print_culture: "Cultura Impressa"
 pm_woodblock_printing: "Impressão em Blocos de Madeira"
 pm_pamphlets: "Panfletos"
@@ -9,7 +8,6 @@ pm_daily_newspapers: "Jornais Diários"
 pm_paperback_novels: "Romances de Bolso"
 pm_journalistic_media: "Mídia Jornalística"
 pm_radio_dramas: "Dramas de Rádio"
-
 pmg_performed_culture: "Cultura Performática"
 pm_traditional_art: "Arte Tradicional"
 pm_piano_compositions: "Composições para Piano"
@@ -17,7 +15,6 @@ pm_symphony_orchestras: "Orquestras Sinfônicas"
 pm_daguerrotypes: "Daguerreótipos"
 pm_motion_pictures: "Filmes"
 pm_theatre_realism: "Realismo Teatral"
-
 pmg_patronage: "Patrocínio"
 pm_traditional_patrons: "Patronos Tradicionais"
 pm_religious_institutions: "Instituições Religiosas"
@@ -26,7 +23,6 @@ pm_state_mouthpiece: "Órgão Estatal"
 pm_military_media_interface: "Interface Mídia-Militar"
 pm_workers_unions: "Sindicatos de Trabalhadores"
 pm_independent_art_movements: "Movimentos Artísticos Independentes"
-
 pmg_ideological_focus: "Enfoque Ideológico"
 pm_apolitical: "Apolítico"
 pm_traditionalism: "Tradicionalismo"
@@ -34,9 +30,7 @@ pm_jingoism: "Chauvinismo"
 pm_liberalism: "Liberalismo"
 pm_nationalism: "Nacionalismo"
 pm_radicalism: "Radicalismo"
-
 #Urban Center
-
 pmg_utilities: "Utilidades"
 pm_drainage_ditches: "Valas de Drenagem"
 pm_public_wells: "Poços Públicos"
@@ -44,7 +38,6 @@ pm_kerosene_steet_lamps: "Lampiões a Querosene"
 pm_sewerage_systems: "Sistemas de Esgoto"
 pm_electric_steet_lamps: "Lampiões Elétricos"
 pm_utility_poles: "Postes de Utilidade"
-
 pmg_roadways: "Vias"
 pm_dirt_trails: "Trilhas de Terra"
 pm_trackways: "Caminhos"
@@ -52,7 +45,6 @@ pm_paved_roads: "Estradas Pavimentadas"
 pm_macadam_roads: "Estradas de Macadame"
 pm_tarmacadam_roads: "Estradas de Tarmac"
 pm_motorways: "Autoestradas"
-
 pmg_commerce: "Comércio"
 pm_travelling_fairs: "Feiras Ambulantes"
 pm_market_squares: "Praças de Mercado"
@@ -60,9 +52,7 @@ pm_banks: "Bancos"
 pm_arcades: "Arcades"
 pm_stock_exchanges: "Bolsas de Valores"
 pm_department_stores: "Lojas de Departamento"
-
 #Government Administration
-
 pmg_organisation: "Organização"
 pm_repositories: "Repositórios"
 pm_central_archives: "Arquivos Centrais"
@@ -70,7 +60,6 @@ pm_public_libraries: "Bibliotecas Públicas"
 pm_public_works_departments: "Departamentos de Obras Públicas"
 pm_index_cards: "Fichas de Índice"
 pm_filing_cabinets: "Arquivos Verticais"
-
 pmg_communication: "Comunicação"
 pm_horseback_couriers: "Correios a Cavalo"
 pm_posthouses: "Postos de Correio"
@@ -78,38 +67,28 @@ pm_semaphore_towers: "Torres de Semáforo"
 pm_electrical_telegraphs: "Telégrafos Elétricos"
 pm_telephone_switchboards: "Centrais Telefônicas"
 pm_radio_towers: "Torres de Rádio"
-
 pmg_law_enforcement: "Cumprimento da Lei"
 pm_unorganised_militia: "Milícia Desorganizada"
 pm_city_watch: "Vigilância da Cidade"
 pm_courts_of_law: "Tribunais de Justiça"
 pm_police_departments: "Departamentos de Polícia"
 pm_detective_units: "Unidades de Detetives"
-
 pmg_academic_principles: "Princípios Acadêmicos"
 pm_indoctrination: "Doutrinação"
 pm_censorship: "Censura"
 pm_freedom: "Liberdade"
-pm_radicalism: "Radicalismo"
-
 pmg_bureaucracy: "Burocracia"
 pm_hereditary_bureaucracy: "Burocracia Hereditária"
 pm_religious_bureaucracy: "Burocracia Religiosa"
 pm_military_bureaucracy: "Burocracia Militar"
 pm_professional_bureaucracy: "Burocracia Profissional"
-
-
-
-
 #University
-
 pmg_education: "Educação"
 pm_liberal_arts: "Artes Liberais"
 pm_humanities: "Humanidades"
 pm_academic_philosophy: "Filosofia Acadêmica"
 pm_social_sciences: "Ciências Sociais"
 pm_political_ecology: "Ecologia Política"
-
 pmg_scientific_infrastructure: "Infraestrutura Científica"
 pm_no_science_infrastructure: "Sem Infraestrutura"
 pm_operating_theatres: "Salas de Cirurgia"
@@ -117,35 +96,23 @@ pm_society_journals: "Revistas Científicas"
 pm_chemical_laboratories: "Laboratórios de Química"
 pm_research_departments: "Departamentos de Pesquisa"
 pm_applied_research_labs: "Laboratórios de Pesquisa Aplicada"
-
 pmg_institutions: "Instituições"
 pm_elitist_schools: "Instituições Elitistas"
 pm_private_institutions: "Instituições Privadas"
 pm_religious_schools: "Escolas Religiosas"
 pm_military_academies: "Academias Militares"
 pm_public_institutions: "Instituições Governamentais"
-
-pmg_academic_principles: "Princípios Acadêmicos"
-pm_indoctrination: "Doutrinação"
-pm_censorship: "Censura"
-pm_freedom: "Liberdade"
-pm_radicalism: "Radicalismo"
-
 # Trade Center
-
 pm_corporate_entity: "Entidade Corporativa"
 pm_cooperative_association: "Associação Cooperativa"
 pm_trade_center_charter: "Constituído"
-
 #building_base_farmland
-
 pmg_motive_power_base_farmland: "Força Motriz Agrícola"
 pm_manual_labor_farmland: "Trabalho Manual"
 pm_draft_animals_farmland: "Animais de Tração"
 pm_portable_engine_farmland: "Motor Portátil"
 pm_steam_powered_tractors_farmland: "Tratores a Vapor"
 pm_diesel_tractors_farmland: "Tratores a Diesel"
-
 pmg_land_tenure_base_farmland: "Posse da Terra"
 pm_tributary_system_farmland: "Sistema Tributário"
 pm_smallholders_farmland: "Pequenos Proprietários"
@@ -153,9 +120,7 @@ pm_military_homesteads_farmland: "Propriedades Militares"
 pm_corporate_entities_farmland: "Entidades Corporativas"
 pm_state_ownership_farmland: "Propriedade Estatal"
 pm_worker_cooperative_farmland: "Cooperativa de Trabalhadores"
-
 #Temperate Farmland
-
 pmg_wheat_yield_temperate_farmland: "Rendimento de Trigo"
 pm_rye_cultivation_tef: "Cultivo de Centeio"
 pm_potash_tef: "Potassa"
@@ -163,23 +128,19 @@ pm_bread_wheat_cultivation_tef: "Cultivo de Trigo para Pão"
 pm_gypsum_fertilizer_tef: "Fertilizante de Gesso"
 pm_pesticides_tef: "Pesticidas"
 pm_ammonia_fertilizer_tef: "Fertilizante de Amônia"
-
 pmg_secondary_building_temperate_farmland: "Construções Secundárias"
 pm_no_secondary_yields_tef: "Sem Rendimentos Secundários"
 pm_mulberry_groves_tef: "Pomares de Amoreira"
 pm_coppice_woodland_tef: "Bosques de Rebentação"
 pm_vineyards_tef: "Vinhas"
 pm_tomato_greenhouses_tef: "Estufas de Tomate"
-
 pmg_mechanization_temperate_farmland: "Mecanização do Trigo"
 pm_tools_disabled_tef: "Sem Ferramentas"
 pm_mould_board_plows_tef: "Arados de Lâmina"
 pm_reaper_binders_tef: "Ceifadeiras-agrupadoras"
 pm_combine_harvesters_tef: "Colheitadeiras"
 pm_automated_irrigation_tef: "Irrigação Automatizada"
-
 #Tropical Farmland
-
 pmg_legume_yield_tropical_farmland: "Rendimento de Leguminosas"
 pm_grain_legume_cultivation_trf: "Cultivo de Leguminosas de Grãos"
 pm_cereal_intercropping_trf: "Intercalamento de Cereais"
@@ -187,22 +148,18 @@ pm_high_yield_landraces_trf: "Variedades de Alto Rendimento"
 pm_potassium_fertilizer_trf: "Fertilizante de Potássio"
 pm_pesticides_trf: "Pesticidas"
 pm_ammonia_fertilizer_trf: "Fertilizante de Amônia"
-
 pmg_secondary_building_tropical_farmland: "Construções Secundárias"
 pm_no_secondary_yields_trf: "Sem Rendimentos Secundários"
 pm_cacao_plantations_trf: "Plantações de Cacau"
 pm_tropical_dyes_trf: "Corantes Tropicais"
 pm_palm_fermentation_trf: "Fermentação de Palmeiras"
-
 pmg_mechanization_tropical_farmland: "Mecanização de Leguminosas"
 pm_tools_disabled_trf: "Sem Ferramentas"
 pm_tillage_tools_trf: "Ferramentas de Cultivo"
 pm_threshers_trf: "Trituradores"
 pm_combine_harvesters_trf: "Colheitadeiras"
 pm_automated_irrigation_trf: "Irrigação Automatizada"
-
 #wetlands Farmland
-
 pmg_rice_yield_wetlands_farmland: "Rendimento de Arroz"
 pm_rice_cultivation_wef: "Cultivo de Arroz"
 pm_paddies_and_terraces_wef: "Arrozais e Terraços"
@@ -210,22 +167,18 @@ pm_rice_hybridization_wef: "Hibridização de Arroz"
 pm_pesticides_wef: "Pesticidas"
 pm_nitrate_fertilizer_wef: "Fertilizante de Nitrato"
 pm_enriched_rice_wef: "Arroz Enriquecido"
-
 pmg_secondary_building_wetlands_farmland: "Construções Secundárias"
 pm_no_secondary_yields_wef: "Sem Rendimentos Secundários"
 pm_jute_plantations_wef: "Plantações de Juta"
 pm_rice_fish_aquaculture_wef: "Aquicultura de Arroz e Peixes"
 pm_rice_triple_cropping_wef: "Cultivo Triplo de Arroz"
-
 pmg_mechanization_wetlands_farmland: "Mecanização de Arroz"
 pm_tools_disabled_wef: "Sem Ferramentas"
 pm_spike_harrows_wef: "Arados de Espigas"
 pm_hulling_machines_wef: "Máquinas de Descasque"
 pm_combine_harvesters_wef: "Colheitadeiras"
 pm_automated_irrigation_wef: "Irrigação Automatizada"
-
 #Arid Farmland
-
 pmg_millet_yield_arid_farmland: "Rendimento de Milheto"
 pm_sorghum_cultivation_arf: "Cultivo de Sorgo"
 pm_cereal_intercropping_arf: "Intercalamento de Cereais"
@@ -233,43 +186,36 @@ pm_pearl_millet_cultivation_arf: "Cultivo de Milheto"
 pm_gypsum_fertilizer_arf: "Fertilizante de Gesso"
 pm_pesticides_arf: "Pesticidas"
 pm_ammonia_fertilizer_arf: "Fertilizante de Amônia"
-
 pmg_secondary_building_arid_farmland: "Construções Secundárias"
 pm_no_secondary_yields_arf: "Sem Rendimentos Secundários"
 pm_coffee_plantations_arf: "Plantações de Café"
 pm_fig_tree_orchards_arf: "Pomares de Figueira"
 pm_vineyards_arf: "Vinhas"
-
 pmg_mechanization_arid_farmland: "Mecanização de Milheto"
 pm_tools_disabled_arf: "Sem Ferramentas"
 pm_panemone_windmills_arf: "Moinhos de Vento Panemone"
 pm_irrigation_aqueducts_arf: "Aquedutos de Irrigação"
 pm_combine_harvesters_arf: "Colheitadeiras"
 pm_automated_irrigation_arf: "Irrigação Automatizada"
-
 #Base Pasture
-
 pmg_processing_base_pasture: "Processamento"
 pm_cured_meats: "Carnes Curadas"
 pm_natural_preservatives: "Conservantes Naturais"
 pm_butchering_tools: "Ferramentas de Açougue"
 pm_abattoirs: "Abatedouros"
 pm_refrigerated_rail_cars: "Vagões Ferroviários Refrigerados"
-
 pmg_horses_base_pasture: "Cavalos"
 pm_no_horses: "Sem Cavalos"
 pm_draft_breeds: "Raças de Tração"
 pm_baroque_breeds: "Raças Barrocas"
 pm_warmblooded_breeds: "Raças de Sangue Quente"
 pm_stock_horse_breeds: "Raças de Cavalo de Trabalho"
-
 pmg_tanneries_base_pasture: "Curtumes"
 pm_no_secondary_pasture: "Sem Curtimento"
 pm_vegetable_tannins: "Taninos Vegetais"
 pm_dyed_hides: "Curtumes Tingidos"
 pm_collagen_glue_factories: "Fábricas de Cola de Colágeno"
 pm_chrome_tanning: "Curtimento com Cromo"
-
 pmg_land_tenure_base_pasture: "Posse da Terra"
 pm_commons_pasture: "Comuns"
 pm_rural_estates_pasture: "Propriedades Rurais"
@@ -277,18 +223,14 @@ pm_fortified_ranches_pasture: "Fazendas Fortificadas"
 pm_corporate_entities_pasture: "Entidades Corporativas"
 pm_state_ownership_pasture: "Propriedade Estatal"
 pm_worker_cooperative_pasture: "Cooperativa de Trabalhadores"
-
 #Prime Pasture
-
 pmg_prime_pasture: "Pastagem de Qualidade"
 pm_free_range_prp: "Criação Extensiva"
 pm_silage_prp: "Silagem"
 pm_prime_breeds_prp: "Raças de Qualidade"
 pm_rotational_grazing_prp: "Pastoreio Rotativo"
 pm_batteries_prp: "Baterias"
-
 #Base Mine
-
 pmg_processing_base_mine: "Processamento"
 pm_manual_sorting_base_mine: "Classificação Manual"
 pm_arrastras_base_mine: "Arrastras"
@@ -297,7 +239,6 @@ pm_newcomen_engine_base_mine: "Motor Newcomen"
 pm_ore_vanning_base_mine: "Lavagem de Minério"
 pm_flameless_lights_base_mine: "Iluminação Sem Chama"
 pm_electrostatic_separator_base_mine: "Separador Eletrostático"
-
 pmg_resource_rights_base_mine: "Direitos de Recursos"
 pm_liege_rights_base_mine: "Direitos Feudais"
 pm_guild_privileges_base_mine: "Privilégios de Guilda"
@@ -305,9 +246,7 @@ pm_leasehold_rights_base_mine: "Direitos de Arrendamento"
 pm_prospector_claims_base_mine: "Reivindicações de Prospectores"
 pm_private_property_base_mine: "Propriedade Privada"
 pm_national_patrimony_base_mine: "Patrimônio Nacional"
-
 #Coal Mine
-
 pmg_extraction_coal_mine: "Extração"
 pm_picks_and_shovels_coal_mine: "Picaretas e Pás"
 pm_drainage_pumps_coal_mine: "Bombeamento de Drenagem"
@@ -316,16 +255,13 @@ pm_hydraulic_mining_coal_mine: "Mineração Hidráulica"
 pm_deep_shaft_machinery_coal_mine: "Máquinas de Poço Profundo"
 pm_ventilation_fans_coal_mine: "Ventiladores de Ventilação"
 pm_boring_machines_coal_mine: "Máquinas Perfuradoras"
-
 pmg_blasting_coal_mine: "Detonação"
 pm_no_blasting_coal_mine: "Sem Detonação"
 pm_fire_setting_coal_mine: "Acionamento por Fogo"
 pm_blackpowder_coal_mine: "Pólvora"
 pm_nitroglycerin_coal_mine: "Nitroglicerina"
 pm_dynamite_coal_mine: "Dinamite"
-
 #Iron Mine
-
 pmg_extraction_iron_mine: "Extração"
 pm_picks_and_shovels_iron_mine: "Picaretas e Pás"
 pm_drainage_pumps_iron_mine: "Bombeamento de Drenagem"
@@ -334,16 +270,13 @@ pm_hydraulic_mining_iron_mine: "Mineração Hidráulica"
 pm_deep_shaft_machinery_iron_mine: "Máquinas de Poço Profundo"
 pm_ventilation_fans_iron_mine: "Ventiladores de Ventilação"
 pm_boring_machines_iron_mine: "Máquinas Perfuradoras"
-
 pmg_blasting_iron_mine: "Detonação"
 pm_no_blasting_iron_mine: "Sem Detonação"
 pm_fire_setting_iron_mine: "Acionamento por Fogo"
 pm_blackpowder_iron_mine: "Pólvora"
 pm_nitroglycerin_iron_mine: "Nitroglicerina"
 pm_dynamite_iron_mine: "Dinamite"
-
 #Lead Mine
-
 pmg_extraction_lead_mine: "Extração"
 pm_picks_and_shovels_lead_mine: "Picaretas e Pás"
 pm_drainage_pumps_lead_mine: "Bombeamento de Drenagem"
@@ -352,16 +285,13 @@ pm_hydraulic_mining_lead_mine: "Mineração Hidráulica"
 pm_deep_shaft_machinery_lead_mine: "Máquinas de Poço Profundo"
 pm_ventilation_fans_lead_mine: "Ventiladores de Ventilação"
 pm_boring_machines_lead_mine: "Máquinas Perfuradoras"
-
 pmg_blasting_lead_mine: "Detonação"
 pm_no_blasting_lead_mine: "Sem Detonação"
 pm_fire_setting_lead_mine: "Acionamento por Fogo"
 pm_blackpowder_lead_mine: "Pólvora"
 pm_nitroglycerin_lead_mine: "Nitroglicerina"
 pm_dynamite_lead_mine: "Dinamite"
-
 #Sulfur Mine
-
 pmg_extraction_sulfur_mine: "Extração"
 pm_picks_and_shovels_sulfur_mine: "Picaretas e Pás"
 pm_drainage_pumps_sulfur_mine: "Bombeamento de Drenagem"
@@ -370,16 +300,13 @@ pm_hydraulic_mining_sulfur_mine: "Mineração Hidráulica"
 pm_deep_shaft_machinery_sulfur_mine: "Máquinas de Poço Profundo"
 pm_ventilation_fans_sulfur_mine: "Ventiladores de Ventilação"
 pm_boring_machines_sulfur_mine: "Máquinas Perfuradoras"
-
 pmg_blasting_sulfur_mine: "Detonação"
 pm_no_blasting_sulfur_mine: "Sem Detonação"
 pm_fire_setting_sulfur_mine: "Acionamento por Fogo"
 pm_blackpowder_sulfur_mine: "Pólvora"
 pm_nitroglycerin_sulfur_mine: "Nitroglicerina"
 pm_dynamite_sulfur_mine: "Dinamite"
-
 #Gold Mine
-
 pmg_extraction_gold_mine: "Extração"
 pm_picks_and_shovels_gold_mine: "Picaretas e Pás"
 pm_drainage_pumps_gold_mine: "Bombeamento de Drenagem"
@@ -388,16 +315,13 @@ pm_hydraulic_mining_gold_mine: "Mineração Hidráulica"
 pm_deep_shaft_machinery_gold_mine: "Máquinas de Poço Profundo"
 pm_ventilation_fans_gold_mine: "Ventiladores de Ventilação"
 pm_boring_machines_gold_mine: "Máquinas Perfuradoras"
-
 pmg_blasting_gold_mine: "Detonação"
 pm_no_blasting_gold_mine: "Sem Detonação"
 pm_fire_setting_gold_mine: "Acionamento por Fogo"
 pm_blackpowder_gold_mine: "Pólvora"
 pm_nitroglycerin_gold_mine: "Nitroglicerina"
 pm_dynamite_gold_mine: "Dinamite"
-
 #Construction Sector
-
 pmg_building_methods_construction: "Métodos de Construção"
 pm_braced_framing: "Estrutura com Travamentos"
 pm_window_glazing: "Vidraçaria"
@@ -405,14 +329,12 @@ pm_balloon_framing: "Estrutura Balão"
 pm_iron_frame_buildings: "Edifícios com Estrutura de Ferro"
 pm_steel_frame_buildings: "Edifícios com Estrutura de Aço"
 pm_earthmovers: "Máquinas de Terraplanagem"
-
 pmg_organization_construction: "Organização"
 pm_corvee_labour_construction: "Trabalho de Corvée"
 pm_artisan_guilds_construction: "Guildas de Artesãos"
 pm_construction_firms_construction: "Empresas de Construção"
 pm_engineer_corps_construction: "Corpo de Engenheiros"
 pm_industrial_conglomerate_construction: "Conglomerado Industrial"
-
 #Logging Camp
 pmg_logging_logging_camp: "Extração de Madeira"
 pm_crosscut_saws: "Serras Transversais"
@@ -421,46 +343,37 @@ pm_circular_saws: "Serras Circulares"
 pm_powered_saws: "Serras Motorizadas"
 pm_band_saws: "Serras de Fita"
 pm_chainsaws: "Motosserras"
-
 pmg_hauling_logging_camp: "Transporte"
 pm_manual_hauling: "Transporte Manual"
 pm_skid_trails: "Estradas de Arrasto"
 pm_log_flumes: "Canais de Madeira"
 pm_steam_donkey: "Guincho a Vapor"
 pm_logging_trucks: "Caminhões de Extração de Madeira"
-
 pmg_forestry_management_logging_camp: "Gestão Florestal"
 pm_aristocratic_reserve: "Reserva Aristocrática"
 pm_common_land: "Terrenos Comuns"
 pm_state_ownership_logging_camp: "Propriedade Estatal"
 pm_private_ownership_logging_camp: "Propriedade Privada"
 pm_national_parks: "Parques Nacionais"
-
 #Oil Derricks
-
 pmg_extraction_oil_derrick: "Extração"
 pm_cable_tool_drilling: "Perfuração com Ferramenta de Cabo"
 pm_rotary_drilling: "Perfuração Rotativa"
 pm_directional_drilling: "Perfuração Direcional"
-
 pmg_drilling_rig_oil_derrick: "Equipamentos de Perfuração"
 pm_steam_powered_drilling_rigs: "Equipamentos de Perfuração a Vapor"
 pm_gas_powered_drilling_rigs: "Equipamentos de Perfuração a Gás"
 pm_electric_drilling_rigs: "Equipamentos de Perfuração Elétrica"
-
 pmg_transportation_oil_derrick: "Transporte"
 pm_blue_barrels: "Barris Azuis"
 pm_tanker_railcars: "Vagões-tanque"
 pm_oil_pipelines: "Dutos de Petróleo"
-
 pmg_ownership_oil_derrick: "Propriedade"
 pm_oil_magnates: "Magnatas do Petróleo"
 pm_nationalized_oil: "Petróleo Nacionalizado"
 pm_industrial_conglomerate_oil: "Conglomerado Industrial"
 pm_military_industrial_complex_oil: "Complexo Industrial-Militar"
-
 #Base Plantations
-
 pmg_infrastructure_base_plantation: "Infraestrutura"
 pm_minimal_infrastructure: "Infraestrutura Mínima"
 pm_irrigation_networks: "Redes de Irrigação"
@@ -468,21 +381,18 @@ pm_warehouses: "Armazéns"
 pm_rail_linkages: "Vínculos Ferroviários"
 pm_cold_storage: "Armazenamento Refrigerado"
 pm_electrified_fences: "Cercas Eletrificadas"
-
 pmg_ownership_base_plantation: "Propriedade"
 pm_titled_aristocracy: "Aristocracia Titulada"
 pm_religious_order: "Ordem Religiosa"
 pm_planter_aristocracy: "Aristocracia Plantadora"
 pm_corporate_entities_plantation: "Entidades Corporativas"
 pm_state_owned_plantations: "Plantations Estatais"
-
 pmg_labor_equity_base_plantation: "Equidade Laboral"
 pm_forced_labor: "Trabalho Forçado"
 pm_exploitation: "Exploração"
 pm_tenant_farming: "Agricultura de Arrendatário"
 pm_collectivization: "Coletivização"
 pm_fair_trade: "Comércio Justo"
-
 #Tea Plantation
 pmg_innovations_tea_plantation: "Inovações no Chá"
 pm_hand_rolling_tea: "Rolo Manual de Chá"
@@ -490,7 +400,6 @@ pm_withering_racks_tea: "Suportes para Murchamento"
 pm_hydraulic_tea_press_tea: "Prensa Hidráulica de Chá"
 pm_tea_blending_machines_tea: "Máquinas de Mistura de Chá"
 pm_ctc_machines_tea: "Máquinas CTC"
-
 #Coffee Plantation
 pmg_innovations_coffee_plantation: "Inovações no Café"
 pm_dry_processing_coffee: "Processamento a Seco"
@@ -498,7 +407,6 @@ pm_strip_picking_tools_coffee: "Ferramentas para Colheita Seletiva"
 pm_roasting_machines_coffee: "Máquinas de Torração"
 pm_fermentation_tanks_coffee: "Tanques de Fermentação"
 pm_freeze_dried_coffee_coffee: "Café Liofilizado"
-
 #Spice Plantation
 pmg_innovations_spice_plantation: "Inovações nas Especiarias"
 pm_natural_spices_spice: "Especiarias Naturais"
@@ -506,7 +414,6 @@ pm_grinding_mills_spice: "Moinhos de Moagem"
 pm_aromatics_extraction_spice: "Extração de Aromáticos"
 pm_steam_sterilization_spice: "Esterilização a Vapor"
 pm_sorting_and_grading_machines_spice: "Máquinas de Classificação e Classificação"
-
 #Sugarcane Plantation
 pmg_innovations_sugarcane_plantation: "Inovações na Cana-de-Açúcar"
 pm_sugarloaf_molds_sugarcane: "Formas de Açúcar Mascavo"
@@ -514,7 +421,6 @@ pm_molasses_separation_sugarcane: "Separação de Melaço"
 pm_cane_crushers_sugarcane: "Máquinas de Moagem de Cana"
 pm_vacuum_pan_evaporation_sugarcane: "Evaporação em Pane de Vácuo"
 pm_centrifugation_sugarcane: "Centrifugação"
-
 #Cotton Plantation
 pmg_innovations_cotton_plantation: "Inovações no Algodão"
 pm_hand_picking_cotton: "Colheita Manual de Algodão"
@@ -522,7 +428,6 @@ pm_fiber_carding_tools_cotton: "Ferramentas para Cardação de Fibras"
 pm_cotton_gin_cottons: "Máquinas de Desmotar Algodão"
 pm_diesel_powered_gins_cotton: "Máquinas de Desmotar a Diesel"
 pm_cotton_harvesters_cotton: "Colheitadeiras de Algodão"
-
 #Tobacco Plantation
 pmg_innovations_tobacco_plantation: "Inovações no Tabaco"
 pm_darkleaf_tobacco_tobacco: "Tabaco de Folha Escura"
@@ -530,7 +435,6 @@ pm_protective_frames_tobacco: "Estruturas de Proteção"
 pm_brightleaf_tobacco_tobacco: "Tabaco de Folha Clara"
 pm_shredding_machines_tobacco: "Máquinas Trituradoras"
 pm_cigarette_rolling_machines_tobacco: "Máquinas de Enrolar Cigarros"
-
 #Silk Plantation
 pmg_innovations_silk_plantation: "Inovações na Seda"
 pm_wild_silk: "Seda Silvestre"
@@ -538,79 +442,65 @@ pm_silk_threading_looms_silk: "Teares para Fiação de Seda"
 pm_rotary_mountage_silk: "Montagem Rotativa"
 pm_mechanical_spooling_silk: "Enrolamento Mecânico"
 pm_automatic_reeling_devices_silk: "Dispositivos de Bobinagem Automática"
-
 #Rubber Plantation
 pmg_innovations_rubber_plantation: "Inovações na Borracha"
 pm_rubber_mastication_rubber: "Mastigação de Borracha"
 pm_vulcanized_rubber_rubber: "Borracha Vulcanizada"
 pm_coagulating_agents_rubber: "Agentes Coagulantes"
 pm_ammoniation_rubber: "Ammonização"
-
 #Opium Plantation
 pmg_innovations_opium_plantation: "Inovações no Ópio"
 pm_camphorated_opium_opium: "Ópio Camforado"
 pm_morphine_extraction_opium: "Extração de Morfina"
 pm_codeine_isolation_opium: "Isolamento de Codeína"
 pm_heroin_synthesis_opium: "Síntese de Heroína"
-
 #Power Plant
 pmg_fuel_power_plant: "Fonte de Combustível"
 pm_coal_power_plant: "Carvão"
 pm_fuel_oil_power_plant: "Óleo Combustível"
 pm_pumped_storage_power_plant: "Armazenamento Bombeado"
-
 pmg_power_generation_power_plant: "Geração de Eletricidade"
 pm_reciprocating_steam_engines_power_plant: "Motores Alternativos a Vapor"
 pm_steam_turbines_power_plant: "Turbinas a Vapor"
 pm_francis_turbines_power_plant: "Turbinas Francis"
-
 pmg_infrastructure_power_plant: "Infraestrutura Elétrica"
 pm_no_power_grid_infrastructure: "Sem Infraestrutura de Rede Elétrica"
 pm_neighborhood_power_grids: "Redes de Energia do Bairro"
 pm_city_power_grids: "Redes de Energia da Cidade"
 pm_regional_power_grids_power_plant: "Redes de Energia Regional"
-
 pmg_ownership_power_plant: "Propriedade"
 pm_private_ownership_power_plant: "Propriedade Privada"
 pm_public_private_partnership_power_plant: "Parceria Pública-Privada"
 pm_nationalized_plants_power_plant: "Usinas Nacionalizadas"
-
 #Kaolin Mine
-
 pmg_kaolin_extraction: "Extração de Caulim"
 pm_picks_and_shovels_kaolin_mine: "Picaretas e Pás"
 pm_stamp_mills_kaolin_mine: "Moinhos de Estampagem"
 pm_hydraulic_mining_kaolin_mine: "Mineração Hidráulica"
 pm_centrifugation_kaolin_mine: "Centrifugação"
 pm_open_pit_mining_kaolin_mine: "Mineração a Céu Aberto"
-
 pmg_kaolin_kilns: "Fornos de Caulim"
 pm_crossdraft_kilns_kaolin_mine: "Fornos de Fluxo Cruzado"
 pm_shuttle_kilns_kaolin_mine: "Fornos Móveis"
 pm_gas_fired_kilns_kaolin_mine: "Fornos a Gás"
 pm_hoffmann_kilns_kaolin_mine: "Fornos Hoffmann"
-
 #Base Industry
-
 #Motivação da Força
 pmg_motive_power: "Motivação da Força"
 pm_manual_labour: "Trabalho Manual"
 pm_draft_animals: "Animais de Tração"
 pm_rotating_mills: "Moinhos Rotativos"
-
 #Motivação Industrial da Força
 pmg_industrial_motive_power: "Motivação Industrial da Força"
 pm_steam_engines: "Motores a Vapor"
 pm_rotary_valve_engine: "Motor a Válvula Rotativa"
 pm_petrol_engines: "Motores a Gasolina"
 pm_electronic_process_control: "Controle Eletrônico de Processos"
-
 #Organização Pré-Industrial
 pmg_pre_industrial_organization: "Organização Pré-Industrial"
 pm_decentralized_industry: "Indústria Descentralizada"
 pm_aristocratic_control: "Controle Aristocrático"
 pm_guild_monopolies: "Monopólios de Guilda"
-
 #Organização Industrial
 pmg_industrial_organization: "Organização Industrial"
 pm_state_owned_enterprise: "Empresa Estatal"
@@ -618,24 +508,20 @@ pm_military_industrial_complex: "Complexo Industrial Militar"
 pm_workers_cooperative: "Cooperativa de Trabalhadores"
 pm_small_and_medium_enterprises: "Pequenas e Médias Empresas"
 pm_industrial_conglomerate: "Conglomerado Industrial"
-
+pm_industrial_conglomerate_river: "Conglomerado Industrial"
 #Vidrarias
-
 pmg_kilns: "Fornos"
 pm_crossdraft_kilns: "Fornos de Fluxo Cruzado"
 pm_shuttle_kilns: "Fornos de Transferência"
 pm_gas_fired_kilns: "Fornos a Gás"
 pm_hoffmann_kilns: "Fornos Hoffmann"
-
 pmg_glassworks: "Vidrarias"
 pm_forest_glass: "Vidro da Floresta"
 pm_lead_crystal_glass: "Vidro de Cristal"
 pm_polished_plate_glass: "Vidro de Placa Polida"
 pm_cylinder_sheet_glass: "Vidro de Chapa Cilíndrica"
 pm_borosilicate_glass: "Vidro de Borossilicato"
-
 #Fundição
-
 pmg_ironworks: "Fundição de Ferro"
 pm_bloomery: "Fundição Bloomery"
 pm_blister_steel: "Aço Blister"
@@ -648,90 +534,74 @@ pm_confectionery: "Confeitaria"
 pm_no_liquor: "Sem Álcool"
 pm_no_chemicals: "Sem Químicos"
 pm_cotton_gins_cotton: "Algodão para Deslintadoras de Algodão"
-
 pm_blast_furnace: "Alto-Forno"
 pm_rolling_mill: "Laminadora"
 pm_potting_and_stamping: "Fabricação de Vasos e Carimbos"
 pm_puddling_process: "Processo de Puddling"
 pm_electric_arc_furnace_iron: "Forno Elétrico de Arco"
-
 pmg_steelworks: "Fundição de Aço"
 pm_no_steel: "Sem Aço"
 pm_crucible_steel: "Aço de Cadinho"
 pm_bessemer_process: "Processo Bessemer"
 pm_open_hearth_furnace: "Forno de Fornalha Aberta"
 pm_electric_arc_furnace_steel: "Forno Elétrico de Arco"
-
 pmg_alloys: "Ligas"
 pm_no_alloys: "Sem Ligas"
 pm_pewter_alloys: "Ligas de Estanho"
 pm_brass_alloys: "Ligas de Latão"
 pm_soldering_alloys: "Ligas de Solda"
 pm_aluminium_alloys: "Ligas de Alumínio"
-
 pmg_slag_byproducts: "Subprodutos de Escória"
 pm_resmelting: "Re-fusão"
 pm_iron_mordants: "Mordentes de Ferro"
 pm_ferrous_fertilizers: "Fertilizantes Ferrosos"
 pm_mineral_wool: "Lã Mineral"
 pm_slag_glass: "Vidro de Escória"
-
 #Indústrias Alimentícias
-
 pmg_baking: "Panificação"
 pm_comfits: "Confeitos"
 pm_baking_powder: "Fermento em Pó"
 pm_commercial_yeast: "Levedura Comercial"
 pm_solid_chocolate: "Chocolate Sólido"
-
 pmg_liquor_distillation: "Destilação de Bebidas Alcoólicas"
 pm_wooden_casks: "Barris de Madeira"
 pm_brew_kettles: "Caldeiras de Cervejaria"
 pm_pot_stills: "Alambiques de Panela"
 pm_column_stills: "Alambiques de Coluna"
 pm_chromium_vessels: "Recipientes de Cromo"
-
 pmg_opium_tinctures: "Tinturas de Ópio"
 pm_no_tinctures: "Sem Tinturas"
 pm_laudanum: "Laudano"
-
 pmg_canning: "Enlatamento"
 pm_no_canning: "Sem Enlatamento"
 pm_glass_jars: "Potes de Vidro"
 pm_metal_cans: "Latas de Metal"
 pm_vacuum_sealed_cans: "Latas a Vácuo"
 pm_freeze_dried_food: "Alimentos Liofilizados"
-
 pmg_kitchen_appliances: "Eletrodomésticos de Cozinha"
 pm_basic_appliances: "Eletrodomésticos Básicos"
 pm_oven_thermometers: "Termômetros de Forno"
 pm_gas_stoves: "Fogões a Gás"
 pm_electric_mixers: "Batedeiras Elétricas"
 pm_dishwashers: "Máquinas de Lavar Louça"
-
 #Indústrias da Alta-Costura
-
 pmg_dyeworks: "Tinturarias"
 pm_organic_dyes: "Corantes Orgânicos"
 pm_sulfate_mordants: "Mordentes de Sulfato"
 pm_chromium_mordants: "Mordentes de Cromo"
 pm_aniline_dyes: "Corantes Anilina"
 pm_azo_dyes: "Corantes Azo"
-
 pmg_luxury_clothes: "Roupas de Luxo"
 pm_no_luxury_clothes: "Sem Roupas de Luxo"
 pm_artisanal_weavers: "Tecelões Artesanais"
 pm_couture_fabrics: "Tecidos de Alta-Costura"
 pm_black_and_white_tie: "Roupas de Cerimônia"
 pm_sportswear: "Roupas Esportivas"
-
 pmg_waterproof_clothing: "Roupas Impermeáveis"
 pm_no_waterproof_clothing: "Sem Roupas Impermeáveis"
 pm_raincoats: "Capas de Chuva"
 pm_trenchcoats: "Sobretudos"
-
 #Textile Industries
-
 pmg_textile_mills: "Indústrias Têxteis"
 pm_clothes: "Roupas"
 pm_treadle_looms: "Teares de Pedal"
@@ -740,24 +610,19 @@ pm_spinning_jenny: "Máquina de fiar Jenny"
 pm_jacquard_heads: "Máquina Jacquard"
 pm_sewing_machines: "Máquinas de Costura"
 pm_automatic_power_looms: "Teares Automáticos"
-
 #Furniture Industries
-
 pmg_furniture: "Móveis"
 pm_handcarved_furniture: "Móveis Entalhados à Mão"
 pm_woodturning_lathes: "Tornos de Madeira"
 pm_veneering_machines: "Máquinas de Folheado"
 pm_plywood: "Compensado"
 pm_precision_joinery: "Marcenaria de Precisão"
-
 pmg_luxury_furniture: "Móveis de Luxo"
 pm_no_luxury_furniture: "Sem Móveis de Luxo"
 pm_marquetry: "Marchetaria"
 pm_upholstering: "Estofamento"
 pm_electroplated_metals: "Metais Eletrochapeados"
-
 #Tooling Workshops
-
 pmg_tools: "Ferramentas"
 pm_non_metal_tools: "Ferramentas Não Metálicas"
 pm_wrought_iron_tools: "Ferramentas de Ferro Forjado"
@@ -765,158 +630,127 @@ pm_case_hardened_tools: "Ferramentas Temperadas"
 pm_crucible_steel_tools: "Ferramentas de Aço de Cadinho"
 pm_chromium_steel_tools: "Ferramentas de Aço Cromo"
 pm_tungsten_carbide_tools: "Ferramentas de Carbeto de Tungstênio"
-
 pmg_machined_parts: "Peças Usinadas"
 pm_no_machined_parts: "Sem Peças Usinadas"
 pm_turret_lathe: "Torno Revólver"
 pm_steel_milling_machines: "Máquinas de Fresar Aço"
 pm_drill_press: "Mandriladora"
 pm_molded_polymers: "Polímeros Moldados"
-
 #Papermaking Industries
-
 pmg_papermaking: "Fabricação de Papel"
 pm_handmade_paper: "Papel Artesanal"
 pm_pulping_mills: "Moinhos de Polpa"
 pm_fourdrinier_machine: "Máquina Fourdrinier"
 pm_rotary_press: "Impressora Rotativa"
 pm_chemical_pulping: "Polpa Química"
-
 pmg_pulp_material: "Material para Polpa"
 pm_rag_paper: "Papel de Tecido"
 pm_wood_pulp_paper: "Papel de Polpa de Madeira"
 pm_acidic_paper: "Papel Ácido"
-
 #Chemical Plants
-
 pmg_chemicals: "Químicos"
 pm_soda_ash: "Barrilha"
 pm_iron_sulfate_process: "Processo de Sulfato de Ferro"
 pm_leblanc_process: "Processo Leblanc"
 pm_solvay_process: "Processo Solvay"
 pm_castner_kellner_process: "Processo Castner-Kellner"
-
 pmg_fertilizer: "Fertilizantes"
 pm_no_fertilizer: "Sem Fertilizantes"
 pm_gypsum_fertilizer: "Fertilizante de Gesso"
 pm_ammonia_fertilizer: "Fertilizante de Amônia"
 pm_birkeland_eyde_process: "Processo Birkeland-Eyde"
 pm_haber_bosch_process: "Processo Haber-Bosch"
-
 #Synthetic Plants
-
 pmg_composite_porcelain: "Porcelana Composta"
 pm_hard_paste_porcelain: "Porcelana de Pasta Dura"
 pm_soft_paste_porcelain: "Porcelana de Pasta Mole"
 pm_bone_china: "Porcelana de Osso"
-
 pmg_synthetic_fibers: "Fibras Sintéticas"
 pm_no_synthetic_fibers: "Sem Fibras Sintéticas"
 pm_art_silk: "Seda Artificial"
 pm_rayon: "Rayon"
-
 pmg_synthetic_polymers: "Polímeros Sintéticos"
 pm_no_synthetic_polymers: "Sem Polímeros Sintéticos"
 pm_isoprene_production: "Produção de Isopreno"
 pm_bakelite_production: "Produção de Baquelite"
-
 #Engineering Firms
-
 pmg_engines: "Motores"
 pm_piston_engine: "Motor de Pistão"
 pm_spark_ignition_engine: "Motor de Ignição por Faísca"
 pm_diesel_engine: "Motor Diesel"
 pm_v8_engine: "Motor V8"
-
 pmg_telecomms: "Telecomunicações"
 pm_no_telecomms: "Sem Telecomunicações"
 pm_telegraph: "Telégrafo"
 pm_telephone: "Telefone"
 pm_radio: "Rádio"
-
 pmg_ironclads: "Couraçados"
 pm_no_ironclads: "Sem Couraçados"
 pm_revolving_gun_turrets: "Torres Giratórias de Canhões"
 pm_streamlined_hulls: "Casco Aerodinâmico"
 pm_sloped_armor_ironclads: "Blindagem Inclinada"
-
 #Oil Refineries
-
 pmg_oil_cracking: "Craqueamento de Petróleo"
 pm_thermal_cracking: "Craqueamento Térmico"
 pm_continuous_distillation: "Destilação Contínua"
 pm_catalytic_cracking: "Craqueamento Catalítico"
 pm_hydrocracking: "Hidrocracking"
-
 pmg_petrochemicals: "Petroquímicos"
 pm_no_petrochemicals: "Sem Petroquímicos"
 pm_naphtha_extraction: "Extração de Nafta"
 pm_phenol_extraction: "Extração de Fenol"
 pm_ethylene_production: "Produção de Etileno"
 pm_polymerization: "Polimerização"
-
 #Automotive Firms
-
 pmg_automobiles: "Automóveis"
 pm_motorwagon: "Motorwagon"
 pm_phaeton_carriage: "Carruagem Phaeton"
 pm_touring_car: "Carro de Turismo"
-
 pmg_tyres: "Pneus"
 pm_metal_tires: "Pneus de Metal"
 pm_solid_rubber_tyres: "Pneus de Borracha Maciça"
 pm_pneumatic_tyres: "Pneus Pneumáticos"
-
 pmg_tanks: "Tanques"
 pm_no_tanks: "Sem Tanques"
 pm_landships: "Landships"
 pm_turreted_tanks: "Tanques com Torre"
 pm_sloped_armor_tanks: "Blindagem Inclinada"
-
 pmg_aeroplanes: "Aviões"
 pm_no_aeroplanes: "Sem Aviões"
 pm_biplanes: "Biplanos"
 pm_monoplanes: "Monoplanos"
 pm_all_metal_aircraft: "Aeronaves Totalmente Metálicas"
-
 #Railways
-
 pmg_railways_freight: "Ferrovias de Carga"
 pm_rolling_wagons: "Vagões Rolantes"
 pm_flatcars: "Vagões de Plataforma"
 pm_gondola_cars: "Vagões Gôndola"
 pm_rotary_cars: "Vagões Rotativos"
 pm_intermodal_freight_containers: "Contêineres Intermodais de Carga"
-
 pmg_railways_passenger: "Ferrovias de Passageiros"
 pm_no_passenger_cars: "Sem Vagões de Passageiros"
 pm_stagecoach_cars: "Vagões de Diligência"
 pm_passenger_cars: "Vagões de Passageiros"
 pm_dining_cars: "Vagões-Restaurante"
 pm_passenger_streamliner: "Trem de Passageiros de Alta Velocidade"
-
 pmg_railways_bonus: "Bônus Ferroviário"
 pm_no_railway_bonus: "Sem Bônus Ferroviário"
 pm_scenic_touring_trains: "Trens Turísticos Cênicos"
 pm_military_railways: "Ferrovias Militares"
 pm_whistle_stop_tours: "Trens Turísticos com Paradas Rápidas"
 pm_colonial_railways: "Ferrovias Coloniais"
-
 pmg_railways_motive_power: "Motive Power"
 pm_horse_drawn_trains: "Trens Puxados por Cavalos"
 pm_coal_trains: "Trens a Carvão"
 pm_electricity_trains: "Trens Elétricos"
 pm_petrol_trains: "Trens a Gasolina"
-
 pmg_railways_ownership: "Propriedade das Ferrovias"
 pm_railways_private_ownership: "Propriedade Privada"
 pm_railways_military_owned: "Propriedade Militar"
 pm_railways_industrial_conglomerate: "Conglomerado Industrial"
 pm_railways_state_owned: "Propriedade Estatal"
 pm_railways_worker_cooperative: "Cooperativa de Trabalhadores"
-
 #Arsenal
-
 pmg_arsenal_firearms: "Armas de Fogo"
 pm_matchlock_muskets: "Mosquetes de Fechadura de Leme"
 pm_flintlock_muskets: "Mosquetes de Fechadura de Cão de Pedra"
@@ -925,7 +759,6 @@ pm_percussion_caps: "Cápsulas de Percussão"
 pm_breech_loading_rifles: "Fuzis de Carregamento pela Culatra"
 pm_bolt_action_rifles: "Fuzis de Ferrolho"
 pm_semi_automatic_firearms: "Armas Semiautomáticas"
-
 pmg_arsenal_artillery: "Artilharia"
 pm_no_artillery: "Sem Artilharia"
 pm_muzzle_loading_cannons: "Canhões de Carregamento pela Boca"
@@ -933,25 +766,53 @@ pm_mobile_field_artillery: "Artilharia de Campo Móvel"
 pm_breech_loading_artillery: "Artilharia de Carregamento pela Culatra"
 pm_hydraulic_recoil_mechanism: "Mecanismo de Recuo Hidráulico"
 pm_quick_firing_artillery: "Artilharia de Disparo Rápido"
-
 #Munitions Plants
-
 pmg_munitions_plant_ammunition: "Munições"
 pm_paper_cartridges: "Cartuchos de Papel"
 pm_minie_ball: "Projétil Minie"
 pm_metallic_cartridges: "Cartuchos Metálicos"
 pm_smokeless_powder: "Pólvora sem Fumaça"
 pm_spitzer_bullet: "Projétil Spitzer"
-
 pmg_munitions_plant_explosives: "Explosivos"
 pm_no_explosives_tov: "Sem Explosivos Hoje"
 pm_nitroglycerin: "Nitroglicerina"
 pm_dynamite: "Dinamite"
 pm_trinitrotoluene: "Trinitrotolueno"
-
-
+#Major Rivers
+pmg_river_utilization: "Utilização de Rios"
+pm_freshwater_fishing: "Pesca em Água Doce"
+pm_flax_linen_industry: "Indústria de Linho de Linho"
+pm_small_goods_trade: "Comércio de Pequenas Mercadorias"
+pm_hydroelectric_dams: "Barragens Hidroelétricas"
+pmg_river_engineering: "Engenharia de Rios"
+pm_earthen_embankments: "Aterros de Terra"
+pm_watermills: "Moinhos de Água"
+pm_iron_geared_watermills: "Moinhos de Água com Engrenagens de Ferro"
+pm_artificial_embankments: "Aterros Artificiais"
+pm_steel_geared_watermills: "Moinhos de Água com Engrenagens de Aço"
+pm_water_turbines: "Turbinas de Água"
+pm_canalized_rivers: "Rios Canalizados"
+pmg_river_shipping: "Transporte Fluvial"
+pm_no_boats: "Sem Barcos"
+pm_river_rafts: "Jangadas Fluviais"
+pm_river_barges: "Barcaças Fluviais"
+pm_paddle_steamers: "Vapor de Rodas"
+pm_screw_propeller_steamers: "Vapor de Hélice"
+pm_intermodal_cargo_boats: "Barcos de Carga Intermodal"
+pmg_river_bonus: "Bônus de Rio"
+pm_no_river_bonus: "Sem Bônus de Rio"
+pm_irrigation_canals: "Canais de Irrigação"
+pm_river_based_settlements: "Assentamentos Baseados em Rios"
+pm_drinking_water_reservoirs: "Reservatórios de Água Potável"
+pm_gravel_quarries: "Pedreiras de Cascalho"
+pm_floating_casinos: "Cassinos Flutuantes"
+pmg_river_usage_rights: "Direitos de Uso do Rio"
+pm_decentralised_control: "Controle Descentralizado"
+pm_merchant_leagues: "Ligas Mercantis"
+pm_crown_estate: "Propriedade da Coroa"
+pm_privately_owned_parcels: "Parcelas de Propriedade Privada"
+pm_nationalized_infrastructure: "Infraestrutura Nacionalizada"
 #Unsorted 0.2 Additions
-
 pm_natural_hides: "Couro Natural"
 pm_flax_and_hemp_fields_tef: "Campos de Linho e Cânhamo"
 pm_sugarbeet_fields_tef: "Campos de Beterraba"

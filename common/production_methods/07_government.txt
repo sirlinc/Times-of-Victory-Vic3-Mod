@@ -433,7 +433,6 @@ pm_hereditary_bureaucracy = {
             building_employment_aristocrats_add = 250
         }
         unscaled = {
-			building_government_shares_add = 1
         }
     }
 }
@@ -452,7 +451,6 @@ pm_religious_bureaucracy = {
             building_employment_clergymen_add = 500
         }
         unscaled = {
-			building_government_shares_add = 1
         }
     }
 }
@@ -471,7 +469,6 @@ pm_military_bureaucracy = {
             building_employment_officers_add = 500
         }
         unscaled = {
-            building_officers_shares_add = 3
         }
     }
 }
@@ -491,8 +488,7 @@ pm_professional_bureaucracy = {
             building_employment_academics_add = 250
             building_employment_bureaucrats_add = 250
         }
-        unscaled = {
-			building_government_shares_add = 1           
+        unscaled = {      
         }
     }
 }
@@ -1015,7 +1011,7 @@ pm_anchorage = {
 	
 	country_modifiers = {
 		workforce_scaled = {
-			country_convoys_capacity_add = 40
+			country_convoys_capacity_add = 10
 		}
 	}
 	
@@ -1044,7 +1040,7 @@ pm_basic_port = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_convoys_capacity_add = 200
+			country_convoys_capacity_add = 30
 		}
 	}
 	state_modifiers = {
@@ -1076,7 +1072,7 @@ pm_industrial_port = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_convoys_capacity_add = 400
+			country_convoys_capacity_add = 60
 		}
 	}
 	state_modifiers = {
@@ -1107,7 +1103,7 @@ pm_modern_port = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_convoys_capacity_add = 800
+			country_convoys_capacity_add = 100
 		}
 	}
 	state_modifiers = {
