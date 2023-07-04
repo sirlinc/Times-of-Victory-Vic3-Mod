@@ -1,13 +1,11 @@
-﻿ig_paternalistic = {
+﻿ig_absolutism = {
 	color = rgb{ 173 60 115 }
-	texture = "gfx/interface/icons/ig_icons/paternalistic.dds" #
+	texture = "gfx/interface/icons/ig_icons/paternalistic.dds" 
 	
 	layer = "revolution_dynamic_landowners"
 	index = 4
 	
-	ideologies = {
-		ideology_paternalistic
-	}
+	ideologies = { ideology_paternalistic }
 
 	enable = {
 		always = yes
@@ -29,7 +27,7 @@
 	}
 
 	pop_weight = {
-		value = 0
+		value = 1
 		
 		add = {
 			desc = "POP_ARISTOCRATS"

@@ -1,11 +1,11 @@
-﻿ig_agrarian = {
+﻿ig_manorialism = {
 	color = hsv{ 0.22 0.66 0.44 }
 	texture = "gfx/interface/icons/ig_icons/agrarian.dds"
 	
 	layer = "revolution_dynamic_landowners"
 	index = 4
 	
-	ideologies = { ideology_agrarian }
+	ideologies = { ideology_manorialism ideology_stratocratic }
 
 	enable = { always = yes }
 	
@@ -16,7 +16,6 @@
 	on_character_ig_membership = {}
 	
 	pop_potential = {
-		NOT = { is_pop_type = clergymen }
 		OR = {
 			pop_employment_building_group = bg_agriculture
 			pop_employment_building_group = bg_mining
@@ -32,42 +31,17 @@
 			desc = "POP_EMPLOYMENT"
 			if = {
 				limit = { 
-					NOR = { 
-						is_pop_type = capitalists
-						is_pop_type = aristocrats
-					}
 					OR = {
+						is_pop_type = farmers
 						pop_employment_building_group = bg_agriculture
 						pop_employment_building_group = bg_mining
 						pop_employment_building_group = bg_ranching
 						pop_employment_building_group = bg_plantations
 					}
 				}
-				value = 10
+				value = 190
 			}
 		}	
-		
-		add = {
-			desc = "POP_LANDOWNERS"
-			if = {
-				limit = { 
-					OR = { 
-						is_pop_type = capitalists
-						AND = {
-							is_pop_type = aristocrats
-							standard_of_living <= 10
-						}
-					}
-					OR = {
-						pop_employment_building_group = bg_agriculture
-						pop_employment_building_group = bg_mining
-						pop_employment_building_group = bg_ranching
-						pop_employment_building_group = bg_plantations
-					}
-				}
-				value = 6.5
-			}
-		}
 
 		multiply = {
 			desc = "LEADER_POPULARITY"

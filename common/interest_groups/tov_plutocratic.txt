@@ -16,29 +16,42 @@
 	on_character_ig_membership = {}
 	
 	pop_potential = {
-		OR = {
-			is_pop_type = aristocrats
-			is_pop_type = capitalists
+		NOR = {
+			pop_employment_building_group = bg_agriculture
+			pop_employment_building_group = bg_mining
+			pop_employment_building_group = bg_ranching
+			pop_employment_building_group = bg_plantations
 		}
 	}
 
 	pop_weight = {
 	
-		value = 0
+		value = 1
 	
 		add = {
-			desc = "UPPER_STRATA"
+			desc = "POP_CAPITALISTS"
 			if = {
 				limit = { 
-					OR = {
-						is_pop_type = aristocrats
-						is_pop_type = capitalists
-						strata = rich
-					}
+					is_pop_type = capitalists
 				}
-				value = 185
+				value = 10
 			}
 		}	
+		
+		#add = {
+		#	desc = "POP_CAPITALISTS"
+		#	if = {
+		#		limit = { 
+		#			NOR = {
+		#				pop_employment_building_group = bg_agriculture
+		#				pop_employment_building_group = bg_mining
+		#				pop_employment_building_group = bg_ranching
+		#	pop_employment_building_group = bg_plantations
+		#}
+		#		}
+		#		value = 10
+		#	}
+		#}	
 		
 		#SOL 
 		add = {

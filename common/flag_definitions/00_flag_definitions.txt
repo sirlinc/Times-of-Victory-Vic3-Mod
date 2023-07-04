@@ -3005,7 +3005,11 @@ FRA = { # France
 		coa_with_overlord_canton = FRA_subject			
 		priority = 25
 		trigger = {
-			coa_def_absolute_monarchy_flag_trigger = yes
+			has_law = law_type:law_monarchy
+			NOR = {
+				has_variable = legitimist_restoration_var 
+				has_variable = orleanist_restoration_var 
+			}
 		}
 	}	
 	flag_definition = {
