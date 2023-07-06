@@ -1,11 +1,14 @@
 ﻿ig_plutocratic = {
-	color = rgb { 23 122 120 }
+	color = rgb { 173 66 12 }
 	texture = "gfx/interface/icons/ig_icons/plutocratic.dds"
 	
 	layer = "revolution_dynamic_industrialists"
 	index = 2
 	
-	ideologies = { ideology_plutocratic	}
+	ideologies = {
+		ideology_plutocratic	
+		ideology_stratocratic
+	}
 
 	enable = { always = yes }
 	
@@ -16,16 +19,21 @@
 	on_character_ig_membership = {}
 	
 	pop_potential = {
-		NOR = {
-			pop_employment_building_group = bg_agriculture
-			pop_employment_building_group = bg_mining
-			pop_employment_building_group = bg_ranching
-			pop_employment_building_group = bg_plantations
+		OR = {
+			is_pop_type = capitalists
+			AND = {
+				NOR = {
+					pop_employment_building_group = bg_agriculture
+					pop_employment_building_group = bg_mining
+					pop_employment_building_group = bg_ranching
+					pop_employment_building_group = bg_plantations
+				}
+				standard_of_living > 5.5
+			}
 		}
 	}
 
 	pop_weight = {
-	
 		value = 1
 	
 		add = {
