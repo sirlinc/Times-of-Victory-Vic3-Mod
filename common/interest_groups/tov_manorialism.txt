@@ -1,6 +1,6 @@
 ﻿ig_manorialism = {
 	color = rgb { 144 36 36 }
-	texture = "gfx/interface/icons/ig_icons/agrarian.dds"
+	texture = "gfx/interface/icons/ig_icons/elitism.dds"
 	
 	layer = "revolution_dynamic_landowners"
 	index = 4
@@ -38,8 +38,7 @@
 					OR = { 
 						AND = { 
 							is_pop_type = aristocrats
-							standard_of_living >= 8
-							standard_of_living <= 15.5
+							standard_of_living >= 15
 							OR = { 
 								pop_employment_building_group = bg_agriculture
 								pop_employment_building_group = bg_mining
@@ -50,7 +49,6 @@
 						AND = { 
 							is_pop_type = capitalists
 							standard_of_living >= 8
-							standard_of_living <= 15.5
 							OR = { 
 								pop_employment_building_group = bg_agriculture
 								pop_employment_building_group = bg_mining

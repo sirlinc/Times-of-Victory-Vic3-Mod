@@ -448,13 +448,23 @@ types information_panels_types
 							elide = right
 						}
 
-						button_icon_goto = {
-							size = { 25 25 }
- 							onclick = "[InformationPanelBar.OpenInterestGroupPanel(InterestGroup.AccessSelf)]"
-							tooltip = "GO_TO_BUTTON_INTEREST_GROUP"
-							block "goto_visibility" {}
- 						}
-
+						textbox = {
+							layoutpolicy_horizontal = expanding
+							align = left|nobaseline
+							margin_left = 10
+							size = { 0 25 }
+							elide = right
+							raw_text = "[InterestGroup.GetApprovalRating] #bold ([InterestGroup.GetApprovalValue|=+])#!"
+							tooltip = "IG_APPROVAL_BREAKDOWN"
+						}
+						
+						#button_icon_goto = {
+						#	size = { 25 25 }
+ 						#	onclick = "[InformationPanelBar.OpenInterestGroupPanel(InterestGroup.AccessSelf)]"
+						#	tooltip = "GO_TO_BUTTON_INTEREST_GROUP"
+						#	block "goto_visibility" {}
+ 						#}
+						
  						expand = {}
 						
 						### CLOUT
@@ -462,9 +472,9 @@ types information_panels_types
 							layoutpolicy_vertical = preferred
 							spacing = 4
 							using = clout_tooltip_with_graph
-							
+
 							textbox = {
-								layoutpolicy_horizontal = preferred
+								layoutpolicy_horizontal = expanding
 								size = { 0 20 }
 								align = right|nobaseline
 								margin_right = 2
@@ -541,8 +551,7 @@ types information_panels_types
 						#		}
 						#	}
 						#}
-						
-						
+
 						#Population
 						textbox = {
 							#layoutpolicy_horizontal = expanding

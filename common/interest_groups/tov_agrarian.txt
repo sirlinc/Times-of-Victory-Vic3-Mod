@@ -36,7 +36,7 @@
 				limit = { 
 					NOT = { 
 						is_pop_type = farmers
-						standard_of_living > 18
+						standard_of_living > 16
 					} 
 					NOR = { 
 						is_pop_type = capitalists
@@ -54,25 +54,17 @@
 		}		
 		
 		add = {
-			desc = "POP_RICH_FARMERS"
-			if = {
-				limit = { 
-					is_pop_type = farmers
-					standard_of_living > 16
-				}
-				value = 8.5
-			}
-		}
-		
-		add = {
 			desc = "POP_LANDOWNERS"
 			if = {
 				limit = { 
 					OR = { 
-						is_pop_type = capitalists
+						AND = { 
+							is_pop_type = capitalists
+							standard_of_living <= 8
+						}
 						AND = {
 							is_pop_type = aristocrats
-							standard_of_living <= 8
+							standard_of_living <= 15.5
 						}
 					}
 					OR = {
@@ -86,6 +78,29 @@
 			}
 		}
 
+		add = {
+			desc = "POP_RICH_FARMERS"
+			if = {
+				limit = { 
+					is_pop_type = farmers
+					standard_of_living > 16
+				}
+				value = 8.5
+			}
+		}
+		
+		add = {
+			desc = "POP_RICH_LANDOWNERS"
+			if = {
+				limit = { 
+					is_pop_type = aristocrats
+					standard_of_living > 15.5
+					standard_of_living <= 18.5
+				}
+				value = 2.5
+			}
+		}
+		
 		multiply = {
 			desc = "LEADER_POPULARITY"
 			scope:interest_group = {

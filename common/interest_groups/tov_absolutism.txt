@@ -1,4 +1,4 @@
-﻿ig_absolutism = {
+﻿ig_absolutism = { #dynamic name: Despotismo Iluminado
 	color = rgb { 154 63 137 }
 	texture = "gfx/interface/icons/ig_icons/paternalistic.dds" 
 	
@@ -31,6 +31,7 @@
 			if = {
 				limit = { 
 					is_pop_type = aristocrats
+					standard_of_living >= 20
 				}
 				value = 10
 			}
@@ -135,19 +136,19 @@
 				min = 0
 			}
 		}
-		multiply = {
-			desc = "NO_SOCIAL_CONTRACT_THEORY"	
-			value = 1.0
-			
-			if = {
-				limit = { 
-					owner = {
-						NOT = { has_technology_researched = social_contract_theory }
-					}
-				}
-				value = 0
-			}		
-		}
+		#multiply = {
+		#	desc = "NO_SOCIAL_CONTRACT_THEORY"	
+		#	value = 1.0
+		#	
+		#	if = {
+		#		limit = { 
+		#			owner = {
+		#				NOT = { has_technology_researched = social_contract_theory }
+		#			}
+		#		}
+		#		value = 0.25
+		#	}		
+		#}
 	}
 
 	monarch_weight = {
