@@ -1,11 +1,14 @@
-﻿ig_agrarian = {
-	color = hsv{ 0.22 0.66 0.44 }
-	texture = "gfx/interface/icons/ig_icons/agrarian.dds"
+﻿ig_manorialism = {
+	color = rgb { 144 36 36 }
+	texture = "gfx/interface/icons/ig_icons/elitism.dds"
 	
 	layer = "revolution_dynamic_landowners"
 	index = 4
 	
-	ideologies = { ideology_agrarian }
+	ideologies = { 
+		ideology_manorialism 
+		ideology_stratocratic 
+	}
 
 	enable = { always = yes }
 	
@@ -16,9 +19,7 @@
 	on_character_ig_membership = {}
 	
 	pop_potential = {
-		NOT = { 
-			is_pop_type = clergymen 
-		}
+		NOT = { is_pop_type = clergymen }
 		OR = {
 			pop_employment_building_group = bg_agriculture
 			pop_employment_building_group = bg_mining
@@ -31,75 +32,56 @@
 		value = 1
 	
 		add = {
-			desc = "POP_EMPLOYMENT"
-			if = {
-				limit = { 
-					NOT = { 
-						is_pop_type = farmers
-						standard_of_living > 16
-					} 
-					NOR = { 
-						is_pop_type = capitalists
-						is_pop_type = aristocrats
-					}
-					OR = {
-						pop_employment_building_group = bg_agriculture
-						pop_employment_building_group = bg_mining
-						pop_employment_building_group = bg_ranching
-						pop_employment_building_group = bg_plantations
-					}
-				}
-				value = 10
-			}
-		}		
-		
-		add = {
 			desc = "POP_LANDOWNERS"
 			if = {
 				limit = { 
 					OR = { 
 						AND = { 
-							is_pop_type = capitalists
-							standard_of_living <= 8
-						}
-						AND = {
 							is_pop_type = aristocrats
-							standard_of_living <= 15.5
+							standard_of_living >= 15
+							OR = { 
+								pop_employment_building_group = bg_agriculture
+								pop_employment_building_group = bg_mining
+								pop_employment_building_group = bg_ranching
+								pop_employment_building_group = bg_plantations
+							}
+						}
+						AND = { 
+							is_pop_type = capitalists
+							standard_of_living >= 8
+							OR = { 
+								pop_employment_building_group = bg_agriculture
+								pop_employment_building_group = bg_mining
+								pop_employment_building_group = bg_ranching
+								pop_employment_building_group = bg_plantations
+							}
 						}
 					}
+				}
+				value = 10
+			}
+		}	
+		
+		add = {
+			desc = "POP_EMPLOYMENT"
+			if = {
+				limit = { 
+					NOR = { 
+						is_pop_type = capitalists
+						is_pop_type = clergymen
+						is_pop_type = aristocrats
+					}
 					OR = {
+						is_pop_type = farmers
 						pop_employment_building_group = bg_agriculture
 						pop_employment_building_group = bg_mining
 						pop_employment_building_group = bg_ranching
 						pop_employment_building_group = bg_plantations
 					}
 				}
-				value = 5.25
+				value = 4.5
 			}
-		}
-
-		add = {
-			desc = "POP_RICH_FARMERS"
-			if = {
-				limit = { 
-					is_pop_type = farmers
-					standard_of_living > 16
-				}
-				value = 8.5
-			}
-		}
-		
-		add = {
-			desc = "POP_RICH_LANDOWNERS"
-			if = {
-				limit = { 
-					is_pop_type = aristocrats
-					standard_of_living > 15.5
-					standard_of_living <= 18.5
-				}
-				value = 2.5
-			}
-		}
+		}	
 		
 		multiply = {
 			desc = "LEADER_POPULARITY"

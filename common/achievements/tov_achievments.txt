@@ -1,0 +1,12 @@
+﻿# possible - filters out achivements on game start so we dont have to check everything all the time
+# happened - checks if achivement happened
+
+#peccavi = {
+#    possible = {
+#        has_variable = peccavi_ach_possible
+#    }
+#    happened = {
+#        owns_entire_state_region = STATE_SINDH
+#        owns_entire_state_region = STATE_PUNJAB
+#    }
+#}

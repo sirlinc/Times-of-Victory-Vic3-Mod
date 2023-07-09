@@ -1,11 +1,14 @@
 ﻿ig_plutocratic = {
-	color = rgb { 23 122 120 }
+	color = rgb { 173 66 12 }
 	texture = "gfx/interface/icons/ig_icons/plutocratic.dds"
 	
 	layer = "revolution_dynamic_industrialists"
 	index = 2
 	
-	ideologies = { ideology_plutocratic	}
+	ideologies = {
+		ideology_plutocratic	
+		ideology_stratocratic
+	}
 
 	enable = { always = yes }
 	
@@ -17,28 +20,46 @@
 	
 	pop_potential = {
 		OR = {
-			is_pop_type = aristocrats
 			is_pop_type = capitalists
+			AND = {
+				NOR = {
+					pop_employment_building_group = bg_agriculture
+					pop_employment_building_group = bg_mining
+					pop_employment_building_group = bg_ranching
+					pop_employment_building_group = bg_plantations
+				}
+				standard_of_living > 5.5
+			}
 		}
 	}
 
 	pop_weight = {
-	
-		value = 0
+		value = 1
 	
 		add = {
-			desc = "UPPER_STRATA"
+			desc = "POP_CAPITALISTS"
 			if = {
 				limit = { 
-					OR = {
-						is_pop_type = aristocrats
-						is_pop_type = capitalists
-						strata = rich
-					}
+					is_pop_type = capitalists
 				}
-				value = 185
+				value = 10
 			}
 		}	
+		
+		#add = {
+		#	desc = "POP_CAPITALISTS"
+		#	if = {
+		#		limit = { 
+		#			NOR = {
+		#				pop_employment_building_group = bg_agriculture
+		#				pop_employment_building_group = bg_mining
+		#				pop_employment_building_group = bg_ranching
+		#	pop_employment_building_group = bg_plantations
+		#}
+		#		}
+		#		value = 10
+		#	}
+		#}	
 		
 		#SOL 
 		add = {
