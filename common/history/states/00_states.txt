@@ -939,6 +939,7 @@ STATES = {
 		create_state = {
 			country = c:SWE #Sweden
 			owned_provinces = { x708000 xeba646 }
+			state_type = unincorporated
 		}
 		add_homeland = algonquian
 	}
@@ -999,6 +1000,7 @@ STATES = {
 		create_state = {
 			country = c:ENG #England
 			owned_provinces = { x7DE678 }
+			state_type = unincorporated
 		}
 
 		add_homeland = algonquian
