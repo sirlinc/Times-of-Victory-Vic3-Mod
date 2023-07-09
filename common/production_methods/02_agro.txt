@@ -5,8 +5,10 @@ pm_manual_labor_farmland = {
 	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
 
 	building_modifiers = {
-		unscaled = {
-			building_group_bg_agriculture_throughput_mult = -0.1
+		level_scaled = {
+			building_employment_laborers_add = 4400
+			building_employment_farmers_add = 400
+			building_employment_clergymen_add = 300
 		}
 	}
 }
@@ -34,11 +36,10 @@ pm_portable_engine_farmland = {
 			building_input_iron_add = 2	
 			building_input_coal_add = 2
 			        }
-		unscaled = {
-			building_group_bg_agriculture_throughput_mult = 0.1
-		}
-
-		level_scaled = {
+		level_scaled = {																
+			building_employment_laborers_add = 3600
+			building_employment_farmers_add = 1000
+			building_employment_clergymen_add = 250
 			building_employment_machinists_add = 100
 		}	
 	}
@@ -57,11 +58,10 @@ pm_steam_powered_tractors_farmland = {
 			building_input_coal_add = 4 
 			building_input_engines_add = 1
 			        }
-		unscaled = {
-			building_group_bg_agriculture_throughput_mult = 0.2
-		}
-
-		level_scaled = {
+		level_scaled = {														
+			building_employment_laborers_add = 2800
+			building_employment_farmers_add = 1500
+			building_employment_clergymen_add = 200
 			building_employment_machinists_add = 250
 		}		
 	}
@@ -81,12 +81,11 @@ pm_diesel_tractors_farmland = {
 			building_input_fuel_oil_add = 5
 			building_input_automobiles_add = 1
 			}
-		unscaled = {
-			building_group_bg_agriculture_throughput_mult = 0.3
-		}
-
-		level_scaled = {
-			building_employment_machinists_add = 500
+		level_scaled = {																	
+			building_employment_laborers_add = 2200
+			building_employment_farmers_add = 2000
+			building_employment_clergymen_add = 100
+			building_employment_machinists_add = 400
 		}		
 	}
 }
@@ -247,12 +246,6 @@ pm_rye_cultivation_tef = {
 		workforce_scaled = {												
 			building_output_grain_add = 20
 		}
-
-		level_scaled = {
-			building_employment_laborers_add = 4200
-			building_employment_farmers_add = 400
-			building_employment_clergymen_add = 300
-		}
 	}
 }
 
@@ -268,12 +261,6 @@ pm_potash_tef = {
 			building_input_wood_add = 3												
 			building_output_grain_add = 30
 		}
-
-		level_scaled = {
-			building_employment_laborers_add = 4000
-			building_employment_farmers_add = 600
-			building_employment_clergymen_add = 300
-		}
 	}
 }
 
@@ -288,13 +275,6 @@ pm_bread_wheat_cultivation_tef = {
 		workforce_scaled = {
 			building_input_wood_add = 5		
 			building_output_grain_add = 40
-		}
-
-		level_scaled = {
-																	
-			building_employment_laborers_add = 3750
-			building_employment_farmers_add = 900
-			building_employment_clergymen_add = 250
 		}
 	}
 }
@@ -312,13 +292,6 @@ pm_gypsum_fertilizer_tef = {
 			building_input_fertilizer_add = 5	
 			building_output_grain_add = 60				
 		}
-
-		level_scaled = {
-																	
-			building_employment_laborers_add = 3500
-			building_employment_farmers_add = 1200
-			building_employment_clergymen_add = 200
-		}
 	}
 }
 
@@ -334,13 +307,6 @@ pm_pesticides_tef = {
 			building_input_fertilizer_add = 10															   
 			building_output_grain_add = 90				
 		}
-
-		level_scaled = {
-																	
-			building_employment_laborers_add = 3000
-			building_employment_farmers_add = 1750
-			building_employment_clergymen_add = 150
-		}
 	}
 }
 
@@ -355,13 +321,6 @@ pm_ammonia_fertilizer_tef = {
 		workforce_scaled = {												   
 			building_input_fertilizer_add = 25															   
 			building_output_grain_add = 140				
-		}
-
-		level_scaled = {
-																	
-			building_employment_laborers_add = 2400
-			building_employment_farmers_add = 2200
-			building_employment_clergymen_add = 100
 		}
 	}
 }
@@ -515,7 +474,7 @@ pm_automated_irrigation_tef = {
 	}
 	building_modifiers = {
 		workforce_scaled = {							
-			building_input_machined_parts_add = 2
+			building_input_machined_parts_add = 3
 		}
 
 		level_scaled = {
@@ -533,12 +492,6 @@ pm_grain_legume_cultivation_trf = {
 		workforce_scaled = {												
 			building_output_grain_add = 25
 		}
-
-		level_scaled = {
-			building_employment_laborers_add = 4200
-			building_employment_farmers_add = 400
-			building_employment_clergymen_add = 300
-		}
 	}
 }
 
@@ -555,11 +508,6 @@ pm_cereal_intercropping_trf = {
 			building_output_grain_add = 35
 		}
 
-		level_scaled = {
-			building_employment_laborers_add = 4000
-			building_employment_farmers_add = 600
-			building_employment_clergymen_add = 300
-		}
 	}
 }
 
@@ -575,12 +523,6 @@ pm_high_yield_landraces_trf = {
 			building_input_wood_add = 5		
 			building_output_grain_add = 45
 		}
-
-		level_scaled = {																	
-			building_employment_laborers_add = 3750
-			building_employment_farmers_add = 900
-			building_employment_clergymen_add = 250
-		}
 	}
 }
 
@@ -595,12 +537,6 @@ pm_potassium_fertilizer_trf = {
 		workforce_scaled = {			
 			building_input_fertilizer_add = 5	
 			building_output_grain_add = 60				
-		}
-
-		level_scaled = {																	
-			building_employment_laborers_add = 3500
-			building_employment_farmers_add = 1200
-			building_employment_clergymen_add = 200
 		}
 	}
 }
@@ -618,11 +554,6 @@ pm_pesticides_trf = {
 			building_output_grain_add = 80				
 		}
 
-		level_scaled = {																	
-			building_employment_laborers_add = 3000
-			building_employment_farmers_add = 1750
-			building_employment_clergymen_add = 150
-		}
 	}
 }
 
@@ -639,11 +570,6 @@ pm_ammonia_fertilizer_trf = {
 			building_output_grain_add = 120				
 		}
 
-		level_scaled = {																	
-			building_employment_laborers_add = 2400
-			building_employment_farmers_add = 2200
-			building_employment_clergymen_add = 100
-		}
 	}
 }
 
@@ -816,11 +742,6 @@ pm_rice_cultivation_wef = {
 			building_output_grain_add = 30
 		}
 
-		level_scaled = {
-			building_employment_laborers_add = 4200
-			building_employment_farmers_add = 400
-			building_employment_clergymen_add = 300
-		}
 	}
 }
 
@@ -837,11 +758,6 @@ pm_paddies_and_terraces_wef = {
 			building_output_grain_add = 45
 		}
 
-		level_scaled = {
-			building_employment_laborers_add = 4000
-			building_employment_farmers_add = 600
-			building_employment_clergymen_add = 300
-		}
 	}
 }
 
@@ -858,11 +774,6 @@ pm_rice_hybridization_wef = {
 			building_output_grain_add = 60
 		}
 
-		level_scaled = {																	
-			building_employment_laborers_add = 3750
-			building_employment_farmers_add = 900
-			building_employment_clergymen_add = 250
-		}
 	}
 }
 
@@ -880,11 +791,6 @@ pm_pesticides_wef = {
 			building_output_grain_add = 80				
 		}
 
-		level_scaled = {																	
-			building_employment_laborers_add = 3500
-			building_employment_farmers_add = 1200
-			building_employment_clergymen_add = 200
-		}
 	}
 }
 
@@ -901,11 +807,6 @@ pm_nitrate_fertilizer_wef = {
 			building_output_grain_add = 120			
 		}
 
-		level_scaled = {																	
-			building_employment_laborers_add = 3000
-			building_employment_farmers_add = 1750
-			building_employment_clergymen_add = 150
-		}
 	}
 }
 
@@ -923,11 +824,6 @@ pm_enriched_rice_wef = {
 			building_output_grain_add = 160				
 		}
 
-		level_scaled = {													
-			building_employment_laborers_add = 2400
-			building_employment_farmers_add = 2200
-			building_employment_clergymen_add = 100
-		}
 	}
 }
 
@@ -1083,9 +979,6 @@ pm_automated_irrigation_wef = {
 			building_input_machined_parts_add = 2
 		}
 
-		level_scaled = {
-			building_employment_laborers_add = -1500
-		}
 	}
 }
 
@@ -1099,11 +992,6 @@ pm_sorghum_cultivation_arf = {
 			building_output_grain_add = 15
 		}
 
-		level_scaled = {
-			building_employment_laborers_add = 4200
-			building_employment_farmers_add = 400
-			building_employment_clergymen_add = 300
-		}
 	}
 }
 
@@ -1120,11 +1008,6 @@ pm_cereal_intercropping_arf = {
 			building_output_grain_add = 25
 		}
 
-		level_scaled = {
-			building_employment_laborers_add = 4000
-			building_employment_farmers_add = 600
-			building_employment_clergymen_add = 300
-		}
 	}
 }
 
@@ -1141,11 +1024,6 @@ pm_pearl_millet_cultivation_arf = {
 			building_output_grain_add = 35
 		}
 
-		level_scaled = {																	
-			building_employment_laborers_add = 3750
-			building_employment_farmers_add = 900
-			building_employment_clergymen_add = 250
-		}
 	}
 }
 
@@ -1162,11 +1040,6 @@ pm_gypsum_fertilizer_arf = {
 			building_output_grain_add = 50				
 		}
 
-		level_scaled = {																	
-			building_employment_laborers_add = 3500
-			building_employment_farmers_add = 1200
-			building_employment_clergymen_add = 200
-		}
 	}
 }
 
@@ -1183,11 +1056,6 @@ pm_pesticides_arf = {
 			building_output_grain_add = 70				
 		}
 
-		level_scaled = {																	
-			building_employment_laborers_add = 3000
-			building_employment_farmers_add = 1750
-			building_employment_clergymen_add = 150
-		}
 	}
 }
 
@@ -1204,11 +1072,6 @@ pm_ammonia_fertilizer_arf = {
 			building_output_grain_add = 95				
 		}
 
-		level_scaled = {																	
-			building_employment_laborers_add = 2400
-			building_employment_farmers_add = 2200
-			building_employment_clergymen_add = 100
-		}
 	}
 }
 
@@ -1360,6 +1223,11 @@ pm_cured_meats = {
 	building_modifiers = {
 		workforce_scaled = {
 		}
+		level_scaled = {
+			building_employment_laborers_add = 3900
+			building_employment_farmers_add = 300
+			building_employment_clergymen_add = 300
+		}
 	}
 }		
 
@@ -1371,10 +1239,12 @@ pm_natural_preservatives = {
 	}
 	building_modifiers = {
 		workforce_scaled = {												
-			building_input_sugar_add = 5
+			building_input_sugar_add = 3
 		}
-		unscaled = {
-			building_group_bg_ranching_throughput_mult = 0.05
+		level_scaled = {
+			building_employment_laborers_add = 3500
+			building_employment_farmers_add = 600
+			building_employment_clergymen_add = 300
 		}
 	}
 }
@@ -1387,13 +1257,12 @@ pm_butchering_tools = {
 	}
 	building_modifiers = {
 		workforce_scaled = {												
-			building_input_tools_add = 5
-		}
-		unscaled = {			
-			building_group_bg_ranching_throughput_mult = 0.1
+			building_input_tools_add = 3
 		}
 		level_scaled = {
-			building_employment_laborers_add = -500
+			building_employment_laborers_add = 2800
+			building_employment_farmers_add = 900
+			building_employment_clergymen_add = 100
 		}
 	}
 }
@@ -1405,13 +1274,12 @@ pm_abattoirs = {
 	}	
 	building_modifiers = {
 		workforce_scaled = {												
-			building_input_tools_add = 10
-		}
-		unscaled = {
-			building_group_bg_ranching_throughput_mult = 0.15
+			building_input_tools_add = 5
 		}
 		level_scaled = {
-			building_employment_laborers_add = -900
+			building_employment_laborers_add = 2200
+			building_employment_farmers_add = 1200
+			building_employment_machinists_add = 200
 		}
 	}
 }
@@ -1424,13 +1292,15 @@ pm_refrigerated_rail_cars = {
 	building_modifiers = {
 		workforce_scaled = {												
 			building_input_transportation_add = 5
-			building_input_electricity_add = 10
+			building_input_electricity_add = 5
 		}
 		unscaled = {
-			building_group_bg_ranching_throughput_mult = 0.25
+			building_group_bg_ranching_throughput_mult = 0.1
 		}
 		level_scaled = {
-			building_employment_laborers_add = -1400
+			building_employment_laborers_add = 1600
+			building_employment_farmers_add = 1400
+			building_employment_machinists_add = 400
 		}
 	}
 }
@@ -1651,6 +1521,8 @@ pm_corporate_entities_pasture = {
 		unscaled = {
 			building_capitalists_shares_add = 5 
 		}
+	}
+	state_modifiers = {
 		unscaled = {
 			state_migration_pull_mult = 0.03
 		}		
@@ -1716,12 +1588,6 @@ pm_free_range_prp = {
 		workforce_scaled = {
 			building_output_meat_add = 5
 		}
-
-		level_scaled = {
-			building_employment_laborers_add = 3900
-			building_employment_farmers_add = 700
-			building_employment_clergymen_add = 300
-		}
 	}
 }
 
@@ -1732,12 +1598,6 @@ pm_silage_prp = {
 		workforce_scaled = {
 			building_input_grain_add = 10
 			building_output_meat_add = 20
-		}
-
-		level_scaled = {
-			building_employment_laborers_add = 3600
-			building_employment_farmers_add = 1000
-			building_employment_clergymen_add = 300
 		}
 	}
 }
@@ -1754,12 +1614,6 @@ pm_prime_breeds_prp = {
 			building_input_grain_add = 15
 			building_input_wood_add = 5
 			building_output_meat_add = 25
-		}
-
-		level_scaled = {
-			building_employment_laborers_add = 3200
-			building_employment_farmers_add = 1400
-			building_employment_clergymen_add = 300
 		}
 	}
 }
@@ -1779,12 +1633,6 @@ pm_rotational_grazing_prp = {
 			building_input_wood_add = 5
 			building_output_meat_add = 40
 		}
-
-		level_scaled = {
-			building_employment_laborers_add = 3200
-			building_employment_farmers_add = 1200
-			building_employment_clergymen_add = 200
-		}
 	}
 }
 
@@ -1802,12 +1650,6 @@ pm_batteries_prp = {
 			building_input_grain_add = 35
 			building_input_machined_parts_add = 5
 			building_output_meat_add = 80
-		}
-
-		level_scaled = {
-			building_employment_laborers_add = 3200
-			building_employment_farmers_add = 800
-			building_employment_machinists_add = 200
 		}
 	}
 }

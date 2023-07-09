@@ -6,13 +6,8 @@ pm_manual_labour = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 4500
+			building_employment_laborers_add = 4700
 		}
-		workforce_scaled = {
-        }
-		unscaled = {
-			building_group_bg_manufacturing_throughput_mult = -0.1
-		} 
 	}
 }
 
@@ -21,7 +16,7 @@ pm_draft_animals = {
 
 	building_modifiers = {
 		workforce_scaled = {												
-			building_input_horses_add = 5	
+			building_input_horses_add = 3	
 		}
         level_scaled = {
 			building_employment_laborers_add = 4500
@@ -37,15 +32,12 @@ pm_rotating_mills = {
 	}
 	building_modifiers = {
 		workforce_scaled = {												
-			building_input_wood_add = 10	
-			building_input_horses_add = 5
+			building_input_wood_add = 5	
+			building_input_horses_add = 3
                     }
-		unscaled = {
-			building_group_bg_manufacturing_throughput_mult = 0.05
-		}
         level_scaled = {
 			building_employment_laborers_add = 4000
-			building_employment_machinists_add = 200
+			building_employment_machinists_add = 100
 		}
 	}
 }
@@ -60,12 +52,9 @@ pm_steam_engines = {
 	}
 	building_modifiers = {
 		workforce_scaled = {								
-			building_input_iron_add = 10 
-			building_input_coal_add = 10
+			building_input_iron_add = 5 
+			building_input_coal_add = 5
                     }
-		unscaled = {
-			building_group_bg_manufacturing_throughput_mult = 0.1
-            }
             level_scaled = {
 			building_employment_laborers_add = 3000
 			building_employment_machinists_add = 400
@@ -83,12 +72,9 @@ pm_rotary_valve_engine = {
 	}
 	building_modifiers = {
 		workforce_scaled = {								
-			building_input_steel_add = 5 
-			building_input_coal_add = 15
+			building_input_steel_add = 3 
+			building_input_coal_add = 5
                     }
-		unscaled = {
-			building_group_bg_manufacturing_throughput_mult = 0.15
-        }
         level_scaled = {           
 			building_employment_laborers_add = 2000
 			building_employment_machinists_add = 800
@@ -109,17 +95,14 @@ pm_petrol_engines = {
 	}
 	building_modifiers = {
 		workforce_scaled = {							
-			building_input_engines_add = 5 
-			building_input_fuel_oil_add = 10
+			building_input_engines_add = 3 
+			building_input_fuel_oil_add = 5
         }
         level_scaled = {
 			building_employment_laborers_add = 1000
 			building_employment_machinists_add = 1200
 			building_employment_engineers_add = 200
-		}
-		unscaled = {
-			building_group_bg_manufacturing_throughput_mult = 0.25
-		}		
+		}	
 	}
 }
 
@@ -133,18 +116,15 @@ pm_electronic_process_control = {
 	}
 	building_modifiers = {
 		workforce_scaled = {							
-			building_input_engines_add = 5 
-			building_input_fuel_oil_add = 10
-			building_input_electricity_add = 15
+			building_input_engines_add = 3 
+			building_input_fuel_oil_add = 5
+			building_input_electricity_add = 5
         }
         level_scaled = {
-			building_employment_laborers_add = 750
+			building_employment_laborers_add = 700
 			building_employment_machinists_add = 1500
 			building_employment_engineers_add = 300
-		}
-		unscaled = {
-			building_group_bg_manufacturing_throughput_mult = 0.35
-		}		
+		}	
 	}
 }
 
@@ -318,7 +298,7 @@ pm_crossdraft_kilns = {
 		
 	building_modifiers = {
 		workforce_scaled = {				
-				building_input_wood_add = 5
+				building_input_wood_add = 3
 			}
 	}
 }
@@ -333,8 +313,7 @@ pm_shuttle_kilns = {
 		
 	building_modifiers = {
 		workforce_scaled = {				
-				building_input_tools_add = 5
-				building_input_coal_add = 5
+				building_input_coal_add = 3
 
 			}
 		unscaled = {
@@ -353,8 +332,8 @@ pm_gas_fired_kilns = {
 		
 	building_modifiers = {
 		workforce_scaled = {				
-				building_input_tools_add = 5
-				building_input_coal_add = 10
+				building_input_tools_add = 3
+				building_input_coal_add = 5
 
 			}
 		unscaled = {
@@ -373,8 +352,8 @@ pm_hoffmann_kilns = {
 
 	building_modifiers = {
 		workforce_scaled = {				
-				building_input_tools_add = 10
-				building_input_fuel_oil_add = 10
+				building_input_tools_add = 5
+				building_input_fuel_oil_add = 5
 
 			}
 		unscaled = {
@@ -1239,9 +1218,6 @@ pm_basic_appliances = {
     texture = "gfx/interface/icons/production_method_icons/butchering_tools_tov.dds"
 
     building_modifiers = {
-        unscaled = {
-            building_group_bg_manufacturing_throughput_mult = -0.1
-        }
 
         level_scaled = {
             building_employment_laborers_add = 4500           
@@ -1258,11 +1234,10 @@ pm_oven_thermometers = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_tools_add = 2
-			building_input_coal_add = 5
+            building_input_tools_add = 3
         }
         level_scaled = {
-            building_employment_laborers_add = 4000
+            building_employment_laborers_add = 3800
 			building_employment_machinists_add = 200           
         }
     }
@@ -1277,15 +1252,12 @@ pm_gas_stoves = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_tools_add = 5
-			building_input_coal_add = 10
-        }
-        unscaled = {
-            building_group_bg_manufacturing_throughput_mult = 0.1
+            building_input_tools_add = 3
+			building_input_coal_add = 5
         }
 
         level_scaled = {
-            building_employment_laborers_add = 3500
+            building_employment_laborers_add = 3200
 			building_employment_machinists_add = 400           
         }
     }
@@ -1300,15 +1272,12 @@ pm_electric_mixers = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_tools_add = 10
-			building_input_electricity_add = 10
-        }
-        unscaled = {
-            building_group_bg_manufacturing_throughput_mult = 0.2
+            building_input_tools_add = 3
+			building_input_electricity_add = 5
         }
 
         level_scaled = {
-            building_employment_laborers_add = 3000
+            building_employment_laborers_add = 2600
 			building_employment_machinists_add = 600           
         }
     }
@@ -1323,15 +1292,12 @@ pm_dishwashers = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_machined_parts_add = 5
-			building_input_electricity_add = 20
+            building_input_machined_parts_add = 3
+			building_input_electricity_add = 5
                     }
-		unscaled = {
-			building_group_bg_manufacturing_throughput_mult = 0.3
-        }
 
         level_scaled = {
-            building_employment_laborers_add = 2250
+            building_employment_laborers_add = 2000
 			building_employment_machinists_add = 900            
         }
     }

@@ -2906,7 +2906,7 @@
 		region_state:KBA = {
 			create_pop = {
 				culture = fluvian_bantu
-				size = 190922
+				size = 100922
 			}
 			create_pop = {
 				culture = lunda
@@ -2915,7 +2915,7 @@
 			create_pop = {
 				pop_type = slaves
 				culture = fluvian_bantu
-				size=43900
+				size= 43900
 			}
 			create_pop = {
 				pop_type = slaves

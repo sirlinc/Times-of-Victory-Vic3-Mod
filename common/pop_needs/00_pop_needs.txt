@@ -172,6 +172,18 @@ popneed_services = {
 
 	entry = {
 		goods = services
+		
+		weight = 0.6
+		max_weight = 5.0 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = transportation
+		
+		weight = 0.8
+		max_weight = 2.0	# Maxes out at 80% of supply share
+		min_weight = 0.0
 	}
 }
 
@@ -280,8 +292,8 @@ popneed_communication = {
 	entry = {
 		goods = transportation
 		
-		weight = 0.2
-		max_weight = 2.0 # Maxes out at 80% of supply share
+		weight = 0.4
+		max_weight = 3.0 # Maxes out at 80% of supply share
 		min_weight = 0.0
 	}
 	

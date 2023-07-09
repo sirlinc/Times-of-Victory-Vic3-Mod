@@ -92,11 +92,16 @@
 			}
 		}
 		region_state:ZAP={
+			create_building={
+				building="building_barracks"
+				level=6
+				reserves=1
+			}
 		}
 		region_state:LIT={
 			create_building={
 				building="building_barracks"
-				level=6
+				level=3
 				reserves=1
 			}
 			create_building={
@@ -176,11 +181,6 @@
 				level=4
 				reserves=1
 			}
-			create_building={
-				building="building_barracks"
-				level=10
-				reserves=1
-			}
 		}
 	}
 	s:STATE_BRYANSK={
@@ -247,9 +247,16 @@
 			}
 			create_building={
 				building="building_logging_camp"
-				level=4
+				level=2
 				reserves=1
 			}
+			create_building={
+				building="building_temperate_farmland"
+				level=3
+				reserves=1
+			}
+		}
+		region_state:ZAP={
 			create_building={
 				building="building_temperate_farmland"
 				level=3

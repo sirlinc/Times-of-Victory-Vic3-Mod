@@ -370,8 +370,28 @@ pm_siege_artillery = {
 	}
 }
 
+pm_no_cavalry = {
+	texture = "gfx/interface/icons/production_method_icons/no_specialists.dds"
+
+	building_modifiers = {
+	}
+
+	timed_modifiers = {
+		pm_offense_defense_readjustment
+	}
+}
+
 pm_cavalry_scouts = {
 	texture = "gfx/interface/icons/production_method_icons/cavalry.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_horses_add = 1
+		}
+		throughput_scaled = {
+			unit_offense_add = 2
+		}
+	}
 
 	timed_modifiers = {
 		pm_offense_defense_readjustment

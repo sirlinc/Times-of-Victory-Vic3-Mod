@@ -6,7 +6,7 @@
 			building_output_grain_add = 1 # 50
 			building_output_fabric_add = 0.5 # 10
 			building_output_wood_add = 0.35 # 10
-			building_output_services_add = 0.2
+			building_output_services_add = 0.1
 			building_output_horses_add = 0.05 # 15
 		}
 		level_scaled = {
@@ -15,7 +15,7 @@
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			state_construction_mult = 0.01
+			state_construction_mult = 0.005
 		}
 	}
 }
@@ -99,7 +99,7 @@ default_building_subsistence_orchards = {
 			building_output_grain_add = 0.35 # 10 
 			building_output_fabric_add = 0.55 # 5
 			building_output_wood_add = 0.6 # 15
-			building_output_services_add = 0.2 # 15
+			building_output_services_add = 0.1 # 15
 			building_output_horses_add = 0.04 # 15
 		}
 
@@ -109,7 +109,7 @@ default_building_subsistence_orchards = {
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			state_construction_mult = 0.01
+			state_construction_mult = 0.005
 		}
 	}
 }
@@ -175,7 +175,7 @@ default_building_subsistence_pastures = {
 			building_output_meat_add = 0.7 # 40
 			building_output_fabric_add = 0.55 # 15
 			building_output_wood_add = 0.3 # 5
-			building_output_services_add = 0.2 # 15
+			building_output_services_add = 0.1 # 15
 			building_output_horses_add = 0.1 # 15
 		}
 
@@ -185,7 +185,7 @@ default_building_subsistence_pastures = {
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			state_construction_mult = 0.01
+			state_construction_mult = 0.005
 		}
 	}
 }
@@ -251,7 +251,7 @@ default_building_subsistence_fishing_villages = {
 			building_output_fish_add = 1.0 # 40
 			building_output_fabric_add = 0.25 # 5
 			building_output_wood_add = 0.4 # 15
-			building_output_services_add = 0.2 # 15
+			building_output_services_add = 0.1 # 15
 			building_output_horses_add = 0.03 # 15
 		}
 
@@ -261,7 +261,7 @@ default_building_subsistence_fishing_villages = {
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			state_construction_mult = 0.01
+			state_construction_mult = 0.005
 		}
 	}
 }
@@ -326,7 +326,7 @@ default_building_subsistence_rice_paddies = {
 			building_output_grain_add = 2 # 90
 			building_output_fabric_add = 0.5 # 30
 			building_output_wood_add = 0.4 # 30
-			building_output_services_add = 0.2 # 30
+			building_output_services_add = 0.1 # 30
 			building_output_horses_add = 0.02
 		}
 
@@ -336,7 +336,7 @@ default_building_subsistence_rice_paddies = {
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			state_construction_mult = 0.01
+			state_construction_mult = 0.005
 		}
 	}
 }

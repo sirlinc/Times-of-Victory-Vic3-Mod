@@ -15,7 +15,6 @@ monopoly_on_violence = {
 	texture = "gfx/interface/icons/invention_icons/military_drill.dds"
 	category = society
 	modifier = {
-		country_authority_add = 10
 		state_tax_capacity_add = 10
 	}
 	ai_weight = {
@@ -68,8 +67,7 @@ state_sovereignty = {
 	texture = "gfx/interface/icons/invention_icons/state_sovereignty.dds"
 	category = society
 	modifier = {
-		country_authority_add = 10
-		country_influence_add = 20
+		country_authority_add = 20
 	}
 	unlocking_technologies = {
 		code_of_law
@@ -193,7 +191,7 @@ territoriality = {
 	texture = "gfx/interface/icons/invention_icons/centralization.dds"
 	category = society
 	modifier = {
-		country_authority_add = 10
+		country_authority_add = 20
 	}
 	unlocking_technologies = {
 		absolutism
@@ -288,7 +286,6 @@ diplomatic_service = {
 	texture = "gfx/interface/icons/invention_icons/unequal_treaties.dds"
 	category = society
 	modifier = {
-		country_influence_add = 20
 		country_institution_foreign_affairs_max_investment_add = 1
 	}
 	unlocking_technologies = {
@@ -537,9 +534,6 @@ state_owned_enterprise = {
 	era = era_4
 	texture = "gfx/interface/icons/invention_icons/state_owned_enterprise.dds"
 	category = society
-	modifier = {
-		country_authority_add = 10
-	}
 	unlocking_technologies = {
 		public_libraries
 		financial_securities
@@ -603,7 +597,7 @@ natural_law = {
 	texture = "gfx/interface/icons/invention_icons/natural_law.dds"
 	category = society
 	modifier = {
-		country_influence_add = 20
+		country_influence_add = 100
 	}
 	unlocking_technologies = {
 		theory_of_race
@@ -788,9 +782,6 @@ national_mythos = {
 	era = era_5
 	texture = "gfx/interface/icons/invention_icons/national_mythos.dds"
 	category = society
-	modifier = {
-		country_influence_mult = 0.1
-	}
 	unlocking_technologies = {
 		the_nation_state
 	}
@@ -1007,9 +998,6 @@ meritocracy = {
 	era = era_6
 	texture = "gfx/interface/icons/invention_icons/nco_training.dds"
 	category = society
-	modifier = {
-		country_influence_mult = 0.1
-	}
 	unlocking_technologies = {
 		pedagogy
 		democracy

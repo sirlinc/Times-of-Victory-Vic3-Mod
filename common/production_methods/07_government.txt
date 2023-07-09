@@ -164,7 +164,7 @@ pm_horseback_couriers = {
     building_modifiers = {
         workforce_scaled = {
             building_input_horses_add = 5
-            building_output_services_add = 5
+            building_output_services_add = 10
         }
 
         level_scaled = {
@@ -187,7 +187,7 @@ pm_posthouses = {
         workforce_scaled = {
             building_input_horses_add = 10
 			building_input_fabric_add = 5
-            building_output_services_add = 10
+            building_output_services_add = 20
         }
 
         level_scaled = {
@@ -210,7 +210,7 @@ pm_semaphore_towers = {
         workforce_scaled = {
             building_input_horses_add = 10
 			building_input_fabric_add = 15
-            building_output_services_add = 15
+            building_output_services_add = 30
         }
 
         level_scaled = {
@@ -232,8 +232,8 @@ pm_electrical_telegraphs = {
     building_modifiers = {
         workforce_scaled = {
             building_input_telecomms_add = 5
-			building_input_electricity_add = 5
-            building_output_services_add = 20
+			building_input_electricity_add = 20
+            building_output_services_add = 40
         }
 
         level_scaled = {
@@ -255,8 +255,8 @@ pm_telephone_switchboards = {
     building_modifiers = {
         workforce_scaled = {
             building_input_telecomms_add = 10
-			building_input_electricity_add = 10
-            building_output_services_add = 25
+			building_input_electricity_add = 20
+            building_output_services_add = 50
         }
 
         level_scaled = {
@@ -277,9 +277,9 @@ pm_radio_towers = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_telecomms_add = 10
-			building_input_electricity_add = 15
-            building_output_services_add = 30
+            building_input_telecomms_add = 15
+			building_input_electricity_add = 30
+            building_output_services_add = 60
         }
 
         level_scaled = {

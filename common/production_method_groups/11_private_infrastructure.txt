@@ -44,8 +44,9 @@ pmg_railways_motive_power = {
 	production_methods = {
 		pm_horse_drawn_trains
 		pm_coal_trains
-		pm_electricity_trains
+		pm_electric_trains_tov
 		pm_petrol_trains
+		pm_diesel_trains
 	}
 }
 

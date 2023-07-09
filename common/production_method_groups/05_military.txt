@@ -30,6 +30,7 @@ pmg_reconaissance = {
 	ai_selection = most_productive
 
 	production_methods = {
+		pm_no_cavalry
 		pm_cavalry_scouts
 		pm_bicycle_messengers
 		pm_motorized_recon

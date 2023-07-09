@@ -8,9 +8,6 @@ pm_manual_sorting_base_mine = {
 		level_scaled = {
 			building_employment_laborers_add = 4500
 		}
-		unscaled = {
-			building_group_bg_mining_throughput_mult = -0.1
-		}
 	}	
 }
 
@@ -45,10 +42,6 @@ pm_stamp_mills_base_mine = {
 		workforce_scaled = {				
 				building_input_tools_add = 5
 				}
-		unscaled = {
-			building_group_bg_mining_throughput_mult = 0.05
-			}
-
 		level_scaled = {
 			building_employment_laborers_add = 3900
 		}
@@ -68,10 +61,6 @@ pm_newcomen_engine_base_mine = {
 				building_input_tools_add = 5
 				building_input_coal_add = 5
 				}
-		unscaled = {
-			building_group_bg_mining_throughput_mult = 0.1
-			}
-
 		level_scaled = {
 			building_employment_laborers_add = 3400
 		}
@@ -91,13 +80,8 @@ pm_ore_vanning_base_mine = {
 	building_modifiers = {
 		workforce_scaled = {				
 				building_input_machined_parts_add = 3
-				building_input_coal_add = 10
+				building_input_coal_add = 5
 				}
-		unscaled = {
-			building_group_bg_mining_throughput_mult = 0.15
-
-			}
-
 		level_scaled = {
 			building_employment_laborers_add = 2900
 		}
@@ -114,13 +98,9 @@ pm_flameless_lights_base_mine = {
 
 	building_modifiers = {
 		workforce_scaled = {				
-				building_input_machined_parts_add = 5
-				building_input_electricity_add = 10
+				building_input_machined_parts_add = 3
+				building_input_electricity_add = 5
 				}
-		unscaled = {
-			building_group_bg_mining_throughput_mult = 0.2
-			}
-
 		level_scaled = {
 			building_employment_laborers_add = 2400
 		}
@@ -140,8 +120,8 @@ pm_electrostatic_separator_base_mine = {
 
 	building_modifiers = {
 		workforce_scaled = {				
-			building_input_machined_parts_add = 5
-			building_input_electricity_add = 15
+			building_input_machined_parts_add = 3
+			building_input_electricity_add = 5
 			building_input_chemicals_add = 5	
 			}
 		unscaled = {
@@ -1625,10 +1605,8 @@ pm_picks_and_shovels_kaolin_mine = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			building_output_porcelain_add = 5
-		}
-		level_scaled = {
-			building_employment_laborers_add = 4500
+			building_input_tools_add = 5
+			building_output_porcelain_add = 10
 		}
 	}
 }
@@ -1643,13 +1621,8 @@ pm_stamp_mills_kaolin_mine = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_tools_add = 5
-			building_output_porcelain_add = 10
-		}
-
-		level_scaled = {
-			building_employment_laborers_add = 4000
-			building_employment_machinists_add = 250
+			building_input_tools_add = 10
+			building_output_porcelain_add = 15
 		}
 	}
 }
@@ -1664,14 +1637,8 @@ pm_hydraulic_mining_kaolin_mine = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_tools_add = 8
-			building_output_porcelain_add = 15
-		}
-
-		level_scaled = {
-			building_employment_laborers_add = 3500
-			building_employment_machinists_add = 500
-			building_employment_engineers_add = 100
+			building_input_machined_parts_add = 5
+			building_output_porcelain_add = 20
 		}
 	}
 }
@@ -1686,15 +1653,9 @@ pm_centrifugation_kaolin_mine = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_machined_parts_add = 3
-			building_input_electricity_add = 5
-			building_output_porcelain_add = 20
-		}
-
-		level_scaled = {
-			building_employment_laborers_add = 3000
-			building_employment_machinists_add = 750
-			building_employment_engineers_add = 250
+			building_input_machined_parts_add = 5
+			building_input_electricity_add = 10
+			building_output_porcelain_add = 30
 		}
 	}
 }
@@ -1709,15 +1670,9 @@ pm_open_pit_mining_kaolin_mine = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			building_input_machined_parts_add = 8
-			building_input_electricity_add = 8
-			building_output_porcelain_add = 35
-		}
-
-		level_scaled = {
-			building_employment_laborers_add = 2500
-			building_employment_machinists_add = 1000
-			building_employment_engineers_add = 400
+			building_input_machined_parts_add = 10
+			building_input_electricity_add = 15
+			building_output_porcelain_add = 40
 		}
 	}
 }
@@ -1731,8 +1686,11 @@ pm_crossdraft_kilns_kaolin_mine = {
 		
 	building_modifiers = {
 		workforce_scaled = {				
-				building_input_wood_add = 5
-			}
+				building_input_wood_add = 3
+		}
+		level_scaled = {
+			building_employment_laborers_add = 4500
+		}
 	}
 }
 
@@ -1746,12 +1704,13 @@ pm_shuttle_kilns_kaolin_mine = {
 		
 	building_modifiers = {
 		workforce_scaled = {				
-				building_input_tools_add = 5
+				building_input_tools_add = 3
 				building_input_coal_add = 5
 				}
-		unscaled = {
-			building_group_bg_mining_throughput_mult = 0.1
-			}
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 250
+		}
 	}
 }
 
@@ -1765,12 +1724,14 @@ pm_gas_fired_kilns_kaolin_mine = {
 		
 	building_modifiers = {
 		workforce_scaled = {				
-				building_input_tools_add = 5
+				building_input_tools_add = 3
 				building_input_coal_add = 10
 				}
-		unscaled = {
-			building_group_bg_mining_throughput_mult = 0.2
-			}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 500
+			building_employment_engineers_add = 100
+		}
 	}
 }
 
@@ -1784,12 +1745,14 @@ pm_hoffmann_kilns_kaolin_mine = {
 
 	building_modifiers = {
 		workforce_scaled = {				
-				building_input_tools_add = 10
-				building_input_fuel_oil_add = 10
+				building_input_tools_add = 3
+				building_input_fuel_oil_add = 5
 				}
-		unscaled = {
-			building_group_bg_mining_throughput_mult = 0.3
-			}
+		level_scaled = {
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 250
+		}
 	}
 }
 

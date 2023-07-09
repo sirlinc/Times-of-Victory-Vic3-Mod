@@ -135,11 +135,6 @@
 				level=1
 				reserves=1
 			}
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-			}
 		}
 	}
 	s:STATE_HINGGAN={
@@ -147,11 +142,6 @@
 			create_building={
 				building="building_prime_pasture"
 				level=2
-				reserves=1
-			}
-			create_building={
-				building="building_barracks"
-				level=5
 				reserves=1
 			}
 		}
@@ -235,11 +225,6 @@
 				level=3
 				reserves=1
 			}
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-			}
 		}
 	}
 	s:STATE_SOUTHERN_MANCHURIA={
@@ -299,7 +284,7 @@
 			}
 			create_building={
 				building="building_temperate_farmland"
-				level=7
+				level=2
 				reserves=1
 			}
 			create_building={
@@ -317,13 +302,8 @@
 	s:STATE_NINGXIA={
 		region_state:CHI={
 			create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_tea_plantation"
-				level=3
+				building="building_temperate_farmland"
+				level=2
 				reserves=1
 			}
 		}
@@ -346,11 +326,6 @@
 			}
 			create_building={
 				building="building_tea_plantation"
-				level=5
-				reserves=1
-			}
-			create_building={
-				building="building_barracks"
 				level=5
 				reserves=1
 			}
@@ -389,12 +364,7 @@
 			}
 			create_building={
 				building="building_silk_plantation"
-				level=10
-				reserves=1
-			}
-			create_building={
-				building="building_barracks"
-				level=20
+				level=1
 				reserves=1
 			}
 		}
@@ -413,7 +383,7 @@
 			}
 			create_building={
 				building="building_silk_plantation"
-				level=20
+				level=10
 				reserves=1
 			}
 			create_building={
@@ -433,12 +403,12 @@
 			}
 			create_building={
 				building="building_naval_base"
-				level=15
+				level=3
 				reserves=1
 			}
 			create_building={
 				building="building_port"
-				level=3
+				level=1
 				reserves=1
 			}
 		}
@@ -530,11 +500,6 @@
 				level=8
 				reserves=1
 			}
-			create_building={
-				building="building_barracks"
-				level=20
-				reserves=1
-			}
 		}
 	}
 	s:STATE_NANJING={
@@ -551,16 +516,11 @@
 			}
 			create_building={
 				building="building_tea_plantation"
-				level=3
+				level=1
 				reserves=1
 			}
 			create_building={
 				building="building_wetlands_farmland"
-				level=5
-				reserves=1
-			}
-			create_building={
-				building="building_barracks"
 				level=5
 				reserves=1
 			}
@@ -574,13 +534,13 @@
 				reserves=1
 			}
 			create_building={
-				building="building_glassworks"
+				building="building_textile_mills"
 				level=6
 				reserves=1
 			}
 			create_building={
 				building="building_tea_plantation"
-				level=12
+				level=2
 				reserves=1
 			}
 		}
@@ -594,16 +554,16 @@
 			}
 			create_building={
 				building="building_iron_mine"
-				level=2
+				level=3
 				reserves=1
 			}
 			create_building={
-				building="building_paper_mills"
+				building="building_distilleries"
 				level=6
 				reserves=1
 			}
 			create_building={
-				building="building_glassworks"
+				building="building_textile_mills"
 				level=6
 				reserves=1
 			}
@@ -615,11 +575,6 @@
 			create_building={
 				building="building_tea_plantation"
 				level=10
-				reserves=1
-			}
-			create_building={
-				building="building_barracks"
-				level=20
 				reserves=1
 			}
 		}
@@ -648,11 +603,6 @@
 				level=2
 				reserves=1
 			}
-			create_building={
-				building="building_barracks"
-				level=10
-				reserves=1
-			}
 		}
 	}
 	s:STATE_SOUTHERN_ANHUI={
@@ -664,7 +614,7 @@
 			}
 			create_building={
 				building="building_furniture_manufacturies"
-				level=3
+				level=1
 				reserves=1
 			}
 			create_building={
@@ -673,18 +623,13 @@
 				reserves=1
 			}
 			create_building={
-				building="building_paper_mills"
-				level=5
+				building="building_tooling_workshops"
+				level=2
 				reserves=1
 			}
 			create_building={
 				building="building_tea_plantation"
-				level=10
-				reserves=1
-			}
-			create_building={
-				building="building_barracks"
-				level=20
+				level=2
 				reserves=1
 			}
 		}
@@ -703,12 +648,7 @@
 			}
 			create_building={
 				building="building_tea_plantation"
-				level=5
-				reserves=1
-			}
-			create_building={
-				building="building_barracks"
-				level=5
+				level=2
 				reserves=1
 			}
 		}
@@ -721,7 +661,7 @@
 				reserves=1
 			}
 			create_building={
-				building="building_paper_mills"
+				building="building_ironworks"
 				level=8
 				reserves=1
 			}
@@ -733,11 +673,6 @@
 			create_building={
 				building="building_wetlands_farmland"
 				level=6
-				reserves=1
-			}
-			create_building={
-				building="building_barracks"
-				level=15
 				reserves=1
 			}
 		}
@@ -774,11 +709,6 @@
 				level=2
 				reserves=1
 			}
-			create_building={
-				building="building_barracks"
-				level=20
-				reserves=1
-			}
 		}
 	}
 	s:STATE_HUNAN={
@@ -800,12 +730,7 @@
 			}
 			create_building={
 				building="building_tea_plantation"
-				level=8
-				reserves=1
-			}
-			create_building={
-				building="building_barracks"
-				level=10
+				level=4
 				reserves=1
 			}
 		}
@@ -1303,7 +1228,7 @@
 			}
 			create_building={
 				building="building_tea_plantation"
-				level=4
+				level=2
 				reserves=1
 			}
 			create_building={

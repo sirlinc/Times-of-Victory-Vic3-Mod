@@ -73,6 +73,8 @@ pm_default_building_forbidden_city = {
 			country_legitimacy_headofstate_add = 20
 			country_authority_add = 50
 			country_prestige_add = 25
+			country_government_wages_mult = 0.25
+			state_pop_qualifications_mult = 0.15
 		}
 	}
 

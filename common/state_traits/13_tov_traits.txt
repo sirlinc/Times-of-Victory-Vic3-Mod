@@ -18,7 +18,6 @@ state_trait_colonization_1 = { # -1648
 		state_non_homeland_mortality_mult = 0.1
 		state_radicals_from_discrimination_mult = 0.3
 		state_turmoil_effects_mult = 0.2
-		state_accepted_birth_rate_mult = 0.15
 		state_conscription_rate_add = 0.25
 	}
 }
@@ -34,7 +33,6 @@ state_trait_colonization_2 = { #1650-1700
 		state_non_homeland_mortality_mult = 0.1
 		state_radicals_from_discrimination_mult = 0.3
 		state_turmoil_effects_mult = 0.2
-		state_accepted_birth_rate_mult = 0.15
 		state_conscription_rate_add = 0.25
 	}
 }
@@ -50,7 +48,6 @@ state_trait_colonization_3 = { #1700-1750
 		state_non_homeland_mortality_mult = 0.1
 		state_radicals_from_discrimination_mult = 0.3
 		state_turmoil_effects_mult = 0.2
-		state_accepted_birth_rate_mult = 0.15
 		state_conscription_rate_add = 0.25
 	}
 }
@@ -66,7 +63,6 @@ state_trait_colonization_4 = { #1750-1820
 		state_non_homeland_mortality_mult = 0.1
 		state_radicals_from_discrimination_mult = 0.3
 		state_turmoil_effects_mult = 0.2
-		state_accepted_birth_rate_mult = 0.15
 		state_conscription_rate_add = 0.25
 	}
 }
@@ -82,7 +78,6 @@ state_trait_colonization_5 = { #1820-1880
 		state_non_homeland_mortality_mult = 0.25
 		state_radicals_from_discrimination_mult = 0.3
 		state_turmoil_effects_mult = 0.2
-		state_accepted_birth_rate_mult = 0.15
 		state_conscription_rate_add = 0.25
 	}
 }
@@ -97,7 +92,6 @@ state_trait_colonization_6 = { #1880-1936
 		state_non_homeland_mortality_mult = 0.25
 		state_radicals_from_discrimination_mult = 0.3
 		state_turmoil_effects_mult = 0.2
-		state_accepted_birth_rate_mult = 0.15
 		state_conscription_rate_add = 0.25
 	}
 }

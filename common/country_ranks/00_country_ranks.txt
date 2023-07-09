@@ -207,5 +207,6 @@ decentralized_power = {
 		country_diplomatic_play_maneuvers_add = 30
 		building_subsistence_output_mult = -0.10
 		building_throughput_mult = -0.30
+		state_birth_rate_mult = -0.02
 	}
 }

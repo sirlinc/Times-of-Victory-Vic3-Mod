@@ -26,7 +26,7 @@
 							has_active_production_method = pm_horse_drawn_trains
 						}
 						any_scope_building = {
-							has_active_production_method = pm_electricity_trains
+							has_active_production_method = pm_electric_trains_tov
 						}
 						any_scope_building = {
 							has_active_production_method = pm_petrol_trains
@@ -58,7 +58,7 @@
 							has_active_production_method = pm_horse_drawn_trains
 						}
 						any_scope_building = {
-							has_active_production_method = pm_electricity_trains
+							has_active_production_method = pm_electric_trains_tov
 						}
 						any_scope_building = {
 							has_active_production_method = pm_petrol_trains
@@ -90,7 +90,7 @@
 							has_active_production_method = pm_horse_drawn_trains
 						}
 						any_scope_building = {
-							has_active_production_method = pm_electricity_trains
+							has_active_production_method = pm_electric_trains_tov
 						}
 						any_scope_building = {
 							has_active_production_method = pm_petrol_trains
@@ -122,7 +122,7 @@
 							has_active_production_method = pm_horse_drawn_trains
 						}
 						any_scope_building = {
-							has_active_production_method = pm_electricity_trains
+							has_active_production_method = pm_electric_trains_tov
 						}
 						any_scope_building = {
 							has_active_production_method = pm_petrol_trains
@@ -154,7 +154,7 @@
 							has_active_production_method = pm_horse_drawn_trains
 						}
 						any_scope_building = {
-							has_active_production_method = pm_electricity_trains
+							has_active_production_method = pm_electric_trains_tov
 						}
 						any_scope_building = {
 							has_active_production_method = pm_petrol_trains
@@ -182,7 +182,7 @@
 						}
 					}
 					any_scope_building = {
-						has_active_production_method = pm_electricity_trains
+						has_active_production_method = pm_electric_trains_tov
 					}
 				}
 			}
@@ -343,7 +343,7 @@ mining_train = {
 					}
 					NOR = {
 						any_scope_building = {
-							has_active_production_method = pm_electricity_trains
+							has_active_production_method = pm_electric_trains_tov
 						}
 						any_scope_building = {
 							has_active_production_method = pm_petrol_trains
@@ -374,7 +374,7 @@ mining_train = {
 					}
 					NOR = {
 						any_scope_building = {
-							has_active_production_method = pm_electricity_trains
+							has_active_production_method = pm_electric_trains_tov
 						}
 						any_scope_building = {
 							has_active_production_method = pm_petrol_trains
@@ -405,7 +405,7 @@ mining_train = {
 					}
 					NOR = {
 						any_scope_building = {
-							has_active_production_method = pm_electricity_trains
+							has_active_production_method = pm_electric_trains_tov
 						}
 						any_scope_building = {
 							has_active_production_method = pm_petrol_trains
@@ -436,7 +436,7 @@ mining_train = {
 					}
 					NOR = {
 						any_scope_building = {
-							has_active_production_method = pm_electricity_trains
+							has_active_production_method = pm_electric_trains_tov
 						}
 						any_scope_building = {
 							has_active_production_method = pm_petrol_trains
@@ -467,7 +467,7 @@ mining_train = {
 					}
 					NOR = {
 						any_scope_building = {
-							has_active_production_method = pm_electricity_trains
+							has_active_production_method = pm_electric_trains_tov
 						}
 						any_scope_building = {
 							has_active_production_method = pm_petrol_trains
@@ -497,7 +497,7 @@ mining_train = {
 						has_building = building_sulfur_mine
 					}
 					any_scope_building = {
-						has_active_production_method = pm_electricity_trains
+						has_active_production_method = pm_electric_trains_tov
 					}
 				}
 			}
@@ -918,7 +918,7 @@ forestry_train = {
 					has_building = building_logging_camp
 					NOR = {
 						any_scope_building = {
-							has_active_production_method = pm_electricity_trains
+							has_active_production_method = pm_electric_trains_tov
 						}
 						any_scope_building = {
 							has_active_production_method = pm_petrol_trains
@@ -943,7 +943,7 @@ forestry_train = {
 					has_building = building_logging_camp
 					NOR = {
 						any_scope_building = {
-							has_active_production_method = pm_electricity_trains
+							has_active_production_method = pm_electric_trains_tov
 						}
 						any_scope_building = {
 							has_active_production_method = pm_petrol_trains
@@ -968,7 +968,7 @@ forestry_train = {
 					has_building = building_logging_camp
 					NOR = {
 						any_scope_building = {
-							has_active_production_method = pm_electricity_trains
+							has_active_production_method = pm_electric_trains_tov
 						}
 						any_scope_building = {
 							has_active_production_method = pm_petrol_trains
@@ -993,7 +993,7 @@ forestry_train = {
 					has_building = building_logging_camp
 					NOR = {
 						any_scope_building = {
-							has_active_production_method = pm_electricity_trains
+							has_active_production_method = pm_electric_trains_tov
 						}
 						any_scope_building = {
 							has_active_production_method = pm_petrol_trains
@@ -1018,7 +1018,7 @@ forestry_train = {
 					has_building = building_logging_camp
 					NOR = {
 						any_scope_building = {
-							has_active_production_method = pm_electricity_trains
+							has_active_production_method = pm_electric_trains_tov
 						}
 						any_scope_building = {
 							has_active_production_method = pm_petrol_trains
@@ -1042,7 +1042,7 @@ forestry_train = {
 				scope:state = {
 					has_building = building_logging_camp
 					any_scope_building = {
-						has_active_production_method = pm_electricity_trains
+						has_active_production_method = pm_electric_trains_tov
 					}
 				}
 			}
