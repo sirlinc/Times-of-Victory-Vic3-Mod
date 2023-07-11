@@ -597,7 +597,6 @@
 	}
 	s:STATE_VENETIA={
 		region_state:VEN={
-
 			create_building={
 				building="building_paper_mills"
 				level=3
@@ -1340,11 +1339,6 @@
 				level=4
 				reserves=1
 			}
-			create_building={
-				building="building_barracks"
-				level=10
-				reserves=1
-			}
 		}
 	}
 	s:STATE_SLOVENIA={
@@ -1461,11 +1455,6 @@
 				level=1
 				reserves=1
 			}
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-			}
 		}
 	}
 	s:STATE_ISTRIA={
@@ -1476,13 +1465,8 @@
 				reserves=1
 			}			
 			create_building={
-				building="building_naval_base"
-				level=5
-				reserves=1
-			}
-			create_building={
 				building="building_port"
-				level=1
+				level=3
 				reserves=1
 			}
 		}
@@ -1500,6 +1484,11 @@
 			create_building={
 				building="building_port"
 				level=2
+				reserves=1
+			}
+			create_building={
+				building="building_barracks"
+				level=5
 				reserves=1
 			}
 		}
@@ -1559,15 +1548,20 @@
 		}
 	}
 	s:STATE_CRETE={
-		region_state:B37={
+		region_state:VEN={
 			create_building={
 				building="building_fishing_wharf"
-				level=1
+				level=2
 				reserves=1
 			}
 			create_building={
 				building="building_port"
-				level=1
+				level=2
+				reserves=1
+			}
+			create_building={
+				building="building_barracks"
+				level=5
 				reserves=1
 			}
 		}
@@ -1625,11 +1619,6 @@
 			create_building={
 				building="building_temperate_farmland"
 				level=2
-				reserves=1
-			}
-			create_building={
-				building="building_barracks"
-				level=10
 				reserves=1
 			}
 		}
@@ -1700,6 +1689,11 @@
 				level=1
 				reserves=1
 			}
+		}
+		create_building={
+			building="building_barracks"
+			level=5
+			reserves=1
 		}
 	}
 	s:STATE_ATTICA={

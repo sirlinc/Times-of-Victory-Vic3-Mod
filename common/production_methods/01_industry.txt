@@ -1421,7 +1421,8 @@ pm_artisanal_weavers = {
     building_modifiers = {
         workforce_scaled = {
             building_input_luxury_fabric_add = 5
-            building_output_luxury_clothes_add = 5
+            building_input_tools_add = 5
+            building_output_luxury_clothes_add = 10
         }
     }
 }
@@ -1429,13 +1430,15 @@ pm_artisanal_weavers = {
 pm_couture_fabrics = {
     texture = "gfx/interface/icons/production_method_icons/dye_workshops.dds"
 
-    
+    unlocking_technologies = {
+		coffee_houses
+	}   
 
     building_modifiers = {
         workforce_scaled = {
             building_input_luxury_fabric_add = 15
 			building_input_tools_add = 5
-            building_output_luxury_clothes_add = 20
+            building_output_luxury_clothes_add = 25
         }
     }
 }
@@ -1451,7 +1454,7 @@ pm_black_and_white_tie = {
         workforce_scaled = {
             building_input_luxury_fabric_add = 25
 			building_input_tools_add = 15
-            building_output_luxury_clothes_add = 25
+            building_output_luxury_clothes_add = 35
         }
     }
 }
@@ -1467,7 +1470,7 @@ pm_sportswear = {
         workforce_scaled = {
             building_input_luxury_fabric_add = 35
 			building_input_tools_add = 25
-            building_output_luxury_clothes_add = 35
+            building_output_luxury_clothes_add = 45
         }
     }
 }
@@ -2319,7 +2322,7 @@ pm_thermal_cracking = {
     building_modifiers = {
         workforce_scaled = {
             building_input_crude_oil_add = 50
-			building_input_tools_add = 15
+			building_input_tools_add = 25
             building_output_fuel_oil_add = 50
         }
     }

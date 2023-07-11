@@ -855,7 +855,7 @@
 		region_state:NI2 = {
 			create_pop = {
 				culture = guarani
-				size=37429
+				size=17429
 			}
 		}
 	}
@@ -1081,13 +1081,7 @@
 		region_state:NI2 = {
 			create_pop = {
 				culture = guarani
-				size = 18435
-			}
-		}
-		region_state:NI2 = {
-			create_pop = {
-				culture = guarani
-				size = 19507
+				size = 8435
 			}
 		}
 		region_state:PI2 = {

@@ -1070,7 +1070,7 @@ pm_market_squares = {
     building_modifiers = {
         workforce_scaled = {
             building_input_paper_add = 3
-            building_output_services_add = 3     
+            building_output_services_add = 5     
         }
 
         level_scaled = {
@@ -1089,7 +1089,8 @@ pm_banks = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_paper_add = 10
+            building_input_paper_add = 5
+            building_input_dye_add = 3
             building_output_services_add = 10
         }
 
@@ -1111,7 +1112,7 @@ pm_arcades = {
         workforce_scaled = {
             building_input_paper_add = 10
 			building_input_dye_add = 5
-            building_output_services_add = 15
+            building_output_services_add = 20
         }
 
         level_scaled = {
@@ -1132,7 +1133,7 @@ pm_stock_exchanges = {
         workforce_scaled = {
             building_input_paper_add = 15
 			building_input_electricity_add = 10
-            building_output_services_add = 30
+            building_output_services_add = 35
         }
 
         level_scaled = {

@@ -251,6 +251,16 @@
 				size = 11562
 			}
 		}
+		region_state:FNM = {
+			create_pop = {
+				culture = swedish
+				size = 5136
+			}
+			create_pop = {
+				culture = sami
+				size = 5562
+			}
+		}
 	}
 	s:STATE_HOME_COUNTIES = {
 		region_state:ENG = {
@@ -814,18 +824,18 @@
 		}
 	}
 	s:STATE_LORRAINE = {
-		region_state:FRA = {
+		region_state:LOR = {
 			create_pop = {
 				culture = french
-				size = 18474
+				size = 178474
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 6396
+				size = 16396
 			}
 			create_pop = {
 				culture = alemannic
-				size = 10768
+				size = 190768
 			}
 		}
 	}

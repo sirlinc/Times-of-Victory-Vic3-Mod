@@ -595,7 +595,7 @@
 		region_state:D13 = { #Wazhazhe
 			create_pop = {
 				culture = siouan
-				size = 35385
+				size = 25385
 			}
 		}
 		region_state:D31 = { #Kaw
@@ -616,6 +616,12 @@
 				size = 45857
 			}
 		}
+		region_state:D18 = { #Kadohadacho
+		create_pop = {
+			culture = caddo
+			size = 19679
+		}
+	}
 	}
 	s:STATE_ARKANSAS = {
 		region_state:D14 = { #Quapaw
@@ -627,13 +633,13 @@
 		region_state:D13 = { #Wazhazhe
 			create_pop = {
 				culture = siouan
-				size = 42169
+				size = 22169
 			}
 		}
 		region_state:D18 = { #Kadohadacho
 			create_pop = {
 				culture = caddo
-				size = 39679
+				size = 29679
 			}
 		}
 	}
@@ -653,7 +659,7 @@
 		region_state:D13 = { #Wazhazhe
 			create_pop = {
 				culture = siouan
-				size = 27834
+				size = 17834
 			}
 		}
 		region_state:D14 = { #Quapaw
@@ -667,7 +673,7 @@
 		region_state:D02 = { #Yankton
 			create_pop = {
 				culture = siouan
-				size = 42039
+				size = 22039
 			}
 		}
 		region_state:D04 = { #Baxoje
@@ -679,7 +685,7 @@
 		region_state:D10 = { #Illiniwek
 			create_pop = {
 				culture = algonquian
-				size = 33259
+				size = 23259
 			}
 		}
 		region_state:D11 = { #Chiwere
@@ -711,7 +717,7 @@
 		region_state:D02 = { #Yankton
 			create_pop = {
 				culture = siouan
-				size = 41854
+				size = 21854
 			}
 		}
 		region_state:D03 = { #Yanktonai
@@ -745,19 +751,19 @@
 		region_state:C94 = { #Three Fires Confederacy
 			create_pop = {
 				culture = algonquian
-				size = 26765
+				size = 16765
 			}
 		}
 		region_state:D09 = { #Myaamiaki
 			create_pop = {
 				culture = algonquian
-				size = 35004
+				size = 30004
 			}
 		}
 		region_state:D10 = { #Illiniwek
 			create_pop = {
 				culture = algonquian
-				size = 43389
+				size = 33389
 			}
 		}
 	}
@@ -997,7 +1003,7 @@
 		region_state:D10 = { #Illiniwek
 			create_pop = {
 				culture = algonquian
-				size = 50255
+				size = 40255
 			}
 		}
 	}
@@ -1047,7 +1053,7 @@
 		region_state:ENG = { #England
 			create_pop = {
 				culture = algonquian
-				size = 44801
+				size = 14801
 			}
 			create_pop = {
 				culture = british
@@ -1109,7 +1115,7 @@
 		region_state:ENG = { #England
 			create_pop = {
 				culture = algonquian
-				size = 29987
+				size = 19987
 			}
 			create_pop = {
 				culture = british
@@ -1139,11 +1145,11 @@
 		region_state:ENG = { #England
 			create_pop = {
 				culture = algonquian
-				size = 44738
+				size = 11738
 			}
 			create_pop = {
 				culture = british
-				size = 4795
+				size = 3795
 			}
 		}
 	}
@@ -2265,12 +2271,6 @@
 			create_pop = {
 				culture = uto_aztecan
 				size = 35931
-			}
-		}
-		region_state:D62 = { #Eastern Shoshone
-			create_pop = {
-				culture = uto_aztecan
-				size = 48565
 			}
 		}
 		region_state:D74 = { #Gutsipiuti

@@ -421,17 +421,23 @@
 			}
 		}
 		region_state:B20 = {
-		create_pop = {
-			culture = bedouin
-			size = 7300
+			create_pop = {
+				culture = bedouin
+				size = 7300
+				}
 			}
-		}
+		region_state:B17 = {
+			create_pop = {
+				culture = bedouin
+				size = 7300
+				}
+			}
 		region_state:B28 = {
-		create_pop = {
-			culture = bedouin
-			size = 1000
+			create_pop = {
+				culture = bedouin
+				size = 1000
+				}
 			}
-		}
 	}
 	s:STATE_KORDOFAN = {
 		region_state:DFR = {

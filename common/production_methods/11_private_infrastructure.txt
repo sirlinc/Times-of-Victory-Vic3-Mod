@@ -725,9 +725,6 @@ pm_earthen_embankments = {
         }
     }
     state_modifiers = {
-        workforce_scaled = {
-            state_infrastructure_add = 2
-        }
     }
 }
 
@@ -741,7 +738,7 @@ pm_watermills = {
     building_modifiers = {
         workforce_scaled = {
             building_input_wood_add = 5
-            
+            building_output_transportation_add = 2
         }
 
         level_scaled = {
@@ -764,8 +761,8 @@ pm_iron_geared_watermills = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_iron_add = 6
-            
+            building_input_iron_add = 5
+            building_output_transportation_add = 4            
         }
 
         level_scaled = {
@@ -790,7 +787,7 @@ pm_artificial_embankments = {
     building_modifiers = {
         workforce_scaled = {
             building_input_iron_add = 10
-            
+            building_output_transportation_add = 6           
         }
 
         level_scaled = {
@@ -816,7 +813,7 @@ pm_steel_geared_watermills = {
     building_modifiers = {
         workforce_scaled = {
             building_input_steel_add = 5
-            
+            building_output_transportation_add = 8            
         }
 
         level_scaled = {
@@ -841,8 +838,8 @@ pm_water_turbines = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_alloys_add = 5
-            
+            building_input_alloys_add = 10
+            building_output_transportation_add = 10            
         }
 
         level_scaled = {
@@ -867,8 +864,8 @@ pm_canalized_rivers = {
 
     building_modifiers = {
         workforce_scaled = {
-            building_input_alloys_add = 10
-            
+            building_input_alloys_add = 15
+            building_output_transportation_add = 15           
         }
 
         level_scaled = {
@@ -1076,7 +1073,7 @@ pm_river_based_settlements = {
     }
     state_modifiers = {
         workforce_scaled = {
-            state_infrastructure_add = -5
+            state_infrastructure_add = -3
         }
     }
 }
@@ -1098,7 +1095,7 @@ pm_irrigation_canals = {
     }
     state_modifiers = {
         workforce_scaled = {
-            state_infrastructure_add = -5
+            state_infrastructure_add = -3
         }
         unscaled = {
 			building_group_bg_agriculture_throughput_mult = 0.2
@@ -1125,10 +1122,11 @@ pm_drinking_water_reservoirs = {
     }
     state_modifiers = {
         workforce_scaled = {
-            state_infrastructure_add = -5
+            state_infrastructure_add = -3
         }
         unscaled = {
-			state_birth_rate_mult = 0.04
+			state_birth_rate_mult = 0.02
+            state_mortality_mult = -0.02
         }
     }
 }
@@ -1152,7 +1150,7 @@ pm_gravel_quarries = {
     }
     state_modifiers = {
         workforce_scaled = {
-            state_infrastructure_add = -5
+            state_infrastructure_add = -3
 
         }
         unscaled = {
@@ -1180,7 +1178,7 @@ pm_floating_casinos = {
     }
     state_modifiers = {
         workforce_scaled = {
-            state_infrastructure_add = -5
+            state_infrastructure_add = -3
 
         }
         unscaled = {

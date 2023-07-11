@@ -970,6 +970,18 @@
 				size = 5000
 			}
 		}
+		region_state:SLW = {
+			create_pop = {
+				culture = moluccan
+				religion = animist
+				size=114951
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = melanesian
+				size = 11000
+			}
+		}
 	}
 	s:STATE_MINDANAO = {
 		region_state:PHI = {

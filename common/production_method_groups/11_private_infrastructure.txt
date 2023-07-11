@@ -131,7 +131,7 @@ pmg_river_bonus = {
 
 	production_methods = {
 		pm_no_river_bonus
-		pm_river_based_settlements
+		#pm_river_based_settlements
 		pm_irrigation_canals
 		pm_drinking_water_reservoirs
 		pm_gravel_quarries

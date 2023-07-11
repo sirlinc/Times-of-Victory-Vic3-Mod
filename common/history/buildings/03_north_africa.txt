@@ -553,11 +553,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_barracks"
-				level=13
-				reserves=1
-			}
-			create_building={
 				building="building_naval_base"
 				level=3
 				reserves=1
@@ -582,11 +577,6 @@
 				reserves=1
 			}
 			create_building={
-				building="building_barracks"
-				level=9
-				reserves=1
-			}
-			create_building={
 				building="building_port"
 				level=1
 				reserves=1
@@ -603,11 +593,6 @@
 			create_building={
 				building="building_temperate_farmland"
 				level=2
-				reserves=1
-			}
-			create_building={
-				building="building_barracks"
-				level=6
 				reserves=1
 			}
 		}	
