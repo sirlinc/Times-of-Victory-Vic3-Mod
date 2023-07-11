@@ -16,11 +16,6 @@
 				level=1
 				reserves=1
 			}
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-			}
 		}
 	}
 	s:STATE_GUAYANA={
@@ -111,11 +106,6 @@
 			create_building={
 				building="building_sugar_plantation"
 				level=2
-				reserves=1
-			}
-			create_building={
-				building="building_barracks"
-				level=5
 				reserves=1
 			}
 			create_building={
@@ -448,11 +438,6 @@
 				level=1
 				reserves=1
 			}
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-			}
 		}
 	}
 	s:STATE_LOS_RIOS={
@@ -465,11 +450,6 @@
 			create_building={
 				building="building_logging_camp"
 				level=1
-				reserves=1
-			}
-			create_building={
-				building="building_barracks"
-				level=5
 				reserves=1
 			}
 		}
@@ -519,11 +499,6 @@
 				level=1
 				reserves=1
 			}
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-			}
 		}
 	}
 	s:STATE_RIO_DE_JANEIRO={
@@ -565,11 +540,6 @@
 	s:STATE_BAHIA={
 		region_state:BRZ={
 			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-			}
-			create_building={
 				building="building_sugar_plantation"
 				level=1
 				reserves=1
@@ -610,7 +580,7 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=4
+				level=5
 				reserves=1
 			}
 		}
