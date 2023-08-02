@@ -164,9 +164,9 @@ types information_panels_types
 					layoutpolicy_horizontal = expanding
 					layoutpolicy_vertical = preferred
 					
-					#background = {
-					#	using = simple_frame
-					#}
+					background = {
+						using = entry_bg
+					}
 					
 					block "move_to_government_button_party" {
 						button_icon_move_left = {
@@ -333,7 +333,7 @@ types information_panels_types
 		background = {
 			texture = "gfx/interface/tooltip/tooltip_title_bg.dds"
 			color = "[InterestGroup.GetColor]"
-			alpha = 0.5
+			alpha = 0.35
 
 			modify_texture = {
 				using = texture_velvet
@@ -359,23 +359,17 @@ types information_panels_types
 				}
 			}
 			
-			using = entry_bg_fancy
-			
+			background = {
+				using = simple_frame
+			}
+
 			hbox = {
 				layoutpolicy_horizontal = expanding
 				layoutpolicy_vertical = preferred
 				margin_bottom = 10
 
-				widget = { size = { 15 15 }}
+				widget = { size = { 15 15 } }
 
-				### IG BUTTON
-				ig_button = {
-				 	block "ig_button_size" {
-						size = { 60 60 }
-					}
-				}
-				using = tooltip_ws
-				blockoverride "in_government_icon" {}
 
 				### CENTER INFO
 				vbox = {
@@ -401,80 +395,133 @@ types information_panels_types
 							}
 						}
 						
-						### LEADING IG
-						icon = {
-							texture = "gfx/interface/icons/generic_icons/leading_interest_group_icon.dds"
-							size = { 35 35 }
-							visible = "[InterestGroup.IsLeadingGovernment]"
-							tooltip = "LEADING_IG"
-						}
-						### REVOLUTION
-						icon = {
-							visible = "[InterestGroup.IsInsurrectionary]"
-							size = { 35 35 }
-							texture = "gfx/interface/icons/politics_icons/radicalized.dds"
-							tooltip = "RADICAL_IG_TOOLTIP"
-						}
-
-						icon = {
-							visible = "[InterestGroup.IsRevolutionary]"
-							size = { 35 35 }
-							texture = "gfx/interface/icons/politics_icons/revolution.dds"
-							tooltip = "REVOLUTION_IG_TOOLTIP"
-						}
-						### SUPPRESSED / BOLSTERED
-						icon = {
-							tooltip = "TOOLTIP_SUPPRESSED"
-							size = { 35 35 }
-							visible = "[InterestGroup.IsSuppressed]"
-							texture = "gfx/interface/icons/generic_icons/ig_suppress.dds"
-						}
-						icon = {
-							tooltip = "TOOLTIP_PROMOTED"
-							size = { 35 35 }
-							visible = "[InterestGroup.IsBolstered]"
-							texture = "gfx/interface/icons/generic_icons/ig_bolster.dds"
-						}
-
-						### NAME
-						textbox = {
-							#layoutpolicy_horizontal = expanding
-							size = { 0 30 }
-							raw_text = "#v [InterestGroup.GetNameNoFormatting]#!"
-							align = left|nobaseline
-							autoresize = yes
-							using = fontsize_large
-							block "highlight_name" {}
-							elide = right
-						}
-
-						textbox = {
-							layoutpolicy_horizontal = expanding
-							align = left|nobaseline
-							margin_left = 10
-							size = { 0 25 }
-							elide = right
-							raw_text = "[InterestGroup.GetApprovalRating] #bold ([InterestGroup.GetApprovalValue|=+])#!"
-							tooltip = "IG_APPROVAL_BREAKDOWN"
+						### IG BUTTON
+						ig_button = {
+							block "ig_button_size" {
+								qsize = { 55 55 }
+							}
+							using = tooltip_ws
+							blockoverride "in_government_icon" {}
 						}
 						
-						#button_icon_goto = {
-						#	size = { 25 25 }
- 						#	onclick = "[InformationPanelBar.OpenInterestGroupPanel(InterestGroup.AccessSelf)]"
-						#	tooltip = "GO_TO_BUTTON_INTEREST_GROUP"
-						#	block "goto_visibility" {}
- 						#}
-						
+						vbox = {
+							### NAME
+							textbox = {
+								#layoutpolicy_horizontal = expanding
+								size = { 0 30 }
+								raw_text = "#v [InterestGroup.GetNameNoFormatting]#!"
+								align = left|nobaseline
+								autoresize = yes
+								using = fontsize_large
+								block "highlight_name" {}
+								elide = right
+							}
+							textbox = {
+								layoutpolicy_horizontal = expanding
+								align = left|nobaseline
+								margin_left = 0
+								size = { 0 25 }
+								elide = right
+								raw_text = "[InterestGroup.GetApprovalRating] #bold ([InterestGroup.GetApprovalValue|=+])#!"
+								tooltip = "IG_APPROVAL_BREAKDOWN"
+							}
+						}
+
  						expand = {}
 						
-						### CLOUT
+						hbox = {
+							### IG NEED TECHNOLOGY TO BE STRONGER
+							icon = {
+								texture = "gfx/interface/icons/generic_icons/tech_interest_group_icon.dds"
+								size = { 35 35 }
+								visible = "[InterestGroup.GetVar('technology').IsSet]"
+								tooltip = "TECHNOLOGY_IG"
+							}
+							### LEADING IG
+							icon = {
+								texture = "gfx/interface/icons/generic_icons/leading_interest_group_icon.dds"
+								size = { 35 35 }
+								visible = "[InterestGroup.IsLeadingGovernment]"
+								tooltip = "LEADING_IG"
+							}
+							### REVOLUTION
+							icon = {
+								visible = "[InterestGroup.IsInsurrectionary]"
+								size = { 35 35 }
+								texture = "gfx/interface/icons/politics_icons/radicalized.dds"
+								tooltip = "RADICAL_IG_TOOLTIP"
+							}
+	
+							icon = {
+								visible = "[InterestGroup.IsRevolutionary]"
+								size = { 35 35 }
+								texture = "gfx/interface/icons/politics_icons/revolution.dds"
+								tooltip = "REVOLUTION_IG_TOOLTIP"
+							}
+							### SUPPRESSED / BOLSTERED
+							icon = {
+								tooltip = "TOOLTIP_SUPPRESSED"
+								size = { 35 35 }
+								visible = "[InterestGroup.IsSuppressed]"
+								texture = "gfx/interface/icons/generic_icons/ig_suppress.dds"
+							}
+							icon = {
+								tooltip = "TOOLTIP_PROMOTED"
+								size = { 35 35 }
+								visible = "[InterestGroup.IsBolstered]"
+								texture = "gfx/interface/icons/generic_icons/ig_bolster.dds"
+							}
+						}
+						
+						### LEADER
+						widget = {
+							size = { 50 50 }
+		
+							character_portrait_small2 = {
+								datacontext = "[InterestGroup.AccessLeader]"
+								using = tooltip_above
+								blockoverride "show_hat" {}
+								parentanchor = vcenter
+								blockoverride "highlight" {}
+							}
+						}
+					}
+					
+					### BOTTOM PART
+					hbox = {
+						layoutpolicy_horizontal = preferred
+						layoutpolicy_vertical = preferred
+						margin_top = 10
+
+						### IDEOLOGIES
+						dynamicgridbox = {
+							layoutpolicy_horizontal = expanding
+							flipdirection = yes
+							name = "ideologies_box"
+							datamodel = "[InterestGroup.AccessIntrinsicIdeologies]"
+							item = {
+								widget = {
+									size = { 35 38 }
+	
+									icon = {
+										texture = "[Ideology.GetTexture]"
+										tooltipwidget = {
+											FancyTooltip_Ideology = {}
+										}
+										size = { 38 38 }
+										using = tooltip_above
+									}
+								}
+							}
+						}
+						
 						vbox = {
 							layoutpolicy_vertical = preferred
 							spacing = 4
 							using = clout_tooltip_with_graph
-
+							
 							textbox = {
-								layoutpolicy_horizontal = expanding
+								layoutpolicy_horizontal = preferred
 								size = { 0 20 }
 								align = right|nobaseline
 								margin_right = 2
@@ -484,7 +531,7 @@ types information_panels_types
 							}
 							
 							bar_horizontal = {
-								size = { 75 10 }
+								size = { 70 10 }
 
 								blockoverride "values" {
 									min = 0
@@ -501,145 +548,64 @@ types information_panels_types
 								}
 							}
 						}
-
-						icon = {
-							visible = "[InterestGroup.GetParty.IsValid]"
-							texture = "[InterestGroup.GetParty.GetIcon]"
-							size = { 30 30 }
-							tooltip = "[InterestGroup.GetPartyAffiliationTooltip]"
-						}
-
-						icon = {
-							visible = "[Not(InterestGroup.GetParty.IsValid)]"
-							texture = "gfx/interface/icons/generic_icons/undecided_icon.dds"
-							size = { 30 30 }
-							tooltip = "[InterestGroup.GetPartyAffiliationTooltip]"
-						}
-					}
-
-					### BOTTOM PART
-					hbox = {
-						layoutpolicy_horizontal = expanding #preferred
-						layoutpolicy_vertical = preferred #preferred
-						margin_top = 10
-						block "tooltip" {
-							tooltip = "TOOLTIP_POPULATION"
-						}
-						spacing = 88
 						
-						#fixedgridbox = {
-						#	name = "traits_box"
-						#	flipdirection = yes
-						#	datamodel = "[InterestGroup.AccessTraits]"
-						#	addcolumn = 38
-						#	addrow = 40
-						#
-						#	item = {
-						#		widget = {
-						#			size = { 36 40 }
-						#			icon = {
-						#				parentanchor = center
-						#				texture = "[InterestGroupTrait.GetTexture]"
-						#				enabled = "[InterestGroupTrait.IsEnabled(InterestGroup.Self)]"
-						#				tooltipwidget = {
-						#					FancyTooltip_InterestGroupTrait = {}
-						#				}
-						#				using = tooltip_above
-						#				size = { 33 44 }
-						#				alpha = "[TransparentIfFalse(InterestGroupTrait.IsEnabled(InterestGroup.Self))]"
-						#			}
+						#hbox = {
+						#	layoutpolicy_horizontal = expanding
+						#	layoutpolicy_vertical = expanding
+						#	
+						#	spacing = 17
+						#	vbox = {
+						#		textbox = {
+						#			size = { 0 20 }
+						#			align = left|nobaseline
+						#			margin_right = 0
+						#			margin_top = 0
+						#			text = "[InterestGroup.GetClout|%1]"
+						#			default_format = "#variable"
+						#			using = fontsize_large
+						#			
+						#			using = clout_tooltip_with_graph
 						#		}
+						#	
+						#
+						#	icon = {
+						#		visible = "[Not(InterestGroup.GetParty.IsValid)]"
+						#		texture = "gfx/interface/icons/generic_icons/undecided_icon.dds"
+						#		size = { 30 30 }
+						#		tooltip = "[InterestGroup.GetPartyAffiliationTooltip]"
 						#	}
 						#}
-
-						#Population
-						textbox = {
-							#layoutpolicy_horizontal = expanding
-							align = left|nobaseline
-							margin_left = 10
-							size = { 0 25 }
-							#elide = right
-							
-							icon = { 
-								size = { 27 27 }
-								texture = "gfx/interface/icons/generic_icons/population.dds"
-							}
-							
-							block "value" {
-								margin_left = 28
-								text = "[InterestGroup.GetPopulation|v1*]"
-							}
-						}
-						
-						
-						#Loyalists
-						textbox = {
-							#layoutpolicy_horizontal = expanding 
-							align = left|nobaseline
-							margin_left = 10
-							size = { 0 25 }
-							#elide = right
-							
-							icon = { 
-								size = { 27 27 }
-								texture = "gfx/interface/icons/generic_icons/population_loyalist.dds"
-								
-								using = ig_loyalists_tooltip_with_graph
-		
-							}
-							
-							block "value" {
-								margin_left = 28
-								text = "[InterestGroup.GetNumLoyalists|+D]"
-							}
-						}
-				
-						#Radicals
-						textbox = {
-							#layoutpolicy_horizontal = expanding
-							align = left|nobaseline
-							margin_left = 10
-							size = { 0 25 }
-							#elide = right
-							
-							icon = { 
-								size = { 27 27 }
-								texture = "gfx/interface/icons/generic_icons/population_radical.dds"
-								
-								using = ig_radicals_tooltip_with_graph
-							}
-							
-							block "value" {
-								margin_left = 28
-								text = "[InterestGroup.GetNumRadicals|-D]"
-							}
-							
-						}
-						
-						expand = {} 
-						
-						### IDEOLOGIES
-						dynamicgridbox = {
-							flipdirection = yes
-							name = "ideologies_box"
-							datamodel = "[InterestGroup.AccessIntrinsicIdeologies]"
-							item = {
-								widget = {
-									size = { 37 35 }
-
-									icon = {
-										texture = "[Ideology.GetTexture]"
-										tooltipwidget = {
-											FancyTooltip_Ideology = {}
-										}
-										size = { 35 35 }
-										using = tooltip_above
-									}
-								}
-							}
-						}
 					}
-
+					#### BOTTOM PART
+					#hbox = {
+					#	layoutpolicy_horizontal = preferred
+					#	layoutpolicy_vertical = preferred
+					#	margin_top = 10
+					#	
+					#### CLOUT
+					#	
+					#	## IDEOLOGIES
+					#	dynamicgridbox = {
+					#		flipdirection = yes
+					#		name = "ideologies_box"
+					#		datamodel = "[InterestGroup.AccessIntrinsicIdeologies]"
+					#		item = {
+					#			widget = {
+					#				size = { 37 35 }
+					#	
+					#				icon = {
+					#					texture = "[Ideology.GetTexture]"
+					#					tooltipwidget = {
+					#						FancyTooltip_Ideology = {}
+					#					}
+					#					size = { 35 35 }
+					#					using = tooltip_above
+					#				}
+					#			}
+					#		}
+					#	}
+					#	
+					#}
 					hbox = {
 						margin_top = 10
 						layoutpolicy_horizontal = expanding
@@ -670,8 +636,94 @@ types information_panels_types
 	                    	}
 	                    }
 	                }
-				}	
+				}
+				
 				widget = { size = { 15 15 }}
+			}
+			
+			hbox = {
+				layoutpolicy_horizontal = preferred
+				layoutpolicy_vertical = preferred
+
+				widget = { size = { 110 110 }}
+				
+				background = {
+					using = simple_frame
+				}
+				
+				block "tooltip" {
+					tooltip = "TOOLTIP_POPULATION"
+				}
+				
+				vbox = {
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = preferred
+					margin_bottom = 25
+					margin_left = -175
+					spacing = 6
+					widget = { size = { 15 15 } }
+					
+					hbox = {
+						icon = { 
+							size = { 27 27 }
+							texture = "gfx/interface/icons/generic_icons/population.dds"
+						}
+						textbox = {
+							layoutpolicy_horizontal = expanding
+							size = { 0 20 }
+							align = left|nobaseline
+							text = "[InterestGroup.GetPopulation|v1*]"
+							default_format = "#variable"
+							using = fontsize_large
+						}
+					}
+					
+					hbox = {
+						icon = { 
+							size = { 27 27 }
+							texture = "gfx/interface/icons/generic_icons/population_loyalist.dds"
+						}
+						textbox = {
+							layoutpolicy_horizontal = expanding
+							size = { 0 20 }
+							align = left|nobaseline
+							text = "[InterestGroup.GetNumLoyalists|+D]"
+							default_format = "#variable"
+							using = fontsize_large
+						}
+					}
+					
+					hbox = {
+						icon = { 
+							size = { 27 27 }
+							texture = "gfx/interface/icons/generic_icons/population_radical.dds"
+						}
+						textbox = {
+							layoutpolicy_horizontal = expanding
+							size = { 0 20 }
+							align = left|nobaseline
+							text = "[InterestGroup.GetNumRadicals|-D]"
+							default_format = "#variable"
+							using = fontsize_large
+						}
+					}
+					
+					#hbox = {
+					#	icon = { 
+					#		size = { 27 27 }
+					#		texture = "gfx/interface/icons/generic_icons/ongoing_action_both.dds"
+					#	}
+					#	textbox = {
+					#		layoutpolicy_horizontal = expanding
+					#		size = { 0 20 }
+					#		align = left|nobaseline
+					#		raw_text = "[InterestGroup.GetApprovalValue|=+]#!"
+					#		tooltip = "IG_APPROVAL_BREAKDOWN"
+					#		default_format = "#variable"
+					#		using = fontsize_large
+					#	}
+					#}
+				}
 			}
 			
 			block "move_to_opposition_button" {

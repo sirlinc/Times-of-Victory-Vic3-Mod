@@ -458,7 +458,7 @@ QP1 = { #Quilombola dos Palmares
 	
 	tier = principality
 	
-	cultures = { afro_brazilian }
+	cultures = { fluvial_bantu }
 	capital = STATE_PERNAMBUCO
 }
 GJ1 = { #Guajajara

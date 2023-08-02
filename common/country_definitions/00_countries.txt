@@ -2486,7 +2486,7 @@ BRI = {
 PAT = {
 	color = { 196 25 10 }
 	
-	country_type = decentralized
+	country_type = unrecognized
 	
 	tier = principality
 	

@@ -8,6 +8,7 @@
 	ideologies = { 
 		ideology_manorialism 
 		ideology_stratocratic 
+		ideology_patriarchal
 	}
 
 	enable = { always = yes }
@@ -63,25 +64,44 @@
 		}	
 		
 		add = {
-			desc = "POP_EMPLOYMENT"
+			desc = "SLAVE_STATE"
 			if = {
-				limit = { 
-					NOR = { 
-						is_pop_type = capitalists
-						is_pop_type = clergymen
-						is_pop_type = aristocrats
+				limit = {
+					state = { 
+						is_slave_state = yes
 					}
 					OR = {
-						is_pop_type = farmers
 						pop_employment_building_group = bg_agriculture
-						pop_employment_building_group = bg_mining
 						pop_employment_building_group = bg_ranching
-						pop_employment_building_group = bg_plantations
+						pop_employment_building_group = bg_plantations				
 					}
 				}
-				value = 4.5
+				value = 5
 			}
-		}	
+		}
+		
+		add = {
+			desc = "RURAL_GOOD_CONDITIONS"
+			if = {
+				limit = { 
+					scope:interest_group = {
+						is_in_government = yes
+					}
+					NOR = {
+						is_pop_type = capitalists
+						is_pop_type = aristocrats
+						is_pop_type = clergymen
+					}
+					OR = {
+						pop_employment_building_group = bg_agriculture
+						pop_employment_building_group = bg_ranching
+						pop_employment_building_group = bg_plantations				
+					}
+					standard_of_living >= 10
+				}
+				value = 2.5
+			}
+		}
 		
 		multiply = {
 			desc = "LEADER_POPULARITY"
@@ -123,7 +143,14 @@
 			}
 		}
 	}
-
+	
+	set_variable = { name = slot_1 value = manorialism } 
+	set_variable = { name = slot_2 value = stratocratic }
+	set_variable = { name = slot_3 value = patriarchal } 
+	set_variable = { name = slot_4 value = jingoism } 
+	set_variable = { name = slot_5 value = pacifism } 
+	set_variable = { name = slot_6 value = isolationism }
+	
 	monarch_weight = {
 		value = 0.25
 	}	

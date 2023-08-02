@@ -29,13 +29,6 @@ lawgroup_distribution_of_power = {
 	regressive_movement_chance = 0.5
 }
 
-lawgroup_citizenship = {
-	law_group_category = power_structure
-	
-	progressive_movement_chance = 2
-	regressive_movement_chance = 0.5
-}
-
 lawgroup_church_and_state = {
 	law_group_category = power_structure
 	
@@ -71,6 +64,14 @@ lawgroup_internal_security = {
 	regressive_movement_chance = 0.2
 }
 
+lawgroup_external_affairs = {
+	law_group_category = power_structure
+	
+	progressive_movement_chance = 1.15
+	regressive_movement_chance = 0.25
+}
+
+
 lawgroup_economic_system = {
 	law_group_category = economy	
 	
@@ -96,6 +97,14 @@ lawgroup_taxation = {
 	
 	progressive_movement_chance = 1.5
 	regressive_movement_chance = 0.3
+}
+
+lawgroup_land_reform = {
+	law_group_category = economy
+	enactment_approval_mult = 1.5 # people REALLY care about land reform
+	
+	progressive_movement_chance = 3
+	regressive_movement_chance = 1
 }
 
 lawgroup_colonization = {
@@ -126,7 +135,49 @@ lawgroup_health_system = {
 	regressive_movement_chance = 0.5			
 }
 
+lawgroup_citizenship = {
+	law_group_category = human_rights
+	
+	progressive_movement_chance = 2
+	regressive_movement_chance = 0.5
+}
+
 lawgroup_free_speech = {
+	law_group_category = human_rights
+	
+	progressive_movement_chance = 2.5
+	regressive_movement_chance = 0.5	
+}
+
+lawgroup_slavery = {
+	law_group_category = human_rights
+	enactment_approval_mult = 2.0
+	
+	progressive_movement_chance = 5
+	regressive_movement_chance = 0.5
+	
+	change_allowed_trigger = {
+		NOT = {
+			has_modifier = forced_slavery_ban
+		}
+	}	
+}
+
+lawgroup_migration = {
+	law_group_category = human_rights
+	
+	progressive_movement_chance = 1
+	regressive_movement_chance = 0.51
+}
+
+lawgroup_welfare = {
+	law_group_category = human_rights
+	
+	progressive_movement_chance = 2.5
+	regressive_movement_chance = 0.5	
+}
+
+lawgroup_rights_of_women = {
 	law_group_category = human_rights
 	
 	progressive_movement_chance = 2.5
@@ -145,47 +196,4 @@ lawgroup_childrens_rights = {
 	
 	progressive_movement_chance = 2.5
 	regressive_movement_chance = 0.5	
-}
-
-lawgroup_rights_of_women = {
-	law_group_category = human_rights
-	
-	progressive_movement_chance = 2.5
-	regressive_movement_chance = 0.5	
-}
-
-lawgroup_welfare = {
-	law_group_category = human_rights
-	
-	progressive_movement_chance = 2.5
-	regressive_movement_chance = 0.5	
-}
-
-lawgroup_migration = {
-	law_group_category = human_rights
-	
-	progressive_movement_chance = 1
-	regressive_movement_chance = 0.51
-}
-
-lawgroup_slavery = {
-	law_group_category = human_rights
-	enactment_approval_mult = 2.0
-	
-	progressive_movement_chance = 5
-	regressive_movement_chance = 0.5
-	
-	change_allowed_trigger = {
-		NOT = {
-			has_modifier = forced_slavery_ban
-		}
-	}	
-}
-
-lawgroup_land_reform = {
-	law_group_category = economy
-	enactment_approval_mult = 1.5 # people REALLY care about land reform
-	
-	progressive_movement_chance = 3
-	regressive_movement_chance = 1
 }

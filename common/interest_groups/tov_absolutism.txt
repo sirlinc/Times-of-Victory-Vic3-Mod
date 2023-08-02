@@ -16,6 +16,8 @@
 	
 	traits = {}	
 	
+	set_variable = { name = techonology }
+	
 	on_enable = {}
 	on_disable = {}	
 	on_character_ig_membership = {}
@@ -24,10 +26,22 @@
 	}
 
 	pop_weight = {
-		value = 1
+		value = 0.75
 		
 		add = {
-			desc = "POP_ARISTOCRATS"
+			desc = "POP_ARISTOCRATS_15_20"
+			if = {
+				limit = { 
+					is_pop_type = aristocrats
+					standard_of_living < 20
+					standard_of_living >= 15
+				}
+				value = 5
+			}
+		}	
+		
+		add = {
+			desc = "POP_ARISTOCRATS_20"
 			if = {
 				limit = { 
 					is_pop_type = aristocrats
@@ -65,34 +79,82 @@
 		}
 		
 		add = {
-			desc = "RURAL_POP"
+			desc = "POP_EMPLOYMENT_RURAL"
 			if = {
 				limit = { 
-					is_pop_type = capitalists
+					NOR = {
+						is_pop_type = capitalists
+						is_pop_type = aristocrats
+						is_pop_type = clergymen
+					}
 					OR = {
 						pop_employment_building_group = bg_agriculture
 						pop_employment_building_group = bg_ranching
 						pop_employment_building_group = bg_plantations				
 					}
 				}
-				value = 5
+				value = 1.5
 			}
 		}
 		
 		add = {
-			desc = "SLAVE_STATE"
+			desc = "POP_EMPLOYMENT_URBAN"
 			if = {
-				limit = {
-					state = { 
-						is_slave_state = yes
+				limit = { 
+					NOR = {
+						is_pop_type = capitalists
+						is_pop_type = aristocrats
+						is_pop_type = clergymen
+					}
+					NOR = {
+						pop_employment_building_group = bg_agriculture
+						pop_employment_building_group = bg_ranching
+						pop_employment_building_group = bg_plantations				
+					}
+					literacy < 0.45
+				}
+				value = 1.25
+			}
+		}
+		
+		add = {
+			desc = "RURAL_GOOD_CONDITIONS"
+			if = {
+				limit = { 
+					scope:interest_group = {
+						is_in_government = yes
+					}
+					NOR = {
+						is_pop_type = capitalists
+						is_pop_type = aristocrats
+						is_pop_type = clergymen
 					}
 					OR = {
 						pop_employment_building_group = bg_agriculture
 						pop_employment_building_group = bg_ranching
 						pop_employment_building_group = bg_plantations				
 					}
+					standard_of_living >= 10.1
 				}
-				value = 5
+				value = 2.0
+			}
+		}
+		
+		add = {
+			desc = "URBAN_GOOD_CONDITIONS"
+			if = {
+				limit = { 
+					scope:interest_group = {
+						is_in_government = yes
+					}
+					NOR = {
+						pop_employment_building_group = bg_agriculture
+						pop_employment_building_group = bg_ranching
+						pop_employment_building_group = bg_plantations
+					}
+					standard_of_living >= 12
+				}
+				value = 2.75
 			}
 		}
 		
@@ -105,20 +167,6 @@
 					add = 1
 					max = 1.25
 					min = 0.75
-				}
-			}
-		}
-		
-		multiply = {
-			desc = "IG_IS_MARGINALIZED"
-			value = 1.0
-			
-			scope:interest_group = {
-				if = {
-					limit = {
-						is_marginal = yes
-					}
-					value = 0.5
 				}
 			}
 		}
@@ -136,19 +184,32 @@
 				min = 0
 			}
 		}
-		#multiply = {
-		#	desc = "NO_SOCIAL_CONTRACT_THEORY"	
-		#	value = 1.0
-		#	
-		#	if = {
-		#		limit = { 
-		#			owner = {
-		#				NOT = { has_technology_researched = social_contract_theory }
-		#			}
-		#		}
-		#		value = 0.25
-		#	}		
-		#}
+		
+		multiply = {
+			desc = "NO_SOCIAL_CONTRACT_THEORY"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						NOT = { has_technology_researched = social_contract_theory }
+					}
+				}
+				value = 0.5
+			}		
+		}
+		
+		if = {
+			limit = {
+				owner = {
+					NOT = { has_technology_researched = absolutism }
+				}
+			}
+			multiply = {
+				desc = "NO_ABSOLUTISM"
+				value = 0.5
+			}
+		}
 	}
 
 	monarch_weight = {

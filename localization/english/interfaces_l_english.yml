@@ -4081,11 +4081,11 @@
  IDEOLOGY_LAW_STANCE_NEUTRAL:0 "#V Neutral#! towards $LAWS$"
 
  POL_PANEL_IG_STATUS_HEADER:0 "#title Approval#!"
- ig_approval_loyal:0 "#bold #P Loyal#!#!"
- ig_approval_happy:0 "#bold #P Happy#!#!"
- ig_approval_neutral:0 "#bold Neutral#!"
- ig_approval_unhappy:0 "#bold #N Unhappy#!#!"
- ig_approval_angry:0 "#bold #N Angry#!#!"
+ ig_approval_loyal:0 "#bold #P Very High#!#!"
+ ig_approval_happy:0 "#bold #P High#!#!"
+ ig_approval_neutral:0 "#bold Normal#!"
+ ig_approval_unhappy:0 "#bold #N Low#!#!"
+ ig_approval_angry:0 "#bold #N Very Low#!#!"
 
  WILL_RADICALIZE_WARNING:1 "@warning! This will [Concept('concept_political_movement_radicalism', '$concept_political_movement_radicalize$')] the [INTEREST_GROUP.GetName]"
 

@@ -1,5 +1,5 @@
-﻿ig_nationalist = { #patriotic
-	color = rgb { 18 15 91 }
+﻿ig_nationalism = { #patriotic
+	color = rgb { 33 102 66 }
 	texture = "gfx/interface/icons/ig_icons/nationalist.dds"
 	
 	layer = "revolution_dynamic_armed_forces"
@@ -7,181 +7,95 @@
 	
 	ideologies = { ideology_patriotic }
 
-	enable = {
-		always = yes
-	}
+	enable = { always = yes }
 	
 	traits = {}	
 	
+	set_variable = { name = techonology }
+
 	on_enable = {}
 	on_disable = {}	
 	on_character_ig_membership = {}
 	
 	pop_potential = {
-		pop_has_primary_culture = yes
-		pop_is_discriminated = no
-		religion_accepted = yes
+		OR = {
+			pop_has_primary_culture = yes
+			pop_is_discriminated = no
+		}
 	}
 
 	pop_weight = {
-		value = 0
+		value = 0.25
 	
 		add = {
 			desc = "PRIMARY_CULTURE"
+			value = 0
 			if = {
 				limit = { pop_has_primary_culture = yes }
-				value = 75
+				value = 6.5
 			}
 		}	
 		
 		add = {
 			desc = "IS_NOT_DISCRIMINATED"
+			value = 0
 			if = {
 				limit = { pop_is_discriminated = no }
-				value = 25
+				value = 1.6
 			}
 		}	
 		
 		add = {
 			desc = "RELIGION_IS_ACCEPTED"
+			value = 0
 			if = {
 				limit = { religion_accepted = yes }
-				value = 50
+				value = 2.75
 			}
 		}
 		
 		add = {
 			desc = "IG_EMPLOYED_MIC"
+			value = 0
 			if = {
 				limit = {
 					OR = {
 						pop_employment_building = building_automotive_firms
 						pop_employment_building = building_arsenal
 						pop_employment_building = building_munitions_plants
-						AND = {
-							pop_employment_building = building_shipyards
-							workplace = {
-								OR = {
-									has_active_production_method = pm_military_shipbuilding_wooden
-									has_active_production_method = pm_military_shipbuilding_wooden_2
-									has_active_production_method = pm_military_shipbuilding_steam
-									has_active_production_method = pm_military_shipbuilding_steam_2
-								}
-							}
-						}
+						pop_employment_building = building_shipyards
 					}
 				}
-				value = 50
+				value = 3.5
 			}
 		}
 		
-		#Recenltly Won War
-		multiply = {
-			desc = "INFAMY_25" 
+		add = {
+			desc = "POP_OFFICERS"
 			if = {
-				limit = {
-					owner = { 
-						infamy < 25
-						has_variable = recenly_won_war
-					}
-				}
-				value = 1.1
-			}
-		}
-		multiply = {
-			desc = "INFAMY_25_50" 
-			if = {
-				limit = {
-					owner = { 
-						infamy >= 25
-						infamy < 50
-						has_variable = recenly_won_war
-					}
-				}
-				value = 1.25
+				limit = { is_pop_type = officers }
+				value = 8.5
 			}
 		}
 		
-		multiply = {
-			desc = "INFAMY_50_75" 
+		add = {
+			desc = "POP_SERVICEMEN"
 			if = {
-				limit = {
-					owner = { 
-						infamy >= 25
-						infamy < 50
-						has_variable = recenly_won_war
-					}
-				}
-				value = 1.35
+				limit = { is_pop_type = servicemen }
+				value = 8.5
 			}
 		}
 		
-		multiply = {
-			desc = "INFAMY_75_100" 
-			if = {
-				limit = {
-					owner = { 
-						infamy >= 25
-						infamy < 50
-						has_variable = recenly_won_war
-					}
+		#At War
+		if = {
+			limit = {
+				owner = { 
+					is_at_war = yes
 				}
-				value = 1.5
 			}
-		}
-		
-		#Recenltly Lost War
-		multiply = {
-			desc = "LOST_25" 
-			if = {
-				limit = {
-					owner = { 
-						infamy < 25
-						has_variable = recenly_lost_war
-					}
-				}
-				value = 0.9
-			}
-		}
-		multiply = {
-			desc = "LOST_25_50" 
-			if = {
-				limit = {
-					owner = { 
-						infamy >= 25
-						infamy < 50
-						has_variable = recenly_lost_war
-					}
-				}
-				value = 0.77
-			}
-		}
-		
-		multiply = {
-			desc = "LOST_50_75" 
-			if = {
-				limit = {
-					owner = { 
-						infamy >= 25
-						infamy < 50
-						has_variable = recenly_lost_war
-					}
-				}
-				value = 0.67
-			}
-		}
-		
-		multiply = {
-			desc = "LOST_75_100" 
-			if = {
-				limit = {
-					owner = { 
-						infamy >= 25
-						infamy < 50
-						has_variable = recenly_lost_war
-					}
-				}
-				value = 0.5
+			multiply = {
+				desc = "COUNTRY_IS_AT_WAR" 
+				value = 1.15
 			}
 		}
 		
@@ -224,6 +138,7 @@
 				min = 0
 			}
 		}
+		
 		multiply = {
 			desc = "NO_THE_NATION_STATE"	
 			value = 1.0
@@ -234,7 +149,21 @@
 						NOT = { has_technology_researched = the_nation_state }
 					}
 				}
-				value = 0
+				value = 0.5
+			}		
+		}
+		
+		multiply = {
+			desc = "NO_NATIONAL_MYTHOS"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						NOT = { has_technology_researched = national_mythos }
+					}
+				}
+				value = 0.25
 			}		
 		}
 	}

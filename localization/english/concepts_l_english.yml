@@ -247,18 +247,18 @@
  concept_conscript_battalion_drafting:0 "Drafting"
  concept_conscript_battalion_desc:4 "$concept_conscript_battalions$ are temporary [Concept('concept_battalion', '$concept_battalions$')] recruited and maintained from the civilian [Concept('concept_pop','$concept_population$')] by [Concept('concept_conscription_center','$concept_conscription_centers$')] activated during [Concept('concept_diplomatic_play','$concept_diplomatic_plays$')] or [Concept('concept_war','$concept_wars$')]."
  
- concept_front:0 "Front"
- concept_fronts:1 "Fronts"
+ concept_front:0 "Campaign"
+ concept_fronts:1 "Campaigns"
  concept_front_desc:2 "A collection of [Concept('concept_province', '$concept_provinces$')] on the border of [Concept('concept_theater','$concept_theaters$')] between two [Concept('concept_country', '$concept_countries$')] at [concept_war] with each other. [Concept('concept_general', '$concept_generals$')] can be [Concept('concept_order','$concept_ordered$')] to advance or defend $concept_fronts$, which can result in [Concept('concept_battle','$concept_battles$')] that change the size of the $concept_theaters$ and the location of the $concept_front$."
 
  concept_garrison:0 "Garrison"
  concept_garrisons:0 "Garrisons"
  concept_garrison_desc:1 "The $concept_garrison$ of an [concept_hq] consists of all [Concept('concept_battalion','$concept_battalions$')] that are not yet [Concept('concept_mobilize_battalion','$concept_mobilize_battalion_mobilized$')]. During [concept_war], an $concept_hq$'s $concept_garrison$ will be distributed across any [Concept('concept_front','$concept_fronts$')] present there, where they are temporarily and automatically assigned to defending $concept_generals$ for the duration of a given [concept_battle] or even able to defend independently should no $concept_general$ be available.\n\n$concept_garrison$ forces have lower [concept_good_consumption] of [Concept('concept_military_good','$concept_military_goods$')] on account of not being $concept_mobilize_battalion_mobilized$, but do not derive the benefit of $concept_general$'s [Concept('concept_character_trait','$concept_character_traits$')] and are less likely to become available in defensive $concept_battles$. $concept_garrison$ forces cannot join advances."
 
- concept_advancement_progress:0 "Advancement Progress"
+ concept_advancement_progress:0 "Planning Progress"
  concept_advancement_progress_desc:1 "[Concept('concept_general','$concept_generals$')] [Concept('concept_order','$concept_ordered$')] to advance a [concept_front] accumulates $concept_advancement_progress$ daily depending on their [concept_advancement_speed]. Once the $concept_advancement_progress$ of the $concept_front$ has reached [GetDefine('NMilitary','BATTLE_PLAN_ADVANCE_PROGRESS_TO_LAUNCH')|v0] a [concept_battle] will start. While a $concept_battle$ is ongoing on the $concept_front$, $concept_advancement_progress$ on that $concept_front$ will be paused."
  
- concept_advancement_speed:0 "Advancement Speed"
+ concept_advancement_speed:0 "Preparation Speed"
  concept_advancement_speed_desc:1 "How rapidly a [concept_general] can advance their [concept_front] by accumulating [concept_advancement_progress].\nA $concept_general$ with no [Concept('concept_mobilize_battalion','$concept_mobilize_battalion_mobilized$')] [Concept('concept_battalion','$concept_battalions$')] has an effective $concept_advancement_speed$ of zero."
 
  concept_province:0 "Province"

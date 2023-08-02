@@ -710,7 +710,7 @@
 		}
 	}
 	s:STATE_SILESIA = {
-		region_state:AUS = {
+		region_state:BOH = {
 			create_pop = {
 				culture = north_german
 				size = 75365

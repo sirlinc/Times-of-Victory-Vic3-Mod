@@ -10,9 +10,11 @@
 	}
 
 	enable = {
-			always = yes
+		always = yes
 	}
 	
+	
+	set_variable = { name = techonology }
 	traits = {}	
 	
 	on_enable = {}
@@ -24,7 +26,31 @@
 	}
 
 	pop_weight = {
-		value = -75
+		value = 0
+		
+		add = {
+			desc = "POP_LITERACY_6_10"
+			if = {
+				limit = { 
+					NOT = { is_pop_type = clergymen }
+					literacy_rate >= 0.06
+					literacy_rate < 0.10
+				}
+				add = 2
+			}
+		}	
+		
+		add = {
+			desc = "POP_LITERACY_6_10"
+			if = {
+				limit = { 
+					NOT = { is_pop_type = clergymen }
+					literacy_rate >= 0.06
+					literacy_rate < 0.10
+				}
+				add = 2
+			}
+		}	
 		
 		add = {
 			desc = "POP_LITERACY_10_15"
@@ -34,7 +60,7 @@
 					literacy_rate >= 0.10
 					literacy_rate < 0.15
 				}
-				add = 25
+				add = 4
 			}
 		}	
 		
@@ -46,7 +72,7 @@
 					literacy_rate >= 0.15
 					literacy_rate < 0.20
 				}
-				add = 25
+				add = 5
 			}
 		}	
 		
@@ -58,7 +84,7 @@
 					literacy_rate >= 0.20
 					literacy_rate < 0.25
 				}
-				add = 25
+				add = 6
 			}
 		}	
 		
@@ -70,7 +96,7 @@
 					literacy_rate >= 0.25
 					literacy_rate < 0.30
 				}
-				add = 50
+				add = 6
 			}
 		}	
 		
@@ -82,7 +108,7 @@
 					literacy_rate >= 0.30
 					literacy_rate < 0.35
 				}
-				add = 50
+				add = 7
 			}
 		}	
 		
@@ -94,7 +120,7 @@
 					literacy_rate >= 0.35
 					literacy_rate < 0.40
 				}
-				add = 50
+				add = 7
 			}
 		}	
 		
@@ -106,7 +132,7 @@
 					literacy_rate >= 0.40
 					literacy_rate < 0.45
 				}
-				add = 50
+				add = 8
 			}
 		}	
 		
@@ -153,16 +179,14 @@
 			}		
 		}
 		if = {
-			limit = {
-				scope:interest_group = {
-					is_in_government = yes
+			limit = { 
+				ig:ig_moralist = {
+					ig_clout > 0.2
 				}
 			}
 			multiply = {
-				desc = "IN_GOVERNMENT_ATTRACTION"
-				value = 1
-				add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
-				min = 0
+				desc = "STRONG_CHURCH"
+				value = 0.3
 			}
 		}
 		multiply = {
@@ -175,8 +199,23 @@
 						NOT = { has_technology_researched = natural_philosophy }
 					}
 				}
-				value = 0
-			}		
+				value = 0.35
+			}	
+
+		}
+		multiply = {
+			desc = "STRONG_CHURCH"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					ig:ig_moralist = {
+						ig_clout > 0.2
+					}
+				}
+				value = 0.3
+			}	
+
 		}
 	}
 

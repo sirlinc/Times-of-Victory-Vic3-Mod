@@ -1,17 +1,17 @@
-﻿ig_egalitarian = {
-	color = rgb { 198 255 165 }
+﻿ig_egalitarianism = {
+	color = rgb { 198 255 215 }
 	texture = "gfx/interface/icons/ig_icons/egalitarian.dds"
-		
+
 	layer = "revolution_dynamic_intelligentsia"
 	index = 3
 	
 	ideologies = { ideology_egalitarian }
 
-	enable = {
-		always = yes
-	}
+	enable = { always = yes }
 	
 	traits = {}	
+
+	set_variable = { name = techonology }
 	
 	on_enable = {}
 	on_disable = {}	
@@ -25,7 +25,7 @@
 	}
 
 	pop_weight = {
-		value = 20
+		value = 1.1
 		
 		add = {
 			desc = "POP_MIDDLE_STRATA"
@@ -40,7 +40,7 @@
 						is_pop_type = shopkeepers
 					}
 				}
-				value = 150
+				value = 3
 			}
 		}
 		
@@ -59,126 +59,157 @@
 						is_pop_type = slaves
 					}
 				}
-				value = 200
+				value = 5
 			}
 		}	
-		
 		
 		#SoL
-		multiply = {
-			desc = "SOL_1_5"
-			if = { 
-				limit = {
-					standard_of_living >= 1
-					standard_of_living < 5
-				}
+		if = {
+			limit = {
+				standard_of_living >= 0
+				standard_of_living < 5
+			}
+			multiply = {
+				desc = "SOL_0_5"
 				value = 1.75
 			}
-		}	
-		multiply = {
-			desc = "SOL_5_10"
-			if = { 
-				limit = {
-					standard_of_living >= 1
-					standard_of_living < 5
-				}
+		}
+		if = {
+			limit = {
+				standard_of_living >= 5
+				standard_of_living < 10
+			}
+			multiply = {
+				desc = "SOL_5_10"
 				value = 1.5
 			}
-		}	
-		multiply = {
-			desc = "SOL_10_15"
-			if = { 
-				limit = {
-					standard_of_living >= 10
-					standard_of_living < 15
-				}
+		}
+		if = {
+			limit = {
+				standard_of_living >= 10
+				standard_of_living < 15
+			}
+			multiply = {
+				desc = "SOL_10_15"
 				value = 1.25
 			}
 		}
-		multiply = {
-			desc = "SOL_20_25"
-			if = { 
-				limit = {
-					standard_of_living >= 20
-					standard_of_living < 25
-				}
+		if = {
+			limit = {
+				standard_of_living >= 20
+				standard_of_living < 25
+			}
+			multiply = {
+				desc = "SOL_20_25"
 				value = 0.75
 			}
 		}
-		multiply = {
-			desc = "SOL_25_30"
-			if = { 
-				limit = {
-					standard_of_living >= 25
-					standard_of_living < 30
-				}
+		if = {
+			limit = {
+				standard_of_living >= 25
+				standard_of_living < 30
+			}
+			multiply = {
+				desc = "SOL_25_30"
 				value = 0.5
+			}
+		}
+		if = {
+			limit = {
+				standard_of_living >= 30
+			}
+			multiply = {
+				desc = "SOL_30"
+				value = 0.25
 			}
 		}
 		
 		#Enlightenment Influence
-		multiply = {
-			desc = "PROHIBITION_OF_BOOKS"
-			if = {
-				limit = {
-					owner = {
-						OR = { 
-							has_law = law_type:law_ethnostate
-							has_law = law_type:law_national_supremacy
-							has_law = law_type:law_ethnostate
-							has_law = law_type:law_serfdom
-							has_law = law_type:law_no_workers_rights
-							has_law = law_type:law_no_womens_rights
-						}
-						NOR = { 
-							has_law = law_type:law_right_of_assembly
-							has_law = law_type:law_protected_speech
-						}
+		if = {
+			limit = {
+				owner = {
+					OR = { 
+						has_law = law_type:law_ethnostate
+						has_law = law_type:law_national_supremacy
+						has_law = law_type:law_ethnostate
+						has_law = law_type:law_serfdom
+						has_law = law_type:law_no_workers_rights
+						has_law = law_type:law_no_womens_rights
+					}
+					NOR = { 
+						has_law = law_type:law_right_of_assembly
+						has_law = law_type:law_protected_speech
 					}
 				}
+			}
+			multiply = {
+				desc = "PROHIBITION_OF_BOOKS"
 				value = 0.5
 			}
 		}	
 		
 		#Literacy
-		multiply = {
-			desc = "LITERACY_1_5" #Difficult contact with Enlightenment ideas
-			if = {
-				limit = {
-					literacy_rate >= 0.01
-					literacy_rate < 0.05
-				}
+		if = {
+			limit = {
+				literacy_rate >= 0.01
+				literacy_rate < 0.05
+			}
+			multiply = {
+				desc = "LITERACY_1_5"
 				value = 0.6
 			}
 		}
-		multiply = {
-			desc = "LITERACY_10_15" #Normal contact with Enlightenment ideas
-			if = {
-				limit = {
-					literacy_rate >= 0.10
-					literacy_rate < 0.15
-				}
+		if = {
+			limit = {
+				literacy_rate >= 0.05
+				literacy_rate < 0.10
+			}
+			multiply = {
+				desc = "LITERACY_5_10"
+				value = 0.75
+			}
+		}
+		
+		if = {
+			limit = {
+				literacy_rate >= 0.10
+				literacy_rate < 0.15
+			}
+			multiply = {
+				desc = "LITERACY_10_15"
+				value = 1.0
+			}
+		}
+		
+		if = {
+			limit = {
+				literacy_rate >= 0.15
+				literacy_rate < 0.20
+			}
+			multiply = {
+				desc = "LITERACY_15_20"
 				value = 1.25
 			}
 		}
-		multiply = {
-			desc = "LITERACY_15_20"
-			if = {
-				limit = {
-					literacy_rate >= 0.15
-					literacy_rate < 0.20
-				}
-				value = 1.5
+
+		if = {
+			limit = {
+				literacy_rate >= 0.20
+				literacy_rate < 0.25
+			}
+			multiply = {
+				desc = "LITERACY_20_25"
+				value = 1.3
 			}
 		}
-		multiply = {
-			desc = "LITERACY_20_25"
-			if = {
-				limit = {
-					literacy_rate >= 0.20
-					literacy_rate < 0.25
-				}
-				value = 1.75
+		
+		if = {
+			limit = {
+				literacy_rate >= 0.25
+			}
+			multiply = {
+				desc = "LITERACY_25"
+				value = 1.5
 			}
 		}
 		
@@ -231,7 +262,7 @@
 						NOT = { has_technology_researched = egalitarianism }
 					}
 				}
-				value = 0
+				value = 0.1
 			}		
 		}		
 	}

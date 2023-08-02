@@ -1,4 +1,4 @@
-﻿ig_moralist = { #Traditionalist
+﻿ig_pro_clergy = { #Traditionalist
 	color = rgb{ 107 134 188 }
 	texture = "gfx/interface/icons/ig_icons/moral.dds"
 	
@@ -16,15 +16,10 @@
 	on_character_ig_membership = {}
 	
 	pop_potential = {
-		religion_accepted = yes
-		NOR = {
-			is_pop_type = aristocrats
-			is_pop_type = capitalists
-		}
 	}
 
 	pop_weight = {
-		value = 0
+		value = 0.75
 
 		add = {
 			desc = "POP_CLERGYMEN"
@@ -32,20 +27,82 @@
 				limit = { 
 					is_pop_type = clergymen
 				}
-				value = 200
+				value = 12
 			}
 		}		
 		
 		add = {
-			desc = "BASE_VALUE"
+			desc = "POP_RURAL"
 			if = {
 				limit = { 
-					literacy_rate < 0.40 
+					NOR = {
+						is_pop_type = clergymen
+						is_pop_type = aristocrats
+					}
+					OR = {
+						pop_employment_building_group = bg_agriculture
+						pop_employment_building_group = bg_ranching
+						pop_employment_building_group = bg_plantations				
+					}
 				}
-				value = 75
+				value = 9
 			}
-		}		
+		}
 		
+		add = {
+			desc = "POP_URBAN"
+			if = {
+				limit = { 
+					NOR = {
+						is_pop_type = clergymen
+						is_pop_type = aristocrats
+					}
+					NOR = {
+						pop_employment_building_group = bg_agriculture
+						pop_employment_building_group = bg_ranching
+						pop_employment_building_group = bg_plantations				
+					}
+				}
+				value = 4.2
+			}
+		}
+		
+		add = {
+			desc = "POP_ARISTOCRATS"
+			if = {
+				limit = { 
+					is_pop_type = aristocrats
+				}
+				value = 5
+			}
+		}
+		
+		add = {
+			desc = "LITERACY_30_40"
+			
+			if = {
+				limit = { 
+					NOT = { 
+						is_pop_type = clergymen
+					}
+					owner = { 
+						has_technology_researched = natural_law 
+						NOR = {
+							has_law = law_type:law_state_religion
+							has_law = law_type:law_tolerance
+						}
+						OR = {
+							has_law = law_type:law_right_of_assembly
+							has_law = law_type:law_protected_speech
+						}
+					}
+					literacy_rate >= 0.30
+					literacy_rate < 0.40
+				}
+				add = -2.5
+			}
+		}	
+
 		add = {
 			desc = "LITERACY_40_50"
 			
@@ -53,24 +110,24 @@
 				limit = { 
 					NOT = { 
 						is_pop_type = clergymen
-						owner = { 
-							has_variable = enlightment_ideas 
-							OR = {
-								has_law = law_type:law_state_religion
-								has_law = law_type:law_tolerance
-							}
-							OR = {
-								has_law = law_type:law_right_of_assembly
-								has_law = law_type:law_protected_speech
-							}
+					}
+					owner = { 
+						has_technology_researched = natural_law 
+						NOR = {
+							has_law = law_type:law_state_religion
+							has_law = law_type:law_tolerance
+						}
+						OR = {
+							has_law = law_type:law_right_of_assembly
+							has_law = law_type:law_protected_speech
 						}
 					}
 					literacy_rate >= 0.40
 					literacy_rate < 0.50
 				}
-				add = -5
+				add = -3.5
 			}
-		}		
+		}	
 
 		add = {
 			desc = "LITERACY_50_60"
@@ -79,146 +136,67 @@
 				limit = { 
 					NOT = { 
 						is_pop_type = clergymen
-						owner = { 
-							has_variable = enlightment_ideas 
-							OR = {
-								has_law = law_type:law_state_religion
-								has_law = law_type:law_tolerance
-							}
-							OR = {
-								has_law = law_type:law_right_of_assembly
-								has_law = law_type:law_protected_speech
-							}
+					}
+					owner = { 
+						has_technology_researched = natural_law 
+						NOR = {
+							has_law = law_type:law_state_religion
+							has_law = law_type:law_tolerance
+						}
+						OR = {
+							has_law = law_type:law_right_of_assembly
+							has_law = law_type:law_protected_speech
 						}
 					}
 					literacy_rate >= 0.50
 					literacy_rate < 0.60
 				}
-				add = -10
+				add = -4.5
 			}
-		}
-
+		}			
+		
 		add = {
-			desc = "LITERACY_60_70"
+			desc = "LITERACY_60"
 			
 			if = {
 				limit = { 
 					NOT = { 
 						is_pop_type = clergymen
-						owner = { 
-							has_variable = enlightment_ideas 
-							OR = {
-								has_law = law_type:law_state_religion
-								has_law = law_type:law_tolerance
-							}
-							OR = {
-								has_law = law_type:law_right_of_assembly
-								has_law = law_type:law_protected_speech
-							}
+					}
+					owner = { 
+						has_technology_researched = natural_law 
+						NOR = {
+							has_law = law_type:law_state_religion
+							has_law = law_type:law_tolerance
+						}
+						OR = {
+							has_law = law_type:law_right_of_assembly
+							has_law = law_type:law_protected_speech
 						}
 					}
 					literacy_rate >= 0.60
-					literacy_rate < 0.70
 				}
-				add = -15
+				add = -5.5
 			}
-		}
-
-		add = {
-			desc = "LITERACY_70_80"
-			
-			if = {
-				limit = { 
-					NOT = { 
-						is_pop_type = clergymen
-						owner = { 
-							has_variable = enlightment_ideas 
-							OR = {
-								has_law = law_type:law_state_religion
-								has_law = law_type:law_tolerance
-							}
-							OR = {
-								has_law = law_type:law_right_of_assembly
-								has_law = law_type:law_protected_speech
-							}
-						}
-					}
-					literacy_rate >= 0.70
-					literacy_rate < 0.80
-				}
-				add = -25
-			}
-		}		
-	
-		add = {
-			desc = "LITERACY_80_90"
-			
-			if = {
-				limit = { 
-					NOT = { 
-						is_pop_type = clergymen
-						owner = { 
-							has_variable = enlightment_ideas 
-							OR = {
-								has_law = law_type:law_state_religion
-								has_law = law_type:law_tolerance
-							}
-							OR = {
-								has_law = law_type:law_right_of_assembly
-								has_law = law_type:law_protected_speech
-							}
-						}
-					}
-					literacy_rate >= 0.80
-					literacy_rate < 0.90
-				}
-				add = -50
-			}
-		}		
-
-		add = {
-			desc = "LITERACY_90_100"
-			
-			if = {
-				limit = { 
-					NOT = { 
-						is_pop_type = clergymen
-						owner = { 
-							has_variable = enlightment_ideas 
-							OR = {
-								has_law = law_type:law_state_religion
-								has_law = law_type:law_tolerance
-							}
-							OR = {
-								has_law = law_type:law_right_of_assembly
-								has_law = law_type:law_protected_speech
-							}
-						}
-					}
-					literacy_rate >= 0.90
-				}
-				add = -100
-			}
-		}
-
-		multiply = {
-			desc = "NOT_PRIMARY_RELIGION"
-			value = 1.0
-			if = {
-				limit = {
-					has_state_religion = no
-				}
-				value = 0.5
-			}
-		}				
+		}			
 		
-		multiply = {
-			desc = "POP_DISCRIMINATED"
-			if = {
-				limit = { 
-					pop_is_discriminated = yes
-				}
-				value = 0.5
+		if = {
+			limit = { 
+				pop_is_discriminated = yes
+			}
+			multiply = {
+				desc = "POP_DISCRIMINATED"
+				value = 0.75
+			}
+		}
+		
+		if = {
+			limit = { 
+				has_state_religion = no
+			}
+			multiply = {
+				desc = "POP_OTHER_RELIGION"
+				value = 0.15
 			}
 		}
 		

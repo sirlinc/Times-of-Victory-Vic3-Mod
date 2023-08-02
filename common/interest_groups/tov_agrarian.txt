@@ -85,7 +85,7 @@
 					is_pop_type = farmers
 					standard_of_living > 16
 				}
-				value = 8.5
+				value = 7.45
 			}
 		}
 		
@@ -97,7 +97,18 @@
 					standard_of_living > 15.5
 					standard_of_living <= 18.5
 				}
-				value = 2.5
+				value = 2.25
+			}
+		}
+		
+		add = {
+			desc = "POP_LANDWONERS_18"
+			if = {
+				limit = { 
+					is_pop_type = aristocrats
+					standard_of_living > 18.5
+				}
+				value = 0.5
 			}
 		}
 		

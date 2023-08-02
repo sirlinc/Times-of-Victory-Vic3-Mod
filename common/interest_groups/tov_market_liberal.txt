@@ -5,28 +5,33 @@
 	layer = "revolution_dynamic_industrialists"
 	index = 2
 	
-	ideologies = { ideology_laissez_faire }
+	ideologies = { 
+		ideology_laissez_faire 
+		ideology_individualist
+	}
 
 	enable = {
-			always = yes
+		always = yes
 	}
 	
 	traits = {}	
+
+	set_variable = { name = techonology }
 	
 	on_enable = {}
 	on_disable = {}	
 	on_character_ig_membership = {}
 	
 	pop_potential = {
-		OR = {
-			is_pop_type = capitalists
-			is_pop_type = shopkeepers
-			is_pop_type = engineers
+		NOR = {
+			pop_employment_building_group = bg_agriculture
+			pop_employment_building_group = bg_ranching
+			pop_employment_building_group = bg_plantations
 		}
 	}
 
 	pop_weight = {
-		value = 0
+		value = 1
 	
 		add = {
 			desc = "POP_SHOPKEEPERS"
@@ -34,17 +39,17 @@
 				limit = { 
 					is_pop_type = shopkeepers
 				}
-				value = 200
+				value = 10
 			}
 		}	
 	
 		add = {
-			desc = "POP_SHOPKEEPERS"
+			desc = "POP_CAPITALISTS"
 			if = {
 				limit = { 
 					is_pop_type = capitalists
 				}
-				value = 200
+				value = 10
 			}
 		}
 		
@@ -54,7 +59,7 @@
 				limit = { 
 					is_pop_type = engineers
 				}
-				value = 160
+				value = 8.5
 			}
 		}
 		add = {
@@ -63,7 +68,7 @@
 				limit = { 
 					is_pop_type = aristocrats
 				}
-				value = 50
+				value = 1
 			}
 		}	
 		
@@ -71,13 +76,14 @@
 			desc = "URBAN"
 			if = {
 				limit = { 
-					NOR = {
-						pop_employment_building_group = bg_agriculture
-						pop_employment_building_group = bg_ranching
-						pop_employment_building_group = bg_plantations
+					OR = {
+						pop_employment_building_group = bg_manufacturing
+						pop_employment_building_group = bg_service
+						pop_employment_building_group = bg_urban_facilities
+						pop_employment_building_group = bg_government
 					}
 				}
-				value = 50
+				value = 2.75
 			}
 		}
 
@@ -85,14 +91,15 @@
 			desc = "URBAN_UPPER_CLASS"
 			if = {
 				limit = { 
-					NOR = {
-						pop_employment_building_group = bg_agriculture
-						pop_employment_building_group = bg_ranching
-						pop_employment_building_group = bg_plantations
+					OR = {
+						pop_employment_building_group = bg_manufacturing
+						pop_employment_building_group = bg_service
+						pop_employment_building_group = bg_urban_facilities
+						pop_employment_building_group = bg_government
 					}
 					strata = rich
 				}
-				value = 60
+				value = 4.5
 			}
 		}
 		
@@ -104,7 +111,7 @@
 					standard_of_living >= 15
 					standard_of_living < 20
 				}
-				value = 10
+				value = 0.25
 			}
 		}
 		add = {
@@ -114,7 +121,7 @@
 					standard_of_living >= 20
 					standard_of_living < 25
 				}
-				value = 10
+				value = 0.5
 			}
 		}
 		
@@ -125,7 +132,7 @@
 					standard_of_living >= 25
 					standard_of_living < 30
 				}
-				value = 15
+				value = 0.75
 			}
 		}
 		add = {
@@ -135,7 +142,7 @@
 					standard_of_living >= 30
 					standard_of_living < 35
 				}
-				value = 15
+				value = 1.0
 			}
 		}
 		
@@ -146,7 +153,7 @@
 					standard_of_living >= 35
 					standard_of_living < 40
 				}
-				value = 20
+				value = 1.25
 			}
 		}
 		add = {
@@ -156,7 +163,7 @@
 					standard_of_living >= 40
 					standard_of_living < 45
 				}
-				value = 20
+				value = 1.5
 			}
 		}
 		
@@ -200,6 +207,32 @@
 			}
 		}
 		multiply = {
+			desc = "NO_JOIN_STOCK_COMPANY"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						NOT = { has_technology_researched = join_stock_company }
+					}
+				}
+				value = 0.75
+			}		
+		}
+		multiply = {
+			desc = "NO_CENTRAL_BANKS"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						NOT = { has_technology_researched = central_banks }
+					}
+				}
+				value = 0.65
+			}		
+		}
+		multiply = {
 			desc = "NO_CLASSICAL_LIBERALISM"	
 			value = 1.0
 			
@@ -209,7 +242,7 @@
 						NOT = { has_technology_researched = classical_liberalism }
 					}
 				}
-				value = 0
+				value = 0.45
 			}		
 		}
 	}

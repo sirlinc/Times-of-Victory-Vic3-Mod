@@ -1,4 +1,4 @@
-﻿ig_plutocratic = {
+﻿ig_plutocracy = {
 	color = rgb { 173 66 12 }
 	texture = "gfx/interface/icons/ig_icons/plutocratic.dds"
 	
@@ -11,6 +11,8 @@
 	}
 
 	enable = { always = yes }
+
+	set_variable = { name = techonology }
 	
 	traits = {}	
 	
@@ -20,21 +22,19 @@
 	
 	pop_potential = {
 		OR = {
+			is_pop_type = aristocrats
 			is_pop_type = capitalists
-			AND = {
-				NOR = {
-					pop_employment_building_group = bg_agriculture
-					pop_employment_building_group = bg_mining
-					pop_employment_building_group = bg_ranching
-					pop_employment_building_group = bg_plantations
-				}
-				standard_of_living > 5.5
+			NOR = {
+				pop_employment_building_group = bg_agriculture
+				pop_employment_building_group = bg_mining
+				pop_employment_building_group = bg_ranching
+				pop_employment_building_group = bg_plantations
 			}
 		}
 	}
 
 	pop_weight = {
-		value = 1
+		value = 0
 	
 		add = {
 			desc = "POP_CAPITALISTS"
@@ -46,157 +46,152 @@
 			}
 		}	
 		
-		#add = {
-		#	desc = "POP_CAPITALISTS"
-		#	if = {
-		#		limit = { 
-		#			NOR = {
-		#				pop_employment_building_group = bg_agriculture
-		#				pop_employment_building_group = bg_mining
-		#				pop_employment_building_group = bg_ranching
-		#	pop_employment_building_group = bg_plantations
-		#}
-		#		}
-		#		value = 10
-		#	}
-		#}	
-		
-		#SOL 
 		add = {
-			desc = "SOL_20_25"
+			desc = "POP_OFFICERS_SOL_11"
 			if = {
-				limit = {
-					NOT = { strata = rich }
-					standard_of_living >= 20
-					standard_of_living < 25
+				limit = { 
+					is_pop_type = officers
+					standard_of_living >= 11
 				}
-				value = 5
+				value = 6.25
 			}
-		}
+		}	
 		
 		add = {
-			desc = "SOL_25_30"
+			desc = "POP_ARISTOCRATS"
 			if = {
-				limit = {
-					NOT = { strata = rich }
-					standard_of_living >= 25
-					standard_of_living < 30
+				limit = { 
+					is_pop_type = aristocrats
 				}
-				value = 10
+				value = 1.5
 			}
-		}
+		}	
+		
 		add = {
-			desc = "SOL_30_35"
+			desc = "POP_URBAN_WORKERS"
 			if = {
-				limit = {
-					NOT = { strata = rich }
-					standard_of_living >= 30
-					standard_of_living < 35
+				limit = { 
+					is_employed = yes
+					NOR = {
+						pop_employment_building_group = bg_agriculture
+						pop_employment_building_group = bg_mining
+						pop_employment_building_group = bg_ranching
+						pop_employment_building_group = bg_plantations
+					}
 				}
-				value = 20
+				value = 2.85
 			}
 		}
 		
 		add = {
-			desc = "SOL_35_40"
+			desc = "POP_RURAL_WORKERS"
 			if = {
-				limit = {
-					NOT = { strata = rich }
-					standard_of_living >= 35
-					standard_of_living < 40
+				limit = { 
+					OR = {
+						pop_employment_building_group = bg_agriculture
+						pop_employment_building_group = bg_mining
+						pop_employment_building_group = bg_ranching
+						pop_employment_building_group = bg_plantations
+					}
 				}
-				value = 35
-			}
-		}
-		add = {
-			desc = "SOL_40_45"
-			if = {
-				limit = {
-					NOT = { strata = rich }
-					standard_of_living >= 40
-					standard_of_living < 45
-				}
-				value = 50
+				value = -2.0
 			}
 		}
 		
 		#SOL Upper Strata
-		multiply = {
-			desc = "SOL_LESS_15"
-			if = {
-				limit = {
-					strata = rich 
-					standard_of_living < 15
+		if = {
+			limit = {
+				OR = {
+					is_pop_type = capitalists 
+					is_pop_type = aristocrats
+					is_pop_type = shopkeepers
 				}
-				value = 0.5
+				standard_of_living >= 15
+				standard_of_living < 20
 			}
-		}
-		multiply = {
-			desc = "SOL_15_20"
-			if = {
-				limit = {
-					strata = rich 
-					standard_of_living >= 15
-					standard_of_living < 20
-				}
-				value = 0.75
-			}
-		}
-		multiply = {
-			desc = "SOL_20_25"
-			if = {
-				limit = {
-					strata = rich 
-					standard_of_living >= 20
-					standard_of_living < 25
-				}
+			multiply = {
+				desc = "SOL_15_20"
 				value = 1.0
 			}
 		}
 		
-		multiply = {
-			desc = "SOL_25_30"
-			if = {
-				limit = {
-					strata = rich
-					standard_of_living >= 25
-					standard_of_living < 30
+		if = {
+			limit = {
+				OR = {
+					is_pop_type = capitalists 
+					is_pop_type = aristocrats
+					is_pop_type = shopkeepers
 				}
-				value = 1.1
+				standard_of_living >= 20
+				standard_of_living < 25
+			}
+			multiply = {
+				desc = "SOL_20_25"
+				value = 1.15
 			}
 		}
-		multiply = {
-			desc = "SOL_30_35"
-			if = {
-				limit = {
-					strata = rich
-					standard_of_living >= 30
-					standard_of_living < 35
+		
+		if = {
+			limit = {
+				OR = {
+					is_pop_type = capitalists 
+					is_pop_type = aristocrats
+					is_pop_type = shopkeepers
 				}
+				standard_of_living >= 25
+				standard_of_living < 30
+			}
+			multiply = {
+				desc = "SOL_25_30"
 				value = 1.25
 			}
 		}
 		
-		multiply = {
-			desc = "SOL_35_40"
-			if = {
-				limit = {
-					strata = rich
-					standard_of_living >= 35
-					standard_of_living < 40
+		if = {
+			limit = {
+				OR = {
+					is_pop_type = capitalists 
+					is_pop_type = aristocrats
+					is_pop_type = shopkeepers
 				}
+				standard_of_living >= 30
+				standard_of_living < 35
+			}
+			multiply = {
+				desc = "SOL_30_35"
 				value = 1.5
 			}
 		}
-		multiply = {
-			desc = "SOL_40_45"
-			if = {
-				limit = {
-					strata = rich
-					standard_of_living >= 40
-					standard_of_living < 45
+		
+		if = {
+			limit = {
+				OR = {
+					is_pop_type = capitalists 
+					is_pop_type = aristocrats
+					is_pop_type = shopkeepers
 				}
+				standard_of_living >= 35
+				standard_of_living < 40
+			}
+			multiply = {
+				desc = "SOL_35_40"
 				value = 1.75
+			}
+		}
+		
+		if = {
+			limit = {
+				OR = {
+					is_pop_type = capitalists 
+					is_pop_type = aristocrats
+					is_pop_type = shopkeepers
+				}
+				standard_of_living >= 40
+				standard_of_living < 45
+			}
+			multiply = {
+				desc = "SOL_40_45"
+				value = 1.85
 			}
 		}
 		
@@ -238,6 +233,20 @@
 				add = scope:interest_group.modifier:interest_group_in_government_attraction_mult
 				min = 0
 			}
+		}
+		
+		multiply = {
+			desc = "NO_JOIN_STOCK_COMPANY"	
+			value = 1.0
+			
+			if = {
+				limit = { 
+					owner = {
+						NOT = { has_technology_researched = join_stock_company }
+					}
+				}
+				value = 0.65
+			}		
 		}
 	}
 

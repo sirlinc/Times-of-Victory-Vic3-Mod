@@ -1,19 +1,17 @@
-﻿ig_protectionist = {
+﻿ig_protectionism = {
 	color = hsv{ 0.65 0.54 0.52 }
 	texture = "gfx/interface/icons/ig_icons/protectionist.dds"
 	
 	layer = "revolution_dynamic_industrialists"
 	index = 2
 	
-	ideologies = {
-		ideology_protectionist
-	}
+	ideologies = { ideology_protectionist }
 
-	enable = {
-			always = yes
-	}
+	enable = { enable = yes }
 	
 	traits = {}	
+
+	set_variable = { name = techonology }
 	
 	on_enable = {}
 	on_disable = {}	
@@ -35,7 +33,7 @@
 				limit = { 
 					is_pop_type = capitalists
 				}
-				value = 100
+				value = 2.5
 			}
 		}	
 		
@@ -45,20 +43,7 @@
 				limit = { 
 					is_pop_type = aristocrats
 				}
-				value = 100
-			}
-		}	
-
-		add = {
-			desc = "LOWER_STRATA"
-			if = {
-				limit = { 
-					OR = { 
-						strata = poor
-						is_pop_type = shopkeepers
-					}
-				}
-				value = -75
+				value = 3.5
 			}
 		}
 		
@@ -68,8 +53,9 @@
 				limit = {
 					scope:interest_group = {
 						OR = { 
-							is_interest_group_type = ig_paternalistic
-							ig_interest_group_type = ig_elitist
+							is_interest_group_type = ig_manorialism
+							ig_interest_group_type = ig_absolutism
+							ig_interest_group_type = ig_agrarian
 						}
 						is_powerful = yes
 					}
@@ -80,19 +66,19 @@
 						}
 					}
 				}
-				add = -75
+				add = -2
 			}
 		}
 		
 		add = { 
-			desc = "IS_GREAT_POWER"
+			desc = "IS_NOT_GREAT_POWER"
 			if = {
 				limit = {
 					owner = {
-						country_rank = rank_value:great_power
+						NOT = { country_rank = rank_value:great_power }
 					}
 				}
-				value = -75
+				value = 3
 			}
 		}	
 		
@@ -104,26 +90,26 @@
 						is_country_type = unrecognized
 					}
 				}
-				value = 50
+				value = 5
 			}
 		}
 		
 		#External Threats
-		multiply = {
-			desc = "EXTERNAL_THREATS"
-			if = {
-				limit = { 
-					OR = { 
-						culture_accepted = yes
-						pop_has_primary_culture = yes
-					}
-					owner = {
-						NOT = { country_rank = rank_value:great_power }
-					}
+		if = {
+			limit = { 
+				OR = { 
+					culture_accepted = yes
+					pop_has_primary_culture = yes
 				}
+				owner = {
+					NOT = { country_rank = rank_value:great_power }
+				}
+			}
+			multiply = {
+				desc = "EXTERNAL_THREATS"
 				value = 1.25
 			}
-		}		
+		}
 		
 		#SoL
 		add = {
@@ -133,7 +119,7 @@
 					standard_of_living >= 15
 					standard_of_living < 20
 				}
-				value = 10
+				value = 0.25
 			}
 		}
 		add = {
@@ -143,7 +129,7 @@
 					standard_of_living >= 20
 					standard_of_living < 25
 				}
-				value = 10
+				value = 1
 			}
 		}
 		
@@ -154,7 +140,7 @@
 					standard_of_living >= 25
 					standard_of_living < 30
 				}
-				value = 15
+				value = 1.15
 			}
 		}
 		add = {
@@ -164,7 +150,7 @@
 					standard_of_living >= 30
 					standard_of_living < 35
 				}
-				value = 15
+				value = 1.5
 			}
 		}
 		
@@ -175,7 +161,7 @@
 					standard_of_living >= 35
 					standard_of_living < 40
 				}
-				value = 20
+				value = 1.75
 			}
 		}
 		add = {
@@ -185,7 +171,7 @@
 					standard_of_living >= 40
 					standard_of_living < 45
 				}
-				value = 20
+				value = 2.0
 			}
 		}
 		
@@ -238,7 +224,7 @@
 						NOT = { has_technology_researched = state_owned_enterprise }
 					}
 				}
-				value = 0
+				value = 0.15
 			}		
 		}
 	}

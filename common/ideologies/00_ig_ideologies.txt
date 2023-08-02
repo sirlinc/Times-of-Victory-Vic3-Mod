@@ -1,3 +1,68 @@
+ideology_manorialism = {
+	icon = "gfx/interface/icons/ideology_icons/paternalistic.dds"
+	
+	lawgroup_governance_principles = {
+		law_monarchy = strongly_approve
+		law_theocracy = neutral
+		law_presidential_republic = disapprove
+		law_parliamentary_republic = strongly_disapprove
+		law_council_republic = strongly_disapprove
+	}
+	
+	lawgroup_distribution_of_power = {
+		law_autocracy = strongly_disapprove
+		law_technocracy = strongly_disapprove
+		law_oligarchy = strongly_approve
+		law_landed_voting = approve
+		law_wealth_voting = disapprove
+		law_census_voting = strongly_disapprove
+		law_universal_suffrage = strongly_disapprove
+		law_anarchy = strongly_disapprove
+		law_single_party_state = disapprove
+	}
+	
+	lawgroup_bureaucracy = {
+		law_hereditary_office = approve
+		law_purchased_office = disapprove
+		law_appointed_office = neutral
+		law_elected_office = disapprove
+		law_meritocratic_office = disapprove
+	}
+	
+	lawgroup_administrative_infrastructure = {
+		law_tribal_councils = strongly_disapprove
+		law_feudal_courts = strongly_approve
+		law_absolutism = disapprove
+		law_patronage_system = disapprove
+		law_public_servants = strongly_disapprove
+		law_government_agencies = strongly_disapprove
+	}
+	
+	lawgroup_land_reform = {
+		law_serfdom = strongly_approve
+		law_tenant_farmers = approve
+		law_commercialized_agriculture = disapprove
+		law_homesteading = strongly_disapprove
+		law_collectivized_agriculture = strongly_disapprove
+	}
+	
+	lawgroup_economic_system = {		
+		law_traditionalism = strongly_approve
+		law_agrarianism = approve
+		law_interventionism = neutral
+		law_laissez_faire = disapprove
+		law_cooperative_ownership = strongly_disapprove
+		law_command_economy = strongly_disapprove
+	}
+	
+	lawgroup_trade_policy = {		
+		law_isolationism = strongly_approve
+		law_mercantilism = neutral
+		law_protectionism = disapprove
+		law_free_trade = strongly_disapprove
+	}	
+}
+
 ideology_paternalistic = {
 	icon = "gfx/interface/icons/ideology_icons/paternalistic.dds"
 	
@@ -27,6 +92,15 @@ ideology_paternalistic = {
 		law_appointed_office = neutral
 		law_elected_office = disapprove
 		law_meritocratic_office = disapprove
+	}
+
+	lawgroup_administrative_infrastructure = {
+		law_tribal_councils = strongly_disapprove
+		law_feudal_courts = disapprove
+		law_absolutism = strongly_approve
+		law_patronage_system = disapprove
+		law_public_servants = strongly_disapprove
+		law_government_agencies = disapprove
 	}
 
 	lawgroup_policing = {
@@ -140,7 +214,7 @@ ideology_stratocratic = {
 		law_mass_conscription = disapprove
 	}
 
-		lawgroup_land_reform = {
+	lawgroup_land_reform = {
 		law_serfdom = strongly_approve
 		law_tenant_farmers = approve
 		law_commercialized_agriculture = neutral
@@ -235,6 +309,15 @@ ideology_particularist = {
 		law_regulated_police_force = disapprove
 		law_paramilitary_force = strongly_disapprove
 	}		
+	
+	lawgroup_administrative_infrastructure = {
+		law_tribal_councils = neutral
+		law_feudal_courts = approve
+		law_absolutism = strongly_disapprove
+		law_patronage_system = disapprove
+		law_public_servants = neutral
+		law_government_agencies = disapprove
+	}
 
 	lawgroup_army_model = {
 		law_peasant_levies = approve
@@ -645,6 +728,7 @@ ideology_anarchist = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/value.dds"
 
 	lawgroup_citizenship = {
+		law_subjects = strongly_disapprove
 		law_ethnostate = strongly_disapprove
 		law_national_supremacy = strongly_disapprove
 		law_racial_segregation = disapprove
@@ -1075,6 +1159,7 @@ ideology_moralist = {
 	}
 
 	lawgroup_citizenship = {
+		law_subjects = neutral
 		law_ethnostate = neutral
 		law_national_supremacy = approve
 		law_racial_segregation = neutral
@@ -1260,7 +1345,7 @@ ideology_proletarian = {
 }
 
 ideology_egalitarian = {
-	icon = "gfx/interface/icons/ideology_icons/value.dds" #/egalitarian.dds"
+	icon = "gfx/interface/icons/ideology_icons/egalitarian.dds"
 	
 	
 	lawgroup_policing = {
@@ -1278,8 +1363,9 @@ ideology_egalitarian = {
 	}
 	
 	lawgroup_citizenship = {
-		law_multicultural = disapprove #Balancing
+		law_multicultural = disapprove #balance
 		law_ethnostate = disapprove
+		law_subjects = strongly_disapprove
 		law_national_supremacy = disapprove
 		law_racial_segregation = neutral
 		law_cultural_exclusion = approve	

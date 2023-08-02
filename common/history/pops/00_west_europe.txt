@@ -674,25 +674,6 @@
 				size = 22511
 			}
 		}
-		region_state:FRA = {
-			create_pop = {
-				culture = french
-				size = 72064
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 7396
-			}
-			create_pop = {
-				culture = alemannic
-				size = 39229
-			}
-			create_pop = {
-				culture = alemannic
-				religion = protestant
-				size = 22193
-			}
-		}
 	}
 	s:STATE_POITOU = {
 		region_state:FRA = {
@@ -1038,7 +1019,7 @@
 		}
 	}
 	s:STATE_BOHEMIA = {
-		region_state:AUS = {
+		region_state:BOH = {
 			create_pop = {
 				culture = south_german
 				size = 500369
@@ -1055,7 +1036,7 @@
 		}
 	}
 	s:STATE_MORAVIA = {
-		region_state:AUS = {
+		region_state:BOH = {
 			create_pop = {
 				culture = south_german
 				size = 163077

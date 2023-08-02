@@ -90,3 +90,7 @@ modifier_state_building_major_rivers_max_level_add_desc: "A bonus or penalty to 
 # Geographical Features
 bg_geographical_features: "Geographical Features"
 bg_major_rivers: "Major Rivers"
+
+#Urban Centers
+building_urban_center:0 "Urban Area"
+building_urban_center_lens_option:0 "Expand $building_urban_center$"

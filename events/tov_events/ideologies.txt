@@ -1,0 +1,68 @@
+﻿namespace = tov_swe_flavor
+
+#The Plunder of Prague
+tov_swe_flavor.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = tov_swe_flavor.1.t
+	desc = tov_swe_flavor.1.d
+	flavor = tov_swe_flavor.1.f
+
+	event_image = {
+		video = "europenorthamerica_art_gallery"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
+
+	duration = 3
+
+	trigger = { }
+
+	immediate = {
+	}		
+
+	option = { 
+		name = tov_swe_flavor.1.a #Keep for tech bonus
+		default_option = yes
+		add_modifier = {
+			name = tov_the_plunder_of_prague_art_used
+			months = long_modifier_time
+			is_decaying = yes
+		}
+			if = {
+				limit = { exists = c:AUS }
+				change_relations = {
+					country = c:AUS
+					value = -20
+				}
+			}
+		}
+	option = {
+		name = tov_swe_flavor.1.b #Sell for mint bonus	
+		add_modifier = {
+			name = tov_the_plunder_of_prague_art_sold
+			months = long_modifier_time
+			is_decaying = yes
+		}
+		if = {
+			limit = { exists = c:AUS }
+			change_relations = {
+				country = c:AUS
+				value = -20
+			}
+		}
+	}
+	option = {
+		name = tov_swe_flavor.1.c	#Return for relations bonus
+		if = {
+			limit = { exists = c:AUS }
+			change_relations = {
+				country = c:AUS
+				value = 30
+			}
+		}
+	}
+}
